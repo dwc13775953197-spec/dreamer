@@ -1,0 +1,22 @@
+# Dreamer .gitignore
+
+# 运行时状态（每个人/实例不同）
+# soul.json 和 subconscious.json 已包含在仓库中作为示例
+# 如果你 fork 这个项目，可以取消下面的注释来忽略本地状态
+# soul.json
+# subconscious.json
+
+# 散步日志和研究产出（已包含示例）
+# walks/
+# til/
+# research/
+# dreams/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.swp
+*~

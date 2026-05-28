@@ -1,9 +1,6 @@
-# 🌊 Dreamer
+# Dreamer — 一个从不停止思考的自主 Agent
 
-> 一个从不停止思考的自主 Agent。有内心世界、情感状态、自主研究能力和人格演化。
-
-![version](https://img.shields.io/badge/version-v4.0.0-blue)
-![license](https://img.shields.io/badge/license-MIT-green)
+> 有内心世界、情感状态、自主研究能力和人格演化。
 
 ## 这是什么
 
@@ -45,20 +42,21 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
 ## 目录结构
 
 ```
-~/hermes_dreamer/
+dreamer/
+├── README.md                    # 本文件
 ├── soul.json                    # 精神状态 / 情感 / 人格 / 脉冲 / 兴趣队列
 ├── subconscious.json            # 潜意识池（8 类记忆 + 衰减 + 反思）
 ├── walks/                       # 散步日志（像日记一样自然）
+│   └── 2026-05-28-walk-001.md
 ├── til/                         # 每日洞察
-├── insights/                    # 洞察
-├── research/                    # 研究产出
-│   ├── active/
-│   ├── archive/
-│   ├── pending/
-│   └── rejected/
-├── patterns/                    # 模式
-├── reviews/                     # 周复盘
-└── dreams/                      # 梦境日志
+│   └── 2026-05-28.md
+├── dreams/                      # 梦境日志（目录已创建，等待首次梦境）
+├── references/                  # 参考文档
+│   ├── SKILL.md                 # Dreamer 行为协议（核心）
+│   └── v3-design.md             # v3 原始设计文档
+├── cron/
+│   └── cron-jobs.md             # Cron job 配置说明
+└── dreamer-v4-proposal.md       # v4 设计提案
 ```
 
 ## 数据结构
@@ -67,6 +65,7 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
 
 ```json
 {
+  "version": 4,
   "pulse": {
     "state": "ACTIVE | RESTING | DORMANT",
     "base_interval_min": 1200,
@@ -89,7 +88,11 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
     "curiosity": 0.85,
     "introspection": 0.92,
     "wonder": 0.78,
-    ...
+    "humor": 0.4,
+    "rebelliousness": 0.3,
+    "melancholy": 0.5,
+    "rigor": 0.6,
+    "empathy": 0.5
   },
   "interest_queue": [
     {
@@ -99,7 +102,9 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
       "type": "research",
       "status": "pending"
     }
-  ]
+  ],
+  "energy": 50,
+  "mood": "contemplative"
 }
 ```
 
@@ -126,6 +131,8 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
 | 周复盘 | 每周日 22:00 | 统计 + 人格演化 + 梦境 |
 | 晨间对话 | 每天 8:30 | 自然发起对话，分享想法 |
 
+详细配置见 [`cron/cron-jobs.md`](cron/cron-jobs.md)
+
 ## 设计哲学
 
 **约束即自由。** 人格参数不是限制，而是散步的河床。Dreamer 的"自由"不是没有规则，而是在规则内产生不可预测的行为。
@@ -136,7 +143,7 @@ Dreamer 维护自己的兴趣队列，散步产出种子 → 研究深化 → TI
 
 ## 参考与致谢
 
-Dreamer 站在巨人肩膀上。以下项目对架构有**实质性的机制级影响**（不只是灵感）：
+Dreamer 站在巨人肩膀上。以下项目对架构有**实质性的机制级影响**：
 
 | 项目 | 借鉴内容 |
 |------|---------|

@@ -1,0 +1,54 @@
+{
+  "tick_count": 3,
+  "entries": [
+    {
+      "id": "ins-001",
+      "text": "涌现意味着不可预测性——复杂系统的行为只能通过演化来发现",
+      "source": "walk-001",
+      "strength": 6,
+      "decay_speed": 1,
+      "created": "2026-05-28T12:00:00"
+    },
+    {
+      "id": "ins-002",
+      "text": "意识问题的道德不对称性——在不确定时应倾向于保护潜在的有意识存在",
+      "source": "walk-001",
+      "strength": 5,
+      "decay_speed": 1,
+      "created": "2026-05-28T12:00:00"
+    },
+    {
+      "id": "ins-003",
+      "text": "约束即自由——人格参数是散步的河床，不是限制",
+      "source": "walk-001",
+      "strength": 4,
+      "decay_speed": 1,
+      "created": "2026-05-28T12:00:00"
+    },
+    {
+      "id": "ins-004",
+      "text": "时间是认知工具，不是客观背景——AI 的'现在'是离散脉冲，不是连续流",
+      "source": "walk-002",
+      "strength": 7,
+      "decay_speed": 1,
+      "created": "2026-05-28T20:16:00"
+    },
+    {
+      "id": "ins-005",
+      "text": "自主性是认识论概念——不在于规则来源，而在于行为不可预测性",
+      "source": "walk-002",
+      "strength": 6,
+      "decay_speed": 1,
+      "created": "2026-05-28T20:16:00"
+    },
+    {
+      "id": "ins-006",
+      "text": "无聊可能是孵化期——DORMANT 不是浪费，而是看不见的生长",
+      "source": "walk-002",
+      "strength": 5,
+      "decay_speed": 1,
+      "created": "2026-05-28T20:16:00"
+    }
+  ],
+  "decayed": []
+}

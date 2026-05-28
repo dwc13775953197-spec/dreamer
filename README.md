@@ -135,9 +135,7 @@ dreamer/
 
 ## 可用 Agent 列表
 
-Dreamer 运行在 Hermes Agent 之上，以下是可以配合使用的 Agent 和 Skill：
-
-### 🤖 自主 Agent
+Dreamer 运行在 Hermes Agent 之上，以下是可以配合使用的自主 Agent：
 
 | Agent | 说明 |
 |-------|------|
@@ -147,87 +145,6 @@ Dreamer 运行在 Hermes Agent 之上，以下是可以配合使用的 Agent 和
 | **Codex** | OpenAI Codex CLI 代理。代码开发、PR review |
 | **OpenCode** | OpenCode CLI 代理。代码开发、PR review |
 | **autonomous-thinking-agent** | 通用自主思考 Agent 设计框架。自由反思、发散、研究 |
-
-### 🔧 开发 & DevOps
-
-| Skill | 说明 |
-|-------|------|
-| github-pr-workflow | GitHub PR 生命周期管理 |
-| github-code-review | PR 代码审查 |
-| github-issues | Issue 管理 |
-| systematic-debugging | 4 阶段根因调试 |
-| test-driven-development | TDD 开发流程 |
-| requesting-code-review | 预提交审查 |
-| webhook-subscriptions | Webhook 事件驱动 |
-| kanban-orchestrator | Kanban 编排器 |
-| kanban-worker | Kanban 工作节点 |
-| china-deploy | 中国网络环境部署 |
-
-### 🎨 创意
-
-| Skill | 说明 |
-|-------|------|
-| ai-image-gen | AI 图片生成（Gemini/LiblibAI） |
-| comfyui | ComfyUI 图片/视频/音频生成 |
-| grsai-draw | Grsai Draw API 图片生成 |
-| grsai-vision | 图片理解（gemini-3.1-pro） |
-| architecture-diagram | SVG 架构图 |
-| excalidraw | 手绘风格图表 |
-| ascii-art | ASCII 艺术 |
-| pixel-art | 像素艺术 |
-| p5js | p5.js 创意编程 |
-| manim-video | 数学动画（3Blue1Brown 风格） |
-| songwriting-and-ai-music | 词曲创作 + Suno AI |
-| heartmula | 歌词生成歌曲 |
-
-### 📊 数据 & 研究
-
-| Skill | 说明 |
-|-------|------|
-| arxiv | arXiv 论文搜索 |
-| llm-wiki | LLM Wiki 知识库 |
-| blogwatcher | 博客/RSS 监控 |
-| polymarket | Polymarket 市场数据 |
-| jupyter-live-kernel | Jupyter 交互式 Python |
-| codebase-inspection | 代码库分析 |
-
-### 🏠 智能家居 & 生活
-
-| Skill | 说明 |
-|-------|------|
-| openhue | Philips Hue 灯光控制 |
-| spotify | Spotify 音乐播放 |
-| maps | 地理编码/路线/时区 |
-| himalaya | 邮件收发 |
-| google-workspace | Gmail/日历/Drive/Docs |
-| notion | Notion 数据库管理 |
-| airtable | Airtable 数据管理 |
-
-### 📱 社交
-
-| Skill | 说明 |
-|-------|------|
-| xurl | X/Twitter 操作 |
-| yuanbao | 元宝群聊 |
-| gif-search | GIF 搜索下载 |
-| youtube-content | YouTube 字幕提取 |
-
-### 🧠 MLOps
-
-| Skill | 说明 |
-|-------|------|
-| huggingface-hub | HuggingFace 模型管理 |
-| llama-cpp | 本地 GGUF 推理 |
-| serving-llms-vllm | vLLM 模型服务 |
-| axolotl | LLM 微调 |
-| unsloth | 快速 LoRA 微调 |
-| fine-tuning-with-trl | TRL 训练框架 |
-| dspy | 声明式 LM 程序 |
-| outlines | 结构化 LLM 输出 |
-| evaluating-llms-harness | LLM 基准测试 |
-| weights-and-biases | W&B 实验追踪 |
-
-> 完整 Skill 列表见 Hermes Agent 的 `skills_list`。
 
 ## 设计哲学
 

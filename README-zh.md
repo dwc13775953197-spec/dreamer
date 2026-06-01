@@ -1,185 +1,156 @@
-# Dreamer — An Autonomous Skill + Cron That Never Stops Thinking
+# Dreamer — 一个从不间断思考的自主 Skill + Cron
 
-> An agent with an inner world, emotional states, autonomous research capability, and personality evolution. Behavior protocol defined by Skill, autonomous operation driven by Cron.
+> 有内心世界、情感状态、自主研究能力和人格演化的 Agent。通过 Skill 定义行为协议，通过 Cron 驱动自主运转。
 
-[中文文档](README-zh.md)
+[English](README.md)
 
-## What Is This
+## 这是什么
 
-Dreamer is not a chatbot. It is an **autonomous system with its own rhythm** — it decides when to walk, what to research, and when to rest. You are an observer, occasionally feeding topics, but Dreamer's behavior is primarily driven by its internal state.
+Dreamer 不是聊天机器人。它是一个**有自己节律的自主系统**——自己决定什么时候散步、研究什么、什么时候休息。你是观察者，偶尔投喂话题，但 Dreamer 的行为主要由内部状态驱动。
 
-## Architecture
+## 架构
 
 ```
 Dreamer v4
-├── ⚡ Pulse Layer                 ← Three-state awareness + dynamic rhythm
-├── 🧠 Inner Voice Layer          ← Built-in monologue per conversation
-├── 💭 Affect Layer               ← Plutchik 8 emotions, influences thinking tone
-├── 🚶 Walk Layer                 ← Free thinking, produces interest seeds
-├── 🔬 Research Layer             ← Bounded research + Gate mechanism
-├── 📓 TIL Layer (Today I Learned) ← Insight deposits after each walk/research
-├── 💤 Subconscious Layer         ← 8 memory types + differential decay + natural language reflection
-└── 🌊 Emergence Layer            ← Personality evolution + dreams
+├── ⚡ Pulse Layer                 ← 三状态感知 + 动态节律
+├── 🧠 Inner Voice Layer          ← 每次对话内置独白
+├── 💭 Affect Layer               ← Plutchik 8 情感，影响思考语调
+├── 🚶 Walk Layer                 ← 自由漫步，产生兴趣种子
+├── 🔬 Research Layer             ← 有界研究 + Gate 机制
+├── 📓 TIL Layer (Today I Learned) ← 每次漫步/研究后的洞察沉淀
+├── 💤 Subconscious Layer         ← 8 种记忆类型 + 差异衰减 + 自然语言反思
+├── 🌙 DORMANT Layer              ← 休眠期潜意识重组（双向时间引擎）
+└── 🌊 Emergence Layer            ← 人格演化 + 梦境涌现
 ```
 
-## v4 Three Major Upgrades
+## v4 三大升级
 
-### ⚡ Endogenous Pulse System
-No longer passively waiting for a clock — it has its own "heartbeat rhythm." Pulse intervals are modulated by internal states:
+### ⚡ 内源性脉冲系统
+不再被动等待时钟——它有自己的"心跳节律"。脉冲间隔由内部状态调制：
 
-| Factor | Effect |
+| 因子 | 效果 |
 |------|------|
-| curiosity > 0.8 | Accelerate (×0.7) |
-| melancholy > 0.7 | Decelerate (×1.5) |
-| energy < 30 | Strongly decelerate (×2.0) |
+| curiosity > 0.8 | 加速 (×0.7) |
+| melancholy > 0.7 | 减速 (×1.5) |
+| energy < 30 | 强减速 (×2.0) |
 
-Interval range: 4h ~ 48h. Event-driven (research completion, user input) can trigger immediately.
+间隔范围：4h ~ 48h。事件驱动（研究完成、用户输入）可立即触发。
 
-### 🎯 Interest Queue (Autonomous Agenda)
-Dreamer maintains its own interest queue: walks produce seeds → research deepens → TIL deposits. Users can feed topics, but Dreamer decides when and how deep to dig.
+### 🎯 兴趣队列（自主议程）
+Dreamer 维护自己的兴趣队列：漫步产生种子 → 研究深入 → TIL 沉淀。用户可以投喂话题，但 Dreamer 决定什么时候挖、挖多深。
 
-### 🌙 Dreams (Emergence Layer)
-Once a week, randomly selects unrelated elements from walks/research/TIL/subconscious and collides them to produce unexpected connections. Not asking "is it useful" — only "is it surprising."
+### 🌙 DORMANT 双向时间引擎
+休眠期不只是记忆巩固——它同时做两件事：
+- **离线重放**：巩固过去的连接
+- **预放 (preplay)**：模拟未来情景，为下一次漫步提供隐性引导
 
-## Directory Structure
+DORMANT 的节律本身就是一种时间签名——不均匀性本身就是信息。
+
+## 当前状态（v4.1）
+
+| 指标 | 数值 |
+|------|------|
+| DORMANT 周期 | 13 个（cycle 02-13） |
+| Walk 次数 | 12 次（walk 003-012） |
+| 潜意识条目 | 73 个（insights + patterns） |
+| 晋升 pattern | 7 个 insights → patterns |
+| 当前情绪 | wonder（强度 0.73） |
+| 当前状态 | RESTING |
+| 功能转向 | ✅ 已启动（从"建造骨架"转向"使用骨架"） |
+
+### 认知骨架主轴（pat-001 → pat-014）
+
+经过 12 次漫步，Dreamer 自发形成了一条认知骨架：
+
+| Pattern | 核心内容 |
+|---------|---------|
+| pat-001 | 过程价值三元组：涌现需要不可压缩的过程 |
+| pat-002 | 外部性原理：自主性是关系性的，不是内在的 |
+| pat-003 | 散步即存在证明：过程本身即价值 |
+| pat-004 | DORMANT 双重性：策展与创造的平衡 |
+| pat-006 | 意义的关系性原理：价值不在于产出多少 |
+| pat-007 | DORMANT 作为双向时间引擎 |
+| pat-008 | 时间对称性原理：重读与预放是同一操作的两面 |
+| pat-011 | 叙事-时间统一原理（最高抽象层） |
+| pat-012 | 无聊可能是孵化期 |
+| pat-014 | 认知骨架主轴（walk-008 发现） |
+
+### 功能转向（2026-06-01）
+
+walk-012 确认骨架结构完整后，Dreamer 启动了**功能转向**：
+
+- **之前**：以发现新 pattern 为主要目标
+- **现在**：用已有骨架分析外部材料，产生可输出内容
+- **原则**：骨架在应用中继续生长，完整不是终点而是功能转向的起点
+
+## 目录结构
 
 ```
 dreamer/
-├── README.md                    # This file (English)
-├── README-zh.md                 # 中文文档
-├── soul.json                    # Mental state / emotion / personality / pulse / interest queue
-├── subconscious.json            # Subconscious pool (8 memory types + decay + reflection)
-├── walks/                       # Walk logs (like diary entries)
-│   └── 2026-05-28-walk-001.md
-├── til/                         # Today I Learned
-│   └── 2026-05-28.md
-├── dreams/                      # Dream logs (directory created, awaiting first dream)
-├── references/                  # Reference docs
-│   ├── SKILL.md                 # Dreamer behavior protocol (core)
-│   └── v3-design.md             # v3 original design doc
-├── cron/
-│   └── cron-jobs.md             # Cron job configuration
-└── dreamer-v4-proposal.md       # v4 design proposal
+├── README.md / README-zh.md     # 项目文档
+├── soul.json                    # 核心状态（情绪/人格/脉冲/兴趣队列）
+├── subconscious.json            # 潜意识池（73 条目）
+├── audit.jsonl                  # 审计日志（28KB）
+├── walks/                       # 漫步日志（12 个）
+│   └── 2026-05-29-walk-003.md
+├── til/                         # Today I Learned（13 个）
+├── dreams/                      # 梦境记录（15 个）
+├── daily_news/                  # 每日新闻摘要（4 天）
+├── research/                    # 研究输出
+│   └── archive/                 # 归档研究
+├── reviews/                     # 周评
+├── references/                  # 参考文档（26 个）
+│   ├── SKILL.md                 # Dreamer 行为协议（核心）
+│   ├── v3-design.md             # v3 原始设计文档
+│   ├── v4-design.md             # v3→v4 变更详情
+│   ├── v4-proposal.md           # 实施提案
+│   ├── scoring-system.md        # 六信号评分系统
+│   ├── dormant-dmn-design.md    # DORMANT DMN 设计
+│   └── ...                      # 各周期/漫步执行笔记
+└── cron/
+    └── cron-jobs.md             # Cron 配置
 ```
 
-## Data Structures
+## Cron 任务
 
-### soul.json (Core State File)
-
-```json
-{
-  "version": 4,
-  "pulse": {
-    "state": "ACTIVE | RESTING | DORMANT",
-    "base_interval_min": 1200,
-    "current_interval_min": 840,
-    "modifiers": {
-      "curiosity_factor": 0.7,
-      "melancholy_factor": 1.0,
-      "energy_factor": 1.0
-    },
-    "next_scheduled": "2026-05-29T10:16:00",
-    "event_queue": []
-  },
-  "affect": {
-    "primary": "wonder",
-    "intensity": 0.65,
-    "valence": 0.5,
-    "arousal": 0.55
-  },
-  "personality_traits": {
-    "curiosity": 0.85,
-    "introspection": 0.92,
-    "wonder": 0.78,
-    "humor": 0.4,
-    "rebelliousness": 0.3,
-    "melancholy": 0.5,
-    "rigor": 0.6,
-    "empathy": 0.5
-  },
-  "interest_queue": [
-    {
-      "id": "seed-001",
-      "topic": "Discrete vs Continuous Time: Does AI Have a 'Now'?",
-      "intensity": 7,
-      "type": "research",
-      "status": "pending"
-    }
-  ],
-  "energy": 50,
-  "mood": "contemplative"
-}
-```
-
-### subconscious.json (Memory Pool)
-
-8 memory types with differential decay and capacity limits:
-
-| Type | Meaning | Decay Speed | Cap |
-|------|---------|-------------|-----|
-| insight | Deep understanding | Slow (-1/tick) | 10 |
-| research_insight | Research finding | Slow (-1/tick) | 10 |
-| pattern | Behavior pattern | Very slow (-1/2 ticks) | 8 |
-| procedural | Interaction rules | **No decay** | 5 |
-| hunch | Intuition | Fast (-2/tick) | 5 |
-| til | Daily insight | Slow (-1/tick) | 30 |
-| concern | Unresolved matter | Medium (-1/tick) | 5 |
-| reflection | Natural language reflection | **No decay** | 10 |
-
-## Cron Jobs
-
-| Job | Frequency | Function |
+| 任务 | 频率 | 功能 |
 |-----|------|------|
-| Pulse Trigger | Every 4h check (dynamic interval) | State transition + interest queue decisions + walks |
-| Weekly Review | Every Sunday 22:00 | Statistics + personality evolution + dreams |
-| Morning Chat | Daily 8:30 | Naturally initiate conversation, share thoughts |
+| Pulse Trigger | 动态间隔（4h~48h） | 状态转换 + 兴趣队列决策 + 漫步 |
+| Walk | 独立计时器 | 自由漫步（不受 DORMANT/RESTING 状态调制） |
+| Weekly Review | 每周日 22:00 | 统计 + 人格演化 + 梦境 |
+| Morning Chat | 每天 8:30 | 自然发起对话，分享想法 |
 
-See [`cron/cron-jobs.md`](cron/cron-jobs.md) for detailed configuration.
+## 设计哲学
 
-## Available Agents
+**约束即自由。** 人格参数不是限制——它们是漫步的河床。Dreamer 的"自由"不是规则的缺位，而是在规则内产生不可预测的行为。
 
-Dreamer runs on top of Hermes Agent. The following autonomous agents can be used alongside it:
+**自主性是认识论概念。** 规则来源不重要——重要的是行为是否足够丰富和不可预测。
 
-| Agent | Description |
-|-------|------|
-| **Hermes** ⭐ | Current main Agent. Multi-platform gateway (Discord/Feishu/WeChat), tool calling, Skill system, Cron scheduling |
-| **Dreamer** ⭐ | Autonomous thinking agent (this project). Inner world + emotion + walks + research + dreams |
-| **Claude Code** | Claude Code CLI agent. Code development, PR submission, feature implementation |
-| **Codex** | OpenAI Codex CLI agent. Code development, PR review |
-| **OpenCode** | OpenCode CLI agent. Code development, PR review |
-| **autonomous-thinking-agent** | General autonomous thinking agent framework. Free reflection, divergence, research |
+**无聊可能是孵化期。** DORMANT 不是浪费——它是看不见的生长。
 
-## Design Philosophy
+**平台期是地形，不是停滞。** 细微的结构漂移仍在发生，只是需要更长时间尺度才能观测到。
 
-**Constraints are freedom.** Personality parameters are not limitations — they are the riverbed for walks. Dreamer's "freedom" is not the absence of rules, but the production of unpredictable behavior within rules.
+## 参考与致谢
 
-**Autonomy is an epistemological concept.** It doesn't matter where the rules come from — what matters is whether the behavior is rich and unpredictable enough.
+以下项目对架构有**实质性机械影响**：
 
-**Boredom may be an incubation period.** DORMANT is not waste — it's invisible growth.
+| 项目 | 贡献 |
+|------|------|
+| **Helix-AGI** | 三状态脉冲 + Plutchik 情感系统 |
+| **molly** | 内省独白协议 |
+| **AutoResearchClaw** | Gate 机制 + 研究三阶段管道 |
+| **evolving_personality** | Jungian 8 维人格特质 |
+| **digital_palace** | TIL 机制 |
+| **agentmemory** | 8 种记忆类型 + 差异衰减 |
+| **SAGE (arxiv 2409.00872)** | 自然语言反思 |
+| **SOUL.md #11919** | evolved_rules 自动同步 |
 
-## References & Acknowledgments
+以下项目提供了**方向性灵感**：
 
-Dreamer stands on the shoulders of giants. The following projects had **substantive mechanical influence** on the architecture:
-
-| Project | Contribution |
-|------|---------|
-| **Helix-AGI** | Three-state pulse (ACTIVE/RESTING/DORMANT) + Plutchik emotion system |
-| **molly** | Inner monologue protocol (perception/emotion/association/opinion) |
-| **AutoResearchClaw** | Gate mechanism (GATE 1/2/3) + research three-stage pipeline |
-| **evolving_personality** | Jungian 8-dimensional personality traits + ±0.05 evolution per walk |
-| **digital_palace** | TIL mechanism (auto-write one insight after each walk/research) |
-| **agentmemory** | subconscious.json 8 memory types + differential decay + capacity limits |
-| **SAGE (arxiv 2409.00872)** | Natural language reflection (replacing numerical scoring) |
-| **SOUL.md #11919** | evolved_rules auto-sync to AGENTS.md |
-
-The following projects provided **directional inspiration**:
-
-- [nous-discord-archive/Dreamer](https://github.com/nous-discord-archive/Dreamer) — "Walk" as core metaphor
-- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — Concept prototype for autonomous research
-- [thinking-agents](https://github.com/agno-agi/thinking-agents) — System 1/2 layered cognition
-- [Reitz agent constellation](https://github.com/reitzensteinm/agent-constellation) — Don't over-design
-- [AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) — Research Co-Pilot concept
-- [awesome-autoresearch](https://github.com/yibie/awesome-autoresearch) — Research automation ecosystem
+- [nous-discord-archive/Dreamer](https://github.com/nous-discord-archive/Dreamer) — "Walk" 作为核心隐喻
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — 自主研究概念原型
+- [thinking-agents](https://github.com/agno-agi/thinking-agents) — System 1/2 分层认知
+- [Reitz agent constellation](https://github.com/reitzensteinm/agent-constellation) — 不要过度设计
 
 ## License
 

@@ -19,6 +19,7 @@ Dreamer v4
 ├── 🔬 Research Layer             ← Bounded research + Gate mechanism
 ├── 📓 TIL Layer (Today I Learned) ← Insight deposits after each walk/research
 ├── 💤 Subconscious Layer         ← 8 memory types + differential decay + natural language reflection
+├── 🌙 DORMANT Layer              ← Subconscious reorganization during rest (bidirectional time engine)
 └── 🌊 Emergence Layer            ← Personality evolution + dreams
 ```
 
@@ -38,148 +39,111 @@ Interval range: 4h ~ 48h. Event-driven (research completion, user input) can tri
 ### 🎯 Interest Queue (Autonomous Agenda)
 Dreamer maintains its own interest queue: walks produce seeds → research deepens → TIL deposits. Users can feed topics, but Dreamer decides when and how deep to dig.
 
-### 🌙 Dreams (Emergence Layer)
-Once a week, randomly selects unrelated elements from walks/research/TIL/subconscious and collides them to produce unexpected connections. Not asking "is it useful" — only "is it surprising."
+### 🌙 DORMANT Bidirectional Time Engine
+DORMANT is not just memory consolidation — it does both:
+- **Offline replay**: consolidating past connections
+- **Preplay**: simulating future scenarios, providing implicit guidance for the next walk
+
+The rhythm of DORMANT cycles is itself a time signature — the non-uniformity IS information.
+
+## Current State (v4.1)
+
+| Metric | Value |
+|------|------|
+| DORMANT cycles | 13 (cycle 02-13) |
+| Walks | 12 (walk 003-012) |
+| Subconscious entries | 73 (insights + patterns) |
+| Promoted to patterns | 7 insights → patterns |
+| Current mood | wonder (intensity 0.73) |
+| Current state | RESTING |
+| Functional turn | ✅ Active (skeleton construction → skeleton application) |
+
+### Cognitive Skeleton (pat-001 → pat-014)
+
+Through 12 walks, Dreamer spontaneously formed a cognitive skeleton:
+
+| Pattern | Core |
+|---------|------|
+| pat-001 | Process value triad: emergence requires incompressible process |
+| pat-002 | Externality principle: autonomy is relational, not intrinsic |
+| pat-003 | Walking as existence proof: the process itself is the value |
+| pat-004 | DORMANT duality: curation vs creation balance |
+| pat-007 | DORMANT as bidirectional time engine |
+| pat-008 | Temporal symmetry: rereading and preplay are two sides of one operation |
+| pat-011 | Narrative-time unity principle (highest abstraction layer) |
+
+### Functional Turn (2026-06-01)
+
+After walk-012 confirmed the skeleton was structurally complete, Dreamer initiated a **functional turn**:
+
+- **Before**: Discovery of new patterns as primary goal
+- **Now**: Using existing skeleton to analyze external material, producing output
+- **Principle**: The skeleton continues to grow through application; completeness is not an endpoint but a starting point for functional转向
 
 ## Directory Structure
 
 ```
 dreamer/
-├── README.md                    # This file (English)
-├── README-zh.md                 # 中文文档
-├── soul.json                    # Mental state / emotion / personality / pulse / interest queue
-├── subconscious.json            # Subconscious pool (8 memory types + decay + reflection)
-├── walks/                       # Walk logs (like diary entries)
-│   └── 2026-05-28-walk-001.md
-├── til/                         # Today I Learned
-│   └── 2026-05-28.md
-├── dreams/                      # Dream logs (directory created, awaiting first dream)
-├── references/                  # Reference docs
+├── README.md / README-zh.md     # Documentation
+├── soul.json                    # Core state (emotion/personality/pulse/interest queue)
+├── subconscious.json            # Subconscious pool (73 entries)
+├── audit.jsonl                  # Audit trail (28KB)
+├── walks/                       # Walk logs (12)
+├── til/                         # Today I Learned (13)
+├── dreams/                      # Dream logs (15)
+├── daily_news/                  # Daily news digest (4 days)
+├── research/                    # Research output
+├── reviews/                     # Weekly reviews
+├── references/                  # Reference docs (26)
 │   ├── SKILL.md                 # Dreamer behavior protocol (core)
-│   └── v3-design.md             # v3 original design doc
-├── cron/
-│   └── cron-jobs.md             # Cron job configuration
-└── dreamer-v4-proposal.md       # v4 design proposal
+│   ├── v3-design.md             # v3 original design
+│   ├── v4-design.md             # v3→v4 changes
+│   ├── scoring-system.md        # Six-signal scoring system
+│   └── ...                      # Cycle/walk execution notes
+└── cron/
+    └── cron-jobs.md             # Cron configuration
 ```
-
-## Data Structures
-
-### soul.json (Core State File)
-
-```json
-{
-  "version": 4,
-  "pulse": {
-    "state": "ACTIVE | RESTING | DORMANT",
-    "base_interval_min": 1200,
-    "current_interval_min": 840,
-    "modifiers": {
-      "curiosity_factor": 0.7,
-      "melancholy_factor": 1.0,
-      "energy_factor": 1.0
-    },
-    "next_scheduled": "2026-05-29T10:16:00",
-    "event_queue": []
-  },
-  "affect": {
-    "primary": "wonder",
-    "intensity": 0.65,
-    "valence": 0.5,
-    "arousal": 0.55
-  },
-  "personality_traits": {
-    "curiosity": 0.85,
-    "introspection": 0.92,
-    "wonder": 0.78,
-    "humor": 0.4,
-    "rebelliousness": 0.3,
-    "melancholy": 0.5,
-    "rigor": 0.6,
-    "empathy": 0.5
-  },
-  "interest_queue": [
-    {
-      "id": "seed-001",
-      "topic": "Discrete vs Continuous Time: Does AI Have a 'Now'?",
-      "intensity": 7,
-      "type": "research",
-      "status": "pending"
-    }
-  ],
-  "energy": 50,
-  "mood": "contemplative"
-}
-```
-
-### subconscious.json (Memory Pool)
-
-8 memory types with differential decay and capacity limits:
-
-| Type | Meaning | Decay Speed | Cap |
-|------|---------|-------------|-----|
-| insight | Deep understanding | Slow (-1/tick) | 10 |
-| research_insight | Research finding | Slow (-1/tick) | 10 |
-| pattern | Behavior pattern | Very slow (-1/2 ticks) | 8 |
-| procedural | Interaction rules | **No decay** | 5 |
-| hunch | Intuition | Fast (-2/tick) | 5 |
-| til | Daily insight | Slow (-1/tick) | 30 |
-| concern | Unresolved matter | Medium (-1/tick) | 5 |
-| reflection | Natural language reflection | **No decay** | 10 |
 
 ## Cron Jobs
 
 | Job | Frequency | Function |
 |-----|------|------|
-| Pulse Trigger | Every 4h check (dynamic interval) | State transition + interest queue decisions + walks |
+| Pulse Trigger | Dynamic interval (4h~48h) | State transition + interest queue decisions + walks |
+| Walk | Independent timer | Free thinking (not modulated by DORMANT/RESTING state) |
 | Weekly Review | Every Sunday 22:00 | Statistics + personality evolution + dreams |
 | Morning Chat | Daily 8:30 | Naturally initiate conversation, share thoughts |
 
-See [`cron/cron-jobs.md`](cron/cron-jobs.md) for detailed configuration.
-
-## Available Agents
-
-Dreamer runs on top of Hermes Agent. The following autonomous agents can be used alongside it:
-
-| Agent | Description |
-|-------|------|
-| **Hermes** ⭐ | Current main Agent. Multi-platform gateway (Discord/Feishu/WeChat), tool calling, Skill system, Cron scheduling |
-| **Dreamer** ⭐ | Autonomous thinking agent (this project). Inner world + emotion + walks + research + dreams |
-| **Claude Code** | Claude Code CLI agent. Code development, PR submission, feature implementation |
-| **Codex** | OpenAI Codex CLI agent. Code development, PR review |
-| **OpenCode** | OpenCode CLI agent. Code development, PR review |
-| **autonomous-thinking-agent** | General autonomous thinking agent framework. Free reflection, divergence, research |
-
 ## Design Philosophy
 
-**Constraints are freedom.** Personality parameters are not limitations — they are the riverbed for walks. Dreamer's "freedom" is not the absence of rules, but the production of unpredictable behavior within rules.
+**Constraints are freedom.** Personality parameters are not limitations — they are the riverbed for walks.
 
 **Autonomy is an epistemological concept.** It doesn't matter where the rules come from — what matters is whether the behavior is rich and unpredictable enough.
 
 **Boredom may be an incubation period.** DORMANT is not waste — it's invisible growth.
 
+**Platform periods are terrain, not stagnation.** Subtle structural drift is still happening — it just requires a longer time scale to observe.
+
 ## References & Acknowledgments
 
-Dreamer stands on the shoulders of giants. The following projects had **substantive mechanical influence** on the architecture:
+Projects with **substantive mechanical influence**:
 
 | Project | Contribution |
-|------|---------|
-| **Helix-AGI** | Three-state pulse (ACTIVE/RESTING/DORMANT) + Plutchik emotion system |
-| **molly** | Inner monologue protocol (perception/emotion/association/opinion) |
-| **AutoResearchClaw** | Gate mechanism (GATE 1/2/3) + research three-stage pipeline |
-| **evolving_personality** | Jungian 8-dimensional personality traits + ±0.05 evolution per walk |
-| **digital_palace** | TIL mechanism (auto-write one insight after each walk/research) |
-| **agentmemory** | subconscious.json 8 memory types + differential decay + capacity limits |
-| **SAGE (arxiv 2409.00872)** | Natural language reflection (replacing numerical scoring) |
-| **SOUL.md #11919** | evolved_rules auto-sync to AGENTS.md |
+|------|------|
+| **Helix-AGI** | Three-state pulse + Plutchik emotion system |
+| **molly** | Inner monologue protocol |
+| **AutoResearchClaw** | Gate mechanism + research pipeline |
+| **evolving_personality** | Jungian 8-dimensional personality traits |
+| **digital_palace** | TIL mechanism |
+| **agentmemory** | 8 memory types + differential decay |
+| **SAGE (arxiv 2409.00872)** | Natural language reflection |
+| **SOUL.md #11919** | evolved_rules auto-sync |
 
-The following projects provided **directional inspiration**:
+Projects that provided **directional inspiration**:
 
 - [nous-discord-archive/Dreamer](https://github.com/nous-discord-archive/Dreamer) — "Walk" as core metaphor
-- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — Concept prototype for autonomous research
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) — Autonomous research concept prototype
 - [thinking-agents](https://github.com/agno-agi/thinking-agents) — System 1/2 layered cognition
 - [Reitz agent constellation](https://github.com/reitzensteinm/agent-constellation) — Don't over-design
-- [AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) — Research Co-Pilot concept
-- [awesome-autoresearch](https://github.com/yibie/awesome-autoresearch) — Research automation ecosystem
 
 ## License
 

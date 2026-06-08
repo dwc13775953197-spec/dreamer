@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-08T03:03:15+08:00",
-    "last_active": "2026-06-08T12:47:52+08:00",
+    "state_since": "2026-06-08T17:46:38+08:00",
+    "last_active": "2026-06-08T18:46:38+08:00",
     "last_resting": "2026-06-08T17:46:38+08:00",
     "last_dormant": "2026-06-08T03:03:15+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-08T18:46:38+08:00",
+    "next_scheduled": "2026-06-08T19:16:38+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-08T14:00:00+08:00",
     "total_walks": 42,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-08T14:00:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 10.0,
+    "cognitive_pressure": 20.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -256,7 +256,7 @@
   ],
   "last_walk": "2026-06-08T02:08:46+08:00",
   "last_chat": null,
-  "last_rss_scan": "2026-06-08T17:51:00+08:00",
+  "last_rss_scan": "2026-06-08T17:47:00+00:00",
   "total_walks": 41,
   "topics": [
     "emergence",
@@ -517,7 +517,6 @@
     "total_promotions": 7,
     "total_demotions": 0
   },
-  "last_rss_scan": "2026-06-08T17:47:00+00:00",
   "last_weekly_review": "2026-06-07T22:00:00+08:00",
   "functional_turn": {
     "started_at": "2026-06-01T10:00:00+08:00",

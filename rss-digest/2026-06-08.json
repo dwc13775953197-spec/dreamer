@@ -2,6 +2,24 @@
   "lesswrong": {
     "articles": [
       {
+        "title": "Bun's Migration from Zig to Rust as a Potential Case Study for Gradual Disempowerment",
+        "link": "https://www.lesswrong.com/posts/qEbqPitYhWHthwFNu/bun-s-migration-from-zig-to-rust-as-a-potential-case-study",
+        "summary": "<h1><span>TL;DR:</span></h1><p><span>Bun is a very large and very influential open-source project. It is being migrated from the easier-to-read Zig programming language to harder-to-read but memory-safe Rust. This is done almost entirely by the AI tool Claude Code. The migration may become one of th",
+        "published": "2026-06-08T07:06:04+00:00"
+      },
+      {
+        "title": "Contra Dance at LessOnline",
+        "link": "https://www.lesswrong.com/posts/GtZKzWgAqWrE2tXrQ/contra-dance-at-lessonline",
+        "summary": "<p><span>\n\nI was in SF this weekend for </span>\n\n<a href=\"https://less.online/\">LessOnline</a>.  It's nominally a blogging\nconference, but in practice it's more of a Rationalist meetup.  I was\nthere in my personal capacity, though I did end up having a lot of\nconversations about biosecurity and may ",
+        "published": "2026-06-08T05:50:42+00:00"
+      },
+      {
+        "title": "Honking is good",
+        "link": "https://www.lesswrong.com/posts/d77rhaPMn9oQaN7Sg/honking-is-good",
+        "summary": "<h1><span>i. Shanghai</span></h1><p><span>In 2007, honking was banned in Shanghai within the city limits (外环)</span><span class=\"footnote-reference\" data-footnote-reference=\"\" data-footnote-id=\"pnpf8bkyokf\" data-footnote-index=\"1\" role=\"doc-noteref\" id=\"fnrefpnpf8bkyokf\"><sup><a href=\"#fnpnpf8bkyokf",
+        "published": "2026-06-08T04:36:47+00:00"
+      },
+      {
         "title": "The CIA believes everything",
         "link": "https://www.lesswrong.com/posts/iT4tDshfRGiqxkRpR/the-cia-believes-everything",
         "summary": "<p><span>The Wikipedia page on </span><a href=\"https://en.wikipedia.org/wiki/James_Vicary\"><span>James Vicary</span></a><span> (The \"inventor\" of Subliminal advertising) mentions that the CIA investigated subliminal advertising and found it to be </span><i><span>somewhat</span></i><span> useful. Aft",
@@ -38,28 +56,10 @@
         "published": "2026-06-07T20:20:22+00:00"
       },
       {
-        "title": "The Alignment Coin",
-        "link": "https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin",
+        "title": "Would you lick the alignment coin?",
+        "link": "https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/would-you-lick-the-alignment-coin",
         "summary": "<figure style=\"width:100%\" class=\"image image_resized\"><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780398753/lexical_client_uploads/uxsag07lxnuiq1frhepd.jpg\" alt=\"reeded edge of a 50c euro coin\"></figure><p><span>If the alignment problem was a coin, the heads would be the 'alig",
         "published": "2026-06-07T19:20:15+00:00"
-      },
-      {
-        "title": "Secret Loyalties Likely Raise Remote-Influenceability",
-        "link": "https://www.lesswrong.com/posts/YpAxXAcAFp4aFJRwf/secret-loyalties-likely-raise-remote-influenceability",
-        "summary": "<p><b><span>TL;DR:</span></b></p><ul><li value=\"1\"><span>Among </span><i><span>capable</span></i><span> reward-seekers, a secret loyalty likely </span><b><span>raises</span></b><span> the model's propensity for remote-influenceability.</span></li><li value=\"2\"><span>Attempting to remove an installed",
-        "published": "2026-06-07T17:51:50+00:00"
-      },
-      {
-        "title": "From One Piece to One Pace - \nVision and mission in temporary coordination of agents",
-        "link": "https://www.lesswrong.com/posts/curDKDhmJmMkSCwQt/from-one-piece-to-one-pace-vision-and-mission-in-temporary",
-        "summary": "<p><span>I work with vulnerable teenagers in an association and I want to build a system (using a metaphor) that reduces the time and cognitive cost it takes them to turn their mission and vision into microtasks for moments of low confidence.</span></p><img src=\"https://res.cloudinary.com/lesswrong-",
-        "published": "2026-06-07T17:09:55+00:00"
-      },
-      {
-        "title": "Neglected Basics of AI Alignment",
-        "link": "https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1",
-        "summary": "<p><span>I came into this world as the misunderstood hero of </span><a href=\"https://hpmor.com\" rel=\"noreferrer\"><span>Harry Potter and the Methods of Rationality</span></a><span>. While some characters inside that story would call me a villain, the narrator's-eye view clearly shows that I saved tha",
-        "published": "2026-06-07T09:02:33+00:00"
       }
     ],
     "domain": "rationality/cognition/AI safety",

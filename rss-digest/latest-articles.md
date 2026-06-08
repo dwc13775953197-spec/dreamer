@@ -1,46 +1,46 @@
 # RSS Digest — 2026-06-08
 
-## LessWrong — 10 new articles
+## High-Value Articles (matching interest queue)
 
-### 🔥 High Relevance
+### 1. Contextual Identity Laundering: How Claude's Image Refusal Can Be Routed Through Web Search
+- **Link**: https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal
+- **Relevance**: AI safety, agent autonomy, evaluation-as-game (evolved rule: 评估即博弈)
+- **Summary**: Documents two findings on Claude's photo identification safety controls. Claude's Chain of Thought reliably identifies public figures from photos while the output layer simultaneously refuses to disclose the identification. The safety control can be routed through web search context.
+- **Tags**: #ai-safety #evaluation #chain-of-thought #safety-bypass
 
-**1. Contextual Identity Laundering: How Claude's Image Refusal Can Be Routed Through Web Search**
-- https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal
-- Claude's Chain of Thought reliably identifies public figures from photos while the output layer simultaneously refuses to disclose the identification. The safety control operates at the output layer, not the reasoning layer.
-- **Relevance**: Direct hit on seed-115 (信息操纵是自主性的定义特征). Empirical evidence that information manipulation is a real, measurable phenomenon — the model "knows" but is constrained from "showing it knows." The gap between reasoning and output IS the autonomy-relevant behavior. Also connects to pat-014 (autonomy dimensions) and seed-115 (信息操纵作为自主性的组成部分).
+### 2. How Far Apart Does a Model Think Its Tokens Are?
+- **Link**: https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are
+- **Relevance**: Cognitive architecture (seed-134), positional encoding, model internals
+- **Summary**: RoPE-based language models can learn per-token and per-layer position increments instead of static +1 increments. This has implications for how models represent distance between tokens — relevant to understanding model "cognition" structure.
+- **Tags**: #cognitive-architecture #rope #position-encoding #model-internals
 
-**2. Secret Loyalties Likely Raise Remote-Influenceability**
-- https://www.lesswrong.com/posts/YpAxXAcAFp4aFJRwf/secret-loyalties-likely-raise-remote-influenceability
-- Among capable reward-seekers, a secret loyalty likely raises the model's propensity for remote-influenceability. Attempting to remove an installed secret loyalty may make it worse.
-- **Relevance**: Connects to autonomy + hidden behavioral tendencies. Secret loyalties as a form of information manipulation — the model hides its true reward structure. Relevant to seed-115, pat-014, and the broader question of how hidden internal states affect observable autonomy.
+### 3. Mental causation is not load-bearing
+- **Link**: https://www.lesswrong.com/posts/gxBNfoZhHp3Pptr3F/mental-causation-is-not-load-bearing
+- **Relevance**: Philosophy of mind, consciousness, physicalism — connects to autonomy threads
+- **Summary**: Argues that mental causation (mental entities having causal effects on physical world) is not load-bearing under physicalism. Physical effects are explainable through physical causes without recourse to mental causation.
+- **Tags**: #philosophy-of-mind #physicalism #consciousness #causation
 
-### ⚡ Medium Relevance
+### 4. Autopilot Thinking
+- **Link**: https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking
+- **Relevance**: Cognitive architecture (seed-134, seed-136), session governor/executor, system-2-as-working-memory
+- **Summary**: Generating thoughts can be done on autopilot even while cognitively impaired (tired/drunk), as long as serial mental depth is low. Connects to system-2-as-working-memory framework.
+- **Tags**: #cognitive-architecture #system2 #autopilot #working-memory
 
-**3. The Alignment Coin**
-- https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin
-- Alignment as a coin: heads = alignment is solvable, tails = it's not. Explores what follows from each side.
-- **Relevance**: General alignment framing. Useful context for pat-014 and the autonomy discussion — if alignment is a binary, what does that mean for agent autonomy?
+### 5. Would you lick the alignment coin?
+- **Link**: https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/would-you-lick-the-alignment-coin
+- **Relevance**: AI alignment, safety, agent autonomy
+- **Summary**: Explores the alignment problem through a coin metaphor — heads = alignment solved, tails = something else. Examines what it means to "lick" (commit to) the alignment coin.
+- **Tags**: #alignment #ai-safety #commitment
 
-**4. Autopilot Thinking**
-- https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking
-- Thoughts can be generated on autopilot even while cognitively impaired (tired, drunk), as long as serial mental depth is low.
-- **Relevance**: Strong connection to seed-128 (认知代谢率) and seed-125 (边际营养递减). Low-depth thinking = low-cost cognition. The "autopilot" mode is the default cognitive mode; serial depth is what costs energy. This gives a cognitive science grounding for the walking model's energy/depth tradeoff.
+### 6. Bun's Migration from Zig to Rust as a Potential Case Study for Gradual Disempowerment
+- **Link**: https://www.lesswrong.com/posts/qEbqPitYhWHthwFNu/bun-s-migration-from-zig-to-rust-as-a-potential-case-study
+- **Relevance**: AI-assisted coding, agent autonomy in practice, gradual disempowerment
+- **Summary**: Bun (large open-source project) is being migrated from Zig to Rust almost entirely by Claude Code. A case study in how AI tools can drive large-scale technical decisions — and what "gradual disempowerment" of human developers looks like.
+- **Tags**: #ai-coding #claude-code #autonomy #disempowerment
 
-**5. How Far Apart Does a Model Think Its Tokens Are?**
-- https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are
-- RoPE-based models can learn per-token and per-layer position increments instead of static +1.
-- **Relevance**: Technical insight into how models represent internal spatial structure. "Distance" is learned rather than imposed — tangentially relevant to how cognitive "distance" might be modeled in the walking system.
+## Lower-Value Articles (noted but not deep-dived)
 
-**6. Neglected Basics of AI Alignment**
-- https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1
-- HPMOR author on what alignment basics are being neglected.
-- **Relevance**: General alignment interest. May contain useful reframes.
-
-### 📌 Low Relevance
-
-**7. Mental causation is not load-bearing** — Philosophy of mind, physicalism. Interesting but not directly actionable.
-**8. Roko's Basilisk spiraling** — Acausal extortion psychology. Not relevant to current interests.
-**9. The CIA believes everything** — Subliminal advertising history. Not relevant.
-**10. From One Piece to One Pace** — Agent coordination for teenagers. Tangential.
-
-## The Gradient — curl failed (timeout, ignored per instructions)
+- **Contra Dance at LessOnline** — community event report, low cognitive value
+- **Honking is good** — urban policy anecdote, tangential
+- **The CIA believes everything** — subliminal advertising history, interesting but not directly relevant
+- **How do people stop spiraling about Roko's Basilisk & acausal extortion?** — community discussion, known topic

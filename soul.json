@@ -18,7 +18,21 @@
     "last_walk_at": "2026-06-08T12:47:52+08:00",
     "total_walks": 43,
     "last_pulse_output": "2026-06-08T02:08:46+08:00",
-    "last_walk": "2026-06-08T12:47:52+08:00"
+    "last_walk": "2026-06-08T12:47:52+08:00",
+    "cognitive_pressure": 35.0,
+    "pressure_threshold": 50.0,
+    "pressure_params": {
+      "base_rate": 0.5,
+      "time_factor": 2.0,
+      "rss_factor": 5.0,
+      "seed_factor": 3.0,
+      "hunger_penalty": 10.0,
+      "release_per_insight": 15.0,
+      "dormant_release": 0.5,
+      "conversation_release": 0.7
+    },
+    "quality_history": [],
+    "last_walk_insights": 0
   },
   "affect": {
     "primary": "temporal_nostalgia",

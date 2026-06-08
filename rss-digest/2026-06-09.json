@@ -1,0 +1,80 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "How to build a cancer vaccine, and whether they will work this time",
+        "link": "https://www.lesswrong.com/posts/nWwDciCqfodBifvEP/how-to-build-a-cancer-vaccine-and-whether-they-will-work",
+        "summary": "<img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/nWwDciCqfodBifvEP/upmptkqr26gmqkxzrxdx\" alt=\"\" srcset=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/nWwDciCqfodBifvEP/j6opqs5t9vvk23jr8zif 424w, https://res.cloudi",
+        "published": "2026-06-08T20:45:43+00:00"
+      },
+      {
+        "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
+        "link": "https://www.lesswrong.com/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model",
+        "summary": "<p><span>I often use what I’ll call the “safety-usefulness tradeoff model”, which is: developers face a tradeoff between \"safety\" and \"usefulness\" of an AI deployment, and the developer has only limited willingness or ability to sacrifice usefulness for the sake of safety. This model assumes that de",
+        "published": "2026-06-08T20:28:17+00:00"
+      },
+      {
+        "title": "Accelerated Skill Learning via Dream Engineering and Biofeedback",
+        "link": "https://www.lesswrong.com/posts/uzL9xLj6pwaij5TyK/accelerated-skill-learning-via-dream-engineering-and",
+        "summary": "<p><a href=\"https://faculty.wcas.northwestern.edu/paller/NSY2025.pdf\" rel=\"noreferrer\"><span>Konkoly et al.</span></a><span> had participants play harmonicas by inhaling through their noses, with said instruments on their nostrils. Then everyone competitively blew bubbles.</span></p><p><span>Each of",
+        "published": "2026-06-08T20:08:29+00:00"
+      },
+      {
+        "title": "How valuable are weak AI safety regulations?",
+        "link": "https://www.lesswrong.com/posts/peHyxRozoQbcMSzxm/how-valuable-are-weak-ai-safety-regulations",
+        "summary": "<p>To prevent superintelligent AI from killing everyone, I would like there to be <a href=\"https://nowinners.ai/\">a strong international agreement</a> banning the development of ASI until it can be proven safe. But that sort of agreement requires a lot of political buy-in and coordination. In the me",
+        "published": "2026-06-08T18:24:57+00:00"
+      },
+      {
+        "title": "How to reduce capability degradation from off-model SFT",
+        "link": "https://www.lesswrong.com/posts/wBsEFfQFteHSWCtsv/how-to-reduce-capability-degradation-from-off-model-sft",
+        "summary": "<p><b><span>Off-model SFT </span></b><span>(SFT using labels from a different model) could be an important approach for controlling AI behavior. For instance, it seems like a central technique for </span><a href=\"https://arxiv.org/abs/2604.22082\"><span>overcoming exploration hacking</span></a><span>",
+        "published": "2026-06-08T16:24:37+00:00"
+      },
+      {
+        "title": "The Next Swan: Frank Ramsey, Variable Hypotheticals, and the Bet on Induction",
+        "link": "https://www.lesswrong.com/posts/AE8ZyzotwcAf6tzcJ/the-next-swan-frank-ramsey-variable-hypotheticals-and-the",
+        "summary": "<p><span>In his essay “Two Faces of Common Sense” (1972) Popper wrote ‘We are seekers for truth but we are not its possessors’. In the same essay, Popper argues ‘The quest for certainty, for a secure basis of knowledge, has to be abandoned.’</span></p><p><span>Popper wanted to separate (un)certainty",
+        "published": "2026-06-08T12:01:10+00:00"
+      },
+      {
+        "title": "Coverage-driven alignment - What ‘Teaching Claude Why’ can borrow from AV verification",
+        "link": "https://www.lesswrong.com/posts/hsrjuzqokvAErvZ2q/coverage-driven-alignment-what-teaching-claude-why-can",
+        "summary": "<p><i><span>Cross-posted from </span></i><a href=\"https://blog.foretellix.com/\" rel=\"noreferrer\"><i><span>The Foretellix CTO Blog</span></i></a><i><span>. This is a full-text linkpost, following feedback that my previous piece was too brief as a stub.</span></i></p><p><b><span>Summary:</span></b><sp",
+        "published": "2026-06-08T11:42:36+00:00"
+      },
+      {
+        "title": "Bun's Migration from Zig to Rust as a Potential Case Study for Gradual Disempowerment",
+        "link": "https://www.lesswrong.com/posts/qEbqPitYhWHthwFNu/bun-s-migration-from-zig-to-rust-as-a-potential-case-study",
+        "summary": "<h1><span>TL;DR:</span></h1><p><span>Bun is a very large and very influential open-source project. It is being migrated from the easier-to-read Zig programming language to harder-to-read but memory-safe Rust. This is done almost entirely by the AI tool Claude Code. The migration may become one of th",
+        "published": "2026-06-08T07:06:04+00:00"
+      },
+      {
+        "title": "Contra Dance at LessOnline",
+        "link": "https://www.lesswrong.com/posts/GtZKzWgAqWrE2tXrQ/contra-dance-at-lessonline",
+        "summary": "<p><span>I was in SF this weekend for </span><a href=\"https://less.online/\"><span>LessOnline</span></a><span>. It's nominally a blogging conference, but in practice it's more of a Rationalist meetup. I was there in my personal capacity, though I did end up having a lot of conversations about biosecu",
+        "published": "2026-06-08T05:50:42+00:00"
+      },
+      {
+        "title": "Honking is good",
+        "link": "https://www.lesswrong.com/posts/d77rhaPMn9oQaN7Sg/honking-is-good",
+        "summary": "<h1><span>i. Shanghai</span></h1><p><span>In 2007, honking was banned in Shanghai within the city limits (外环)</span><span class=\"footnote-reference\" data-footnote-reference=\"\" data-footnote-id=\"pnpf8bkyokf\" data-footnote-index=\"1\" role=\"doc-noteref\" id=\"fnrefpnpf8bkyokf\"><sup><a href=\"#fnpnpf8bkyokf",
+        "published": "2026-06-08T04:36:47+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  },
+  "alignmentforum": {
+    "articles": [
+      {
+        "title": "Efficient tradeoffs and the safety-usefulness tradeoff model",
+        "link": "https://www.alignmentforum.org/posts/mBsZTZxtjgCdN4CDA/efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model",
+        "summary": "<p><span>I often use what I’ll call the “safety-usefulness tradeoff model”, which is: developers face a tradeoff between \"safety\" and \"usefulness\" of an AI deployment, and the developer has only limited willingness or ability to sacrifice usefulness for the sake of safety. This model assumes that de",
+        "published": "2026-06-08T20:28:17+00:00"
+      }
+    ],
+    "domain": "AI alignment",
+    "count": 1
+  }
+}

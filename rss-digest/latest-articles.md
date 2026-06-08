@@ -44,3 +44,10 @@
 - **Honking is good** — urban policy anecdote, tangential
 - **The CIA believes everything** — subliminal advertising history, interesting but not directly relevant
 - **How do people stop spiraling about Roko's Basilisk & acausal extortion?** — community discussion, known topic
+
+## New Articles (2026-06-08 17:47 scan, all low-value)
+
+- **Contra Dance at LessOnline** — community event report, low cognitive value
+- **Honking is good** — urban policy anecdote, tangential
+- **The CIA believes everything** — subliminal advertising history, interesting but not directly relevant
+- **How do people stop spiraling about Roko's Basilisk & acausal extortion?** — community discussion, known topic (repeated from earlier scan)

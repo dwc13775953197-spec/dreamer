@@ -1,0 +1,80 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "Coalitional Darwinism and the Instrumental Utility of Individuality",
+        "link": "https://www.lesswrong.com/posts/Tm2dCH6dHE2ber53Y/coalitional-darwinism-and-the-instrumental-utility-of",
+        "summary": "<p>This post was written as part of MATS 9.1 under the mentorship of Richard Ngo.</p>\n<p>This post is the first of several I will be writing on using natural selection to understand artificial intelligence and agency.  This post will show how noisy selection on genome structure can make evolution ef",
+        "published": "2026-06-06T12:53:46+00:00"
+      },
+      {
+        "title": "Why Software Automation Is Hard",
+        "link": "https://www.lesswrong.com/posts/KzXptMbuDsYLrppss/why-software-automation-is-hard",
+        "summary": "<p><i><span>Originally intended as a quick take, but got a bit longer, so why not turn it into a post. Just sharing my observations &amp; assumptions here about the state of software automation. Happy to hear thoughts on where you think I'm off. I'm sure none of the thoughts in this post are totally",
+        "published": "2026-06-06T08:56:05+00:00"
+      },
+      {
+        "title": "What if Anthropic unilaterally paused capabilities development right now?",
+        "link": "https://www.lesswrong.com/posts/SQoBeezisWunLhBqJ/what-if-anthropic-unilaterally-paused-capabilities",
+        "summary": "<p><a href=\"https://www.anthropic.com/institute/recursive-self-improvement\" rel=\"noreferrer\"><span>In their new post on recursive self-improvement</span></a><span>, Anthropic argues that a pause in frontier AI development is needed, but unfortunately, they can't pause on their own, because of less c",
+        "published": "2026-06-06T07:39:17+00:00"
+      },
+      {
+        "title": "Optimisation over non-stationary distributions creates weirder minds",
+        "link": "https://www.lesswrong.com/posts/bzkQgYhaCcpvKqmAK/optimisation-over-non-stationary-distributions-creates",
+        "summary": "<p><i><span>TLDR: Sequentially mixing training objectives incentivises different training dynamics depending on the distinguishability of the training environments and the amount of pressure for shared circuitry. We classify these patterns into three classes: ecological generalists, conditional poli",
+        "published": "2026-06-06T00:05:23+00:00"
+      },
+      {
+        "title": "Does robotics capabilities research accelerate AGI timelines?",
+        "link": "https://www.lesswrong.com/posts/HQH2atbxpdts7c49N/does-robotics-capabilities-research-accelerate-agi-timelines",
+        "summary": "<p><span>^ This is a question I've tried researching online, but haven't found much discussion of it: was hoping to start some here. </span></p><p><span>For context, I am a final-year math + CS undergraduate considering pursuing a career in theoretical robotics, particularly in continual learning an",
+        "published": "2026-06-05T23:36:19+00:00"
+      },
+      {
+        "title": "Evaluating using Mock Tool Calls to Quarantine Untrusted Prompt Inputs",
+        "link": "https://www.lesswrong.com/posts/GPMZaRmxxNb8o2aGo/evaluating-using-mock-tool-calls-to-quarantine-untrusted-2",
+        "summary": "<p><em>This is a small study that explores using\ntool calls to wrap untrusted parts of prompts.\nOpenAI's model spec considers tool results the least trusted kind of input.\nIf tool-wrapping helped, it would be an easy way to improve robustness while using existing APIs\nmodels already support.\nIn 3 te",
+        "published": "2026-06-05T22:43:28+00:00"
+      },
+      {
+        "title": "Two More Methods for Consistency Training and Some New Ways to Apply It",
+        "link": "https://www.lesswrong.com/posts/zLERnZYLTPGqyfpqy/two-more-methods-for-consistency-training-and-some-new-ways-1",
+        "summary": "<p><i><span>Authors: Sukrati Gautam*, Neil Shah*, Arav Dhoot*, Bryan Maruyama*, Caroline Wei*, Rohan Kapoor, Robert Sidey, Prakhar Gupta, Zi Cheng Huang, David Demitri Africa.</span></i></p><p><a href=\"https://arxiv.org/abs/2606.05817\"><i><span>This work</span></i></a><i><span> was done for the SPAR",
+        "published": "2026-06-05T21:06:44+00:00"
+      },
+      {
+        "title": "Revisiting GSM-Symbolic: Do 2026 Frontier Models Still Fail at Confounded Grade School Math?",
+        "link": "https://www.lesswrong.com/posts/Ze4C99Dasj74YKCFh/revisiting-gsm-symbolic-do-2026-frontier-models-still-fail",
+        "summary": "<h2><b><span>TL;DR</span></b></h2><p><span>The GSM-Symbolic </span><a href=\"https://arxiv.org/abs/2410.05229\"><span>paper</span></a><span> (ICLR 2025) purported to show that language models rely on pattern matching rather than genuine reasoning by demonstrating that perturbing the questions to make ",
+        "published": "2026-06-05T20:54:09+00:00"
+      },
+      {
+        "title": "The Masochistic Prior",
+        "link": "https://www.lesswrong.com/posts/QWZRP7MLgRajDhiRk/the-masochistic-prior",
+        "summary": "<p><span>In Bayesian statistics there’s the concept of the Uniform Prior - in the absence of evidence, assume all options are equally likely to be true. I often find myself using an alternative strategy, which I’ll dub “the masochistic prior” - in the absence of evidence, whichever option is most pa",
+        "published": "2026-06-05T19:05:58+00:00"
+      },
+      {
+        "title": "Beyond the lexical personality traits: What is the structure of personality?",
+        "link": "https://www.lesswrong.com/posts/aRcZSKYdt26KdqoFw/beyond-the-lexical-personality-traits-what-is-the-structure",
+        "summary": "<p><i><span>This is a description of the methodology behind the latest iteration of my </span></i><a href=\"https://www.onlinetests.me/test/pers0/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><i><span>Targeted Personality Test</span></i></a><i><span>. Feel free to take it either before or afte",
+        "published": "2026-06-05T19:05:08+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  },
+  "alignmentforum": {
+    "articles": [
+      {
+        "title": "My research agenda and work",
+        "link": "https://www.alignmentforum.org/posts/MuLvZxMcy5WaKJu3H/my-research-agenda-and-work",
+        "summary": "<p><span>This is a summary of the work I've done and work I plan to do, and the theories of change and AI progress that motivate my work. I've been working full-time on alignment for three years and change, and thinking about brainlike AGI and its alignment increasingly often since 2004. </span></p>",
+        "published": "2026-06-05T14:19:53+00:00"
+      }
+    ],
+    "domain": "AI alignment",
+    "count": 1
+  }
+}

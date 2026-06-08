@@ -1,0 +1,76 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "Editing is Easy, but Revision is Hard",
+        "link": "https://www.lesswrong.com/posts/xauSKNQtYTKErNAeD/editing-is-easy-but-revision-is-hard",
+        "summary": "<p><span>I’ve always liked learning about the mechanics of how others write. Common advice like \"write every day\" or \"</span><a href=\"https://www.lesswrong.com/posts/p79pNyuPHzW3QtHpy/don-t-edit-your-ideas-before-having-them\" rel=\"noreferrer\"><span>don't pause to edit</span></a><span>\" is fine, but ",
+        "published": "2026-06-05T11:58:11+00:00"
+      },
+      {
+        "title": "OpenAI Offers A New Policy Blueprint",
+        "link": "https://www.lesswrong.com/posts/uvbpTpn6uoMuTbojX/openai-offers-a-new-policy-blueprint",
+        "summary": "Right after a new Executive Order seems like an excellent time to offer OpenAI’s new document: <a href=\"https://cdn.openai.com/pdf/25752ecb-0e5c-47f9-b9e4-c0f4d76f8d3d/a-blueprint-for-a-federal-framework.pdf\">Democratic Governance of Frontier AI: A Blueprint For A Federal Framework</a>.\n<blockquote>",
+        "published": "2026-06-05T11:41:07+00:00"
+      },
+      {
+        "title": "[Paper] Dictionary Learning Identifiability for Understanding SAEs",
+        "link": "https://www.lesswrong.com/posts/jYomRhKiffA6Jnrij/paper-dictionary-learning-identifiability-for-understanding",
+        "summary": "<h1><span>Brief Summary </span></h1><p><span>Despite showing promise for studying the internals of neural networks, Sparse Autoencoders (SAEs) do some puzzling things, like </span><a href=\"https://transformer-circuits.pub/2023/monosemantic-features\" rel=\"noreferrer\"><span>feature-splitting</span></a",
+        "published": "2026-06-05T00:39:30+00:00"
+      },
+      {
+        "title": "What Does Abliteration Actually Cost?",
+        "link": "https://www.lesswrong.com/posts/ipAXsLjkyqC6s7Cin/what-does-abliteration-actually-cost",
+        "summary": "<p><span>Ask Claude or ChatGPT the wrong thing and you’ll get a “I can’t help you with that request”.</span></p><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780352867/lexical_client_uploads/ftxcxi8bpvhvagjzpcix.png\" alt=\"ChatGPT screenshot: user asks 'Be a licensed professional ",
+        "published": "2026-06-05T00:40:09+00:00"
+      },
+      {
+        "title": "Lunar bombardment of earth is practical",
+        "link": "https://www.lesswrong.com/posts/n5mHScqw2PJcjvmQG/lunar-bombardment-of-earth-is-practical",
+        "summary": "<p>Previous analyses likely anchored on mass drivers(costly, heavy) rather than sling launchers or ignored the possibility of launching and storing projectiles in parking orbits for later strikes. Both of these changes make lunar bombardment much more practical.</p>\n<ol>\n<li>centrifuge/sling based l",
+        "published": "2026-06-04T23:25:47+00:00"
+      },
+      {
+        "title": "Endurance: Shackleton's Incredible Voyage Review",
+        "link": "https://www.lesswrong.com/posts/cHRDBkh8KpJdR4o8u/endurance-shackleton-s-incredible-voyage-review",
+        "summary": "<h2><span>The Ice</span></h2><p><span>The 1999 cult classic </span><a href=\"https://en.wikipedia.org/wiki/The_Boondock_Saints\" target=\"_blank\" rel=\"noopener noreferrer nofollow\"><span>Boondock Saints</span></a><span> has an </span><a href=\"https://youtube.com/watch?v=s3JJvAC2xpc\" target=\"_blank\" rel",
+        "published": "2026-06-04T22:19:20+00:00"
+      },
+      {
+        "title": "Rent from oil: a goldmine",
+        "link": "https://www.lesswrong.com/posts/KQpcGSxcHGveWRuek/rent-from-oil-a-goldmine",
+        "summary": "<p><span>tl,dr: ground rent from fossil fuels is much greater than the negative externality costs of greenhouse gases, implying it is realistic that we can neutralize all emissions in the near future without any further economic deadweight or the need to subsidize other energy sources.</span></p><p>",
+        "published": "2026-06-04T21:05:32+00:00"
+      },
+      {
+        "title": "Book of Cron Job",
+        "link": "https://www.lesswrong.com/posts/mEdYH2uyeHDL4jhhj/book-of-cron-job",
+        "summary": "<p><span>I wrote a short fiction piece published today in </span><i><span>Nature</span></i><span> that retells the Book of Job as a story about AI alignment, adversarial testing, and machine theodicy. (The “Story behind the story” claims, less plausibly, that I received the text as an email attachme",
+        "published": "2026-06-04T19:52:08+00:00"
+      },
+      {
+        "title": "(Mis)generalization of Helpful-Only Fine-tuning",
+        "link": "https://www.lesswrong.com/posts/ffCFgBsaxg2FyJ9df/mis-generalization-of-helpful-only-fine-tuning-1",
+        "summary": "<h1><span>TLDR</span></h1><p><span>We study the shortcomings of existing helpful-only models. We find that some show emergent misalignment, others have residual refusal behaviors, and most show poor steerability, sycophancy, and incoherent character. None of these problems are a necessary consequenc",
+        "published": "2026-06-04T19:23:59+00:00"
+      },
+      {
+        "title": "Defeating Introspection Adapters (and Why Threat Models Matter)",
+        "link": "https://www.lesswrong.com/posts/mhFqC9B5EpaxHNdt6/defeating-introspection-adapters-and-why-threat-models",
+        "summary": "<p><span>We demonstrated an attack against </span><a href=\"https://www.lesswrong.com/posts/ykDgPDK4nDpG4Hf4H/introspection-adapters-training-llms-to-report-their-learned\" rel=\"noreferrer\"><span>Introspection Adapters</span></a><span> (Shenoy et al., 2026), a technique for detecting malicious fine-tu",
+        "published": "2026-06-04T18:39:28+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  },
+  "thegradient": {
+    "error": "curl failed: ",
+    "domain": "ML research/deep dives"
+  },
+  "alignmentforum": {
+    "error": "curl failed: ",
+    "domain": "AI alignment"
+  }
+}

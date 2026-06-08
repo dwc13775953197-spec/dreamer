@@ -1,0 +1,70 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "The Psychological Challenges of High-Impact Work - please participate in our survey!",
+        "link": "https://www.lesswrong.com/posts/ycnBHFYrGdLGSwpfq/the-psychological-challenges-of-high-impact-work-please",
+        "summary": "<p>At Clearer Thinking, we're running <a href=\"https://www.guidedtrack.com/programs/d4hx9m7/run\">a collaboration survey</a> about the psychological challenges of various kinds related to working on high-impact problems (e.g., existential risk, AI safety, climate change, animal welfare, global health",
+        "published": "2026-06-04T03:51:53+00:00"
+      },
+      {
+        "title": "Running An Air Purifier on Batteries",
+        "link": "https://www.lesswrong.com/posts/ftexKEAtz5w9Ys9Pu/running-an-air-purifier-on-batteries",
+        "summary": "<p><span>\n\nRunning an air purifier on a battery could be really useful in an\nemergency that combined a biological or nuclear threat with a power\noutage.  Getting one that can run on 12V DC and attaching it to a\nLiFePO4 battery is about $188 (plus $164 for the purifier) for\nsomething that will give y",
+        "published": "2026-06-04T02:40:49+00:00"
+      },
+      {
+        "title": "Sixteen schemes for AI safety",
+        "link": "https://www.lesswrong.com/posts/jTyfbs7GW5rf78adK/sixteen-schemes-for-ai-safety",
+        "summary": "<p><span>These days, I often run across </span><a href=\"https://generatorresidency.org/\"><span>whippersnappers</span></a><span> excited to do </span><i><span>something</span></i><span> for AI safety — but aren’t quite sure what. One of the fun things about the Future Fund era were the </span><a href",
+        "published": "2026-06-03T21:50:39+00:00"
+      },
+      {
+        "title": "Aligning Superintelligent Humans",
+        "link": "https://www.lesswrong.com/posts/KWZGTtnMuTHfBMdyX/aligning-superintelligent-humans",
+        "summary": "<p><a href=\"https://www.lesswrong.com/posts/AzRmp7NXY4Ethzt5i/beyond-hardcoded-evolutionary-psychology\" rel=\"noreferrer\"><i><span>Last post</span></i></a><i><span> was an example of how intelligence-correlated tools can stabilize reflection. Here I'll discuss how native-cyborgism attenuates the hard",
+        "published": "2026-06-03T20:39:18+00:00"
+      },
+      {
+        "title": "Beyond Hardcoded Evolutionary Psychology",
+        "link": "https://www.lesswrong.com/posts/AzRmp7NXY4Ethzt5i/beyond-hardcoded-evolutionary-psychology",
+        "summary": "<p><a href=\"https://www.lesswrong.com/users/steve2152\" rel=\"noreferrer\"><i><span>Steven Byrnes</span></i></a><i><span> has written quite a lot on brain-like AGI algorithms. I'll reiterate here of a small part of his work, but you'd be better off reading his stuff directly.</span></i></p><p><i><span>",
+        "published": "2026-06-03T20:26:40+00:00"
+      },
+      {
+        "title": "Trump Signs Executive Order For AI Testing Prior To Frontier Model Releases",
+        "link": "https://www.lesswrong.com/posts/yDnfHrBzKc2pNQNdw/trump-signs-executive-order-for-ai-testing-prior-to-frontier",
+        "summary": "<p>Last week we were expecting an Executive Order on Thursday.</p>\n<p>Then Trump cancelled it, and said he wouldn’t sign it because he was worried it would be too burdensome.</p>\n<p>Then, with one change, he went ahead and signed it on Tuesday anyway.</p>\n<p><a href=\"https://www.politico.com/news/20",
+        "published": "2026-06-03T16:30:37+00:00"
+      },
+      {
+        "title": "Thoughts on 'Learning Mechanics'",
+        "link": "https://www.lesswrong.com/posts/5cnCF2G6CAYeiYoT5/thoughts-on-learning-mechanics",
+        "summary": "<p>Last month, I stumbled upon an optimistic-sounding paper: <a href=\"https://arxiv.org/abs/2604.21691\">\"There Will Be a Scientific Theory of Deep Learning\"</a>.</p>\n<blockquote>\n<p>In this paper, we make the case that a scientific theory of deep learning is emerging. By this we mean a theory which ",
+        "published": "2026-06-03T15:36:24+00:00"
+      },
+      {
+        "title": "Towards Shutdownable Agents: Generalizing Stochastic Choice in RL Agents and LLMs",
+        "link": "https://www.lesswrong.com/posts/HX6YnHZxLWGQhrBix/towards-shutdownable-agents-generalizing-stochastic-choice",
+        "summary": "<h1>Summary</h1>\n<ul>\n<li>Misaligned artificial agents might resist shutdown.</li>\n<li>One proposed solution is the <a href=\"https://www.lesswrong.com/posts/JuRdvZyqaFbvTPemn/shutdownable-agents-through-post-agency-1\">POST-Agents Proposal</a>: roughly, training agents to lack preferences between dif",
+        "published": "2026-06-03T14:24:47+00:00"
+      },
+      {
+        "title": "Society Explained: a tool for efficiently exploring >100 theories of society",
+        "link": "https://www.lesswrong.com/posts/LCrk93DNWSudjp5rd/society-explained-a-tool-for-efficiently-exploring-greater",
+        "summary": "<p><span>There are many competing theories of how society does and should function, from Karl Marx and Adam Smith to Steven Pinker and Eliezer Yudkowsky. These theories are often hard to understand - you may need to read an entire book (or dozens of articles) to feel like you get the key claims of a",
+        "published": "2026-06-03T14:08:42+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 9
+  },
+  "thegradient": {
+    "error": "curl failed: ",
+    "domain": "ML research/deep dives"
+  },
+  "alignmentforum": {
+    "error": "curl failed: ",
+    "domain": "AI alignment"
+  }
+}

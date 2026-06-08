@@ -1,0 +1,68 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "Neglected Basics of AI Alignment",
+        "link": "https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1",
+        "summary": "<p><span>I came into this world as the misunderstood hero of </span><a href=\"https://hpmor.com\" rel=\"noreferrer\"><span>Harry Potter and the Methods of Rationality</span></a><span>. While some characters inside that story would call me a villain, the narrator's-eye view clearly shows that I saved tha",
+        "published": "2026-06-07T09:02:33+00:00"
+      },
+      {
+        "title": "The Hats of LessOnline",
+        "link": "https://www.lesswrong.com/posts/ePYruMkPjvnSoBGAS/the-hats-of-lessonline",
+        "summary": "<p><span>It is currently the evening after day two of LessOnline 2026. I wish to document one popular topic of discussion among LessOnline attendees: golden hats. My girlfriend Celene has&nbsp;</span><a href=\"https://x.com/toasterlighting/status/2063471786793242805?s=20\"><span>collected four golden ",
+        "published": "2026-06-07T08:57:10+00:00"
+      },
+      {
+        "title": "Can activation verbalizers surface an internal chain of thought?",
+        "link": "https://www.lesswrong.com/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1",
+        "summary": "<p><i><span>We introduce an evaluation for activation verbalizers: can they surface a target model's reasoning as it solves a math problem in a single forward pass? For open-weight NLAs, the answer seems to be: \"possibly, but definitely not reliably\".</span></i></p><p><span>Lots of important capabil",
+        "published": "2026-06-07T04:24:01+00:00"
+      },
+      {
+        "title": "Frontier Models Still Lag Behind Humans at Robust Belief-State Tracking",
+        "link": "https://www.lesswrong.com/posts/L7pBM9RCnsoJJenkJ/frontier-models-still-lag-behind-humans-at-robust-belief",
+        "summary": "<p><span>Large-scale cooperation has been a central feature of humanity’s ability to advance technology and build complex societies. Much of this cooperation is reliant on the ability to act in ways informed by the beliefs and intentions of others. This capacity, also known as Theory of Mind (ToM), ",
+        "published": "2026-06-07T00:12:57+00:00"
+      },
+      {
+        "title": "Coming Around To Political Donations",
+        "link": "https://www.lesswrong.com/posts/5CNEgYtqqY44ZNkT7/coming-around-to-political-donations",
+        "summary": "<p><span>\n\nFive years ago I read a </span>\n\n<a href=\"https://forum.effectivealtruism.org/posts/FffuQRBYjvm5hiaFw/there-s-a-role-for-small-ea-donors-in-campaign-finance\">post\non the EA Forum</a> arguing that \"election campaign\ncontributions might be a way in which you can have a substantial\nimpact as",
+        "published": "2026-06-06T21:30:43+00:00"
+      },
+      {
+        "title": "Analysis of Metastable States in the Transformer Activation Space",
+        "link": "https://www.lesswrong.com/posts/Kf8zkKnDajfGGHG7w/analysis-of-metastable-states-in-the-transformer-activation",
+        "summary": "<ol class=\"footnote-section footnotes\" data-footnote-section=\"\" role=\"doc-endnotes\"><li class=\"footnote-item\" data-footnote-item=\"\" data-footnote-id=\"kzh22x4c4p\" data-footnote-index=\"1\" role=\"doc-endnote\" id=\"fnkzh22x4c4p\"><div class=\"footnote-content\" data-footnote-content=\"\"><h1><span>Part 1: Do M",
+        "published": "2026-06-06T21:30:13+00:00"
+      },
+      {
+        "title": "The Diamond Lemma",
+        "link": "https://www.lesswrong.com/posts/HfApZDaBbcwDxKrgt/the-diamond-lemma",
+        "summary": "<p><span>I found this result useful for a few different problems I was thinking about recently. It cleared up a lot of confusion I had around simplification rules. First I give a semiformal statement of the lemma and some applications. At the end I give a formal statement and proof.</span></p><h2><s",
+        "published": "2026-06-06T21:16:50+00:00"
+      },
+      {
+        "title": "Iliad is Hiring",
+        "link": "https://www.lesswrong.com/posts/uLk7xiQbAntb5h6PB/iliad-is-hiring",
+        "summary": "<p><span>Iliad is hiring for operations, research, and engineering roles. If you're excited about advancing foundational AI alignment research, we'd love to hear from you.</span></p><p><span>Full job descriptions are available at </span><a href=\"https://www.iliad.ac/careers.html\"><span>https://www.i",
+        "published": "2026-06-07T13:03:21+00:00"
+      },
+      {
+        "title": "Against Corrigibility",
+        "link": "https://www.lesswrong.com/posts/rQTzSuBDLoAbhyS6g/against-corrigibility-1",
+        "summary": "<p><i><span>Epistemic status: don’t know whether I actually believe all of this, but I think it’s worth considering.</span></i></p><p><span>A “corrigible” agent, </span><a href=\"https://www.lesswrong.com/w/corrigibility-1\"><span>per the LW wiki</span></a><span>, is:</span></p><blockquote><p><span>…o",
+        "published": "2026-06-06T20:28:10+00:00"
+      },
+      {
+        "title": "The Residual Stream Has a Geometry of Time",
+        "link": "https://www.lesswrong.com/posts/jkEnRkokmzvvKNzzB/the-residual-stream-has-a-geometry-of-time-1",
+        "summary": "<h1>Preface</h1>\n<p>This is a preliminary writeup for an experiment on residual stream geometry. The research direction seems pretty underexplored, so I’m posting early to collect objections, research intuitions, and connections to problems other people are thinking about before I invest in the larg",
+        "published": "2026-06-06T20:52:12+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  }
+}

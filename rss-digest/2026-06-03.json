@@ -1,0 +1,80 @@
+{
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "Don’t Edit Your Ideas Before Having Them",
+        "link": "https://www.lesswrong.com/posts/p79pNyuPHzW3QtHpy/don-t-edit-your-ideas-before-having-them",
+        "summary": "<p><span>Editing is far easier than writing. You can usually look at a finished product and notice its flaws in a single read-through. “This section is a bit redundant”, “the tone in this passage is jarring”, “this paragraph feels overlong”. As long as you have something that’s rough but substantive",
+        "published": "2026-06-03T08:09:38+00:00"
+      },
+      {
+        "title": "China won’t win the AI race but would it be much worse if it did?",
+        "link": "https://www.lesswrong.com/posts/nmpzH6sLLtKsQhSPM/china-won-t-win-the-ai-race-but-would-it-be-much-worse-if-it",
+        "summary": "<p><span>It seems to me accepted wisdom in the West that the US owned labs must “beat” the Chinese labs in the race for AGI/ASI. </span></p><p><span>Even those who don’t think there will be a winner, that essentially the race is to see which country’s AI will kill/disempower us first, seem to believ",
+        "published": "2026-06-03T05:46:00+00:00"
+      },
+      {
+        "title": "Bear spray expiry dates:\ngood news, and comical\npeer-reviewed pseudoscience",
+        "link": "https://www.lesswrong.com/posts/Mfa4LJoFcyDnsFpAT/bear-spray-expiry-dates-good-news-and-comical-peer-reviewed",
+        "summary": "<p><span>Last year my 4-year-old can of bear spray reached its expiry date, completely unused, and I wondered how sound the basis of that date was. Reddit showed plenty of others wondering or asserting on the matter, several outdoorsy sources reported on testing, and there was a journal article from",
+        "published": "2026-06-03T03:25:36+00:00"
+      },
+      {
+        "title": "My favorite depiction of utopia",
+        "link": "https://www.lesswrong.com/posts/to9cSGgD6nALByKjg/my-favorite-depiction-of-utopia",
+        "summary": "<p><span>For those who are trying to bring about a glorious transhuman utopia with the help of hopefully-aligned ASI, I think it's worth thinking explicitly about what utopia might actually look like and where it's likely to fall short.</span></p><p><span>To that end, some have helpfully written dep",
+        "published": "2026-06-02T23:15:27+00:00"
+      },
+      {
+        "title": "The Origin of Uncertainty",
+        "link": "https://www.lesswrong.com/posts/KkRdNGhH3SEgvLhfD/the-origin-of-uncertainty",
+        "summary": "<p>When people ask what <em><a href=\"https://fundamentaluncertainty.com/\">Fundamental Uncertainty</a></em> is about, I usually say it’s a book about epistemology. If they want to know more, I say it’s a book arguing that truth is grounded not in observation or more truth, but in usefulness, and beca",
+        "published": "2026-06-02T18:20:40+00:00"
+      },
+      {
+        "title": "LURE: Alignment Evaluations to Reduce Evaluation Awareness",
+        "link": "https://www.lesswrong.com/posts/WKuGzrtCnAAArjj2N/lure-alignment-evaluations-to-reduce-evaluation-awareness",
+        "summary": "<h1><span>TLDR:</span></h1><ul><li value=\"1\"><span>Frontier models can detect when they're being evaluated and change their behavior, which risks compromising safety benchmarks. </span></li><li value=\"2\"><span>We introduce LURE (Live-Usage Replay Evaluations), a method that constructs alignment eval",
+        "published": "2026-06-02T18:20:23+00:00"
+      },
+      {
+        "title": "Why Even Experts Don’t Know What to Do About AI Risk",
+        "link": "https://www.lesswrong.com/posts/tRRkj249gdDL4mued/why-even-experts-don-t-know-what-to-do-about-ai-risk",
+        "summary": "<figure style=\"width:76.72536385173908%\" class=\"image image_resized\"><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780413025/lexical_client_uploads/xfwdw0kyzw13fug1llqh.png\" alt=\"image.png\"></figure><p><span>AI Safety veteran Holden Karnofsky thinks there’s a 49% chance his actio",
+        "published": "2026-06-02T17:31:34+00:00"
+      },
+      {
+        "title": "Where does the race to automate AI research end?",
+        "link": "https://www.lesswrong.com/posts/gkbet5Gp7eoAE9bjY/where-does-the-race-to-automate-ai-research-end",
+        "summary": "<p><span>This is a linkpost of a recording of a recent MATS research talk where I argue that the automation of AI research — which OpenAI and Anthropic say is imminent — could lead to an unrecoverable alignment failure. Three properties make it especially dangerous: oversight breaks down at scale, c",
+        "published": "2026-06-02T17:21:20+00:00"
+      },
+      {
+        "title": "A Town Without Children",
+        "link": "https://www.lesswrong.com/posts/wgiHyMEnfRmPRhvAo/a-town-without-children",
+        "summary": "<p><i><span>Castel di Tusa</span></i><span>, Sicily. It is October 24</span><sup><span>th</span></sup><span>, 2025. I look at an empty school. This is the third town in Italy I have visited this Autumn: the other two, one in the hills of Tuscany, the other near the border with Switzerland, were simi",
+        "published": "2026-06-02T16:35:08+00:00"
+      },
+      {
+        "title": "Announcing the ARC White-Box Estimation Challenge",
+        "link": "https://www.lesswrong.com/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
+        "summary": "<p>ARC has teamed up with <a href=\"https://www.aicrowd.com/\">AIcrowd</a> to launch the <a href=\"https://www.aicrowd.com/challenges/white-box-estimation-challenge-2026\"><strong>ARC White-Box Estimation Challenge</strong></a>, a contest to improve upon our estimation algorithms for <a href=\"https://ww",
+        "published": "2026-06-02T16:20:43+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  },
+  "alignmentforum": {
+    "articles": [
+      {
+        "title": "Announcing the ARC White-Box Estimation Challenge",
+        "link": "https://www.alignmentforum.org/posts/Kben8CzS4awCwNw5c/announcing-the-arc-white-box-estimation-challenge",
+        "summary": "<p>ARC has teamed up with <a href=\"https://www.aicrowd.com/\">AIcrowd</a> to launch the <a href=\"https://www.aicrowd.com/challenges/white-box-estimation-challenge-2026\"><strong>ARC White-Box Estimation Challenge</strong></a>, a contest to improve upon our estimation algorithms for <a href=\"https://ww",
+        "published": "2026-06-02T16:20:43+00:00"
+      }
+    ],
+    "domain": "AI alignment",
+    "count": 1
+  }
+}

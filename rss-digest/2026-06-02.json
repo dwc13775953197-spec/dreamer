@@ -1,0 +1,88 @@
+{
+  "karpathy": {
+    "error": "XML parse error: syntax error: line 1, column 0",
+    "domain": "AI/ML"
+  },
+  "lesswrong": {
+    "articles": [
+      {
+        "title": "Why we're launching the Frontier Biodefense Fellowship",
+        "link": "https://www.lesswrong.com/posts/RgtJPqB6sEoLBe2b7/why-we-re-launching-the-frontier-biodefense-fellowship",
+        "summary": "<p><i>[LLM use: Workshopped over weeks by multiple team members with LLM use across research, drafting, and editing. Unclear whether the final text exceeds the Forum's 10% threshold.]</i></p><p>This is the companion post to <a href=\"https://forum.effectivealtruism.org/posts/NzZR6gb4yXJEQYGo7/announc",
+        "published": "2026-06-02T09:06:13+00:00"
+      },
+      {
+        "title": "Wood Screws and the Methods of Rationality",
+        "link": "https://www.lesswrong.com/posts/2mwFLvJBkfitmR2tu/wood-screws-and-the-methods-of-rationality",
+        "summary": "<p><strong>tl;dr:</strong> When driving #8 wood screws into particleboard, use a 7/64″ drill bit for the pilot holes</p>\n<p>Last Sunday, when helping my dad with a \"woodworking\" <span data-footnote-reference=\"\" data-footnote-index=\"1\" data-footnote-id=\"-gxYtnradkhgbpMka3-1\" role=\"doc-noteref\" id=\"fn",
+        "published": "2026-06-02T07:49:52+00:00"
+      },
+      {
+        "title": "Taking the Training Wheels Off: Aligning LLMs without Personas",
+        "link": "https://www.lesswrong.com/posts/3wqZwXMzEAkd3mLLM/taking-the-training-wheels-off-aligning-llms-without",
+        "summary": "<p><br></p><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/3wqZwXMzEAkd3mLLM/5b18c66a57f187f33ac8a438209481ce38e836a7fdc1cb081161fad23496bc70/ofzs7dwn131h6fep69y4\" alt=\"\"><p><span>If you told an AI Alignment researcher in 2018 about an alignment plan t",
+        "published": "2026-06-02T06:29:58+00:00"
+      },
+      {
+        "title": "Compute Verification on Short Timelines",
+        "link": "https://www.lesswrong.com/posts/cXTHqmgwrRT2Z5b9W/compute-verification-on-short-timelines",
+        "summary": "<p>Compute verification might be a very significant part of coordination with respect\nto intelligent AI systems. In short timelines (&lt;2030), the kind espoused by a frontier lab\nleader, I'm suspicious of die-level verification hardware being tractable. If this\nis the case, we should then focus on ",
+        "published": "2026-06-02T03:31:08+00:00"
+      },
+      {
+        "title": "Testing Best-Effort Solar",
+        "link": "https://www.lesswrong.com/posts/PRjQL3A7r2jgQSmG4/testing-best-effort-solar",
+        "summary": "<p><span>\n\nMost rooftop solar installs don't provide power when the grid is down.\nThe primary goal is to avoid sending power out to the grid where it\ncould injure people working to restore power, but more recently it's\nbeen expanded to avoid energized lines extending out from the panel\nwhere they co",
+        "published": "2026-06-02T03:00:39+00:00"
+      },
+      {
+        "title": "May 2026 Links",
+        "link": "https://www.lesswrong.com/posts/HFnd3WZ2A3uLdCDzL/may-2026-links",
+        "summary": "<ul><li value=\"1\"><a href=\"https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html\"><span>How to Land a Frontier Lab Job</span></a><span>: Vlad offers a step-by-step tutorial on how to maximize your chances of getting into one of the main AI labs. Remember, step-by-step doesn’t ",
+        "published": "2026-06-02T01:42:30+00:00"
+      },
+      {
+        "title": "% Bureaucracy",
+        "link": "https://www.lesswrong.com/posts/b7rmurKtjw3K2Ra6R/bureaucracy",
+        "summary": "<p><span>I’ve recently had the misfortune of leading a contracted integration project with a very bureaucratic government agency, as a private sector vendor (software product startup). While my company was agile, our client was decidedly not. Emails I intend for one or two recipients end up with 20 ",
+        "published": "2026-06-02T00:36:06+00:00"
+      },
+      {
+        "title": "Tech I'm skeptical of and why",
+        "link": "https://www.lesswrong.com/posts/Y5cQYKYwAb2WwXXQQ/tech-i-m-skeptical-of-and-why",
+        "summary": "<p><span>I’m a fan of people trying things, even if they seem silly. Dismissing risky ideas misses the point of research.</span></p><p><span>But thoughtful criticism can direct effort to more promising fields. To that end, I’m going to try to make my criticism as constructive as possible, with concr",
+        "published": "2026-06-01T22:54:03+00:00"
+      },
+      {
+        "title": "Critique of current AI safety bug bounty programs",
+        "link": "https://www.lesswrong.com/posts/hBY7TM7zbLZE7H2KJ/critique-of-current-ai-safety-bug-bounty-programs",
+        "summary": "<h2><span>The potential value of AI safety bug bounty programs</span></h2><p><span>Generally, AI labs should (and most do) put their models under extensive safety testing before deploying them to prevent misuse, scheming, and other dangerous behaviors. This may include internal tests, red-teaming ef",
+        "published": "2026-06-01T21:44:55+00:00"
+      },
+      {
+        "title": "[Linkpost] Prefixing names with 'secure_' makes agents write more secure code",
+        "link": "https://www.lesswrong.com/posts/75MsWZ9P9ZoL7uZXx/linkpost-prefixing-names-with-secure_-makes-agents-write",
+        "summary": "<p><i><span>The graphs are interactive and don't translate well to inline, so the full writeup with figures is in the </span></i><a href=\"https://antimemeticai.com/prefix-effects\" rel=\"noreferrer\"><i><span>link</span></i></a><i><span>.</span></i></p><p><span>We gave coding agents a three-step synthe",
+        "published": "2026-06-01T21:20:39+00:00"
+      }
+    ],
+    "domain": "rationality/cognition/AI safety",
+    "count": 10
+  },
+  "importai": {
+    "error": "name 'urllib' is not defined",
+    "domain": "AI research weekly"
+  },
+  "weirdml": {
+    "error": "name 'urllib' is not defined",
+    "domain": "frontier ML"
+  },
+  "thegradient": {
+    "error": "name 'urllib' is not defined",
+    "domain": "ML research/deep dives"
+  },
+  "alignmentforum": {
+    "error": "name 'urllib' is not defined",
+    "domain": "AI alignment"
+  }
+}

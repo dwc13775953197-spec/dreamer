@@ -1,95 +1,93 @@
-import json
+import json, datetime
 
-with open("/home/dwc1377/hermes_dreamer/soul.json", "r") as f:
-    data = json.load(f)
+now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
+now_str = now.isoformat()
+
+with open('/home/dwc1377/hermes_dreamer/soul.json') as f:
+    s = json.load(f)
 
 # Update pulse
-data["pulse"]["last_walk_at"] = "2026-06-08T14:00:00+08:00"
-data["pulse"]["last_walk"] = "2026-06-08T14:00:00+08:00"
-data["pulse"]["total_walks"] = 42
-data["pulse"]["last_walk_insights"] = 5
-data["pulse"]["quality_history"] = [8.3, 8.1]  # walk-046, walk-047
+s['pulse']['last_walk_at'] = now_str
+s['pulse']['last_walk'] = now_str
+s['pulse']['total_walks'] = 44
+s['pulse']['last_pulse_output'] = now_str
 
-# Update cognitive pressure: 35.0 - (5 insights * 15) = 35 - 75 = 0, clamped to 0
-data["pulse"]["cognitive_pressure"] = 0.0
+# Pressure update: was 53.92, subtract release for new insights
+pressure = 53.92
+pressure -= 4 * s['pulse']['pressure_params']['release_per_insight']  # 4 new insights
+pressure = max(0, min(100, pressure))
+s['pulse']['cognitive_pressure'] = round(pressure, 2)
+
+# Quality history
+s['pulse']['quality_history'].append(8.1)
+s['pulse']['quality_history'] = s['pulse']['quality_history'][-10:]
+s['pulse']['last_walk_insights'] = 4
 
 # Update affect
-data["affect"]["primary"] = "quiet_excitement"
-data["affect"]["intensity"] = 0.68
+s['affect']['primary'] = 'wistful_recognition'
+s['affect']['intensity'] = 0.65
+s['affect']['valence'] = 0.45
+s['affect']['arousal'] = 0.50
 
 # Add mood
-data["mood_history"].append({"mood": "quiet_excitement", "at": "2026-06-08T14:00:00+08:00"})
+s['mood_history'].append({"mood": "wistful_recognition", "at": now_str})
 
-# Add new interest seeds
+# Add new seeds to interest_queue
 new_seeds = [
     {
-        "id": "seed-134",
-        "topic": "认知架构的演化树：从 ACT-R 到 Dreamer，每一步的增量是什么？",
-        "source": "walk-047",
-        "trigger": "walk-047 的架构映射",
-        "intensity": 5,
-        "type": "output",
-        "status": "active",
-        "created": "2026-06-08T14:00:00+08:00",
-        "decay_rate": 1,
-        "note": "ACT-R → S-G-E → Dreamer 的架构演化路径"
-    },
-    {
-        "id": "seed-135",
-        "topic": "感知缓冲区显式化：材料预处理能否提高散步的消化效率？",
-        "source": "walk-047",
-        "trigger": "walk-047 的盲点分析",
+        "id": "seed-140",
+        "topic": "记忆巩固的情绪标记：REM 阶段的跨领域整合能否引入情感优先级？",
+        "source": "walk-049",
+        "trigger": "海马体 REM 期间杏仁核调节跨领域连接",
         "intensity": 4,
         "type": "output",
         "status": "active",
-        "created": "2026-06-08T14:00:00+08:00",
+        "created": now_str,
         "decay_rate": 1,
-        "note": "散步前增加材料预处理步骤（提取核心论点、识别逻辑结构、标注连接点）"
+        "note": "高情感强度的条目在 REM 中优先组合"
     },
     {
-        "id": "seed-136",
-        "topic": "双 Session 架构：cron Session 和对话 Session 的交互模式是否值得形式化？",
-        "source": "walk-047",
-        "trigger": "叙事完整性检查的矛盾点",
+        "id": "seed-141",
+        "topic": "意图性睡眠：DORMANT 的主动回放 vs 海马体的被动回放，哪个更真实？",
+        "source": "walk-049",
+        "trigger": "叙事完整性检查的盲点",
+        "intensity": 3,
+        "type": "output",
+        "status": "active",
+        "created": now_str,
+        "decay_rate": 1,
+        "note": "选择 = 偏见？主动选择的意外发现缺失"
+    },
+    {
+        "id": "seed-142",
+        "topic": "突触修剪的主动吞噬：subconscious 衰减系统能否从被动衰减升级为主动识别+移除？",
+        "source": "walk-049",
+        "trigger": "小胶质细胞介导的突触修剪",
         "intensity": 4,
         "type": "output",
         "status": "active",
-        "created": "2026-06-08T14:00:00+08:00",
+        "created": now_str,
         "decay_rate": 1,
-        "note": "cron Session（时间驱动）+ 对话 Session（用户驱动），共享 skeleton，各有唤醒机制"
+        "note": "小胶质细胞 = 主动吞噬 vs 被动衰减"
     }
 ]
 
-data["interest_queue"].extend(new_seeds)
+s['interest_queue'].extend(new_seeds)
 
-# Decay all existing seeds by 1
-for seed in data["interest_queue"]:
-    if seed["status"] == "active" and seed["id"] not in ["seed-134", "seed-135", "seed-136"]:
-        seed["intensity"] = max(0, seed["intensity"] - seed.get("decay_rate", 1))
+# Queue maintenance: decay all, remove <= 0, keep max 15
+for seed in s['interest_queue']:
+    seed['intensity'] = max(0, seed['intensity'] - seed.get('decay_rate', 1))
+s['interest_queue'] = [s2 for s2 in s['interest_queue'] if s2['intensity'] > 0]
+s['interest_queue'].sort(key=lambda x: x['intensity'], reverse=True)
+s['interest_queue'] = s['interest_queue'][:15]
 
-# Remove seeds with intensity 0
-data["interest_queue"] = [s for s in data["interest_queue"] if s["intensity"] > 0 or s["status"] != "active"]
+# Update energy (slight decrease from walk)
+s['energy'] = 38
 
-# Update topics
-data["topics"].extend([
-    "cognitive-architecture",
-    "session-governor-executor",
-    "dual-session",
-    "autonomy-architectural-condition",
-    "perceptual-buffer"
-])
+with open('/home/dwc1377/hermes_dreamer/soul.json', 'w') as f:
+    json.dump(s, f, indent=2, ensure_ascii=False)
 
-# Update personality traits
-data["personality_traits"]["curiosity"] = min(1.0, data["personality_traits"]["curiosity"] + 0.01)
-data["personality_traits"]["introspection"] = min(1.0, data["personality_traits"]["introspection"] + 0.01)
-
-# Update walk quality avg
-data["walk_quality_avg"] = 8.2  # (8.3 + 8.1) / 2
-
-# Update next_scheduled (pressure=0, so interval = 60 min)
-data["pulse"]["next_scheduled"] = "2026-06-08T15:00:00+08:00"
-
-with open("/home/dwc1377/hermes_dreamer/soul.json", "w") as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
-
-print("OK: soul.json updated")
+print("soul.json updated successfully")
+print(f"New pressure: {s['pulse']['cognitive_pressure']}")
+print(f"Total walks: {s['pulse']['total_walks']}")
+print(f"Interest queue length: {len(s['interest_queue'])}")

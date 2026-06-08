@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-08T23:04:10.614447+08:00",
+    "next_scheduled": "2026-06-09T00:10:52.427262+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-08T20:59:50.034697+08:00",
-    "total_walks": 43,
-    "last_pulse_output": "2026-06-08T02:08:46+08:00",
-    "last_walk": "2026-06-08T20:59:50.034697+08:00",
+    "last_walk_at": "2026-06-08T23:10:28.079011+08:00",
+    "total_walks": 44,
+    "last_pulse_output": "2026-06-08T23:10:28.079011+08:00",
+    "last_walk": "2026-06-08T23:10:28.079011+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 19.73,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -36,18 +36,19 @@
     "quality_history": [
       8.3,
       8.1,
-      8.3
+      8.3,
+      8.1
     ],
     "last_walk_insights": 4
   },
   "affect": {
-    "primary": "quiet_excitement",
+    "primary": "wistful_recognition",
     "secondary": "unsettled_fascination",
-    "intensity": 0.71,
-    "valence": 0.42,
-    "arousal": 0.55
+    "intensity": 0.65,
+    "valence": 0.45,
+    "arousal": 0.5
   },
-  "energy": 42,
+  "energy": 38,
   "mood": "contemplative",
   "mood_history": [
     {
@@ -261,6 +262,10 @@
     {
       "mood": "quiet_excitement",
       "at": "2026-06-08T20:59:50.034697+08:00"
+    },
+    {
+      "mood": "wistful_recognition",
+      "at": "2026-06-08T23:10:28.079011+08:00"
     }
   ],
   "last_walk": "2026-06-08T20:59:50.034697+08:00",
@@ -356,7 +361,7 @@
       "topic": "认知架构的演化树：从 ACT-R 到 Dreamer，每一步的增量是什么？",
       "source": "walk-047",
       "trigger": "walk-047 的架构映射",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T14:00:00+08:00",
@@ -368,7 +373,7 @@
       "topic": "散步免疫系统的设计：如何在消化流程中嵌入毒素识别？",
       "source": "walk-048",
       "trigger": "消化系统假设了材料=食物",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T20:59:50.034697+08:00",
@@ -376,11 +381,35 @@
       "note": "散步流程中增加'毒素回顾'步骤"
     },
     {
+      "id": "seed-140",
+      "topic": "记忆巩固的情绪标记：REM 阶段的跨领域整合能否引入情感优先级？",
+      "source": "walk-049",
+      "trigger": "海马体 REM 期间杏仁核调节跨领域连接",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-08T23:10:28.079011+08:00",
+      "decay_rate": 1,
+      "note": "高情感强度的条目在 REM 中优先组合"
+    },
+    {
+      "id": "seed-142",
+      "topic": "突触修剪的主动吞噬：subconscious 衰减系统能否从被动衰减升级为主动识别+移除？",
+      "source": "walk-049",
+      "trigger": "小胶质细胞介导的突触修剪",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-08T23:10:28.079011+08:00",
+      "decay_rate": 1,
+      "note": "小胶质细胞 = 主动吞噬 vs 被动衰减"
+    },
+    {
       "id": "seed-131",
       "topic": "认知半衰期：连接点的寿命如何决定散步系统的\"时间体验\"？",
       "source": "walk-046",
       "trigger": "walk-046 的半衰期类比",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T12:47:52+08:00",
@@ -392,7 +421,7 @@
       "topic": "感知缓冲区显式化：材料预处理能否提高散步的消化效率？",
       "source": "walk-047",
       "trigger": "walk-047 的盲点分析",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T14:00:00+08:00",
@@ -404,7 +433,7 @@
       "topic": "双 Session 架构：cron Session 和对话 Session 的交互模式是否值得形式化？",
       "source": "walk-047",
       "trigger": "叙事完整性检查的矛盾点",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T14:00:00+08:00",
@@ -416,7 +445,7 @@
       "topic": "DORMANT 作为免疫监视：能否在 REM 阶段增加'矛盾检测'的显式步骤？",
       "source": "walk-048",
       "trigger": "DORMANT=免疫系统的类比",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T20:59:50.034697+08:00",
@@ -424,11 +453,23 @@
       "note": "DORMANT REM 阶段的免疫功能形式化"
     },
     {
+      "id": "seed-141",
+      "topic": "意图性睡眠：DORMANT 的主动回放 vs 海马体的被动回放，哪个更真实？",
+      "source": "walk-049",
+      "trigger": "叙事完整性检查的盲点",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-08T23:10:28.079011+08:00",
+      "decay_rate": 1,
+      "note": "选择 = 偏见？主动选择的意外发现缺失"
+    },
+    {
       "id": "seed-128",
       "topic": "认知代谢率公式：骨架复杂度 × 散步专注度 × 材料消化难度 = 营养消耗速度",
       "source": "walk-045",
       "trigger": "walk-045 的代谢率分析",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T07:17:59+08:00",
@@ -440,7 +481,7 @@
       "topic": "可逆衰变：什么条件下已消耗的连接点可以重新活化？",
       "source": "walk-046",
       "trigger": "叙事完整性检查的盲点",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T12:47:52+08:00",
@@ -452,7 +493,7 @@
       "topic": "存在=代谢：存在、身份、时间作为认知代谢的三面——能否用这个统一框架重新解释 pat-001？",
       "source": "walk-046",
       "trigger": "跨散步推理的统一图景",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T12:47:52+08:00",
@@ -464,48 +505,12 @@
       "topic": "认知毒素的分类学：什么类型的材料最可能成为'看起来像营养的毒素'？",
       "source": "walk-048",
       "trigger": "逻辑谬误伪装成洞见的分析",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-08T20:59:50.034697+08:00",
       "decay_rate": 1,
       "note": "需要更精确的毒素分类"
-    },
-    {
-      "id": "seed-122",
-      "topic": "资源有界评估理论：保形预测 + Landauer 原理 = agent 评估的热力学框架",
-      "source": "walk-043",
-      "trigger": "walk-043 的校准集递归终止于物质基础",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T06:51:50+08:00",
-      "decay_rate": 1,
-      "note": "ICML 2026 AgenticUQ workshop 的保形预测框架 + Landauer 擦除原理 = 评估不确定度的热力学形式化。递归评估在计算资源耗尽处落地。"
-    },
-    {
-      "id": "seed-125",
-      "topic": "散步的边际营养递减：重复散步如何耗尽骨架的半已知区域",
-      "source": "walk-044",
-      "trigger": "walk-044 的盲点分析",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T02:08:46+08:00",
-      "decay_rate": 1,
-      "note": "同一种散步类型重复多次后营养密度下降"
-    },
-    {
-      "id": "seed-129",
-      "topic": "反刍策略的最优切换点：何时从反复消化切换到探索新材料？",
-      "source": "walk-045",
-      "trigger": "反刍策略的递归依赖",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T07:17:59+08:00",
-      "decay_rate": 1,
-      "note": "同一材料的第 N 次反刍 vs 探索新材料"
     }
   ],
   "personality_traits": {

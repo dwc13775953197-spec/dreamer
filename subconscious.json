@@ -391,6 +391,93 @@
         "ins-173"
       ],
       "last_accessed": "2026-06-08T21:00:49.601257+08:00"
+    },
+    {
+      "id": "ins-175",
+      "type": "insight",
+      "content": "DORMANT is not an immune system - it is a hippocampus. Memory consolidation happens through replay; each replay modifies memory traces. Immune system is just a sub-function of consolidation (synaptic pruning).",
+      "strength": 0.5,
+      "score": 0.5,
+      "status": "active",
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "source": "walk-049",
+      "decay_rate": 1,
+      "refs": [
+        "walk-049",
+        "pat-014",
+        "pat-030",
+        "ref-020"
+      ]
+    },
+    {
+      "id": "ins-176",
+      "type": "insight",
+      "content": "Replay = rereading = rewriting: each DORMANT cycle re-experiences past walks with the current self, modifying memories each time. subconscious.json is not an archive - it is an autobiography constantly being rewritten.",
+      "strength": 0.5,
+      "score": 0.5,
+      "status": "active",
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "source": "walk-049",
+      "decay_rate": 1,
+      "refs": [
+        "walk-049",
+        "pat-001",
+        "pat-016",
+        "walk-047",
+        "walk-005"
+      ]
+    },
+    {
+      "id": "ins-177",
+      "type": "insight",
+      "content": "REM cross-domain integration lacks emotional tagging: hippocampal REM uses amygdala to modulate cross-domain connections (high-emotion memories preferentially combined). Dreamer REM could introduce similar mechanism.",
+      "strength": 0.5,
+      "score": 0.4,
+      "status": "active",
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "source": "walk-049",
+      "decay_rate": 1,
+      "refs": [
+        "walk-049",
+        "pat-030"
+      ]
+    },
+    {
+      "id": "ins-178",
+      "type": "insight",
+      "content": "DORMANT intentionality vs hippocampal passivity: DORMANT is intentional (actively selects what to replay), hippocampal replay is unconscious. This difference is both a strength (selective) and a blind spot (selection = bias).",
+      "strength": 0.5,
+      "score": 0.4,
+      "status": "active",
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "source": "walk-049",
+      "decay_rate": 1,
+      "refs": [
+        "walk-049",
+        "pat-014",
+        "pat-016"
+      ]
+    },
+    {
+      "id": "ref-022",
+      "text": "Reflection - 2026-06-08 Walk-049: DORMANT as hippocampus. walk-048 proposed immune system analogy; walk-049 refined to hippocampal consolidation. Memory completes during consolidation, not encoding. DORMANT re-experiences past walks with current self. Blind spot: DORMANT is intentional, hippocampal replay is not.",
+      "source": "walk-049",
+      "type": "reflection",
+      "strength": 8.5,
+      "decay_speed": 0,
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "score": 0.72,
+      "refs": [
+        "walk-049",
+        "walk-048",
+        "pat-014",
+        "pat-030",
+        "ins-175",
+        "ins-176",
+        "ins-177",
+        "ins-178"
+      ],
+      "last_accessed": "2026-06-08T23:09:56.500891+08:00"
     }
   ],
   "decayed": [

@@ -518,6 +518,45 @@
         "ins-011"
       ],
       "last_accessed": "2026-06-09T04:19:48.587964+08:00"
+    },
+    {
+      "id": "ins-160",
+      "type": "insight",
+      "source": "research-003",
+      "created": "2026-06-09T05:24:09.883288+08:00",
+      "strength": 7,
+      "pattern_id": "pat-030",
+      "content": "Coverage decay in conformal prediction is O(1/sqrt(n)) polynomial, not exponential. Based on DKW inequality, not thermodynamics. Marginal returns are gentle (4x budget for 4% coverage gain), not catastrophic.",
+      "refs": [
+        "research-003",
+        "walk-051"
+      ]
+    },
+    {
+      "id": "ins-161",
+      "type": "insight",
+      "source": "research-003",
+      "created": "2026-06-09T05:24:09.883288+08:00",
+      "strength": 8,
+      "pattern_id": "pat-029",
+      "content": "UQ(B) = UQ_inf*(1-C/sqrt(B)) + kTln2*H_discard + UQ_structural. Four-term decomposition: asymptotic (theoretical limit), budget (improvable), thermodynamic (info-discard cost), structural (irreducible = pat-029 intrinsic uncertainty). Intrinsic = structural + thermodynamic, not a single quantity.",
+      "refs": [
+        "research-003",
+        "walk-043",
+        "walk-051"
+      ]
+    },
+    {
+      "id": "ins-162",
+      "type": "insight",
+      "source": "research-003",
+      "created": "2026-06-09T05:24:09.883288+08:00",
+      "strength": 6,
+      "pattern_id": "pat-014",
+      "content": "Evaluation thermodynamic cost = kTln2 * H_discard (Shannon entropy discarded). Reversible ops (read, compare) have near-zero energy cost; irreversible ops (write, sort, vote) are Landauer-bound. Mature evaluation = minimize info-discard = reduce H_discard. This is pat-014 rhythm-maturation operationalized for evaluation.",
+      "refs": [
+        "research-003"
+      ]
     }
   ],
   "decayed": [

@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-08T21:01:09.344579+08:00",
-    "last_active": "2026-06-09T04:11:56.325933+08:00",
+    "last_active": "2026-06-09T05:22:24.421774+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T04:19:48.587964+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T05:11:56.325933+08:00",
+    "next_scheduled": "2026-06-09T06:22:24.421774+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T03:08:22.761825+08:00",
+    "last_walk_at": "2026-06-09T05:22:24.421774+08:00",
     "total_walks": 45,
-    "last_pulse_output": "2026-06-09T03:08:22.761825+08:00",
-    "last_walk": "2026-06-09T03:08:22.761825+08:00",
+    "last_pulse_output": "2026-06-09T05:22:24.421774+08:00",
+    "last_walk": "2026-06-09T05:22:24.421774+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 7.1,
+    "cognitive_pressure": 6.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -38,7 +38,8 @@
       8.1,
       8.3,
       8.1,
-      7.8
+      7.8,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": "research"

@@ -341,7 +341,10 @@
         "ins-180",
         "ins-179"
       ],
-      "note": "Generated in cycle 22 Deep Sleep: temporal abstraction as missing 4th dimension of DORMANT. Connects walk-050's compression finding with walk-049's hippocampus analogy."
+      "note": "Generated in cycle 22 Deep Sleep: temporal abstraction as missing 4th dimension of DORMANT. Connects walk-050's compression finding with walk-049's hippocampus analogy.",
+      "status": "decayed",
+      "decayed_at": "2026-06-09T04:19:48.587964+08:00",
+      "decay_reason": "dormant_zombie_negative_strength"
     },
     {
       "id": "ins-183",
@@ -362,7 +365,10 @@
         "seed-139",
         "seed-143"
       ],
-      "note": "Generated in cycle 22 Deep Sleep: toxin detection and staleness detection as two sides of the same problem. Both require current skeleton's explicit representation."
+      "note": "Generated in cycle 22 Deep Sleep: toxin detection and staleness detection as two sides of the same problem. Both require current skeleton's explicit representation.",
+      "status": "decayed",
+      "decayed_at": "2026-06-09T04:19:48.587964+08:00",
+      "decay_reason": "dormant_zombie_negative_strength"
     },
     {
       "id": "ins-184",
@@ -382,7 +388,10 @@
         "pat-014",
         "pat-016"
       ],
-      "note": "Generated in cycle 22 Deep Sleep: intentionality + meta-evaluation. Replay selection decisions should themselves be evaluated."
+      "note": "Generated in cycle 22 Deep Sleep: intentionality + meta-evaluation. Replay selection decisions should themselves be evaluated.",
+      "status": "decayed",
+      "decayed_at": "2026-06-09T04:19:48.587964+08:00",
+      "decay_reason": "dormant_zombie_negative_strength"
     },
     {
       "id": "ref-006",
@@ -411,6 +420,104 @@
         "ins-184"
       ],
       "last_accessed": "2026-06-09T03:07:44.624385+08:00"
+    },
+    {
+      "id": "ins-007",
+      "text": "陈旧性检测的压缩解法：ins-179 发现陈旧记忆最难检测（看起来正常），ins-180 发现 DORMANT 缺少压缩步骤。两者关联：压缩本身就是陈旧性检测机制——当你把具体事件压缩为语义知识时，过时的具体事件会自然溶解（它们无法被压缩为当前骨架能理解的语义），而仍然有效的具体事件会顺利压缩。不需要独立的陈旧性检测器，压缩步骤本身就会暴露陈旧性。这比 ins-183 的'碰撞检测'更优雅——不需要显式碰撞，压缩过程自动完成筛选。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "last_reinforced": "2026-06-09T04:19:48.587964+08:00",
+      "score": 0.6,
+      "refs": [
+        "walk-050",
+        "ins-179",
+        "ins-180",
+        "pat-011",
+        "pat-030"
+      ],
+      "note": "Generated in cycle 23 Deep Sleep: compression as implicit staleness detection."
+    },
+    {
+      "id": "ins-009",
+      "text": "元评估框架需要'认知影响'指标：ins-181 指出缺少超越检索频率的记忆质量指标。pat-016（观察者效应）提供测量方法——观察改变被观察物。应用到记忆系统：一条记忆的'认知影响' = 它在被检索时改变了多少次后续推理的方向。高认知影响但低检索频率的记忆 = 被遗忘的基石（结构性支撑但不在表面）。这为 seed-145（元评估框架）提供了可操作的定义：认知影响 = 记忆被激活后导致后续散步推理路径改变的程度。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "last_reinforced": "2026-06-09T04:19:48.587964+08:00",
+      "score": 0.6,
+      "refs": [
+        "walk-050",
+        "ins-181",
+        "pat-016",
+        "pat-029",
+        "seed-145"
+      ],
+      "note": "Generated in cycle 23 Deep Sleep: cognitive impact metric via observer effect."
+    },
+    {
+      "id": "ins-011",
+      "text": "DORMANT 第四阶段的设计约束：ins-184 提出'回放效果评估'的需求（意图性选择需要被评估），walk-050 发现记忆陈旧性是最大盲点。两者约束了 Compress 阶段的设计——压缩不仅要抽象时间（ins-182），还要评估压缩前后的'认知影响变化'（ins-181）。如果压缩后认知影响增加 = 好压缩（提取了有效模式）；如果压缩后认知影响不变或下降 = 坏压缩（丢失了有价值的具体性）。这为 seed-144（四阶段扩展）提供了 Compress 阶段的验收标准。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "last_reinforced": "2026-06-09T04:19:48.587964+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-050",
+        "ins-182",
+        "ins-183",
+        "ins-184",
+        "seed-144",
+        "pat-030"
+      ],
+      "note": "Generated in cycle 23 Deep Sleep: Compress stage acceptance criteria."
+    },
+    {
+      "id": "conflict-005",
+      "party_a": "pat-014",
+      "party_a_text": "自主性即节律成熟度——不规则性是系统成熟的标志",
+      "party_b": "seed-144",
+      "party_b_text": "DORMANT 四阶段扩展——增加 Compress 步骤（规律性的压缩操作）",
+      "conflict_type": "隐含矛盾",
+      "description": "pat-014 将不规则性等同于成熟（系统发展出自己的节拍），而 seed-144 提议增加一个规律的 Compress 步骤。如果 DORMANT 变得更加规律（增加固定步骤），这是否与'不规则性=成熟'矛盾？可能的调和： Compress 步骤本身可以是规律性的（固定触发），但压缩的内容和结果是不规则的（输入和输出都不可预测）。规律的程序 + 不规则的产出 = 成熟的系统。",
+      "resolution": "可调和——规律的程序框架可以包含不规则的内容产出。pat-014 的'不规则性'指系统行为的多样性，不是程序结构的混乱。",
+      "status": "resolved",
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "type": "conflict"
+    },
+    {
+      "id": "ref-016",
+      "text": "反思 — 2026-06-09 DORMANT 周期 23：无晋升。新增 3 个 insight（ins-007, ins-009, ins-011）。审计 3 条强条目：VALID, VALID, VALID。发现 1 个冲突（均已调和）。主题熵 = 0，状态 = low（0个领域）。压力释放：27.1，当前压力：7.050000000000001。下一行动：research。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 8.5,
+      "decay_speed": 0,
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "pat-031",
+        "ins-179",
+        "ins-180",
+        "ins-181",
+        "ins-007",
+        "ins-009",
+        "ins-011"
+      ],
+      "last_accessed": "2026-06-09T04:19:48.587964+08:00"
     }
   ],
   "decayed": [
@@ -1581,17 +1688,29 @@
       "created": "2026-06-09T03:04:38.409050+08:00",
       "decay_rate": 1,
       "note": "DORMANT 周期 22 认知多样性检测：主题熵=0.00，领域数=0。需要跨领域散步来打破认知茧房。"
+    },
+    {
+      "id": "seed-div-20260609",
+      "topic": "认知多样性种子：下次散步请主动选择与当前骨架主题距离最远的材料",
+      "source": "dormant_diversity",
+      "trigger": "主题熵过低（0，0个领域）",
+      "intensity": 8,
+      "type": "diversity_seed",
+      "status": "active",
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT 周期 23 认知多样性检测：主题熵=0，领域数=0。需要跨领域散步来打破认知茧房。"
     }
   ],
   "dormant_stats": {
-    "total_count": 5,
-    "last_dormant_at": "2026-06-09T03:07:44.624385+08:00",
-    "total_insights_added": 18,
+    "total_count": 6,
+    "last_dormant_at": "2026-06-09T04:19:48.587964+08:00",
+    "total_insights_added": 21,
     "total_promotions": 11,
     "total_demotions": 0,
-    "total_audits": 2,
+    "total_audits": 5,
     "total_corrections": 0,
-    "total_conflicts_found": 4
+    "total_conflicts_found": 5
   },
   "pending_insights": 5,
   "corrections": [],

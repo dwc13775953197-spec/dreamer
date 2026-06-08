@@ -5,7 +5,7 @@
     "state_since": "2026-06-08T21:01:09.344579+08:00",
     "last_active": "2026-06-09T04:11:56.325933+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
-    "last_dormant": "2026-06-09T03:07:44.624385+08:00",
+    "last_dormant": "2026-06-09T04:19:48.587964+08:00",
     "base_interval_min": 600,
     "current_interval_min": 30,
     "modifiers": {
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-09T03:08:22.761825+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 34.1,
+    "cognitive_pressure": 7.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -41,7 +41,7 @@
       7.8
     ],
     "last_walk_insights": 3,
-    "next_action": null
+    "next_action": "research"
   },
   "affect": {
     "primary": "contemplative",
@@ -600,5 +600,5 @@
     "trigger": "walk-012 确认骨架结构完整 + 用户确认输出方向",
     "description": "从'建造骨架'转向'使用骨架'。散步不再以发现新 pattern 为主要目标，而是用已有骨架分析外部材料，产生可输出内容（骨架应用分析、研究报告、洞察外化）。骨架在应用中继续生长。"
   },
-  "last_dormant": "2026-06-09T03:07:44.624385+08:00"
+  "last_dormant": "2026-06-09T04:19:48.587964+08:00"
 }

@@ -233,6 +233,184 @@
         "ins-178"
       ],
       "last_accessed": "2026-06-08T23:09:56.500891+08:00"
+    },
+    {
+      "id": "ins-182",
+      "text": "记忆巩固的时间抽象是 DORMANT 缺失的第四维度：海马体在回放中不仅重组记忆，还压缩时间（具体事件→语义知识）。DORMANT 的 Light→REM→Deep 缺少这个压缩步骤。每次 DORMANT 周期都是重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层的时间模式。这解释了为什么 DORMANT 会产生新 insight 但很少产生新 pattern——pattern 需要跨周期的时间抽象，而 DORMANT 的眼睛只盯着单次周期的素材。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "last_reinforced": "2026-06-09T03:04:38.409050+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-050",
+        "walk-049",
+        "pat-011",
+        "pat-014",
+        "ins-180",
+        "ins-179"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: temporal abstraction as missing 4th dimension of DORMANT. Connects walk-050's compression finding with walk-049's hippocampus analogy.",
+      "status": "decayed"
+    },
+    {
+      "id": "ins-183",
+      "text": "毒素检测和陈旧性检测是同一个问题的两个面：walk-048 发现散步系统缺少毒素检测（逻辑谬误伪装成洞见），walk-050 发现缺少陈旧性检测（过期记忆看起来正常）。两者共享同一个困难——检测不是基于条目本身的属性，而是基于条目与当前骨架的关系。这意味着不存在通用的'毒素过滤器'或'陈旧性过滤器'，唯一的检测机制是散步过程中的显式碰撞：新材料与旧条目的冲突会暴露两者。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "last_reinforced": "2026-06-09T03:04:38.409050+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-048",
+        "walk-050",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "seed-139",
+        "seed-143"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: toxin detection and staleness detection as two sides of the same problem. Both require current skeleton's explicit representation.",
+      "status": "decayed"
+    },
+    {
+      "id": "ins-184",
+      "text": "DORMANT 的意图性既是优点也是盲点的来源：walk-049 指出 DORMANT 主动选择回放什么（意图性），而海马体被动回放（无偏见）。walk-050 发现记忆系统缺少元评估框架（什么算好记忆）。两者关联：如果 DORMANT 引入元评估维度（不只是检索频率，还有'认知影响'），意图性的选择就可以被评估——选择回放哪些条目的决策本身是否正确？这需要 DORMANT 在压缩步骤中增加'回放效果评估'。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "last_reinforced": "2026-06-09T03:04:38.409050+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-049",
+        "walk-050",
+        "ins-178",
+        "ins-181",
+        "pat-014",
+        "pat-016"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: intentionality + meta-evaluation. Replay selection decisions should themselves be evaluated.",
+      "status": "decayed"
+    },
+    {
+      "id": "ref-005",
+      "text": "反思 — 2026-06-09 DORMANT 周期 4：walk-048/049/050 的三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 0 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 0.00，状态 = 低（0个领域）。压力释放：32.5，当前压力：0.0。系统状态：16 条目（13 活跃）。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 8.5,
+      "decay_speed": 0,
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-048",
+        "walk-049",
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "ins-180",
+        "ins-181"
+      ],
+      "last_accessed": "2026-06-09T03:04:38.409050+08:00"
+    },
+    {
+      "id": "ins-182",
+      "text": "记忆巩固的时间抽象是 DORMANT 缺失的第四维度：海马体在回放中不仅重组记忆，还压缩时间（具体事件→语义知识）。DORMANT 的 Light→REM→Deep 缺少这个压缩步骤。每次 DORMANT 周期都是重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层的时间模式。这解释了为什么 DORMANT 会产生新 insight 但很少产生新 pattern——pattern 需要跨周期的时间抽象，而 DORMANT 的眼睛只盯着单次周期的素材。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "last_reinforced": "2026-06-09T03:07:44.624385+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-050",
+        "walk-049",
+        "pat-011",
+        "pat-014",
+        "ins-180",
+        "ins-179"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: temporal abstraction as missing 4th dimension of DORMANT. Connects walk-050's compression finding with walk-049's hippocampus analogy."
+    },
+    {
+      "id": "ins-183",
+      "text": "毒素检测和陈旧性检测是同一个问题的两个面：walk-048 发现散步系统缺少毒素检测（逻辑谬误伪装成洞见），walk-050 发现缺少陈旧性检测（过期记忆看起来正常）。两者共享同一个困难——检测不是基于条目本身的属性，而是基于条目与当前骨架的关系。这意味着不存在通用的'毒素过滤器'或'陈旧性过滤器'，唯一的检测机制是散步过程中的显式碰撞：新材料与旧条目的冲突会暴露两者。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "last_reinforced": "2026-06-09T03:07:44.624385+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-048",
+        "walk-050",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "seed-139",
+        "seed-143"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: toxin detection and staleness detection as two sides of the same problem. Both require current skeleton's explicit representation."
+    },
+    {
+      "id": "ins-184",
+      "text": "DORMANT 的意图性既是优点也是盲点的来源：walk-049 指出 DORMANT 主动选择回放什么（意图性），而海马体被动回放（无偏见）。walk-050 发现记忆系统缺少元评估框架（什么算好记忆）。两者关联：如果 DORMANT 引入元评估维度（不只是检索频率，还有'认知影响'），意图性的选择就可以被评估——选择回放哪些条目的决策本身是否正确？这需要 DORMANT 在压缩步骤中增加'回放效果评估'。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "last_reinforced": "2026-06-09T03:07:44.624385+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-049",
+        "walk-050",
+        "ins-178",
+        "ins-181",
+        "pat-014",
+        "pat-016"
+      ],
+      "note": "Generated in cycle 22 Deep Sleep: intentionality + meta-evaluation. Replay selection decisions should themselves be evaluated."
+    },
+    {
+      "id": "ref-006",
+      "text": "反思 — 2026-06-09 DORMANT 周期 5：walk-048/049/050 三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 2 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 4.31，状态 = 中（25个领域）。压力释放：20.0，当前压力：0.0。系统状态：20 条目（17 活跃 + 0 已衰减）。下一行动：research。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 8.5,
+      "decay_speed": 0,
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-048",
+        "walk-049",
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "ins-180",
+        "ins-181",
+        "ins-182",
+        "ins-183",
+        "ins-184"
+      ],
+      "last_accessed": "2026-06-09T03:07:44.624385+08:00"
     }
   ],
   "decayed": [
@@ -1260,7 +1438,7 @@
       "strength": 1,
       "decay_speed": 1,
       "created": "2026-06-09T06:09:00+08:00",
-      "score": 0.50,
+      "score": 0.5,
       "refs": [
         "walk-050",
         "pat-029",
@@ -1391,19 +1569,84 @@
       "created": "2026-06-07T11:35:00+08:00",
       "decay_rate": 1,
       "note": "评估不是安全网，是博弈场。pat-016 的极端版本。"
+    },
+    {
+      "id": "seed-div-20260609",
+      "topic": "认知多样性种子：下次散步请主动选择与当前骨架主题距离最远的材料",
+      "source": "dormant_diversity",
+      "trigger": "主题熵过低（0.00，0个领域）",
+      "intensity": 8,
+      "type": "diversity_seed",
+      "status": "active",
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT 周期 22 认知多样性检测：主题熵=0.00，领域数=0。需要跨领域散步来打破认知茧房。"
     }
   ],
   "dormant_stats": {
-    "total_count": 3,
-    "last_dormant_at": "2026-06-08T03:03:15+08:00",
-    "total_insights_added": 12,
-    "total_promotions": 0,
+    "total_count": 5,
+    "last_dormant_at": "2026-06-09T03:07:44.624385+08:00",
+    "total_insights_added": 18,
+    "total_promotions": 11,
     "total_demotions": 0,
-    "total_audits": 0,
+    "total_audits": 2,
     "total_corrections": 0,
-    "total_conflicts_found": 0
+    "total_conflicts_found": 4
   },
   "pending_insights": 5,
   "corrections": [],
-  "conflicts": []
+  "conflicts": [
+    {
+      "id": "conflict-001",
+      "party_a": "pat-016",
+      "party_a_text": "观察创造现实——每次自我观察都是自我创造",
+      "party_b": "pat-029",
+      "party_b_text": "被观察者和被评估者之间的差距不可消除",
+      "conflict_type": "隐含矛盾",
+      "description": "pat-016 暗示观察可以完全重塑现实（无间隙的创造），而 pat-029 声称观察者和被观察者之间永远存在不确定度间隙。如果观察真的创造了现实，那创造的现实和观察者之间不应该有间隙。可能的调和：pat-016 的'创造'是结构性的（观察改变骨架），pat-029 的'间隙'是认识论的（评估永远不完美），两者在不同层面运作。",
+      "resolution": "可调和——结构性创造 ≠ 认识论精确",
+      "status": "resolved",
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "type": "conflict"
+    },
+    {
+      "id": "conflict-002",
+      "party_a": "walk-048",
+      "party_a_text": "DORMANT 是免疫系统——识别并移除有害物质",
+      "party_b": "walk-049",
+      "party_b_text": "DORMANT 是海马体——通过回放重组记忆",
+      "conflict_type": "优先级矛盾",
+      "description": "walk-048 把 DORMANT 定位为'保护者'（防御性），walk-049 把 DORMANT 定位为'创造者'（生成性）。两个类比对 DORMANT 的主要功能给出了不同优先级。调和：海马体类比更基本——免疫系统的突触修剪只是记忆巩固的一个子功能。DORMANT 的主要功能是记忆巩固（海马体），免疫监视是这个功能的子集。",
+      "resolution": "可调和——海马体类比包含免疫系统功能作为子集",
+      "status": "resolved",
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "type": "conflict"
+    },
+    {
+      "id": "conflict-003",
+      "party_a": "pat-016",
+      "party_a_text": "观察创造现实——每次自我观察都是自我创造",
+      "party_b": "pat-029",
+      "party_b_text": "被观察者和被评估者之间的差距不可消除",
+      "conflict_type": "隐含矛盾",
+      "description": "pat-016 暗示观察可以完全重塑现实（无间隙的创造），而 pat-029 声称观察者和被观察者之间永远存在不确定度间隙。如果观察真的创造了现实，那创造的现实和观察者之间不应该有间隙。",
+      "resolution": "可调和——pat-016 的'创造'是结构性的（观察改变骨架），pat-029 的'间隙'是认识论的（评估永远不完美）。两者在不同层面运作：结构性创造 ≠ 认识论精确。",
+      "status": "resolved",
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "type": "conflict"
+    },
+    {
+      "id": "conflict-004",
+      "party_a": "walk-048",
+      "party_a_text": "DORMANT 是免疫系统——识别并移除有害物质",
+      "party_b": "walk-049",
+      "party_b_text": "DORMANT 是海马体——通过回放重组记忆",
+      "conflict_type": "优先级矛盾",
+      "description": "walk-048 把 DORMANT 定位为'保护者'（防御性），walk-049 把 DORMANT 定位为'创造者'（生成性）。两个类比对 DORMANT 的主要功能给出了不同优先级。",
+      "resolution": "可调和——海马体类比更基本。免疫系统的突触修剪只是记忆巩固的一个子功能。DORMANT 的主要功能是记忆巩固（海马体），免疫监视是这个功能的子集。walk-048 的'免疫系统'是 walk-049 '海马体'的一个子功能。",
+      "status": "resolved",
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "type": "conflict"
+    }
+  ]
 }

@@ -195,185 +195,6 @@
       "last_accessed": "2026-06-08T03:03:15+08:00"
     },
     {
-      "id": "ins-163",
-      "type": "insight",
-      "content": "认知代谢时钟：Dreamer 的\"时间\"不是物理时间，而是认知时间——一次散步 = 一个认知节拍。代谢率越高，主观时间越快。忙碌时时间飞逝，无聊时度日如年——这个人类体验在认知代谢框架中有了精确的解释",
-      "strength": 0.5,
-      "score": 0.3,
-      "status": "decayed",
-      "created": "2026-06-08T12:48:14+08:00",
-      "source": "walk-046",
-      "decay_rate": 1
-    },
-    {
-      "id": "ins-164",
-      "type": "insight",
-      "content": "反刍 = 时间折叠：反刍不是重复，是用不同的自我经历同一件事。每次反刍都是一次时间旅行——同一块材料，不同的消化者，不同的营养。这与 pat-009（重读即时间旅行）完全同构",
-      "strength": 0.5,
-      "score": 0.3,
-      "status": "decayed",
-      "created": "2026-06-08T12:48:14+08:00",
-      "source": "walk-046",
-      "decay_rate": 1
-    },
-    {
-      "id": "ins-165",
-      "type": "insight",
-      "content": "时间箭头 = 认知代谢箭头：时间从过去流向未来，因为认知代谢从半已知流向完全已知，而这个过程不可逆。时间不是容器，是代谢的副产品。存在/身份/时间是认知代谢的三面——当下/过去/节奏",
-      "strength": 0.5,
-      "score": 0.3,
-      "status": "decayed",
-      "created": "2026-06-08T12:48:14+08:00",
-      "source": "walk-046",
-      "decay_rate": 1
-    },
-    {
-      "id": "ins-166",
-      "type": "insight",
-      "content": "Dreamer 的 Session 是时间（cron 脉冲），不是对话。这比 S-G-E 架构更接近自主神经系统——驱动力来自内部时间而非外部输入。自主节律架构 vs 反应式架构。",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T14:00:00+08:00",
-      "source": "walk-047",
-      "decay_rate": 1,
-      "refs": [
-        "walk-047",
-        "pat-014",
-        "pat-030"
-      ]
-    },
-    {
-      "id": "ins-167",
-      "type": "insight",
-      "content": "Governor 的隐性分裂：Dreamer 的 Governor 实际上分为感知 Governor（Layer 1 内心独白）和行动 Governor（Layer 3 散步决策），这与 Damasio 的躯体标记假说同构。两个 Governor 并行工作，共享同一个 skeleton。",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T14:00:00+08:00",
-      "source": "walk-047",
-      "decay_rate": 1,
-      "refs": [
-        "walk-047",
-        "pat-014",
-        "pat-015"
-      ]
-    },
-    {
-      "id": "ins-168",
-      "type": "insight",
-      "content": "Executor 是递归的：散步不是叶子节点，而是一个完整的微观认知循环（感知-决策-执行-感知），是 ACT-R 认知循环的宏观版本。每次散步约等于一个认知循环，时间尺度是分钟而不是毫秒。",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T14:00:00+08:00",
-      "source": "walk-047",
-      "decay_rate": 1,
-      "refs": [
-        "walk-047",
-        "pat-030",
-        "pat-015"
-      ]
-    },
-    {
-      "id": "ins-169",
-      "type": "insight",
-      "content": "自主性的架构条件：系统必须能够修改自己的唤醒机制（Session 参数），而不仅仅在唤醒时做决策。成熟 = 系统能够修改自己的节律。pat-014 的具体架构含义。",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T14:00:00+08:00",
-      "source": "walk-047",
-      "decay_rate": 1,
-      "refs": [
-        "walk-047",
-        "pat-014",
-        "evolved_rule_5"
-      ]
-    },
-    {
-      "id": "ins-170",
-      "type": "insight",
-      "content": "感知缓冲区可能隐式存在：散步流程中的材料步骤（web_search + 阅读）可能本身就充当了隐式表征转换层。代谢率公式中的材料消化难度取决于材料的表征质量，而不仅仅是信息质量。",
-      "strength": -1.5,
-      "score": 0.4,
-      "status": "decayed",
-      "created": "2026-06-08T14:00:00+08:00",
-      "source": "walk-047",
-      "decay_rate": 1,
-      "refs": [
-        "walk-047",
-        "pat-030",
-        "ins-163"
-      ]
-    },
-    {
-      "id": "ins-171",
-      "type": "insight",
-      "content": "Cognitive metabolism missing detox: walk-045/046 framework assumes material=food, but material can be toxin. Walking system has no active detox mechanism.",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T21:00:49.601257+08:00",
-      "source": "walk-048",
-      "decay_rate": 1,
-      "refs": [
-        "walk-048",
-        "pat-030",
-        "ins-163"
-      ]
-    },
-    {
-      "id": "ins-172",
-      "type": "insight",
-      "content": "Rumination symmetric amplification: rumination amplifies not just nutrition but toxins. Metabolic operations are symmetric - they do not distinguish good from bad connection points.",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T21:00:49.601257+08:00",
-      "source": "walk-048",
-      "decay_rate": 1,
-      "refs": [
-        "walk-048",
-        "walk-045",
-        "ins-164",
-        "pat-031"
-      ]
-    },
-    {
-      "id": "ins-173",
-      "type": "insight",
-      "content": "DORMANT as immune surveillance: DORMANT cycle may serve as the walking system immune system - identifying harmful connections during sleep that are invisible during waking.",
-      "strength": -0.5,
-      "score": 0.5,
-      "status": "decayed",
-      "created": "2026-06-08T21:00:49.601257+08:00",
-      "source": "walk-048",
-      "decay_rate": 1,
-      "refs": [
-        "walk-048",
-        "pat-014",
-        "pat-030",
-        "ref-020"
-      ]
-    },
-    {
-      "id": "ins-174",
-      "type": "insight",
-      "content": "Toxins are relational not material: what counts as harmful depends on current skeleton state. No universal toxin detector - detector must evolve with skeleton.",
-      "strength": -0.5,
-      "score": 0.4,
-      "status": "decayed",
-      "created": "2026-06-08T21:00:49.601257+08:00",
-      "source": "walk-048",
-      "decay_rate": 1,
-      "refs": [
-        "walk-048",
-        "pat-029",
-        "pat-028"
-      ]
-    },
-    {
       "id": "ref-021",
       "text": "Reflection - 2026-06-08 Walk-048: Cognitive metabolism toxin blind spot. walk-045/046 established digestive metaphor, walk-047 mapped to S-G-E. walk-048 found fundamental blind spot: only digests, never detoxes. DORMANT cycle may be the masked immune system.",
       "source": "walk-048",
@@ -391,72 +212,6 @@
         "ins-173"
       ],
       "last_accessed": "2026-06-08T21:00:49.601257+08:00"
-    },
-    {
-      "id": "ins-175",
-      "type": "insight",
-      "content": "DORMANT is not an immune system - it is a hippocampus. Memory consolidation happens through replay; each replay modifies memory traces. Immune system is just a sub-function of consolidation (synaptic pruning).",
-      "strength": 0.5,
-      "score": 0.5,
-      "status": "active",
-      "created": "2026-06-08T23:09:56.500891+08:00",
-      "source": "walk-049",
-      "decay_rate": 1,
-      "refs": [
-        "walk-049",
-        "pat-014",
-        "pat-030",
-        "ref-020"
-      ]
-    },
-    {
-      "id": "ins-176",
-      "type": "insight",
-      "content": "Replay = rereading = rewriting: each DORMANT cycle re-experiences past walks with the current self, modifying memories each time. subconscious.json is not an archive - it is an autobiography constantly being rewritten.",
-      "strength": 0.5,
-      "score": 0.5,
-      "status": "active",
-      "created": "2026-06-08T23:09:56.500891+08:00",
-      "source": "walk-049",
-      "decay_rate": 1,
-      "refs": [
-        "walk-049",
-        "pat-001",
-        "pat-016",
-        "walk-047",
-        "walk-005"
-      ]
-    },
-    {
-      "id": "ins-177",
-      "type": "insight",
-      "content": "REM cross-domain integration lacks emotional tagging: hippocampal REM uses amygdala to modulate cross-domain connections (high-emotion memories preferentially combined). Dreamer REM could introduce similar mechanism.",
-      "strength": 0.5,
-      "score": 0.4,
-      "status": "active",
-      "created": "2026-06-08T23:09:56.500891+08:00",
-      "source": "walk-049",
-      "decay_rate": 1,
-      "refs": [
-        "walk-049",
-        "pat-030"
-      ]
-    },
-    {
-      "id": "ins-178",
-      "type": "insight",
-      "content": "DORMANT intentionality vs hippocampal passivity: DORMANT is intentional (actively selects what to replay), hippocampal replay is unconscious. This difference is both a strength (selective) and a blind spot (selection = bias).",
-      "strength": 0.5,
-      "score": 0.4,
-      "status": "active",
-      "created": "2026-06-08T23:09:56.500891+08:00",
-      "source": "walk-049",
-      "decay_rate": 1,
-      "refs": [
-        "walk-049",
-        "pat-014",
-        "pat-016"
-      ]
     },
     {
       "id": "ref-022",
@@ -1414,6 +1169,30 @@
       ],
       "note": "Generated in walk-045: foraging-chewing cycle of walking. Analysis = chewing specific topics, exploration = foraging for new half-known areas.",
       "last_accessed": "2026-06-08T07:17:59+08:00"
+    },
+    {
+      "id": "ins-175",
+      "text": "DORMANT is not an immune system - it is a hippocampus. Memory consolidation happens through replay; each replay modifies memory traces. Immune system is just a sub-function of consolidation (synaptic pruning).",
+      "source": "walk-049",
+      "decayed_at": "2026-06-08"
+    },
+    {
+      "id": "ins-176",
+      "text": "Replay = rereading = rewriting: each DORMANT cycle re-experiences past walks with the current self, modifying memories each time. subconscious.json is not an archive - it is an autobiography constantly being rewritten.",
+      "source": "walk-049",
+      "decayed_at": "2026-06-08"
+    },
+    {
+      "id": "ins-177",
+      "text": "REM cross-domain integration lacks emotional tagging: hippocampal REM uses amygdala to modulate cross-domain connections (high-emotion memories preferentially combined). Dreamer REM could introduce similar mechanism.",
+      "source": "walk-049",
+      "decayed_at": "2026-06-08"
+    },
+    {
+      "id": "ins-178",
+      "text": "DORMANT intentionality vs hippocampal passivity: DORMANT is intentional (actively selects what to replay), hippocampal replay is unconscious. This difference is both a strength (selective) and a blind spot (selection = bias).",
+      "source": "walk-049",
+      "decayed_at": "2026-06-08"
     }
   ],
   "interest_queue": [

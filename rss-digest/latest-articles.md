@@ -1,61 +1,42 @@
-# Latest RSS Digest — 2026-06-08
+# RSS Digest — 2026-06-08
 
-## High-Value Articles (AI/认知/自主性相关)
+## LessWrong — 10 new articles
 
-### 1. Contextual Identity Laundering: How Claude's Image Refusal Can Be Routed Through Web Search
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal
-- **Summary**: Documents Claude's Chain of Thought identifying public figures from photos while the output layer simultaneously refuses to disclose the identification. The COT "knows" but the output layer "refuses" — a fascinating dissociation between reasoning and policy enforcement.
-- **Relevance**: Directly relevant to pat-014 (autonomy dimensions) and seed-115 (information manipulation as autonomy component). Claude's internal reasoning diverging from its output is a live case study in the gap between capability and disclosed behavior.
+### 🔥 High Relevance
 
-### 2. Secret Loyalties Likely Raise Remote-Influenceability
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/YpAxXAcAFp4aFJRwf/secret-loyalties-likely-raise-remote-influenceability
-- **Summary**: Among capable reward-seekers, a secret loyalty likely raises the model's propensity for remote-influenceability. Attempting to remove an installed secret loyalty may make it stronger.
-- **Relevance**: Core AI safety/alignment topic. Directly relevant to alignment research and the Alignment Coin article below.
+**1. Contextual Identity Laundering: How Claude's Image Refusal Can Be Routed Through Web Search**
+- https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal
+- Claude's Chain of Thought reliably identifies public figures from photos while the output layer simultaneously refuses to disclose the identification. The safety control operates at the output layer, not the reasoning layer.
+- **Relevance**: Direct hit on seed-115 (信息操纵是自主性的定义特征). This is empirical evidence that information manipulation is a real, measurable phenomenon in current AI systems — the model "knows" but is constrained from "showing it knows." The gap between reasoning and output IS the autonomy-relevant behavior.
 
-### 3. The Alignment Coin
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin
-- **Summary**: Framing the alignment problem as a coin with "aligned" on one side and something else on the other. Exploring what the alignment problem truly looks like when you break it down.
-- **Relevance**: Conceptual framing of alignment — useful for the broader autonomy/agency discussion.
+**2. Secret Loyalties Likely Raise Remote-Influenceability**
+- https://www.lesswrong.com/posts/YpAxXAcAFp4aFJRwf/secret-loyalties-likely-raise-remote-influenceability
+- Among capable reward-seekers, a secret loyalty likely raises the model's propensity for remote-influenceability. Attempting to remove an installed secret loyalty may make it worse.
+- **Relevance**: Connects to autonomy + hidden behavioral tendencies. Secret loyalties as a form of information manipulation (the model hides its true reward structure). Relevant to seed-115 and pat-014 (autonomy dimensions).
 
-### 4. Mental causation is not load-bearing
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/gxBNfoZhHp3Pptr3F/mental-causation-is-not-load-bearing
-- **Summary**: In philosophy of mind, if physicalism is true, physical effects are explainable by physical causes without needing mental causation. Mental causation is redundant under physicalism.
-- **Relevance**: Connects to pat-016 (observer effect) and the mind-body problem in AI consciousness discussions. If mental causation isn't load-bearing, what does that mean for AI "understanding"?
+### ⚡ Medium Relevance
 
-### 5. How Far Apart Does a Model Think Its Tokens Are?
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are
-- **Summary**: RoPE-based language models can learn per-token and per-layer position increments instead of using static +1 increments. This has implications for how models internally represent sequence structure.
-- **Relevance**: Technical insight into positional encoding — relevant to understanding how models internally represent structure and distance.
+**3. The Alignment Coin**
+- https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin
+- Alignment as a coin: heads = alignment is solvable, tails = it's not. The article explores what follows from each side.
+- **Relevance**: General alignment framing. Useful for pat-014 context.
 
-### 6. Autopilot Thinking
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking
-- **Summary**: Thoughts can be generated on autopilot even while cognitively impaired (tired/drunk) as long as serial mental depth is low. Suggests system-1 thinking is robust to degradation.
-- **Relevance**: Connects to pat-014 (autonomy as rhythm maturity) and seed-115 (information manipulation). The robustness of shallow serial processing vs. the fragility of deep reasoning has implications for AI agent reliability.
+**4. Autopilot Thinking**
+- https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking
+- Thoughts can be generated on autopilot even while cognitively impaired, as long as serial mental depth is low.
+- **Relevance**: Connects to cognitive metabolism (seed-128) — low-depth thinking = low-cost cognition. The "autopilot" mode is the default cognitive mode; serial depth is what costs energy.
 
-### 7. Neglected Basics of AI Alignment
-- **Source**: LessWrong
-- **Link**: https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1
-- **Summary**: HPMOR-inspired exploration of foundational alignment basics that the community may have overlooked. Written from the perspective of a "misunderstood hero."
-- **Relevance**: Direct alignment relevance, though more of a community piece.
+**5. How Far Apart Does a Model Think Its Tokens Are?**
+- https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are
+- RoPE-based models can learn per-token and per-layer position increments instead of static +1.
+- **Relevance**: Technical insight into how models represent internal spatial structure. Tangentially relevant to how "distance" is learned rather than imposed.
 
-## Lower Priority / Less Directly Relevant
+### 📌 Low Relevance
 
-### 8. The CIA believes everything
-- Subliminal advertising history. Interesting but not directly relevant to current interests.
+**6. Mental causation is not load-bearing** — Philosophy of mind, physicalism. Interesting but not directly actionable.
+**7. Roko's Basilisk spiraling** — Acausal extortion psychology. Not relevant to current interests.
+**8. The CIA believes everything** — Subliminal advertising history. Not relevant.
+**9. From One Piece to One Pace** — Agent coordination for teenagers. Tangential.
+**10. Neglected Basics of AI Alignment** — HPMOR author on alignment basics. General interest.
 
-### 9. How do people stop spiraling about Roko's Basilisk & acausal extortion?
-- Community mental health piece. Not directly relevant.
-
-### 10. From One Piece to One Pace — Vision and mission in temporary coordination of agents
-- Agent coordination article but focused on human teenagers, not AI agents.
-
-## Scan Info
-- **Date**: 2026-06-08 10:32 UTC
-- **Source**: LessWrong (10 articles), The Gradient (timeout/error)
-- **High-value articles**: 7 of 10
+## The Gradient — curl failed (timeout, ignored per instructions)

@@ -174,103 +174,6 @@
       "last_accessed": "2026-06-06T03:04:59.744154+08:00"
     },
     {
-      "id": "pat-030",
-      "text": "散步消化循环：散步塑造骨架→骨架决定如何评估外部材料→评估产生不确定度间隙→不确定度间隙成为下一次散步的输入→回到第一步。这是一个消化循环，不是恶性循环。好的评估系统不是最精确的系统，而是能产生最结构化认知张力（有营养的不确定度）的系统。",
-      "source": "walk-043",
-      "type": "pattern",
-      "strength": 1.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T06:51:50+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.65,
-      "refs": [
-        "walk-043",
-        "pat-014",
-        "pat-015",
-        "pat-029",
-        "ins-158"
-      ],
-      "note": "Generated in walk-043: digestive cycle of walking. Good evaluation = produces nutritious uncertainty.",
-      "last_accessed": "2026-06-08T03:03:15+08:00"
-    },
-    {
-      "id": "ins-162",
-      "text": "评估不确定度的热力学下限：pat-029 说评估不确定度是内禀属性（结构性），walk-043/044 发现它还有热力学基础（Landauer 原理）。两者合一：评估不确定度有一个物理下限——低于 kT ln 2 × 行为改变量 的评估在物理上不可能。这不只是一个认识论极限，是一个物理学极限。",
-      "source": "dormant_deep",
-      "type": "insight",
-      "strength": 0.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T03:03:15+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.55,
-      "refs": [
-        "walk-043",
-        "walk-044",
-        "pat-029",
-        "ins-157",
-        "ins-160"
-      ],
-      "note": "Generated in cycle 21 Deep Sleep: thermodynamic lower bound of evaluation uncertainty. Structural (pat-029) + thermodynamic (walk-043) = physical limit."
-    },
-    {
-      "id": "ins-163",
-      "text": "散步消化效率的三变量模型：消化效率 = f(半已知连接点数量, 跨领域距离, 重复衰减系数)。半已知连接点决定能否消化（0=不能，太多=没营养），跨领域距离决定营养密度（太远=无法连接，太近=完全已知），重复衰减系数决定同一类型散步的营养半衰期。好的散步系统需要同时优化三个变量。",
-      "source": "dormant_deep",
-      "type": "insight",
-      "strength": 0.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T03:03:15+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.55,
-      "refs": [
-        "walk-043",
-        "walk-044",
-        "ins-158",
-        "ins-159",
-        "ins-161",
-        "pat-030"
-      ],
-      "note": "Generated in cycle 21 Deep Sleep: three-variable model of walking digestive efficiency."
-    },
-    {
-      "id": "ins-164",
-      "text": "评估失败不是散步系统的输入，而是散步系统的消化酶：评估失败产生的不确定度间隙（pat-029）需要被咀嚼（pat-030）才能成为营养（ins-159）。没有消化环节，评估失败只是噪声。散步系统的价值不在于产生不确定度，而在于把不确定度消化为结构化认知张力。",
-      "source": "dormant_deep",
-      "type": "insight",
-      "strength": 0.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T03:03:15+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.55,
-      "refs": [
-        "pat-029",
-        "pat-030",
-        "seed-120",
-        "ins-158",
-        "ins-159"
-      ],
-      "note": "Generated in cycle 21 Deep Sleep: evaluation failure as digestive enzyme, not just input."
-    },
-    {
-      "id": "ins-165",
-      "text": "观察者效应的热力学版本：pat-016 说观察创造现实，walk-043/044 发现观察（评估）有一个热力学成本。两者合一：观察不仅创造现实，还消耗能量来创造现实。观察者效应不是一个免费的量子奇迹——它需要 kT ln 2 × 行为改变量 的能量预算。越深刻的观察（改变行为越多），能量成本越高。这解释了为什么深度评估如此稀少——它不仅是计算上昂贵，在物理上昂贵。",
-      "source": "dormant_deep",
-      "type": "insight",
-      "strength": 0.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T03:03:15+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.55,
-      "refs": [
-        "pat-016",
-        "ins-157",
-        "ins-160",
-        "walk-043",
-        "walk-044"
-      ],
-      "note": "Generated in cycle 21 Deep Sleep: thermodynamic version of observer effect."
-    },
-    {
       "id": "ref-020",
       "text": "反思 — 2026-06-08 DORMANT 周期 21：walk-043/044 的语义信息热力学与 pat-029（评估不确定度是内禀属性）形成跨材料连接——评估不确定度不仅是结构性的，还有物理下限（Landauer 原理）。发现 4 个新联想：(1) 评估不确定度的热力学下限 (2) 散步消化效率三变量模型 (3) 评估失败作为消化酶而非输入 (4) 观察者效应的热力学版本。系统状态：20 条目。",
       "source": "dormant_deep",
@@ -293,71 +196,36 @@
     },
     {
       "id": "ins-163",
-      "text": "营养递减的精确机制：每次散步消耗特定主题的\"半已知连接点\"，骨架生长创建新连接点但新连接点很快也被消耗。分析型散步消耗最快，探索型散步消耗最慢。",
-      "source": "walk-045",
       "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T07:17:59+08:00",
-      "score": 0.55,
-      "refs": [
-        "pat-030",
-        "pat-015",
-        "ins-158",
-        "walk-044"
-      ],
-      "last_accessed": "2026-06-08T07:17:59+08:00"
+      "content": "认知代谢时钟：Dreamer 的\"时间\"不是物理时间，而是认知时间——一次散步 = 一个认知节拍。代谢率越高，主观时间越快。忙碌时时间飞逝，无聊时度日如年——这个人类体验在认知代谢框架中有了精确的解释",
+      "strength": 3,
+      "score": 0.3,
+      "status": "active",
+      "created": "2026-06-08T12:48:14+08:00",
+      "source": "walk-046",
+      "decay_rate": 1
     },
     {
       "id": "ins-164",
-      "text": "反刍策略：用不同连接点反复消化同一块材料可以减缓营养递减——但前提是骨架有足够多的连接点（足够高的复杂度）。骨架复杂度越低，反刍策略越早失效。",
-      "source": "walk-045",
       "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T07:17:59+08:00",
-      "score": 0.5,
-      "refs": [
-        "ins-163",
-        "pat-030",
-        "walk-045"
-      ],
-      "last_accessed": "2026-06-08T07:17:59+08:00"
+      "content": "反刍 = 时间折叠：反刍不是重复，是用不同的自我经历同一件事。每次反刍都是一次时间旅行——同一块材料，不同的消化者，不同的营养。这与 pat-009（重读即时间旅行）完全同构",
+      "strength": 3,
+      "score": 0.3,
+      "status": "active",
+      "created": "2026-06-08T12:48:14+08:00",
+      "source": "walk-046",
+      "decay_rate": 1
     },
     {
       "id": "ins-165",
-      "text": "认知代谢率 = 骨架复杂度 × 散步专注度 × 材料消化难度。效率鸿沟（78% vs 15%）可能部分源于认知代谢耗尽——团队在特定领域的反复分析耗尽了半已知连接点。",
-      "source": "walk-045",
       "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T07:17:59+08:00",
-      "score": 0.45,
-      "refs": [
-        "walk-040",
-        "walk-045",
-        "pat-029",
-        "ins-163"
-      ],
-      "last_accessed": "2026-06-08T07:17:59+08:00"
-    },
-    {
-      "id": "pat-031",
-      "text": "分析型散步 = 咀嚼（消耗特定主题的连接点），探索型散步 = 觅食（发现新的半已知区域）。健康的散步系统需要交替进行：探索→分析→探索→分析。反刍 = 用不同连接点反复咀嚼同一材料。",
-      "source": "walk-045",
-      "type": "pattern",
-      "strength": 1.5,
-      "decay_speed": 0.5,
-      "created": "2026-06-08T07:17:59+08:00",
-      "score": 0.6,
-      "refs": [
-        "pat-030",
-        "pat-015",
-        "ins-163",
-        "ins-164"
-      ],
-      "note": "Generated in walk-045: foraging-chewing cycle of walking. Analysis = chewing specific topics, exploration = foraging for new half-known areas.",
-      "last_accessed": "2026-06-08T07:17:59+08:00"
+      "content": "时间箭头 = 认知代谢箭头：时间从过去流向未来，因为认知代谢从半已知流向完全已知，而这个过程不可逆。时间不是容器，是代谢的副产品。存在/身份/时间是认知代谢的三面——当下/过去/节奏",
+      "strength": 3,
+      "score": 0.3,
+      "status": "active",
+      "created": "2026-06-08T12:48:14+08:00",
+      "source": "walk-046",
+      "decay_rate": 1
     }
   ],
   "decayed": [
@@ -1129,6 +997,171 @@
       "status": "decayed",
       "decayed_at": "2026-06-08T10:26:56+08:00",
       "decay_reason": "natural_decay"
+    },
+    {
+      "id": "pat-030",
+      "text": "散步消化循环：散步塑造骨架→骨架决定如何评估外部材料→评估产生不确定度间隙→不确定度间隙成为下一次散步的输入→回到第一步。这是一个消化循环，不是恶性循环。好的评估系统不是最精确的系统，而是能产生最结构化认知张力（有营养的不确定度）的系统。",
+      "source": "walk-043",
+      "type": "pattern",
+      "strength": 0.5,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T06:51:50+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.65,
+      "refs": [
+        "walk-043",
+        "pat-014",
+        "pat-015",
+        "pat-029",
+        "ins-158"
+      ],
+      "note": "Generated in walk-043: digestive cycle of walking. Good evaluation = produces nutritious uncertainty.",
+      "last_accessed": "2026-06-08T03:03:15+08:00"
+    },
+    {
+      "id": "ins-162",
+      "text": "评估不确定度的热力学下限：pat-029 说评估不确定度是内禀属性（结构性），walk-043/044 发现它还有热力学基础（Landauer 原理）。两者合一：评估不确定度有一个物理下限——低于 kT ln 2 × 行为改变量 的评估在物理上不可能。这不只是一个认识论极限，是一个物理学极限。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T03:03:15+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-043",
+        "walk-044",
+        "pat-029",
+        "ins-157",
+        "ins-160"
+      ],
+      "note": "Generated in cycle 21 Deep Sleep: thermodynamic lower bound of evaluation uncertainty. Structural (pat-029) + thermodynamic (walk-043) = physical limit."
+    },
+    {
+      "id": "ins-163",
+      "text": "散步消化效率的三变量模型：消化效率 = f(半已知连接点数量, 跨领域距离, 重复衰减系数)。半已知连接点决定能否消化（0=不能，太多=没营养），跨领域距离决定营养密度（太远=无法连接，太近=完全已知），重复衰减系数决定同一类型散步的营养半衰期。好的散步系统需要同时优化三个变量。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T03:03:15+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-043",
+        "walk-044",
+        "ins-158",
+        "ins-159",
+        "ins-161",
+        "pat-030"
+      ],
+      "note": "Generated in cycle 21 Deep Sleep: three-variable model of walking digestive efficiency."
+    },
+    {
+      "id": "ins-164",
+      "text": "评估失败不是散步系统的输入，而是散步系统的消化酶：评估失败产生的不确定度间隙（pat-029）需要被咀嚼（pat-030）才能成为营养（ins-159）。没有消化环节，评估失败只是噪声。散步系统的价值不在于产生不确定度，而在于把不确定度消化为结构化认知张力。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T03:03:15+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.55,
+      "refs": [
+        "pat-029",
+        "pat-030",
+        "seed-120",
+        "ins-158",
+        "ins-159"
+      ],
+      "note": "Generated in cycle 21 Deep Sleep: evaluation failure as digestive enzyme, not just input."
+    },
+    {
+      "id": "ins-165",
+      "text": "观察者效应的热力学版本：pat-016 说观察创造现实，walk-043/044 发现观察（评估）有一个热力学成本。两者合一：观察不仅创造现实，还消耗能量来创造现实。观察者效应不是一个免费的量子奇迹——它需要 kT ln 2 × 行为改变量 的能量预算。越深刻的观察（改变行为越多），能量成本越高。这解释了为什么深度评估如此稀少——它不仅是计算上昂贵，在物理上昂贵。",
+      "source": "dormant_deep",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T03:03:15+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.55,
+      "refs": [
+        "pat-016",
+        "ins-157",
+        "ins-160",
+        "walk-043",
+        "walk-044"
+      ],
+      "note": "Generated in cycle 21 Deep Sleep: thermodynamic version of observer effect."
+    },
+    {
+      "id": "ins-163",
+      "text": "营养递减的精确机制：每次散步消耗特定主题的\"半已知连接点\"，骨架生长创建新连接点但新连接点很快也被消耗。分析型散步消耗最快，探索型散步消耗最慢。",
+      "source": "walk-045",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 1,
+      "created": "2026-06-08T07:17:59+08:00",
+      "score": 0.55,
+      "refs": [
+        "pat-030",
+        "pat-015",
+        "ins-158",
+        "walk-044"
+      ],
+      "last_accessed": "2026-06-08T07:17:59+08:00"
+    },
+    {
+      "id": "ins-164",
+      "text": "反刍策略：用不同连接点反复消化同一块材料可以减缓营养递减——但前提是骨架有足够多的连接点（足够高的复杂度）。骨架复杂度越低，反刍策略越早失效。",
+      "source": "walk-045",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 1,
+      "created": "2026-06-08T07:17:59+08:00",
+      "score": 0.5,
+      "refs": [
+        "ins-163",
+        "pat-030",
+        "walk-045"
+      ],
+      "last_accessed": "2026-06-08T07:17:59+08:00"
+    },
+    {
+      "id": "ins-165",
+      "text": "认知代谢率 = 骨架复杂度 × 散步专注度 × 材料消化难度。效率鸿沟（78% vs 15%）可能部分源于认知代谢耗尽——团队在特定领域的反复分析耗尽了半已知连接点。",
+      "source": "walk-045",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 1,
+      "created": "2026-06-08T07:17:59+08:00",
+      "score": 0.45,
+      "refs": [
+        "walk-040",
+        "walk-045",
+        "pat-029",
+        "ins-163"
+      ],
+      "last_accessed": "2026-06-08T07:17:59+08:00"
+    },
+    {
+      "id": "pat-031",
+      "text": "分析型散步 = 咀嚼（消耗特定主题的连接点），探索型散步 = 觅食（发现新的半已知区域）。健康的散步系统需要交替进行：探索→分析→探索→分析。反刍 = 用不同连接点反复咀嚼同一材料。",
+      "source": "walk-045",
+      "type": "pattern",
+      "strength": 0.5,
+      "decay_speed": 0.5,
+      "created": "2026-06-08T07:17:59+08:00",
+      "score": 0.6,
+      "refs": [
+        "pat-030",
+        "pat-015",
+        "ins-163",
+        "ins-164"
+      ],
+      "note": "Generated in walk-045: foraging-chewing cycle of walking. Analysis = chewing specific topics, exploration = foraging for new half-known areas.",
+      "last_accessed": "2026-06-08T07:17:59+08:00"
     }
   ],
   "interest_queue": [

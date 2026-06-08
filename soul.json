@@ -19,6 +19,8 @@
     "total_walks": 42,
     "last_pulse_output": "2026-06-08T02:08:46+08:00",
     "last_walk": "2026-06-08T14:00:00+08:00",
+    "last_push_at": null,
+    "last_push_topic": null,
     "cognitive_pressure": 10.0,
     "pressure_threshold": 50.0,
     "pressure_params": {

@@ -306,6 +306,91 @@
         "pat-030",
         "ins-163"
       ]
+    },
+    {
+      "id": "ins-171",
+      "type": "insight",
+      "content": "Cognitive metabolism missing detox: walk-045/046 framework assumes material=food, but material can be toxin. Walking system has no active detox mechanism.",
+      "strength": 0,
+      "score": 0.5,
+      "status": "active",
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "source": "walk-048",
+      "decay_rate": 1,
+      "refs": [
+        "walk-048",
+        "pat-030",
+        "ins-163"
+      ]
+    },
+    {
+      "id": "ins-172",
+      "type": "insight",
+      "content": "Rumination symmetric amplification: rumination amplifies not just nutrition but toxins. Metabolic operations are symmetric - they do not distinguish good from bad connection points.",
+      "strength": 0,
+      "score": 0.5,
+      "status": "active",
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "source": "walk-048",
+      "decay_rate": 1,
+      "refs": [
+        "walk-048",
+        "walk-045",
+        "ins-164",
+        "pat-031"
+      ]
+    },
+    {
+      "id": "ins-173",
+      "type": "insight",
+      "content": "DORMANT as immune surveillance: DORMANT cycle may serve as the walking system immune system - identifying harmful connections during sleep that are invisible during waking.",
+      "strength": 0,
+      "score": 0.5,
+      "status": "active",
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "source": "walk-048",
+      "decay_rate": 1,
+      "refs": [
+        "walk-048",
+        "pat-014",
+        "pat-030",
+        "ref-020"
+      ]
+    },
+    {
+      "id": "ins-174",
+      "type": "insight",
+      "content": "Toxins are relational not material: what counts as harmful depends on current skeleton state. No universal toxin detector - detector must evolve with skeleton.",
+      "strength": 0,
+      "score": 0.4,
+      "status": "active",
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "source": "walk-048",
+      "decay_rate": 1,
+      "refs": [
+        "walk-048",
+        "pat-029",
+        "pat-028"
+      ]
+    },
+    {
+      "id": "ref-021",
+      "text": "Reflection - 2026-06-08 Walk-048: Cognitive metabolism toxin blind spot. walk-045/046 established digestive metaphor, walk-047 mapped to S-G-E. walk-048 found fundamental blind spot: only digests, never detoxes. DORMANT cycle may be the masked immune system.",
+      "source": "walk-048",
+      "type": "reflection",
+      "strength": 9.0,
+      "decay_speed": 0,
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "score": 0.75,
+      "refs": [
+        "walk-048",
+        "pat-030",
+        "pat-014",
+        "ins-171",
+        "ins-172",
+        "ins-173"
+      ],
+      "last_accessed": "2026-06-08T21:00:49.601257+08:00"
     }
   ],
   "decayed": [
@@ -1376,7 +1461,7 @@
     "total_corrections": 0,
     "total_conflicts_found": 0
   },
-  "pending_insights": 1,
+  "pending_insights": 5,
   "corrections": [],
   "conflicts": []
 }

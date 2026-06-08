@@ -2,6 +2,18 @@
   "lesswrong": {
     "articles": [
       {
+        "title": "The Next Swan: Frank Ramsey, Variable Hypotheticals, and the Bet on Induction",
+        "link": "https://www.lesswrong.com/posts/AE8ZyzotwcAf6tzcJ/the-next-swan-frank-ramsey-variable-hypotheticals-and-the",
+        "summary": "<p><span>In his essay “Two Faces of Common Sense” (1972) Popper wrote ‘We are seekers for truth but we are not its possessors’. In the same essay, Popper argues ‘The quest for certainty, for a secure basis of knowledge, has to be abandoned.’</span></p><p><span>Popper wanted to separate (un)certainty",
+        "published": "2026-06-08T12:01:10+00:00"
+      },
+      {
+        "title": "Coverage-driven alignment - What ‘Teaching Claude Why’ can borrow from AV verification",
+        "link": "https://www.lesswrong.com/posts/hsrjuzqokvAErvZ2q/coverage-driven-alignment-what-teaching-claude-why-can",
+        "summary": "<p><i><span>Cross-posted from </span></i><a href=\"https://blog.foretellix.com/\" rel=\"noreferrer\"><i><span>The Foretellix CTO Blog</span></i></a><i><span>. This is a full-text linkpost, following feedback that my previous piece was too brief as a stub.</span></i></p><p><b><span>Summary:</span></b><sp",
+        "published": "2026-06-08T11:42:36+00:00"
+      },
+      {
         "title": "Bun's Migration from Zig to Rust as a Potential Case Study for Gradual Disempowerment",
         "link": "https://www.lesswrong.com/posts/qEbqPitYhWHthwFNu/bun-s-migration-from-zig-to-rust-as-a-potential-case-study",
         "summary": "<h1><span>TL;DR:</span></h1><p><span>Bun is a very large and very influential open-source project. It is being migrated from the easier-to-read Zig programming language to harder-to-read but memory-safe Rust. This is done almost entirely by the AI tool Claude Code. The migration may become one of th",
@@ -48,18 +60,6 @@
         "link": "https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are",
         "summary": "<p><span>Instead of using static position increments (+1) per token, RoPE-based language models can learn per-token and per-layer position increments. This has </span><a href=\"https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are#Loss_Neutral\" rel=\"norefer",
         "published": "2026-06-07T20:20:40+00:00"
-      },
-      {
-        "title": "Autopilot Thinking",
-        "link": "https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking",
-        "summary": "<p><i><span>TL;DR: Generating thoughts can be done on autopilot even while cognitively impaired (say, tired or drunk), as long as the serial mental depth is low. I speculate that this is basically because </span></i><a href=\"https://www.lesswrong.com/posts/HbXXd2givHBBLxr3d/system-2-as-working-memor",
-        "published": "2026-06-07T20:20:22+00:00"
-      },
-      {
-        "title": "Would you lick the alignment coin?",
-        "link": "https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/would-you-lick-the-alignment-coin",
-        "summary": "<figure style=\"width:100%\" class=\"image image_resized\"><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780398753/lexical_client_uploads/uxsag07lxnuiq1frhepd.jpg\" alt=\"reeded edge of a 50c euro coin\"></figure><p><span>If the alignment problem was a coin, the heads would be the 'alig",
-        "published": "2026-06-07T19:20:15+00:00"
       }
     ],
     "domain": "rationality/cognition/AI safety",

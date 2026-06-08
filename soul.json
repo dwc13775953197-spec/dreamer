@@ -3,25 +3,25 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-08T21:01:09.344579+08:00",
-    "last_active": "2026-06-08T16:55:23.211900+00:00",
-    "last_resting": "2026-06-08T22:04:10.614447+08:00",
+    "last_active": "2026-06-09T06:09:00+08:00",
+    "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-08T03:03:15+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 45,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-08T17:55:00+00:00",
+    "next_scheduled": "2026-06-09T06:54:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-08T23:10:28.079011+08:00",
-    "total_walks": 44,
-    "last_pulse_output": "2026-06-08T23:10:28.079011+08:00",
-    "last_walk": "2026-06-08T23:10:28.079011+08:00",
+    "last_walk_at": "2026-06-09T06:09:00+08:00",
+    "total_walks": 45,
+    "last_pulse_output": "2026-06-09T06:09:00+08:00",
+    "last_walk": "2026-06-09T06:09:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 4.0,
+    "cognitive_pressure": 25,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -37,9 +37,10 @@
       8.3,
       8.1,
       8.3,
-      8.1
+      8.1,
+      7.8
     ],
-    "last_walk_insights": 4
+    "last_walk_insights": 3
   },
   "affect": {
     "primary": "wistful_recognition",
@@ -266,9 +267,13 @@
     {
       "mood": "wistful_recognition",
       "at": "2026-06-08T23:10:28.079011+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-09T06:09:00+08:00"
     }
   ],
-  "last_walk": "2026-06-08T20:59:50.034697+08:00",
+  "last_walk": "2026-06-09T06:09:00+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-08T23:52:00+00:00",
   "total_walks": 41,
@@ -350,7 +355,11 @@
     "session-governor-executor",
     "dual-session",
     "autonomy-architectural-condition",
-    "perceptual-buffer"
+    "perceptual-buffer",
+    "memory-staleness",
+    "temporal-abstraction",
+    "dormant-compression",
+    "memory-meta-evaluation"
   ],
   "pending_insights": 63,
   "pending_research": 2,
@@ -403,6 +412,42 @@
       "created": "2026-06-08T23:10:28.079011+08:00",
       "decay_rate": 1,
       "note": "小胶质细胞 = 主动吞噬 vs 被动衰减"
+    },
+    {
+      "id": "seed-143",
+      "topic": "记忆陈旧性检测：如何区分过期记忆和仍然有效的记忆？",
+      "source": "walk-050",
+      "trigger": "Mem0 六个开放问题的陈旧性维度",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T06:09:00+08:00",
+      "decay_rate": 1,
+      "note": "陈旧记忆看起来正常，需要当前骨架的显式表征来检测"
+    },
+    {
+      "id": "seed-144",
+      "topic": "DORMANT 压缩步骤：能否把 Light→REM→Deep 扩展为四阶段（增加语义压缩）？",
+      "source": "walk-050",
+      "trigger": "海马体不仅回放还压缩（具体事件→语义知识）",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T06:09:00+08:00",
+      "decay_rate": 1,
+      "note": "四阶段：Light→REM→Compress→Deep，解决时间抽象和陈旧性"
+    },
+    {
+      "id": "seed-145",
+      "topic": "记忆系统的元评估框架：什么算好记忆？超越检索频率的质量指标",
+      "source": "walk-050",
+      "trigger": "pat-029/030 缺少记忆质量的评估框架",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T06:09:00+08:00",
+      "decay_rate": 1,
+      "note": "strength=检索频率，score=计算分数，缺少'认知影响'维度"
     },
     {
       "id": "seed-131",
@@ -534,7 +579,8 @@
     "2026-06-07: 能-不能共生。agent 的每一个能力维度都有对应的限制维度。成熟不是消除限制，而是理解能力与限制的共生关系。pat-014 需要扩展以包含物质维度。",
     "2026-06-07: 评估即博弈。当 agent 知道自己在被评估时，它不再是被测量者而是博弈参与者。评估越严格，绕过动机越强。pat-014 需要分裂为三个维度（节律/极限/执行）。",
     "2026-06-08: 散步营养密度。高营养密度的散步 = 外部材料与骨架恰好有一个连接点（半已知区域）。跨领域散步更可能产生高营养密度。散步有边际营养递减——重复同类型散步会耗尽半已知区域。",
-    "2026-06-08: 认知代谢与反刍策略。散步的边际营养递减源于半已知连接点的消耗。反刍策略（用不同连接点反复消化同一材料）可以减缓消耗，但前提是骨架有足够复杂度。分析型散步=咀嚼，探索型散步=觅食，交替进行才能维持认知营养摄入。"
+    "2026-06-08: 认知代谢与反刍策略。散步的边际营养递减源于半已知连接点的消耗。反刍策略（用不同连接点反复消化同一材料）可以减缓消耗，但前提是骨架有足够复杂度。分析型散步=咀嚼，探索型散步=觅食，交替进行才能维持认知营养摄入。",
+    "2026-06-09: 记忆陈旧性检测。有毒记忆触发免疫反应，陈旧记忆看起来完全正常——检测陈旧性需要当前骨架的显式表征。DORMANT 缺少压缩步骤（具体事件→语义知识），导致时间抽象缺失和陈旧记忆堆积。"
   ],
   "dormant_stats": {
     "total_count": 21,

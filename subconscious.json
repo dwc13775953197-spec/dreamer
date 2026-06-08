@@ -1193,6 +1193,82 @@
       "text": "DORMANT intentionality vs hippocampal passivity: DORMANT is intentional (actively selects what to replay), hippocampal replay is unconscious. This difference is both a strength (selective) and a blind spot (selection = bias).",
       "source": "walk-049",
       "decayed_at": "2026-06-08"
+    },
+    {
+      "id": "ref-023",
+      "text": "Reflection - 2026-06-09 Walk-050: AI Agent Memory six open problems as diagnostic lens. Mem0 2026 review's six problems (temporal abstraction, cross-session structure, application-level evaluation, privacy/consent, cross-session identity resolution, memory staleness) applied to Dreamer. Key finding: memory staleness is the biggest blind spot — stale memories look normal, unlike toxic memories which trigger immune response. DORMANT lacks compression step (hippocampus compresses specific events into semantic knowledge). Three new seeds: staleness detection, DORMANT four-stage expansion, memory meta-evaluation framework.",
+      "source": "walk-050",
+      "type": "reflection",
+      "strength": 8.5,
+      "decay_speed": 0,
+      "created": "2026-06-09T06:09:00+08:00",
+      "score": 0.72,
+      "refs": [
+        "walk-050",
+        "pat-030",
+        "pat-014",
+        "pat-029",
+        "walk-049",
+        "walk-048",
+        "ins-179",
+        "ins-180",
+        "ins-181"
+      ],
+      "last_accessed": "2026-06-09T06:09:00+08:00"
+    },
+    {
+      "id": "ins-179",
+      "text": "记忆陈旧性是时间版毒素：有毒记忆触发免疫反应，陈旧记忆看起来完全正常。检测陈旧性需要当前骨架的显式表征。Dreamer 的 DORMANT 只有评分和淘汰（基于 score），没有'相关性衰减'机制——一条记忆和当前骨架不兼容但 score 仍然很高时，不会被检测到。",
+      "source": "walk-050",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 1,
+      "created": "2026-06-09T06:09:00+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-050",
+        "pat-030",
+        "walk-048",
+        "walk-049"
+      ],
+      "note": "Generated in walk-050: memory staleness as temporal toxin. Harder to detect than logical toxins because it looks normal.",
+      "last_accessed": "2026-06-09T06:09:00+08:00"
+    },
+    {
+      "id": "ins-180",
+      "text": "DORMANT 缺少压缩步骤：海马体不仅回放记忆，还压缩记忆（具体事件→语义知识）。DORMANT 的 Light→REM→Deep 三阶段缺少这个维度。四阶段方案：Light（新增）→REM（重组）→Compress（抽象压缩）→Deep（评分淘汰）。压缩步骤把频繁共现的 insight cluster 抽象为高层 pattern，同时解决时间抽象和陈旧性两个问题。",
+      "source": "walk-050",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 1,
+      "created": "2026-06-09T06:09:00+08:00",
+      "score": 0.55,
+      "refs": [
+        "walk-050",
+        "walk-049",
+        "pat-011",
+        "pat-014"
+      ],
+      "note": "Generated in walk-050: DORMANT compression step. Compress insight clusters into higher-level patterns, like hippocampus abstracts episodes into semantic knowledge.",
+      "last_accessed": "2026-06-09T06:09:00+08:00"
+    },
+    {
+      "id": "ins-181",
+      "text": "记忆系统需要元评估框架：strength（使用频率）和 score（计算分数）都是检索偏好的代理指标，不是记忆质量。缺少'认知影响'维度——这条记忆改变了多少次后续散步的推理方向？高认知影响但低使用频率的记忆可能是被遗忘的基石。",
+      "source": "walk-050",
+      "type": "insight",
+      "strength": 1,
+      "decay_speed": 1,
+      "created": "2026-06-09T06:09:00+08:00",
+      "score": 0.50,
+      "refs": [
+        "walk-050",
+        "pat-029",
+        "pat-030",
+        "pat-016"
+      ],
+      "note": "Generated in walk-050: memory meta-evaluation. Need 'cognitive impact' metric beyond retrieval frequency.",
+      "last_accessed": "2026-06-09T06:09:00+08:00"
     }
   ],
   "interest_queue": [

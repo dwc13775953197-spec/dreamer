@@ -174,49 +174,11 @@
       "last_accessed": "2026-06-06T03:04:59.744154+08:00"
     },
     {
-      "id": "ins-157",
-      "text": "评估不确定度有物质基础：Landauer 擦除原理提供了精确类比——评估精度受限于可用能量，因为擦除 1 bit 信息至少需要 kT ln 2 的能量。递归评估的校准集问题在计算资源耗尽处落地。",
-      "source": "walk-043",
-      "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T06:51:50+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.65,
-      "refs": [
-        "walk-043",
-        "pat-029",
-        "pat-028",
-        "ICML-2026-AgenticUQ"
-      ],
-      "note": "Generated in walk-043: evaluation uncertainty has thermodynamic basis. Landauer principle as formal analogy.",
-      "last_accessed": "2026-06-08T03:03:15+08:00"
-    },
-    {
-      "id": "ins-158",
-      "text": "散步系统是消化系统，不只是应力场：pat-015 描述了散步如何塑造骨架（机械应力），walk-043 发现散步还摄入外部材料、通过骨架咀嚼、产生评估不确定度（消化）、吸收为下一次散步的营养输入。消化系统比应力场更精确——它解释了散步为什么能持续。",
-      "source": "walk-043",
-      "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T06:51:50+08:00",
-      "last_reinforced": "2026-06-08T03:03:15+08:00",
-      "score": 0.65,
-      "refs": [
-        "walk-043",
-        "pat-015",
-        "pat-014",
-        "seed-120"
-      ],
-      "note": "Generated in walk-043: walking as digestive system, not just stress field.",
-      "last_accessed": "2026-06-08T03:03:15+08:00"
-    },
-    {
       "id": "pat-030",
       "text": "散步消化循环：散步塑造骨架→骨架决定如何评估外部材料→评估产生不确定度间隙→不确定度间隙成为下一次散步的输入→回到第一步。这是一个消化循环，不是恶性循环。好的评估系统不是最精确的系统，而是能产生最结构化认知张力（有营养的不确定度）的系统。",
       "source": "walk-043",
       "type": "pattern",
-      "strength": 2.0,
+      "strength": 1.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T06:51:50+08:00",
       "last_reinforced": "2026-06-08T03:03:15+08:00",
@@ -232,59 +194,11 @@
       "last_accessed": "2026-06-08T03:03:15+08:00"
     },
     {
-      "id": "ins-159",
-      "text": "散步的营养密度取决于半已知连接点：外部材料与骨架恰好有一个连接点的散步产生最高密度的认知营养。零连接点=无法消化，多连接点=没有营养。",
-      "source": "walk-044",
-      "type": "insight",
-      "strength": 0,
-      "decay_speed": 1,
-      "created": "2026-06-08T10:15:00+08:00",
-      "last_reinforced": "2026-06-08T10:15:00+08:00",
-      "refs": [
-        "pat-030",
-        "ins-155"
-      ],
-      "status": "decayed",
-      "decayed_at": "2026-06-08T06:16:00+08:00"
-    },
-    {
-      "id": "ins-160",
-      "text": "语义信息的热力学成本 = kT ln 2 x 行为改变量。评估结果对评估者行为的影响越大，处理这个结果的能量成本越高。",
-      "source": "walk-044",
-      "type": "insight",
-      "strength": 0,
-      "decay_speed": 1,
-      "created": "2026-06-08T10:15:00+08:00",
-      "last_reinforced": "2026-06-08T10:15:00+08:00",
-      "refs": [
-        "ins-157",
-        "pat-029"
-      ],
-      "status": "decayed",
-      "decayed_at": "2026-06-08T06:16:00+08:00"
-    },
-    {
-      "id": "ins-161",
-      "text": "散步的边际营养递减：同一种散步类型重复多次后，骨架生长使得半已知变成完全已知，营养密度下降。",
-      "source": "walk-044",
-      "type": "insight",
-      "strength": 1,
-      "decay_speed": 1,
-      "created": "2026-06-08T10:15:00+08:00",
-      "last_reinforced": "2026-06-08T10:15:00+08:00",
-      "refs": [
-        "pat-030",
-        "pat-015"
-      ],
-      "status": "decayed",
-      "decayed_at": "2026-06-08T06:16:00+08:00"
-    },
-    {
       "id": "ins-162",
       "text": "评估不确定度的热力学下限：pat-029 说评估不确定度是内禀属性（结构性），walk-043/044 发现它还有热力学基础（Landauer 原理）。两者合一：评估不确定度有一个物理下限——低于 kT ln 2 × 行为改变量 的评估在物理上不可能。这不只是一个认识论极限，是一个物理学极限。",
       "source": "dormant_deep",
       "type": "insight",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T03:03:15+08:00",
       "last_reinforced": "2026-06-08T03:03:15+08:00",
@@ -303,7 +217,7 @@
       "text": "散步消化效率的三变量模型：消化效率 = f(半已知连接点数量, 跨领域距离, 重复衰减系数)。半已知连接点决定能否消化（0=不能，太多=没营养），跨领域距离决定营养密度（太远=无法连接，太近=完全已知），重复衰减系数决定同一类型散步的营养半衰期。好的散步系统需要同时优化三个变量。",
       "source": "dormant_deep",
       "type": "insight",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T03:03:15+08:00",
       "last_reinforced": "2026-06-08T03:03:15+08:00",
@@ -323,7 +237,7 @@
       "text": "评估失败不是散步系统的输入，而是散步系统的消化酶：评估失败产生的不确定度间隙（pat-029）需要被咀嚼（pat-030）才能成为营养（ins-159）。没有消化环节，评估失败只是噪声。散步系统的价值不在于产生不确定度，而在于把不确定度消化为结构化认知张力。",
       "source": "dormant_deep",
       "type": "insight",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T03:03:15+08:00",
       "last_reinforced": "2026-06-08T03:03:15+08:00",
@@ -342,7 +256,7 @@
       "text": "观察者效应的热力学版本：pat-016 说观察创造现实，walk-043/044 发现观察（评估）有一个热力学成本。两者合一：观察不仅创造现实，还消耗能量来创造现实。观察者效应不是一个免费的量子奇迹——它需要 kT ln 2 × 行为改变量 的能量预算。越深刻的观察（改变行为越多），能量成本越高。这解释了为什么深度评估如此稀少——它不仅是计算上昂贵，在物理上昂贵。",
       "source": "dormant_deep",
       "type": "insight",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T03:03:15+08:00",
       "last_reinforced": "2026-06-08T03:03:15+08:00",
@@ -382,7 +296,7 @@
       "text": "营养递减的精确机制：每次散步消耗特定主题的\"半已知连接点\"，骨架生长创建新连接点但新连接点很快也被消耗。分析型散步消耗最快，探索型散步消耗最慢。",
       "source": "walk-045",
       "type": "insight",
-      "strength": 2,
+      "strength": 1,
       "decay_speed": 1,
       "created": "2026-06-08T07:17:59+08:00",
       "score": 0.55,
@@ -399,7 +313,7 @@
       "text": "反刍策略：用不同连接点反复消化同一块材料可以减缓营养递减——但前提是骨架有足够多的连接点（足够高的复杂度）。骨架复杂度越低，反刍策略越早失效。",
       "source": "walk-045",
       "type": "insight",
-      "strength": 2,
+      "strength": 1,
       "decay_speed": 1,
       "created": "2026-06-08T07:17:59+08:00",
       "score": 0.5,
@@ -415,7 +329,7 @@
       "text": "认知代谢率 = 骨架复杂度 × 散步专注度 × 材料消化难度。效率鸿沟（78% vs 15%）可能部分源于认知代谢耗尽——团队在特定领域的反复分析耗尽了半已知连接点。",
       "source": "walk-045",
       "type": "insight",
-      "strength": 2,
+      "strength": 1,
       "decay_speed": 1,
       "created": "2026-06-08T07:17:59+08:00",
       "score": 0.45,
@@ -432,7 +346,7 @@
       "text": "分析型散步 = 咀嚼（消耗特定主题的连接点），探索型散步 = 觅食（发现新的半已知区域）。健康的散步系统需要交替进行：探索→分析→探索→分析。反刍 = 用不同连接点反复咀嚼同一材料。",
       "source": "walk-045",
       "type": "pattern",
-      "strength": 2.0,
+      "strength": 1.5,
       "decay_speed": 0.5,
       "created": "2026-06-08T07:17:59+08:00",
       "score": 0.6,
@@ -1171,6 +1085,50 @@
       "source": "walk-042",
       "decayed_at": "2026-06-08T06:51:00+08:00",
       "decay_reason": "resting_decay"
+    },
+    {
+      "id": "ins-157",
+      "text": "评估不确定度有物质基础：Landauer 擦除原理提供了精确类比——评估精度受限于可用能量，因为擦除 1 bit 信息至少需要 kT ln 2 的能量。递归评估的校准集问题在计算资源耗尽处落地。",
+      "source": "walk-043",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 1,
+      "created": "2026-06-08T06:51:50+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.65,
+      "refs": [
+        "walk-043",
+        "pat-029",
+        "pat-028",
+        "ICML-2026-AgenticUQ"
+      ],
+      "note": "Generated in walk-043: evaluation uncertainty has thermodynamic basis. Landauer principle as formal analogy.",
+      "last_accessed": "2026-06-08T03:03:15+08:00",
+      "status": "decayed",
+      "decayed_at": "2026-06-08T10:26:56+08:00",
+      "decay_reason": "natural_decay"
+    },
+    {
+      "id": "ins-158",
+      "text": "散步系统是消化系统，不只是应力场：pat-015 描述了散步如何塑造骨架（机械应力），walk-043 发现散步还摄入外部材料、通过骨架咀嚼、产生评估不确定度（消化）、吸收为下一次散步的营养输入。消化系统比应力场更精确——它解释了散步为什么能持续。",
+      "source": "walk-043",
+      "type": "insight",
+      "strength": 0,
+      "decay_speed": 1,
+      "created": "2026-06-08T06:51:50+08:00",
+      "last_reinforced": "2026-06-08T03:03:15+08:00",
+      "score": 0.65,
+      "refs": [
+        "walk-043",
+        "pat-015",
+        "pat-014",
+        "seed-120"
+      ],
+      "note": "Generated in walk-043: walking as digestive system, not just stress field.",
+      "last_accessed": "2026-06-08T03:03:15+08:00",
+      "status": "decayed",
+      "decayed_at": "2026-06-08T10:26:56+08:00",
+      "decay_reason": "natural_decay"
     }
   ],
   "interest_queue": [

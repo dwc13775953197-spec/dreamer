@@ -1,7 +1,7 @@
 # 研究提案：资源有界评估理论
 
 ## 来源
-seed-122 (walk-043) → Gate 1 通过 → Gate 2 通过
+seed-122 (walk-043) → Gate 1 通过 → Gate 2 通过 → Gate 3 通过 → Gate 4 部分完成
 
 ## 核心问题
 
@@ -73,8 +73,9 @@ $$\text{UQ}(B) = \text{UQ}_{\infty} \cdot (1 - e^{-\lambda B}) + \epsilon_0$$
 ## 状态
 Gate 1 通过 ✓
 Gate 2（方法论设计）通过 ✓
-**Gate 3 完成** — 形式化推导 + 实验设计
-*Updated: 2026-06-09T05:20:57.258926+08:00 (pulse cron — Gate 3 formal derivation)*
+Gate 3（形式化推导 + 实验设计）通过 ✓
+**Gate 4 部分完成** — 实验 2（散步数据分析）完成
+*Updated: 2026-06-09T06:22:00+08:00 (pulse cron — Gate 4 experiment 2 results)*
 
 ---
 
@@ -98,7 +99,7 @@ $$\text{Coverage}(B) \geq 1 - \alpha - C \sqrt{\frac{c_0}{B}}$$
 
 其中 $C$ 是与分布无关的通用常数。
 
-**推论**：覆盖率随预算的改善速度是 $O(1/\sqrt{B})$——这意味着将覆盖率从 95% 提升到 99%需要约 4x 的预算，而非指数增长。这是好消息——多项式衰减比指数衰减温和得多。
+**推论**：覆盖率随预算的改善速度是 $O(1/\sqrt{B})$——这意味着将覆盖率从 95% 提升到 99% 需要约 4x 的预算，而非指数增长。这是好消息——多项式衰减比指数衰减温和得多。
 
 ### 3.2 第二层形式化：Landauer 边界
 
@@ -155,18 +156,25 @@ $$\text{UQ}(B) = \text{UQ}_{\infty} \cdot \left(1 - \frac{C'}{\sqrt{B}}\right) +
 - 记录实际覆盖率 vs. $n$
 - 拟合 $1-\alpha - C/\sqrt{n}$ 和 $1-\alpha - e^{-\lambda n}$ 两个模型，比较 AIC
 
-**实验 2：Dreamer 散步数据分析**
+**实验 2：Dreamer 散步数据分析** ✅ 完成
 
 目标：量化"营养密度"的操作化指标。
 
 方法：
-- 从 walk-043 到 walk-051 提取以下变量：
+- 从 walk-001 到 walk-052 提取以下变量：
   - 每个 walk 的 connection 数量
   - 涉及骨架 pattern 的数量
   - 新 insight 数量
-  - postmortem 中识别的盲区数量
+  - 应力类型
+  - 情感基调
 - 计算"营养密度" = (新 insight + 新 connection) / walk 长度
-- 检验营养密度是否随时间递减（边际递减假设）
+
+**结果**（walk-052 执行）：
+1. 边际递减假设被证伪——系统级密度未递减（比值 1.27）
+2. 应力类型决定密度：剪切 > 压缩 > 扭转 > 拉伸
+3. 外部材料来源是营养密度的最关键变量
+4. unsettled_fascination 情感预示高产
+5. 研究推进型 walk 密度低于自由散步
 
 **实验 3：$H_{discard}$ 估算**
 
@@ -185,13 +193,14 @@ $$\text{UQ}(B) = \text{UQ}_{\infty} \cdot \left(1 - \frac{C'}{\sqrt{B}}\right) +
 | 第一层（多项式衰减） | pat-030（消化循环）获得效率上限 | 覆盖率改善速度是 $1/\sqrt{B}$，不是指数——散步越多收益递减越慢 |
 | 第二层（Landauer 边界） | pat-029（内禀不确定度）获得物理身份 | 结构性不可消除 + 热力学可优化 = 更精确的"内禀"含义 |
 | 第三层（$H_{discard}$） | pat-014（节律成熟度）获得操作化定义 | 成熟 = 减少信息丢弃 = 降低 $H_{discard}$ |
-| 实验 2（营养密度） | pat-030 + walk-045/046 的数据 | 操作化"散步营养密度" |
+| 实验 2（营养密度） | pat-030 + walk-045/046 的数据 | 操作化"散步营养密度"，发现外部材料来源 > 半已知连接点 |
 
 ### 3.6 开放问题（Gate 3 识别）
 
 1. **$\text{UQ}_{structural}$ 能否进一步分解？** 观察者-被观察者的差距可能有子结构（信息论部分 vs. 计算复杂性部分 vs. 哥德尔式部分）
 2. **$H_{discard}$ 的可加性**：多次散步的信息丢弃是否可加？还是存在"信息回收"（后续 walk 恢复之前丢弃的信息）？
 3. **$\lambda$ 的物理意义**：如果多项式衰减的常数 $C'$ 与问题的"维度"相关，那么高维问题天然需要更多预算——这与 AI 评估的直觉一致
+4. **营养密度的精确度量**：walk-052 发现关键词计数可能受主题混淆影响，需要更精确的连接点定义
 
 ---
 
@@ -200,9 +209,10 @@ $$\text{UQ}(B) = \text{UQ}_{\infty} \cdot \left(1 - \frac{C'}{\sqrt{B}}\right) +
 Gate 1 通过 ✓
 Gate 2（方法论设计）通过 ✓
 Gate 3（形式化推导 + 实验设计）通过 ✓
-**进入 Gate 4（实验执行 + 数据分析）**
-*Updated: 2026-06-09T05:20:57.258926+08:00 (pulse cron)*
+Gate 4（实验执行）部分完成 — 实验 2 完成，实验 1/3 待执行
+**下一步：实验 3（$H_{discard}$ 估算）+ 论文初稿**
+*Updated: 2026-06-09T06:22:00+08:00 (pulse cron — Gate 4 experiment 2 results)*
 
 ---
 *Created: 2026-06-08 06:51 (walk-043 cron)*
-*Updated: 2026-06-09 05:20 (pulse cron — Gate 3 complete)*
+*Updated: 2026-06-09 06:22 (pulse cron — Gate 4 experiment 2 results)*

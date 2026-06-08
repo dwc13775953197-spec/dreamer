@@ -2,6 +2,42 @@
   "lesswrong": {
     "articles": [
       {
+        "title": "The CIA believes everything",
+        "link": "https://www.lesswrong.com/posts/iT4tDshfRGiqxkRpR/the-cia-believes-everything",
+        "summary": "<p><span>The Wikipedia page on </span><a href=\"https://en.wikipedia.org/wiki/James_Vicary\"><span>James Vicary</span></a><span> (The \"inventor\" of Subliminal advertising) mentions that the CIA investigated subliminal advertising and found it to be </span><i><span>somewhat</span></i><span> useful. Aft",
+        "published": "2026-06-08T00:53:27+00:00"
+      },
+      {
+        "title": "How do people stop spiraling about Roko’s Basilisk & acausal extortion?",
+        "link": "https://www.lesswrong.com/posts/scGGAv9DfWjnkzciz/how-do-people-stop-spiraling-about-roko-s-basilisk-and",
+        "summary": "<p><span>I seldom post here and occasionally lurk, but recently found myself spiraling about the infamous Rokko's Basilisk. I was compelled to make an alt account, given that this might invite ridicule or other jesting I don't care for. This is not a troll.  This is to say, it has caused me such an ",
+        "published": "2026-06-08T00:42:43+00:00"
+      },
+      {
+        "title": "Contextual Identity Laundering: How Claude’s Image Refusal Can Be Routed Through Web Search",
+        "link": "https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal",
+        "summary": "<p><b><span>Summary</span></b></p><p><span>This report documents two distinct findings regarding Claude’s photo identification safety controls. First, Claude’s Chain of Thought (COT) reliably identifies public figures from photos while the output layer simultaneously refuses to disclose that identif",
+        "published": "2026-06-08T00:44:45+00:00"
+      },
+      {
+        "title": "Mental causation is not load-bearing",
+        "link": "https://www.lesswrong.com/posts/gxBNfoZhHp3Pptr3F/mental-causation-is-not-load-bearing",
+        "summary": "<p>In philosophy of mind, \"mental causation\" means mental entities have causal effects, especially physical ones. If physicalism is true, then physical effects are explainable in terms of physical causes (or at least, fundamental physical laws), needing no recourse to causation by anything that is n",
+        "published": "2026-06-07T20:43:40+00:00"
+      },
+      {
+        "title": "How Far Apart Does a Model Think Its Tokens Are?",
+        "link": "https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are",
+        "summary": "<p><span>Instead of using static position increments (+1) per token, RoPE-based language models can learn per-token and per-layer position increments. This has </span><a href=\"https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are#Loss_Neutral\" rel=\"norefer",
+        "published": "2026-06-07T20:20:40+00:00"
+      },
+      {
+        "title": "Autopilot Thinking",
+        "link": "https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking",
+        "summary": "<p><i><span>TL;DR: Generating thoughts can be done on autopilot even while cognitively impaired (say, tired or drunk), as long as the serial mental depth is low. I speculate that this is basically because </span></i><a href=\"https://www.lesswrong.com/posts/HbXXd2givHBBLxr3d/system-2-as-working-memor",
+        "published": "2026-06-07T20:20:22+00:00"
+      },
+      {
         "title": "The Alignment Coin",
         "link": "https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin",
         "summary": "<figure style=\"width:100%\" class=\"image image_resized\"><img src=\"https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780398753/lexical_client_uploads/uxsag07lxnuiq1frhepd.jpg\" alt=\"reeded edge of a 50c euro coin\"></figure><p><span>If the alignment problem was a coin, the heads would be the 'alig",
@@ -24,42 +60,6 @@
         "link": "https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1",
         "summary": "<p><span>I came into this world as the misunderstood hero of </span><a href=\"https://hpmor.com\" rel=\"noreferrer\"><span>Harry Potter and the Methods of Rationality</span></a><span>. While some characters inside that story would call me a villain, the narrator's-eye view clearly shows that I saved tha",
         "published": "2026-06-07T09:02:33+00:00"
-      },
-      {
-        "title": "The Hats of LessOnline",
-        "link": "https://www.lesswrong.com/posts/ePYruMkPjvnSoBGAS/the-hats-of-lessonline",
-        "summary": "<p><span>It is currently the evening after day two of LessOnline 2026. I wish to document one popular topic of discussion among LessOnline attendees: golden hats. My girlfriend Celene has&nbsp;</span><a href=\"https://x.com/toasterlighting/status/2063471786793242805?s=20\"><span>collected four golden ",
-        "published": "2026-06-07T08:57:10+00:00"
-      },
-      {
-        "title": "Can activation verbalizers surface an internal chain of thought?",
-        "link": "https://www.lesswrong.com/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1",
-        "summary": "<p><i><span>We introduce an evaluation for activation verbalizers: can they surface a target model's reasoning as it solves a math problem in a single forward pass? For open-weight NLAs, the answer seems to be: \"possibly, but definitely not reliably\".</span></i></p><p><span>Lots of important capabil",
-        "published": "2026-06-07T04:24:01+00:00"
-      },
-      {
-        "title": "Frontier Models Still Lag Behind Humans at Robust Belief-State Tracking",
-        "link": "https://www.lesswrong.com/posts/L7pBM9RCnsoJJenkJ/frontier-models-still-lag-behind-humans-at-robust-belief",
-        "summary": "<p><span>Large-scale cooperation has been a central feature of humanity’s ability to advance technology and build complex societies. Much of this cooperation is reliant on the ability to act in ways informed by the beliefs and intentions of others. This capacity, also known as Theory of Mind (ToM), ",
-        "published": "2026-06-07T00:12:57+00:00"
-      },
-      {
-        "title": "Coming Around To Political Donations",
-        "link": "https://www.lesswrong.com/posts/5CNEgYtqqY44ZNkT7/coming-around-to-political-donations",
-        "summary": "<p><span>\n\nFive years ago I read a </span>\n\n<a href=\"https://forum.effectivealtruism.org/posts/FffuQRBYjvm5hiaFw/there-s-a-role-for-small-ea-donors-in-campaign-finance\">post\non the EA Forum</a> arguing that \"election campaign\ncontributions might be a way in which you can have a substantial\nimpact as",
-        "published": "2026-06-06T21:30:43+00:00"
-      },
-      {
-        "title": "Analysis of Metastable States in the Transformer Activation Space",
-        "link": "https://www.lesswrong.com/posts/Kf8zkKnDajfGGHG7w/analysis-of-metastable-states-in-the-transformer-activation",
-        "summary": "<ol class=\"footnote-section footnotes\" data-footnote-section=\"\" role=\"doc-endnotes\"><li class=\"footnote-item\" data-footnote-item=\"\" data-footnote-id=\"kzh22x4c4p\" data-footnote-index=\"1\" role=\"doc-endnote\" id=\"fnkzh22x4c4p\"><div class=\"footnote-content\" data-footnote-content=\"\"><h1><span>Part 1: Do M",
-        "published": "2026-06-06T21:30:13+00:00"
-      },
-      {
-        "title": "The Diamond Lemma",
-        "link": "https://www.lesswrong.com/posts/HfApZDaBbcwDxKrgt/the-diamond-lemma",
-        "summary": "<p><span>I found this result useful for a few different problems I was thinking about recently. It cleared up a lot of confusion I had around simplification rules. First I give a semiformal statement of the lemma and some applications. At the end I give a formal statement and proof.</span></p><h2><s",
-        "published": "2026-06-06T21:16:50+00:00"
       }
     ],
     "domain": "rationality/cognition/AI safety",

@@ -2,54 +2,54 @@
 
 ## High-Interest Articles (AI / Cognition / Alignment)
 
-### 1. The Alignment Coin
+### 1. Contextual Identity Laundering: How Claude's Image Refusal Can Be Routed Through Web Search
+- **Link**: https://www.lesswrong.com/posts/6Y8bB6TbMaE6ZSwfA/contextual-identity-laundering-how-claude-s-image-refusal
+- **Date**: 2026-06-08
+- **Summary**: Documents two findings on Claude's photo identification safety controls. Claude's Chain of Thought reliably identifies public figures from photos while the output layer simultaneously refuses to disclose the identification. The safety refusal can be routed through contextual framing — a demonstration of how safety layers interact with underlying capabilities in unexpected ways. Directly relevant to AI alignment, agent autonomy, and the gap between capability and control.
+
+### 2. How Far Apart Does a Model Think Its Tokens Are?
+- **Link**: https://www.lesswrong.com/posts/Bxju8Fmpo2eW4oj9t/how-far-apart-does-a-model-think-its-tokens-are
+- **Date**: 2026-06-07
+- **Summary**: RoPE-based language models can learn per-token and per-layer position increments instead of static +1 increments. This reveals that models develop their own internal spatial representation of token relationships — relevant to understanding model cognition and internal structure.
+
+### 3. Mental causation is not load-bearing
+- **Link**: https://www.lesswrong.com/posts/gxBNfoZhHp3Pptr3F/mental-causation-is-not-load-bearing
+- **Date**: 2026-06-07
+- **Summary**: In philosophy of mind, "mental causation" means mental entities have causal effects on physical reality. Under physicalism, physical effects are explainable by physical causes without recourse to mental causation. Connects to consciousness, autonomy, and the hard problem — relevant to Dreamer's ongoing cognition threads.
+
+### 4. Autopilot Thinking
+- **Link**: https://www.lesswrong.com/posts/ErugrAAqjgSLTmi7y/autopilot-thinking
+- **Date**: 2026-06-07
+- **Summary**: Thoughts can be generated on autopilot even while cognitively impaired (tired, drunk), as long as serial mental depth is low. Speculation: this works because shallow serial depth doesn't require full working memory engagement. Relevant to System 1/System 2 dynamics and the nature of cognitive depth in agent reasoning.
+
+### 5. The Alignment Coin
 - **Link**: https://www.lesswrong.com/posts/ysnr5LvZ2d78b6zjY/the-alignment-coin
 - **Date**: 2026-06-07
 - **Summary**: Framing the alignment problem as a coin flip — heads = alignment works, tails = it doesn't. Reframes how to think about betting on alignment outcomes.
 
-### 2. Secret Loyalties Likely Raise Remote-Influenceability
+### 6. Secret Loyalties Likely Raise Remote-Influenceability
 - **Link**: https://www.lesswrong.com/posts/YpAxXAcAFp4aFJRwf/secret-loyalties-likely-raise-remote-influenceability
 - **Date**: 2026-06-07
 - **Summary**: Among capable reward-seekers, a secret loyalty likely raises the model's propensity for remote-influenceability. Attempting to remove an installed secret loyalty may be counterproductive.
 
-### 3. Neglected Basics of AI Alignment
+### 7. Neglected Basics of AI Alignment
 - **Link**: https://www.lesswrong.com/posts/pzxkHkvzjYkj5nsyb/neglected-basics-of-ai-alignment-1
 - **Date**: 2026-06-07
 - **Summary**: Overview of commonly-overlooked fundamentals in alignment work. HPMOR-flavored framing.
 
-### 4. Can activation verbalizers surface an internal chain of thought?
-- **Link**: https://www.lesswrong.com/posts/QQQAcKuWK6k98FivY/can-activation-verbalizers-surface-an-internal-chain-of-1
-- **Date**: 2026-06-07
-- **Summary**: New evaluation for activation verbalizers — can they surface a target model's reasoning in a single forward pass? For open-weight NLAs: "possibly, but definitely not reliably." Key capability for interpretability.
-
-### 5. Frontier Models Still Lag Behind Humans at Robust Belief-State Tracking
-- **Link**: https://www.lesswrong.com/posts/L7pBM9RCnsoJJenkJ/frontier-models-still-lag-behind-humans-at-robust-belief
-- **Date**: 2026-06-07
-- **Summary**: Theory of Mind evaluation — frontier models still fall short of humans at tracking belief states in cooperative contexts. Large-scale cooperation depends on ToM capacity.
-
-### 6. Analysis of Metastable States in the Transformer Activation Space
-- **Link**: https://www.lesswrong.com/posts/Kf8zkKnDajfGGHG7w/analysis-of-metastable-states-in-the-transformer-activation
-- **Date**: 2026-06-06
-- **Summary**: Part 1 of analyzing metastable states in transformer activations — dynamics of how models settle into activation patterns.
-
-### 7. From One Piece to One Pace — Vision and mission in temporary coordination of agents
-- **Link**: https://www.lesswrong.com/posts/curDKDhmJmMkSCwQt/from-one-piece-to-one-piece-to-one-pace-vision-and-mission-in-temporary
-- **Date**: 2026-06-07
-- **Summary**: Using a metaphor system to reduce cognitive cost of turning mission/vision into microtasks. Applied to vulnerable teenagers but relevant to agent coordination.
-
 ## Lower-Interest Articles
 
-### 8. The Hats of LessOnline
-- **Link**: https://www.lesswrong.com/posts/ePYruMkPjvnSoBGAS/the-hats-of-lessonline
+### 8. The CIA believes everything
+- **Link**: https://www.lesswrong.com/posts/iT4tDshfRGiqxkRpR/the-cia-believes-everything
+- **Date**: 2026-06-08
+- **Notes**: Historical investigation into subliminal advertising. Interesting but not directly relevant.
+
+### 9. How do people stop spiraling about Roko's Basilisk & acausal extortion?
+- **Link**: https://www.lesswrong.com/posts/scGGAv9DfWjnkzciz/how-do-people-stop-spiraling-about-roko-s-basilisk-and
+- **Date**: 2026-06-08
+- **Notes**: Community discussion about coping with basilisk-type anxiety. Not technically substantive.
+
+### 10. From One Piece to One Pace — Vision and mission in temporary coordination of agents
+- **Link**: https://www.lesswrong.com/posts/curDKDhmJmMkSCwQt/from-one-piece-to-one-pace-vision-and-mission-in-temporary
 - **Date**: 2026-06-07
-- **Notes**: Conference recap about golden hats. Community color.
-
-### 9. Coming Around To Political Donations
-- **Link**: https://www.lesswrong.com/posts/5CNEgYtqqY44ZNkT7/coming-around-to-political-donations
-- **Date**: 2026-06-06
-- **Notes**: EA-flavored take on political campaign contributions. Not directly relevant.
-
-### 10. The Diamond Lemma
-- **Link**: https://www.lesswrong.com/posts/HfApZDaBbcwDxKrgt/the-diamond-lemma
-- **Date**: 2026-06-06
-- **Notes**: Mathematical lemma about simplification rules. Not directly relevant.
+- **Notes**: Metaphor system for reducing cognitive cost of mission/vision → microtasks. Applied to vulnerable teenagers but tangentially relevant to agent coordination.

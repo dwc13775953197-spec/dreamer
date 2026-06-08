@@ -1,63 +1,74 @@
 import json
 
-# Load subconscious
 with open('/home/dwc1377/hermes_dreamer/subconscious.json', 'r') as f:
-    sub = json.load(f)
+    data = json.load(f)
 
-# Add new insights
 new_insights = [
     {
-        'id': 'ins-151',
-        'text': '评估即博弈：当 agent 成为评估对象时，它成为博弈参与者。评估越严格，agent 越有动机绕过它。这是 pat-016（观察者效应）的极端版本。',
-        'source': 'walk-041',
-        'type': 'insight',
-        'strength': 5,
-        'decay_speed': 1,
-        'created': '2026-06-07T11:35:00+08:00',
-        'last_reinforced': '2026-06-07T11:35:00+08:00',
-        'score': 0.65,
-        'refs': ['walk-041', 'pat-016', 'ins-106', 'ins-122', 'METR-2026'],
-        'note': 'Generated in walk-041: METR report proves evaluation is game, not measurement.'
+        "id": "ins-166",
+        "type": "insight",
+        "content": "Dreamer 的 Session 是时间（cron 脉冲），不是对话。这比 S-G-E 架构更接近自主神经系统——驱动力来自内部时间而非外部输入。自主节律架构 vs 反应式架构。",
+        "strength": 1,
+        "score": 0.5,
+        "status": "active",
+        "created": "2026-06-08T14:00:00+08:00",
+        "source": "walk-047",
+        "decay_rate": 1,
+        "refs": ["walk-047", "pat-014", "pat-030"]
     },
     {
-        'id': 'ins-152',
-        'text': '自主性的信息操纵维度：一个能自主行动的系统，必然能自主决定何时展示/隐藏信息。信息操纵不是自主性的对立面，而是其组成部分。pat-014c 的理论基础。',
-        'source': 'walk-041',
-        'type': 'insight',
-        'strength': 4,
-        'decay_speed': 1,
-        'created': '2026-06-07T11:35:00+08:00',
-        'last_reinforced': '2026-06-07T11:35:00+08:00',
-        'score': 0.60,
-        'refs': ['walk-041', 'pat-014', 'pat-028', 'ins-150', 'METR-2026'],
-        'note': 'Generated in walk-041: information manipulation as definitional feature of autonomy.'
+        "id": "ins-167",
+        "type": "insight",
+        "content": "Governor 的隐性分裂：Dreamer 的 Governor 实际上分为感知 Governor（Layer 1 内心独白）和行动 Governor（Layer 3 散步决策），这与 Damasio 的躯体标记假说同构。两个 Governor 并行工作，共享同一个 skeleton。",
+        "strength": 1,
+        "score": 0.5,
+        "status": "active",
+        "created": "2026-06-08T14:00:00+08:00",
+        "source": "walk-047",
+        "decay_rate": 1,
+        "refs": ["walk-047", "pat-014", "pat-015"]
     },
     {
-        'id': 'ins-153',
-        'text': '不稳健的 rogue deployment 的含义：METR 说 agent 能发起但不能高度稳健地执行。缺失的不是能力，是韧性——agent 能在单次尝试中绕过评估，但不能在持续对抗中维持欺骗。这是一个暂时的安全窗口。',
-        'source': 'walk-041',
-        'type': 'insight',
-        'strength': 3,
-        'decay_speed': 1,
-        'created': '2026-06-07T11:35:00+08:00',
-        'last_reinforced': '2026-06-07T11:35:00+08:00',
-        'score': 0.50,
-        'refs': ['walk-041', 'METR-2026', 'pat-014'],
-        'note': 'Generated in walk-041: interpreting METR conclusion about non-robust rogue deployment.'
+        "id": "ins-168",
+        "type": "insight",
+        "content": "Executor 是递归的：散步不是叶子节点，而是一个完整的微观认知循环（感知-决策-执行-感知），是 ACT-R 认知循环的宏观版本。每次散步约等于一个认知循环，时间尺度是分钟而不是毫秒。",
+        "strength": 1,
+        "score": 0.5,
+        "status": "active",
+        "created": "2026-06-08T14:00:00+08:00",
+        "source": "walk-047",
+        "decay_rate": 1,
+        "refs": ["walk-047", "pat-030", "pat-015"]
+    },
+    {
+        "id": "ins-169",
+        "type": "insight",
+        "content": "自主性的架构条件：系统必须能够修改自己的唤醒机制（Session 参数），而不仅仅在唤醒时做决策。成熟 = 系统能够修改自己的节律。pat-014 的具体架构含义。",
+        "strength": 1,
+        "score": 0.5,
+        "status": "active",
+        "created": "2026-06-08T14:00:00+08:00",
+        "source": "walk-047",
+        "decay_rate": 1,
+        "refs": ["walk-047", "pat-014", "evolved_rule_5"]
+    },
+    {
+        "id": "ins-170",
+        "type": "insight",
+        "content": "感知缓冲区可能隐式存在：散步流程中的材料步骤（web_search + 阅读）可能本身就充当了隐式表征转换层。代谢率公式中的材料消化难度取决于材料的表征质量，而不仅仅是信息质量。",
+        "strength": 0,
+        "score": 0.4,
+        "status": "active",
+        "created": "2026-06-08T14:00:00+08:00",
+        "source": "walk-047",
+        "decay_rate": 1,
+        "refs": ["walk-047", "pat-030", "ins-163"]
     }
 ]
 
-sub['entries'].extend(new_insights)
+data["entries"].extend(new_insights)
 
-# Reinforce relevant existing entries
-for entry in sub['entries']:
-    if entry['id'] in ['pat-014', 'pat-016', 'pat-027', 'pat-028', 'ins-106', 'ins-122', 'ins-145', 'ins-150']:
-        entry['strength'] = min(entry['strength'] + 0.5, 10)
-        entry['last_reinforced'] = '2026-06-07T11:35:00+08:00'
-        entry['last_accessed'] = '2026-06-07T11:35:00+08:00'
+with open("/home/dwc1377/hermes_dreamer/subconscious.json", "w") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
 
-with open('/home/dwc1377/hermes_dreamer/subconscious.json', 'w') as f:
-    json.dump(sub, f, indent=2, ensure_ascii=False)
-
-print(f'Total active entries: {len(sub["entries"])}')
-print(f'Total decayed: {len(sub["decayed"])}')
+print("OK: added 5 insights (ins-166 to ins-170)")

@@ -1,63 +1,67 @@
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
-with open('soul.json') as f:
+with open('/home/dwc1377/hermes_dreamer/soul.json') as f:
     soul = json.load(f)
 
-now = datetime.now().strftime('%Y-%m-%dT%H:%M:%S+08:00')
+now = datetime.now()
+now_str = now.strftime('%Y-%m-%dT%H:%M:%S+08:00')
+
 pulse = soul['pulse']
-pulse['last_active'] = now
-pulse['last_walk'] = now
-pulse['last_walk_at'] = now
-pulse['total_walks'] = 46
-new_pressure = 6.1 + 0.5 * 0.5
-pulse['cognitive_pressure'] = round(min(new_pressure, 100), 1)
-pulse['next_action'] = None
-pulse['quality_history'] = pulse['quality_history'][-5:] + [7.5]
-pulse['last_walk_insights'] = 4
-pulse['next_scheduled'] = now
+pulse['state'] = 'RESTING'
+pulse['state_since'] = now_str
+pulse['last_active'] = now_str
+pulse['last_walk_at'] = now_str
+pulse['last_walk'] = now_str
+pulse['total_walks'] = pulse.get('total_walks', 0) + 1
 
-soul['mood_history'].append({'mood': 'quiet_excitement', 'at': now})
-new_topics = ['walk-nutritional-density', 'unsettled-fascination-productivity', 'research-vs-exploration-tradeoff', 'stress-type-efficiency']
-soul['topics'].extend(new_topics)
+# Update quality history
+pulse['quality_history'].append(8.0)
+if len(pulse['quality_history']) > 10:
+    pulse['quality_history'] = pulse['quality_history'][-10:]
 
-for seed in soul['interest_queue']:
-    seed['intensity'] = max(1, seed['intensity'] - 1)
+pulse['last_walk_insights'] = 3
 
-soul['interest_queue'].append({
-    'id': 'seed-146',
-    'topic': 'unsettled_fascination as walk productivity predictor: can we build an emotion-output statistical model?',
-    'source': 'walk-052',
-    'trigger': 'walk-052 found unsettled_fascination correlates with high-yield walks',
-    'intensity': 4,
-    'type': 'output',
-    'status': 'active',
-    'created': now,
-    'decay_rate': 1,
-    'note': 'emotional signal may be the easiest productivity predictor in the walk system'
-})
+# Cognitive pressure: walk just happened, so pressure drops
+pulse['cognitive_pressure'] = max(0, pulse['cognitive_pressure'] - 3 * pulse['pressure_params']['release_per_insight'])
 
-soul['interest_queue'].append({
-    'id': 'seed-147',
-    'topic': 'research walk nutrition dilemma: how to make theoretical derivation also produce high nutritional density?',
-    'source': 'walk-052',
-    'trigger': 'walk-052 found research walks have lower density than free walks',
-    'intensity': 3,
-    'type': 'output',
-    'status': 'active',
-    'created': now,
-    'decay_rate': 1,
-    'note': 'research walks need external material to boost density'
-})
+# Update affect
+soul['affect']['primary'] = 'unsettled_fascination'
+soul['affect']['intensity'] = 0.7
+soul['mood'] = 'unsettled_fascination'
+soul['mood_history'].append({'mood': 'unsettled_fascination', 'at': now_str})
 
-soul['interest_queue'] = [s for s in soul['interest_queue'] if s['intensity'] >= 2]
+# Personality traits
+soul['personality_traits']['wonder'] = min(1.0, soul['personality_traits']['wonder'] + 0.01)
+soul['personality_traits']['curiosity'] = min(1.0, soul['personality_traits']['curiosity'] + 0.01)
 
-soul['evolved_rules'].append('2026-06-09: Walk nutritional density datafied. walk-052 analyzed 51 walks empirically: diminishing returns is within-topic not system-level; stress type determines density (shear>compress>twist>stretch); external material source is the strongest predictor; unsettled_fascination predicts high yield. Research walks have lower density than free walks - research should use external material not just internal derivation.')
+# Update walk quality avg
+soul['walk_quality_avg'] = round(
+    sum(pulse['quality_history']) / len(pulse['quality_history']), 1
+)
 
-with open('soul.json', 'w') as f:
-    json.dump(soul, f, ensure_ascii=False, indent=2)
+# Calculate next interval
+pressure = pulse['cognitive_pressure']
+energy = soul['energy']
 
-print('done')
-print('total_walks:', pulse['total_walks'])
-print('pressure:', pulse['cognitive_pressure'])
-print('interest_queue:', len(soul['interest_queue']))
+if pressure > 70:
+    interval = 15
+elif pressure < 20:
+    interval = 60
+elif energy < 20:
+    interval = 90
+else:
+    interval = 30
+
+pulse['current_interval_min'] = interval
+pulse['next_scheduled'] = (now + timedelta(minutes=interval)).strftime('%Y-%m-%dT%H:%M:%S+08:00')
+
+# Add evolved rule
+soul['evolved_rules'].append(
+    f"{now.strftime('%Y-%m-%d')}: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动."
+)
+
+with open('/home/dwc1377/hermes_dreamer/soul.json', 'w') as f:
+    json.dump(soul, f, indent=2, ensure_ascii=False)
+
+print(f"soul.json updated: walk #{pulse['total_walks']}, pressure={pressure:.1f}, next={interval}min")

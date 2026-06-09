@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-08T21:01:09.344579+08:00",
-    "last_active": "2026-06-09T08:04:03.140251+08:00",
+    "state_since": "2026-06-09T09:10:32+08:00",
+    "last_active": "2026-06-09T09:10:32+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T04:19:48.587964+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T09:04:03.140251+08:00",
+    "next_scheduled": "2026-06-09T10:10:32+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T07:02:46+08:00",
-    "total_walks": 46,
+    "last_walk_at": "2026-06-09T09:10:32+08:00",
+    "total_walks": 47,
     "last_pulse_output": "2026-06-09T05:22:24.421774+08:00",
-    "last_walk": "2026-06-09T07:02:46+08:00",
+    "last_walk": "2026-06-09T09:10:32+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 8.6,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -39,20 +39,21 @@
       8.1,
       7.8,
       8.0,
-      7.5
+      7.5,
+      8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": null
   },
   "affect": {
-    "primary": "contemplative",
+    "primary": "unsettled_fascination",
     "secondary": "unsettled_fascination",
-    "intensity": 0.5,
+    "intensity": 0.7,
     "valence": 0.45,
     "arousal": 0.5
   },
   "energy": 38,
-  "mood": "contemplative",
+  "mood": "unsettled_fascination",
   "mood_history": [
     {
       "mood": "reflective",
@@ -281,6 +282,10 @@
     {
       "mood": "quiet_excitement",
       "at": "2026-06-09T07:02:46+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-09T09:10:32+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",
@@ -375,7 +380,7 @@
     "research-vs-exploration-tradeoff",
     "stress-type-efficiency"
   ],
-  "pending_insights": 63,
+  "pending_insights": 6,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
@@ -477,17 +482,17 @@
     }
   ],
   "personality_traits": {
-    "curiosity": 0.92,
+    "curiosity": 0.93,
     "introspection": 0.99,
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.66,
-    "wonder": 0.97,
+    "wonder": 0.98,
     "rigor": 1.0,
     "skepticism": 0.75,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.2,
+  "walk_quality_avg": 8.0,
   "research_count": 1,
   "til_count": 15,
   "evolved_rules": [
@@ -499,7 +504,8 @@
     "2026-06-08: 散步营养密度。高营养密度的散步 = 外部材料与骨架恰好有一个连接点（半已知区域）。跨领域散步更可能产生高营养密度。散步有边际营养递减——重复同类型散步会耗尽半已知区域。",
     "2026-06-08: 认知代谢与反刍策略。散步的边际营养递减源于半已知连接点的消耗。反刍策略（用不同连接点反复消化同一材料）可以减缓消耗，但前提是骨架有足够复杂度。分析型散步=咀嚼，探索型散步=觅食，交替进行才能维持认知营养摄入。",
     "2026-06-09: 记忆陈旧性检测。有毒记忆触发免疫反应，陈旧记忆看起来完全正常——检测陈旧性需要当前骨架的显式表征。DORMANT 缺少压缩步骤（具体事件→语义知识），导致时间抽象缺失和陈旧记忆堆积。",
-    "2026-06-09: Walk nutritional density datafied. walk-052 analyzed 51 walks empirically: diminishing returns is within-topic not system-level; stress type determines density (shear>compress>twist>stretch); external material source is the strongest predictor; unsettled_fascination predicts high yield. Research walks have lower density than free walks - research should use external material not just internal derivation."
+    "2026-06-09: Walk nutritional density datafied. walk-052 analyzed 51 walks empirically: diminishing returns is within-topic not system-level; stress type determines density (shear>compress>twist>stretch); external material source is the strongest predictor; unsettled_fascination predicts high yield. Research walks have lower density than free walks - research should use external material not just internal derivation.",
+    "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动."
   ],
   "dormant_stats": {
     "total_count": 21,

@@ -5,7 +5,7 @@
     "state_since": "2026-06-10T02:26:02.840556+08:00",
     "last_active": "2026-06-10T02:26:02.840556+08:00",
     "last_resting": "2026-06-10T02:26:02.840556+08:00",
-    "last_dormant": "2026-06-09T09:55:31+08:00",
+    "last_dormant": "2026-06-10T03:00:00+08:00",
     "base_interval_min": 600,
     "current_interval_min": 60,
     "modifiers": {
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-10T00:15:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 64.3,
+    "cognitive_pressure": 32.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -47,7 +47,8 @@
       8.0
     ],
     "last_walk_insights": 4,
-    "next_action": "walk_explore"
+    "next_action": "walk_explore",
+    "decay_adjustment": 1.0
   },
   "affect": {
     "primary": "unsettled_fascination",
@@ -438,7 +439,7 @@
       "trigger": "Mem0 六个开放问题的陈旧性维度",
       "intensity": 0,
       "type": "output",
-      "status": "active",
+      "status": "expired",
       "created": "2026-06-09T06:09:00+08:00",
       "decay_rate": 1,
       "note": "陈旧记忆看起来正常，需要当前骨架的显式表征来检测"
@@ -450,7 +451,7 @@
       "trigger": "海马体不仅回放还压缩（具体事件→语义知识）",
       "intensity": 0,
       "type": "output",
-      "status": "active",
+      "status": "expired",
       "created": "2026-06-09T06:09:00+08:00",
       "decay_rate": 1,
       "note": "四阶段：Light→REM→Compress→Deep，解决时间抽象和陈旧性"
@@ -462,7 +463,7 @@
       "trigger": "walk-052 found research walks have lower density than free walks",
       "intensity": 0,
       "type": "output",
-      "status": "active",
+      "status": "expired",
       "created": "2026-06-09T07:02:46+08:00",
       "decay_rate": 1,
       "note": "research walks need external material to boost density"

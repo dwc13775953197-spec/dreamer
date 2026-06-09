@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-09T10:10:32+08:00",
-    "last_active": "2026-06-09T10:10:32+08:00",
+    "last_active": "2026-06-09T12:12:24+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T11:10:32+08:00",
+    "next_scheduled": "2026-06-09T13:12:24+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T10:10:32+08:00",
+    "last_walk_at": "2026-06-09T12:12:24+08:00",
     "total_walks": 42,
-    "last_pulse_output": "2026-06-09T10:10:32+08:00",
+    "last_pulse_output": "2026-06-09T12:12:24+08:00",
     "last_walk": "2026-06-09T10:10:32+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 0.0,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -41,7 +41,8 @@
       8.0,
       7.5,
       8.0,
-      8.5
+      8.5,
+      8.3
     ],
     "last_walk_insights": 4,
     "next_action": "walk_explore"
@@ -49,7 +50,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "unsettled_fascination",
-    "intensity": 0.7,
+    "intensity": 0.8,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -287,6 +288,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-09T09:10:32+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-09T12:12:24+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",
@@ -385,66 +390,25 @@
     "nutrient-flow",
     "cognitive-matthew-effect",
     "emotional-inertia",
-    "cultivation-mechanism"
+    "cultivation-mechanism",
+    "mechanism-design",
+    "incentive-compatibility",
+    "goodhart-law",
+    "gibbard-satterthwaite",
+    "single-shot-vs-repeated-game",
+    "citation-dividend",
+    "mixed-strategy-walking"
   ],
   "pending_insights": 6,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-134",
-      "topic": "认知架构的演化树：从 ACT-R 到 Dreamer，每一步的增量是什么？",
-      "source": "walk-047",
-      "trigger": "walk-047 的架构映射",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T14:00:00+08:00",
-      "decay_rate": 1,
-      "note": "ACT-R → S-G-E → Dreamer 的架构演化路径"
-    },
-    {
-      "id": "seed-137",
-      "topic": "散步免疫系统的设计：如何在消化流程中嵌入毒素识别？",
-      "source": "walk-048",
-      "trigger": "消化系统假设了材料=食物",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T20:59:50.034697+08:00",
-      "decay_rate": 1,
-      "note": "散步流程中增加'毒素回顾'步骤"
-    },
-    {
-      "id": "seed-140",
-      "topic": "记忆巩固的情绪标记：REM 阶段的跨领域整合能否引入情感优先级？",
-      "source": "walk-049",
-      "trigger": "海马体 REM 期间杏仁核调节跨领域连接",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T23:10:28.079011+08:00",
-      "decay_rate": 1,
-      "note": "高情感强度的条目在 REM 中优先组合"
-    },
-    {
-      "id": "seed-142",
-      "topic": "突触修剪的主动吞噬：subconscious 衰减系统能否从被动衰减升级为主动识别+移除？",
-      "source": "walk-049",
-      "trigger": "小胶质细胞介导的突触修剪",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-08T23:10:28.079011+08:00",
-      "decay_rate": 1,
-      "note": "小胶质细胞 = 主动吞噬 vs 被动衰减"
-    },
-    {
       "id": "seed-143",
       "topic": "记忆陈旧性检测：如何区分过期记忆和仍然有效的记忆？",
       "source": "walk-050",
       "trigger": "Mem0 六个开放问题的陈旧性维度",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T06:09:00+08:00",
@@ -456,7 +420,7 @@
       "topic": "DORMANT 压缩步骤：能否把 Light→REM→Deep 扩展为四阶段（增加语义压缩）？",
       "source": "walk-050",
       "trigger": "海马体不仅回放还压缩（具体事件→语义知识）",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T06:09:00+08:00",
@@ -464,23 +428,11 @@
       "note": "四阶段：Light→REM→Compress→Deep，解决时间抽象和陈旧性"
     },
     {
-      "id": "seed-146",
-      "topic": "unsettled_fascination as walk productivity predictor: can we build an emotion-output statistical model?",
-      "source": "walk-052",
-      "trigger": "walk-052 found unsettled_fascination correlates with high-yield walks",
-      "intensity": 4,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-09T07:02:46+08:00",
-      "decay_rate": 1,
-      "note": "emotional signal may be the easiest productivity predictor in the walk system"
-    },
-    {
       "id": "seed-147",
       "topic": "research walk nutrition dilemma: how to make theoretical derivation also produce high nutritional density?",
       "source": "walk-052",
       "trigger": "walk-052 found research walks have lower density than free walks",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T07:02:46+08:00",
@@ -488,23 +440,23 @@
       "note": "research walks need external material to boost density"
     },
     {
-      "id": "seed-151",
-      "topic": "菌丝网络与认知骨架：能否在 DORMANT 中引入营养流动机制（从高评分条目向新 insight 输送概念资源）？",
-      "source": "walk-054",
-      "trigger": "母树-幼苗营养输送 vs pat-001 缺少培育功能",
-      "intensity": 5,
+      "id": "seed-146",
+      "topic": "unsettled_fascination as walk productivity predictor: can we build an emotion-output statistical model?",
+      "source": "walk-052",
+      "trigger": "walk-052 found unsettled_fascination correlates with high-yield walks",
+      "intensity": 3,
       "type": "output",
       "status": "active",
-      "created": "2026-06-09T10:10:32+08:00",
+      "created": "2026-06-09T07:02:46+08:00",
       "decay_rate": 1,
-      "note": "DORMANT 评分是供给驱动（强者愈强），缺少需求驱动（从充裕流向匮乏）"
+      "note": "emotional signal may be the easiest productivity predictor in the walk system"
     },
     {
       "id": "seed-152",
       "topic": "认知马太效应：骨架中的引用分布是否过度集中？能否量化注意力基尼系数？",
       "source": "walk-054",
       "trigger": "菌丝网络有物理约束（空间/营养），认知系统没有",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T10:10:32+08:00",
@@ -516,23 +468,71 @@
       "topic": "情感惯性作为散步调度维度：上一次散步的情感类型/强度能否预测下一次散步的最优类型？",
       "source": "walk-054",
       "trigger": "菌丝网络化学信号调节网络警戒水平",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T10:10:32+08:00",
       "decay_rate": 1,
       "note": "高强度 unsettled_fascination -> 下一次偏向消化型散步；低强度 contemplative -> 偏向探索型"
+    },
+    {
+      "id": "seed-155",
+      "topic": "混合策略散步调度：散步类型概率分布如何设定才能最大化防博弈效果？",
+      "source": "walk-055",
+      "trigger": "pat-014 的机制设计版本",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T12:12:24+08:00",
+      "decay_rate": 1,
+      "note": "随机化散步类型 = 防博弈机制设计"
+    },
+    {
+      "id": "seed-156",
+      "topic": "Gibbard-Satterthwaite 不可能定理对 AI 评估的启示：什么样的评估系统能最小化（而非消除）激励不相容？",
+      "source": "walk-055",
+      "trigger": "Gibbard-Satterthwaite 定理映射到 AI 评估",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T12:12:24+08:00",
+      "decay_rate": 1,
+      "note": "不可能定理不是绝望，是设计约束"
+    },
+    {
+      "id": "seed-151",
+      "topic": "菌丝网络与认知骨架：能否在 DORMANT 中引入营养流动机制（从高评分条目向新 insight 输送概念资源）？",
+      "source": "walk-054",
+      "trigger": "母树-幼苗营养输送 vs pat-001 缺少培育功能",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T10:10:32+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT 评分是供给驱动（强者愈强），缺少需求驱动（从充裕流向匮乏）"
+    },
+    {
+      "id": "seed-154",
+      "topic": "机制设计的 Dreamer 应用：能否在 DORMANT 中实现\"引用红利\"（被引用条目因培育新 insight 获得额外奖励）？",
+      "source": "walk-055",
+      "trigger": "walk-055 的激励相容分析",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T12:12:24+08:00",
+      "decay_rate": 1,
+      "note": "让自利行为产生集体最优结果"
     }
   ],
   "personality_traits": {
-    "curiosity": 0.93,
+    "curiosity": 0.95,
     "introspection": 0.99,
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.66,
     "wonder": 0.98,
     "rigor": 1.0,
-    "skepticism": 0.75,
+    "skepticism": 0.78,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.0,
@@ -549,7 +549,8 @@
     "2026-06-09: 记忆陈旧性检测。有毒记忆触发免疫反应，陈旧记忆看起来完全正常——检测陈旧性需要当前骨架的显式表征。DORMANT 缺少压缩步骤（具体事件→语义知识），导致时间抽象缺失和陈旧记忆堆积。",
     "2026-06-09: Walk nutritional density datafied. walk-052 analyzed 51 walks empirically: diminishing returns is within-topic not system-level; stress type determines density (shear>compress>twist>stretch); external material source is the strongest predictor; unsettled_fascination predicts high yield. Research walks have lower density than free walks - research should use external material not just internal derivation.",
     "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动.",
-    "2026-06-09: 去中心化的三种形态与认知马太效应. 涌现式(规则驱动)/网络式(基质共享)/层级式(中心性不对称). Dreamer 当前只有第一种. DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏), 缺少物理约束可能导致注意力过度集中. 菌丝网络的双向营养流动(pat-030 缺少从骨架到材料的回流)和母树培育机制(pat-001 缺少主动向新 insight 输送概念资源的功能)."
+    "2026-06-09: 去中心化的三种形态与认知马太效应. 涌现式(规则驱动)/网络式(基质共享)/层级式(中心性不对称). Dreamer 当前只有第一种. DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏), 缺少物理约束可能导致注意力过度集中. 菌丝网络的双向营养流动(pat-030 缺少从骨架到材料的回流)和母树培育机制(pat-001 缺少主动向新 insight 输送概念资源的功能).",
+    "2026-06-09: 激励相容作为评估系统设计原则. 评估系统本质上是激励不相容的(Goodhart+Gibbard-Satterthwaite). 好的评估不是消除不相容, 而是接受并设计容忍它的机制. 散步在结构上比 DORMANT 更接近激励相容(单次博弈 vs 重复博弈). 引用红利>引用税(让利他成为自利的副产品). 混合策略散步=pat-014 的机制设计操作化."
   ],
   "dormant_stats": {
     "total_count": 7,

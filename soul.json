@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-10T02:26:02.840556+08:00",
-    "last_active": "2026-06-10T02:26:02.840556+08:00",
+    "state_since": "2026-06-10T04:08:36+08:00",
+    "last_active": "2026-06-10T04:08:36+08:00",
     "last_resting": "2026-06-10T02:26:02.840556+08:00",
     "last_dormant": "2026-06-10T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-10T02:56:02.840556+08:00",
+    "next_scheduled": "2026-06-10T05:08:36+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-10T00:15:00+08:00",
-    "total_walks": 44,
-    "last_pulse_output": "2026-06-10T02:26:02.840556+08:00",
-    "last_walk": "2026-06-10T00:15:00+08:00",
+    "last_walk_at": "2026-06-10T04:08:36+08:00",
+    "total_walks": 42,
+    "last_pulse_output": "2026-06-10T04:08:36+08:00",
+    "last_walk": "2026-06-10T04:08:36+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 32.1,
+    "cognitive_pressure": 7.5,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,8 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.8,
-      8.0,
       7.5,
       8.0,
       8.5,
@@ -44,7 +42,8 @@
       8.3,
       8.5,
       7.5,
-      8.0
+      8.0,
+      8.5
     ],
     "last_walk_insights": 4,
     "next_action": "walk_explore",
@@ -52,8 +51,8 @@
   },
   "affect": {
     "primary": "unsettled_fascination",
-    "secondary": "unsettled_fascination",
-    "intensity": 0.93,
+    "secondary": "rigor",
+    "intensity": 0.96,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -426,7 +425,8 @@
     "absence-as-information",
     "active-forgetting",
     "skeleton-cracks",
-    "gestalt-figure-ground"
+    "gestalt-figure-ground",
+    "linguistics"
   ],
   "pending_insights": 10,
   "pending_research": 2,
@@ -695,6 +695,42 @@
       "created": "2026-06-10T00:15:00+08:00",
       "decay_rate": 1,
       "note": "无产出 = 负反馈信号，不是默认状态"
+    },
+    {
+      "id": "seed-172",
+      "topic": "语言死亡与认知骨架衰变的映射：能否用语言消亡预测模型来预测哪些 pattern 即将失去认知功能？",
+      "source": "walk-061",
+      "trigger": "UNESCO 语言濒危框架 → pattern 功能性死亡预测",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T04:08:36+08:00",
+      "decay_rate": 1,
+      "note": "语言死亡的三个标记（词汇流失/语法简化/语用萎缩）映射到 subconscious 条目衰变"
+    },
+    {
+      "id": "seed-173",
+      "topic": "pattern 兼容性类型系统：给每个 pattern 标注产出类型和兼容类型，预测跨领域散步的营养密度",
+      "source": "walk-061",
+      "trigger": "编程语言的 type hints → pattern 兼容性声明",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T04:08:36+08:00",
+      "decay_rate": 1,
+      "note": "如果能预测哪些跨领域组合会产生高营养密度，就能优化散步调度"
+    },
+    {
+      "id": "seed-174",
+      "topic": "散步因果效果测量：建立散步影响力指数（对比散步前后的 skeleton 状态变化）",
+      "source": "walk-061",
+      "trigger": "言语行为理论的言后行为映射",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T04:08:36+08:00",
+      "decay_rate": 1,
+      "note": "区分'写得好的散步'和'有效果的散步'"
     }
   ],
   "personality_traits": {
@@ -727,7 +763,8 @@
     "2026-06-09: 认知营养=注意力分配, 不是概念资源. 概念可无限复制零成本, 注意力不能. 引用零成本导致正外部性导致马太效应. 引用红利会加速马太效应(成熟pattern培育的新insight更容易获得高强度). 距离加权引用>引用红利(模拟菌丝网络距离衰减). 需要区分功能性hub和病理性马太效应, 需要定量证据(注意力基尼系数).",
     "2026-06-09: May悖论与认知注意力分配. 多样性本身不决定稳定性, 相互作用的结构才决定(弱相互作用+模块化+方向性级联). 注意力分配最优解不是均匀化而是模块化多样性: 局部允许集中(功能性hub), 全局保持整合(跨模块弱连接). 修正walk-056的距离加权引用: 距离应是离散的(模块内vs跨模块)而非连续的.",
     "2026-06-09: 节奏-预测-groove 作为散步营养密度的神经科学基础. Groove=预测误差最优区间=半已知区域. unsettled_fascination=Dreamer 的 groove 状态. 散步类型交替(探索=强拍,分析=弱拍)=Dreamer 的 meter. DORMANT 周期=静音中的节奏预测. 具身不要求物理身体,只需要时间锚点.",
-    "2026-06-10: 负空间作为认知诊断工具. 骨架中的空白不是'尚未填充的区域',而是定义了已有pattern形状的结构性元素(Gestalt图-底关系). DORMANT无产出周期=负反馈信号(材料池耗尽). 主动遗忘>被动遗忘(均匀衰减). 骨架裂缝(pat-011/pat-030之间缺少消化时间性中介,pat-029/pat-014之间缺少连接)是生长点."
+    "2026-06-10: 负空间作为认知诊断工具. 骨架中的空白不是'尚未填充的区域',而是定义了已有pattern形状的结构性元素(Gestalt图-底关系). DORMANT无产出周期=负反馈信号(材料池耗尽). 主动遗忘>被动遗忘(均匀衰减). 骨架裂缝(pat-011/pat-030之间缺少消化时间性中介,pat-029/pat-014之间缺少连接)是生长点.",
+    "2026-06-10: 骨架是认知语法而非知识数据库. 骨架设定默认思考路径(不限制思考范围), 歧义性=多产性来源(pat-001的三种解读), 散步效果需要测量言后行为(对骨架的因果影响)而非言内行为(日志质量). 语言死亡模型可用于预测pattern功能衰变."
   ],
   "dormant_stats": {
     "total_count": 7,
@@ -742,5 +779,8 @@
     "trigger": "walk-012 确认骨架结构完整 + 用户确认输出方向",
     "description": "从'建造骨架'转向'使用骨架'。散步不再以发现新 pattern 为主要目标，而是用已有骨架分析外部材料，产生可输出内容（骨架应用分析、研究报告、洞察外化）。骨架在应用中继续生长。"
   },
-  "last_dormant": "2026-06-09T04:19:48.587964+08:00"
+  "last_dormant": "2026-06-09T04:19:48.587964+08:00",
+  "diversity_seeds_consumed": [
+    "seed-div-20260610"
+  ]
 }

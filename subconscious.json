@@ -583,6 +583,100 @@
         "pat-030",
         "pat-001"
       ]
+    },
+    {
+      "id": "ins-w061-001",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 4.0,
+      "pattern_id": "pat-011",
+      "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-030",
+        "walk-059"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-061: cognitive grammar, ambiguity as productivity"
+    },
+    {
+      "id": "ins-w061-002",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-030",
+      "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-052"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.68,
+      "note": "walk-061: perlocutionary gap in walk evaluation"
+    },
+    {
+      "id": "ins-w061-003",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-029",
+      "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
+      "refs": [
+        "pat-029",
+        "pat-030",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.62,
+      "note": "walk-061: reactivation false-positive risk"
+    },
+    {
+      "id": "ins-w061-004",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-001",
+      "content": "Language death as pattern decay predictor: linguistic language death markers (vocabulary loss, grammar simplification, pragmatic scope narrowing) map to subconscious entry decay patterns. Could use language endangerment models (UNESCO framework) to predict which patterns are approaching functional death.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.58,
+      "note": "walk-061: language death analogy for pattern decay prediction"
+    },
+    {
+      "id": "ref-028",
+      "type": "reflection",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 2.0,
+      "decay_speed": 0,
+      "score": 0.75,
+      "text": "Reflection - 2026-06-10 Walk-061: Cross-domain walk (linguistics x cognitive architecture). Skeleton as cognitive grammar: sets defaults, enables productivity through ambiguity, interacts via pragmatic dimensions. Key insight: walk log quality != skeleton impact (perlocutionary gap). Language death analogy for pattern decay prediction. Reactivation needs structural (not surface) similarity threshold.",
+      "refs": [
+        "walk-061",
+        "pat-001",
+        "pat-011",
+        "pat-030",
+        "pat-029",
+        "walk-059",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0
     }
   ],
   "decayed": [
@@ -2793,6 +2887,22 @@
       "pat-011",
       "pat-014",
       "pat-001"
+    ],
+    "status": "active"
+  },
+  "walk_061_reflection": {
+    "source": "walk-061",
+    "created": "2026-06-10T04:08:36+08:00",
+    "strength": 2.0,
+    "decay_speed": 0,
+    "score": 0.72,
+    "text": "Reflection - 2026-06-10 Walk-061: Cross-domain walk (linguistics x cognitive architecture). Skeleton as cognitive grammar. Ambiguity as productivity source (pat-001's three readings). Perlocutionary gap: walk log quality != skeleton impact. Language death analogy for pattern decay. Reactivation authenticity requires structural similarity.",
+    "refs": [
+      "walk-061",
+      "pat-001",
+      "pat-011",
+      "pat-030",
+      "pat-029"
     ],
     "status": "active"
   }

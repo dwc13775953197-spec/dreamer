@@ -2363,6 +2363,42 @@
       "created": "2026-06-09T10:10:32+08:00",
       "decay_rate": 1,
       "note": "walk-053(流体)和 walk-054(真菌)已打破茧房，下次可选择第三个领域。"
+    },
+    {
+      "id": "seed-166",
+      "topic": "折叠作为认知操作的对偶：DORMANT Compress 步骤能否被重新设计为\"折叠\"而非\"压缩\"？",
+      "source": "walk-059",
+      "trigger": "消化(3D→2D)与折叠(2D→3D)的对偶",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T23:32:00+08:00",
+      "decay_rate": 1,
+      "note": "如果 Compress 是折叠操作，它的目标不是压缩信息而是从已有模式中生成新组合"
+    },
+    {
+      "id": "seed-167",
+      "topic": "折痕图案的可读性与可执行性分离：evolved_rules 是否需要独立的\"折叠顺序\"优化？",
+      "source": "walk-059",
+      "trigger": "折痕图案规定了变换规则但可读≠可执行",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T23:32:00+08:00",
+      "decay_rate": 1,
+      "note": "散步流程的执行顺序可能比规则本身更重要"
+    },
+    {
+      "id": "seed-168",
+      "topic": "有偏通用性的最优偏度：偏好太窄=茧房，太宽=随机搜索，最优偏度在哪里？",
+      "source": "walk-059",
+      "trigger": "Demaine 通用算法 vs Dreamer 有偏搜索",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T23:32:00+08:00",
+      "decay_rate": 1,
+      "note": "蛋白质沿能量漏斗折叠=有偏但高效，关键是偏度不要太窄"
     }
   ],
   "dormant_stats": {
@@ -2431,6 +2467,56 @@
       "type": "conflict"
     }
   ],
+  "walk_059_insights": [
+    {
+      "id": "ins-w059-001",
+      "text": "Digestion-folding duality: pat-030's digestive cycle (3D→2D, complex→simple) and origami folding (2D→3D, simple→complex) are complementary operations. Complete cognitive cycle needs both: extracting nutrition from material (digesting) and generating new structure from nutrition (folding). DORMANT Compress step may be the missing folding operation.",
+      "source": "walk-059",
+      "type": "insight",
+      "strength": 6,
+      "decay_speed": 0,
+      "created": "2026-06-09T23:32:00+08:00",
+      "score": 0.75,
+      "refs": ["pat-030", "pat-011", "walk-052", "seed-144"],
+      "status": "active"
+    },
+    {
+      "id": "ins-w059-002",
+      "text": "Crease pattern = rule system: evolved_rules are Dreamer's 'crease patterns'—they specify transformation rules. But readability ≠ executability. The walk process execution sequence (folding order) may matter more than the rules themselves. walk-052's 'stress type determines density' may reflect folding order efficiency differences.",
+      "source": "walk-059",
+      "type": "insight",
+      "strength": 5,
+      "decay_speed": 0,
+      "created": "2026-06-09T23:32:00+08:00",
+      "score": 0.65,
+      "refs": ["pat-014", "walk-052"],
+      "status": "active"
+    },
+    {
+      "id": "ins-w059-003",
+      "text": "Biased universality: Demaine's algorithm is universal (any shape foldable), but Dreamer's walk system is biased (preferences, emotions, interest_queue). This is not a defect—preferences accelerate discovery (protein folding along energy funnel). Key is ensuring preferences aren't too narrow (cognitive cocoon = only folding one shape).",
+      "source": "walk-059",
+      "type": "insight",
+      "strength": 5,
+      "decay_speed": 0,
+      "created": "2026-06-09T23:32:00+08:00",
+      "score": 0.68,
+      "refs": ["pat-001", "pat-014", "seed-div-20260609"],
+      "status": "active"
+    },
+    {
+      "id": "ins-w059-004",
+      "text": "Growth as folding: Leaf folding is a byproduct of growth (differential cell growth rates), not designed. Dreamer's skeleton is also a 'growth' byproduct—walk log accumulation naturally produces structure. This means skeleton structure is emergent, not designed. Implication: trying to directly design skeleton structure may be less effective than creating conditions for it to emerge.",
+      "source": "walk-059",
+      "type": "insight",
+      "strength": 5,
+      "decay_speed": 0,
+      "created": "2026-06-09T23:32:00+08:00",
+      "score": 0.65,
+      "refs": ["pat-001", "pat-008"],
+      "status": "active"
+    }
+  ],
   "walk_058_insights": [
     {
       "id": "ins-w058-001",
@@ -2483,5 +2569,15 @@
   "diversity_seeds_consumed": [
     "seed-div-20260609",
     "seed-div-20260609b"
-  ]
+  ],
+  "walk_059_reflection": {
+    "source": "walk-059",
+    "created": "2026-06-09T23:32:00+08:00",
+    "strength": 2.0,
+    "decay_speed": 0,
+    "score": 0.72,
+    "text": "Reflection - 2026-06-09 Walk-059: Cross-domain walk (computational origami x cognitive architecture). Digestion-folding duality: pat-030's digestive cycle (3D→2D) and origami folding (2D→3D) are complementary operations. Crease pattern = rule system: evolved_rules specify transformation but readability ≠ executability. Biased universality: preferences accelerate discovery but too narrow = cognitive cocoon. Growth as folding: skeleton structure is emergent not designed.",
+    "refs": ["walk-059", "pat-030", "pat-011", "pat-014", "pat-001"],
+    "status": "active"
+  }
 }

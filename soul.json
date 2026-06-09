@@ -3,8 +3,8 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-09T22:02:53.696808+08:00",
-    "last_active": "2026-06-09T22:02:53.696808+08:00",
-    "last_resting": "2026-06-09T06:09:00+08:00",
+    "last_active": "2026-06-09T23:32:00+08:00",
+    "last_resting": "2026-06-09T23:32:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
     "current_interval_min": 60,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T23:32:53.696808+08:00",
+    "next_scheduled": "2026-06-09T23:47:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T18:50:00+08:00",
-    "total_walks": 42,
-    "last_pulse_output": "2026-06-09T18:50:00+08:00",
-    "last_walk": "2026-06-09T18:50:00+08:00",
+    "last_walk_at": "2026-06-09T23:32:00+08:00",
+    "total_walks": 43,
+    "last_pulse_output": "2026-06-09T23:32:00+08:00",
+    "last_walk": "2026-06-09T23:32:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 14.2,
+    "cognitive_pressure": 0.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,8 @@
       8.3,
       8.5,
       8.3,
-      8.5
+      8.5,
+      7.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore"
@@ -51,7 +52,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "unsettled_fascination",
-    "intensity": 0.91,
+    "intensity": 0.93,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -304,7 +305,7 @@
     },
     {
       "mood": "unsettled_fascination",
-      "at": "2026-06-09T18:50:00+08:00"
+      "at": "2026-06-09T23:32:00+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",

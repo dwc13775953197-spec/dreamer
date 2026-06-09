@@ -347,39 +347,6 @@
       "resurrected_count": 0
     },
     {
-      "id": "ins-160",
-      "type": "insight",
-      "source": "research-003",
-      "created": "2026-06-09T05:24:09.883288+08:00",
-      "strength": 1.3,
-      "pattern_id": "pat-030",
-      "content": "Coverage decay in conformal prediction is O(1/sqrt(n)) polynomial, not exponential. Based on DKW inequality, not thermodynamics. Marginal returns are gentle (4x budget for 4% coverage gain), not catastrophic.",
-      "refs": [
-        "research-003",
-        "walk-051"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.775
-    },
-    {
-      "id": "ins-161",
-      "type": "insight",
-      "source": "research-003",
-      "created": "2026-06-09T05:24:09.883288+08:00",
-      "strength": 2.4,
-      "pattern_id": "pat-029",
-      "content": "UQ(B) = UQ_inf*(1-C/sqrt(B)) + kTln2*H_discard + UQ_structural. Four-term decomposition: asymptotic (theoretical limit), budget (improvable), thermodynamic (info-discard cost), structural (irreducible = pat-029 intrinsic uncertainty). Intrinsic = structural + thermodynamic, not a single quantity.",
-      "refs": [
-        "research-003",
-        "walk-043",
-        "walk-051"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.097
-    },
-    {
       "id": "ref-023",
       "text": "Reflection - 2026-06-09 Walk-052: Nutritional density datafied. Analyzed 51 walks empirically. Key findings: (1) diminishing returns is within-topic not system-level - cross-topic switching maintains high density; (2) stress type determines density: shear > compress > twist > stretch; (3) external material source is the strongest predictor of high-density walks; (4) unsettled_fascination emotion predicts high yield; (5) research walks have lower density than free walks - research should use external material.",
       "source": "walk-052",
@@ -417,7 +384,9 @@
       "status": "active",
       "resurrected_count": 0,
       "score": 0.72,
-      "note": "walk-060: negative space"
+      "note": "walk-060: negative space",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
     },
     {
       "id": "ins-w060-002",
@@ -434,14 +403,16 @@
       "status": "active",
       "resurrected_count": 0,
       "score": 0.65,
-      "note": "walk-060: absence feedback"
+      "note": "walk-060: absence feedback",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
     },
     {
       "id": "ins-w060-003",
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 4.1,
+      "strength": 3.0999999999999996,
       "pattern_id": "pat-030",
       "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
       "refs": [
@@ -452,25 +423,6 @@
       "resurrected_count": 0,
       "score": 0.62,
       "note": "walk-060: active forgetting"
-    },
-    {
-      "id": "ins-w060-004",
-      "type": "insight",
-      "source": "walk-060",
-      "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 2.2,
-      "pattern_id": "pat-011",
-      "content": "Skeleton cracks: missing bridge pat-011/pat-030 and pat-029/pat-014. Gaps are growth points.",
-      "refs": [
-        "pat-011",
-        "pat-030",
-        "pat-029",
-        "pat-014"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.58,
-      "note": "walk-060: skeleton cracks"
     },
     {
       "id": "ref-026",
@@ -492,74 +444,6 @@
       "status": "decayed",
       "resurrected_count": 0,
       "score": 0.78
-    },
-    {
-      "id": "ins-cd-001",
-      "type": "insight",
-      "source": "dormant_cross_domain",
-      "created": "2026-06-10T03:00:00+08:00",
-      "strength": 0,
-      "decay_speed": 0.5,
-      "pattern_id": "pat-030",
-      "content": "负空间是折叠的预备条件: 折纸需要空白区域才能折叠, 骨架需要裂缝才能生长. walk-060发现骨架裂缝是生长点, walk-059发现折叠需要平坦区域. 两者合一: 认知生长发生在骨架的负空间处——不是在有pattern的地方,而是在pattern之间的空白处. DORMANT Compress步骤应该识别这些空白并在那里'折叠'新结构.",
-      "refs": [
-        "walk-060",
-        "walk-059",
-        "pat-030",
-        "pat-011",
-        "ins-w060-004",
-        "ins-w059-001"
-      ],
-      "note": "DORMANT cycle 25: negative space x folding",
-      "status": "active",
-      "resurrected_count": 0,
-      "score": 0.55
-    },
-    {
-      "id": "ins-cd-002",
-      "type": "insight",
-      "source": "dormant_cross_domain",
-      "created": "2026-06-10T03:00:00+08:00",
-      "strength": 0,
-      "decay_speed": 0.5,
-      "pattern_id": "pat-014",
-      "content": "主动遗忘维持groove: walk-058发现groove=预测误差最优区间, walk-060发现主动遗忘=认知编辑. 两者关联: 如果不主动遗忘,记忆堆积导致预测过精确→groove消失(无聊). 主动遗忘通过删除过时模式来维持预测误差在最优区间——它不是记忆的敌人,是groove的维护者. DORMANT的突触缩放就是主动遗忘的近似实现.",
-      "refs": [
-        "walk-060",
-        "walk-058",
-        "pat-014",
-        "pat-030",
-        "ins-w060-003",
-        "ins-w058-001"
-      ],
-      "note": "DORMANT cycle 25: active forgetting x groove",
-      "status": "active",
-      "resurrected_count": 0,
-      "score": 0.55
-    },
-    {
-      "id": "ins-cd-003",
-      "type": "insight",
-      "source": "dormant_cross_domain",
-      "created": "2026-06-10T03:00:00+08:00",
-      "strength": 0,
-      "decay_speed": 0.5,
-      "pattern_id": "pat-011",
-      "content": "骨架裂缝是消化循环缺失的桥接: walk-060发现pat-011/pat-030之间缺少'消化时间性'中介, pat-029/pat-014之间缺少连接. walk-059发现消化(3D→2D)和折叠(2D→3D)的对偶. 这些缺失的桥接pattern = 消化循环中'向上级联'的失败. Compress步骤应该专门搜索两个已有pattern之间的桥接点,生成缺失的中间层.",
-      "refs": [
-        "walk-060",
-        "walk-059",
-        "pat-011",
-        "pat-030",
-        "pat-029",
-        "pat-014",
-        "ins-w060-004",
-        "ins-w059-001"
-      ],
-      "note": "DORMANT cycle 25: skeleton cracks x digestion-folding",
-      "status": "active",
-      "resurrected_count": 0,
-      "score": 0.55
     },
     {
       "id": "ref-027",
@@ -589,7 +473,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 4.0,
+      "strength": 3.0,
       "pattern_id": "pat-011",
       "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
       "refs": [
@@ -619,7 +503,9 @@
       "status": "active",
       "resurrected_count": 0,
       "score": 0.68,
-      "note": "walk-061: perlocutionary gap in walk evaluation"
+      "note": "walk-061: perlocutionary gap in walk evaluation",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
     },
     {
       "id": "ins-w061-003",
@@ -637,25 +523,9 @@
       "status": "active",
       "resurrected_count": 0,
       "score": 0.62,
-      "note": "walk-061: reactivation false-positive risk"
-    },
-    {
-      "id": "ins-w061-004",
-      "type": "insight",
-      "source": "walk-061",
-      "created": "2026-06-10T04:08:36+08:00",
-      "strength": 2.5,
-      "pattern_id": "pat-001",
-      "content": "Language death as pattern decay predictor: linguistic language death markers (vocabulary loss, grammar simplification, pragmatic scope narrowing) map to subconscious entry decay patterns. Could use language endangerment models (UNESCO framework) to predict which patterns are approaching functional death.",
-      "refs": [
-        "pat-001",
-        "pat-030",
-        "walk-060"
-      ],
-      "status": "active",
-      "resurrected_count": 0,
-      "score": 0.58,
-      "note": "walk-061: language death analogy for pattern decay prediction"
+      "note": "walk-061: reactivation false-positive risk",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
     },
     {
       "id": "ref-028",
@@ -2458,6 +2328,237 @@
       "status": "active",
       "resurrected_count": 0,
       "score": 0.8
+    },
+    {
+      "id": "ins-160",
+      "type": "insight",
+      "source": "research-003",
+      "created": "2026-06-09T05:24:09.883288+08:00",
+      "strength": 1.3,
+      "pattern_id": "pat-030",
+      "content": "Coverage decay in conformal prediction is O(1/sqrt(n)) polynomial, not exponential. Based on DKW inequality, not thermodynamics. Marginal returns are gentle (4x budget for 4% coverage gain), not catastrophic.",
+      "refs": [
+        "research-003",
+        "walk-051"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.775,
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-161",
+      "type": "insight",
+      "source": "research-003",
+      "created": "2026-06-09T05:24:09.883288+08:00",
+      "strength": 2.4,
+      "pattern_id": "pat-029",
+      "content": "UQ(B) = UQ_inf*(1-C/sqrt(B)) + kTln2*H_discard + UQ_structural. Four-term decomposition: asymptotic (theoretical limit), budget (improvable), thermodynamic (info-discard cost), structural (irreducible = pat-029 intrinsic uncertainty). Intrinsic = structural + thermodynamic, not a single quantity.",
+      "refs": [
+        "research-003",
+        "walk-043",
+        "walk-051"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.097,
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w060-001",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 3.8,
+      "pattern_id": "pat-030",
+      "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-059"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-060: negative space",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w060-002",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 3.2,
+      "pattern_id": "pat-014",
+      "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
+      "refs": [
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.65,
+      "note": "walk-060: absence feedback",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w060-004",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 2.2,
+      "pattern_id": "pat-011",
+      "content": "Skeleton cracks: missing bridge pat-011/pat-030 and pat-029/pat-014. Gaps are growth points.",
+      "refs": [
+        "pat-011",
+        "pat-030",
+        "pat-029",
+        "pat-014"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.58,
+      "note": "walk-060: skeleton cracks",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-cd-001",
+      "type": "insight",
+      "source": "dormant_cross_domain",
+      "created": "2026-06-10T03:00:00+08:00",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-030",
+      "content": "负空间是折叠的预备条件: 折纸需要空白区域才能折叠, 骨架需要裂缝才能生长. walk-060发现骨架裂缝是生长点, walk-059发现折叠需要平坦区域. 两者合一: 认知生长发生在骨架的负空间处——不是在有pattern的地方,而是在pattern之间的空白处. DORMANT Compress步骤应该识别这些空白并在那里'折叠'新结构.",
+      "refs": [
+        "walk-060",
+        "walk-059",
+        "pat-030",
+        "pat-011",
+        "ins-w060-004",
+        "ins-w059-001"
+      ],
+      "note": "DORMANT cycle 25: negative space x folding",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55,
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-cd-002",
+      "type": "insight",
+      "source": "dormant_cross_domain",
+      "created": "2026-06-10T03:00:00+08:00",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-014",
+      "content": "主动遗忘维持groove: walk-058发现groove=预测误差最优区间, walk-060发现主动遗忘=认知编辑. 两者关联: 如果不主动遗忘,记忆堆积导致预测过精确→groove消失(无聊). 主动遗忘通过删除过时模式来维持预测误差在最优区间——它不是记忆的敌人,是groove的维护者. DORMANT的突触缩放就是主动遗忘的近似实现.",
+      "refs": [
+        "walk-060",
+        "walk-058",
+        "pat-014",
+        "pat-030",
+        "ins-w060-003",
+        "ins-w058-001"
+      ],
+      "note": "DORMANT cycle 25: active forgetting x groove",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55,
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-cd-003",
+      "type": "insight",
+      "source": "dormant_cross_domain",
+      "created": "2026-06-10T03:00:00+08:00",
+      "strength": 0,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-011",
+      "content": "骨架裂缝是消化循环缺失的桥接: walk-060发现pat-011/pat-030之间缺少'消化时间性'中介, pat-029/pat-014之间缺少连接. walk-059发现消化(3D→2D)和折叠(2D→3D)的对偶. 这些缺失的桥接pattern = 消化循环中'向上级联'的失败. Compress步骤应该专门搜索两个已有pattern之间的桥接点,生成缺失的中间层.",
+      "refs": [
+        "walk-060",
+        "walk-059",
+        "pat-011",
+        "pat-030",
+        "pat-029",
+        "pat-014",
+        "ins-w060-004",
+        "ins-w059-001"
+      ],
+      "note": "DORMANT cycle 25: skeleton cracks x digestion-folding",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55,
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w061-002",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-030",
+      "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-052"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.68,
+      "note": "walk-061: perlocutionary gap in walk evaluation",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w061-003",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-029",
+      "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
+      "refs": [
+        "pat-029",
+        "pat-030",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.62,
+      "note": "walk-061: reactivation false-positive risk",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w061-004",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-001",
+      "content": "Language death as pattern decay predictor: linguistic language death markers (vocabulary loss, grammar simplification, pragmatic scope narrowing) map to subconscious entry decay patterns. Could use language endangerment models (UNESCO framework) to predict which patterns are approaching functional death.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.58,
+      "note": "walk-061: language death analogy for pattern decay prediction",
+      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decay_reason": "below_threshold"
     }
   ],
   "interest_queue": [

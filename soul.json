@@ -5,7 +5,7 @@
     "state_since": "2026-06-09T09:10:32+08:00",
     "last_active": "2026-06-09T09:10:32+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
-    "last_dormant": "2026-06-09T04:19:48.587964+08:00",
+    "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
     "current_interval_min": 60,
     "modifiers": {
@@ -43,7 +43,7 @@
       8.0
     ],
     "last_walk_insights": 3,
-    "next_action": null
+    "next_action": "walk_explore"
   },
   "affect": {
     "primary": "unsettled_fascination",
@@ -508,10 +508,10 @@
     "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动."
   ],
   "dormant_stats": {
-    "total_count": 21,
-    "last_dormant_at": "2026-06-08T03:03:15+08:00",
-    "total_insights_added": 43,
-    "total_promotions": 7,
+    "total_count": 7,
+    "last_dormant_at": "2026-06-09T09:55:31+08:00",
+    "total_insights_added": 24,
+    "total_promotions": 11,
     "total_demotions": 0
   },
   "last_weekly_review": "2026-06-07T22:00:00+08:00",

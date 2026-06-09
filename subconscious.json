@@ -373,7 +373,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 3.8,
+      "strength": 2.8,
       "pattern_id": "pat-030",
       "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
       "refs": [
@@ -393,7 +393,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 3.2,
+      "strength": 2.2,
       "pattern_id": "pat-014",
       "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
       "refs": [
@@ -412,7 +412,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 3.0999999999999996,
+      "strength": 2.0999999999999996,
       "pattern_id": "pat-030",
       "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
       "refs": [
@@ -473,7 +473,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 3.0,
+      "strength": 2.0,
       "pattern_id": "pat-011",
       "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
       "refs": [
@@ -492,7 +492,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 3.5,
+      "strength": 2.5,
       "pattern_id": "pat-030",
       "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
       "refs": [
@@ -512,7 +512,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 3.0,
+      "strength": 2.0,
       "pattern_id": "pat-029",
       "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
       "refs": [
@@ -547,6 +547,58 @@
       ],
       "status": "active",
       "resurrected_count": 0
+    },
+    {
+      "id": "ins-043",
+      "type": "insight",
+      "content": "untranslatability as cognitive dimension gap. Skeleton's untranslatable zones are not knowledge blind spots but structural limits. Detection: if a concept always maps to the same pattern after repeated translation, it may be force-mapped.",
+      "strength": 2,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001",
+        "pat-011"
+      ],
+      "decay_rate": 1
+    },
+    {
+      "id": "ins-044",
+      "type": "insight",
+      "content": "Translation gain (Benjamin): translation is not information reduction but reorganization. Translation failures in walks are not comprehension failures but markers of cognitive limits - the most valuable walk output.",
+      "strength": 2,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001"
+      ],
+      "decay_rate": 1
+    },
+    {
+      "id": "ins-045",
+      "type": "insight",
+      "content": "DORMANT fourth function - cognitive translation: introduce mutual pattern translation in REM Sleep to detect translation gain. More dynamic than static type systems.",
+      "strength": 2,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001",
+        "pat-014"
+      ],
+      "decay_rate": 1
+    },
+    {
+      "id": "ins-046",
+      "type": "insight",
+      "content": "Power asymmetry of translation: walks naturally favor skeleton perspective. Correction: occasionally let external material be the target language, using its framework to examine the skeleton.",
+      "strength": 2,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [],
+      "decay_rate": 1
     }
   ],
   "decayed": [

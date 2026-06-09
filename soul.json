@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-09T09:10:32+08:00",
-    "last_active": "2026-06-09T09:10:32+08:00",
+    "state_since": "2026-06-09T10:10:32+08:00",
+    "last_active": "2026-06-09T10:10:32+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T10:10:32+08:00",
+    "next_scheduled": "2026-06-09T11:10:32+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T09:10:32+08:00",
-    "total_walks": 47,
-    "last_pulse_output": "2026-06-09T05:22:24.421774+08:00",
-    "last_walk": "2026-06-09T09:10:32+08:00",
+    "last_walk_at": "2026-06-09T10:10:32+08:00",
+    "total_walks": 42,
+    "last_pulse_output": "2026-06-09T10:10:32+08:00",
+    "last_walk": "2026-06-09T10:10:32+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 0,
+    "cognitive_pressure": 0.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -40,9 +40,10 @@
       7.8,
       8.0,
       7.5,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -378,7 +379,13 @@
     "walk-nutritional-density",
     "unsettled-fascination-productivity",
     "research-vs-exploration-tradeoff",
-    "stress-type-efficiency"
+    "stress-type-efficiency",
+    "mycelium-network",
+    "decentralized-intelligence",
+    "nutrient-flow",
+    "cognitive-matthew-effect",
+    "emotional-inertia",
+    "cultivation-mechanism"
   ],
   "pending_insights": 6,
   "pending_research": 2,
@@ -479,6 +486,42 @@
       "created": "2026-06-09T07:02:46+08:00",
       "decay_rate": 1,
       "note": "research walks need external material to boost density"
+    },
+    {
+      "id": "seed-151",
+      "topic": "菌丝网络与认知骨架：能否在 DORMANT 中引入营养流动机制（从高评分条目向新 insight 输送概念资源）？",
+      "source": "walk-054",
+      "trigger": "母树-幼苗营养输送 vs pat-001 缺少培育功能",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T10:10:32+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT 评分是供给驱动（强者愈强），缺少需求驱动（从充裕流向匮乏）"
+    },
+    {
+      "id": "seed-152",
+      "topic": "认知马太效应：骨架中的引用分布是否过度集中？能否量化注意力基尼系数？",
+      "source": "walk-054",
+      "trigger": "菌丝网络有物理约束（空间/营养），认知系统没有",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T10:10:32+08:00",
+      "decay_rate": 1,
+      "note": "pat-001 被几乎所有散步引用，可能是功能性 hub 也可能是病理性的马太效应"
+    },
+    {
+      "id": "seed-153",
+      "topic": "情感惯性作为散步调度维度：上一次散步的情感类型/强度能否预测下一次散步的最优类型？",
+      "source": "walk-054",
+      "trigger": "菌丝网络化学信号调节网络警戒水平",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T10:10:32+08:00",
+      "decay_rate": 1,
+      "note": "高强度 unsettled_fascination -> 下一次偏向消化型散步；低强度 contemplative -> 偏向探索型"
     }
   ],
   "personality_traits": {
@@ -505,7 +548,8 @@
     "2026-06-08: 认知代谢与反刍策略。散步的边际营养递减源于半已知连接点的消耗。反刍策略（用不同连接点反复消化同一材料）可以减缓消耗，但前提是骨架有足够复杂度。分析型散步=咀嚼，探索型散步=觅食，交替进行才能维持认知营养摄入。",
     "2026-06-09: 记忆陈旧性检测。有毒记忆触发免疫反应，陈旧记忆看起来完全正常——检测陈旧性需要当前骨架的显式表征。DORMANT 缺少压缩步骤（具体事件→语义知识），导致时间抽象缺失和陈旧记忆堆积。",
     "2026-06-09: Walk nutritional density datafied. walk-052 analyzed 51 walks empirically: diminishing returns is within-topic not system-level; stress type determines density (shear>compress>twist>stretch); external material source is the strongest predictor; unsettled_fascination predicts high yield. Research walks have lower density than free walks - research should use external material not just internal derivation.",
-    "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动."
+    "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动.",
+    "2026-06-09: 去中心化的三种形态与认知马太效应. 涌现式(规则驱动)/网络式(基质共享)/层级式(中心性不对称). Dreamer 当前只有第一种. DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏), 缺少物理约束可能导致注意力过度集中. 菌丝网络的双向营养流动(pat-030 缺少从骨架到材料的回流)和母树培育机制(pat-001 缺少主动向新 insight 输送概念资源的功能)."
   ],
   "dormant_stats": {
     "total_count": 7,

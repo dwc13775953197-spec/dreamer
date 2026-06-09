@@ -1,5 +1,5 @@
 {
-  "tick_count": 73,
+  "tick_count": 74,
   "entries": [
     {
       "id": "ref-002",
@@ -519,7 +519,7 @@
       "type": "insight",
       "source": "dormant_cross_domain",
       "created": "2026-06-09T09:55:31+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-030",
       "content": "认知雷诺数预测记忆陈旧性: Re_cognitive = (散步频率 x 强度) / (遗忘速率 x 稳定性). 当 Re 低于临界值时, 记忆流动是层流的(陈旧记忆平稳流过不被检测); 当 Re 超过临界值时, 湍流混合增强消化但也增加混乱. walk-050 发现的陈旧性问题 = 层流态(低 Re), walk-053 的跨领域散步 = 向湍流态的注入. 最优策略不是最大化 Re, 而是在转捩区附近动态调节.",
@@ -531,16 +531,18 @@
         "ins-179"
       ],
       "note": "DORMANT cycle 24: cross-domain association between fluid dynamics (walk-053) and memory staleness (walk-050)",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T10:10:32+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-008",
       "type": "insight",
       "source": "dormant_cross_domain",
       "created": "2026-06-09T09:55:31+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-011",
       "content": "DORMANT 压缩 = 认知逆向级联: Kolmogorov 级联是能量从大尺度流向小尺度(涌现的时间反方向). DORMANT 的 Compress 步骤应该是时间上的逆向级联——从具体事件(小时间尺度)生成抽象模式(大时间尺度). 这与 walk-053 发现的'分析型散步只产生向下级联'一致: 需要双向级联才能完成完整的认知循环. Compress 步骤补上了缺失的'向上'级联.",
@@ -552,16 +554,18 @@
         "ins-180"
       ],
       "note": "DORMANT cycle 24: Kolmogorov inverse cascade as model for DORMANT compression",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T10:10:32+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-009",
       "type": "insight",
       "source": "dormant_cross_domain",
       "created": "2026-06-09T09:55:31+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-029",
       "content": "'内禀'的稳定性取决于框架的稳定性: walk-053 发现 pat-029 的'内禀不确定度'可能随评估框架变化. 推而广之: 所有被标记为'内禀'或'结构性'的属性, 都应该附带一个隐含条件'在当前框架下'. 这不是相对主义——而是要求每个'内禀'声明都标注其适用条件的边界. 就像物理定律标注'在惯性参考系中'一样.",
@@ -572,9 +576,11 @@
         "ins-161"
       ],
       "note": "DORMANT cycle 24: generalizing condition-dependence from Kolmogorov to all 'intrinsic' claims",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T10:10:32+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ref-019",
@@ -597,6 +603,104 @@
       "last_accessed": "2026-06-09T09:55:31+08:00",
       "status": "active",
       "resurrected_count": 0
+    },
+    {
+      "id": "ins-188",
+      "type": "insight",
+      "source": "walk-054",
+      "created": "2026-06-09T10:10:32+08:00",
+      "strength": 1.5,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-030",
+      "content": "去中心化的三种形态: 涌现式(规则驱动,pat-001), 网络式(基质共享,缺少), 层级式(pat-001作为母树但缺少培育功能). Dreamer 只有第一种, 缺少基质共享的物理约束和主动培育机制.",
+      "refs": [
+        "walk-054",
+        "pat-030",
+        "pat-001"
+      ],
+      "note": "walk-054 cross-domain: mycology x cognitive architecture",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55
+    },
+    {
+      "id": "ins-189",
+      "type": "insight",
+      "source": "walk-054",
+      "created": "2026-06-09T10:10:32+08:00",
+      "strength": 1.4,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-029",
+      "content": "认知马太效应: DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏). 缺少物理约束(如 token 预算/上下文窗口)可能导致注意力过度集中在少数 pattern(如 pat-001). 需要量化引用分布的基尼系数.",
+      "refs": [
+        "walk-054",
+        "pat-029",
+        "pat-030"
+      ],
+      "note": "walk-054 cross-domain: mycology resource allocation x DORMANT scoring",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55
+    },
+    {
+      "id": "ins-190",
+      "type": "insight",
+      "source": "walk-054",
+      "created": "2026-06-09T10:10:32+08:00",
+      "strength": 1.3,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-014",
+      "content": "情感惯性假说: 上一次散步的情感类型和强度应该作为后续散步类型的调节器. 高强度 unsettled_fascination 偏向消化型散步(新连接点正在形成需要巩固). 低强度 contemplative 偏向探索型散步(系统处于开放状态). 类比: 菌丝网络化学信号调节网络警戒水平.",
+      "refs": [
+        "walk-054",
+        "pat-014",
+        "seed-146",
+        "walk-052"
+      ],
+      "note": "walk-054 cross-domain: mycology chemical signaling x walk scheduling",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55
+    },
+    {
+      "id": "ins-191",
+      "type": "insight",
+      "source": "walk-054",
+      "created": "2026-06-09T10:10:32+08:00",
+      "strength": 1.4,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-030",
+      "content": "pat-030 缺少营养回流维度: 消化循环只有从材料到骨架的信息流, 缺少从骨架到材料的营养回流. 菌丝网络的双向流动(母树到幼苗, 幼苗到母树)提示完整的认知循环需要双向. Compress 步骤应包含连接强度的调节.",
+      "refs": [
+        "walk-054",
+        "pat-030",
+        "seed-144"
+      ],
+      "note": "walk-054 cross-domain: mycology bidirectional nutrient flow x digestive cycle",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.55
+    },
+    {
+      "id": "ref-025",
+      "type": "reflection",
+      "source": "walk-054",
+      "created": "2026-06-09T10:10:32+08:00",
+      "strength": 4.5,
+      "decay_speed": 0,
+      "relevance": 0.78,
+      "text": "Reflection - 2026-06-09 Walk-054: Cross-domain walk (mycology x cognitive architecture). Three forms of decentralization: emergent, network-based, hierarchical. Cognitive Matthew effect: DORMANT supply-driven scoring vs mycelium demand-driven allocation. Emotional inertia hypothesis for walk scheduling. pat-030 missing nutrient backflow dimension. Cultivation mechanism gap.",
+      "refs": [
+        "walk-054",
+        "pat-030",
+        "pat-001",
+        "pat-014",
+        "pat-029",
+        "seed-144"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.78
     }
   ],
   "decayed": [
@@ -2023,30 +2127,6 @@
       "note": "评估不是安全网，是博弈场。pat-016 的极端版本。"
     },
     {
-      "id": "seed-div-20260609",
-      "topic": "认知多样性种子：下次散步请主动选择与当前骨架主题距离最远的材料",
-      "source": "dormant_diversity",
-      "trigger": "主题熵过低（0.00，0个领域）",
-      "intensity": 6,
-      "type": "diversity_seed",
-      "status": "active",
-      "created": "2026-06-09T03:04:38.409050+08:00",
-      "decay_rate": 1,
-      "note": "DORMANT 周期 22 认知多样性检测：主题熵=0.00，领域数=0。需要跨领域散步来打破认知茧房。"
-    },
-    {
-      "id": "seed-div-20260609",
-      "topic": "认知多样性种子：下次散步请主动选择与当前骨架主题距离最远的材料",
-      "source": "dormant_diversity",
-      "trigger": "主题熵过低（0，0个领域）",
-      "intensity": 6,
-      "type": "diversity_seed",
-      "status": "active",
-      "created": "2026-06-09T04:19:48.587964+08:00",
-      "decay_rate": 1,
-      "note": "DORMANT 周期 23 认知多样性检测：主题熵=0，领域数=0。需要跨领域散步来打破认知茧房。"
-    },
-    {
       "id": "seed-148",
       "topic": "认知雷诺数操作化: 定义散步频率/强度/遗忘速率/骨架稳定性的代理指标",
       "source": "walk-053",
@@ -2093,6 +2173,18 @@
       "created": "2026-06-09T09:55:31+08:00",
       "decay_rate": 1,
       "note": "DORMANT 周期 24 认知多样性检测：主题熵=0.00，领域数=0。需要跨领域散步来打破认知茧房。"
+    },
+    {
+      "id": "seed-div-20260609b",
+      "topic": "认知多样性种子：下次散步请主动选择与当前骨架主题距离最远的材料（非生物学/流体力学领域）",
+      "source": "dormant_diversity",
+      "trigger": "主题熵=0，连续多次跨领域散步后仍需保持多样性",
+      "intensity": 5,
+      "type": "diversity_seed",
+      "status": "active",
+      "created": "2026-06-09T10:10:32+08:00",
+      "decay_rate": 1,
+      "note": "walk-053(流体)和 walk-054(真菌)已打破茧房，下次可选择第三个领域。"
     }
   ],
   "dormant_stats": {

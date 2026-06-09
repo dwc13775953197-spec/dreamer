@@ -351,7 +351,7 @@
       "type": "insight",
       "source": "research-003",
       "created": "2026-06-09T05:24:09.883288+08:00",
-      "strength": 3.0,
+      "strength": 2.0,
       "pattern_id": "pat-030",
       "content": "Coverage decay in conformal prediction is O(1/sqrt(n)) polynomial, not exponential. Based on DKW inequality, not thermodynamics. Marginal returns are gentle (4x budget for 4% coverage gain), not catastrophic.",
       "refs": [
@@ -367,7 +367,7 @@
       "type": "insight",
       "source": "research-003",
       "created": "2026-06-09T05:24:09.883288+08:00",
-      "strength": 4.2,
+      "strength": 3.2,
       "pattern_id": "pat-029",
       "content": "UQ(B) = UQ_inf*(1-C/sqrt(B)) + kTln2*H_discard + UQ_structural. Four-term decomposition: asymptotic (theoretical limit), budget (improvable), thermodynamic (info-discard cost), structural (irreducible = pat-029 intrinsic uncertainty). Intrinsic = structural + thermodynamic, not a single quantity.",
       "refs": [

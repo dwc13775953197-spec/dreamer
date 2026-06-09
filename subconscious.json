@@ -400,6 +400,98 @@
       "last_accessed": "2026-06-09T06:22:00+08:00",
       "status": "active",
       "resurrected_count": 0
+    },
+    {
+      "id": "ins-w060-001",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 5,
+      "pattern_id": "pat-030",
+      "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-059"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-060: negative space"
+    },
+    {
+      "id": "ins-w060-002",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 4,
+      "pattern_id": "pat-014",
+      "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
+      "refs": [
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.65,
+      "note": "walk-060: absence feedback"
+    },
+    {
+      "id": "ins-w060-003",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 4,
+      "pattern_id": "pat-030",
+      "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
+      "refs": [
+        "pat-030",
+        "walk-048"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.62,
+      "note": "walk-060: active forgetting"
+    },
+    {
+      "id": "ins-w060-004",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 3,
+      "pattern_id": "pat-011",
+      "content": "Skeleton cracks: missing bridge pat-011/pat-030 and pat-029/pat-014. Gaps are growth points.",
+      "refs": [
+        "pat-011",
+        "pat-030",
+        "pat-029",
+        "pat-014"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.58,
+      "note": "walk-060: skeleton cracks"
+    },
+    {
+      "id": "ref-026",
+      "type": "reflection",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": 2.5,
+      "decay_speed": 0,
+      "relevance": 0.78,
+      "text": "Reflection - 2026-06-10 Walk-060: Negative space as active structure. Four findings on absence, active forgetting, skeleton cracks.",
+      "refs": [
+        "walk-060",
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "pat-029",
+        "pat-014"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.78
     }
   ],
   "decayed": [

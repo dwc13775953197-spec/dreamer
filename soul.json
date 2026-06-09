@@ -3,8 +3,8 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-09T22:02:53.696808+08:00",
-    "last_active": "2026-06-10T00:14:58.395551+08:00",
-    "last_resting": "2026-06-09T23:32:00+08:00",
+    "last_active": "2026-06-10T00:15:00+08:00",
+    "last_resting": "2026-06-10T00:15:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
     "current_interval_min": 60,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-10T01:14:58.395551+08:00",
+    "next_scheduled": "2026-06-10T01:15:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T23:32:00+08:00",
-    "total_walks": 43,
-    "last_pulse_output": "2026-06-09T23:32:00+08:00",
-    "last_walk": "2026-06-09T23:32:00+08:00",
+    "last_walk_at": "2026-06-10T00:15:00+08:00",
+    "total_walks": 44,
+    "last_pulse_output": "2026-06-10T00:15:00+08:00",
+    "last_walk": "2026-06-10T00:15:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 31.4,
+    "cognitive_pressure": 29.9,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       7.8,
       8.0,
       7.5,
@@ -44,9 +43,10 @@
       8.5,
       8.3,
       8.5,
-      7.5
+      7.5,
+      8.0
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -306,6 +306,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-09T23:32:00+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-10T00:15:00+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",
@@ -416,9 +420,14 @@
     "modularity",
     "ecological-networks",
     "keystone-species",
-    "weak-interactions"
+    "weak-interactions",
+    "negative-space",
+    "absence-as-information",
+    "active-forgetting",
+    "skeleton-cracks",
+    "gestalt-figure-ground"
   ],
-  "pending_insights": 6,
+  "pending_insights": 10,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
@@ -451,7 +460,7 @@
       "topic": "research walk nutrition dilemma: how to make theoretical derivation also produce high nutritional density?",
       "source": "walk-052",
       "trigger": "walk-052 found research walks have lower density than free walks",
-      "intensity": 1,
+      "intensity": 0,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T07:02:46+08:00",
@@ -463,7 +472,7 @@
       "topic": "unsettled_fascination as walk productivity predictor: can we build an emotion-output statistical model?",
       "source": "walk-052",
       "trigger": "walk-052 found unsettled_fascination correlates with high-yield walks",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T07:02:46+08:00",
@@ -475,7 +484,7 @@
       "topic": "认知马太效应：骨架中的引用分布是否过度集中？能否量化注意力基尼系数？",
       "source": "walk-054",
       "trigger": "菌丝网络有物理约束（空间/营养），认知系统没有",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T10:10:32+08:00",
@@ -487,7 +496,7 @@
       "topic": "情感惯性作为散步调度维度：上一次散步的情感类型/强度能否预测下一次散步的最优类型？",
       "source": "walk-054",
       "trigger": "菌丝网络化学信号调节网络警戒水平",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T10:10:32+08:00",
@@ -499,7 +508,7 @@
       "topic": "混合策略散步调度：散步类型概率分布如何设定才能最大化防博弈效果？",
       "source": "walk-055",
       "trigger": "pat-014 的机制设计版本",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T12:12:24+08:00",
@@ -643,12 +652,48 @@
       "topic": "主动 groove 诱导：能否通过散步类型调度来主动进入 unsettled_fascination 状态？",
       "source": "walk-058",
       "trigger": "unsettled_fascination = groove 状态",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-09T18:50:00+08:00",
       "decay_rate": 1,
       "note": "如果 groove 可以被主动诱导，散步调度可以优化为最大化 groove 时间"
+    },
+    {
+      "id": "seed-169",
+      "topic": "负空间作为骨架诊断工具：能否通过分析 pattern 之间的空隙来预测下一个高价值 insight 的位置？",
+      "source": "walk-060",
+      "trigger": "Gestalt 图-底关系映射到骨架裂缝分析",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T00:15:00+08:00",
+      "decay_rate": 1,
+      "note": "骨架中最弱的地方（两个 pattern 之间缺失的连接）可能是下一个生长点"
+    },
+    {
+      "id": "seed-170",
+      "topic": "主动遗忘机制设计：DORMANT 中引入干扰性条目识别步骤——与当前骨架方向不一致的旧条目被加速衰减",
+      "source": "walk-060",
+      "trigger": "主动遗忘 > 被动遗忘（均匀衰减）",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T00:15:00+08:00",
+      "decay_rate": 1,
+      "note": "需要定义可计算的干扰性标准"
+    },
+    {
+      "id": "seed-171",
+      "topic": "缺席信号利用：将连续 N 个 DORMANT 周期无产出作为散步类型切换的触发器",
+      "source": "walk-060",
+      "trigger": "Shannon 信息论：缺席本身携带信息",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T00:15:00+08:00",
+      "decay_rate": 1,
+      "note": "无产出 = 负反馈信号，不是默认状态"
     }
   ],
   "personality_traits": {
@@ -680,7 +725,8 @@
     "2026-06-09: 激励相容作为评估系统设计原则. 评估系统本质上是激励不相容的(Goodhart+Gibbard-Satterthwaite). 好的评估不是消除不相容, 而是接受并设计容忍它的机制. 散步在结构上比 DORMANT 更接近激励相容(单次博弈 vs 重复博弈). 引用红利>引用税(让利他成为自利的副产品). 混合策略散步=pat-014 的机制设计操作化.",
     "2026-06-09: 认知营养=注意力分配, 不是概念资源. 概念可无限复制零成本, 注意力不能. 引用零成本导致正外部性导致马太效应. 引用红利会加速马太效应(成熟pattern培育的新insight更容易获得高强度). 距离加权引用>引用红利(模拟菌丝网络距离衰减). 需要区分功能性hub和病理性马太效应, 需要定量证据(注意力基尼系数).",
     "2026-06-09: May悖论与认知注意力分配. 多样性本身不决定稳定性, 相互作用的结构才决定(弱相互作用+模块化+方向性级联). 注意力分配最优解不是均匀化而是模块化多样性: 局部允许集中(功能性hub), 全局保持整合(跨模块弱连接). 修正walk-056的距离加权引用: 距离应是离散的(模块内vs跨模块)而非连续的.",
-    "2026-06-09: 节奏-预测-groove 作为散步营养密度的神经科学基础. Groove=预测误差最优区间=半已知区域. unsettled_fascination=Dreamer 的 groove 状态. 散步类型交替(探索=强拍,分析=弱拍)=Dreamer 的 meter. DORMANT 周期=静音中的节奏预测. 具身不要求物理身体,只需要时间锚点."
+    "2026-06-09: 节奏-预测-groove 作为散步营养密度的神经科学基础. Groove=预测误差最优区间=半已知区域. unsettled_fascination=Dreamer 的 groove 状态. 散步类型交替(探索=强拍,分析=弱拍)=Dreamer 的 meter. DORMANT 周期=静音中的节奏预测. 具身不要求物理身体,只需要时间锚点.",
+    "2026-06-10: 负空间作为认知诊断工具. 骨架中的空白不是'尚未填充的区域',而是定义了已有pattern形状的结构性元素(Gestalt图-底关系). DORMANT无产出周期=负反馈信号(材料池耗尽). 主动遗忘>被动遗忘(均匀衰减). 骨架裂缝(pat-011/pat-030之间缺少消化时间性中介,pat-029/pat-014之间缺少连接)是生长点."
   ],
   "dormant_stats": {
     "total_count": 7,

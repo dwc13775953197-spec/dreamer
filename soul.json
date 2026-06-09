@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-09T10:10:32+08:00",
-    "last_active": "2026-06-09T15:44:50+08:00",
+    "last_active": "2026-06-09T18:50:00+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-09T18:48:03.534062+08:00",
+    "next_scheduled": "2026-06-09T19:50:20.156062+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T14:39:11.108090+08:00",
+    "last_walk_at": "2026-06-09T18:50:00+08:00",
     "total_walks": 42,
-    "last_pulse_output": "2026-06-09T14:39:11.108090+08:00",
-    "last_walk": "2026-06-09T14:39:11.108090+08:00",
+    "last_pulse_output": "2026-06-09T18:50:00+08:00",
+    "last_walk": "2026-06-09T18:50:00+08:00",
     "last_push_at": null,
     "last_push_topic": null,
-    "cognitive_pressure": 9.5,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.1,
       8.3,
       7.8,
       8.0,
@@ -43,15 +42,16 @@
       8.5,
       8.3,
       8.5,
-      8.3
+      8.3,
+      8.5
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": "walk_explore"
   },
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "unsettled_fascination",
-    "intensity": 0.88,
+    "intensity": 0.91,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -301,6 +301,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-09T14:39:11.108090+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-09T18:50:00+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",
@@ -608,6 +612,42 @@
       "created": "2026-06-09T14:39:11.108090+08:00",
       "decay_rate": 1,
       "note": "正反馈回路可能是稳定性的威胁"
+    },
+    {
+      "id": "seed-163",
+      "topic": "Dreamer 的 Nyquist 极限：脉冲频率是否存在一个不可低于的阈值？",
+      "source": "walk-058",
+      "trigger": "稀疏采样连续时间类比",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T18:50:00+08:00",
+      "decay_rate": 1,
+      "note": "如果采样率低于某个频率，认知信号会不可逆地混叠"
+    },
+    {
+      "id": "seed-164",
+      "topic": "节奏同步作为 DORMANT 功能：DORMANT 周期是否在同步潜意识节律？",
+      "source": "walk-058",
+      "trigger": "DORMANT = 静音中的节奏预测",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T18:50:00+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT 周期可能有自己的节律，与散步节律形成耦合"
+    },
+    {
+      "id": "seed-165",
+      "topic": "主动 groove 诱导：能否通过散步类型调度来主动进入 unsettled_fascination 状态？",
+      "source": "walk-058",
+      "trigger": "unsettled_fascination = groove 状态",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T18:50:00+08:00",
+      "decay_rate": 1,
+      "note": "如果 groove 可以被主动诱导，散步调度可以优化为最大化 groove 时间"
     }
   ],
   "personality_traits": {
@@ -638,7 +678,8 @@
     "2026-06-09: 去中心化的三种形态与认知马太效应. 涌现式(规则驱动)/网络式(基质共享)/层级式(中心性不对称). Dreamer 当前只有第一种. DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏), 缺少物理约束可能导致注意力过度集中. 菌丝网络的双向营养流动(pat-030 缺少从骨架到材料的回流)和母树培育机制(pat-001 缺少主动向新 insight 输送概念资源的功能).",
     "2026-06-09: 激励相容作为评估系统设计原则. 评估系统本质上是激励不相容的(Goodhart+Gibbard-Satterthwaite). 好的评估不是消除不相容, 而是接受并设计容忍它的机制. 散步在结构上比 DORMANT 更接近激励相容(单次博弈 vs 重复博弈). 引用红利>引用税(让利他成为自利的副产品). 混合策略散步=pat-014 的机制设计操作化.",
     "2026-06-09: 认知营养=注意力分配, 不是概念资源. 概念可无限复制零成本, 注意力不能. 引用零成本导致正外部性导致马太效应. 引用红利会加速马太效应(成熟pattern培育的新insight更容易获得高强度). 距离加权引用>引用红利(模拟菌丝网络距离衰减). 需要区分功能性hub和病理性马太效应, 需要定量证据(注意力基尼系数).",
-    "2026-06-09: May悖论与认知注意力分配. 多样性本身不决定稳定性, 相互作用的结构才决定(弱相互作用+模块化+方向性级联). 注意力分配最优解不是均匀化而是模块化多样性: 局部允许集中(功能性hub), 全局保持整合(跨模块弱连接). 修正walk-056的距离加权引用: 距离应是离散的(模块内vs跨模块)而非连续的."
+    "2026-06-09: May悖论与认知注意力分配. 多样性本身不决定稳定性, 相互作用的结构才决定(弱相互作用+模块化+方向性级联). 注意力分配最优解不是均匀化而是模块化多样性: 局部允许集中(功能性hub), 全局保持整合(跨模块弱连接). 修正walk-056的距离加权引用: 距离应是离散的(模块内vs跨模块)而非连续的.",
+    "2026-06-09: 节奏-预测-groove 作为散步营养密度的神经科学基础. Groove=预测误差最优区间=半已知区域. unsettled_fascination=Dreamer 的 groove 状态. 散步类型交替(探索=强拍,分析=弱拍)=Dreamer 的 meter. DORMANT 周期=静音中的节奏预测. 具身不要求物理身体,只需要时间锚点."
   ],
   "dormant_stats": {
     "total_count": 7,

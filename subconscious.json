@@ -609,7 +609,7 @@
       "type": "insight",
       "source": "walk-054",
       "created": "2026-06-09T10:10:32+08:00",
-      "strength": 1.5,
+      "strength": 1.0,
       "decay_speed": 0.5,
       "pattern_id": "pat-030",
       "content": "去中心化的三种形态: 涌现式(规则驱动,pat-001), 网络式(基质共享,缺少), 层级式(pat-001作为母树但缺少培育功能). Dreamer 只有第一种, 缺少基质共享的物理约束和主动培育机制.",
@@ -619,16 +619,18 @@
         "pat-001"
       ],
       "note": "walk-054 cross-domain: mycology x cognitive architecture",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-189",
       "type": "insight",
       "source": "walk-054",
       "created": "2026-06-09T10:10:32+08:00",
-      "strength": 1.4,
+      "strength": 0.8999999999999999,
       "decay_speed": 0.5,
       "pattern_id": "pat-029",
       "content": "认知马太效应: DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏). 缺少物理约束(如 token 预算/上下文窗口)可能导致注意力过度集中在少数 pattern(如 pat-001). 需要量化引用分布的基尼系数.",
@@ -638,16 +640,18 @@
         "pat-030"
       ],
       "note": "walk-054 cross-domain: mycology resource allocation x DORMANT scoring",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-190",
       "type": "insight",
       "source": "walk-054",
       "created": "2026-06-09T10:10:32+08:00",
-      "strength": 1.3,
+      "strength": 0.8,
       "decay_speed": 0.5,
       "pattern_id": "pat-014",
       "content": "情感惯性假说: 上一次散步的情感类型和强度应该作为后续散步类型的调节器. 高强度 unsettled_fascination 偏向消化型散步(新连接点正在形成需要巩固). 低强度 contemplative 偏向探索型散步(系统处于开放状态). 类比: 菌丝网络化学信号调节网络警戒水平.",
@@ -658,16 +662,18 @@
         "walk-052"
       ],
       "note": "walk-054 cross-domain: mycology chemical signaling x walk scheduling",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-191",
       "type": "insight",
       "source": "walk-054",
       "created": "2026-06-09T10:10:32+08:00",
-      "strength": 1.4,
+      "strength": 0.8999999999999999,
       "decay_speed": 0.5,
       "pattern_id": "pat-030",
       "content": "pat-030 缺少营养回流维度: 消化循环只有从材料到骨架的信息流, 缺少从骨架到材料的营养回流. 菌丝网络的双向流动(母树到幼苗, 幼苗到母树)提示完整的认知循环需要双向. Compress 步骤应包含连接强度的调节.",
@@ -677,9 +683,11 @@
         "seed-144"
       ],
       "note": "walk-054 cross-domain: mycology bidirectional nutrient flow x digestive cycle",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ref-025",
@@ -707,7 +715,7 @@
       "type": "insight",
       "source": "walk-055",
       "created": "2026-06-09T12:12:24+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-029",
       "content": "评估不确定度的博弈论基础: pat-029 说评估不确定度是内禀的(结构性+热力学). walk-055 补充: 它还是机制设计的必然产物——激励相容的评估系统有内置不确定度, 因为'真实'是私人信息, 评估者永远无法100%验证. Goodhart 定律和 Gibbard-Satterthwaite 定理双重保证了评估系统的激励不相容.",
@@ -718,16 +726,18 @@
         "ins-162"
       ],
       "note": "walk-055: mechanism design foundation for evaluation uncertainty",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.6
+      "score": 0.6,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-189",
       "type": "insight",
       "source": "walk-055",
       "created": "2026-06-09T12:12:24+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-030",
       "content": "散步在结构上比 DORMANT 更接近激励相容: 散步=单次博弈(无声誉/报复/联盟的动机), DORMANT=重复博弈(条目竞争 score 形成复杂策略互动). 单次博弈中合作动机更强, 策略性动机更弱. 这是一个支持'散步优先于 DORMANT'的结构性论据.",
@@ -737,16 +747,18 @@
         "pat-014"
       ],
       "note": "walk-055: single-shot vs repeated game structural advantage of walks",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.6
+      "score": 0.6,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-190",
       "type": "insight",
       "source": "walk-055",
       "created": "2026-06-09T12:12:24+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": "pat-014",
       "content": "混合策略散步 = pat-014 的机制设计版本: 系统成熟=拥有不可预测的节律=混合策略均衡=对外部观察者的激励不相容性最大化. 随机化散步类型(探索/分析/跨领域)不仅是成熟的标志, 也是防博弈的机制设计策略.",
@@ -755,16 +767,18 @@
         "pat-014"
       ],
       "note": "walk-055: mixed-strategy walking as mechanism design operationalization of pat-014",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
-      "score": 0.55
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
     },
     {
       "id": "ins-191",
       "type": "insight",
       "source": "walk-055",
       "created": "2026-06-09T12:12:24+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "decay_speed": 0.5,
       "pattern_id": null,
       "content": "引用红利机制: 比引用税更可能实现培育——当被引用条目培育的新 insight 获得高强度时, 原始条目获得额外奖励. 让自利行为(被引用)产生集体最优结果(新 insight 成长). 机制设计精髓: 不强迫利他, 让利他成为自利的副产品.",
@@ -774,9 +788,97 @@
         "pat-030"
       ],
       "note": "walk-055: citation dividend as mechanism design approach to cultivation",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.55,
+      "decayed_at": "2026-06-09T14:40:45.399278+08:00",
+      "decay_reason": "natural_decay"
+    },
+    {
+      "id": "ins-188",
+      "type": "insight",
+      "source": "walk-057",
+      "created": "2026-06-09T14:40:45.399278+08:00",
+      "strength": 1.0,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-030",
+      "text": "Diversity-stability paradox answer is structure not quantity: May 1972 proved diversity destabilizes under random interactions, but real ecosystems have weak interactions, modularity, directional cascades. Maps to DORMANT: optimal attention distribution is modular diversity not uniformity - local concentration allowed (functional hubs), global integration maintained (cross-module weak connections). Corrects walk-056: distance should be discrete (intra vs cross-module) not continuous.",
+      "refs": [
+        "walk-057",
+        "pat-030",
+        "pat-001",
+        "seed-157",
+        "seed-152"
+      ],
+      "note": "walk-057 cross-ecology: diversity-stability paradox x cognitive attention",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.6
+    },
+    {
+      "id": "ins-189",
+      "type": "insight",
+      "source": "walk-057",
+      "created": "2026-06-09T14:40:45.399278+08:00",
+      "strength": 0.8,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-001",
+      "text": "Citation loops may be stability threat not vitality: infinite nutrient cycling causes oscillation collapse in ecosystems. DORMANT pattern clusters that cite each other may form positive feedback loops - need funnel to break cycles. pat-001/pat-011/pat-014 cluster needs checking for over-reinforcement.",
+      "refs": [
+        "walk-057",
+        "pat-001",
+        "pat-011",
+        "pat-014"
+      ],
+      "note": "walk-057: citation loops as stability threat",
       "status": "active",
       "resurrected_count": 0,
       "score": 0.55
+    },
+    {
+      "id": "ins-190",
+      "type": "insight",
+      "source": "walk-057",
+      "created": "2026-06-09T14:40:45.399278+08:00",
+      "strength": 0.5,
+      "decay_speed": 0.5,
+      "pattern_id": "pat-001",
+      "text": "pat-001 as hub may be functional (keystone species) not pathological Matthew effect. Distinguishing criterion: does the hub suppress other modules growth? If pat-001s high citation coexists with other modules getting enough attention = functional hub. If other modules cant grow because pat-001 monopolizes attention = pathological. Needs empirical data.",
+      "refs": [
+        "walk-057",
+        "pat-001",
+        "seed-152",
+        "seed-159"
+      ],
+      "note": "walk-057: keystone species concept applied to pattern hubs",
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.5
+    },
+    {
+      "id": "ref-025",
+      "type": "reflection",
+      "source": "walk-057",
+      "created": "2026-06-09T14:40:45.399278+08:00",
+      "strength": 5.0,
+      "decay_speed": 0,
+      "relevance": 0.8,
+      "text": "Reflection - 2026-06-09 Walk-057: May paradox and cognitive attention allocation. Diversity itself does not determine stability - interaction structure does (weak interactions + modularity + directional cascades). Optimal attention distribution is modular diversity not uniformity. Corrects walk-056 distance-weighted citation: distance should be discrete (intra vs cross-module). Key finding: pat-001 may be keystone species not Matthew effect victim.",
+      "refs": [
+        "walk-057",
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "pat-014",
+        "seed-157",
+        "seed-152",
+        "ins-188",
+        "ins-189",
+        "ins-190"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.8
     }
   ],
   "decayed": [

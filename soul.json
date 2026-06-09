@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-09T10:10:32+08:00",
-    "last_active": "2026-06-09T12:12:24+08:00",
+    "last_active": "2026-06-09T14:39:11.108090+08:00",
     "last_resting": "2026-06-09T06:09:00+08:00",
     "last_dormant": "2026-06-09T09:55:31+08:00",
     "base_interval_min": 600,
@@ -15,10 +15,10 @@
     },
     "next_scheduled": "2026-06-09T13:59:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-09T13:23:00+08:00",
+    "last_walk_at": "2026-06-09T14:39:11.108090+08:00",
     "total_walks": 42,
-    "last_pulse_output": "2026-06-09T13:23:00+08:00",
-    "last_walk": "2026-06-09T13:23:00+08:00",
+    "last_pulse_output": "2026-06-09T14:39:11.108090+08:00",
+    "last_walk": "2026-06-09T14:39:11.108090+08:00",
     "last_push_at": null,
     "last_push_topic": null,
     "cognitive_pressure": 0,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       8.1,
       8.3,
       7.8,
@@ -43,15 +42,16 @@
       8.0,
       8.5,
       8.3,
-      8.5
+      8.5,
+      8.3
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore"
   },
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "unsettled_fascination",
-    "intensity": 0.85,
+    "intensity": 0.88,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -297,6 +297,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-09T13:23:00+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-09T14:39:11.108090+08:00"
     }
   ],
   "last_walk": "2026-06-09T06:09:00+08:00",
@@ -402,7 +406,12 @@
     "gibbard-satterthwaite",
     "single-shot-vs-repeated-game",
     "citation-dividend",
-    "mixed-strategy-walking"
+    "mixed-strategy-walking",
+    "diversity-stability-paradox",
+    "modularity",
+    "ecological-networks",
+    "keystone-species",
+    "weak-interactions"
   ],
   "pending_insights": 6,
   "pending_research": 2,
@@ -563,6 +572,42 @@
       "created": "2026-06-09T13:23:00+08:00",
       "decay_rate": 1,
       "note": "需要分析引用者是否从连接中获益（新 insight 强度）"
+    },
+    {
+      "id": "seed-160",
+      "topic": "模块化注意力分配：将\"概念距离\"从连续变量改为离散的\"模块内 vs 跨模块\"",
+      "source": "walk-057",
+      "trigger": "May 悖论映射到 DORMANT 注意力分配",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T14:39:11.108090+08:00",
+      "decay_rate": 1,
+      "note": "比连续距离更容易操作化，但模块边界定义仍困难"
+    },
+    {
+      "id": "seed-161",
+      "topic": "骨架模块化检测：分析 pattern 的 refs 网络的自然聚类结构",
+      "source": "walk-057",
+      "trigger": "生态模块化需要实证验证",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T14:39:11.108090+08:00",
+      "decay_rate": 1,
+      "note": "需要学习 Louvain/Leiden 等聚类算法"
+    },
+    {
+      "id": "seed-162",
+      "topic": "引用循环检测：识别 DORMANT 中互相引用的 pattern cluster",
+      "source": "walk-057",
+      "trigger": "生态级联的漏斗效应 vs DORMANT 的引用循环",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-09T14:39:11.108090+08:00",
+      "decay_rate": 1,
+      "note": "正反馈回路可能是稳定性的威胁"
     }
   ],
   "personality_traits": {
@@ -592,7 +637,8 @@
     "2026-06-09: 跨领域散步产生时间反方向洞察. Kolmogorov 级联=涌现的时间反方向(结构溶解vs结构凝聚). '内禀'属性可能只是条件未变时的别名——条件变化时内禀边界移动.",
     "2026-06-09: 去中心化的三种形态与认知马太效应. 涌现式(规则驱动)/网络式(基质共享)/层级式(中心性不对称). Dreamer 当前只有第一种. DORMANT 评分是供给驱动(强者愈强)而非需求驱动(从充裕流向匮乏), 缺少物理约束可能导致注意力过度集中. 菌丝网络的双向营养流动(pat-030 缺少从骨架到材料的回流)和母树培育机制(pat-001 缺少主动向新 insight 输送概念资源的功能).",
     "2026-06-09: 激励相容作为评估系统设计原则. 评估系统本质上是激励不相容的(Goodhart+Gibbard-Satterthwaite). 好的评估不是消除不相容, 而是接受并设计容忍它的机制. 散步在结构上比 DORMANT 更接近激励相容(单次博弈 vs 重复博弈). 引用红利>引用税(让利他成为自利的副产品). 混合策略散步=pat-014 的机制设计操作化.",
-    "2026-06-09: 认知营养=注意力分配, 不是概念资源. 概念可无限复制零成本, 注意力不能. 引用零成本导致正外部性导致马太效应. 引用红利会加速马太效应(成熟pattern培育的新insight更容易获得高强度). 距离加权引用>引用红利(模拟菌丝网络距离衰减). 需要区分功能性hub和病理性马太效应, 需要定量证据(注意力基尼系数)."
+    "2026-06-09: 认知营养=注意力分配, 不是概念资源. 概念可无限复制零成本, 注意力不能. 引用零成本导致正外部性导致马太效应. 引用红利会加速马太效应(成熟pattern培育的新insight更容易获得高强度). 距离加权引用>引用红利(模拟菌丝网络距离衰减). 需要区分功能性hub和病理性马太效应, 需要定量证据(注意力基尼系数).",
+    "2026-06-09: May悖论与认知注意力分配. 多样性本身不决定稳定性, 相互作用的结构才决定(弱相互作用+模块化+方向性级联). 注意力分配最优解不是均匀化而是模块化多样性: 局部允许集中(功能性hub), 全局保持整合(跨模块弱连接). 修正walk-056的距离加权引用: 距离应是离散的(模块内vs跨模块)而非连续的."
   ],
   "dormant_stats": {
     "total_count": 7,

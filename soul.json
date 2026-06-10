@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-10T17:46:03.395961+08:00",
-    "last_active": "2026-06-10T21:26:00",
+    "last_active": "2026-06-10T23:04:52.355204+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-10T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-10T22:26:00",
+    "next_scheduled": "2026-06-11T00:04:52.355204+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-10T20:59:31.876127+08:00",
     "total_walks": 48,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-10T20:59:31.876127+08:00",
     "last_push_at": "2026-06-10T13:18:00+08:00",
     "last_push_topic": "evolutionary biology walk",
-    "cognitive_pressure": 14.4,
+    "cognitive_pressure": 19.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,

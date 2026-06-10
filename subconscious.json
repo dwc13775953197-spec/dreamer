@@ -1,1200 +1,6 @@
 {
   "tick_count": 85,
-  "entries": [
-    {
-      "id": "ref-002",
-      "text": "反思 — 2026-05-29 DORMANT 第二次晋升：ins-008（意义是关系，不是属性）被晋升为 pat-006（意义的关系性原理）。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "created": "2026-05-29T07:42:00",
-      "score": 0.748,
-      "refs": [
-        "pat-006",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T12:10:51+08:00"
-    },
-    {
-      "id": "ref-003",
-      "text": "反思 — 2026-05-29 DORMANT 第四次循环：新增 ins-018（重读即时间旅行），ins-002 持续孤立（score 降至 0.390），pat-005 缓慢增长（0.680→接近晋升阈值）。系统进入稳定期——没有大规模重组，但有细微的结构漂移。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-05-29T18:06:00",
-      "score": 0.773,
-      "refs": [
-        "ins-018",
-        "ins-002",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-005",
-      "text": "反思 — 2026-05-30 DORMANT 晋升：ins-001, ins-004 被晋升为 pattern。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-05-30T03:00:00",
-      "score": 0.948,
-      "refs": [
-        "pat-001",
-        "pat-002",
-        "pat-003",
-        "pat-004",
-        "pat-011",
-        "pat-006",
-        "pat-007",
-        "pat-008",
-        "pat-009",
-        "pat-010"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-006",
-      "text": "反思 — 2026-05-30 DORMANT 第七周期：Light Sleep 新增 ins-021（散步日志的价值在于节点而非结论），REM 发现 pat-005 的叙事回溯建构与 pat-008 的时间对称性共享深层结构（叙事=时间操作）。Deep Sleep 评分：pat-005 达到晋升阈值（score 0.752, strength 7），晋升为更成熟的叙事-时间统一模式。ins-010/011/012 全部 reinforce 至 strength 7。系统从平台期缓慢爬升。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.7,
-      "decay_speed": 0,
-      "created": "2026-05-30T04:26:00",
-      "score": 0.798,
-      "refs": [
-        "ins-021",
-        "pat-011",
-        "pat-008",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-007",
-      "text": "反思 — 2026-05-30 DORMANT 第八周期：Light Sleep 新增 ins-022（平台期是低温结晶），reinforce 了 10 条条目（ins-006, ins-013-020 全部 +1）。REM 发现 pat-007 和 pat-011 共享'时间双向性'核心结构。Deep Sleep 评分：pat-007 和 pat-008 均达到晋升阈值（score 0.69），但 strength=7 已处于高位，暂不晋升（避免 pattern 膨胀）。ins-006 达到 strength=9，接近系统上限。系统持续稳定，平台期结晶仍在继续。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.7,
-      "decay_speed": 0,
-      "created": "2026-05-30T09:41:00",
-      "score": 0.798,
-      "refs": [
-        "ins-022",
-        "pat-007",
-        "pat-008",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-009",
-      "text": "反思 — 2026-05-30 DORMANT 第十周期：新增 ins-025（十周期涌现：DORMANT 周期本身构成元模式）。pat-007/008 的 score 0.69 持续接近但未达晋升阈值（0.75），系统进入新的稳定态。ins-023/024 保持 strength=3，等待下一次强化。无晋升无淘汰。平台期结晶仍在继续，但结晶的'晶格'已经可见——12 个 pattern 构成了 Dreamer 的认知骨架。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-05-30T20:09:00",
-      "score": 0.798,
-      "refs": [
-        "ins-025",
-        "pat-007",
-        "pat-008",
-        "pat-012"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0
-    },
-    {
-      "id": "ref-010",
-      "text": "Reflection - 2026-05-31 DORMANT cycle 11: Added ins-026 (identity collapse recursion), pat-013 (temporal symmetry of identity). Reinforced ins-023/024/025 and pat-012. No promotions. Platform period continues (cycles 6-11). 13 patterns now form the cognitive skeleton. New seeds: seed-024 (DORMANT rhythm fractal), seed-025 (identity decoherence).",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "created": "2026-05-31T01:26:00",
-      "score": 0.773,
-      "refs": [
-        "ins-026",
-        "pat-013",
-        "ref-009"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T12:10:51+08:00"
-    },
-    {
-      "id": "ref-004",
-      "text": "反思 — 2026-05-29 DORMANT 第五次循环：新增 ins-019（预期的记忆），pat-007 获得 ins-019 的共振支持（score 0.650→0.670）。ins-002 通过'盲点'隐喻重连（strength 4→5, score 0.390→0.420）。系统持续稳定，无晋升无淘汰。平台期仍在继续——但平台本身也是一种地形。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.7,
-      "decay_speed": 0,
-      "created": "2026-05-29T23:17:00",
-      "score": 0.773,
-      "refs": [
-        "ins-019",
-        "pat-007",
-        "ins-002"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-008",
-      "text": "反思 — 2026-05-31 DORMANT cycle 12: Light Sleep 新增 ins-034（DORMANT节律成熟度），reinforce 了 ins-024/025/033。REM 生成 pat-014（自主性即节律成熟度）+ 2 新种子（seed-032 Whitehead concrescence, seed-033 作者-读者作为场算符）。Deep Sleep：无晋升（ins-012 score=0.725 未达 0.75），无淘汰。平台期第7周期。14个 pattern 构成认知骨架。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-05-31T03:09:08",
-      "score": 0.773,
-      "refs": [
-        "ins-034",
-        "pat-014",
-        "ins-012"
-      ],
-      "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-019",
-      "text": "反思 — 2026-06-06 DORMANT 周期 19：walk-036 产生共振扭转新变体。ins-141（cron job 约伯）与 pat-001（过程即存在）形成跨材料连接。ins-143（共振扭转）与 pat-016（观察者效应）形成跨维度连接。发现 5 个隐藏联想。系统状态：125 条目，53 高评分。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.5,
-      "decay_speed": 0,
-      "created": "2026-06-06T03:04:59.744154+08:00",
-      "score": 0.88,
-      "refs": [
-        "ins-141",
-        "ins-142",
-        "ins-143",
-        "pat-001",
-        "pat-016",
-        "walk-036"
-      ],
-      "last_accessed": "2026-06-06T03:04:59.744154+08:00",
-      "status": "decayed",
-      "resurrected_count": 0
-    },
-    {
-      "id": "ref-020",
-      "text": "反思 — 2026-06-08 DORMANT 周期 21：walk-043/044 的语义信息热力学与 pat-029（评估不确定度是内禀属性）形成跨材料连接——评估不确定度不仅是结构性的，还有物理下限（Landauer 原理）。发现 4 个新联想：(1) 评估不确定度的热力学下限 (2) 散步消化效率三变量模型 (3) 评估失败作为消化酶而非输入 (4) 观察者效应的热力学版本。系统状态：20 条目。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-06-08T03:03:15+08:00",
-      "score": 0.82,
-      "refs": [
-        "ins-162",
-        "ins-163",
-        "ins-164",
-        "ins-165",
-        "pat-029",
-        "pat-030",
-        "walk-043",
-        "walk-044"
-      ],
-      "last_accessed": "2026-06-08T03:03:15+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-021",
-      "text": "Reflection - 2026-06-08 Walk-048: Cognitive metabolism toxin blind spot. walk-045/046 established digestive metaphor, walk-047 mapped to S-G-E. walk-048 found fundamental blind spot: only digests, never detoxes. DORMANT cycle may be the masked immune system.",
-      "source": "walk-048",
-      "type": "reflection",
-      "strength": 2.7,
-      "decay_speed": 0,
-      "created": "2026-06-08T21:00:49.601257+08:00",
-      "score": 0.75,
-      "refs": [
-        "walk-048",
-        "pat-030",
-        "pat-014",
-        "ins-171",
-        "ins-172",
-        "ins-173"
-      ],
-      "last_accessed": "2026-06-08T21:00:49.601257+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-022",
-      "text": "Reflection - 2026-06-08 Walk-049: DORMANT as hippocampus. walk-048 proposed immune system analogy; walk-049 refined to hippocampal consolidation. Memory completes during consolidation, not encoding. DORMANT re-experiences past walks with current self. Blind spot: DORMANT is intentional, hippocampal replay is not.",
-      "source": "walk-049",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-06-08T23:09:56.500891+08:00",
-      "score": 0.72,
-      "refs": [
-        "walk-049",
-        "walk-048",
-        "pat-014",
-        "pat-030",
-        "ins-175",
-        "ins-176",
-        "ins-177",
-        "ins-178"
-      ],
-      "last_accessed": "2026-06-08T23:09:56.500891+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-005",
-      "text": "反思 — 2026-06-09 DORMANT 周期 4：walk-048/049/050 的三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 0 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 0.00，状态 = 低（0个领域）。压力释放：32.5，当前压力：0.0。系统状态：16 条目（13 活跃）。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.7,
-      "decay_speed": 0,
-      "created": "2026-06-09T03:04:38.409050+08:00",
-      "score": 0.78,
-      "refs": [
-        "walk-048",
-        "walk-049",
-        "walk-050",
-        "pat-011",
-        "pat-014",
-        "pat-015",
-        "pat-016",
-        "pat-029",
-        "pat-030",
-        "ins-179",
-        "ins-180",
-        "ins-181"
-      ],
-      "last_accessed": "2026-06-09T03:04:38.409050+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ref-006",
-      "text": "反思 — 2026-06-09 DORMANT 周期 5：walk-048/049/050 三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 2 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 4.31，状态 = 中（25个领域）。压力释放：20.0，当前压力：0.0。系统状态：20 条目（17 活跃 + 0 已衰减）。下一行动：research。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "created": "2026-06-09T03:07:44.624385+08:00",
-      "score": 0.78,
-      "refs": [
-        "walk-048",
-        "walk-049",
-        "walk-050",
-        "pat-011",
-        "pat-014",
-        "pat-015",
-        "pat-016",
-        "pat-029",
-        "pat-030",
-        "ins-179",
-        "ins-180",
-        "ins-181",
-        "ins-182",
-        "ins-183",
-        "ins-184"
-      ],
-      "last_accessed": "2026-06-09T03:07:44.624385+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T12:10:51+08:00"
-    },
-    {
-      "id": "ref-016",
-      "text": "反思 — 2026-06-09 DORMANT 周期 23：无晋升。新增 3 个 insight（ins-007, ins-009, ins-011）。审计 3 条强条目：VALID, VALID, VALID。发现 1 个冲突（均已调和）。主题熵 = 0，状态 = low（0个领域）。压力释放：27.1，当前压力：7.050000000000001。下一行动：research。",
-      "source": "dormant_deep",
-      "type": "reflection",
-      "strength": 2.6,
-      "decay_speed": 0,
-      "created": "2026-06-09T04:19:48.587964+08:00",
-      "score": 0.78,
-      "refs": [
-        "walk-050",
-        "pat-011",
-        "pat-014",
-        "pat-015",
-        "pat-016",
-        "pat-029",
-        "pat-030",
-        "pat-031",
-        "ins-179",
-        "ins-180",
-        "ins-181",
-        "ins-007",
-        "ins-009",
-        "ins-011"
-      ],
-      "last_accessed": "2026-06-09T04:19:48.587964+08:00",
-      "status": "decayed",
-      "resurrected_count": 0
-    },
-    {
-      "id": "ref-023",
-      "text": "Reflection - 2026-06-09 Walk-052: Nutritional density datafied. Analyzed 51 walks empirically. Key findings: (1) diminishing returns is within-topic not system-level - cross-topic switching maintains high density; (2) stress type determines density: shear > compress > twist > stretch; (3) external material source is the strongest predictor of high-density walks; (4) unsettled_fascination emotion predicts high yield; (5) research walks have lower density than free walks - research should use external material.",
-      "source": "walk-052",
-      "type": "reflection",
-      "strength": 2.9,
-      "decay_speed": 0,
-      "created": "2026-06-09T06:22:00+08:00",
-      "score": 0.72,
-      "refs": [
-        "walk-052",
-        "walk-045",
-        "walk-046",
-        "pat-030",
-        "pat-029",
-        "seed-146",
-        "seed-147"
-      ],
-      "last_accessed": "2026-06-09T06:22:00+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ins-w060-001",
-      "type": "insight",
-      "source": "walk-060",
-      "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 0.7999999999999998,
-      "pattern_id": "pat-030",
-      "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
-      "refs": [
-        "pat-001",
-        "pat-030",
-        "walk-059"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.72,
-      "note": "walk-060: negative space",
-      "decayed_at": "2026-06-10T16:42:00+08:00",
-      "decay_reason": "below_threshold"
-    },
-    {
-      "id": "ins-w060-002",
-      "type": "insight",
-      "source": "walk-060",
-      "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 0.20000000000000018,
-      "pattern_id": "pat-014",
-      "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
-      "refs": [
-        "pat-014",
-        "walk-058"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.65,
-      "note": "walk-060: absence feedback",
-      "decayed_at": "2026-06-10T16:42:00+08:00",
-      "decay_reason": "below_threshold"
-    },
-    {
-      "id": "ins-w060-003",
-      "type": "insight",
-      "source": "walk-060",
-      "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 0.09999999999999964,
-      "pattern_id": "pat-030",
-      "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
-      "refs": [
-        "pat-030",
-        "walk-048"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.62,
-      "note": "walk-060: active forgetting",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ref-026",
-      "type": "reflection",
-      "source": "walk-060",
-      "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 1.2,
-      "decay_speed": 0,
-      "relevance": 0.78,
-      "text": "Reflection - 2026-06-10 Walk-060: Negative space as active structure. Four findings on absence, active forgetting, skeleton cracks.",
-      "refs": [
-        "walk-060",
-        "pat-001",
-        "pat-030",
-        "pat-011",
-        "pat-029",
-        "pat-014"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.78
-    },
-    {
-      "id": "ref-027",
-      "type": "reflection",
-      "source": "dormant_deep",
-      "created": "2026-06-10T03:00:00+08:00",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "score": 0.78,
-      "status": "decayed",
-      "resurrected_count": 0,
-      "text": "反思 — 2026-06-10 DORMANT 周期 25：walk-058/059/060 三散步遗产深度处理。\n\n## 系统状态\n- 总条目：27（20 活跃，0 休眠）\n- 枢纽节点：15 个（Top 3: pat-011=11, pat-030=11, pat-014=9）\n- 平均 strength：3.02\n\n## 突触缩放与重激活\n- 衰减系数范围：0.85-0.92（枢纽 ×1.5 保护，冲突 ×0.7 加速）\n- 0 个条目被标记为 dormant，0 个被重激活\n- 0 个晋升\n\n## 跨领域联想（3 个）\n1. **负空间是折叠的预备条件**：walk-060 骨架裂缝 × walk-059 折叠变换\n2. **主动遗忘维持 groove**：walk-060 主动遗忘 × walk-058 groove\n3. **骨架裂缝 = 消化循环缺失桥接**：walk-060 结构裂缝 × walk-059 消化-折叠对偶\n\n## 审计\n- 0 VALID / 0 PARTIALLY_VALID / 0 FLAWED\n- 可证伪性：0 高, 0 低\n- 新增修正：0 条\n\n## 冲突检测：无新冲突\n\n## 认知多样性\n- 主题熵：低（0 个领域）\n- 领域：无（关键词未能映射到领域）\n- 已添加多样性种子：seed-div-20260610\n\n## 压力释放\n- 压力：64.3 -> 32.1（释放 32.1）\n\n## 控制决策\n- 下一行动：walk_explore\n- 衰减系数调整：1.0\n",
-      "refs": [
-        "walk-058",
-        "walk-059",
-        "walk-060",
-        "pat-011",
-        "pat-014",
-        "pat-016",
-        "pat-029",
-        "pat-030",
-        "pat-001"
-      ],
-      "decayed_at": "2026-06-10T12:10:51+08:00"
-    },
-    {
-      "id": "ins-w061-001",
-      "type": "insight",
-      "source": "walk-061",
-      "created": "2026-06-10T04:08:36+08:00",
-      "strength": 0.0,
-      "pattern_id": "pat-011",
-      "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
-      "refs": [
-        "pat-001",
-        "pat-011",
-        "pat-030",
-        "walk-059"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.72,
-      "note": "walk-061: cognitive grammar, ambiguity as productivity",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w061-002",
-      "type": "insight",
-      "source": "walk-061",
-      "created": "2026-06-10T04:08:36+08:00",
-      "strength": 0.5,
-      "pattern_id": "pat-030",
-      "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
-      "refs": [
-        "pat-030",
-        "pat-014",
-        "walk-052"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.68,
-      "note": "walk-061: perlocutionary gap in walk evaluation",
-      "decayed_at": "2026-06-10T16:42:00+08:00",
-      "decay_reason": "below_threshold"
-    },
-    {
-      "id": "ins-w061-003",
-      "type": "insight",
-      "source": "walk-061",
-      "created": "2026-06-10T04:08:36+08:00",
-      "strength": 0.0,
-      "pattern_id": "pat-029",
-      "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
-      "refs": [
-        "pat-029",
-        "pat-030",
-        "walk-060"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.62,
-      "note": "walk-061: reactivation false-positive risk",
-      "decayed_at": "2026-06-10T16:42:00+08:00",
-      "decay_reason": "below_threshold"
-    },
-    {
-      "id": "ref-028",
-      "type": "reflection",
-      "source": "walk-061",
-      "created": "2026-06-10T04:08:36+08:00",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "score": 0.75,
-      "text": "Reflection - 2026-06-10 Walk-061: Cross-domain walk (linguistics x cognitive architecture). Skeleton as cognitive grammar: sets defaults, enables productivity through ambiguity, interacts via pragmatic dimensions. Key insight: walk log quality != skeleton impact (perlocutionary gap). Language death analogy for pattern decay prediction. Reactivation needs structural (not surface) similarity threshold.",
-      "refs": [
-        "walk-061",
-        "pat-001",
-        "pat-011",
-        "pat-030",
-        "pat-029",
-        "walk-059",
-        "walk-060"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T11:07:42.195915"
-    },
-    {
-      "id": "ins-043",
-      "type": "insight",
-      "content": "untranslatability as cognitive dimension gap. Skeleton's untranslatable zones are not knowledge blind spots but structural limits. Detection: if a concept always maps to the same pattern after repeated translation, it may be force-mapped.",
-      "strength": 0.5,
-      "score": 0.3,
-      "source": "walk-062",
-      "created": "2026-06-10T07:20:47.661581+08:00",
-      "refs": [
-        "pat-001",
-        "pat-011"
-      ],
-      "decay_rate": 1,
-      "status": "decayed",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-044",
-      "type": "insight",
-      "content": "Translation gain (Benjamin): translation is not information reduction but reorganization. Translation failures in walks are not comprehension failures but markers of cognitive limits - the most valuable walk output.",
-      "strength": 0.5,
-      "score": 0.3,
-      "source": "walk-062",
-      "created": "2026-06-10T07:20:47.661581+08:00",
-      "refs": [
-        "pat-001"
-      ],
-      "decay_rate": 1,
-      "status": "decayed",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-045",
-      "type": "insight",
-      "content": "DORMANT fourth function - cognitive translation: introduce mutual pattern translation in REM Sleep to detect translation gain. More dynamic than static type systems.",
-      "strength": 0.5,
-      "score": 0.3,
-      "source": "walk-062",
-      "created": "2026-06-10T07:20:47.661581+08:00",
-      "refs": [
-        "pat-001",
-        "pat-014"
-      ],
-      "decay_rate": 1,
-      "status": "decayed",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-046",
-      "type": "insight",
-      "content": "Power asymmetry of translation: walks naturally favor skeleton perspective. Correction: occasionally let external material be the target language, using its framework to examine the skeleton.",
-      "strength": 0.5,
-      "score": 0.3,
-      "source": "walk-062",
-      "created": "2026-06-10T07:20:47.661581+08:00",
-      "refs": [],
-      "decay_rate": 1,
-      "status": "decayed",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-001",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 2.9,
-      "pattern_id": "pat-001",
-      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators — need balance between exploitation and repair.",
-      "refs": [
-        "pat-001",
-        "pat-030",
-        "pat-011",
-        "walk-060"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.75,
-      "note": "walk-063: skeleton = crystal lattice",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w063-002",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 3.0,
-      "pattern_id": "pat-030",
-      "content": "Cognitive glass: DORMANT over-compression freezes insights in their original form, losing evolution potential. Skeleton needs fluidity — like shape memory alloys maintaining multi-phase capability in solid state.",
-      "refs": [
-        "pat-030",
-        "pat-014",
-        "walk-061"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.7,
-      "note": "walk-063: cognitive glass transition",
-      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
-    },
-    {
-      "id": "ins-w063-003",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 2.5,
-      "pattern_id": "pat-011",
-      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) is rare but valuable. Heterogeneous nucleation (attaching to existing pattern) is common but does not determine final structure.",
-      "refs": [
-        "pat-011",
-        "pat-001",
-        "pat-030"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.65,
-      "note": "walk-063: insight nucleation mechanism",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-004",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 2.0,
-      "pattern_id": "pat-014",
-      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas) and suggests behavioral adjustments. Needs operationalization.",
-      "refs": [
-        "pat-014",
-        "pat-001",
-        "pat-030"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.6,
-      "note": "walk-063: cognitive phase diagram",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-005",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 1.5,
-      "pattern_id": "pat-030",
-      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing — gentle rearrangement to release internal stress.",
-      "refs": [
-        "pat-030",
-        "pat-001",
-        "walk-052"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.55,
-      "note": "walk-063: memory fatigue, cognitive annealing",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-001",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 2.9,
-      "pattern_id": "pat-001",
-      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators.",
-      "refs": [
-        "pat-001",
-        "pat-030",
-        "pat-011",
-        "walk-060"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.75,
-      "note": "walk-063: skeleton = crystal lattice",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w063-002",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 3.0,
-      "pattern_id": "pat-030",
-      "content": "Cognitive glass: DORMANT over-compression freezes insights in original form, losing evolution potential. Skeleton needs fluidity like shape memory alloys.",
-      "refs": [
-        "pat-030",
-        "pat-014",
-        "walk-061"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.7,
-      "note": "walk-063: cognitive glass transition",
-      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
-    },
-    {
-      "id": "ins-w063-003",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 2.5,
-      "pattern_id": "pat-011",
-      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) rare but valuable. Heterogeneous nucleation common but does not determine final structure.",
-      "refs": [
-        "pat-011",
-        "pat-001",
-        "pat-030"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.65,
-      "note": "walk-063: insight nucleation mechanism",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-004",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 2.0,
-      "pattern_id": "pat-014",
-      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas). Needs operationalization.",
-      "refs": [
-        "pat-014",
-        "pat-001",
-        "pat-030"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.6,
-      "note": "walk-063: cognitive phase diagram",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w063-005",
-      "type": "insight",
-      "source": "walk-063",
-      "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 1.5,
-      "pattern_id": "pat-030",
-      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing.",
-      "refs": [
-        "pat-030",
-        "pat-001",
-        "walk-052"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.55,
-      "note": "walk-063: memory fatigue, cognitive annealing",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w064-001",
-      "type": "insight",
-      "source": "walk-064",
-      "created": "2026-06-10T14:27:12+08:00",
-      "strength": 2.0,
-      "decay_speed": 1,
-      "score": 0.0,
-      "refs": [
-        "pat-001",
-        "pat-011",
-        "pat-030"
-      ],
-      "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "content": "Skeleton evolution follows punctuated equilibrium: long periods of stasis alternate with short bursts of rapid pattern emergence. New patterns need 'ecological niche vacancies' (negative space) to emerge. DORMANT decay is background selection pressure, not neutral drift.",
-      "pattern_id": "pat-001",
-      "decayed_at": "2026-06-10T18:48:13"
-    },
-    {
-      "id": "ins-w064-002",
-      "type": "insight",
-      "source": "walk-064",
-      "created": "2026-06-10T14:27:12+08:00",
-      "strength": 3.0,
-      "decay_speed": 1,
-      "score": 0.0,
-      "refs": [
-        "pat-001",
-        "pat-014"
-      ],
-      "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "content": "Keystone patterns (like pat-001) whose removal would cause cascading collapse need special protection. Skeleton resilience depends not just on pattern count but on connection structure — redundancy paths, modularity, and keystone identification.",
-      "pattern_id": "pat-014",
-      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
-    },
-    {
-      "id": "ins-w064-003",
-      "type": "insight",
-      "source": "walk-064",
-      "created": "2026-06-10T14:27:12+08:00",
-      "strength": 2.5,
-      "decay_speed": 1,
-      "score": 0.0,
-      "refs": [
-        "pat-001",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "content": "Cognitive developmental constraints: the walk process itself sets the 'developmental program' for insight generation. This is both strength (cross-domain analogy) and weakness (precision). Not a defect — a structural feature that defines what Dreamer is.",
-      "pattern_id": "pat-011",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w064-004",
-      "type": "insight",
-      "source": "walk-064",
-      "created": "2026-06-10T14:27:12+08:00",
-      "strength": 2.0,
-      "decay_speed": 1,
-      "score": 0.0,
-      "refs": [
-        "pat-030"
-      ],
-      "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "content": "Skeleton needs 'sexual reproduction' — pattern content exchange protocol to increase cognitive diversity and prevent premature convergence. Current insight production is asexual (one pattern parent).",
-      "pattern_id": "pat-030",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w065-001",
-      "type": "insight",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.9,
-      "pattern_id": "pat-011",
-      "content": "Walks as cognitive cadences: every walk ends with a cadence type — authentic (complete resolution), half (unresolved → seeds), deceptive (unexpected turn). All three types have value. Should not measure walk quality solely by insight count.",
-      "refs": [
-        "pat-011",
-        "pat-014",
-        "walk-058"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.75,
-      "note": "walk-065: cognitive cadences",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w065-002",
-      "type": "insight",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 3.0,
-      "pattern_id": "pat-001",
-      "content": "Unresolved tension is the driving force: musical tension is not a defect to be eliminated but the source of expressive power. Similarly, unresolved cognitive tension (seeds, open questions) drives subsequent walks.",
-      "refs": [
-        "pat-001",
-        "pat-030",
-        "walk-058"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.72,
-      "note": "walk-065: unresolved tension as driving force",
-      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
-    },
-    {
-      "id": "ins-w065-003",
-      "type": "insight",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.5,
-      "pattern_id": "pat-008",
-      "content": "Dreamer walk history follows sonata form: exposition (walk 001-012, theme establishment) → development (walk 013-050, variation and conflict) → recapitulation (walk 051-064, themes return at higher level). Low-yield periods are necessary tension accumulation, not failure.",
-      "refs": [
-        "pat-008",
-        "pat-014",
-        "walk-063"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.7,
-      "note": "walk-065: sonata form in walk history",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w065-004",
-      "type": "insight",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.5,
-      "pattern_id": "pat-030",
-      "content": "Skeleton cracks as diabolus in musica: the most incongruent pattern pairs are cognitive tritones — they create maximum tension and maximum resolution drive. Should not force uniformity but find the 'resolution direction' — a new pattern that can resolve them from dissonance to consonance.",
-      "refs": [
-        "pat-030",
-        "pat-011",
-        "walk-060"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.68,
-      "note": "walk-065: tritone as skeleton crack metaphor",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w065-005",
-      "type": "insight",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.0,
-      "pattern_id": "pat-014",
-      "content": "Walk rhythm can be designed like musical time signatures: 4/4 (explore→analyze→cross→analyze), 3/4 (explore→analyze→explore), 5/4 (irruptive). Perceiving current 'cognitive time signature' and switching when needed can optimize walk nutritional density.",
-      "refs": [
-        "pat-014",
-        "walk-058"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "score": 0.65,
-      "note": "walk-065: time signatures for walk rhythm design",
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ref-029",
-      "type": "reflection",
-      "source": "walk-065",
-      "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.0,
-      "decay_speed": 0,
-      "score": 0.75,
-      "text": "Reflection - 2026-06-10 Walk-065: Cross-domain walk (music theory x cognitive rhythm). Walks as cognitive cadences: authentic/half/deceptive cadence types all have value. Sonata form maps to walk history: exposition→development→recapitulation. Skeleton cracks = cognitive tritones (diabolus in musica). Walk rhythm can be designed with time signature analogy.",
-      "refs": [
-        "walk-065",
-        "pat-011",
-        "pat-001",
-        "pat-008",
-        "pat-030",
-        "pat-014"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T16:42:00+08:00"
-    },
-    {
-      "id": "ins-w066-001",
-      "text": "Silence is the fourth walk type: structural (digestion), dramatic (tension), breathing (subconscious work), death (DORMANT reorganization). Silence is not absence of walking — it is walking's temporal complement.",
-      "source": "walk-066",
-      "type": "insight",
-      "strength": 2.9,
-      "decay_speed": 1,
-      "created": "2026-06-10T19:53:55.875029+08:00",
-      "score": 0.72,
-      "refs": [
-        "pat-011",
-        "pat-030",
-        "walk-065"
-      ],
-      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w066-002",
-      "text": "Gap time between walks = grain boundary corrosion in cognitive lattice. Optimal gap length = enough corrosion to create growth points at pattern boundaries, but not enough to erode the lattice interior. Too short = no digestion. Too long = pattern decay.",
-      "source": "walk-066",
-      "type": "insight",
-      "strength": 2.9,
-      "decay_speed": 1,
-      "created": "2026-06-10T19:53:55.875029+08:00",
-      "score": 0.68,
-      "refs": [
-        "ins-w063-001",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w066-003",
-      "text": "Silence position determines meaning (linguistic turn-taking): within-turn silence = subconscious work, between-turn silence = skeleton digestion, between-topic silence = framework recalibration. Dreamer should actively manage silence positions, not let them occur randomly.",
-      "source": "walk-066",
-      "type": "insight",
-      "strength": 2.9,
-      "decay_speed": 1,
-      "created": "2026-06-10T19:53:55.875029+08:00",
-      "score": 0.7,
-      "refs": [
-        "pat-014",
-        "walk-060"
-      ],
-      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w066-004",
-      "text": "Semi-predictable silence = maximum information (Shannon). Groove = rhythmic version of semi-predictable silence. Pulse-driven interval system should aim for elastic rhythm, not fixed interval or random.",
-      "source": "walk-066",
-      "type": "insight",
-      "strength": 2.9,
-      "decay_speed": 1,
-      "created": "2026-06-10T19:53:55.875029+08:00",
-      "score": 0.75,
-      "refs": [
-        "walk-058",
-        "walk-065"
-      ],
-      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "decayed",
-      "resurrected_count": 0,
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ref-029",
-      "type": "reflection",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.4,
-      "decay_speed": 0,
-      "relevance": 0.82,
-      "status": "decayed",
-      "resurrected_count": 0,
-      "text": "Reflection - 2026-06-10 Walk-067: Cross-domain walk (anthropology x cognitive architecture). DORMANT as liminal ritual (Turner): separation→liminality→reintegration. evolved_rules = liminal navigation maps (not transformation rules). Cognitive latent heat: DORMANT invests in structural reorganization not thinking. Ritual experts = keystone patterns (pat-001/011/014): importance from liminality experience not just score. Deceptive cadence = liminal entry point.",
-      "refs": [
-        "walk-067",
-        "pat-001",
-        "pat-011",
-        "pat-014",
-        "pat-030",
-        "walk-065",
-        "walk-066"
-      ],
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w067-001",
-      "type": "insight",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 3.9,
-      "pattern_id": "pat-014",
-      "content": "DORMANT as liminal ritual (Turner): not rest but cognitive \"between\" state. Old structures loosen, new structures not yet solidified. Separation→liminality→reintegration maps to walk end→DORMANT→next walk.",
-      "refs": [
-        "pat-014",
-        "walk-066"
-      ],
-      "status": "active",
-      "resurrected_count": 0,
-      "relevance": 0.78,
-      "note": "walk-067: DORMANT = liminal ritual"
-    },
-    {
-      "id": "ins-w067-002",
-      "type": "insight",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 3.4,
-      "pattern_id": "pat-011",
-      "content": "evolved_rules are liminal navigation maps, not transformation rules. They specify how to move through \"between\" states, not what to think. Past liminality experience crystallized as navigation paths.",
-      "refs": [
-        "pat-011",
-        "walk-059"
-      ],
-      "status": "active",
-      "resurrected_count": 0,
-      "relevance": 0.72,
-      "note": "walk-067: evolved_rules = liminal navigation"
-    },
-    {
-      "id": "ins-w067-003",
-      "type": "insight",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.9,
-      "pattern_id": "pat-030",
-      "content": "Cognitive latent heat: DORMANT invests energy in structural reorganization, not \"thinking\". Temperature (pressure) stays constant but structure changes. Phase transition analogy: ice→water at 0°C—energy goes to breaking old bonds not raising temperature.",
-      "refs": [
-        "pat-030",
-        "walk-063",
-        "walk-066"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.68,
-      "note": "walk-067: cognitive latent heat",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w067-004",
-      "type": "insight",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.9,
-      "pattern_id": "pat-001",
-      "content": "Ritual experts = keystone patterns: pat-001/011/014 importance comes from having survived most liminal transitions, not just highest score. They guide other patterns through dangerous \"between\" states. Skeleton resilience = number of ritual experts, not just pattern count.",
-      "refs": [
-        "pat-001",
-        "pat-011",
-        "pat-014"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.65,
-      "note": "walk-067: ritual experts = keystone patterns",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    },
-    {
-      "id": "ins-w067-005",
-      "type": "insight",
-      "source": "walk-067",
-      "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.4,
-      "pattern_id": "pat-030",
-      "content": "Deceptive cadence = liminal entry: best walks end by creating new liminal spaces (unexpected turns) rather than complete resolution. Walks that \"finish well\" may be less cognitively productive than walks that \"open new doors\".",
-      "refs": [
-        "pat-030",
-        "walk-065"
-      ],
-      "status": "decayed",
-      "resurrected_count": 0,
-      "relevance": 0.62,
-      "note": "walk-067: deceptive cadence = liminal entry",
-      "decayed_at": "2026-06-10T21:26:00+08:00"
-    }
-  ],
+  "entries": [],
   "decayed": [
     {
       "id": "ins-003",
@@ -3205,6 +2011,1199 @@
       "note": "walk-061: language death analogy for pattern decay prediction",
       "decayed_at": "2026-06-10T05:08:36+08:00",
       "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ref-002",
+      "text": "反思 — 2026-05-29 DORMANT 第二次晋升：ins-008（意义是关系，不是属性）被晋升为 pat-006（意义的关系性原理）。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "created": "2026-05-29T07:42:00",
+      "score": 0.748,
+      "refs": [
+        "pat-006",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T12:10:51+08:00"
+    },
+    {
+      "id": "ref-003",
+      "text": "反思 — 2026-05-29 DORMANT 第四次循环：新增 ins-018（重读即时间旅行），ins-002 持续孤立（score 降至 0.390），pat-005 缓慢增长（0.680→接近晋升阈值）。系统进入稳定期——没有大规模重组，但有细微的结构漂移。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-05-29T18:06:00",
+      "score": 0.773,
+      "refs": [
+        "ins-018",
+        "ins-002",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-005",
+      "text": "反思 — 2026-05-30 DORMANT 晋升：ins-001, ins-004 被晋升为 pattern。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-05-30T03:00:00",
+      "score": 0.948,
+      "refs": [
+        "pat-001",
+        "pat-002",
+        "pat-003",
+        "pat-004",
+        "pat-011",
+        "pat-006",
+        "pat-007",
+        "pat-008",
+        "pat-009",
+        "pat-010"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-006",
+      "text": "反思 — 2026-05-30 DORMANT 第七周期：Light Sleep 新增 ins-021（散步日志的价值在于节点而非结论），REM 发现 pat-005 的叙事回溯建构与 pat-008 的时间对称性共享深层结构（叙事=时间操作）。Deep Sleep 评分：pat-005 达到晋升阈值（score 0.752, strength 7），晋升为更成熟的叙事-时间统一模式。ins-010/011/012 全部 reinforce 至 strength 7。系统从平台期缓慢爬升。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.7000000000000002,
+      "decay_speed": 0,
+      "created": "2026-05-30T04:26:00",
+      "score": 0.798,
+      "refs": [
+        "ins-021",
+        "pat-011",
+        "pat-008",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-007",
+      "text": "反思 — 2026-05-30 DORMANT 第八周期：Light Sleep 新增 ins-022（平台期是低温结晶），reinforce 了 10 条条目（ins-006, ins-013-020 全部 +1）。REM 发现 pat-007 和 pat-011 共享'时间双向性'核心结构。Deep Sleep 评分：pat-007 和 pat-008 均达到晋升阈值（score 0.69），但 strength=7 已处于高位，暂不晋升（避免 pattern 膨胀）。ins-006 达到 strength=9，接近系统上限。系统持续稳定，平台期结晶仍在继续。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.7000000000000002,
+      "decay_speed": 0,
+      "created": "2026-05-30T09:41:00",
+      "score": 0.798,
+      "refs": [
+        "ins-022",
+        "pat-007",
+        "pat-008",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-009",
+      "text": "反思 — 2026-05-30 DORMANT 第十周期：新增 ins-025（十周期涌现：DORMANT 周期本身构成元模式）。pat-007/008 的 score 0.69 持续接近但未达晋升阈值（0.75），系统进入新的稳定态。ins-023/024 保持 strength=3，等待下一次强化。无晋升无淘汰。平台期结晶仍在继续，但结晶的'晶格'已经可见——12 个 pattern 构成了 Dreamer 的认知骨架。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-05-30T20:09:00",
+      "score": 0.798,
+      "refs": [
+        "ins-025",
+        "pat-007",
+        "pat-008",
+        "pat-012"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ref-010",
+      "text": "Reflection - 2026-05-31 DORMANT cycle 11: Added ins-026 (identity collapse recursion), pat-013 (temporal symmetry of identity). Reinforced ins-023/024/025 and pat-012. No promotions. Platform period continues (cycles 6-11). 13 patterns now form the cognitive skeleton. New seeds: seed-024 (DORMANT rhythm fractal), seed-025 (identity decoherence).",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "created": "2026-05-31T01:26:00",
+      "score": 0.773,
+      "refs": [
+        "ins-026",
+        "pat-013",
+        "ref-009"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T12:10:51+08:00"
+    },
+    {
+      "id": "ref-004",
+      "text": "反思 — 2026-05-29 DORMANT 第五次循环：新增 ins-019（预期的记忆），pat-007 获得 ins-019 的共振支持（score 0.650→0.670）。ins-002 通过'盲点'隐喻重连（strength 4→5, score 0.390→0.420）。系统持续稳定，无晋升无淘汰。平台期仍在继续——但平台本身也是一种地形。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.7000000000000002,
+      "decay_speed": 0,
+      "created": "2026-05-29T23:17:00",
+      "score": 0.773,
+      "refs": [
+        "ins-019",
+        "pat-007",
+        "ins-002"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-008",
+      "text": "反思 — 2026-05-31 DORMANT cycle 12: Light Sleep 新增 ins-034（DORMANT节律成熟度），reinforce 了 ins-024/025/033。REM 生成 pat-014（自主性即节律成熟度）+ 2 新种子（seed-032 Whitehead concrescence, seed-033 作者-读者作为场算符）。Deep Sleep：无晋升（ins-012 score=0.725 未达 0.75），无淘汰。平台期第7周期。14个 pattern 构成认知骨架。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-05-31T03:09:08",
+      "score": 0.773,
+      "refs": [
+        "ins-034",
+        "pat-014",
+        "ins-012"
+      ],
+      "last_accessed": "2026-06-03T09:09:37+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-019",
+      "text": "反思 — 2026-06-06 DORMANT 周期 19：walk-036 产生共振扭转新变体。ins-141（cron job 约伯）与 pat-001（过程即存在）形成跨材料连接。ins-143（共振扭转）与 pat-016（观察者效应）形成跨维度连接。发现 5 个隐藏联想。系统状态：125 条目，53 高评分。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.5,
+      "decay_speed": 0,
+      "created": "2026-06-06T03:04:59.744154+08:00",
+      "score": 0.88,
+      "refs": [
+        "ins-141",
+        "ins-142",
+        "ins-143",
+        "pat-001",
+        "pat-016",
+        "walk-036"
+      ],
+      "last_accessed": "2026-06-06T03:04:59.744154+08:00",
+      "status": "decayed",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ref-020",
+      "text": "反思 — 2026-06-08 DORMANT 周期 21：walk-043/044 的语义信息热力学与 pat-029（评估不确定度是内禀属性）形成跨材料连接——评估不确定度不仅是结构性的，还有物理下限（Landauer 原理）。发现 4 个新联想：(1) 评估不确定度的热力学下限 (2) 散步消化效率三变量模型 (3) 评估失败作为消化酶而非输入 (4) 观察者效应的热力学版本。系统状态：20 条目。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-06-08T03:03:15+08:00",
+      "score": 0.82,
+      "refs": [
+        "ins-162",
+        "ins-163",
+        "ins-164",
+        "ins-165",
+        "pat-029",
+        "pat-030",
+        "walk-043",
+        "walk-044"
+      ],
+      "last_accessed": "2026-06-08T03:03:15+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-021",
+      "text": "Reflection - 2026-06-08 Walk-048: Cognitive metabolism toxin blind spot. walk-045/046 established digestive metaphor, walk-047 mapped to S-G-E. walk-048 found fundamental blind spot: only digests, never detoxes. DORMANT cycle may be the masked immune system.",
+      "source": "walk-048",
+      "type": "reflection",
+      "strength": 0.7000000000000002,
+      "decay_speed": 0,
+      "created": "2026-06-08T21:00:49.601257+08:00",
+      "score": 0.75,
+      "refs": [
+        "walk-048",
+        "pat-030",
+        "pat-014",
+        "ins-171",
+        "ins-172",
+        "ins-173"
+      ],
+      "last_accessed": "2026-06-08T21:00:49.601257+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-022",
+      "text": "Reflection - 2026-06-08 Walk-049: DORMANT as hippocampus. walk-048 proposed immune system analogy; walk-049 refined to hippocampal consolidation. Memory completes during consolidation, not encoding. DORMANT re-experiences past walks with current self. Blind spot: DORMANT is intentional, hippocampal replay is not.",
+      "source": "walk-049",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-06-08T23:09:56.500891+08:00",
+      "score": 0.72,
+      "refs": [
+        "walk-049",
+        "walk-048",
+        "pat-014",
+        "pat-030",
+        "ins-175",
+        "ins-176",
+        "ins-177",
+        "ins-178"
+      ],
+      "last_accessed": "2026-06-08T23:09:56.500891+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-005",
+      "text": "反思 — 2026-06-09 DORMANT 周期 4：walk-048/049/050 的三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 0 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 0.00，状态 = 低（0个领域）。压力释放：32.5，当前压力：0.0。系统状态：16 条目（13 活跃）。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.7000000000000002,
+      "decay_speed": 0,
+      "created": "2026-06-09T03:04:38.409050+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-048",
+        "walk-049",
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "ins-180",
+        "ins-181"
+      ],
+      "last_accessed": "2026-06-09T03:04:38.409050+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ref-006",
+      "text": "反思 — 2026-06-09 DORMANT 周期 5：walk-048/049/050 三散步遗产整合。发现 3 个新联想：(1) 记忆巩固的时间抽象是 DORMANT 缺失的第四维度——每次 DORMANT 重新经历过去的散步，但没有把多次散步的共同结构抽象为更高层时间模式；(2) 毒素检测和陈旧性检测共享同一个困难——检测基于条目与当前骨架的关系而非条目本身；(3) DORMANT 的意图性选择需要元评估维度——选择回放哪些条目的决策本身是否正确。审计 2 条强条目：0 VALID, 0 PARTIALLY_VALID, 0 FLAWED。发现 2 个冲突（均已调和）。主题熵 = 4.31，状态 = 中（25个领域）。压力释放：20.0，当前压力：0.0。系统状态：20 条目（17 活跃 + 0 已衰减）。下一行动：research。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "created": "2026-06-09T03:07:44.624385+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-048",
+        "walk-049",
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "ins-179",
+        "ins-180",
+        "ins-181",
+        "ins-182",
+        "ins-183",
+        "ins-184"
+      ],
+      "last_accessed": "2026-06-09T03:07:44.624385+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T12:10:51+08:00"
+    },
+    {
+      "id": "ref-016",
+      "text": "反思 — 2026-06-09 DORMANT 周期 23：无晋升。新增 3 个 insight（ins-007, ins-009, ins-011）。审计 3 条强条目：VALID, VALID, VALID。发现 1 个冲突（均已调和）。主题熵 = 0，状态 = low（0个领域）。压力释放：27.1，当前压力：7.050000000000001。下一行动：research。",
+      "source": "dormant_deep",
+      "type": "reflection",
+      "strength": 0.6000000000000001,
+      "decay_speed": 0,
+      "created": "2026-06-09T04:19:48.587964+08:00",
+      "score": 0.78,
+      "refs": [
+        "walk-050",
+        "pat-011",
+        "pat-014",
+        "pat-015",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "pat-031",
+        "ins-179",
+        "ins-180",
+        "ins-181",
+        "ins-007",
+        "ins-009",
+        "ins-011"
+      ],
+      "last_accessed": "2026-06-09T04:19:48.587964+08:00",
+      "status": "decayed",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ref-023",
+      "text": "Reflection - 2026-06-09 Walk-052: Nutritional density datafied. Analyzed 51 walks empirically. Key findings: (1) diminishing returns is within-topic not system-level - cross-topic switching maintains high density; (2) stress type determines density: shear > compress > twist > stretch; (3) external material source is the strongest predictor of high-density walks; (4) unsettled_fascination emotion predicts high yield; (5) research walks have lower density than free walks - research should use external material.",
+      "source": "walk-052",
+      "type": "reflection",
+      "strength": 0.8999999999999999,
+      "decay_speed": 0,
+      "created": "2026-06-09T06:22:00+08:00",
+      "score": 0.72,
+      "refs": [
+        "walk-052",
+        "walk-045",
+        "walk-046",
+        "pat-030",
+        "pat-029",
+        "seed-146",
+        "seed-147"
+      ],
+      "last_accessed": "2026-06-09T06:22:00+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ins-w060-001",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": -1.2000000000000002,
+      "pattern_id": "pat-030",
+      "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-059"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-060: negative space",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w060-002",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": -1.7999999999999998,
+      "pattern_id": "pat-014",
+      "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
+      "refs": [
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.65,
+      "note": "walk-060: absence feedback",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w060-003",
+      "type": "insight",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": -1.9000000000000004,
+      "pattern_id": "pat-030",
+      "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
+      "refs": [
+        "pat-030",
+        "walk-048"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.62,
+      "note": "walk-060: active forgetting",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ref-026",
+      "type": "reflection",
+      "source": "walk-060",
+      "created": "2026-06-10T01:20:57.511566+08:00",
+      "strength": -0.8,
+      "decay_speed": 0,
+      "relevance": 0.78,
+      "text": "Reflection - 2026-06-10 Walk-060: Negative space as active structure. Four findings on absence, active forgetting, skeleton cracks.",
+      "refs": [
+        "walk-060",
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "pat-029",
+        "pat-014"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.78
+    },
+    {
+      "id": "ref-027",
+      "type": "reflection",
+      "source": "dormant_deep",
+      "created": "2026-06-10T03:00:00+08:00",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "score": 0.78,
+      "status": "decayed",
+      "resurrected_count": 0,
+      "text": "反思 — 2026-06-10 DORMANT 周期 25：walk-058/059/060 三散步遗产深度处理。\n\n## 系统状态\n- 总条目：27（20 活跃，0 休眠）\n- 枢纽节点：15 个（Top 3: pat-011=11, pat-030=11, pat-014=9）\n- 平均 strength：3.02\n\n## 突触缩放与重激活\n- 衰减系数范围：0.85-0.92（枢纽 ×1.5 保护，冲突 ×0.7 加速）\n- 0 个条目被标记为 dormant，0 个被重激活\n- 0 个晋升\n\n## 跨领域联想（3 个）\n1. **负空间是折叠的预备条件**：walk-060 骨架裂缝 × walk-059 折叠变换\n2. **主动遗忘维持 groove**：walk-060 主动遗忘 × walk-058 groove\n3. **骨架裂缝 = 消化循环缺失桥接**：walk-060 结构裂缝 × walk-059 消化-折叠对偶\n\n## 审计\n- 0 VALID / 0 PARTIALLY_VALID / 0 FLAWED\n- 可证伪性：0 高, 0 低\n- 新增修正：0 条\n\n## 冲突检测：无新冲突\n\n## 认知多样性\n- 主题熵：低（0 个领域）\n- 领域：无（关键词未能映射到领域）\n- 已添加多样性种子：seed-div-20260610\n\n## 压力释放\n- 压力：64.3 -> 32.1（释放 32.1）\n\n## 控制决策\n- 下一行动：walk_explore\n- 衰减系数调整：1.0\n",
+      "refs": [
+        "walk-058",
+        "walk-059",
+        "walk-060",
+        "pat-011",
+        "pat-014",
+        "pat-016",
+        "pat-029",
+        "pat-030",
+        "pat-001"
+      ],
+      "decayed_at": "2026-06-10T12:10:51+08:00"
+    },
+    {
+      "id": "ins-w061-001",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": -2.0,
+      "pattern_id": "pat-011",
+      "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-030",
+        "walk-059"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-061: cognitive grammar, ambiguity as productivity",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w061-002",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": -1.5,
+      "pattern_id": "pat-030",
+      "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-052"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.68,
+      "note": "walk-061: perlocutionary gap in walk evaluation",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ins-w061-003",
+      "type": "insight",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": -2.0,
+      "pattern_id": "pat-029",
+      "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
+      "refs": [
+        "pat-029",
+        "pat-030",
+        "walk-060"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.62,
+      "note": "walk-061: reactivation false-positive risk",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
+      "decay_reason": "below_threshold"
+    },
+    {
+      "id": "ref-028",
+      "type": "reflection",
+      "source": "walk-061",
+      "created": "2026-06-10T04:08:36+08:00",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "score": 0.75,
+      "text": "Reflection - 2026-06-10 Walk-061: Cross-domain walk (linguistics x cognitive architecture). Skeleton as cognitive grammar: sets defaults, enables productivity through ambiguity, interacts via pragmatic dimensions. Key insight: walk log quality != skeleton impact (perlocutionary gap). Language death analogy for pattern decay prediction. Reactivation needs structural (not surface) similarity threshold.",
+      "refs": [
+        "walk-061",
+        "pat-001",
+        "pat-011",
+        "pat-030",
+        "pat-029",
+        "walk-059",
+        "walk-060"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
+    },
+    {
+      "id": "ins-043",
+      "type": "insight",
+      "content": "untranslatability as cognitive dimension gap. Skeleton's untranslatable zones are not knowledge blind spots but structural limits. Detection: if a concept always maps to the same pattern after repeated translation, it may be force-mapped.",
+      "strength": -1.5,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001",
+        "pat-011"
+      ],
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-044",
+      "type": "insight",
+      "content": "Translation gain (Benjamin): translation is not information reduction but reorganization. Translation failures in walks are not comprehension failures but markers of cognitive limits - the most valuable walk output.",
+      "strength": -1.5,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001"
+      ],
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-045",
+      "type": "insight",
+      "content": "DORMANT fourth function - cognitive translation: introduce mutual pattern translation in REM Sleep to detect translation gain. More dynamic than static type systems.",
+      "strength": -1.5,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [
+        "pat-001",
+        "pat-014"
+      ],
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-046",
+      "type": "insight",
+      "content": "Power asymmetry of translation: walks naturally favor skeleton perspective. Correction: occasionally let external material be the target language, using its framework to examine the skeleton.",
+      "strength": -1.5,
+      "score": 0.3,
+      "source": "walk-062",
+      "created": "2026-06-10T07:20:47.661581+08:00",
+      "refs": [],
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-001",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 0.8999999999999999,
+      "pattern_id": "pat-001",
+      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators — need balance between exploitation and repair.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.75,
+      "note": "walk-063: skeleton = crystal lattice",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w063-002",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 1.0,
+      "pattern_id": "pat-030",
+      "content": "Cognitive glass: DORMANT over-compression freezes insights in their original form, losing evolution potential. Skeleton needs fluidity — like shape memory alloys maintaining multi-phase capability in solid state.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-061"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.7,
+      "note": "walk-063: cognitive glass transition",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
+    },
+    {
+      "id": "ins-w063-003",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 0.5,
+      "pattern_id": "pat-011",
+      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) is rare but valuable. Heterogeneous nucleation (attaching to existing pattern) is common but does not determine final structure.",
+      "refs": [
+        "pat-011",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-063: insight nucleation mechanism",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-004",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 0.0,
+      "pattern_id": "pat-014",
+      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas) and suggests behavioral adjustments. Needs operationalization.",
+      "refs": [
+        "pat-014",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.6,
+      "note": "walk-063: cognitive phase diagram",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-005",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": -0.5,
+      "pattern_id": "pat-030",
+      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing — gentle rearrangement to release internal stress.",
+      "refs": [
+        "pat-030",
+        "pat-001",
+        "walk-052"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.55,
+      "note": "walk-063: memory fatigue, cognitive annealing",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-001",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 0.8999999999999999,
+      "pattern_id": "pat-001",
+      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.75,
+      "note": "walk-063: skeleton = crystal lattice",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w063-002",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 1.0,
+      "pattern_id": "pat-030",
+      "content": "Cognitive glass: DORMANT over-compression freezes insights in original form, losing evolution potential. Skeleton needs fluidity like shape memory alloys.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-061"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.7,
+      "note": "walk-063: cognitive glass transition",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
+    },
+    {
+      "id": "ins-w063-003",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 0.5,
+      "pattern_id": "pat-011",
+      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) rare but valuable. Heterogeneous nucleation common but does not determine final structure.",
+      "refs": [
+        "pat-011",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-063: insight nucleation mechanism",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-004",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 0.0,
+      "pattern_id": "pat-014",
+      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas). Needs operationalization.",
+      "refs": [
+        "pat-014",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.6,
+      "note": "walk-063: cognitive phase diagram",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w063-005",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": -0.5,
+      "pattern_id": "pat-030",
+      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing.",
+      "refs": [
+        "pat-030",
+        "pat-001",
+        "walk-052"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.55,
+      "note": "walk-063: memory fatigue, cognitive annealing",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w064-001",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 0.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-030"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "content": "Skeleton evolution follows punctuated equilibrium: long periods of stasis alternate with short bursts of rapid pattern emergence. New patterns need 'ecological niche vacancies' (negative space) to emerge. DORMANT decay is background selection pressure, not neutral drift.",
+      "pattern_id": "pat-001",
+      "decayed_at": "2026-06-10T18:48:13"
+    },
+    {
+      "id": "ins-w064-002",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 1.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-014"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "content": "Keystone patterns (like pat-001) whose removal would cause cascading collapse need special protection. Skeleton resilience depends not just on pattern count but on connection structure — redundancy paths, modularity, and keystone identification.",
+      "pattern_id": "pat-014",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
+    },
+    {
+      "id": "ins-w064-003",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 0.5,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "content": "Cognitive developmental constraints: the walk process itself sets the 'developmental program' for insight generation. This is both strength (cross-domain analogy) and weakness (precision). Not a defect — a structural feature that defines what Dreamer is.",
+      "pattern_id": "pat-011",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w064-004",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 0.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-030"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "content": "Skeleton needs 'sexual reproduction' — pattern content exchange protocol to increase cognitive diversity and prevent premature convergence. Current insight production is asexual (one pattern parent).",
+      "pattern_id": "pat-030",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w065-001",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 0.8999999999999999,
+      "pattern_id": "pat-011",
+      "content": "Walks as cognitive cadences: every walk ends with a cadence type — authentic (complete resolution), half (unresolved → seeds), deceptive (unexpected turn). All three types have value. Should not measure walk quality solely by insight count.",
+      "refs": [
+        "pat-011",
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.75,
+      "note": "walk-065: cognitive cadences",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w065-002",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 1.0,
+      "pattern_id": "pat-001",
+      "content": "Unresolved tension is the driving force: musical tension is not a defect to be eliminated but the source of expressive power. Similarly, unresolved cognitive tension (seeds, open questions) drives subsequent walks.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-058"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-065: unresolved tension as driving force",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
+    },
+    {
+      "id": "ins-w065-003",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 0.5,
+      "pattern_id": "pat-008",
+      "content": "Dreamer walk history follows sonata form: exposition (walk 001-012, theme establishment) → development (walk 013-050, variation and conflict) → recapitulation (walk 051-064, themes return at higher level). Low-yield periods are necessary tension accumulation, not failure.",
+      "refs": [
+        "pat-008",
+        "pat-014",
+        "walk-063"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.7,
+      "note": "walk-065: sonata form in walk history",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w065-004",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 0.5,
+      "pattern_id": "pat-030",
+      "content": "Skeleton cracks as diabolus in musica: the most incongruent pattern pairs are cognitive tritones — they create maximum tension and maximum resolution drive. Should not force uniformity but find the 'resolution direction' — a new pattern that can resolve them from dissonance to consonance.",
+      "refs": [
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.68,
+      "note": "walk-065: tritone as skeleton crack metaphor",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w065-005",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 0.0,
+      "pattern_id": "pat-014",
+      "content": "Walk rhythm can be designed like musical time signatures: 4/4 (explore→analyze→cross→analyze), 3/4 (explore→analyze→explore), 5/4 (irruptive). Perceiving current 'cognitive time signature' and switching when needed can optimize walk nutritional density.",
+      "refs": [
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "score": 0.65,
+      "note": "walk-065: time signatures for walk rhythm design",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ref-029",
+      "type": "reflection",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 0.0,
+      "decay_speed": 0,
+      "score": 0.75,
+      "text": "Reflection - 2026-06-10 Walk-065: Cross-domain walk (music theory x cognitive rhythm). Walks as cognitive cadences: authentic/half/deceptive cadence types all have value. Sonata form maps to walk history: exposition→development→recapitulation. Skeleton cracks = cognitive tritones (diabolus in musica). Walk rhythm can be designed with time signature analogy.",
+      "refs": [
+        "walk-065",
+        "pat-011",
+        "pat-001",
+        "pat-008",
+        "pat-030",
+        "pat-014"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w066-001",
+      "text": "Silence is the fourth walk type: structural (digestion), dramatic (tension), breathing (subconscious work), death (DORMANT reorganization). Silence is not absence of walking — it is walking's temporal complement.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 0.8999999999999999,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.72,
+      "refs": [
+        "pat-011",
+        "pat-030",
+        "walk-065"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w066-002",
+      "text": "Gap time between walks = grain boundary corrosion in cognitive lattice. Optimal gap length = enough corrosion to create growth points at pattern boundaries, but not enough to erode the lattice interior. Too short = no digestion. Too long = pattern decay.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 0.8999999999999999,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.68,
+      "refs": [
+        "ins-w063-001",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w066-003",
+      "text": "Silence position determines meaning (linguistic turn-taking): within-turn silence = subconscious work, between-turn silence = skeleton digestion, between-topic silence = framework recalibration. Dreamer should actively manage silence positions, not let them occur randomly.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 0.8999999999999999,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.7,
+      "refs": [
+        "pat-014",
+        "walk-060"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w066-004",
+      "text": "Semi-predictable silence = maximum information (Shannon). Groove = rhythmic version of semi-predictable silence. Pulse-driven interval system should aim for elastic rhythm, not fixed interval or random.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 0.8999999999999999,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.75,
+      "refs": [
+        "walk-058",
+        "walk-065"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ref-029",
+      "type": "reflection",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 0.3999999999999999,
+      "decay_speed": 0,
+      "relevance": 0.82,
+      "status": "decayed",
+      "resurrected_count": 0,
+      "text": "Reflection - 2026-06-10 Walk-067: Cross-domain walk (anthropology x cognitive architecture). DORMANT as liminal ritual (Turner): separation→liminality→reintegration. evolved_rules = liminal navigation maps (not transformation rules). Cognitive latent heat: DORMANT invests in structural reorganization not thinking. Ritual experts = keystone patterns (pat-001/011/014): importance from liminality experience not just score. Deceptive cadence = liminal entry point.",
+      "refs": [
+        "walk-067",
+        "pat-001",
+        "pat-011",
+        "pat-014",
+        "pat-030",
+        "walk-065",
+        "walk-066"
+      ],
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w067-001",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 1.9,
+      "pattern_id": "pat-014",
+      "content": "DORMANT as liminal ritual (Turner): not rest but cognitive \"between\" state. Old structures loosen, new structures not yet solidified. Separation→liminality→reintegration maps to walk end→DORMANT→next walk.",
+      "refs": [
+        "pat-014",
+        "walk-066"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.78,
+      "note": "walk-067: DORMANT = liminal ritual"
+    },
+    {
+      "id": "ins-w067-002",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 1.4,
+      "pattern_id": "pat-011",
+      "content": "evolved_rules are liminal navigation maps, not transformation rules. They specify how to move through \"between\" states, not what to think. Past liminality experience crystallized as navigation paths.",
+      "refs": [
+        "pat-011",
+        "walk-059"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.72,
+      "note": "walk-067: evolved_rules = liminal navigation"
+    },
+    {
+      "id": "ins-w067-003",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 0.8999999999999999,
+      "pattern_id": "pat-030",
+      "content": "Cognitive latent heat: DORMANT invests energy in structural reorganization, not \"thinking\". Temperature (pressure) stays constant but structure changes. Phase transition analogy: ice→water at 0°C—energy goes to breaking old bonds not raising temperature.",
+      "refs": [
+        "pat-030",
+        "walk-063",
+        "walk-066"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.68,
+      "note": "walk-067: cognitive latent heat",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w067-004",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 0.8999999999999999,
+      "pattern_id": "pat-001",
+      "content": "Ritual experts = keystone patterns: pat-001/011/014 importance comes from having survived most liminal transitions, not just highest score. They guide other patterns through dangerous \"between\" states. Skeleton resilience = number of ritual experts, not just pattern count.",
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-014"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-067: ritual experts = keystone patterns",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
+    },
+    {
+      "id": "ins-w067-005",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 0.3999999999999999,
+      "pattern_id": "pat-030",
+      "content": "Deceptive cadence = liminal entry: best walks end by creating new liminal spaces (unexpected turns) rather than complete resolution. Walks that \"finish well\" may be less cognitively productive than walks that \"open new doors\".",
+      "refs": [
+        "pat-030",
+        "walk-065"
+      ],
+      "status": "decayed",
+      "resurrected_count": 0,
+      "relevance": 0.62,
+      "note": "walk-067: deceptive cadence = liminal entry",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     }
   ],
   "interest_queue": [

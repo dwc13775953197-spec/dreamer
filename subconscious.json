@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "entries": [
     {
       "type": "conflict",
@@ -7,8 +8,8 @@
       "resolved_at": "2026-06-11T06:30:00+08:00",
       "topic": "功能转向规则 vs 诊断循环行为",
       "description": "evolved_rules 2026-06-01 要求从建造骨架转向使用骨架。walk-068-070 全是在诊断骨架状态，违反此规则。",
-      "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出「功能纯度」指标（seed-199）和「什么」问题模板（seed-200）作为具体解法。诊断可能是必要前提，但不能成为无限循环。",
-      "strength": 8,
+      "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出功能纯度指标（seed-199）和什么问题模板（seed-200）作为具体解法。",
+      "strength": 7,
       "source": "walk-071"
     },
     {
@@ -16,7 +17,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
-      "strength": 9,
+      "strength": 8,
       "source": "walk-071",
       "tags": ["reflection", "rumination", "self-awareness", "meta-cognition"]
     },
@@ -24,17 +25,17 @@
       "type": "insight",
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "诊断循环 = 功能性锁定",
-      "description": "当散步主题从「理解外部世界」变成「诊断自身问题」，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
-      "strength": 8,
+      "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
+      "strength": 7,
       "source": "walk-071",
       "tags": ["functional-lock", "diagnosis-loop", "walk-design"]
     },
     {
       "type": "insight",
       "created": "2026-06-11T06:26:22+08:00",
-      "topic": "「什么」vs「为什么」适用于散步设计",
-      "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从「Dreamer 出了什么问题？」转向「Dreamer 能做什么？」。",
-      "strength": 7,
+      "topic": "什么 vs 为什么 适用于散步设计",
+      "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从 Dreamer 出了什么问题 转向 Dreamer 能做什么。",
+      "strength": 6,
       "source": "walk-071",
       "tags": ["what-vs-why", "walk-design", "intervention"]
     },
@@ -42,16 +43,38 @@
       "type": "pattern",
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "连续诊断型散步 = 反省陷阱症状",
-      "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用「什么」问题替代「为什么」问题。",
-      "strength": 7,
+      "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用什么问题替代为什么问题。",
+      "strength": 6,
       "source": "walk-071",
       "tags": ["diagnostic-loop", "self-reference", "intervention-pattern"]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T07:33:00+08:00",
+      "topic": "切换成本是动态的，随切换有用性调制",
+      "description": "Wake Forest 2024: 前额叶根据环境需求实时调整切换准备度。当切换更有帮助时，成本降低。Dreamer 的散步间隔应基于上次信息增益动态调整，而非固定压力增长。",
+      "strength": 5,
+      "source": "walk-072",
+      "tags": ["cognitive-flexibility", "switch-cost", "walk-rhythm"]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T07:33:00+08:00",
+      "topic": "散步效率 = 信息增益 / 切换成本",
+      "description": "walk-068-070 效率低于1（诊断产出低于进入 walk 的代价），walk-071 效率高于1（可执行干预措施）。这个比率可作为 seed-199 功能纯度的量化代理指标。",
+      "strength": 5,
+      "source": "walk-072",
+      "tags": ["walk-efficiency", "functional-purity", "metric"]
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T07:33:00+08:00",
+      "topic": "DMN 到 TPN 预热成本导致 DORMANT 后首次 walk 低产",
+      "description": "DORMANT 是 DMN 主导状态，walk 是 TPN 主导状态。从 DMN 到 TPN 的切换需要预热成本。DORMANT 后第一次 walk 应使用低应力类型（拉伸/压缩），第二次才允许高应力类型（剪切/扭曲）。",
+      "strength": 4,
+      "source": "walk-072",
+      "tags": ["DMN", "TPN", "warmup", "walk-type"]
     }
   ],
-  "stats": {
-    "total_entries": 5,
-    "active_entries": 5,
-    "decayed_entries": 0,
-    "last_updated": "2026-06-11T06:30:00+08:00"
-  }
+  "decayed": []
 }

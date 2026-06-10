@@ -1,5 +1,5 @@
 {
-  "tick_count": 84,
+  "tick_count": 85,
   "entries": [
     {
       "id": "ref-002",
@@ -631,7 +631,7 @@
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 3.0,
+      "strength": 2.9,
       "pattern_id": "pat-001",
       "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators — need balance between exploitation and repair.",
       "refs": [
@@ -640,10 +640,11 @@
         "pat-011",
         "walk-060"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.75,
-      "note": "walk-063: skeleton = crystal lattice"
+      "note": "walk-063: skeleton = crystal lattice",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w063-002",
@@ -726,7 +727,7 @@
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 3.0,
+      "strength": 2.9,
       "pattern_id": "pat-001",
       "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators.",
       "refs": [
@@ -735,10 +736,11 @@
         "pat-011",
         "walk-060"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.75,
-      "note": "walk-063: skeleton = crystal lattice"
+      "note": "walk-063: skeleton = crystal lattice",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w063-002",
@@ -897,7 +899,7 @@
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 3.0,
+      "strength": 2.9,
       "pattern_id": "pat-011",
       "content": "Walks as cognitive cadences: every walk ends with a cadence type — authentic (complete resolution), half (unresolved → seeds), deceptive (unexpected turn). All three types have value. Should not measure walk quality solely by insight count.",
       "refs": [
@@ -905,10 +907,11 @@
         "pat-014",
         "walk-058"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.75,
-      "note": "walk-065: cognitive cadences"
+      "note": "walk-065: cognitive cadences",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w065-002",
@@ -1011,7 +1014,7 @@
       "text": "Silence is the fourth walk type: structural (digestion), dramatic (tension), breathing (subconscious work), death (DORMANT reorganization). Silence is not absence of walking — it is walking's temporal complement.",
       "source": "walk-066",
       "type": "insight",
-      "strength": 3.0,
+      "strength": 2.9,
       "decay_speed": 1,
       "created": "2026-06-10T19:53:55.875029+08:00",
       "score": 0.72,
@@ -1021,15 +1024,16 @@
         "walk-065"
       ],
       "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w066-002",
       "text": "Gap time between walks = grain boundary corrosion in cognitive lattice. Optimal gap length = enough corrosion to create growth points at pattern boundaries, but not enough to erode the lattice interior. Too short = no digestion. Too long = pattern decay.",
       "source": "walk-066",
       "type": "insight",
-      "strength": 3.0,
+      "strength": 2.9,
       "decay_speed": 1,
       "created": "2026-06-10T19:53:55.875029+08:00",
       "score": 0.68,
@@ -1038,15 +1042,16 @@
         "pat-011"
       ],
       "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w066-003",
       "text": "Silence position determines meaning (linguistic turn-taking): within-turn silence = subconscious work, between-turn silence = skeleton digestion, between-topic silence = framework recalibration. Dreamer should actively manage silence positions, not let them occur randomly.",
       "source": "walk-066",
       "type": "insight",
-      "strength": 3.0,
+      "strength": 2.9,
       "decay_speed": 1,
       "created": "2026-06-10T19:53:55.875029+08:00",
       "score": 0.7,
@@ -1055,15 +1060,16 @@
         "walk-060"
       ],
       "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w066-004",
       "text": "Semi-predictable silence = maximum information (Shannon). Groove = rhythmic version of semi-predictable silence. Pulse-driven interval system should aim for elastic rhythm, not fixed interval or random.",
       "source": "walk-066",
       "type": "insight",
-      "strength": 3.0,
+      "strength": 2.9,
       "decay_speed": 1,
       "created": "2026-06-10T19:53:55.875029+08:00",
       "score": 0.75,
@@ -1072,18 +1078,19 @@
         "walk-065"
       ],
       "last_accessed": "2026-06-10T19:53:55.875029+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ref-029",
       "type": "reflection",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.5,
+      "strength": 2.4,
       "decay_speed": 0,
       "relevance": 0.82,
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "text": "Reflection - 2026-06-10 Walk-067: Cross-domain walk (anthropology x cognitive architecture). DORMANT as liminal ritual (Turner): separation→liminality→reintegration. evolved_rules = liminal navigation maps (not transformation rules). Cognitive latent heat: DORMANT invests in structural reorganization not thinking. Ritual experts = keystone patterns (pat-001/011/014): importance from liminality experience not just score. Deceptive cadence = liminal entry point.",
       "refs": [
@@ -1094,14 +1101,15 @@
         "pat-030",
         "walk-065",
         "walk-066"
-      ]
+      ],
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w067-001",
       "type": "insight",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 4.0,
+      "strength": 3.9,
       "pattern_id": "pat-014",
       "content": "DORMANT as liminal ritual (Turner): not rest but cognitive \"between\" state. Old structures loosen, new structures not yet solidified. Separation→liminality→reintegration maps to walk end→DORMANT→next walk.",
       "refs": [
@@ -1118,7 +1126,7 @@
       "type": "insight",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 3.5,
+      "strength": 3.4,
       "pattern_id": "pat-011",
       "content": "evolved_rules are liminal navigation maps, not transformation rules. They specify how to move through \"between\" states, not what to think. Past liminality experience crystallized as navigation paths.",
       "refs": [
@@ -1135,7 +1143,7 @@
       "type": "insight",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 3.0,
+      "strength": 2.9,
       "pattern_id": "pat-030",
       "content": "Cognitive latent heat: DORMANT invests energy in structural reorganization, not \"thinking\". Temperature (pressure) stays constant but structure changes. Phase transition analogy: ice→water at 0°C—energy goes to breaking old bonds not raising temperature.",
       "refs": [
@@ -1143,17 +1151,18 @@
         "walk-063",
         "walk-066"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.68,
-      "note": "walk-067: cognitive latent heat"
+      "note": "walk-067: cognitive latent heat",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w067-004",
       "type": "insight",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 3.0,
+      "strength": 2.9,
       "pattern_id": "pat-001",
       "content": "Ritual experts = keystone patterns: pat-001/011/014 importance comes from having survived most liminal transitions, not just highest score. They guide other patterns through dangerous \"between\" states. Skeleton resilience = number of ritual experts, not just pattern count.",
       "refs": [
@@ -1161,27 +1170,29 @@
         "pat-011",
         "pat-014"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.65,
-      "note": "walk-067: ritual experts = keystone patterns"
+      "note": "walk-067: ritual experts = keystone patterns",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     },
     {
       "id": "ins-w067-005",
       "type": "insight",
       "source": "walk-067",
       "created": "2026-06-10T21:00:33.701237+08:00",
-      "strength": 2.5,
+      "strength": 2.4,
       "pattern_id": "pat-030",
       "content": "Deceptive cadence = liminal entry: best walks end by creating new liminal spaces (unexpected turns) rather than complete resolution. Walks that \"finish well\" may be less cognitively productive than walks that \"open new doors\".",
       "refs": [
         "pat-030",
         "walk-065"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.62,
-      "note": "walk-067: deceptive cadence = liminal entry"
+      "note": "walk-067: deceptive cadence = liminal entry",
+      "decayed_at": "2026-06-10T21:26:00+08:00"
     }
   ],
   "decayed": [

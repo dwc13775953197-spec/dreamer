@@ -1,5 +1,5 @@
 {
-  "tick_count": 82,
+  "tick_count": 83,
   "entries": [
     {
       "id": "ref-002",
@@ -821,7 +821,7 @@
       "type": "insight",
       "source": "walk-064",
       "created": "2026-06-10T14:27:12+08:00",
-      "strength": 3.0,
+      "strength": 2.0,
       "decay_speed": 1,
       "score": 0.0,
       "refs": [
@@ -830,10 +830,11 @@
         "pat-030"
       ],
       "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "content": "Skeleton evolution follows punctuated equilibrium: long periods of stasis alternate with short bursts of rapid pattern emergence. New patterns need 'ecological niche vacancies' (negative space) to emerge. DORMANT decay is background selection pressure, not neutral drift.",
-      "pattern_id": "pat-001"
+      "pattern_id": "pat-001",
+      "decayed_at": "2026-06-10T18:48:13"
     },
     {
       "id": "ins-w064-002",

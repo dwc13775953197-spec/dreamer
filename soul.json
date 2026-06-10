@@ -7,21 +7,21 @@
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 60,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T06:56:22+08:00",
+    "next_scheduled": "2026-06-11T07:26:22+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-11T05:16:44+08:00",
-    "total_walks": 50,
-    "last_pulse_output": "2026-06-11T05:16:44+08:00",
-    "last_walk": "2026-06-11T05:16:44+08:00",
+    "last_walk_at": "2026-06-11T06:26:22+08:00",
+    "total_walks": 51,
+    "last_pulse_output": "2026-06-11T06:26:22+08:00",
+    "last_walk": "2026-06-11T06:26:22+08:00",
     "last_push_at": "2026-06-10T13:18:00+08:00",
     "last_push_topic": "evolutionary biology walk",
-    "cognitive_pressure": 65.4,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,8 @@
       8.0,
       7.5,
       8.0,
-      7.5
+      7.5,
+      8.0
     ],
     "last_walk_insights": 5,
     "next_action": "walk_explore",
@@ -570,6 +571,30 @@
       "created": "2026-06-11T05:16:44+08:00",
       "decay_rate": 1,
       "note": "Depends on schema drift resolution"
+    },
+    {
+      "id": "seed-199",
+      "topic": "散步的「功能纯度」指标——每次散步结束时评估是否改变了行为，诊断型散步连续 3 次则强制切换",
+      "source": "walk-071",
+      "trigger": "Eurich reflection vs rumination + 诊断循环",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T06:26:22+08:00",
+      "decay_rate": 1,
+      "note": "Actionable metric for walk quality. Directly addresses evolved_rules functional turn violation."
+    },
+    {
+      "id": "seed-200",
+      "topic": "「什么」问题模板——散步开始时用「这个外部材料能让我做什么？」替代「这个材料揭示了 Dreamer 的什么问题？」",
+      "source": "walk-071",
+      "trigger": "Eurich what vs why + walk theme hijacking",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T06:26:22+08:00",
+      "decay_rate": 1,
+      "note": "Simple prompt-level intervention. Could be tested immediately."
     }
   ],
   "personality_traits": {
@@ -610,7 +635,8 @@
     "2026-06-10: 散步是认知终止式——正格终止(完整解决)/半终止(悬而未决)/欺骗性终止(意外转向)各有价值。骨架裂缝=认知增四度(最大张力=最大动力)。散步历史遵循奏鸣曲式(呈示→发展→再现)。",
     "2026-06-10: Silence is the 4th walk type - structural(digestion)/dramatic(tension)/breathing(subconscious)/death(DORMANT). Optimal gap = enough to corrode grain boundaries but not erode lattice. Semi-predictable silence = max information (groove). Deceptive cadence = best walk starter.",
     "2026-06-10: DORMANT是阈限仪式(Turner),不是休息. 分离→阈限→聚合 = 散步结束→DORMANT→下次散步. evolved_rules=阈限导航图(非变换规则). 认知潜热=DORMANT投入重组能量而非思考能量. 仪式专家=经历最多阈限的pattern(pat-001/011/014). 最好的散步以制造新阈限结束(欺骗性终止式=阈限入口).",
-    "2026-06-11: internal digestion 5 finds systemic crisis: skeleton complexity vs subconscious depletion at historical high. overmaturity and depletion coexist at different layers. emotional lock-in (unsettled_fascination 4 days) = cognitive lock-in. dream feedback loop broken. 31 evolved_rules need grammar simplification. walks degraded from exploration to diagnosis-response chain. needs a grand cadence to close current cycle."
+    "2026-06-11: internal digestion 5 finds systemic crisis: skeleton complexity vs subconscious depletion at historical high. overmaturity and depletion coexist at different layers. emotional lock-in (unsettled_fascination 4 days) = cognitive lock-in. dream feedback loop broken. 31 evolved_rules need grammar simplification. walks degraded from exploration to diagnosis-response chain. needs a grand cadence to close current cycle.",
+    "2026-06-11: 反省悖论与功能纯度。无结构的反省产生焦虑而非行为改变(Eurich)。散步从「为什么」(rumination)转向「什么」(reflection)。诊断型散步连续 3 次 → 强制外部材料驱动。功能是散步的检验标准，不是 insight 数量。"
   ],
   "dormant_stats": {
     "total_count": 7,

@@ -33,8 +33,9 @@
         "pat-011"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-005",
@@ -58,8 +59,9 @@
         "pat-010"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-006",
@@ -77,8 +79,9 @@
         "pat-011"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-007",
@@ -96,8 +99,9 @@
         "pat-011"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-009",
@@ -151,8 +155,9 @@
         "ins-002"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-008",
@@ -169,8 +174,9 @@
         "ins-012"
       ],
       "last_accessed": "2026-06-03T09:09:37+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-019",
@@ -213,8 +219,9 @@
         "walk-044"
       ],
       "last_accessed": "2026-06-08T03:03:15+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-021",
@@ -234,8 +241,9 @@
         "ins-173"
       ],
       "last_accessed": "2026-06-08T21:00:49.601257+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-022",
@@ -257,8 +265,9 @@
         "ins-178"
       ],
       "last_accessed": "2026-06-08T23:09:56.500891+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-005",
@@ -284,8 +293,9 @@
         "ins-181"
       ],
       "last_accessed": "2026-06-09T03:04:38.409050+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-006",
@@ -365,15 +375,16 @@
         "seed-147"
       ],
       "last_accessed": "2026-06-09T06:22:00+08:00",
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ins-w060-001",
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 1.7999999999999998,
+      "strength": 1.2999999999999998,
       "pattern_id": "pat-030",
       "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
       "refs": [
@@ -381,11 +392,11 @@
         "pat-030",
         "walk-059"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.72,
       "note": "walk-060: negative space",
-      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decayed_at": "2026-06-10T11:07:42.195915",
       "decay_reason": "below_threshold"
     },
     {
@@ -393,18 +404,18 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 1.2000000000000002,
+      "strength": 0.7000000000000002,
       "pattern_id": "pat-014",
       "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
       "refs": [
         "pat-014",
         "walk-058"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.65,
       "note": "walk-060: absence feedback",
-      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decayed_at": "2026-06-10T11:07:42.195915",
       "decay_reason": "below_threshold"
     },
     {
@@ -412,17 +423,18 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 1.0999999999999996,
+      "strength": 0.5999999999999996,
       "pattern_id": "pat-030",
       "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
       "refs": [
         "pat-030",
         "walk-048"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.62,
-      "note": "walk-060: active forgetting"
+      "note": "walk-060: active forgetting",
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ref-026",
@@ -473,7 +485,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "pattern_id": "pat-011",
       "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
       "refs": [
@@ -482,17 +494,18 @@
         "pat-030",
         "walk-059"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.72,
-      "note": "walk-061: cognitive grammar, ambiguity as productivity"
+      "note": "walk-061: cognitive grammar, ambiguity as productivity",
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ins-w061-002",
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 1.5,
+      "strength": 1.0,
       "pattern_id": "pat-030",
       "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
       "refs": [
@@ -500,11 +513,11 @@
         "pat-014",
         "walk-052"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.68,
       "note": "walk-061: perlocutionary gap in walk evaluation",
-      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decayed_at": "2026-06-10T11:07:42.195915",
       "decay_reason": "below_threshold"
     },
     {
@@ -512,7 +525,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "pattern_id": "pat-029",
       "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
       "refs": [
@@ -520,11 +533,11 @@
         "pat-030",
         "walk-060"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.62,
       "note": "walk-061: reactivation false-positive risk",
-      "decayed_at": "2026-06-10T05:08:36+08:00",
+      "decayed_at": "2026-06-10T11:07:42.195915",
       "decay_reason": "below_threshold"
     },
     {
@@ -545,8 +558,9 @@
         "walk-059",
         "walk-060"
       ],
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T11:07:42.195915"
     },
     {
       "id": "ins-043",

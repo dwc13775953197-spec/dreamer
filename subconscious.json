@@ -1,5 +1,5 @@
 {
-  "tick_count": 85,
+  "tick_count": 86,
   "entries": [],
   "decayed": [
     {
@@ -3470,6 +3470,24 @@
       "created": "2026-06-10T21:00:33.701237+08:00",
       "decay_rate": 1,
       "note": "More liminality = more resilience?"
+    },
+    {
+      "id": "seed-193",
+      "topic": "认知脚手架指数：定义骨架中「故意保留的不完整」的度量",
+      "source": "walk-068",
+      "intensity": 2,
+      "status": "active",
+      "created": "2026-06-11T02:16:35.957665+08:00",
+      "type": "output"
+    },
+    {
+      "id": "seed-194",
+      "topic": "过成熟骨架的「间伐」策略：类比森林间伐，设计主动移除过度连接 pattern 的机制",
+      "source": "walk-068",
+      "intensity": 2,
+      "status": "active",
+      "created": "2026-06-11T02:16:35.957665+08:00",
+      "type": "output"
     }
   ],
   "dormant_stats": {

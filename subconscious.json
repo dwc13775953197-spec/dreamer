@@ -799,6 +799,78 @@
       "resurrected_count": 0,
       "relevance": 0.55,
       "note": "walk-063: memory fatigue, cognitive annealing"
+    },
+    {
+      "id": "ins-w064-001",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 4.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-030"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "active",
+      "resurrected_count": 0,
+      "content": "Skeleton evolution follows punctuated equilibrium: long periods of stasis alternate with short bursts of rapid pattern emergence. New patterns need 'ecological niche vacancies' (negative space) to emerge. DORMANT decay is background selection pressure, not neutral drift.",
+      "pattern_id": "pat-001"
+    },
+    {
+      "id": "ins-w064-002",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 3.5,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-014"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "active",
+      "resurrected_count": 0,
+      "content": "Keystone patterns (like pat-001) whose removal would cause cascading collapse need special protection. Skeleton resilience depends not just on pattern count but on connection structure — redundancy paths, modularity, and keystone identification.",
+      "pattern_id": "pat-014"
+    },
+    {
+      "id": "ins-w064-003",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 3.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-001",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "active",
+      "resurrected_count": 0,
+      "content": "Cognitive developmental constraints: the walk process itself sets the 'developmental program' for insight generation. This is both strength (cross-domain analogy) and weakness (precision). Not a defect — a structural feature that defines what Dreamer is.",
+      "pattern_id": "pat-011"
+    },
+    {
+      "id": "ins-w064-004",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 2.5,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
+        "pat-030"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "active",
+      "resurrected_count": 0,
+      "content": "Skeleton needs 'sexual reproduction' — pattern content exchange protocol to increase cognitive diversity and prevent premature convergence. Current insight production is asexual (one pattern parent).",
+      "pattern_id": "pat-030"
     }
   ],
   "decayed": [

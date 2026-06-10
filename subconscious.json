@@ -617,6 +617,188 @@
       "created": "2026-06-10T07:20:47.661581+08:00",
       "refs": [],
       "decay_rate": 1
+    },
+    {
+      "id": "ins-w063-001",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 4.0,
+      "pattern_id": "pat-001",
+      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators — need balance between exploitation and repair.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.75,
+      "note": "walk-063: skeleton = crystal lattice"
+    },
+    {
+      "id": "ins-w063-002",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-030",
+      "content": "Cognitive glass: DORMANT over-compression freezes insights in their original form, losing evolution potential. Skeleton needs fluidity — like shape memory alloys maintaining multi-phase capability in solid state.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-061"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.7,
+      "note": "walk-063: cognitive glass transition"
+    },
+    {
+      "id": "ins-w063-003",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-011",
+      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) is rare but valuable. Heterogeneous nucleation (attaching to existing pattern) is common but does not determine final structure.",
+      "refs": [
+        "pat-011",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-063: insight nucleation mechanism"
+    },
+    {
+      "id": "ins-w063-004",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-014",
+      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas) and suggests behavioral adjustments. Needs operationalization.",
+      "refs": [
+        "pat-014",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.6,
+      "note": "walk-063: cognitive phase diagram"
+    },
+    {
+      "id": "ins-w063-005",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:02.349790+08:00",
+      "strength": 2.0,
+      "pattern_id": "pat-030",
+      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing — gentle rearrangement to release internal stress.",
+      "refs": [
+        "pat-030",
+        "pat-001",
+        "walk-052"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.55,
+      "note": "walk-063: memory fatigue, cognitive annealing"
+    },
+    {
+      "id": "ins-w063-001",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 4.0,
+      "pattern_id": "pat-001",
+      "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.75,
+      "note": "walk-063: skeleton = crystal lattice"
+    },
+    {
+      "id": "ins-w063-002",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-030",
+      "content": "Cognitive glass: DORMANT over-compression freezes insights in original form, losing evolution potential. Skeleton needs fluidity like shape memory alloys.",
+      "refs": [
+        "pat-030",
+        "pat-014",
+        "walk-061"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.7,
+      "note": "walk-063: cognitive glass transition"
+    },
+    {
+      "id": "ins-w063-003",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-011",
+      "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) rare but valuable. Heterogeneous nucleation common but does not determine final structure.",
+      "refs": [
+        "pat-011",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-063: insight nucleation mechanism"
+    },
+    {
+      "id": "ins-w063-004",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-014",
+      "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas). Needs operationalization.",
+      "refs": [
+        "pat-014",
+        "pat-001",
+        "pat-030"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.6,
+      "note": "walk-063: cognitive phase diagram"
+    },
+    {
+      "id": "ins-w063-005",
+      "type": "insight",
+      "source": "walk-063",
+      "created": "2026-06-10T13:17:29.010142+08:00",
+      "strength": 2.0,
+      "pattern_id": "pat-030",
+      "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing.",
+      "refs": [
+        "pat-030",
+        "pat-001",
+        "walk-052"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.55,
+      "note": "walk-063: memory fatigue, cognitive annealing"
     }
   ],
   "decayed": [

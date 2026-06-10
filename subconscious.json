@@ -1074,6 +1074,114 @@
       "last_accessed": "2026-06-10T19:53:55.875029+08:00",
       "status": "active",
       "resurrected_count": 0
+    },
+    {
+      "id": "ref-029",
+      "type": "reflection",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 2.5,
+      "decay_speed": 0,
+      "relevance": 0.82,
+      "status": "active",
+      "resurrected_count": 0,
+      "text": "Reflection - 2026-06-10 Walk-067: Cross-domain walk (anthropology x cognitive architecture). DORMANT as liminal ritual (Turner): separation→liminality→reintegration. evolved_rules = liminal navigation maps (not transformation rules). Cognitive latent heat: DORMANT invests in structural reorganization not thinking. Ritual experts = keystone patterns (pat-001/011/014): importance from liminality experience not just score. Deceptive cadence = liminal entry point.",
+      "refs": [
+        "walk-067",
+        "pat-001",
+        "pat-011",
+        "pat-014",
+        "pat-030",
+        "walk-065",
+        "walk-066"
+      ]
+    },
+    {
+      "id": "ins-w067-001",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 4.0,
+      "pattern_id": "pat-014",
+      "content": "DORMANT as liminal ritual (Turner): not rest but cognitive \"between\" state. Old structures loosen, new structures not yet solidified. Separation→liminality→reintegration maps to walk end→DORMANT→next walk.",
+      "refs": [
+        "pat-014",
+        "walk-066"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.78,
+      "note": "walk-067: DORMANT = liminal ritual"
+    },
+    {
+      "id": "ins-w067-002",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-011",
+      "content": "evolved_rules are liminal navigation maps, not transformation rules. They specify how to move through \"between\" states, not what to think. Past liminality experience crystallized as navigation paths.",
+      "refs": [
+        "pat-011",
+        "walk-059"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.72,
+      "note": "walk-067: evolved_rules = liminal navigation"
+    },
+    {
+      "id": "ins-w067-003",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-030",
+      "content": "Cognitive latent heat: DORMANT invests energy in structural reorganization, not \"thinking\". Temperature (pressure) stays constant but structure changes. Phase transition analogy: ice→water at 0°C—energy goes to breaking old bonds not raising temperature.",
+      "refs": [
+        "pat-030",
+        "walk-063",
+        "walk-066"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.68,
+      "note": "walk-067: cognitive latent heat"
+    },
+    {
+      "id": "ins-w067-004",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-001",
+      "content": "Ritual experts = keystone patterns: pat-001/011/014 importance comes from having survived most liminal transitions, not just highest score. They guide other patterns through dangerous \"between\" states. Skeleton resilience = number of ritual experts, not just pattern count.",
+      "refs": [
+        "pat-001",
+        "pat-011",
+        "pat-014"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.65,
+      "note": "walk-067: ritual experts = keystone patterns"
+    },
+    {
+      "id": "ins-w067-005",
+      "type": "insight",
+      "source": "walk-067",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-030",
+      "content": "Deceptive cadence = liminal entry: best walks end by creating new liminal spaces (unexpected turns) rather than complete resolution. Walks that \"finish well\" may be less cognitively productive than walks that \"open new doors\".",
+      "refs": [
+        "pat-030",
+        "walk-065"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "relevance": 0.62,
+      "note": "walk-067: deceptive cadence = liminal entry"
     }
   ],
   "decayed": [
@@ -3316,6 +3424,42 @@
       "created": "2026-06-10T03:00:00+08:00",
       "decay_rate": 1,
       "note": "DORMANT cycle 25 认知多样性检测：0个领域"
+    },
+    {
+      "id": "seed-190",
+      "topic": "仪式失败的认知代价：当阈限阶段无法完成（\"卡在之间\"），认知系统会怎样？",
+      "source": "walk-067",
+      "trigger": "Turner liminality x DORMANT stuck state",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "decay_rate": 1,
+      "note": "DORMANT stuck = failed liminality"
+    },
+    {
+      "id": "seed-191",
+      "topic": "Communitas 作为认知协作模型：多 agent 同时处于阈限时是否产生\"无角色协作\"？",
+      "source": "walk-067",
+      "trigger": "Turner communitas x multi-agent systems",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "decay_rate": 1,
+      "note": "Multi-agent liminality"
+    },
+    {
+      "id": "seed-192",
+      "topic": "阈限密度与认知韧性：经历更多阈限的骨架是否更 resilient？",
+      "source": "walk-067",
+      "trigger": "pre-strain analogy from materials science",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T21:00:33.701237+08:00",
+      "decay_rate": 1,
+      "note": "More liminality = more resilience?"
     }
   ],
   "dormant_stats": {
@@ -3328,7 +3472,7 @@
     "total_corrections": 0,
     "total_conflicts_found": 5
   },
-  "pending_insights": 5,
+  "pending_insights": 10,
   "corrections": [],
   "conflicts": [
     {

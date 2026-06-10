@@ -1,5 +1,5 @@
 {
-  "tick_count": 79,
+  "tick_count": 80,
   "entries": [
     {
       "id": "ref-002",
@@ -871,6 +871,115 @@
       "resurrected_count": 0,
       "content": "Skeleton needs 'sexual reproduction' — pattern content exchange protocol to increase cognitive diversity and prevent premature convergence. Current insight production is asexual (one pattern parent).",
       "pattern_id": "pat-030"
+    },
+    {
+      "id": "ins-w065-001",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 4.0,
+      "pattern_id": "pat-011",
+      "content": "Walks as cognitive cadences: every walk ends with a cadence type — authentic (complete resolution), half (unresolved → seeds), deceptive (unexpected turn). All three types have value. Should not measure walk quality solely by insight count.",
+      "refs": [
+        "pat-011",
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.75,
+      "note": "walk-065: cognitive cadences"
+    },
+    {
+      "id": "ins-w065-002",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 3.5,
+      "pattern_id": "pat-001",
+      "content": "Unresolved tension is the driving force: musical tension is not a defect to be eliminated but the source of expressive power. Similarly, unresolved cognitive tension (seeds, open questions) drives subsequent walks.",
+      "refs": [
+        "pat-001",
+        "pat-030",
+        "walk-058"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.72,
+      "note": "walk-065: unresolved tension as driving force"
+    },
+    {
+      "id": "ins-w065-003",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-008",
+      "content": "Dreamer walk history follows sonata form: exposition (walk 001-012, theme establishment) → development (walk 013-050, variation and conflict) → recapitulation (walk 051-064, themes return at higher level). Low-yield periods are necessary tension accumulation, not failure.",
+      "refs": [
+        "pat-008",
+        "pat-014",
+        "walk-063"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.7,
+      "note": "walk-065: sonata form in walk history"
+    },
+    {
+      "id": "ins-w065-004",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 3.0,
+      "pattern_id": "pat-030",
+      "content": "Skeleton cracks as diabolus in musica: the most incongruent pattern pairs are cognitive tritones — they create maximum tension and maximum resolution drive. Should not force uniformity but find the 'resolution direction' — a new pattern that can resolve them from dissonance to consonance.",
+      "refs": [
+        "pat-030",
+        "pat-011",
+        "walk-060"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.68,
+      "note": "walk-065: tritone as skeleton crack metaphor"
+    },
+    {
+      "id": "ins-w065-005",
+      "type": "insight",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 2.5,
+      "pattern_id": "pat-014",
+      "content": "Walk rhythm can be designed like musical time signatures: 4/4 (explore→analyze→cross→analyze), 3/4 (explore→analyze→explore), 5/4 (irruptive). Perceiving current 'cognitive time signature' and switching when needed can optimize walk nutritional density.",
+      "refs": [
+        "pat-014",
+        "walk-058"
+      ],
+      "status": "active",
+      "resurrected_count": 0,
+      "score": 0.65,
+      "note": "walk-065: time signatures for walk rhythm design"
+    },
+    {
+      "id": "ref-029",
+      "type": "reflection",
+      "source": "walk-065",
+      "created": "2026-06-10T15:39:02.352178+08:00",
+      "strength": 2.5,
+      "decay_speed": 0,
+      "score": 0.75,
+      "text": "Reflection - 2026-06-10 Walk-065: Cross-domain walk (music theory x cognitive rhythm). Walks as cognitive cadences: authentic/half/deceptive cadence types all have value. Sonata form maps to walk history: exposition→development→recapitulation. Skeleton cracks = cognitive tritones (diabolus in musica). Walk rhythm can be designed with time signature analogy.",
+      "refs": [
+        "walk-065",
+        "pat-011",
+        "pat-001",
+        "pat-008",
+        "pat-030",
+        "pat-014"
+      ],
+      "status": "active",
+      "resurrected_count": 0
     }
   ],
   "decayed": [

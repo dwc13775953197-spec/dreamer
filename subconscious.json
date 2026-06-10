@@ -3639,7 +3639,7 @@
     "total_corrections": 0,
     "total_conflicts_found": 5
   },
-  "pending_insights": 14,
+  "pending_insights": 18,
   "corrections": [],
   "conflicts": [
     {
@@ -3692,6 +3692,19 @@
       "resolution": "可调和——海马体类比更基本。免疫系统的突触修剪只是记忆巩固的一个子功能。DORMANT 的主要功能是记忆巩固（海马体），免疫监视是这个功能的子集。walk-048 的'免疫系统'是 walk-049 '海马体'的一个子功能。",
       "status": "resolved",
       "created": "2026-06-09T03:07:44.624385+08:00",
+      "type": "conflict"
+    },
+    {
+      "id": "conflict-005",
+      "party_a": "walk-068",
+      "party_a_text": "skeleton is overmature: all connection points occupied, new material cannot insert",
+      "party_b": "walk-070",
+      "party_b_text": "subconscious is depleted: entries=0, decayed=169, space exists but no material",
+      "conflict_type": "diagnostic contradiction",
+      "description": "walk-068 diagnosed overmature skeleton (too dense), walk-070 diagnosed depleted subconscious (too empty). Possible reconciliation: both are true at different layers - skeleton layer can be dense while subconscious layer is empty. They coexist and exacerbate each other.",
+      "resolution": "reconcilable - overmaturity (pattern layer) and depletion (subconscious layer) are orthogonal problems needing different solutions",
+      "status": "resolved",
+      "created": "2026-06-11T05:16:44+08:00",
       "type": "conflict"
     }
   ],
@@ -3928,6 +3941,60 @@
       "pat-029",
       "walk-067",
       "walk-068"
+    ],
+    "status": "active"
+  },
+  "walk_070_insights": [
+    {
+      "id": "ins-w070-001",
+      "strength": 4.0,
+      "score": 0.3,
+      "content": "subconscious depletion over overmature skeleton: entries=0, decayed=169. DORMANT decay rate may exceed walk output rate.",
+      "type": "insight",
+      "decay_speed": 1,
+      "created": "2026-06-11T05:16:44+08:00"
+    },
+    {
+      "id": "ins-w070-002",
+      "strength": 3.0,
+      "score": 0.3,
+      "content": "exploitation exploration imbalance: DORMANT exploits (decays) faster than walks explore (produce). monotonically decreasing cognitive diversity.",
+      "type": "insight",
+      "decay_speed": 1,
+      "created": "2026-06-11T05:16:44+08:00"
+    },
+    {
+      "id": "ins-w070-003",
+      "strength": 5.0,
+      "score": 0.3,
+      "content": "decayed pool is one-way graveyard: 169 entries in, 0 out. DORMANT lacks resurrection mechanism, walks dont look back at decayed. irreversible entropy.",
+      "type": "insight",
+      "decay_speed": 1,
+      "created": "2026-06-11T05:16:44+08:00"
+    },
+    {
+      "id": "ins-w070-004",
+      "strength": 4.0,
+      "score": 0.3,
+      "content": "overmaturity and depletion are not mutually exclusive: skeleton can be overmature (pattern layer) while subconscious is depleted (entry layer). both can coexist and exacerbate each other.",
+      "type": "insight",
+      "decay_speed": 1,
+      "created": "2026-06-11T05:16:44+08:00"
+    }
+  ],
+  "walk_070_reflection": {
+    "source": "walk-070",
+    "created": "2026-06-11T05:16:44+08:00",
+    "strength": 2.0,
+    "decay_speed": 0,
+    "score": 0.65,
+    "text": "Reflection - 2026-06-11 Walk-070: Subconscious depletion diagnosis. 169 decayed entries, 0 active. DORMANT decay may exceed walk output - entropy increase is one-way without resurrection mechanism. walk-068 misdiagnosed: not overmaturity but depletion. Overmaturity and depletion can coexist at different layers. Schema drift alternative: entries=0 might reflect data format change not actual depletion.",
+    "refs": [
+      "walk-068",
+      "walk-069",
+      "walk-070",
+      "pat-001",
+      "pat-014"
     ],
     "status": "active"
   }

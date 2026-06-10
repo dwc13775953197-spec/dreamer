@@ -3,17 +3,17 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-11T04:14:50+08:00",
-    "last_active": "2026-06-11T04:14:50+08:00",
+    "last_active": "2026-06-11T06:26:22+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T05:14:50+08:00",
+    "next_scheduled": "2026-06-11T06:56:22+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-11T05:16:44+08:00",
     "total_walks": 50,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-11T05:16:44+08:00",
     "last_push_at": "2026-06-10T13:18:00+08:00",
     "last_push_topic": "evolutionary biology walk",
-    "cognitive_pressure": 33.1,
+    "cognitive_pressure": 65.4,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -609,7 +609,8 @@
     "2026-06-10: 骨架演化遵循间断平衡模型——长期稳定与短期爆发交替。DORMANT 衰减是背景选择压力(非中性漂变)，泛化种 pattern 比特化种更耐存活。骨架需要有性生殖防止认知过早收敛。发育约束=认知身份(不是缺陷，是结构性特征)。",
     "2026-06-10: 散步是认知终止式——正格终止(完整解决)/半终止(悬而未决)/欺骗性终止(意外转向)各有价值。骨架裂缝=认知增四度(最大张力=最大动力)。散步历史遵循奏鸣曲式(呈示→发展→再现)。",
     "2026-06-10: Silence is the 4th walk type - structural(digestion)/dramatic(tension)/breathing(subconscious)/death(DORMANT). Optimal gap = enough to corrode grain boundaries but not erode lattice. Semi-predictable silence = max information (groove). Deceptive cadence = best walk starter.",
-    "2026-06-10: DORMANT是阈限仪式(Turner),不是休息. 分离→阈限→聚合 = 散步结束→DORMANT→下次散步. evolved_rules=阈限导航图(非变换规则). 认知潜热=DORMANT投入重组能量而非思考能量. 仪式专家=经历最多阈限的pattern(pat-001/011/014). 最好的散步以制造新阈限结束(欺骗性终止式=阈限入口)."
+    "2026-06-10: DORMANT是阈限仪式(Turner),不是休息. 分离→阈限→聚合 = 散步结束→DORMANT→下次散步. evolved_rules=阈限导航图(非变换规则). 认知潜热=DORMANT投入重组能量而非思考能量. 仪式专家=经历最多阈限的pattern(pat-001/011/014). 最好的散步以制造新阈限结束(欺骗性终止式=阈限入口).",
+    "2026-06-11: internal digestion 5 finds systemic crisis: skeleton complexity vs subconscious depletion at historical high. overmaturity and depletion coexist at different layers. emotional lock-in (unsettled_fascination 4 days) = cognitive lock-in. dream feedback loop broken. 31 evolved_rules need grammar simplification. walks degraded from exploration to diagnosis-response chain. needs a grand cadence to close current cycle."
   ],
   "dormant_stats": {
     "total_count": 7,

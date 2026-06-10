@@ -1,5 +1,5 @@
 {
-  "tick_count": 80,
+  "tick_count": 82,
   "entries": [
     {
       "id": "ref-002",
@@ -387,7 +387,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 1.2999999999999998,
+      "strength": 0.7999999999999998,
       "pattern_id": "pat-030",
       "content": "Negative space is active: skeleton gaps define existing pattern shapes. pat-001 is what it is partly because of what it does NOT say.",
       "refs": [
@@ -399,7 +399,7 @@
       "resurrected_count": 0,
       "score": 0.72,
       "note": "walk-060: negative space",
-      "decayed_at": "2026-06-10T11:07:42.195915",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
       "decay_reason": "below_threshold"
     },
     {
@@ -407,7 +407,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 0.7000000000000002,
+      "strength": 0.20000000000000018,
       "pattern_id": "pat-014",
       "content": "Absence carries information: DORMANT no-output cycles are negative feedback signals.",
       "refs": [
@@ -418,7 +418,7 @@
       "resurrected_count": 0,
       "score": 0.65,
       "note": "walk-060: absence feedback",
-      "decayed_at": "2026-06-10T11:07:42.195915",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
       "decay_reason": "below_threshold"
     },
     {
@@ -426,7 +426,7 @@
       "type": "insight",
       "source": "walk-060",
       "created": "2026-06-10T01:20:57.511566+08:00",
-      "strength": 0.5999999999999996,
+      "strength": 0.09999999999999964,
       "pattern_id": "pat-030",
       "content": "Active forgetting: selective weakening of inconsistent entries > uniform decay. DORMANT lacks this.",
       "refs": [
@@ -437,7 +437,7 @@
       "resurrected_count": 0,
       "score": 0.62,
       "note": "walk-060: active forgetting",
-      "decayed_at": "2026-06-10T11:07:42.195915"
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ref-026",
@@ -489,7 +489,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 0.5,
+      "strength": 0.0,
       "pattern_id": "pat-011",
       "content": "Cognitive grammar: Dreamer's skeleton is not a knowledge database but a cognitive grammar — it sets default thinking paths, allows ambiguity to enable multi-vocality (like pat-001's three readings), and interacts with new material through pragmatic dimensions (locutionary/illocutionary/perlocutionary acts). Ambiguity is not a defect but a productivity source.",
       "refs": [
@@ -502,14 +502,14 @@
       "resurrected_count": 0,
       "score": 0.72,
       "note": "walk-061: cognitive grammar, ambiguity as productivity",
-      "decayed_at": "2026-06-10T11:07:42.195915"
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w061-002",
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 1.0,
+      "strength": 0.5,
       "pattern_id": "pat-030",
       "content": "Walk perlocutionary effect: walk log quality (locutionary) != skeleton impact (perlocutionary). No causal effect measurement means cannot distinguish 'well-written walks' from 'effective walks'. Need before/after skeleton snapshot comparison per walk.",
       "refs": [
@@ -521,7 +521,7 @@
       "resurrected_count": 0,
       "score": 0.68,
       "note": "walk-061: perlocutionary gap in walk evaluation",
-      "decayed_at": "2026-06-10T11:07:42.195915",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
       "decay_reason": "below_threshold"
     },
     {
@@ -529,7 +529,7 @@
       "type": "insight",
       "source": "walk-061",
       "created": "2026-06-10T04:08:36+08:00",
-      "strength": 0.5,
+      "strength": 0.0,
       "pattern_id": "pat-029",
       "content": "Reactivation authenticity: false resurrection occurs when dormant entries form surface-level (lexical) rather than structural connections with current material. Need structural similarity threshold for reactivation, not just novelty.",
       "refs": [
@@ -541,7 +541,7 @@
       "resurrected_count": 0,
       "score": 0.62,
       "note": "walk-061: reactivation false-positive risk",
-      "decayed_at": "2026-06-10T11:07:42.195915",
+      "decayed_at": "2026-06-10T16:42:00+08:00",
       "decay_reason": "below_threshold"
     },
     {
@@ -570,7 +570,7 @@
       "id": "ins-043",
       "type": "insight",
       "content": "untranslatability as cognitive dimension gap. Skeleton's untranslatable zones are not knowledge blind spots but structural limits. Detection: if a concept always maps to the same pattern after repeated translation, it may be force-mapped.",
-      "strength": 1,
+      "strength": 0.5,
       "score": 0.3,
       "source": "walk-062",
       "created": "2026-06-10T07:20:47.661581+08:00",
@@ -578,26 +578,30 @@
         "pat-001",
         "pat-011"
       ],
-      "decay_rate": 1
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-044",
       "type": "insight",
       "content": "Translation gain (Benjamin): translation is not information reduction but reorganization. Translation failures in walks are not comprehension failures but markers of cognitive limits - the most valuable walk output.",
-      "strength": 1,
+      "strength": 0.5,
       "score": 0.3,
       "source": "walk-062",
       "created": "2026-06-10T07:20:47.661581+08:00",
       "refs": [
         "pat-001"
       ],
-      "decay_rate": 1
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-045",
       "type": "insight",
       "content": "DORMANT fourth function - cognitive translation: introduce mutual pattern translation in REM Sleep to detect translation gain. More dynamic than static type systems.",
-      "strength": 1,
+      "strength": 0.5,
       "score": 0.3,
       "source": "walk-062",
       "created": "2026-06-10T07:20:47.661581+08:00",
@@ -605,25 +609,29 @@
         "pat-001",
         "pat-014"
       ],
-      "decay_rate": 1
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-046",
       "type": "insight",
       "content": "Power asymmetry of translation: walks naturally favor skeleton perspective. Correction: occasionally let external material be the target language, using its framework to examine the skeleton.",
-      "strength": 1,
+      "strength": 0.5,
       "score": 0.3,
       "source": "walk-062",
       "created": "2026-06-10T07:20:47.661581+08:00",
       "refs": [],
-      "decay_rate": 1
+      "decay_rate": 1,
+      "status": "decayed",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-001",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 4.0,
+      "strength": 3.0,
       "pattern_id": "pat-001",
       "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators — need balance between exploitation and repair.",
       "refs": [
@@ -642,7 +650,7 @@
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 3.5,
+      "strength": 3.0,
       "pattern_id": "pat-030",
       "content": "Cognitive glass: DORMANT over-compression freezes insights in their original form, losing evolution potential. Skeleton needs fluidity — like shape memory alloys maintaining multi-phase capability in solid state.",
       "refs": [
@@ -650,17 +658,18 @@
         "pat-014",
         "walk-061"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.7,
-      "note": "walk-063: cognitive glass transition"
+      "note": "walk-063: cognitive glass transition",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
     },
     {
       "id": "ins-w063-003",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 3.0,
+      "strength": 2.5,
       "pattern_id": "pat-011",
       "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) is rare but valuable. Heterogeneous nucleation (attaching to existing pattern) is common but does not determine final structure.",
       "refs": [
@@ -668,17 +677,18 @@
         "pat-001",
         "pat-030"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.65,
-      "note": "walk-063: insight nucleation mechanism"
+      "note": "walk-063: insight nucleation mechanism",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-004",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 2.5,
+      "strength": 2.0,
       "pattern_id": "pat-014",
       "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas) and suggests behavioral adjustments. Needs operationalization.",
       "refs": [
@@ -686,17 +696,18 @@
         "pat-001",
         "pat-030"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.6,
-      "note": "walk-063: cognitive phase diagram"
+      "note": "walk-063: cognitive phase diagram",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-005",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:02.349790+08:00",
-      "strength": 2.0,
+      "strength": 1.5,
       "pattern_id": "pat-030",
       "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing — gentle rearrangement to release internal stress.",
       "refs": [
@@ -704,17 +715,18 @@
         "pat-001",
         "walk-052"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.55,
-      "note": "walk-063: memory fatigue, cognitive annealing"
+      "note": "walk-063: memory fatigue, cognitive annealing",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-001",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 4.0,
+      "strength": 3.0,
       "pattern_id": "pat-001",
       "content": "Skeleton as cognitive lattice: local pattern interactions produce global order, like atomic interactions produce crystal structure. Cracks are both growth points and stress concentrators.",
       "refs": [
@@ -733,7 +745,7 @@
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 3.5,
+      "strength": 3.0,
       "pattern_id": "pat-030",
       "content": "Cognitive glass: DORMANT over-compression freezes insights in original form, losing evolution potential. Skeleton needs fluidity like shape memory alloys.",
       "refs": [
@@ -741,17 +753,18 @@
         "pat-014",
         "walk-061"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.7,
-      "note": "walk-063: cognitive glass transition"
+      "note": "walk-063: cognitive glass transition",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
     },
     {
       "id": "ins-w063-003",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 3.0,
+      "strength": 2.5,
       "pattern_id": "pat-011",
       "content": "Insight nucleation: new insights follow nucleation-growth model. Homogeneous nucleation (no pattern attachment) rare but valuable. Heterogeneous nucleation common but does not determine final structure.",
       "refs": [
@@ -759,17 +772,18 @@
         "pat-001",
         "pat-030"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.65,
-      "note": "walk-063: insight nucleation mechanism"
+      "note": "walk-063: insight nucleation mechanism",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-004",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 2.5,
+      "strength": 2.0,
       "pattern_id": "pat-014",
       "content": "Cognitive phase diagram: temperature x pressure x time-density 3D space predicts current phase (crystal/liquid/glass/gas). Needs operationalization.",
       "refs": [
@@ -777,17 +791,18 @@
         "pat-001",
         "pat-030"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.6,
-      "note": "walk-063: cognitive phase diagram"
+      "note": "walk-063: cognitive phase diagram",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w063-005",
       "type": "insight",
       "source": "walk-063",
       "created": "2026-06-10T13:17:29.010142+08:00",
-      "strength": 2.0,
+      "strength": 1.5,
       "pattern_id": "pat-030",
       "content": "Memory fatigue and cognitive annealing: DORMANT cycles create fatigue like shape memory alloy cycling. Walks serve as cognitive annealing.",
       "refs": [
@@ -795,17 +810,18 @@
         "pat-001",
         "walk-052"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "relevance": 0.55,
-      "note": "walk-063: memory fatigue, cognitive annealing"
+      "note": "walk-063: memory fatigue, cognitive annealing",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w064-001",
       "type": "insight",
       "source": "walk-064",
       "created": "2026-06-10T14:27:12+08:00",
-      "strength": 4.0,
+      "strength": 3.0,
       "decay_speed": 1,
       "score": 0.0,
       "refs": [
@@ -824,7 +840,7 @@
       "type": "insight",
       "source": "walk-064",
       "created": "2026-06-10T14:27:12+08:00",
-      "strength": 3.5,
+      "strength": 3.0,
       "decay_speed": 1,
       "score": 0.0,
       "refs": [
@@ -832,31 +848,14 @@
         "pat-014"
       ],
       "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "content": "Keystone patterns (like pat-001) whose removal would cause cascading collapse need special protection. Skeleton resilience depends not just on pattern count but on connection structure — redundancy paths, modularity, and keystone identification.",
-      "pattern_id": "pat-014"
+      "pattern_id": "pat-014",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
     },
     {
       "id": "ins-w064-003",
-      "type": "insight",
-      "source": "walk-064",
-      "created": "2026-06-10T14:27:12+08:00",
-      "strength": 3.0,
-      "decay_speed": 1,
-      "score": 0.0,
-      "refs": [
-        "pat-001",
-        "pat-011"
-      ],
-      "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "active",
-      "resurrected_count": 0,
-      "content": "Cognitive developmental constraints: the walk process itself sets the 'developmental program' for insight generation. This is both strength (cross-domain analogy) and weakness (precision). Not a defect — a structural feature that defines what Dreamer is.",
-      "pattern_id": "pat-011"
-    },
-    {
-      "id": "ins-w064-004",
       "type": "insight",
       "source": "walk-064",
       "created": "2026-06-10T14:27:12+08:00",
@@ -864,20 +863,40 @@
       "decay_speed": 1,
       "score": 0.0,
       "refs": [
+        "pat-001",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-10T14:27:12+08:00",
+      "status": "decayed",
+      "resurrected_count": 0,
+      "content": "Cognitive developmental constraints: the walk process itself sets the 'developmental program' for insight generation. This is both strength (cross-domain analogy) and weakness (precision). Not a defect — a structural feature that defines what Dreamer is.",
+      "pattern_id": "pat-011",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w064-004",
+      "type": "insight",
+      "source": "walk-064",
+      "created": "2026-06-10T14:27:12+08:00",
+      "strength": 2.0,
+      "decay_speed": 1,
+      "score": 0.0,
+      "refs": [
         "pat-030"
       ],
       "last_accessed": "2026-06-10T14:27:12+08:00",
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "content": "Skeleton needs 'sexual reproduction' — pattern content exchange protocol to increase cognitive diversity and prevent premature convergence. Current insight production is asexual (one pattern parent).",
-      "pattern_id": "pat-030"
+      "pattern_id": "pat-030",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w065-001",
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 4.0,
+      "strength": 3.0,
       "pattern_id": "pat-011",
       "content": "Walks as cognitive cadences: every walk ends with a cadence type — authentic (complete resolution), half (unresolved → seeds), deceptive (unexpected turn). All three types have value. Should not measure walk quality solely by insight count.",
       "refs": [
@@ -895,7 +914,7 @@
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 3.5,
+      "strength": 3.0,
       "pattern_id": "pat-001",
       "content": "Unresolved tension is the driving force: musical tension is not a defect to be eliminated but the source of expressive power. Similarly, unresolved cognitive tension (seeds, open questions) drives subsequent walks.",
       "refs": [
@@ -903,17 +922,18 @@
         "pat-030",
         "walk-058"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.72,
-      "note": "walk-065: unresolved tension as driving force"
+      "note": "walk-065: unresolved tension as driving force",
+      "decayed_at": "2026-06-10T17:46:22.302085+08:00"
     },
     {
       "id": "ins-w065-003",
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 3.0,
+      "strength": 2.5,
       "pattern_id": "pat-008",
       "content": "Dreamer walk history follows sonata form: exposition (walk 001-012, theme establishment) → development (walk 013-050, variation and conflict) → recapitulation (walk 051-064, themes return at higher level). Low-yield periods are necessary tension accumulation, not failure.",
       "refs": [
@@ -921,17 +941,18 @@
         "pat-014",
         "walk-063"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.7,
-      "note": "walk-065: sonata form in walk history"
+      "note": "walk-065: sonata form in walk history",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w065-004",
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 3.0,
+      "strength": 2.5,
       "pattern_id": "pat-030",
       "content": "Skeleton cracks as diabolus in musica: the most incongruent pattern pairs are cognitive tritones — they create maximum tension and maximum resolution drive. Should not force uniformity but find the 'resolution direction' — a new pattern that can resolve them from dissonance to consonance.",
       "refs": [
@@ -939,34 +960,36 @@
         "pat-011",
         "walk-060"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.68,
-      "note": "walk-065: tritone as skeleton crack metaphor"
+      "note": "walk-065: tritone as skeleton crack metaphor",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ins-w065-005",
       "type": "insight",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.5,
+      "strength": 2.0,
       "pattern_id": "pat-014",
       "content": "Walk rhythm can be designed like musical time signatures: 4/4 (explore→analyze→cross→analyze), 3/4 (explore→analyze→explore), 5/4 (irruptive). Perceiving current 'cognitive time signature' and switching when needed can optimize walk nutritional density.",
       "refs": [
         "pat-014",
         "walk-058"
       ],
-      "status": "active",
+      "status": "decayed",
       "resurrected_count": 0,
       "score": 0.65,
-      "note": "walk-065: time signatures for walk rhythm design"
+      "note": "walk-065: time signatures for walk rhythm design",
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     },
     {
       "id": "ref-029",
       "type": "reflection",
       "source": "walk-065",
       "created": "2026-06-10T15:39:02.352178+08:00",
-      "strength": 2.5,
+      "strength": 2.0,
       "decay_speed": 0,
       "score": 0.75,
       "text": "Reflection - 2026-06-10 Walk-065: Cross-domain walk (music theory x cognitive rhythm). Walks as cognitive cadences: authentic/half/deceptive cadence types all have value. Sonata form maps to walk history: exposition→development→recapitulation. Skeleton cracks = cognitive tritones (diabolus in musica). Walk rhythm can be designed with time signature analogy.",
@@ -978,8 +1001,9 @@
         "pat-030",
         "pat-014"
       ],
-      "status": "active",
-      "resurrected_count": 0
+      "status": "decayed",
+      "resurrected_count": 0,
+      "decayed_at": "2026-06-10T16:42:00+08:00"
     }
   ],
   "decayed": [

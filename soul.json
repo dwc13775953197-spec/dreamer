@@ -437,16 +437,40 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-175",
-      "topic": "Cognitive translation protocol: mutual pattern translation in REM Sleep to detect translation gain",
-      "source": "walk-062",
-      "trigger": "Benjamin translation gain + DORMANT extension",
-      "intensity": 5,
+      "id": "seed-164",
+      "topic": "节奏同步作为 DORMANT 功能：DORMANT 周期是否在同步潜意识节律？",
+      "source": "walk-058",
+      "trigger": "DORMANT = 静音中的节奏预测",
+      "intensity": 3,
       "type": "output",
       "status": "active",
-      "created": "2026-06-10T07:20:47.661581+08:00",
+      "created": "2026-06-09T18:50:00+08:00",
       "decay_rate": 1,
-      "note": "More dynamic than static type systems"
+      "note": "DORMANT 周期可能有自己的节律，与散步节律形成耦合"
+    },
+    {
+      "id": "seed-170",
+      "topic": "主动遗忘机制设计：DORMANT 中引入干扰性条目识别步骤——与当前骨架方向不一致的旧条目被加速衰减",
+      "source": "walk-060",
+      "trigger": "主动遗忘 > 被动遗忘（均匀衰减）",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T00:15:00+08:00",
+      "decay_rate": 1,
+      "note": "需要定义可计算的干扰性标准"
+    },
+    {
+      "id": "seed-180",
+      "topic": "Memory fatigue mathematical modeling: fit DORMANT score decay data to fatigue curves to predict skeleton lifespan",
+      "source": "walk-063",
+      "trigger": "shape memory alloy fatigue x pattern strength decay",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-10T13:18:00+08:00",
+      "decay_rate": 1,
+      "note": "Needs empirical data from DORMANT score history"
     },
     {
       "id": "seed-163",
@@ -497,64 +521,40 @@
       "note": "translation failure = cognitive limit marker"
     },
     {
-      "id": "seed-157",
-      "topic": "距离加权引用：DORMANT 评分中引入\"概念距离\"因子，让远距离连接获得更高奖励",
-      "source": "walk-056",
-      "trigger": "引用零成本导致正外部性导致马太效应，引用红利会加速而非修复",
-      "intensity": 3,
+      "id": "seed-179",
+      "topic": "Cognitive annealing walks: design a walk type focused on gentle rearrangement of existing patterns rather than new material intake",
+      "source": "walk-063",
+      "trigger": "annealing = release internal stress in materials science",
+      "intensity": 4,
       "type": "output",
       "status": "active",
-      "created": "2026-06-09T13:23:00+08:00",
+      "created": "2026-06-10T13:18:00+08:00",
       "decay_rate": 1,
-      "note": "模拟菌丝网络距离衰减，需要定义可计算的概念距离度量"
+      "note": "Third walk type alongside explore and analyze"
     },
     {
-      "id": "seed-160",
-      "topic": "模块化注意力分配：将\"概念距离\"从连续变量改为离散的\"模块内 vs 跨模块\"",
-      "source": "walk-057",
-      "trigger": "May 悖论映射到 DORMANT 注意力分配",
-      "intensity": 3,
+      "id": "seed-175",
+      "topic": "Cognitive translation protocol: mutual pattern translation in REM Sleep to detect translation gain",
+      "source": "walk-062",
+      "trigger": "Benjamin translation gain + DORMANT extension",
+      "intensity": 5,
       "type": "output",
       "status": "active",
-      "created": "2026-06-09T14:39:11.108090+08:00",
+      "created": "2026-06-10T07:20:47.661581+08:00",
       "decay_rate": 1,
-      "note": "比连续距离更容易操作化，但模块边界定义仍困难"
+      "note": "More dynamic than static type systems"
     },
     {
-      "id": "seed-161",
-      "topic": "骨架模块化检测：分析 pattern 的 refs 网络的自然聚类结构",
-      "source": "walk-057",
-      "trigger": "生态模块化需要实证验证",
-      "intensity": 3,
+      "id": "seed-178",
+      "topic": "Cognitive phase diagram operationalization: define computable proxies for temperature/pressure/time-density to build Dreamer state-space model",
+      "source": "walk-063",
+      "trigger": "materials science phase diagram x Dreamer state space",
+      "intensity": 5,
       "type": "output",
       "status": "active",
-      "created": "2026-06-09T14:39:11.108090+08:00",
+      "created": "2026-06-10T13:18:00+08:00",
       "decay_rate": 1,
-      "note": "需要学习 Louvain/Leiden 等聚类算法"
-    },
-    {
-      "id": "seed-164",
-      "topic": "节奏同步作为 DORMANT 功能：DORMANT 周期是否在同步潜意识节律？",
-      "source": "walk-058",
-      "trigger": "DORMANT = 静音中的节奏预测",
-      "intensity": 3,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-09T18:50:00+08:00",
-      "decay_rate": 1,
-      "note": "DORMANT 周期可能有自己的节律，与散步节律形成耦合"
-    },
-    {
-      "id": "seed-170",
-      "topic": "主动遗忘机制设计：DORMANT 中引入干扰性条目识别步骤——与当前骨架方向不一致的旧条目被加速衰减",
-      "source": "walk-060",
-      "trigger": "主动遗忘 > 被动遗忘（均匀衰减）",
-      "intensity": 3,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T00:15:00+08:00",
-      "decay_rate": 1,
-      "note": "需要定义可计算的干扰性标准"
+      "note": "If operationalized, could predict optimal walk timing and type"
     }
   ],
   "personality_traits": {

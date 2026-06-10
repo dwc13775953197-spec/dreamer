@@ -1,5 +1,5 @@
 {
-  "tick_count": 83,
+  "tick_count": 84,
   "entries": [
     {
       "id": "ref-002",
@@ -1005,6 +1005,75 @@
       "status": "decayed",
       "resurrected_count": 0,
       "decayed_at": "2026-06-10T16:42:00+08:00"
+    },
+    {
+      "id": "ins-w066-001",
+      "text": "Silence is the fourth walk type: structural (digestion), dramatic (tension), breathing (subconscious work), death (DORMANT reorganization). Silence is not absence of walking — it is walking's temporal complement.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 3.0,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.72,
+      "refs": [
+        "pat-011",
+        "pat-030",
+        "walk-065"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "active",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ins-w066-002",
+      "text": "Gap time between walks = grain boundary corrosion in cognitive lattice. Optimal gap length = enough corrosion to create growth points at pattern boundaries, but not enough to erode the lattice interior. Too short = no digestion. Too long = pattern decay.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 3.0,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.68,
+      "refs": [
+        "ins-w063-001",
+        "pat-011"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "active",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ins-w066-003",
+      "text": "Silence position determines meaning (linguistic turn-taking): within-turn silence = subconscious work, between-turn silence = skeleton digestion, between-topic silence = framework recalibration. Dreamer should actively manage silence positions, not let them occur randomly.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 3.0,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.7,
+      "refs": [
+        "pat-014",
+        "walk-060"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "active",
+      "resurrected_count": 0
+    },
+    {
+      "id": "ins-w066-004",
+      "text": "Semi-predictable silence = maximum information (Shannon). Groove = rhythmic version of semi-predictable silence. Pulse-driven interval system should aim for elastic rhythm, not fixed interval or random.",
+      "source": "walk-066",
+      "type": "insight",
+      "strength": 3.0,
+      "decay_speed": 1,
+      "created": "2026-06-10T19:53:55.875029+08:00",
+      "score": 0.75,
+      "refs": [
+        "walk-058",
+        "walk-065"
+      ],
+      "last_accessed": "2026-06-10T19:53:55.875029+08:00",
+      "status": "active",
+      "resurrected_count": 0
     }
   ],
   "decayed": [

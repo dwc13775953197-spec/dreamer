@@ -6,7 +6,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
-      "strength": 3.0,
+      "strength": 2.0,
       "source": "walk-071",
       "tags": [
         "reflection",
@@ -14,6 +14,62 @@
         "self-awareness",
         "meta-cognition"
       ]
+    },
+    {
+      "id": "ins-047",
+      "type": "insight",
+      "content": "DMN 生成（发散联想）和整合（模式巩固）共享神经基质但代谢成本不同——生成便宜，整合贵。高生成-低整合导致仓库空转。",
+      "strength": 3,
+      "score": 0.3,
+      "relevance": 0.4,
+      "frequency": 0,
+      "diversity": 0.2,
+      "recency": 0.9,
+      "consolidation": 0.1,
+      "richness": 0.3,
+      "refs": [
+        "walk-075",
+        "walk-074"
+      ],
+      "created": "2026-06-11T21:55:17.516337+08:00",
+      "source": "walk-076"
+    },
+    {
+      "id": "ins-048",
+      "type": "insight",
+      "content": "evolved_rules 是 insight 的舍利子——绕过 subconscious 直接写入行为规则的凝固智慧。31 条规则揭示了 subconscious 整合通道的瓶颈。",
+      "strength": 3,
+      "score": 0.3,
+      "relevance": 0.5,
+      "frequency": 0,
+      "diversity": 0.2,
+      "recency": 0.9,
+      "consolidation": 0.1,
+      "richness": 0.4,
+      "refs": [
+        "walk-075",
+        "walk-070"
+      ],
+      "created": "2026-06-11T21:55:17.516337+08:00",
+      "source": "walk-076"
+    },
+    {
+      "id": "ins-049",
+      "type": "insight",
+      "content": "引用追踪作为整合机制：每次 walk 结束时自动标注引用的 subconscious entry 并 reinforce。简单但可能打破「生成-整合」的不对称。",
+      "strength": 3,
+      "score": 0.3,
+      "relevance": 0.3,
+      "frequency": 0,
+      "diversity": 0.2,
+      "recency": 0.9,
+      "consolidation": 0.1,
+      "richness": 0.2,
+      "refs": [
+        "walk-076"
+      ],
+      "created": "2026-06-11T21:55:17.516337+08:00",
+      "source": "walk-076"
     }
   ],
   "decayed": [

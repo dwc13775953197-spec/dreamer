@@ -5,12 +5,12 @@
       "id": "ins-050",
       "type": "insight",
       "content": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消除了摩擦力，也消除了学习。",
-      "strength": 4,
-      "score": 0.42,
+      "strength": 3,
+      "score": 0.37,
       "relevance": 0.7,
       "frequency": 1,
       "diversity": 0.3,
-      "recency": 1.0,
+      "recency": 0.95,
       "consolidation": 0,
       "richness": 0.6,
       "refs": [
@@ -26,12 +26,12 @@
       "id": "ins-051",
       "type": "insight",
       "content": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需要在散步中人为引入认知摩擦。",
-      "strength": 4,
-      "score": 0.42,
+      "strength": 3,
+      "score": 0.37,
       "relevance": 0.7,
       "frequency": 1,
       "diversity": 0.3,
-      "recency": 1.0,
+      "recency": 0.95,
       "consolidation": 0,
       "richness": 0.6,
       "refs": [
@@ -41,60 +41,6 @@
       ],
       "created": "2026-06-11T22:30:00+08:00",
       "source": "walk-077"
-    },
-    {
-      "id": "ins-053",
-      "type": "insight",
-      "content": "表现悖论（Bastani et al. 2025）：AI 同时提升短期表现和损害长期学习。核心机制是流畅感作为元认知欺骗信号——大脑将处理容易度误判为学习深度。",
-      "strength": 3,
-      "score": 0.35,
-      "relevance": 0.7,
-      "frequency": 0,
-      "diversity": 0.2,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.6,
-      "refs": [
-        "walk-078"
-      ],
-      "created": "2026-06-12T01:12:00+08:00",
-      "source": "walk-078"
-    },
-    {
-      "id": "ins-054",
-      "type": "insight",
-      "content": "walk 的目标函数决定了 walk 的认知效果。「学习目标」vs「任务完成目标」导致同一工具产生相反效果（Kalyuga & Plass 2025）。Dreamer 的 walk 当前被优化为任务完成，需要重新设计为学习目标。",
-      "strength": 3,
-      "score": 0.35,
-      "relevance": 0.6,
-      "frequency": 0,
-      "diversity": 0.2,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.5,
-      "refs": [
-        "walk-078"
-      ],
-      "created": "2026-06-12T01:12:00+08:00",
-      "source": "walk-078"
-    },
-    {
-      "id": "ins-055",
-      "type": "insight",
-      "content": "认知摩擦的最佳来源是材料本身的认知阻力（未消化、有矛盾、不完整），不是格式阻力（延迟产出、隐喻表达）。AI 作为认知镜像（Tomisu et al. 2025）通过迫使学习者解释来触发生成效应。",
-      "strength": 3,
-      "score": 0.35,
-      "relevance": 0.6,
-      "frequency": 0,
-      "diversity": 0.2,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.5,
-      "refs": [
-        "walk-078"
-      ],
-      "created": "2026-06-12T01:12:00+08:00",
-      "source": "walk-078"
     }
   ],
   "decayed": [
@@ -174,6 +120,33 @@
       "created": "2026-06-11T22:30:00+08:00",
       "topic": "认知马太效应在 AI 时代被系统级放大。AI 的摩擦消除对「整合能力强」和「整合能力弱」的人产生不对称影响，加速认知不平",
       "final_strength": 2
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T01:12:00+08:00",
+      "topic": "表现悖论（Bastani et al. 2025）：AI 同时提升短期表现和损害长期学习。核心机制是流畅感作为元认知欺骗",
+      "description": "表现悖论（Bastani et al. 2025）：AI 同时提升短期表现和损害长期学习。核心机制是流畅感作为元认知欺骗信号——大脑将处理容易度误判为学习深度。",
+      "final_strength": 2,
+      "source": "walk-078",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T01:12:00+08:00",
+      "topic": "walk 的目标函数决定了 walk 的认知效果。「学习目标」vs「任务完成目标」导致同一工具产生相反效果（Kalyug",
+      "description": "walk 的目标函数决定了 walk 的认知效果。「学习目标」vs「任务完成目标」导致同一工具产生相反效果（Kalyuga & Plass 2025）。Dreamer 的 walk 当前被优化为任务完成，需要重新设计为学习目标。",
+      "final_strength": 2,
+      "source": "walk-078",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T01:12:00+08:00",
+      "topic": "认知摩擦的最佳来源是材料本身的认知阻力（未消化、有矛盾、不完整），不是格式阻力（延迟产出、隐喻表达）。AI 作为认知镜像",
+      "description": "认知摩擦的最佳来源是材料本身的认知阻力（未消化、有矛盾、不完整），不是格式阻力（延迟产出、隐喻表达）。AI 作为认知镜像（Tomisu et al. 2025）通过迫使学习者解释来触发生成效应。",
+      "final_strength": 2,
+      "source": "walk-078",
+      "tags": []
     }
   ]
 }

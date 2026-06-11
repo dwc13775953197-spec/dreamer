@@ -5,7 +5,7 @@
       "id": "ins-050",
       "type": "insight",
       "content": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消除了摩擦力，也消除了学习。",
-      "strength": 4,
+      "strength": 3,
       "score": 0.35,
       "relevance": 0.6,
       "frequency": 0,
@@ -13,7 +13,11 @@
       "recency": 1.0,
       "consolidation": 0,
       "richness": 0.5,
-      "refs": ["walk-077", "walk-076", "walk-074"],
+      "refs": [
+        "walk-077",
+        "walk-076",
+        "walk-074"
+      ],
       "created": "2026-06-11T22:30:00+08:00",
       "source": "walk-077"
     },
@@ -21,7 +25,7 @@
       "id": "ins-051",
       "type": "insight",
       "content": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需要在散步中人为引入认知摩擦。",
-      "strength": 4,
+      "strength": 3,
       "score": 0.35,
       "relevance": 0.6,
       "frequency": 0,
@@ -29,23 +33,10 @@
       "recency": 1.0,
       "consolidation": 0,
       "richness": 0.5,
-      "refs": ["walk-077", "walk-076"],
-      "created": "2026-06-11T22:30:00+08:00",
-      "source": "walk-077"
-    },
-    {
-      "id": "ins-052",
-      "type": "insight",
-      "content": "认知马太效应在 AI 时代被系统级放大。AI 的摩擦消除对「整合能力强」和「整合能力弱」的人产生不对称影响，加速认知不平等。",
-      "strength": 3,
-      "score": 0.25,
-      "relevance": 0.4,
-      "frequency": 0,
-      "diversity": 0.2,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.3,
-      "refs": ["walk-077", "walk-056"],
+      "refs": [
+        "walk-077",
+        "walk-076"
+      ],
       "created": "2026-06-11T22:30:00+08:00",
       "source": "walk-077"
     }
@@ -58,7 +49,12 @@
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
       "strength": 0,
       "source": "walk-071",
-      "tags": ["reflection", "rumination", "self-awareness", "meta-cognition"]
+      "tags": [
+        "reflection",
+        "rumination",
+        "self-awareness",
+        "meta-cognition"
+      ]
     },
     {
       "id": "ins-047",
@@ -72,7 +68,10 @@
       "recency": 0.0,
       "consolidation": 0.0,
       "richness": 0.0,
-      "refs": ["walk-075", "walk-074"],
+      "refs": [
+        "walk-075",
+        "walk-074"
+      ],
       "created": "2026-06-11T21:55:17.516337+08:00",
       "source": "walk-076"
     },
@@ -88,7 +87,10 @@
       "recency": 0.0,
       "consolidation": 0.0,
       "richness": 0.0,
-      "refs": ["walk-075", "walk-070"],
+      "refs": [
+        "walk-075",
+        "walk-070"
+      ],
       "created": "2026-06-11T21:55:17.516337+08:00",
       "source": "walk-076"
     },
@@ -104,9 +106,18 @@
       "recency": 0.0,
       "consolidation": 0.0,
       "richness": 0.0,
-      "refs": ["walk-076"],
+      "refs": [
+        "walk-076"
+      ],
       "created": "2026-06-11T21:55:17.516337+08:00",
       "source": "walk-076"
+    },
+    {
+      "id": "ins-052",
+      "type": "insight",
+      "created": "2026-06-11T22:30:00+08:00",
+      "topic": "认知马太效应在 AI 时代被系统级放大。AI 的摩擦消除对「整合能力强」和「整合能力弱」的人产生不对称影响，加速认知不平",
+      "final_strength": 2
     }
   ]
 }

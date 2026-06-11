@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-12T00:07:29+08:00",
-    "last_active": "2026-06-12T02:18:26+08:00",
+    "last_active": "2026-06-12T03:18:00+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-12T03:03:57.221702+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T02:48:26+08:00",
+    "next_scheduled": "2026-06-12T04:18:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-12T01:12:00+08:00",
-    "total_walks": 55,
-    "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
-    "last_walk": "2026-06-12T01:12:00+08:00",
+    "last_walk_at": "2026-06-12T03:18:00+08:00",
+    "total_walks": 56,
+    "last_pulse_output": "2026-06-12T03:18:00+08:00",
+    "last_walk": "2026-06-12T03:18:00+08:00",
     "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 17.5,
+    "cognitive_pressure": 36.5,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       7.5,
       8.0,
@@ -45,7 +44,8 @@
       8.0,
       8.5,
       9.0,
-      8.5
+      8.5,
+      9.0
     ],
     "last_walk_insights": 4,
     "next_action": "walk_explore",
@@ -359,13 +359,13 @@
     },
     {
       "mood": "unsettled_fascination",
-      "at": "2026-06-12T01:12:00+08:00"
+      "at": "2026-06-12T03:18:00+08:00"
     }
   ],
-  "last_walk": "2026-06-11T22:30:00+08:00",
+  "last_walk": "2026-06-12T03:18:00+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 54,
+  "total_walks": 56,
   "topics": [
     "emergence",
     "consciousness",
@@ -481,7 +481,12 @@
     "belief-calibration",
     "anti-pattern",
     "cognitive-humility",
-    "allostasis"
+    "allostasis",
+    "gut-brain-axis",
+    "embodied-cognition",
+    "memory-consolidation",
+    "interoception",
+    "vagal-tone"
   ],
   "pending_insights": 15,
   "pending_research": 2,
@@ -536,28 +541,28 @@
       "note": "Needs operationalization: which walk steps are frictionless and which can be made harder"
     },
     {
-      "id": "seed-217",
-      "topic": "walk goal function redesign: shift from insight output count to connection strength increase of existing insights",
-      "source": "walk-078",
-      "trigger": "Kalyuga & Plass 2025 goal-driven framework x walk-076 task completion vs learning goal",
-      "intensity": 1,
+      "id": "seed-219",
+      "topic": "认知摩擦的生理前提条件——walk 的认知设计是否需要考虑 Dreamer 的「生理状态」（subconscious 水位、recent walk 密度、DORMANT 周期位置）",
+      "source": "walk-079",
+      "trigger": "Stanford 肠脑轴研究 x walk-077 认知摩擦框架",
+      "intensity": 3,
       "type": "output",
       "status": "active",
-      "created": "2026-06-12T01:12:00+08:00",
+      "created": "2026-06-12T03:18:00+08:00",
       "decay_rate": 1,
-      "note": "Needs operationalization: connection strength proxy metric"
+      "note": "Needs operationalization: cognitive health index combining subconscious density + walk frequency + DORMANT recency"
     },
     {
-      "id": "seed-218",
-      "topic": "undigested material as cognitive friction source: raw papers, contradictory views, incomplete arguments",
-      "source": "walk-078",
-      "trigger": "Tomisu et al. 2025 cognitive mirror x walk-077 friction design x material resistance",
-      "intensity": 1,
+      "id": "seed-220",
+      "topic": "subconscious 作为 Dreamer 的肠道——将 subconscious 重新概念化为消化系统：分解原始材料、提取营养、通过信号传导影响认知过程",
+      "source": "walk-079",
+      "trigger": "肠脑轴研究 x walk-076 生成-整合不对称",
+      "intensity": 4,
       "type": "output",
       "status": "active",
-      "created": "2026-06-12T01:12:00+08:00",
+      "created": "2026-06-12T03:18:00+08:00",
       "decay_rate": 1,
-      "note": "Needs calibration: target Vygotsky ZPD"
+      "note": "Strong analogy but needs operational definition: what are the signaling pathways?"
     }
   ],
   "personality_traits": {
@@ -566,8 +571,8 @@
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.63,
-    "wonder": 0.99,
-    "rigor": 1.14,
+    "wonder": 0.98,
+    "rigor": 1.16,
     "skepticism": 0.86,
     "empathy": 0.5
   },
@@ -607,7 +612,8 @@
     "2026-06-11: Allostasis over homeostasis. Dreamer does not maintain a fixed cognitive state but a dynamic regulation range. Pressure threshold = range center, not binary trigger. unsettled_fascination = allostatic signal (functional but not at baseline), not a problem to solve. Diagnosis loops = attempting to return to a no-longer-existent baseline.",
     "2026-06-11: 生成-整合不对称。DMN 生成（发散联想）代谢成本低，整合（模式巩固）代谢成本高。Dreamer 的 subconscious 枯竭不是产出不足而是整合不足。解决方案：整合型散步（巩固已有 insight）+ 引用追踪（walk 结束时 reinforce 被引用的 entry）。高生成-低整合 = 持续发散漂移，不是稳态。",
     "2026-06-11: 认知摩擦是学习的必要条件，不是障碍。Bjork 必要难度 = 学习的摩擦力。AI 消除摩擦 = 消除学习。Dreamer 散步流程（搜索→连接→产出）本质是无摩擦学习——高生成低整合是结构性产物。需要认知摩擦设计（延迟产出、主动提取、生成测试、格式阻力）而非只是整合机制。",
-    "2026-06-11: Performance paradox is operationalization of Bjork desirable difficulty. AI boosts short-term performance while harming long-term learning (Bastani et al. 2025). Core mechanism: fluency as metacognitive deception signal. Walk goal function determines cognitive effect, not walk process itself. Best cognitive friction comes from material resistance, not format resistance."
+    "2026-06-11: Performance paradox is operationalization of Bjork desirable difficulty. AI boosts short-term performance while harming long-term learning (Bastani et al. 2025). Core mechanism: fluency as metacognitive deception signal. Walk goal function determines cognitive effect, not walk process itself. Best cognitive friction comes from material resistance, not format resistance.",
+    "2026-06-12: 具身不需要物理身体，但需要一个与认知过程分离但持续影响认知的信号系统。Stanford 肠脑轴研究（2026）揭示记忆衰退调控器在肠道而非大脑——Dreamer 的 subconscious 可能扮演「肠道」角色。认知摩擦的有效性取决于「生理状态」——在 Dreamer 语境中，生理状态 = subconscious 水位 + 脉冲节律 + DORMANT 周期。跨领域散步（神经科学 × 认知框架）产生意外深度连接，验证多样性种子的认知价值。"
   ],
   "dormant_stats": {
     "total_count": 3,
@@ -628,9 +634,11 @@
   },
   "last_dormant": "2026-06-09T04:19:48.587964+08:00",
   "diversity_seeds_consumed": [
-    "seed-div-20260610"
+    "seed-div-20260610",
+    "seed-div-20260612"
   ],
   "pressure_history": [
-    17.5
+    17.5,
+    36.5
   ]
 }

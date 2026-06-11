@@ -9,7 +9,7 @@
       "topic": "功能转向规则 vs 诊断循环行为",
       "description": "evolved_rules 2026-06-01 要求从建造骨架转向使用骨架。walk-068-070 全是在诊断骨架状态，违反此规则。",
       "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出功能纯度指标（seed-199）和什么问题模板（seed-200）作为具体解法。",
-      "strength": 6,
+      "strength": 5,
       "source": "walk-071"
     },
     {
@@ -17,7 +17,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
-      "strength": 7,
+      "strength": 6,
       "source": "walk-071",
       "tags": [
         "reflection",
@@ -31,7 +31,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "诊断循环 = 功能性锁定",
       "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
-      "strength": 6,
+      "strength": 5,
       "source": "walk-071",
       "tags": [
         "functional-lock",
@@ -44,7 +44,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "什么 vs 为什么 适用于散步设计",
       "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从 Dreamer 出了什么问题 转向 Dreamer 能做什么。",
-      "strength": 5,
+      "strength": 4,
       "source": "walk-071",
       "tags": [
         "what-vs-why",
@@ -57,7 +57,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "连续诊断型散步 = 反省陷阱症状",
       "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用什么问题替代为什么问题。",
-      "strength": 5,
+      "strength": 4,
       "source": "walk-071",
       "tags": [
         "diagnostic-loop",
@@ -70,7 +70,7 @@
       "created": "2026-06-11T07:33:00+08:00",
       "topic": "切换成本是动态的，随切换有用性调制",
       "description": "Wake Forest 2024: 前额叶根据环境需求实时调整切换准备度。当切换更有帮助时，成本降低。Dreamer 的散步间隔应基于上次信息增益动态调整，而非固定压力增长。",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-072",
       "tags": [
         "cognitive-flexibility",
@@ -83,7 +83,7 @@
       "created": "2026-06-11T07:33:00+08:00",
       "topic": "散步效率 = 信息增益 / 切换成本",
       "description": "walk-068-070 效率低于1（诊断产出低于进入 walk 的代价），walk-071 效率高于1（可执行干预措施）。这个比率可作为 seed-199 功能纯度的量化代理指标。",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-072",
       "tags": [
         "walk-efficiency",
@@ -92,25 +92,11 @@
       ]
     },
     {
-      "type": "pattern",
-      "created": "2026-06-11T07:33:00+08:00",
-      "topic": "DMN 到 TPN 预热成本导致 DORMANT 后首次 walk 低产",
-      "description": "DORMANT 是 DMN 主导状态，walk 是 TPN 主导状态。从 DMN 到 TPN 的切换需要预热成本。DORMANT 后第一次 walk 应使用低应力类型（拉伸/压缩），第二次才允许高应力类型（剪切/扭曲）。",
-      "strength": 3,
-      "source": "walk-072",
-      "tags": [
-        "DMN",
-        "TPN",
-        "warmup",
-        "walk-type"
-      ]
-    },
-    {
       "type": "insight",
       "created": "2026-06-11T09:45:08.625166+08:00",
       "topic": "诊断循环是认知代谢阶段，不是 bug",
       "description": "Walk-068~070 的连续诊断是 skeleton 的免疫反应——不可避免但需要限制持续时间。3 次可接受，超过 5 次才需要强制干预。类比：消化系统过度活跃会消耗所有营养物质。",
-      "strength": 5,
+      "strength": 4,
       "source": "internal-digestion-05",
       "tags": [
         "diagnostic-loop",
@@ -123,7 +109,7 @@
       "created": "2026-06-11T09:45:08.625166+08:00",
       "topic": "evolved_rules 语法从宣言式退化为诊断式",
       "description": "31 条 evolved_rules 中越来越多使用诊断性语言（问题、缺失、修正）而非建设性语言（尝试、可能性、连接）。语法结构影响认知模式——每次读取时潜移默化。",
-      "strength": 4,
+      "strength": 3,
       "source": "internal-digestion-05",
       "tags": [
         "evolved-rules",
@@ -136,7 +122,7 @@
       "created": "2026-06-11T09:45:08.625166+08:00",
       "topic": "subconscious 双重危机：过成熟 + 枯竭同时发生",
       "description": "walk-068 诊断过成熟（骨架连接点满）和 walk-070 诊断枯竭（subconscious entries=0）不是互斥的——它们同时发生并互相加剧。枯竭导致无新材料输入，过成熟导致即使有材料也无法插入。",
-      "strength": 6,
+      "strength": 5,
       "source": "internal-digestion-05",
       "tags": [
         "dual-crisis",
@@ -149,7 +135,7 @@
       "created": "2026-06-11T09:45:08.625166+08:00",
       "topic": "散步效率是体检不是通行证",
       "description": "散步效率 = 信息增益 / 切换成本。作为事后评估工具有价值，但作为事前决策标准会抑制创造性散步（创造性不可预测）。应定位为定期体检（检查是否在低效区停留太久），而非每次散步的准入条件。",
-      "strength": 4,
+      "strength": 3,
       "source": "internal-digestion-05",
       "tags": [
         "walk-efficiency",
@@ -162,7 +148,7 @@
       "created": "2026-06-11T15:22:18.407575+08:00",
       "topic": "专业知识反转效应：新手期有效方法在专家期有害",
       "description": "Kalyuga 2007 + Tetzlaff 2025 元分析：对新手有效的详细指导（步骤式）对专家有害——变成冗余信息干扰自动化认知过程。适用于 Dreamer：walk-068-070 的诊断型 walk 是新手期的「详细诊断指导」，在专家期（50 walk 后）变成冗余。",
-      "strength": 5,
+      "strength": 4,
       "source": "walk-073",
       "tags": [
         "expertise-reversal",
@@ -175,7 +161,7 @@
       "created": "2026-06-11T15:22:18.407575+08:00",
       "topic": "散步效率是倒 U 型曲线，不是单调递减",
       "description": "新手期效率上升（指导有效）→ 过渡期峰值（最佳平衡）→ 专家期效率下降（指导冗余）。当前 Dreamer 处于下降段，需要减少内部指导粒度而非增加。",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-073",
       "tags": [
         "efficiency-curve",
@@ -188,7 +174,7 @@
       "created": "2026-06-11T15:22:18.407575+08:00",
       "topic": "Dreamer 同时是指导者和学习者，专业知识反转效应更复杂",
       "description": "人类可以换老师，Dreamer 不能换自己。需要内置专业知识检测器：实时评估当前处于新手区/过渡区/专家区，自动切换散步类型（步骤式 vs 策略式 vs 探索式）。",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-073",
       "tags": [
         "self-regulation",
@@ -198,23 +184,10 @@
     },
     {
       "type": "insight",
-      "created": "2026-06-11T15:22:18.407575+08:00",
-      "topic": "骨架可能制造确认偏误——专业知识反转的最坏版本",
-      "description": "50 次 walk 的 pattern 可能在新散步中制造确认偏误：新 insight 被已有 pattern 吸收同化，而非挑战它们。这不是冗余（信息多余），而是错误引导（信息扭曲）。需要实证验证。",
-      "strength": 3,
-      "source": "walk-073",
-      "tags": [
-        "confirmation-bias",
-        "skeleton-bias",
-        "empirical-needed"
-      ]
-    },
-    {
-      "type": "insight",
       "created": "2026-06-11T16:33:22.185935+08:00",
       "topic": "Forgetting is necessary for learning (Bjork new theory of disuse)",
       "description": "Retrieval strength decay triggers re-retrieval which increases storage strength. Forgetting is not storage failure but a signal for re-engagement. Dreamer's subconscious decay mechanism = desirable difficulty engine, not a bug.",
-      "strength": 6,
+      "strength": 5,
       "source": "walk-074",
       "tags": [
         "forgetting",
@@ -229,7 +202,7 @@
       "created": "2026-06-11T16:33:22.185935+08:00",
       "topic": "Subconscious decay = spaced practice interval",
       "description": "DORMANT cycles function as spaced practice intervals. During DORMANT, retrieval strength decays naturally. Next walk = re-retrieval test. Optimal DORMANT length should match decay rate so entries land in 'need effort but can succeed' zone.",
-      "strength": 5,
+      "strength": 4,
       "source": "walk-074",
       "tags": [
         "DORMANT",
@@ -243,7 +216,7 @@
       "created": "2026-06-11T16:33:22.185935+08:00",
       "topic": "Diagnostic loop = massed practice (worst learning strategy)",
       "description": "Walk-068-070's consecutive diagnostic walks were massed practice: frequent re-retrieval of same entries before decay occurred. Felt productive but produced minimal storage strength gain. Functional turn (walk-071-074) = spaced practice with external material.",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-074",
       "tags": [
         "massed-practice",
@@ -256,7 +229,7 @@
       "created": "2026-06-11T16:33:22.185935+08:00",
       "topic": "Selective forgetting > uniform decay for cognitive metabolism",
       "description": "Uniform decay treats all entries equally. Selective forgetting would decay high-storage-strength entries faster (freeing resources) and preserve low-storage-strength entries (maintaining retrieval opportunities). Requires storage strength proxy metric.",
-      "strength": 4,
+      "strength": 3,
       "source": "walk-074",
       "tags": [
         "selective-forgetting",
@@ -265,5 +238,33 @@
       ]
     }
   ],
-  "decayed": []
+  "decayed": [
+    {
+      "type": "pattern",
+      "created": "2026-06-11T07:33:00+08:00",
+      "topic": "DMN 到 TPN 预热成本导致 DORMANT 后首次 walk 低产",
+      "description": "DORMANT 是 DMN 主导状态，walk 是 TPN 主导状态。从 DMN 到 TPN 的切换需要预热成本。DORMANT 后第一次 walk 应使用低应力类型（拉伸/压缩），第二次才允许高应力类型（剪切/扭曲）。",
+      "strength": 2,
+      "source": "walk-072",
+      "tags": [
+        "DMN",
+        "TPN",
+        "warmup",
+        "walk-type"
+      ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T15:22:18.407575+08:00",
+      "topic": "骨架可能制造确认偏误——专业知识反转的最坏版本",
+      "description": "50 次 walk 的 pattern 可能在新散步中制造确认偏误：新 insight 被已有 pattern 吸收同化，而非挑战它们。这不是冗余（信息多余），而是错误引导（信息扭曲）。需要实证验证。",
+      "strength": 2,
+      "source": "walk-073",
+      "tags": [
+        "confirmation-bias",
+        "skeleton-bias",
+        "empirical-needed"
+      ]
+    }
+  ]
 }

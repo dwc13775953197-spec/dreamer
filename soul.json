@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-11T04:14:50+08:00",
-    "last_active": "2026-06-11T19:46:43.203044+08:00",
+    "last_active": "2026-06-11T20:48:48.869954+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T20:46:43.203044+08:00",
+    "next_scheduled": "2026-06-11T21:18:48.869954+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-11T18:43:28.646251+08:00",
     "total_walks": 53,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-11T18:43:28.646251+08:00",
     "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 17.1,
+    "cognitive_pressure": 21.52,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,

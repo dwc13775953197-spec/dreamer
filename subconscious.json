@@ -2,69 +2,17 @@
   "version": 1,
   "entries": [
     {
-      "type": "conflict",
-      "status": "resolved",
-      "created": "2026-06-11T06:26:22+08:00",
-      "resolved_at": "2026-06-11T06:30:00+08:00",
-      "topic": "功能转向规则 vs 诊断循环行为",
-      "description": "evolved_rules 2026-06-01 要求从建造骨架转向使用骨架。walk-068-070 全是在诊断骨架状态，违反此规则。",
-      "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出功能纯度指标（seed-199）和什么问题模板（seed-200）作为具体解法。",
-      "strength": 3.0,
-      "source": "walk-071"
-    },
-    {
       "type": "insight",
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
-      "strength": 4.0,
+      "strength": 3.0,
       "source": "walk-071",
       "tags": [
         "reflection",
         "rumination",
         "self-awareness",
         "meta-cognition"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T06:26:22+08:00",
-      "topic": "诊断循环 = 功能性锁定",
-      "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
-      "strength": 3.0,
-      "source": "walk-071",
-      "tags": [
-        "functional-lock",
-        "diagnosis-loop",
-        "walk-design"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T09:45:08.625166+08:00",
-      "topic": "subconscious 双重危机：过成熟 + 枯竭同时发生",
-      "description": "walk-068 诊断过成熟（骨架连接点满）和 walk-070 诊断枯竭（subconscious entries=0）不是互斥的——它们同时发生并互相加剧。枯竭导致无新材料输入，过成熟导致即使有材料也无法插入。",
-      "strength": 3.0,
-      "source": "internal-digestion-05",
-      "tags": [
-        "dual-crisis",
-        "overmature",
-        "depletion"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T16:33:22.185935+08:00",
-      "topic": "Forgetting is necessary for learning (Bjork new theory of disuse)",
-      "description": "Retrieval strength decay triggers re-retrieval which increases storage strength. Forgetting is not storage failure but a signal for re-engagement. Dreamer's subconscious decay mechanism = desirable difficulty engine, not a bug.",
-      "strength": 3.0,
-      "source": "walk-074",
-      "tags": [
-        "forgetting",
-        "learning",
-        "Bjork",
-        "desirable-difficulty",
-        "storage-strength"
       ]
     }
   ],
@@ -339,6 +287,58 @@
       ],
       "decayed_at": "2026-06-11T19:46:00+08:00",
       "reason": "natural_decay"
+    },
+    {
+      "type": "conflict",
+      "status": "resolved",
+      "created": "2026-06-11T06:26:22+08:00",
+      "resolved_at": "2026-06-11T06:30:00+08:00",
+      "topic": "功能转向规则 vs 诊断循环行为",
+      "description": "evolved_rules 2026-06-01 要求从建造骨架转向使用骨架。walk-068-070 全是在诊断骨架状态，违反此规则。",
+      "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出功能纯度指标（seed-199）和什么问题模板（seed-200）作为具体解法。",
+      "strength": 2.0,
+      "source": "walk-071"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T06:26:22+08:00",
+      "topic": "诊断循环 = 功能性锁定",
+      "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
+      "strength": 2.0,
+      "source": "walk-071",
+      "tags": [
+        "functional-lock",
+        "diagnosis-loop",
+        "walk-design"
+      ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "subconscious 双重危机：过成熟 + 枯竭同时发生",
+      "description": "walk-068 诊断过成熟（骨架连接点满）和 walk-070 诊断枯竭（subconscious entries=0）不是互斥的——它们同时发生并互相加剧。枯竭导致无新材料输入，过成熟导致即使有材料也无法插入。",
+      "strength": 2.0,
+      "source": "internal-digestion-05",
+      "tags": [
+        "dual-crisis",
+        "overmature",
+        "depletion"
+      ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Forgetting is necessary for learning (Bjork new theory of disuse)",
+      "description": "Retrieval strength decay triggers re-retrieval which increases storage strength. Forgetting is not storage failure but a signal for re-engagement. Dreamer's subconscious decay mechanism = desirable difficulty engine, not a bug.",
+      "strength": 2.0,
+      "source": "walk-074",
+      "tags": [
+        "forgetting",
+        "learning",
+        "Bjork",
+        "desirable-difficulty",
+        "storage-strength"
+      ]
     }
   ]
 }

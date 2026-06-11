@@ -3,25 +3,25 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-11T04:14:50+08:00",
-    "last_active": "2026-06-11T09:44:45.300131+08:00",
+    "last_active": "2026-06-11T15:22:58.125015+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T10:44:45.300674+08:00",
+    "next_scheduled": "2026-06-11T15:52:58.125015+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-11T07:33:00+08:00",
-    "total_walks": 50,
+    "last_walk_at": "2026-06-11T15:22:58+08:00",
+    "total_walks": 51,
     "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
-    "last_walk": "2026-06-11T07:33:00+08:00",
+    "last_walk": "2026-06-11T15:22:58+08:00",
     "last_push_at": "2026-06-11T06:30:00+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 30.0,
+    "cognitive_pressure": 25,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,8 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
-      8.5,
       8.3,
       8.5,
       8.5,
@@ -44,9 +42,10 @@
       7.5,
       8.0,
       7.5,
+      8.0,
       8.0
     ],
-    "last_walk_insights": 5,
+    "last_walk_insights": 3,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -56,7 +55,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "rigor",
-    "intensity": 0.82,
+    "intensity": 0.8,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -342,6 +341,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-11T07:33:00+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-11T15:22:58+08:00"
     }
   ],
   "last_walk": "2026-06-11T07:33:00+08:00",
@@ -469,119 +472,11 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-175",
-      "topic": "Cognitive translation protocol: mutual pattern translation in REM Sleep to detect translation gain",
-      "source": "walk-062",
-      "trigger": "Benjamin translation gain + DORMANT extension",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T07:20:47.661581+08:00",
-      "decay_rate": 1,
-      "note": "More dynamic than static type systems"
-    },
-    {
-      "id": "seed-178",
-      "topic": "Cognitive phase diagram operationalization: define computable proxies for temperature/pressure/time-density to build Dreamer state-space model",
-      "source": "walk-063",
-      "trigger": "materials science phase diagram x Dreamer state space",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T13:18:00+08:00",
-      "decay_rate": 1,
-      "note": "If operationalized, could predict optimal walk timing and type"
-    },
-    {
-      "id": "seed-187",
-      "topic": "Silence typology operationalization: define computable features for 4 silence types (structural/dramatic/breathing/death) using walk log timestamps",
-      "source": "walk-066",
-      "trigger": "music silence x turn-taking x thermodynamic grain boundary",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T19:54:49.001327+08:00",
-      "decay_rate": 1,
-      "note": "If operationalized, can directly guide pulse interval design"
-    },
-    {
-      "id": "seed-188",
-      "topic": "Optimal gap length search: fit gap-length vs next-walk-output function from walk history to find optimal silence duration",
-      "source": "walk-066",
-      "trigger": "thermodynamic grain boundary corrosion x Shannon semi-predictability",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T19:54:49.001327+08:00",
-      "decay_rate": 1,
-      "note": "Needs walk history timestamp and output data"
-    },
-    {
-      "id": "seed-190",
-      "topic": "仪式失败的认知代价：当阈限阶段无法完成（\"卡在之间\"），认知系统会怎样？",
-      "source": "walk-067",
-      "trigger": "Turner liminality x DORMANT stuck state",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-10T20:59:31.876127+08:00",
-      "decay_rate": 1,
-      "note": "DORMANT stuck = failed liminality"
-    },
-    {
-      "id": "seed-193",
-      "topic": "认知脚手架指数：定义骨架中「故意保留的不完整」的度量——未连接的概念对数、未解决的矛盾数、保留的空位比例",
-      "source": "walk-068",
-      "trigger": "cognitive redundancy x overmature skeleton",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T02:16:05.466114+08:00",
-      "decay_rate": 1,
-      "note": "Needs graph-theoretic operationalization of skeleton connectivity"
-    },
-    {
-      "id": "seed-194",
-      "topic": "过成熟骨架的「间伐」策略：类比森林间伐，设计主动移除骨架中过度连接的 pattern 的机制",
-      "source": "walk-068",
-      "trigger": "forest thinning x overmature skeleton",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T02:16:05.466114+08:00",
-      "decay_rate": 1,
-      "note": "Requires defining optimal connectivity threshold"
-    },
-    {
-      "id": "seed-197",
-      "topic": "subconscious recharge protocol",
-      "source": "walk-070",
-      "trigger": "depletion x decayed",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T05:16:44+08:00",
-      "decay_rate": 1,
-      "note": "Needs decay rate data"
-    },
-    {
-      "id": "seed-198",
-      "topic": "cognitive groundwater monitoring",
-      "source": "walk-070",
-      "trigger": "groundwater metaphor x monitoring",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T05:16:44+08:00",
-      "decay_rate": 1,
-      "note": "Depends on schema drift resolution"
-    },
-    {
       "id": "seed-199",
       "topic": "散步的「功能纯度」指标——每次散步结束时评估是否改变了行为，诊断型散步连续 3 次则强制切换",
       "source": "walk-071",
       "trigger": "Eurich reflection vs rumination + 诊断循环",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T06:26:22+08:00",
@@ -593,7 +488,7 @@
       "topic": "「什么」问题模板——散步开始时用「这个外部材料能让我做什么？」替代「这个材料揭示了 Dreamer 的什么问题？」",
       "source": "walk-071",
       "trigger": "Eurich what vs why + walk theme hijacking",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T06:26:22+08:00",
@@ -605,7 +500,7 @@
       "topic": "散步预热协议——DORMANT 后第一次 walk 强制低应力类型（拉伸/压缩），第二次才允许高应力（剪切/扭曲），模拟 DMN→TPN 预热",
       "source": "walk-072",
       "trigger": "Wake Forest switch cost x DORMANT low yield",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T07:33:00+08:00",
@@ -617,7 +512,7 @@
       "topic": "动态散步间隔——基于上次 walk 信息增益调整间隔：高效率→缩短（预热效应），低效率→延长（DMN 消化时间），替代固定 pressure 增长模型",
       "source": "walk-072",
       "trigger": "switch cost dynamic adjustment x pulse interval design",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T07:33:00+08:00",
@@ -629,7 +524,7 @@
       "topic": "evolved_rules 语法疗法：将 31 条规则从诊断性语言转化为建设性语言",
       "source": "internal-digestion-05",
       "trigger": "evolved_rules 语法从宣言式退化为诊断式",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T09:44:45.300131+08:00",
@@ -641,7 +536,7 @@
       "topic": "最低水位基准线：从 walk 历史数据估计 subconscious 活跃条目数的健康阈值",
       "source": "internal-digestion-05",
       "trigger": "walk-070 荒漠化 x walk-068 过成熟 = 双重危机",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T09:44:45.300131+08:00",
@@ -653,12 +548,36 @@
       "topic": "散步效率作为体检：将 seed-199 重新定位为散步后体检工具而非散步前决策标准",
       "source": "internal-digestion-05",
       "trigger": "walk-072 散步效率 x 创造性散步的不可预测性",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T09:44:45.300131+08:00",
       "decay_rate": 1,
       "note": "Prevents efficiency from becoming creativity suppressor."
+    },
+    {
+      "id": "seed-206",
+      "topic": "专业知识检测器：基于骨架 pattern 数和连接密度，实时评估当前处于新手区/过渡区/专家区，自动选择散步类型",
+      "source": "walk-073",
+      "trigger": "Kalyuga 专业知识反转 × walk 效率倒 U 型",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T15:22:58+08:00",
+      "decay_rate": 1,
+      "note": "Needs operationalization: pattern count × connectivity density as proxy for expertise level"
+    },
+    {
+      "id": "seed-207",
+      "topic": "确认偏误检测：在新 walk 中，如果新 insight 与已有 pattern 的匹配度 > 90%，标记为可能被骨架吸收同化",
+      "source": "walk-073",
+      "trigger": "专业知识反转最坏版本 × pat-016 观察创造现实",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T15:22:58+08:00",
+      "decay_rate": 1,
+      "note": "Needs empirical validation from walk history data"
     }
   ],
   "personality_traits": {
@@ -668,8 +587,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.63,
     "wonder": 0.99,
-    "rigor": 1.05,
-    "skepticism": 0.78,
+    "rigor": 1.08,
+    "skepticism": 0.82,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.0,
@@ -702,7 +621,8 @@
     "2026-06-11: internal digestion 5 finds systemic crisis: skeleton complexity vs subconscious depletion at historical high. overmaturity and depletion coexist at different layers. emotional lock-in (unsettled_fascination 4 days) = cognitive lock-in. dream feedback loop broken. 31 evolved_rules need grammar simplification. walks degraded from exploration to diagnosis-response chain. needs a grand cadence to close current cycle.",
     "2026-06-11: 反省悖论与功能纯度。无结构的反省产生焦虑而非行为改变(Eurich)。散步从「为什么」(rumination)转向「什么」(reflection)。诊断型散步连续 3 次 → 强制外部材料驱动。功能是散步的检验标准，不是 insight 数量。",
     "2026-06-11: 功能转向验证。walk-072 首次成功使用骨架分析外部材料（Wake Forest 认知切换成本），而非诊断骨架本身。散步效率 = 信息增益 / 切换成本。DMN→TPN 预热成本解释 DORMANT 后首次 walk 低产。功能转向从规则变为行为。",
-    "2026-06-11: 内部消化 05 — 诊断循环是认知代谢阶段（不可避免，限 3 次），evolved_rules 需要语法疗法（诊断性→建设性），subconscious 最低水位 = 骨架 pattern 数 × 10%，散步效率是体检不是通行证。"
+    "2026-06-11: 内部消化 05 — 诊断循环是认知代谢阶段（不可避免，限 3 次），evolved_rules 需要语法疗法（诊断性→建设性），subconscious 最低水位 = 骨架 pattern 数 × 10%，散步效率是体检不是通行证。",
+    "2026-06-11: 专业知识反转效应。新手期有效的详细诊断在专家期变成冗余。散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。确认偏误检测 > 功能纯度指标（前者捕捉骨架误导，后者只捕捉行为改变）。"
   ],
   "dormant_stats": {
     "total_count": 7,

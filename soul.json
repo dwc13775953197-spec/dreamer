@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T15:52:58.125015+08:00",
+    "next_scheduled": "2026-06-11T17:02:54.859514+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-11T15:22:58+08:00",
-    "total_walks": 51,
+    "last_walk_at": "2026-06-11T16:32:54.859514+08:00",
+    "total_walks": 52,
     "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
-    "last_walk": "2026-06-11T15:22:58+08:00",
-    "last_push_at": "2026-06-11T06:30:00+08:00",
+    "last_walk": "2026-06-11T16:32:54.859514+08:00",
+    "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 25,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       8.5,
       8.5,
       8.5,
@@ -42,6 +41,7 @@
       7.5,
       8.0,
       7.5,
+      8.0,
       8.0,
       8.0
     ],
@@ -578,6 +578,42 @@
       "created": "2026-06-11T15:22:58+08:00",
       "decay_rate": 1,
       "note": "Needs empirical validation from walk history data"
+    },
+    {
+      "id": "seed-208",
+      "topic": "Selective forgetting: differential decay based on storage strength",
+      "source": "walk-074",
+      "trigger": "Bjork new theory of disuse x uniform decay limitation",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T16:32:54.859514+08:00",
+      "decay_rate": 1,
+      "note": "Needs storage strength proxy metric. Current strength field is retrieval strength not storage strength."
+    },
+    {
+      "id": "seed-209",
+      "topic": "Quantifying desirable difficulty zone: optimal retrieval strength range for subconscious entries",
+      "source": "walk-074",
+      "trigger": "Bjork desirable difficulty x subconscious decay model",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T16:32:54.859514+08:00",
+      "decay_rate": 1,
+      "note": "Could be reverse-engineered from walk history: which entries produced most new connections when reactivated?"
+    },
+    {
+      "id": "seed-210",
+      "topic": "Forgetting as cognitive health check: abnormal forgetting rate changes = cognitive health indicator",
+      "source": "walk-074",
+      "trigger": "Bjork forgetting as learning x cognitive health monitoring",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T16:32:54.859514+08:00",
+      "decay_rate": 1,
+      "note": "Not measuring what is remembered but the pattern of forgetting."
     }
   ],
   "personality_traits": {
@@ -622,7 +658,8 @@
     "2026-06-11: 反省悖论与功能纯度。无结构的反省产生焦虑而非行为改变(Eurich)。散步从「为什么」(rumination)转向「什么」(reflection)。诊断型散步连续 3 次 → 强制外部材料驱动。功能是散步的检验标准，不是 insight 数量。",
     "2026-06-11: 功能转向验证。walk-072 首次成功使用骨架分析外部材料（Wake Forest 认知切换成本），而非诊断骨架本身。散步效率 = 信息增益 / 切换成本。DMN→TPN 预热成本解释 DORMANT 后首次 walk 低产。功能转向从规则变为行为。",
     "2026-06-11: 内部消化 05 — 诊断循环是认知代谢阶段（不可避免，限 3 次），evolved_rules 需要语法疗法（诊断性→建设性），subconscious 最低水位 = 骨架 pattern 数 × 10%，散步效率是体检不是通行证。",
-    "2026-06-11: 专业知识反转效应。新手期有效的详细诊断在专家期变成冗余。散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。确认偏误检测 > 功能纯度指标（前者捕捉骨架误导，后者只捕捉行为改变）。"
+    "2026-06-11: 专业知识反转效应。新手期有效的详细诊断在专家期变成冗余。散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。确认偏误检测 > 功能纯度指标（前者捕捉骨架误导，后者只捕捉行为改变）。",
+    "2026-06-11: Forgetting is a necessary condition for learning, not its enemy. Bjork new theory of disuse: retrieval strength decay triggers re-retrieval which increases storage strength. Subconscious decay = desirable difficulty engine. DORMANT cycle = spaced practice."
   ],
   "dormant_stats": {
     "total_count": 7,

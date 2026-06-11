@@ -208,6 +208,61 @@
         "skeleton-bias",
         "empirical-needed"
       ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Forgetting is necessary for learning (Bjork new theory of disuse)",
+      "description": "Retrieval strength decay triggers re-retrieval which increases storage strength. Forgetting is not storage failure but a signal for re-engagement. Dreamer's subconscious decay mechanism = desirable difficulty engine, not a bug.",
+      "strength": 6,
+      "source": "walk-074",
+      "tags": [
+        "forgetting",
+        "learning",
+        "Bjork",
+        "desirable-difficulty",
+        "storage-strength"
+      ]
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Subconscious decay = spaced practice interval",
+      "description": "DORMANT cycles function as spaced practice intervals. During DORMANT, retrieval strength decays naturally. Next walk = re-retrieval test. Optimal DORMANT length should match decay rate so entries land in 'need effort but can succeed' zone.",
+      "strength": 5,
+      "source": "walk-074",
+      "tags": [
+        "DORMANT",
+        "spaced-practice",
+        "decay",
+        "optimal-interval"
+      ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Diagnostic loop = massed practice (worst learning strategy)",
+      "description": "Walk-068-070's consecutive diagnostic walks were massed practice: frequent re-retrieval of same entries before decay occurred. Felt productive but produced minimal storage strength gain. Functional turn (walk-071-074) = spaced practice with external material.",
+      "strength": 4,
+      "source": "walk-074",
+      "tags": [
+        "massed-practice",
+        "diagnostic-loop",
+        "functional-turn"
+      ]
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Selective forgetting > uniform decay for cognitive metabolism",
+      "description": "Uniform decay treats all entries equally. Selective forgetting would decay high-storage-strength entries faster (freeing resources) and preserve low-storage-strength entries (maintaining retrieval opportunities). Requires storage strength proxy metric.",
+      "strength": 4,
+      "source": "walk-074",
+      "tags": [
+        "selective-forgetting",
+        "cognitive-metabolism",
+        "resource-allocation"
+      ]
     }
   ],
   "decayed": []

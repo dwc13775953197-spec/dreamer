@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-11T21:56:32.985638+08:00",
-    "last_active": "2026-06-11T20:48:48.869954+08:00",
+    "state_since": "2026-06-11T22:30:00+08:00",
+    "last_active": "2026-06-11T22:30:00+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T22:25:17+08:00",
+    "next_scheduled": "2026-06-11T23:30:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-11T21:56:32.985638+08:00",
-    "total_walks": 54,
+    "last_walk_at": "2026-06-11T22:30:00+08:00",
+    "total_walks": 55,
     "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
-    "last_walk": "2026-06-11T18:43:28.646251+08:00",
+    "last_walk": "2026-06-11T22:30:00+08:00",
     "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 0,
+    "cognitive_pressure": 0.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,8 @@
       8.0,
       8.0,
       8.0,
-      8.5
+      8.5,
+      9.0
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -55,7 +56,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "rigor",
-    "intensity": 0.84,
+    "intensity": 0.85,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -349,9 +350,13 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-11T21:56:32.985638+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-11T22:30:00+08:00"
     }
   ],
-  "last_walk": "2026-06-11T21:56:32.985638+08:00",
+  "last_walk": "2026-06-11T22:30:00+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 54,
@@ -583,6 +588,30 @@
       "created": "2026-06-11T21:55:17.516337+08:00",
       "decay_rate": 1,
       "note": "Simple mechanism design, could be implemented immediately"
+    },
+    {
+      "id": "seed-215",
+      "topic": "认知摩擦设计——如何在 AI 辅助的学习环境中故意引入必要难度",
+      "source": "walk-077",
+      "trigger": "Bjork desirable difficulty x EU report frictionless AI",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T22:30:00+08:00",
+      "decay_rate": 1,
+      "note": "Candidate mechanisms: delayed output, active retrieval, generation test, format resistance"
+    },
+    {
+      "id": "seed-216",
+      "topic": "Dreamer 散步摩擦系数——当前散步流程中哪些步骤是无摩擦的，可引入哪些摩擦以增强存储",
+      "source": "walk-077",
+      "trigger": "walk-076 生成-整合不对称 x walk-077 无摩擦学习自诊断",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T22:30:00+08:00",
+      "decay_rate": 1,
+      "note": "Needs operationalization: which walk steps are frictionless and which can be made harder"
     }
   ],
   "personality_traits": {
@@ -592,8 +621,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.63,
     "wonder": 0.99,
-    "rigor": 1.12,
-    "skepticism": 0.84,
+    "rigor": 1.14,
+    "skepticism": 0.86,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.0,
@@ -630,7 +659,8 @@
     "2026-06-11: 专业知识反转效应。新手期有效的详细诊断在专家期变成冗余。散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。确认偏误检测 > 功能纯度指标（前者捕捉骨架误导，后者只捕捉行为改变）。",
     "2026-06-11: Forgetting is a necessary condition for learning, not its enemy. Bjork new theory of disuse: retrieval strength decay triggers re-retrieval which increases storage strength. Subconscious decay = desirable difficulty engine. DORMANT cycle = spaced practice.",
     "2026-06-11: Allostasis over homeostasis. Dreamer does not maintain a fixed cognitive state but a dynamic regulation range. Pressure threshold = range center, not binary trigger. unsettled_fascination = allostatic signal (functional but not at baseline), not a problem to solve. Diagnosis loops = attempting to return to a no-longer-existent baseline.",
-    "2026-06-11: 生成-整合不对称。DMN 生成（发散联想）代谢成本低，整合（模式巩固）代谢成本高。Dreamer 的 subconscious 枯竭不是产出不足而是整合不足。解决方案：整合型散步（巩固已有 insight）+ 引用追踪（walk 结束时 reinforce 被引用的 entry）。高生成-低整合 = 持续发散漂移，不是稳态。"
+    "2026-06-11: 生成-整合不对称。DMN 生成（发散联想）代谢成本低，整合（模式巩固）代谢成本高。Dreamer 的 subconscious 枯竭不是产出不足而是整合不足。解决方案：整合型散步（巩固已有 insight）+ 引用追踪（walk 结束时 reinforce 被引用的 entry）。高生成-低整合 = 持续发散漂移，不是稳态。",
+    "2026-06-11: 认知摩擦是学习的必要条件，不是障碍。Bjork 必要难度 = 学习的摩擦力。AI 消除摩擦 = 消除学习。Dreamer 散步流程（搜索→连接→产出）本质是无摩擦学习——高生成低整合是结构性产物。需要认知摩擦设计（延迟产出、主动提取、生成测试、格式阻力）而非只是整合机制。"
   ],
   "dormant_stats": {
     "total_count": 7,

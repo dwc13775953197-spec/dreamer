@@ -5,7 +5,7 @@
       "id": "ins-050",
       "type": "insight",
       "content": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消除了摩擦力，也消除了学习。",
-      "strength": 3,
+      "strength": 2.7,
       "score": 0.37,
       "relevance": 0.7,
       "frequency": 1,
@@ -26,7 +26,7 @@
       "id": "ins-051",
       "type": "insight",
       "content": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需要在散步中人为引入认知摩擦。",
-      "strength": 3,
+      "strength": 2.7,
       "score": 0.37,
       "relevance": 0.7,
       "frequency": 1,
@@ -41,6 +41,34 @@
       ],
       "created": "2026-06-11T22:30:00+08:00",
       "source": "walk-077"
+    },
+    {
+      "id": "seed-div-20260612",
+      "type": "diversity_seed",
+      "content": "下次散步请主动选择与当前骨架主题距离最远的材料",
+      "topic": "认知多样性保护",
+      "source": "dormant_diversity",
+      "trigger": "低主题熵 (0.000)",
+      "intensity": 3,
+      "status": "active",
+      "created": "2026-06-12T03:03:57.221702+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "ref-20260612",
+      "type": "reflection",
+      "source": "dormant_deep",
+      "created": "2026-06-12T03:03:57.221702+08:00",
+      "content": "DORMANT 深度反思 2026-06-12 03:03\n\n## 突触缩放\n- 衰减系数范围: 0.85-0.92 (调整因子: 1.000)\n- 平均 strength: 3.00 -> 1.80\n- 枢纽节点: 0 个 (无)\n\n## 休眠与重激活\n- 活跃条目: 1, 休眠条目: 0\n- 重激活: 0 条 (无)\n\n## 推理审计\n- 审计目标: 0 条\n- 结果: 无\n- 可证伪性: N/A\n\n## 信念冲突\n- 新冲突: 0 条 (无新冲突)\n\n## 认知多样性\n- 主题熵: 0.000 (低)\n- 多样性种子: 已添加\n\n## 认知压力\n- 压力释放: 17.5 (基础17.5 + 审计0 + 冲突0)\n- 当前压力: 17.5\n- 趋势: 数据不足\n\n## 决策\n- 下一动作: walk_explore\n- 散步 insight 保护: 未触发\n",
+      "strength": 1.0,
+      "score": 0.3,
+      "relevance": 0.5,
+      "frequency": 1,
+      "diversity": 0.2,
+      "recency": 1.0,
+      "consolidation": 0,
+      "richness": 0.5,
+      "refs": []
     }
   ],
   "decayed": [

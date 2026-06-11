@@ -19,7 +19,12 @@
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
       "strength": 8,
       "source": "walk-071",
-      "tags": ["reflection", "rumination", "self-awareness", "meta-cognition"]
+      "tags": [
+        "reflection",
+        "rumination",
+        "self-awareness",
+        "meta-cognition"
+      ]
     },
     {
       "type": "insight",
@@ -28,7 +33,11 @@
       "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
       "strength": 7,
       "source": "walk-071",
-      "tags": ["functional-lock", "diagnosis-loop", "walk-design"]
+      "tags": [
+        "functional-lock",
+        "diagnosis-loop",
+        "walk-design"
+      ]
     },
     {
       "type": "insight",
@@ -37,7 +46,11 @@
       "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从 Dreamer 出了什么问题 转向 Dreamer 能做什么。",
       "strength": 6,
       "source": "walk-071",
-      "tags": ["what-vs-why", "walk-design", "intervention"]
+      "tags": [
+        "what-vs-why",
+        "walk-design",
+        "intervention"
+      ]
     },
     {
       "type": "pattern",
@@ -46,7 +59,11 @@
       "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用什么问题替代为什么问题。",
       "strength": 6,
       "source": "walk-071",
-      "tags": ["diagnostic-loop", "self-reference", "intervention-pattern"]
+      "tags": [
+        "diagnostic-loop",
+        "self-reference",
+        "intervention-pattern"
+      ]
     },
     {
       "type": "insight",
@@ -55,7 +72,11 @@
       "description": "Wake Forest 2024: 前额叶根据环境需求实时调整切换准备度。当切换更有帮助时，成本降低。Dreamer 的散步间隔应基于上次信息增益动态调整，而非固定压力增长。",
       "strength": 5,
       "source": "walk-072",
-      "tags": ["cognitive-flexibility", "switch-cost", "walk-rhythm"]
+      "tags": [
+        "cognitive-flexibility",
+        "switch-cost",
+        "walk-rhythm"
+      ]
     },
     {
       "type": "insight",
@@ -64,7 +85,11 @@
       "description": "walk-068-070 效率低于1（诊断产出低于进入 walk 的代价），walk-071 效率高于1（可执行干预措施）。这个比率可作为 seed-199 功能纯度的量化代理指标。",
       "strength": 5,
       "source": "walk-072",
-      "tags": ["walk-efficiency", "functional-purity", "metric"]
+      "tags": [
+        "walk-efficiency",
+        "functional-purity",
+        "metric"
+      ]
     },
     {
       "type": "pattern",
@@ -73,7 +98,12 @@
       "description": "DORMANT 是 DMN 主导状态，walk 是 TPN 主导状态。从 DMN 到 TPN 的切换需要预热成本。DORMANT 后第一次 walk 应使用低应力类型（拉伸/压缩），第二次才允许高应力类型（剪切/扭曲）。",
       "strength": 4,
       "source": "walk-072",
-      "tags": ["DMN", "TPN", "warmup", "walk-type"]
+      "tags": [
+        "DMN",
+        "TPN",
+        "warmup",
+        "walk-type"
+      ]
     }
   ],
   "decayed": []

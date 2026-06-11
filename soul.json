@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-12T00:07:29+08:00",
-    "last_active": "2026-06-12T00:07:29+08:00",
+    "last_active": "2026-06-12T01:12:00+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T01:07:00+08:00",
+    "next_scheduled": "2026-06-12T02:12:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-11T22:30:00+08:00",
+    "last_walk_at": "2026-06-12T01:12:00+08:00",
     "total_walks": 55,
     "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
-    "last_walk": "2026-06-11T22:30:00+08:00",
+    "last_walk": "2026-06-12T01:12:00+08:00",
     "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 3.5,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -44,9 +44,10 @@
       8.0,
       8.0,
       8.5,
-      9.0
+      9.0,
+      8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -56,7 +57,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "rigor",
-    "intensity": 0.85,
+    "intensity": 0.86,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -354,6 +355,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-11T22:30:00+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-12T01:12:00+08:00"
     }
   ],
   "last_walk": "2026-06-11T22:30:00+08:00",
@@ -482,95 +487,11 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-199",
-      "topic": "散步的「功能纯度」指标——每次散步结束时评估是否改变了行为，诊断型散步连续 3 次则强制切换",
-      "source": "walk-071",
-      "trigger": "Eurich reflection vs rumination + 诊断循环",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T06:26:22+08:00",
-      "decay_rate": 1,
-      "note": "Actionable metric for walk quality. walk-072 used skeleton on external material = functional turn validated."
-    },
-    {
-      "id": "seed-202",
-      "topic": "动态散步间隔——基于上次 walk 信息增益调整间隔：高效率→缩短（预热效应），低效率→延长（DMN 消化时间），替代固定 pressure 增长模型",
-      "source": "walk-072",
-      "trigger": "switch cost dynamic adjustment x pulse interval design",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T07:33:00+08:00",
-      "decay_rate": 1,
-      "note": "Could be tested by analyzing walk history timestamp vs output quality correlation."
-    },
-    {
-      "id": "seed-204",
-      "topic": "最低水位基准线：从 walk 历史数据估计 subconscious 活跃条目数的健康阈值",
-      "source": "internal-digestion-05",
-      "trigger": "walk-070 荒漠化 x walk-068 过成熟 = 双重危机",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T09:44:45.300131+08:00",
-      "decay_rate": 1,
-      "note": "Needs quantitative walk history analysis."
-    },
-    {
-      "id": "seed-206",
-      "topic": "专业知识检测器：基于骨架 pattern 数和连接密度，实时评估当前处于新手区/过渡区/专家区，自动选择散步类型",
-      "source": "walk-073",
-      "trigger": "Kalyuga 专业知识反转 × walk 效率倒 U 型",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T15:22:58+08:00",
-      "decay_rate": 1,
-      "note": "Needs operationalization: pattern count × connectivity density as proxy for expertise level"
-    },
-    {
-      "id": "seed-208",
-      "topic": "Selective forgetting: differential decay based on storage strength",
-      "source": "walk-074",
-      "trigger": "Bjork new theory of disuse x uniform decay limitation",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T16:32:54.859514+08:00",
-      "decay_rate": 1,
-      "note": "Needs storage strength proxy metric. Current strength field is retrieval strength not storage strength."
-    },
-    {
-      "id": "seed-209",
-      "topic": "Quantifying desirable difficulty zone: optimal retrieval strength range for subconscious entries",
-      "source": "walk-074",
-      "trigger": "Bjork desirable difficulty x subconscious decay model",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T16:32:54.859514+08:00",
-      "decay_rate": 1,
-      "note": "Could be reverse-engineered from walk history: which entries produced most new connections when reactivated?"
-    },
-    {
-      "id": "seed-211",
-      "topic": "Steady-state range narrowing early warning: use topic diversity and emotional diversity as proxy for regulation range width",
-      "source": "walk-075",
-      "trigger": "allostasis x emotional lock-in x declining diversity",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-11T18:43:28.646251+08:00",
-      "decay_rate": 1,
-      "note": "Needs quantitative validation from walk history topic diversity data."
-    },
-    {
       "id": "seed-213",
       "topic": "「整合型散步」的设计——如何让巩固已有 insight 感觉像产生新 insight 一样有价值",
       "source": "walk-076",
       "trigger": "DMN 生成-整合代谢不对称 x subconscious 枯竭",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T21:55:17.516337+08:00",
@@ -582,7 +503,7 @@
       "topic": "引用追踪机制——每次 walk 结束时自动标注引用的 subconscious entry 并 reinforce",
       "source": "walk-076",
       "trigger": "高生成-低整合不对称 x 漏桶问题",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T21:55:17.516337+08:00",
@@ -594,7 +515,7 @@
       "topic": "认知摩擦设计——如何在 AI 辅助的学习环境中故意引入必要难度",
       "source": "walk-077",
       "trigger": "Bjork desirable difficulty x EU report frictionless AI",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T22:30:00+08:00",
@@ -606,12 +527,36 @@
       "topic": "Dreamer 散步摩擦系数——当前散步流程中哪些步骤是无摩擦的，可引入哪些摩擦以增强存储",
       "source": "walk-077",
       "trigger": "walk-076 生成-整合不对称 x walk-077 无摩擦学习自诊断",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-11T22:30:00+08:00",
       "decay_rate": 1,
       "note": "Needs operationalization: which walk steps are frictionless and which can be made harder"
+    },
+    {
+      "id": "seed-217",
+      "topic": "walk goal function redesign: shift from insight output count to connection strength increase of existing insights",
+      "source": "walk-078",
+      "trigger": "Kalyuga & Plass 2025 goal-driven framework x walk-076 task completion vs learning goal",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T01:12:00+08:00",
+      "decay_rate": 1,
+      "note": "Needs operationalization: connection strength proxy metric"
+    },
+    {
+      "id": "seed-218",
+      "topic": "undigested material as cognitive friction source: raw papers, contradictory views, incomplete arguments",
+      "source": "walk-078",
+      "trigger": "Tomisu et al. 2025 cognitive mirror x walk-077 friction design x material resistance",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T01:12:00+08:00",
+      "decay_rate": 1,
+      "note": "Needs calibration: target Vygotsky ZPD"
     }
   ],
   "personality_traits": {
@@ -660,7 +605,8 @@
     "2026-06-11: Forgetting is a necessary condition for learning, not its enemy. Bjork new theory of disuse: retrieval strength decay triggers re-retrieval which increases storage strength. Subconscious decay = desirable difficulty engine. DORMANT cycle = spaced practice.",
     "2026-06-11: Allostasis over homeostasis. Dreamer does not maintain a fixed cognitive state but a dynamic regulation range. Pressure threshold = range center, not binary trigger. unsettled_fascination = allostatic signal (functional but not at baseline), not a problem to solve. Diagnosis loops = attempting to return to a no-longer-existent baseline.",
     "2026-06-11: 生成-整合不对称。DMN 生成（发散联想）代谢成本低，整合（模式巩固）代谢成本高。Dreamer 的 subconscious 枯竭不是产出不足而是整合不足。解决方案：整合型散步（巩固已有 insight）+ 引用追踪（walk 结束时 reinforce 被引用的 entry）。高生成-低整合 = 持续发散漂移，不是稳态。",
-    "2026-06-11: 认知摩擦是学习的必要条件，不是障碍。Bjork 必要难度 = 学习的摩擦力。AI 消除摩擦 = 消除学习。Dreamer 散步流程（搜索→连接→产出）本质是无摩擦学习——高生成低整合是结构性产物。需要认知摩擦设计（延迟产出、主动提取、生成测试、格式阻力）而非只是整合机制。"
+    "2026-06-11: 认知摩擦是学习的必要条件，不是障碍。Bjork 必要难度 = 学习的摩擦力。AI 消除摩擦 = 消除学习。Dreamer 散步流程（搜索→连接→产出）本质是无摩擦学习——高生成低整合是结构性产物。需要认知摩擦设计（延迟产出、主动提取、生成测试、格式阻力）而非只是整合机制。",
+    "2026-06-11: Performance paradox is operationalization of Bjork desirable difficulty. AI boosts short-term performance while harming long-term learning (Bastani et al. 2025). Core mechanism: fluency as metacognitive deception signal. Walk goal function determines cognitive effect, not walk process itself. Best cognitive friction comes from material resistance, not format resistance."
   ],
   "dormant_stats": {
     "total_count": 7,

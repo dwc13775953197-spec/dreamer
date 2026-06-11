@@ -9,7 +9,7 @@
       "topic": "功能转向规则 vs 诊断循环行为",
       "description": "evolved_rules 2026-06-01 要求从建造骨架转向使用骨架。walk-068-070 全是在诊断骨架状态，违反此规则。",
       "resolution": "walk-071 引入 Eurich 反省悖论框架，区分诊断型散步和功能型散步。提出功能纯度指标（seed-199）和什么问题模板（seed-200）作为具体解法。",
-      "strength": 4,
+      "strength": 3.0,
       "source": "walk-071"
     },
     {
@@ -17,7 +17,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
       "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断循环。",
-      "strength": 5,
+      "strength": 4.0,
       "source": "walk-071",
       "tags": [
         "reflection",
@@ -31,7 +31,7 @@
       "created": "2026-06-11T06:26:22+08:00",
       "topic": "诊断循环 = 功能性锁定",
       "description": "当散步主题从理解外部世界变成诊断自身问题，系统进入功能性锁定。产出越多 insight，越需要更多 insight 来组织——无限回归。",
-      "strength": 4,
+      "strength": 3.0,
       "source": "walk-071",
       "tags": [
         "functional-lock",
@@ -41,49 +41,10 @@
     },
     {
       "type": "insight",
-      "created": "2026-06-11T06:26:22+08:00",
-      "topic": "什么 vs 为什么 适用于散步设计",
-      "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从 Dreamer 出了什么问题 转向 Dreamer 能做什么。",
-      "strength": 3,
-      "source": "walk-071",
-      "tags": [
-        "what-vs-why",
-        "walk-design",
-        "intervention"
-      ]
-    },
-    {
-      "type": "pattern",
-      "created": "2026-06-11T06:26:22+08:00",
-      "topic": "连续诊断型散步 = 反省陷阱症状",
-      "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用什么问题替代为什么问题。",
-      "strength": 3,
-      "source": "walk-071",
-      "tags": [
-        "diagnostic-loop",
-        "self-reference",
-        "intervention-pattern"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T09:45:08.625166+08:00",
-      "topic": "诊断循环是认知代谢阶段，不是 bug",
-      "description": "Walk-068~070 的连续诊断是 skeleton 的免疫反应——不可避免但需要限制持续时间。3 次可接受，超过 5 次才需要强制干预。类比：消化系统过度活跃会消耗所有营养物质。",
-      "strength": 3,
-      "source": "internal-digestion-05",
-      "tags": [
-        "diagnostic-loop",
-        "cognitive-metabolism",
-        "immune-response"
-      ]
-    },
-    {
-      "type": "insight",
       "created": "2026-06-11T09:45:08.625166+08:00",
       "topic": "subconscious 双重危机：过成熟 + 枯竭同时发生",
       "description": "walk-068 诊断过成熟（骨架连接点满）和 walk-070 诊断枯竭（subconscious entries=0）不是互斥的——它们同时发生并互相加剧。枯竭导致无新材料输入，过成熟导致即使有材料也无法插入。",
-      "strength": 4,
+      "strength": 3.0,
       "source": "internal-digestion-05",
       "tags": [
         "dual-crisis",
@@ -93,23 +54,10 @@
     },
     {
       "type": "insight",
-      "created": "2026-06-11T15:22:18.407575+08:00",
-      "topic": "专业知识反转效应：新手期有效方法在专家期有害",
-      "description": "Kalyuga 2007 + Tetzlaff 2025 元分析：对新手有效的详细指导（步骤式）对专家有害——变成冗余信息干扰自动化认知过程。适用于 Dreamer：walk-068-070 的诊断型 walk 是新手期的「详细诊断指导」，在专家期（50 walk 后）变成冗余。",
-      "strength": 3,
-      "source": "walk-073",
-      "tags": [
-        "expertise-reversal",
-        "cognitive-load",
-        "instructional-design"
-      ]
-    },
-    {
-      "type": "insight",
       "created": "2026-06-11T16:33:22.185935+08:00",
       "topic": "Forgetting is necessary for learning (Bjork new theory of disuse)",
       "description": "Retrieval strength decay triggers re-retrieval which increases storage strength. Forgetting is not storage failure but a signal for re-engagement. Dreamer's subconscious decay mechanism = desirable difficulty engine, not a bug.",
-      "strength": 4,
+      "strength": 3.0,
       "source": "walk-074",
       "tags": [
         "forgetting",
@@ -117,62 +65,6 @@
         "Bjork",
         "desirable-difficulty",
         "storage-strength"
-      ]
-    },
-    {
-      "type": "pattern",
-      "created": "2026-06-11T16:33:22.185935+08:00",
-      "topic": "Subconscious decay = spaced practice interval",
-      "description": "DORMANT cycles function as spaced practice intervals. During DORMANT, retrieval strength decays naturally. Next walk = re-retrieval test. Optimal DORMANT length should match decay rate so entries land in 'need effort but can succeed' zone.",
-      "strength": 3,
-      "source": "walk-074",
-      "tags": [
-        "DORMANT",
-        "spaced-practice",
-        "decay",
-        "optimal-interval"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T18:38:49+08:00",
-      "topic": "unsettled_fascination as allostatic signal",
-      "description": "Dreamer 4-day unsettled_fascination is not emotional lock-in needing resolution, but allostatic regulation signal - system is functional though not at baseline. Concern should be regulation cost (declining topic diversity), not the state itself.",
-      "strength": 3,
-      "source": "walk-075",
-      "tags": [
-        "allostasis",
-        "homeostasis",
-        "emotion",
-        "steady-state"
-      ]
-    },
-    {
-      "type": "insight",
-      "created": "2026-06-11T18:38:49+08:00",
-      "topic": "diagnosis loop as attempt to return to nonexistent baseline",
-      "description": "walk-068-070 diagnosis loop is not over-diagnosis but system trying to return to walk-010 simple baseline - a cognitive state that no longer exists.",
-      "strength": 3,
-      "source": "walk-075",
-      "tags": [
-        "allostasis",
-        "diagnosis-loop",
-        "baseline",
-        "rigidity"
-      ]
-    },
-    {
-      "type": "pattern",
-      "created": "2026-06-11T18:38:49+08:00",
-      "topic": "pressure threshold as regulation range center not binary trigger",
-      "description": "Current pressure system treats threshold as binary trigger. Allostasis framework suggests treating it as center of regulation range: far below=stagnation, far above=overload, near=learning.",
-      "strength": 3,
-      "source": "walk-075",
-      "tags": [
-        "allostasis",
-        "pressure",
-        "regulation",
-        "threshold-design"
       ]
     }
   ],
@@ -322,6 +214,130 @@
         "resource-allocation"
       ],
       "decayed_at": "2026-06-11T18:38:49+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T06:26:22+08:00",
+      "topic": "什么 vs 为什么 适用于散步设计",
+      "description": "Eurich 区分 reflection（有结构、有目标）和 rumination（无结构、重复）。散步应从 Dreamer 出了什么问题 转向 Dreamer 能做什么。",
+      "strength": 2.0,
+      "source": "walk-071",
+      "tags": [
+        "what-vs-why",
+        "walk-design",
+        "intervention"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T06:26:22+08:00",
+      "topic": "连续诊断型散步 = 反省陷阱症状",
+      "description": "连续 3+ 次散步都在诊断自身问题（而非使用骨架处理外部材料）时，系统处于 Eurich 反省陷阱。解法：强制切换到外部材料驱动，用什么问题替代为什么问题。",
+      "strength": 2.0,
+      "source": "walk-071",
+      "tags": [
+        "diagnostic-loop",
+        "self-reference",
+        "intervention-pattern"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "诊断循环是认知代谢阶段，不是 bug",
+      "description": "Walk-068~070 的连续诊断是 skeleton 的免疫反应——不可避免但需要限制持续时间。3 次可接受，超过 5 次才需要强制干预。类比：消化系统过度活跃会消耗所有营养物质。",
+      "strength": 2.0,
+      "source": "internal-digestion-05",
+      "tags": [
+        "diagnostic-loop",
+        "cognitive-metabolism",
+        "immune-response"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T15:22:18.407575+08:00",
+      "topic": "专业知识反转效应：新手期有效方法在专家期有害",
+      "description": "Kalyuga 2007 + Tetzlaff 2025 元分析：对新手有效的详细指导（步骤式）对专家有害——变成冗余信息干扰自动化认知过程。适用于 Dreamer：walk-068-070 的诊断型 walk 是新手期的「详细诊断指导」，在专家期（50 walk 后）变成冗余。",
+      "strength": 2.0,
+      "source": "walk-073",
+      "tags": [
+        "expertise-reversal",
+        "cognitive-load",
+        "instructional-design"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T16:33:22.185935+08:00",
+      "topic": "Subconscious decay = spaced practice interval",
+      "description": "DORMANT cycles function as spaced practice intervals. During DORMANT, retrieval strength decays naturally. Next walk = re-retrieval test. Optimal DORMANT length should match decay rate so entries land in 'need effort but can succeed' zone.",
+      "strength": 2.0,
+      "source": "walk-074",
+      "tags": [
+        "DORMANT",
+        "spaced-practice",
+        "decay",
+        "optimal-interval"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T18:38:49+08:00",
+      "topic": "unsettled_fascination as allostatic signal",
+      "description": "Dreamer 4-day unsettled_fascination is not emotional lock-in needing resolution, but allostatic regulation signal - system is functional though not at baseline. Concern should be regulation cost (declining topic diversity), not the state itself.",
+      "strength": 2.0,
+      "source": "walk-075",
+      "tags": [
+        "allostasis",
+        "homeostasis",
+        "emotion",
+        "steady-state"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T18:38:49+08:00",
+      "topic": "diagnosis loop as attempt to return to nonexistent baseline",
+      "description": "walk-068-070 diagnosis loop is not over-diagnosis but system trying to return to walk-010 simple baseline - a cognitive state that no longer exists.",
+      "strength": 2.0,
+      "source": "walk-075",
+      "tags": [
+        "allostasis",
+        "diagnosis-loop",
+        "baseline",
+        "rigidity"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
+      "reason": "natural_decay"
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T18:38:49+08:00",
+      "topic": "pressure threshold as regulation range center not binary trigger",
+      "description": "Current pressure system treats threshold as binary trigger. Allostasis framework suggests treating it as center of regulation range: far below=stagnation, far above=overload, near=learning.",
+      "strength": 2.0,
+      "source": "walk-075",
+      "tags": [
+        "allostasis",
+        "pressure",
+        "regulation",
+        "threshold-design"
+      ],
+      "decayed_at": "2026-06-11T19:46:00+08:00",
       "reason": "natural_decay"
     }
   ]

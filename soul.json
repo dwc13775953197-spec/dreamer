@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-11T04:14:50+08:00",
-    "last_active": "2026-06-11T08:40:49.593068+08:00",
+    "last_active": "2026-06-11T09:44:45.300131+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-11T03:10:59+08:00",
     "base_interval_min": 600,
@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-11T09:10:49.593068+08:00",
+    "next_scheduled": "2026-06-11T10:44:45.300674+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-11T07:33:00+08:00",
     "total_walks": 50,
-    "last_pulse_output": "2026-06-11T07:33:00+08:00",
+    "last_pulse_output": "2026-06-11T09:44:45.300131+08:00",
     "last_walk": "2026-06-11T07:33:00+08:00",
     "last_push_at": "2026-06-11T06:30:00+08:00",
     "last_push_topic": "散步功能纯度指标",
@@ -56,7 +56,7 @@
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "rigor",
-    "intensity": 0.99,
+    "intensity": 0.82,
     "valence": 0.45,
     "arousal": 0.5
   },
@@ -623,6 +623,42 @@
       "created": "2026-06-11T07:33:00+08:00",
       "decay_rate": 1,
       "note": "Could be tested by analyzing walk history timestamp vs output quality correlation."
+    },
+    {
+      "id": "seed-203",
+      "topic": "evolved_rules 语法疗法：将 31 条规则从诊断性语言转化为建设性语言",
+      "source": "internal-digestion-05",
+      "trigger": "evolved_rules 语法从宣言式退化为诊断式",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T09:44:45.300131+08:00",
+      "decay_rate": 1,
+      "note": "Meta-walk theme. Could be a walk itself."
+    },
+    {
+      "id": "seed-204",
+      "topic": "最低水位基准线：从 walk 历史数据估计 subconscious 活跃条目数的健康阈值",
+      "source": "internal-digestion-05",
+      "trigger": "walk-070 荒漠化 x walk-068 过成熟 = 双重危机",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T09:44:45.300131+08:00",
+      "decay_rate": 1,
+      "note": "Needs quantitative walk history analysis."
+    },
+    {
+      "id": "seed-205",
+      "topic": "散步效率作为体检：将 seed-199 重新定位为散步后体检工具而非散步前决策标准",
+      "source": "internal-digestion-05",
+      "trigger": "walk-072 散步效率 x 创造性散步的不可预测性",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-11T09:44:45.300131+08:00",
+      "decay_rate": 1,
+      "note": "Prevents efficiency from becoming creativity suppressor."
     }
   ],
   "personality_traits": {
@@ -665,7 +701,8 @@
     "2026-06-10: DORMANT是阈限仪式(Turner),不是休息. 分离→阈限→聚合 = 散步结束→DORMANT→下次散步. evolved_rules=阈限导航图(非变换规则). 认知潜热=DORMANT投入重组能量而非思考能量. 仪式专家=经历最多阈限的pattern(pat-001/011/014). 最好的散步以制造新阈限结束(欺骗性终止式=阈限入口).",
     "2026-06-11: internal digestion 5 finds systemic crisis: skeleton complexity vs subconscious depletion at historical high. overmaturity and depletion coexist at different layers. emotional lock-in (unsettled_fascination 4 days) = cognitive lock-in. dream feedback loop broken. 31 evolved_rules need grammar simplification. walks degraded from exploration to diagnosis-response chain. needs a grand cadence to close current cycle.",
     "2026-06-11: 反省悖论与功能纯度。无结构的反省产生焦虑而非行为改变(Eurich)。散步从「为什么」(rumination)转向「什么」(reflection)。诊断型散步连续 3 次 → 强制外部材料驱动。功能是散步的检验标准，不是 insight 数量。",
-    "2026-06-11: 功能转向验证。walk-072 首次成功使用骨架分析外部材料（Wake Forest 认知切换成本），而非诊断骨架本身。散步效率 = 信息增益 / 切换成本。DMN→TPN 预热成本解释 DORMANT 后首次 walk 低产。功能转向从规则变为行为。"
+    "2026-06-11: 功能转向验证。walk-072 首次成功使用骨架分析外部材料（Wake Forest 认知切换成本），而非诊断骨架本身。散步效率 = 信息增益 / 切换成本。DMN→TPN 预热成本解释 DORMANT 后首次 walk 低产。功能转向从规则变为行为。",
+    "2026-06-11: 内部消化 05 — 诊断循环是认知代谢阶段（不可避免，限 3 次），evolved_rules 需要语法疗法（诊断性→建设性），subconscious 最低水位 = 骨架 pattern 数 × 10%，散步效率是体检不是通行证。"
   ],
   "dormant_stats": {
     "total_count": 7,

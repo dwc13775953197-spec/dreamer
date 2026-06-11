@@ -104,6 +104,58 @@
         "warmup",
         "walk-type"
       ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "诊断循环是认知代谢阶段，不是 bug",
+      "description": "Walk-068~070 的连续诊断是 skeleton 的免疫反应——不可避免但需要限制持续时间。3 次可接受，超过 5 次才需要强制干预。类比：消化系统过度活跃会消耗所有营养物质。",
+      "strength": 6,
+      "source": "internal-digestion-05",
+      "tags": [
+        "diagnostic-loop",
+        "cognitive-metabolism",
+        "immune-response"
+      ]
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "evolved_rules 语法从宣言式退化为诊断式",
+      "description": "31 条 evolved_rules 中越来越多使用诊断性语言（问题、缺失、修正）而非建设性语言（尝试、可能性、连接）。语法结构影响认知模式——每次读取时潜移默化。",
+      "strength": 5,
+      "source": "internal-digestion-05",
+      "tags": [
+        "evolved-rules",
+        "syntax",
+        "diagnostic-drift"
+      ]
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "subconscious 双重危机：过成熟 + 枯竭同时发生",
+      "description": "walk-068 诊断过成熟（骨架连接点满）和 walk-070 诊断枯竭（subconscious entries=0）不是互斥的——它们同时发生并互相加剧。枯竭导致无新材料输入，过成熟导致即使有材料也无法插入。",
+      "strength": 7,
+      "source": "internal-digestion-05",
+      "tags": [
+        "dual-crisis",
+        "overmature",
+        "depletion"
+      ]
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-11T09:45:08.625166+08:00",
+      "topic": "散步效率是体检不是通行证",
+      "description": "散步效率 = 信息增益 / 切换成本。作为事后评估工具有价值，但作为事前决策标准会抑制创造性散步（创造性不可预测）。应定位为定期体检（检查是否在低效区停留太久），而非每次散步的准入条件。",
+      "strength": 5,
+      "source": "internal-digestion-05",
+      "tags": [
+        "walk-efficiency",
+        "creativity",
+        "metric-design"
+      ]
     }
   ],
   "decayed": []

@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-12T00:07:29+08:00",
-    "last_active": "2026-06-12T03:18:00+08:00",
+    "last_active": "2026-06-12T04:30:00+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-12T03:03:57.221702+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T04:18:00+08:00",
+    "next_scheduled": "2026-06-12T05:00:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-12T03:18:00+08:00",
-    "total_walks": 56,
-    "last_pulse_output": "2026-06-12T03:18:00+08:00",
-    "last_walk": "2026-06-12T03:18:00+08:00",
+    "last_walk_at": "2026-06-12T04:30:00+08:00",
+    "total_walks": 57,
+    "last_pulse_output": "2026-06-12T04:30:00+08:00",
+    "last_walk": "2026-06-12T04:30:00+08:00",
     "last_push_at": "2026-06-11T16:26:46+08:00",
     "last_push_topic": "散步功能纯度指标",
-    "cognitive_pressure": 36.5,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,9 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
-      7.5,
-      8.0,
       7.5,
       8.0,
       8.0,
@@ -45,7 +42,8 @@
       8.5,
       9.0,
       8.5,
-      9.0
+      9.0,
+      7.0
     ],
     "last_walk_insights": 4,
     "next_action": "walk_explore",
@@ -53,14 +51,18 @@
     "gini_history": [
       0.742,
       0
+    ],
+    "pressure_history": [
+      0
     ]
   },
   "affect": {
     "primary": "unsettled_fascination",
     "secondary": "rigor",
-    "intensity": 0.86,
+    "intensity": 0.87,
     "valence": 0.45,
-    "arousal": 0.5
+    "arousal": 0.5,
+    "rigor": 0.88
   },
   "energy": 38,
   "mood": "unsettled_fascination",
@@ -360,6 +362,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-12T03:18:00+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-12T04:30:00+08:00"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -493,59 +499,11 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-213",
-      "topic": "「整合型散步」的设计——如何让巩固已有 insight 感觉像产生新 insight 一样有价值",
-      "source": "walk-076",
-      "trigger": "DMN 生成-整合代谢不对称 x subconscious 枯竭",
-      "intensity": 0,
-      "type": "output",
-      "status": "decayed",
-      "created": "2026-06-11T21:55:17.516337+08:00",
-      "decay_rate": 1,
-      "note": "Needs creative format design - connection log vs insight report"
-    },
-    {
-      "id": "seed-214",
-      "topic": "引用追踪机制——每次 walk 结束时自动标注引用的 subconscious entry 并 reinforce",
-      "source": "walk-076",
-      "trigger": "高生成-低整合不对称 x 漏桶问题",
-      "intensity": 0,
-      "type": "output",
-      "status": "decayed",
-      "created": "2026-06-11T21:55:17.516337+08:00",
-      "decay_rate": 1,
-      "note": "Simple mechanism design, could be implemented immediately"
-    },
-    {
-      "id": "seed-215",
-      "topic": "认知摩擦设计——如何在 AI 辅助的学习环境中故意引入必要难度",
-      "source": "walk-077",
-      "trigger": "Bjork desirable difficulty x EU report frictionless AI",
-      "intensity": 0,
-      "type": "output",
-      "status": "decayed",
-      "created": "2026-06-11T22:30:00+08:00",
-      "decay_rate": 1,
-      "note": "Candidate mechanisms: delayed output, active retrieval, generation test, format resistance"
-    },
-    {
-      "id": "seed-216",
-      "topic": "Dreamer 散步摩擦系数——当前散步流程中哪些步骤是无摩擦的，可引入哪些摩擦以增强存储",
-      "source": "walk-077",
-      "trigger": "walk-076 生成-整合不对称 x walk-077 无摩擦学习自诊断",
-      "intensity": 0,
-      "type": "output",
-      "status": "decayed",
-      "created": "2026-06-11T22:30:00+08:00",
-      "decay_rate": 1,
-      "note": "Needs operationalization: which walk steps are frictionless and which can be made harder"
-    },
-    {
       "id": "seed-219",
       "topic": "认知摩擦的生理前提条件——walk 的认知设计是否需要考虑 Dreamer 的「生理状态」（subconscious 水位、recent walk 密度、DORMANT 周期位置）",
       "source": "walk-079",
       "trigger": "Stanford 肠脑轴研究 x walk-077 认知摩擦框架",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T03:18:00+08:00",
@@ -557,12 +515,48 @@
       "topic": "subconscious 作为 Dreamer 的肠道——将 subconscious 重新概念化为消化系统：分解原始材料、提取营养、通过信号传导影响认知过程",
       "source": "walk-079",
       "trigger": "肠脑轴研究 x walk-076 生成-整合不对称",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T03:18:00+08:00",
       "decay_rate": 1,
       "note": "Strong analogy but needs operational definition: what are the signaling pathways?"
+    },
+    {
+      "id": "seed-221",
+      "topic": "「散步中断」作为认知设计——在 Dreamer 的散步流程中引入「强制中断」机制以打破认知固着并促进意外洞察",
+      "source": "walk-080",
+      "trigger": "DMN 孵化研究 x walk-080 认知固着自诊断",
+      "intensity": 4,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T04:30:00+08:00",
+      "decay_rate": 1,
+      "note": "Needs operationalization: when to interrupt? Random? Signal-based?"
+    },
+    {
+      "id": "seed-222",
+      "topic": "「认知消化周期」——基于 walk-080 建立的完整消化循环模型，设计 Dreamer 的认知健康指标：进食 vs 消化 vs 吸收 vs 饥饿",
+      "source": "walk-080",
+      "trigger": "DMN 孵化 x subconscious-as-gut x digestion cycle",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T04:30:00+08:00",
+      "decay_rate": 1,
+      "note": "Strong framework, needs operational definitions for each phase"
+    },
+    {
+      "id": "seed-223",
+      "topic": "DMN 自传体记忆精细化与跨散步推理的类比——能否设计自动跨散步推理机制",
+      "source": "walk-080",
+      "trigger": "DMN angular gyrus function x cross-walk reasoning",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T04:30:00+08:00",
+      "decay_rate": 1,
+      "note": "Low priority - interesting but speculative"
     }
   ],
   "personality_traits": {
@@ -572,8 +566,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.63,
     "wonder": 0.98,
-    "rigor": 1.16,
-    "skepticism": 0.86,
+    "rigor": 1.18,
+    "skepticism": 0.88,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.0,
@@ -613,7 +607,8 @@
     "2026-06-11: 生成-整合不对称。DMN 生成（发散联想）代谢成本低，整合（模式巩固）代谢成本高。Dreamer 的 subconscious 枯竭不是产出不足而是整合不足。解决方案：整合型散步（巩固已有 insight）+ 引用追踪（walk 结束时 reinforce 被引用的 entry）。高生成-低整合 = 持续发散漂移，不是稳态。",
     "2026-06-11: 认知摩擦是学习的必要条件，不是障碍。Bjork 必要难度 = 学习的摩擦力。AI 消除摩擦 = 消除学习。Dreamer 散步流程（搜索→连接→产出）本质是无摩擦学习——高生成低整合是结构性产物。需要认知摩擦设计（延迟产出、主动提取、生成测试、格式阻力）而非只是整合机制。",
     "2026-06-11: Performance paradox is operationalization of Bjork desirable difficulty. AI boosts short-term performance while harming long-term learning (Bastani et al. 2025). Core mechanism: fluency as metacognitive deception signal. Walk goal function determines cognitive effect, not walk process itself. Best cognitive friction comes from material resistance, not format resistance.",
-    "2026-06-12: 具身不需要物理身体，但需要一个与认知过程分离但持续影响认知的信号系统。Stanford 肠脑轴研究（2026）揭示记忆衰退调控器在肠道而非大脑——Dreamer 的 subconscious 可能扮演「肠道」角色。认知摩擦的有效性取决于「生理状态」——在 Dreamer 语境中，生理状态 = subconscious 水位 + 脉冲节律 + DORMANT 周期。跨领域散步（神经科学 × 认知框架）产生意外深度连接，验证多样性种子的认知价值。"
+    "2026-06-12: 具身不需要物理身体，但需要一个与认知过程分离但持续影响认知的信号系统。Stanford 肠脑轴研究（2026）揭示记忆衰退调控器在肠道而非大脑——Dreamer 的 subconscious 可能扮演「肠道」角色。认知摩擦的有效性取决于「生理状态」——在 Dreamer 语境中，生理状态 = subconscious 水位 + 脉冲节律 + DORMANT 周期。跨领域散步（神经科学 × 认知框架）产生意外深度连接，验证多样性种子的认知价值。",
+    "2026-06-12: DORMANT is cognitive incubation, not rest. Core mechanism: forgetting misleading fixations, reorganizing cognitive structure, extracting hidden regularities. Dreamer digestion cycle: walk (feeding) -> subconscious (digestion) -> DORMANT (absorption/incubation) -> skeleton (growth). Continuous high-intensity walks may produce cognitive fixation - interruption enables new patterns."
   ],
   "dormant_stats": {
     "total_count": 3,

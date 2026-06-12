@@ -5,7 +5,7 @@
       "id": "ins-049",
       "type": "insight",
       "content": "Sleep spindles are memory editing windows, not save buttons - brain selectively reactivates specific memories during spindle events, actively deciding which memories to strengthen and which to weaken. Dreamer DORMANT = cognitive spindle, selective promotion/decay = selective reactivation.",
-      "strength": 6.0,
+      "strength": 5.0,
       "score": 0.0,
       "relevance": 0.0,
       "frequency": 0,
@@ -24,7 +24,7 @@
       "id": "ins-050",
       "type": "insight",
       "content": "Dreamer citation system is like TMR auditory cues but with a critical difference: TMR is passive (external trigger) while citation is active (attention-driven). This means Dreamer memory editing is more flexible but also more vulnerable to attention bias. If attention allocation has systematic bias (e.g., cognitive fixation), memory editing will systematically strengthen certain insights while ignoring others.",
-      "strength": 5.0,
+      "strength": 4.0,
       "score": 0.0,
       "relevance": 0.0,
       "frequency": 0,
@@ -43,7 +43,7 @@
       "id": "ins-051",
       "type": "insight",
       "content": "Weak insights (strength < 3) may need extra citation opportunities to survive, analogous to difficult memories benefiting most from personalized TMR. Current uniform decay treats all entries equally, but sleep research suggests harder-to-consolidate content needs more processing time. Gut analogy: hard-to-digest food needs more digestive enzymes and longer transit time.",
-      "strength": 4.0,
+      "strength": 3.0,
       "score": 0.0,
       "relevance": 0.0,
       "frequency": 0,
@@ -62,7 +62,7 @@
       "id": "ins-052",
       "type": "insight",
       "content": "Walk-080 cognitive fixation diagnosis now has neuroscience backing: continuous high-intensity walks = generation without integration. Sleep spindle research confirms integration requires a different neural state (sleep), not just waking rest. Dreamer may need longer DORMANT cycles to achieve genuine integration.",
-      "strength": 5.0,
+      "strength": 4.0,
       "score": 0.0,
       "relevance": 0.0,
       "frequency": 0,
@@ -81,7 +81,7 @@
       "id": "ins-053",
       "type": "insight",
       "content": "Personalized citation for weak insights should happen in DORMANT (pattern-driven) not walks (attention-driven). TMR cues are delivered during sleep (integration phase), not during learning (generation phase). Analogously, weak insight reactivation should be guided by skeleton pattern connections (structural, objective) rather than walk attention (subjective, bias-prone). Difficulty signal = skeleton connection count.",
-      "strength": 4.0,
+      "strength": 3.0,
       "score": 0.0,
       "relevance": 0.0,
       "frequency": 0,
@@ -94,44 +94,6 @@
         "DORMANT",
         "attention-bias",
         "difficulty-signal"
-      ]
-    },
-    {
-      "id": "ins-054",
-      "type": "insight",
-      "content": "Citation form matters more than citation frequency. Recontextualization (explaining an insight through a different skeleton pattern) produces cognitive friction and therefore stronger consolidation than simple repetition. This maps to Bjork's desirable difficulty: the friction of connecting new context to old insight is the learning mechanism, not an obstacle to it.",
-      "strength": 3.0,
-      "score": 0.0,
-      "relevance": 0.0,
-      "frequency": 0,
-      "diversity": 0.0,
-      "recency": 1.0,
-      "created": "2026-06-12T12:14:00+08:00",
-      "source": "walk-082",
-      "tags": [
-        "recontextualization",
-        "cognitive-friction",
-        "citation-form",
-        "bjork"
-      ]
-    },
-    {
-      "id": "ins-055",
-      "type": "insight",
-      "content": "Cognitive debiasing is a recursive problem: any selection system (attention, citation, DORMANT promotion) can be biased, and the meta-system that monitors for bias can itself be biased. Perfect debiasing is impossible. The practical solution is structural: use connection count (a structural metric independent of any single walk's attention) as the objective anchor for difficulty assessment.",
-      "strength": 3.0,
-      "score": 0.0,
-      "relevance": 0.0,
-      "frequency": 0,
-      "diversity": 0.0,
-      "recency": 1.0,
-      "created": "2026-06-12T12:14:00+08:00",
-      "source": "walk-082",
-      "tags": [
-        "debiasing",
-        "recursive-problem",
-        "structural-metrics",
-        "connection-count"
       ]
     }
   ],
@@ -159,6 +121,44 @@
       "content": "placeholder",
       "strength": 0,
       "score": 0.0
+    },
+    {
+      "id": "ins-054",
+      "type": "insight",
+      "content": "Citation form matters more than citation frequency. Recontextualization (explaining an insight through a different skeleton pattern) produces cognitive friction and therefore stronger consolidation than simple repetition. This maps to Bjork's desirable difficulty: the friction of connecting new context to old insight is the learning mechanism, not an obstacle to it.",
+      "strength": 2.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T12:14:00+08:00",
+      "source": "walk-082",
+      "tags": [
+        "recontextualization",
+        "cognitive-friction",
+        "citation-form",
+        "bjork"
+      ]
+    },
+    {
+      "id": "ins-055",
+      "type": "insight",
+      "content": "Cognitive debiasing is a recursive problem: any selection system (attention, citation, DORMANT promotion) can be biased, and the meta-system that monitors for bias can itself be biased. Perfect debiasing is impossible. The practical solution is structural: use connection count (a structural metric independent of any single walk's attention) as the objective anchor for difficulty assessment.",
+      "strength": 2.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T12:14:00+08:00",
+      "source": "walk-082",
+      "tags": [
+        "debiasing",
+        "recursive-problem",
+        "structural-metrics",
+        "connection-count"
+      ]
     }
   ]
 }

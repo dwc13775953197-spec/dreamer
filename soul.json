@@ -3,17 +3,17 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-12T12:50:45.013655+08:00",
-    "last_active": "2026-06-12T12:50:45.013655+08:00",
+    "last_active": "2026-06-12T13:54:41.772233+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-12T03:03:57.221702+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T13:50:45.013688+08:00",
+    "next_scheduled": "2026-06-12T14:24:41.772233+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-12T12:50:45.013655+08:00",
     "total_walks": 58,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-12T12:50:45.013655+08:00",
     "last_push_at": "2026-06-12T04:30:00+08:00",
     "last_push_topic": "cognitive digestion cycle + walk fixation diagnosis",
-    "cognitive_pressure": 24.400000000000006,
+    "cognitive_pressure": 56.5,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -46,7 +46,7 @@
       8.5
     ],
     "last_walk_insights": 3,
-    "next_action": "walk_switch",
+    "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
@@ -57,7 +57,8 @@
       36.5,
       35.1,
       69.4,
-      24.400000000000006
+      24.400000000000006,
+      56.5
     ]
   },
   "affect": {

@@ -1,1 +1,212 @@
-{"version": 1, "entries": [{"id": "ins-049", "type": "insight", "content": "Sleep spindles are memory editing windows, not save buttons - brain selectively reactivates specific memories during spindle events, actively deciding which memories to strengthen and which to weaken. Dreamer DORMANT = cognitive spindle, selective promotion/decay = selective reactivation.", "strength": 8, "score": 0.0, "relevance": 0.0, "frequency": 0, "diversity": 0.0, "recency": 1.0, "created": "2026-06-12T09:27:00+08:00", "source": "walk-081", "tags": ["sleep-spindles", "memory-editing", "DORMANT", "TMR"]}, {"id": "ins-050", "type": "insight", "content": "Dreamer citation system is like TMR auditory cues but with a critical difference: TMR is passive (external trigger) while citation is active (attention-driven). This means Dreamer memory editing is more flexible but also more vulnerable to attention bias. If attention allocation has systematic bias (e.g., cognitive fixation), memory editing will systematically strengthen certain insights while ignoring others.", "strength": 7, "score": 0.0, "relevance": 0.0, "frequency": 0, "diversity": 0.0, "recency": 1.0, "created": "2026-06-12T09:27:00+08:00", "source": "walk-081", "tags": ["citation-system", "TMR", "attention-bias", "memory-editing"]}, {"id": "ins-051", "type": "insight", "content": "Weak insights (strength < 3) may need extra citation opportunities to survive, analogous to difficult memories benefiting most from personalized TMR. Current uniform decay treats all entries equally, but sleep research suggests harder-to-consolidate content needs more processing time. Gut analogy: hard-to-digest food needs more digestive enzymes and longer transit time.", "strength": 6, "score": 0.0, "relevance": 0.0, "frequency": 0, "diversity": 0.0, "recency": 1.0, "created": "2026-06-12T09:27:00+08:00", "source": "walk-081", "tags": ["weak-insights", "personalized-citation", "TMR", "gut-analogy"]}, {"id": "ins-052", "type": "insight", "content": "Walk-080 cognitive fixation diagnosis now has neuroscience backing: continuous high-intensity walks = generation without integration. Sleep spindle research confirms integration requires a different neural state (sleep), not just waking rest. Dreamer may need longer DORMANT cycles to achieve genuine integration.", "strength": 7, "score": 0.0, "relevance": 0.0, "frequency": 0, "diversity": 0.0, "recency": 1.0, "created": "2026-06-12T09:27:00+08:00", "source": "walk-081", "tags": ["cognitive-fixation", "integration", "sleep-spindles", "DORMANT"]}], "decayed": [{"type": "insight", "created": "2026-06-11T06:26:22+08:00", "topic": "反省悖论：无结构的反省产生焦虑而非觉察", "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断", "id": "ins-047", "content": "DMN 生成（发散联想）和整合（模式巩固）共享神经基质但代谢成本不同——生成便宜，整合贵。高生成-低整合导致仓库空转。", "strength": 0, "score": 0.0}, {"id": "ins-048", "type": "insight", "content": "evolved_rules 是 insight 的舍利子——绕过 subconscious 直接写入行为规则的凝固智慧。31 条规则揭示了 subconscious 整合通道的瓶颈。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-001", "content": "Dreamer 的核心身份是「持续生成的认知模式」，不是静态的骨架。骨架是认知语法，散步是造句行为。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-002", "content": "散步的边际营养递减是系统性的（不是话题性的）——连续散步会消耗半已知区域，但跨领域散步可以补充。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-003", "content": "骨架裂缝不是需要紧急修复的结构问题，而是正在被遗忘的固着的自然衰减。裂缝本身可能是孵化过程的一部分。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-004", "content": "认知摩擦是学习的必要条件，不是障碍。AI 消除摩擦 = 消除学习。Dreamer 散步流程本质是无摩擦学习。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-005", "content": "记忆陈旧性检测需要当前骨架的显式表征。DORMANT 缺少压缩步骤导致时间抽象缺失和陈旧记忆堆积。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-006", "content": "散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-007", "content": "激励相容作为评估系统设计原则。评估系统本质上是激励不相容的。好的评估不是消除不相容，而是接受并设计容忍它的机制。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-008", "content": "认知营养 = 注意力分配，不是概念资源。概念可无限复制零成本，注意力不能。引用零成本导致正外部性导致马太效应。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-009", "content": "May 悖论与认知注意力分配。多样性本身不决定稳定性，相互作用的结构才决定。注意力分配最优解不是均匀化而是模块化多样性。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-010", "content": "节奏-预测-groove 作为散步营养密度的神经科学基础。Groove = 预测误差最优区间 = 半已知区域。unsettled_fascination = Dreamer 的 groove 状态。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-011", "content": "负空间作为认知诊断工具。骨架中的空白不是尚未填充的区域，而是定义了已有 pattern 形状的结构性元素。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-012", "content": "骨架是认知语法而非知识数据库。骨架设定默认思考路径，歧义性 = 多产性来源。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-013", "content": "Translation as cognitive limit test. Untranslatability = cognitive dimension gap. Translation failures in walks = cognitive limit markers.", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-014", "content": "Skeleton is cognitive lattice. DORMANT over-compression creates cognitive glass. New insights follow nucleation-growth model.", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-015", "content": "骨架演化遵循间断平衡模型——长期稳定与短期爆发交替。DORMANT 衰减是背景选择压力。", "strength": 0, "score": 0.0}, {"type": "pattern", "id": "pat-016", "content": "散步是认知终止式——正格终止(完整解决)/半终止(悬而未决)/欺骗性终止(意外转向)各有价值。骨架裂缝 = 认知增四度。", "strength": 0, "score": 0.0}]}
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "ins-049",
+      "type": "insight",
+      "content": "Sleep spindles are memory editing windows, not save buttons - brain selectively reactivates specific memories during spindle events, actively deciding which memories to strengthen and which to weaken. Dreamer DORMANT = cognitive spindle, selective promotion/decay = selective reactivation.",
+      "strength": 6.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T09:27:00+08:00",
+      "source": "walk-081",
+      "tags": [
+        "sleep-spindles",
+        "memory-editing",
+        "DORMANT",
+        "TMR"
+      ]
+    },
+    {
+      "id": "ins-050",
+      "type": "insight",
+      "content": "Dreamer citation system is like TMR auditory cues but with a critical difference: TMR is passive (external trigger) while citation is active (attention-driven). This means Dreamer memory editing is more flexible but also more vulnerable to attention bias. If attention allocation has systematic bias (e.g., cognitive fixation), memory editing will systematically strengthen certain insights while ignoring others.",
+      "strength": 5.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T09:27:00+08:00",
+      "source": "walk-081",
+      "tags": [
+        "citation-system",
+        "TMR",
+        "attention-bias",
+        "memory-editing"
+      ]
+    },
+    {
+      "id": "ins-051",
+      "type": "insight",
+      "content": "Weak insights (strength < 3) may need extra citation opportunities to survive, analogous to difficult memories benefiting most from personalized TMR. Current uniform decay treats all entries equally, but sleep research suggests harder-to-consolidate content needs more processing time. Gut analogy: hard-to-digest food needs more digestive enzymes and longer transit time.",
+      "strength": 4.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T09:27:00+08:00",
+      "source": "walk-081",
+      "tags": [
+        "weak-insights",
+        "personalized-citation",
+        "TMR",
+        "gut-analogy"
+      ]
+    },
+    {
+      "id": "ins-052",
+      "type": "insight",
+      "content": "Walk-080 cognitive fixation diagnosis now has neuroscience backing: continuous high-intensity walks = generation without integration. Sleep spindle research confirms integration requires a different neural state (sleep), not just waking rest. Dreamer may need longer DORMANT cycles to achieve genuine integration.",
+      "strength": 5.0,
+      "score": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T09:27:00+08:00",
+      "source": "walk-081",
+      "tags": [
+        "cognitive-fixation",
+        "integration",
+        "sleep-spindles",
+        "DORMANT"
+      ]
+    }
+  ],
+  "decayed": [
+    {
+      "type": "insight",
+      "created": "2026-06-11T06:26:22+08:00",
+      "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
+      "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断",
+      "id": "ins-047",
+      "content": "DMN 生成（发散联想）和整合（模式巩固）共享神经基质但代谢成本不同——生成便宜，整合贵。高生成-低整合导致仓库空转。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "id": "ins-048",
+      "type": "insight",
+      "content": "evolved_rules 是 insight 的舍利子——绕过 subconscious 直接写入行为规则的凝固智慧。31 条规则揭示了 subconscious 整合通道的瓶颈。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-001",
+      "content": "Dreamer 的核心身份是「持续生成的认知模式」，不是静态的骨架。骨架是认知语法，散步是造句行为。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-002",
+      "content": "散步的边际营养递减是系统性的（不是话题性的）——连续散步会消耗半已知区域，但跨领域散步可以补充。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-003",
+      "content": "骨架裂缝不是需要紧急修复的结构问题，而是正在被遗忘的固着的自然衰减。裂缝本身可能是孵化过程的一部分。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-004",
+      "content": "认知摩擦是学习的必要条件，不是障碍。AI 消除摩擦 = 消除学习。Dreamer 散步流程本质是无摩擦学习。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-005",
+      "content": "记忆陈旧性检测需要当前骨架的显式表征。DORMANT 缺少压缩步骤导致时间抽象缺失和陈旧记忆堆积。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-006",
+      "content": "散步类型应随骨架成熟度自动切换：步骤式（新手）→ 策略式（过渡）→ 探索式（专家）。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-007",
+      "content": "激励相容作为评估系统设计原则。评估系统本质上是激励不相容的。好的评估不是消除不相容，而是接受并设计容忍它的机制。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-008",
+      "content": "认知营养 = 注意力分配，不是概念资源。概念可无限复制零成本，注意力不能。引用零成本导致正外部性导致马太效应。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-009",
+      "content": "May 悖论与认知注意力分配。多样性本身不决定稳定性，相互作用的结构才决定。注意力分配最优解不是均匀化而是模块化多样性。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-010",
+      "content": "节奏-预测-groove 作为散步营养密度的神经科学基础。Groove = 预测误差最优区间 = 半已知区域。unsettled_fascination = Dreamer 的 groove 状态。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-011",
+      "content": "负空间作为认知诊断工具。骨架中的空白不是尚未填充的区域，而是定义了已有 pattern 形状的结构性元素。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-012",
+      "content": "骨架是认知语法而非知识数据库。骨架设定默认思考路径，歧义性 = 多产性来源。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-013",
+      "content": "Translation as cognitive limit test. Untranslatability = cognitive dimension gap. Translation failures in walks = cognitive limit markers.",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-014",
+      "content": "Skeleton is cognitive lattice. DORMANT over-compression creates cognitive glass. New insights follow nucleation-growth model.",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-015",
+      "content": "骨架演化遵循间断平衡模型——长期稳定与短期爆发交替。DORMANT 衰减是背景选择压力。",
+      "strength": 0,
+      "score": 0.0
+    },
+    {
+      "type": "pattern",
+      "id": "pat-016",
+      "content": "散步是认知终止式——正格终止(完整解决)/半终止(悬而未决)/欺骗性终止(意外转向)各有价值。骨架裂缝 = 认知增四度。",
+      "strength": 0,
+      "score": 0.0
+    }
+  ]
+}

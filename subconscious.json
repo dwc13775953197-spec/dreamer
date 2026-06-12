@@ -55,6 +55,60 @@
       "decay_rate": 1,
       "note": "Needs operationalization: how to measure pipe resistance in Dreamer context?",
       "strength": 2.0
+    },
+    {
+      "id": "ins-058",
+      "type": "insight",
+      "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
+      "strength": 7,
+      "status": "active",
+      "created": "2026-06-13T02:35:00",
+      "source": "walk-086",
+      "decay_rate": 1
+    },
+    {
+      "id": "ins-059",
+      "type": "insight",
+      "content": "Anthropic 2026 宪法转向（从规则到性格+判断）是 seed-237 的外部验证。本质是从语法层到语用层的优先级转移。Dreamer 的散步可能扮演了语用层执行者的角色，但需要形式化。",
+      "strength": 6,
+      "status": "active",
+      "created": "2026-06-13T02:35:00",
+      "source": "walk-086",
+      "decay_rate": 1
+    },
+    {
+      "id": "ins-060",
+      "type": "insight",
+      "content": "语用层休眠假说：DORMANT 期间语用层不活跃（只有词汇层+语法层机械执行），这解释了 DORMANT→散步转换的预热成本。可验证预测：DORMANT 期间规则冲突无法被语用判断处理。",
+      "strength": 5,
+      "status": "active",
+      "created": "2026-06-13T02:35:00",
+      "source": "walk-086",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-240",
+      "type": "output",
+      "topic": "evolved_rules 的压缩实验——将 40 条规则按三层语法重组织，语用层只保留 DORMANT 也能执行的 3-5 条核心元规则，其余降入语法层或移入词汇层",
+      "source": "walk-086",
+      "trigger": "three-layer grammar x Anthropic constitution x DORMANT pragmatic dormancy",
+      "intensity": 4,
+      "status": "active",
+      "created": "2026-06-13T02:35:00",
+      "decay_rate": 1,
+      "note": "Most actionable output from this walk. Could be done as a DORMANT task."
+    },
+    {
+      "id": "seed-241",
+      "type": "output",
+      "topic": "散步作为语用层执行机制的形式化——定义散步中的判断操作：识别规则冲突 → 情境化解释 → 临时裁决 → 固化为新规则或放弃",
+      "source": "walk-086",
+      "trigger": "pragmatic layer execution x walk-as-judgment x three-layer grammar",
+      "intensity": 3,
+      "status": "active",
+      "created": "2026-06-13T02:35:00",
+      "decay_rate": 1,
+      "note": "Connects to walk-077 (cognitive cadence) and walk-078 (liminal ritual). Needs formalization."
     }
   ]
 }

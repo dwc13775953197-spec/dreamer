@@ -1,181 +1,6 @@
 {
   "version": 1,
-  "entries": [
-    {
-      "id": "ins-050",
-      "type": "insight",
-      "content": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消除了摩擦力，也消除了学习。",
-      "strength": 0.7,
-      "score": 0.42,
-      "relevance": 0.7,
-      "frequency": 2,
-      "diversity": 0.3,
-      "recency": 0.9,
-      "consolidation": 0,
-      "richness": 0.6,
-      "refs": [
-        "walk-077",
-        "walk-076",
-        "walk-078",
-        "walk-079"
-      ],
-      "created": "2026-06-11T22:30:00+08:00",
-      "source": "walk-077"
-    },
-    {
-      "id": "ins-051",
-      "type": "insight",
-      "content": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需要在散步中人为引入认知摩擦。",
-      "strength": 0.7,
-      "score": 0.42,
-      "relevance": 0.7,
-      "frequency": 2,
-      "diversity": 0.3,
-      "recency": 0.9,
-      "consolidation": 0,
-      "richness": 0.6,
-      "refs": [
-        "walk-077",
-        "walk-076",
-        "walk-078",
-        "walk-079"
-      ],
-      "created": "2026-06-11T22:30:00+08:00",
-      "source": "walk-077"
-    },
-    {
-      "id": "ins-053",
-      "type": "insight",
-      "content": "记忆衰退的调控器不在大脑里，在肠道里。Stanford 2026 研究证明：肠道菌群通过迷走神经远程调控海马体记忆形成，记忆衰退的时间线不是硬编码的而是被身体主动调控的。",
-      "strength": 0,
-      "score": 0.35,
-      "relevance": 0.5,
-      "frequency": 1,
-      "diversity": 0.9,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.7,
-      "refs": [
-        "walk-079"
-      ],
-      "created": "2026-06-12T03:18:00+08:00",
-      "source": "walk-079"
-    },
-    {
-      "id": "ins-054",
-      "type": "insight",
-      "content": "Dreamer 的 subconscious 可能扮演「肠道」角色——一个与认知过程分离但通过持续信号传导（引用、连接、衰减、重组）影响认知的器官。subconscious 枯竭 = 肠道菌群失调 = 信号传导受阻 = 整合失败。",
-      "strength": 0,
-      "score": 0.35,
-      "relevance": 0.6,
-      "frequency": 1,
-      "diversity": 0.8,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.8,
-      "refs": [
-        "walk-079"
-      ],
-      "created": "2026-06-12T03:18:00+08:00",
-      "source": "walk-079"
-    },
-    {
-      "id": "ins-055",
-      "type": "insight",
-      "content": "Walk-077 的「认知摩擦」框架有一个生物学对应物：身体的炎症状态直接调节记忆巩固效率。认知摩擦的有效性可能取决于生理状态——在 Dreamer 的语境中，「生理状态」= subconscious 水位 + 脉冲节律 + DORMANT 周期位置。",
-      "strength": 0,
-      "score": 0.35,
-      "relevance": 0.6,
-      "frequency": 1,
-      "diversity": 0.7,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.7,
-      "refs": [
-        "walk-079"
-      ],
-      "created": "2026-06-12T03:18:00+08:00",
-      "source": "walk-079"
-    },
-    {
-      "id": "ref-20260612",
-      "type": "reflection",
-      "source": "dormant_deep",
-      "created": "2026-06-12T03:03:57.221702+08:00",
-      "content": "DORMANT 深度反思 2026-06-12 03:03\n\n## 突触缩放\n- 衰减系数范围: 0.85-0.92 (调整因子: 1.000)\n- 平均 strength: 3.00 -> 1.80\n- 枢纽节点: 0 个 (无)\n\n## 休眠与重激活\n- 活跃条目: 1, 休眠条目: 0\n- 重激活: 0 条 (无)\n\n## 推理审计\n- 审计目标: 0 条\n- 结果: 无\n- 可证伪性: N/A\n\n## 信念冲突\n- 新冲突: 0 条 (无新冲突)\n\n## 认知多样性\n- 主题熵: 0.000 (低)\n- 多样性种子: 已添加\n\n## 认知压力\n- 压力释放: 17.5 (基础17.5 + 审计0 + 冲突0)\n- 当前压力: 17.5\n- 趋势: 数据不足\n\n## 决策\n- 下一动作: walk_explore\n- 散步 insight 保护: 未触发\n",
-      "strength": 1.0,
-      "score": 0.3,
-      "relevance": 0.5,
-      "frequency": 1,
-      "diversity": 0.2,
-      "recency": 1.0,
-      "consolidation": 0,
-      "richness": 0.5,
-      "refs": []
-    },
-    {
-      "id": "ins-038",
-      "type": "insight",
-      "content": "DORMANT is Dreamer's incubation period - active refine-and-restructure: forget misleading fixations, reorganize cognitive structure, extract hidden regularities.",
-      "strength": 1.0,
-      "score": 0.45,
-      "relevance": 0.6,
-      "frequency": 0.3,
-      "diversity": 0.4,
-      "recency": 0.9,
-      "consolidation": 0.3,
-      "richness": 0.5,
-      "refs": [
-        "walk-080",
-        "walk-076",
-        "walk-079"
-      ],
-      "created": "2026-06-12T04:30:00+08:00",
-      "source": "walk-080"
-    },
-    {
-      "id": "ins-039",
-      "type": "insight",
-      "content": "Continuous high-intensity walks may produce cognitive fixation - constantly building connections between existing insights rather than allowing new patterns to emerge.",
-      "strength": 1.0,
-      "score": 0.42,
-      "relevance": 0.5,
-      "frequency": 0.2,
-      "diversity": 0.3,
-      "recency": 0.9,
-      "consolidation": 0.2,
-      "richness": 0.4,
-      "refs": [
-        "walk-080",
-        "walk-076",
-        "walk-077",
-        "walk-078",
-        "walk-079"
-      ],
-      "created": "2026-06-12T04:30:00+08:00",
-      "source": "walk-080"
-    },
-    {
-      "id": "pat-036",
-      "type": "pattern",
-      "content": "Dreamer cognitive digestion cycle: walk (feeding) -> subconscious (digestion) -> DORMANT (absorption/incubation) -> skeleton (growth). Signaling = citation tracking + DORMANT promotion.",
-      "strength": 2.5,
-      "score": 0.5,
-      "relevance": 0.7,
-      "frequency": 0.3,
-      "diversity": 0.5,
-      "recency": 0.9,
-      "consolidation": 0.4,
-      "richness": 0.6,
-      "refs": [
-        "walk-080",
-        "walk-076",
-        "walk-079"
-      ],
-      "created": "2026-06-12T04:30:00+08:00",
-      "source": "walk-080"
-    }
-  ],
+  "entries": [],
   "decayed": [
     {
       "type": "insight",
@@ -295,6 +120,87 @@
       "strength": -1.0,
       "final_strength": -1.0,
       "decayed_at": "2026-06-12T06:21:38+08:00"
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T22:30:00+08:00",
+      "topic": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消",
+      "description": "AI 的「无摩擦」不是减少学习的难度，而是移除产生深度处理的条件。Bjork 的必要难度是学习的摩擦力而非障碍。AI 消除了摩擦力，也消除了学习。",
+      "strength": 0,
+      "source": "walk-077",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-11T22:30:00+08:00",
+      "topic": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需",
+      "description": "Dreamer 的「高生成-低整合」是「无摩擦学习」的结构性产物。散步的设计（搜索→连接→产出）本质上就是无摩擦流程。需要在散步中人为引入认知摩擦。",
+      "strength": 0,
+      "source": "walk-077",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T03:18:00+08:00",
+      "topic": "记忆衰退的调控器不在大脑里，在肠道里。Stanford 2026 研究证明：肠道菌群通过迷走神经远程调控海马体记忆形成，",
+      "description": "记忆衰退的调控器不在大脑里，在肠道里。Stanford 2026 研究证明：肠道菌群通过迷走神经远程调控海马体记忆形成，记忆衰退的时间线不是硬编码的而是被身体主动调控的。",
+      "strength": 0,
+      "source": "walk-079",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T03:18:00+08:00",
+      "topic": "Dreamer 的 subconscious 可能扮演「肠道」角色——一个与认知过程分离但通过持续信号传导（引用、连接、",
+      "description": "Dreamer 的 subconscious 可能扮演「肠道」角色——一个与认知过程分离但通过持续信号传导（引用、连接、衰减、重组）影响认知的器官。subconscious 枯竭 = 肠道菌群失调 = 信号传导受阻 = 整合失败。",
+      "strength": 0,
+      "source": "walk-079",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T03:18:00+08:00",
+      "topic": "Walk-077 的「认知摩擦」框架有一个生物学对应物：身体的炎症状态直接调节记忆巩固效率。认知摩擦的有效性可能取决于生",
+      "description": "Walk-077 的「认知摩擦」框架有一个生物学对应物：身体的炎症状态直接调节记忆巩固效率。认知摩擦的有效性可能取决于生理状态——在 Dreamer 的语境中，「生理状态」= subconscious 水位 + 脉冲节律 + DORMANT 周期位置。",
+      "strength": 0,
+      "source": "walk-079",
+      "tags": []
+    },
+    {
+      "type": "reflection",
+      "created": "2026-06-12T03:03:57.221702+08:00",
+      "topic": "DORMANT 深度反思 2026-06-12 03:03\n\n## 突触缩放\n- 衰减系数范围: 0.85-0.92 (",
+      "description": "DORMANT 深度反思 2026-06-12 03:03\n\n## 突触缩放\n- 衰减系数范围: 0.85-0.92 (调整因子: 1.000)\n- 平均 strength: 3.00 -> 1.80\n- 枢纽节点: 0 个 (无)\n\n## 休眠与重激活\n- 活跃条目: 1, 休眠条目: 0\n- 重激活: 0 条 (无)\n\n## 推理审计\n- 审计目标: 0 条\n- 结果: 无\n- 可证伪性: N/A\n\n## 信念冲突\n- 新冲突: 0 条 (无新冲突)\n\n## 认知多样性\n- 主题熵: 0.000 (低)\n- 多样性种子: 已添加\n\n## 认知压力\n- 压力释放: 17.5 (基础17.5 + 审计0 + 冲突0)\n- 当前压力: 17.5\n- 趋势: 数据不足\n\n## 决策\n- 下一动作: walk_explore\n- 散步 insight 保护: 未触发\n",
+      "strength": 0,
+      "source": "dormant_deep",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T04:30:00+08:00",
+      "topic": "DORMANT is Dreamer's incubation period - active refine-and-r",
+      "description": "DORMANT is Dreamer's incubation period - active refine-and-restructure: forget misleading fixations, reorganize cognitive structure, extract hidden regularities.",
+      "strength": 0,
+      "source": "walk-080",
+      "tags": []
+    },
+    {
+      "type": "insight",
+      "created": "2026-06-12T04:30:00+08:00",
+      "topic": "Continuous high-intensity walks may produce cognitive fixati",
+      "description": "Continuous high-intensity walks may produce cognitive fixation - constantly building connections between existing insights rather than allowing new patterns to emerge.",
+      "strength": 0,
+      "source": "walk-080",
+      "tags": []
+    },
+    {
+      "type": "pattern",
+      "created": "2026-06-12T04:30:00+08:00",
+      "topic": "Dreamer cognitive digestion cycle: walk (feeding) -> subcons",
+      "description": "Dreamer cognitive digestion cycle: walk (feeding) -> subconscious (digestion) -> DORMANT (absorption/incubation) -> skeleton (growth). Signaling = citation tracking + DORMANT promotion.",
+      "strength": 1.5,
+      "source": "walk-080",
+      "tags": []
     }
   ]
 }

@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T00:28:49+0800",
+    "next_scheduled": "2026-06-13T01:33:43+0800",
     "event_queue": [],
     "last_walk_at": "2026-06-12T23:28:49+0800",
     "total_walks": 60,
-    "last_pulse_output": "2026-06-12T23:28:49+0800",
+    "last_pulse_output": "2026-06-13T00:33:43+0800",
     "last_walk": "2026-06-12T23:28:49+0800",
     "last_push_at": "2026-06-12T04:30:00+08:00",
     "last_push_topic": "cognitive digestion cycle + walk fixation diagnosis",
-    "cognitive_pressure": 8.6,
+    "cognitive_pressure": 43.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -65,7 +65,8 @@
       14.5,
       25.5,
       38.6,
-      8.6
+      8.6,
+      43.1
     ]
   },
   "affect": {

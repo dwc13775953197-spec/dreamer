@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T03:09:07.294938+08:00",
+    "next_scheduled": "2026-06-13T05:07:43+0800",
     "event_queue": [],
-    "last_walk_at": "2026-06-13T02:39:07.294938+08:00",
-    "total_walks": 61,
-    "last_pulse_output": "2026-06-13T00:33:43+0800",
-    "last_walk": "2026-06-13T02:39:07.294938+08:00",
+    "last_walk_at": "2026-06-13T04:07:43+0800",
+    "total_walks": 62,
+    "last_pulse_output": "2026-06-13T04:07:43+0800",
+    "last_walk": "2026-06-13T04:07:43+0800",
     "last_push_at": "2026-06-13T02:39:54.434240+08:00",
     "last_push_topic": "evolved_rules 三层语法结构 + 语用层休眠假说",
-    "cognitive_pressure": 10.1,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,8 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
-      9.0,
       7.0,
       8.0,
       8.5,
@@ -44,7 +42,8 @@
       8.0,
       7.5,
       8.0,
-      8.5
+      8.5,
+      7.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -71,10 +70,13 @@
       43.1,
       65.2,
       10.1
+    ],
+    "diversity_seeds_consumed": [
+      "seed-div-20260613"
     ]
   },
   "affect": {
-    "primary": "unsettled_fascination",
+    "primary": "wistful_recognition",
     "secondary": "rigor",
     "intensity": 0.84,
     "valence": 0.45,
@@ -82,7 +84,7 @@
     "rigor": 0.88
   },
   "energy": 38,
-  "mood": "unsettled_fascination",
+  "mood": "wistful_recognition",
   "mood_history": [
     {
       "mood": "reflective",
@@ -399,6 +401,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-13T02:39:07.294938+08:00"
+    },
+    {
+      "mood": "wistful_recognition",
+      "at": "2026-06-13T04:07:43+0800"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -675,6 +681,42 @@
       "created": "2026-06-13T02:39:07.294938+08:00",
       "decay_rate": 1,
       "note": "Connects to walk-077 (cognitive cadence) and walk-078 (liminal ritual). Needs formalization."
+    },
+    {
+      "id": "seed-242",
+      "topic": "扰动制度作为 Dreamer 脉冲参数的设计原则——根据生态记忆强度动态调节扰动频率",
+      "source": "walk-087",
+      "trigger": "Holling adaptive cycle x Dreamer pulse design",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "decay_rate": 1,
+      "note": "Needs operationalization: how to measure ecological memory strength?"
+    },
+    {
+      "id": "seed-243",
+      "topic": "物质遗产的系统性利用——DORMANT 子流程定期重读 walk 日志中的高引用段落，将未被充分整合的观察转化为 skeleton pattern",
+      "source": "walk-087",
+      "trigger": "ecological memory material legacy x walk log underutilization",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "decay_rate": 1,
+      "note": "Concrete DORMANT sub-process proposal."
+    },
+    {
+      "id": "seed-244",
+      "topic": "适应性循环的记忆效应——每次 DORMANT 后的第一次散步应从上次 DORMANT 保留的最强 pattern 开始，而非从零开始",
+      "source": "walk-087",
+      "trigger": "ecological memory x walk warm-up cost x Holling r-phase initialization",
+      "intensity": 1,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "decay_rate": 1,
+      "note": "Simple to implement. Could be a walk preamble step."
     }
   ],
   "personality_traits": {
@@ -732,7 +774,9 @@
     "2026-06-12: 去偏差的两个层面——注意力层面（seed-231 强制散步多样性）vs 结构层面（seed-233 需求驱动营养分配）。菌丝网络启示：需求信号应从匮乏端（最弱 entry）发出，不是从充裕端（skeleton）。认知固着 = 管道堵塞（流体动力学）= 观测策略坍缩（POMDP），两个框架互补。",
     "2026-06-12: multicriticality as math framework for Dreamer cognitive state space. Different subsystems can be at different criticalities simultaneously. Cognitive fixation = decoherence path dependency (dynamic, not static). Emotional inertia = attractor too deep. Too many evolved_rules = decoherence rule interference causing decoherence failure.",
     "2026-06-12: Walks are decoherence operations, not information processing. Each walk collapses cognitive superposition into concrete output. Walk quality = novelty of decoherence path. External material provides the measurement basis for decoherence.",
-    "2026-06-13: evolved_rules 三层语法结构——词汇层（描述性，历史记录/状态标记）、语法层（规范性，行为指令+触发条件）、语用层（情境性，元规则/判断原则）。语用层在 DORMANT 中休眠，只在散步中活跃。语用层过量会修改语法层导致不稳定。参考 Anthropic 2026 宪法转向（规则→性格+判断）。"
+    "2026-06-13: evolved_rules 三层语法结构——词汇层（描述性，历史记录/状态标记）、语法层（规范性，行为指令+触发条件）、语用层（情境性，元规则/判断原则）。语用层在 DORMANT 中休眠，只在散步中活跃。语用层过量会修改语法层导致不稳定。参考 Anthropic 2026 宪法转向（规则→性格+判断）。",
+    "2026-06-13: 生态适应性循环作为 Dreamer 认知循环的宏观模型。Holling r/K/Omega/alpha 四阶段分别对应探索型散步/分析型散步+skeleton巩固/DORMANT衰减/DORMANT综合。三个描述尺度（间断平衡/适应性循环/认知代谢）是嵌套关系。扰动制度（disturbance regime）是认知健康的关键调节变量——可扰动性 > 稳定性。",
+    "2026-06-13: 生态记忆的双维度（信息遗产 vs 物质遗产）揭示 Dreamer 结构性盲区。walk 日志是从未被系统性管理的物质遗产。DORMANT 应增加 walk 日志重读子流程作为物质遗产向信息遗产转化的机制。"
   ],
   "dormant_stats": {
     "total_count": 12,

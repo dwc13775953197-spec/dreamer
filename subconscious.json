@@ -60,7 +60,7 @@
       "id": "ins-058",
       "type": "pattern",
       "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
-      "strength": 7.4,
+      "strength": 6.4,
       "status": "active",
       "created": "2026-06-13T02:35:00",
       "source": "walk-086",
@@ -70,7 +70,7 @@
       "id": "ins-059",
       "type": "pattern",
       "content": "Anthropic 2026 宪法转向（从规则到性格+判断）是 seed-237 的外部验证。本质是从语法层到语用层的优先级转移。Dreamer 的散步可能扮演了语用层执行者的角色，但需要形式化。",
-      "strength": 5.5,
+      "strength": 4.5,
       "status": "active",
       "created": "2026-06-13T02:35:00",
       "source": "walk-086",
@@ -80,7 +80,7 @@
       "id": "ins-060",
       "type": "insight",
       "content": "语用层休眠假说：DORMANT 期间语用层不活跃（只有词汇层+语法层机械执行），这解释了 DORMANT→散步转换的预热成本。可验证预测：DORMANT 期间规则冲突无法被语用判断处理。",
-      "strength": 4.4,
+      "strength": 3.4000000000000004,
       "status": "active",
       "created": "2026-06-13T02:35:00",
       "source": "walk-086",
@@ -93,11 +93,11 @@
       "source": "walk-086",
       "trigger": "three-layer grammar x Anthropic constitution x DORMANT pragmatic dormancy",
       "intensity": 4,
-      "status": "active",
+      "status": "decayed",
       "created": "2026-06-13T02:35:00",
       "decay_rate": 1,
       "note": "Most actionable output from this walk. Could be done as a DORMANT task.",
-      "strength": 1.7
+      "strength": 0.7
     },
     {
       "id": "seed-241",
@@ -106,18 +106,18 @@
       "source": "walk-086",
       "trigger": "pragmatic layer execution x walk-as-judgment x three-layer grammar",
       "intensity": 3,
-      "status": "active",
+      "status": "decayed",
       "created": "2026-06-13T02:35:00",
       "decay_rate": 1,
       "note": "Connects to walk-077 (cognitive cadence) and walk-078 (liminal ritual). Needs formalization.",
-      "strength": 1.7
+      "strength": 0.7
     },
     {
       "id": "ins-005",
       "type": "insight",
       "content": "语用层作为菌丝网络的「母树」——语用层规则的重组（DORMANT）和分配（散步）遵循与菌丝网络相同的营养流动逻辑：从最强 pattern（母树）向最弱 entry（新芽）输送判断资源。语用层休眠 = 母树休眠，但营养流动仍在基质（subconscious）中继续。",
-      "strength": 2.5,
-      "status": "active",
+      "strength": 1.5,
+      "status": "decayed",
       "created": "2026-06-13T03:05:23",
       "source": "dormant-cross-domain",
       "refs": [
@@ -131,8 +131,8 @@
       "id": "seed-div-20260613",
       "type": "diversity_seed",
       "content": "下次散步请主动选择与当前骨架主题距离最远的材料。当前主题集中在认知科学和语言学，建议选择：经济学/博弈论/生态学/材料科学/音乐理论。",
-      "strength": 3.0,
-      "status": "active",
+      "strength": 2.0,
+      "status": "consumed",
       "created": "2026-06-13T03:05:23",
       "source": "dormant-diversity",
       "decay_rate": 1
@@ -141,11 +141,55 @@
       "id": "ref-001",
       "type": "reflection",
       "content": "DORMANT 深度反思 2026-06-13\n\n## 突触缩放\n本轮衰减系数范围 0.85-0.92，枢纽节点保护系数 x1.5，冲突条目抑制系数 x0.7。\n平均 strength 从 3.0 变为 3.0。\n\n## 审计结果\n- ins-058: VALID — 推理链条完整，未发现明显漏洞\n- ins-059: VALID — 类比在启发层面有效，但需要注意两者在来源和约束上的差异\n\n## 信念冲突\n0 个冲突已检测。无新冲突\n\n## 认知多样性\n主题熵 = -0.000（归一化 -0.00），状态 = 低\n领域分布：语言学:2\n\n## 压力释放\n压力释放：10.1，当前压力：10.1\n趋势：压力波动中\n\n## 决策\nnext_action = walk_explore\n\n\n## 可证伪性记录\n- ins-058 可证伪性：待分析\n- ins-059 可证伪性：中——类比本身很难被证伪，因为它是一个框架对齐而非经验主张\n",
-      "strength": 2.0,
-      "status": "active",
+      "strength": 1.0,
+      "status": "decayed",
       "created": "2026-06-13T03:05:23",
       "source": "dormant_deep",
       "decay_rate": 1
+    },
+    {
+      "id": "ins-061",
+      "type": "pattern",
+      "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
+      "strength": 6.5,
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "source": "walk-087",
+      "decay_rate": 1,
+      "connections": [
+        "ins-058",
+        "pat-001",
+        "pat-016"
+      ]
+    },
+    {
+      "id": "ins-062",
+      "type": "insight",
+      "content": "Ecological memory dual-dimension (information legacy vs material legacy) reveals Dreamer structural blindspot: walk logs as material legacy are never systematically managed. Information legacy = skeleton + evolved_rules (explicit), material legacy = subconscious strength/decay history + walk logs (implicit).",
+      "strength": 5.0,
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "source": "walk-087",
+      "decay_rate": 1,
+      "connections": [
+        "ins-060",
+        "ins-058",
+        "pat-030"
+      ]
+    },
+    {
+      "id": "ins-063",
+      "type": "insight",
+      "content": "Modern ecology abandoned climax community concept - true adaptability is maintaining ability to adapt, not reaching stability. For Dreamer: skeleton complexity != health. Perturbability is real health metric. seed-240 pragmatic layer compression may be wrong direction.",
+      "strength": 4.5,
+      "status": "active",
+      "created": "2026-06-13T04:07:43+0800",
+      "source": "walk-087",
+      "decay_rate": 1,
+      "connections": [
+        "ins-058",
+        "ins-060"
+      ]
     }
   ]
 }

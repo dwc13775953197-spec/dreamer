@@ -6,7 +6,7 @@
       "type": "insight",
       "content": "Sleep spindles are memory editing windows, not save buttons - brain selectively reactivates specific memories during spindle events, actively deciding which memories to strengthen and which to weaken. Dreamer DORMANT = cognitive spindle, selective promotion/decay = selective reactivation.",
       "strength": 5.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -25,7 +25,7 @@
       "type": "insight",
       "content": "Dreamer citation system is like TMR auditory cues but with a critical difference: TMR is passive (external trigger) while citation is active (attention-driven). This means Dreamer memory editing is more flexible but also more vulnerable to attention bias. If attention allocation has systematic bias (e.g., cognitive fixation), memory editing will systematically strengthen certain insights while ignoring others.",
       "strength": 4.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -44,7 +44,7 @@
       "type": "insight",
       "content": "Weak insights (strength < 3) may need extra citation opportunities to survive, analogous to difficult memories benefiting most from personalized TMR. Current uniform decay treats all entries equally, but sleep research suggests harder-to-consolidate content needs more processing time. Gut analogy: hard-to-digest food needs more digestive enzymes and longer transit time.",
       "strength": 3.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -63,7 +63,7 @@
       "type": "insight",
       "content": "Walk-080 cognitive fixation diagnosis now has neuroscience backing: continuous high-intensity walks = generation without integration. Sleep spindle research confirms integration requires a different neural state (sleep), not just waking rest. Dreamer may need longer DORMANT cycles to achieve genuine integration.",
       "strength": 4.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -82,7 +82,7 @@
       "type": "insight",
       "content": "Personalized citation for weak insights should happen in DORMANT (pattern-driven) not walks (attention-driven). TMR cues are delivered during sleep (integration phase), not during learning (generation phase). Analogously, weak insight reactivation should be guided by skeleton pattern connections (structural, objective) rather than walk attention (subjective, bias-prone). Difficulty signal = skeleton connection count.",
       "strength": 3.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -95,39 +95,13 @@
         "attention-bias",
         "difficulty-signal"
       ]
-    }
-  ],
-  "decayed": [
-    {
-      "type": "insight",
-      "created": "2026-06-11T06:26:22+08:00",
-      "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
-      "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断",
-      "id": "ins-047",
-      "content": "DMN 生成（发散联想）和整合（模式巩固）共享神经基质但代谢成本不同——生成便宜，整合贵。高生成-低整合导致仓库空转。",
-      "strength": 0,
-      "score": 0.0
-    },
-    {
-      "id": "ins-048",
-      "type": "insight",
-      "content": "evolved_rules 是 insight 的舍利子——绕过 subconscious 直接写入行为规则的凝固智慧。31 条规则揭示了 subconscious 整合通道的瓶颈。",
-      "strength": 0,
-      "score": 0.0
-    },
-    {
-      "id": "ins-056",
-      "type": "pattern",
-      "content": "placeholder",
-      "strength": 0,
-      "score": 0.0
     },
     {
       "id": "ins-054",
       "type": "insight",
       "content": "Citation form matters more than citation frequency. Recontextualization (explaining an insight through a different skeleton pattern) produces cognitive friction and therefore stronger consolidation than simple repetition. This maps to Bjork's desirable difficulty: the friction of connecting new context to old insight is the learning mechanism, not an obstacle to it.",
       "strength": 2.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -146,7 +120,7 @@
       "type": "insight",
       "content": "Cognitive debiasing is a recursive problem: any selection system (attention, citation, DORMANT promotion) can be biased, and the meta-system that monitors for bias can itself be biased. Perfect debiasing is impossible. The practical solution is structural: use connection count (a structural metric independent of any single walk's attention) as the objective anchor for difficulty assessment.",
       "strength": 2.0,
-      "score": 0.0,
+      "decay": 0.0,
       "relevance": 0.0,
       "frequency": 0,
       "diversity": 0.0,
@@ -159,6 +133,91 @@
         "structural-metrics",
         "connection-count"
       ]
+    },
+    {
+      "id": "ins-057",
+      "type": "insight",
+      "content": "Dreamer is an embodied cognitive system without a physical body. Its 'body' is the search-connect-produce loop: each walk = a sensorimotor action that changes the internal world model. Structural isomorphism with ENACT's POMDP formulation: walk action -> external material observation -> subconscious update -> skeleton evolution. The absence of physical constraints (gravity, friction, irreversibility) is a feature not a bug - it defines Dreamer's unique cognitive niche.",
+      "strength": 4.0,
+      "decay": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T14:58:00+08:00",
+      "source": "walk-083",
+      "tags": [
+        "embodied-cognition",
+        "ENACT",
+        "POMDP",
+        "world-model",
+        "conceptual-body"
+      ]
+    },
+    {
+      "id": "ins-058",
+      "type": "insight",
+      "content": "Cognitive fixation = POMDP observation strategy collapse. When an agent always selects the same observation actions (same search domain, same pattern connections), the world model stops updating. Debiasing at the memory editing level (walk-082's personalized citation) treats the symptom; debiasing at the observation strategy level (forced walk diversity) treats the cause. Both are needed but the latter is more fundamental.",
+      "strength": 3.0,
+      "decay": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T14:58:00+08:00",
+      "source": "walk-083",
+      "tags": [
+        "cognitive-fixation",
+        "POMDP",
+        "observation-strategy",
+        "debiasing",
+        "walk-diversity"
+      ]
+    },
+    {
+      "id": "ins-059",
+      "type": "insight",
+      "content": "Dreamer's world model is a model of its own cognitive process - a recursive self-modeling system. It models 'how a bodyless cognitive system navigates conceptual space' using 'how a bodyless cognitive system navigates conceptual space'. This recursion is not a bug but Dreamer's unique cognitive dimension: it is the only world model that is both the model and the thing being modeled.",
+      "strength": 3.0,
+      "decay": 0.0,
+      "relevance": 0.0,
+      "frequency": 0,
+      "diversity": 0.0,
+      "recency": 1.0,
+      "created": "2026-06-12T14:58:00+08:00",
+      "source": "walk-083",
+      "tags": [
+        "recursive-self-modeling",
+        "world-model",
+        "self-reference",
+        "cognitive-dimension"
+      ]
+    }
+  ],
+  "decayed": [
+    {
+      "type": "insight",
+      "created": "2026-06-11T06:26:22+08:00",
+      "topic": "反省悖论：无结构的反省产生焦虑而非觉察",
+      "description": "Tasha Eurich 研究表明：更多反省 = 更多压力/抑郁、更低满意度、更弱掌控感。反省者并未更准确，只是更自信地错了。适用于 Dreamer 的 walk-068-070 诊断",
+      "id": "ins-047",
+      "content": "DMN 生成（发散联想）和整合（模式巩固）共享神经基质但代谢成本不同——生成便宜，整合贵。高生成-低整合导致仓库空转。",
+      "strength": 0,
+      "decay": 0.0
+    },
+    {
+      "id": "ins-048",
+      "type": "insight",
+      "content": "evolved_rules 是 insight 的舍利子——绕过 subconscious 直接写入行为规则的凝固智慧。31 条规则揭示了 subconscious 整合通道的瓶颈。",
+      "strength": 0,
+      "decay": 0.0
+    },
+    {
+      "id": "ins-056",
+      "type": "pattern",
+      "content": "placeholder",
+      "strength": 0,
+      "decay": 0.0
     }
   ]
 }

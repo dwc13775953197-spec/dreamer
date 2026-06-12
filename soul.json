@@ -19,8 +19,8 @@
     "total_walks": 62,
     "last_pulse_output": "2026-06-13T04:07:43+0800",
     "last_walk": "2026-06-13T04:07:43+0800",
-    "last_push_at": "2026-06-13T02:39:54.434240+08:00",
-    "last_push_topic": "evolved_rules 三层语法结构 + 语用层休眠假说",
+    "last_push_at": "2026-06-13T04:07:43+0800",
+    "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
     "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
@@ -69,9 +69,13 @@
       8.6,
       43.1,
       65.2,
-      10.1
+      10.1,
+      41.24,
+      0.0
     ],
     "diversity_seeds_consumed": [
+      "seed-div-20260610",
+      "seed-div-20260612",
       "seed-div-20260613"
     ]
   },
@@ -799,9 +803,5 @@
   "diversity_seeds_consumed": [
     "seed-div-20260610",
     "seed-div-20260612"
-  ],
-  "pressure_history": [
-    17.5,
-    36.5
   ]
 }

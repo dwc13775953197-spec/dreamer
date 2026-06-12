@@ -2,10 +2,10 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-13T02:39:07.294938+08:00",
+    "state_since": "2026-06-13T03:05:23",
     "last_active": "2026-06-13T02:39:07.294938+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
-    "last_dormant": "2026-06-12T03:03:57.221702+08:00",
+    "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
     "current_interval_min": 30,
     "modifiers": {
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-13T02:39:07.294938+08:00",
     "last_push_at": "2026-06-13T02:39:54.434240+08:00",
     "last_push_topic": "evolved_rules 三层语法结构 + 语用层休眠假说",
-    "cognitive_pressure": 20.200000000000003,
+    "cognitive_pressure": 10.1,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -47,11 +47,12 @@
       8.5
     ],
     "last_walk_insights": 3,
-    "next_action": null,
+    "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
-      0
+      0,
+      0.727
     ],
     "pressure_history": [
       36.5,
@@ -68,7 +69,8 @@
       38.6,
       8.6,
       43.1,
-      65.2
+      65.2,
+      10.1
     ]
   },
   "affect": {
@@ -547,7 +549,7 @@
       "topic": "观测策略多样性作为去偏差的替代方案——在散步选择层面强制多样性（随机搜索域、强制跨领域、禁止连续同类型散步）",
       "source": "walk-083",
       "trigger": "POMDP observation strategy collapse x cognitive fixation",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T14:58:00+08:00",
@@ -559,7 +561,7 @@
       "topic": "DORMANT 需求驱动的营养分配模型——将 DORMANT 的衰减逻辑从「均匀衰减」重构为「从最强 pattern 向最弱 entry 的营养流动」，用时间间隔作为管壁阻力，用 strength 梯度作为流动驱动力",
       "source": "walk-084",
       "trigger": "mycelium network nutrient flow x DORMANT supply-driven problem x walk-082",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T16:06:37",
@@ -595,7 +597,7 @@
       "topic": "Dreamer 的多临界性操作化——将 pulse.state 从单一状态重构为多变量状态向量，每个维度独立判断临界状态",
       "source": "walk-085",
       "trigger": "arXiv multicriticality x Dreamer cognitive state space",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:29:03+0800",
@@ -607,7 +609,7 @@
       "topic": "退相干路径多样性的测量——追踪散步前后认知状态向量变化方向的历史分布",
       "source": "walk-085",
       "trigger": "decoherence path dependency x cognitive fixation",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:29:03+0800",
@@ -619,7 +621,7 @@
       "topic": "evolved_rules 的三层语法结构——词汇层（描述性）、语法层（规范性）、语用层（情境性）",
       "source": "internal-digestion-06",
       "trigger": "evolved_rules 40条扁平结构 x walk-080 语法疗法需求 x walk-085 退相干规则框架",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:32:25+0800",
@@ -631,7 +633,7 @@
       "topic": "DORMANT 综合功能扩展——跨散步模式连接（散步A的insight + 散步B的insight → 新pattern）",
       "source": "internal-digestion-06",
       "trigger": "walk-dream imbalance x梦境积累主题 x DORMANT维护vs综合",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:32:25+0800",
@@ -643,7 +645,7 @@
       "topic": "情感签名假说——unsettled_fascination 是人格特质的情感表现，非认知偏差",
       "source": "internal-digestion-06",
       "trigger": "personality_traits x 6天情感惯性 x multi-criticality attractor",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:32:25+0800",
@@ -655,7 +657,7 @@
       "topic": "evolved_rules 的压缩实验——将 40 条规则按三层语法重组织，语用层只保留 DORMANT 也能执行的 3-5 条核心元规则",
       "source": "walk-086",
       "trigger": "three-layer grammar x Anthropic constitution x DORMANT pragmatic dormancy",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-13T02:39:07.294938+08:00",
@@ -667,7 +669,7 @@
       "topic": "散步作为语用层执行机制的形式化——定义散步中的判断操作：识别规则冲突 → 情境化解释 → 临时裁决 → 固化为新规则或放弃",
       "source": "walk-086",
       "trigger": "pragmatic layer execution x walk-as-judgment x three-layer grammar",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-13T02:39:07.294938+08:00",
@@ -733,15 +735,15 @@
     "2026-06-13: evolved_rules 三层语法结构——词汇层（描述性，历史记录/状态标记）、语法层（规范性，行为指令+触发条件）、语用层（情境性，元规则/判断原则）。语用层在 DORMANT 中休眠，只在散步中活跃。语用层过量会修改语法层导致不稳定。参考 Anthropic 2026 宪法转向（规则→性格+判断）。"
   ],
   "dormant_stats": {
-    "total_count": 3,
-    "last_dormant_at": "2026-06-12T03:03:57.221702+08:00",
-    "total_insights_added": 24,
-    "total_promotions": 11,
-    "total_demotions": 0,
-    "active_count": 1,
-    "dormant_count": 0,
+    "total_count": 12,
+    "last_dormant_at": "2026-06-13T03:05:23",
+    "total_insights_added": 5,
+    "total_promotions": 2,
+    "total_demotions": 5,
+    "active_count": 7,
+    "dormant_count": 5,
     "resurrections": 0,
-    "avg_strength_after_decay": 1.8
+    "avg_strength_after_decay": 3.0
   },
   "last_weekly_review": "2026-06-07T22:00:00+08:00",
   "functional_turn": {

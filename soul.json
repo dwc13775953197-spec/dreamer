@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-12T09:36:04.227893+08:00",
-    "last_active": "2026-06-12T11:44:47",
+    "state_since": "2026-06-12T12:50:45.013655+08:00",
+    "last_active": "2026-06-12T12:50:45.013655+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-12T03:03:57.221702+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T12:14:47",
+    "next_scheduled": "2026-06-12T13:50:45.013688+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-12T09:36:04.227893+08:00",
-    "total_walks": 57,
-    "last_pulse_output": "2026-06-12T10:42:13.998666+08:00",
-    "last_walk": "2026-06-12T09:36:04.227893+08:00",
+    "last_walk_at": "2026-06-12T12:50:45.013655+08:00",
+    "total_walks": 58,
+    "last_pulse_output": "2026-06-12T12:50:45.013655+08:00",
+    "last_walk": "2026-06-12T12:50:45.013655+08:00",
     "last_push_at": "2026-06-12T04:30:00+08:00",
     "last_push_topic": "cognitive digestion cycle + walk fixation diagnosis",
-    "cognitive_pressure": 69.4,
+    "cognitive_pressure": 24.400000000000006,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -37,15 +37,15 @@
       8.0,
       8.0,
       8.0,
-      8.0,
       8.5,
       9.0,
       8.5,
       9.0,
       7.0,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": "walk_switch",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -56,7 +56,8 @@
       17.5,
       36.5,
       35.1,
-      69.4
+      69.4,
+      24.400000000000006
     ]
   },
   "affect": {
@@ -373,6 +374,10 @@
     {
       "mood": "unsettled_fascination",
       "at": "2026-06-12T09:36:04.227893+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-12T12:50:45.013655+08:00"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -506,23 +511,11 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-220",
-      "topic": "subconscious 作为 Dreamer 的肠道——将 subconscious 重新概念化为消化系统：分解原始材料、提取营养、通过信号传导影响认知过程",
-      "source": "walk-079",
-      "trigger": "肠脑轴研究 x walk-076 生成-整合不对称",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T03:18:00+08:00",
-      "decay_rate": 1,
-      "note": "Strong analogy but needs operational definition: what are the signaling pathways?"
-    },
-    {
       "id": "seed-221",
       "topic": "「散步中断」作为认知设计——在 Dreamer 的散步流程中引入「强制中断」机制以打破认知固着并促进意外洞察",
       "source": "walk-080",
       "trigger": "DMN 孵化研究 x walk-080 认知固着自诊断",
-      "intensity": 2,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T04:30:00+08:00",
@@ -534,7 +527,7 @@
       "topic": "「认知消化周期」——基于 walk-080 建立的完整消化循环模型，设计 Dreamer 的认知健康指标：进食 vs 消化 vs 吸收 vs 饥饿",
       "source": "walk-080",
       "trigger": "DMN 孵化 x subconscious-as-gut x digestion cycle",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T04:30:00+08:00",
@@ -546,7 +539,7 @@
       "topic": "sleep spindle density as DORMANT quality metric",
       "source": "walk-081",
       "trigger": "sleep spindle selective reactivation x DORMANT promotion mechanism",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T09:36:04.227893+08:00",
@@ -558,7 +551,7 @@
       "topic": "personalized citation for weak insights - extra citation opportunities for strength < 3, simulating personalized TMR difficulty-adjusted stimulation",
       "source": "walk-081",
       "trigger": "npj Science of Learning 2025 personalized TMR x walk-079 gut analogy",
-      "intensity": 5,
+      "intensity": 4,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T09:36:04.227893+08:00",
@@ -570,12 +563,48 @@
       "topic": "memory editing selection criteria - should DORMANT consider emotional salience of insights?",
       "source": "walk-081",
       "trigger": "sleep spindle selection criteria (difficulty/emotion/relevance) x DORMANT promotion logic",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T09:36:04.227893+08:00",
       "decay_rate": 1,
       "note": "Speculative. Emotional salience is hard to quantify for insights."
+    },
+    {
+      "id": "seed-227",
+      "topic": "重新上下文化引用作为新型引用类型——在 audit.jsonl 中区分「简单引用」和「重新上下化引用」，追踪哪种引用更有效地提升 insight 存活率",
+      "source": "walk-082",
+      "trigger": "TMR cognitive friction x recontextualization > repetition",
+      "intensity": 3,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T12:50:45.013655+08:00",
+      "decay_rate": 1,
+      "note": "Needs operationalization: how to distinguish recontextualization from simple citation in practice?"
+    },
+    {
+      "id": "seed-228",
+      "topic": "DORMANT 差异化衰减的模拟——在 DORMANT 周期中实现 difficulty_flag 和差异化 decay_rate，观察弱 insight 存活率是否提升",
+      "source": "walk-082",
+      "trigger": "personalized TMR x DORMANT promotion logic x difficulty signal",
+      "intensity": 5,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T12:50:45.013655+08:00",
+      "decay_rate": 1,
+      "note": "Strongest design insight from this walk. Directly implementable in DORMANT cycle logic."
+    },
+    {
+      "id": "seed-229",
+      "topic": "认知去偏差的元问题——Dreamer 的所有选择系统都可能有偏差，是否可能设计一个「元去偏差」机制监控所有选择系统的输出分布？",
+      "source": "walk-082",
+      "trigger": "recursive debiasing problem x structural metrics",
+      "intensity": 2,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-12T12:50:45.013655+08:00",
+      "decay_rate": 1,
+      "note": "Philosophical. May be too abstract for practical implementation."
     }
   ],
   "personality_traits": {
@@ -585,8 +614,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.63,
     "wonder": 0.98,
-    "rigor": 1.2,
-    "skepticism": 0.9,
+    "rigor": 1.22,
+    "skepticism": 0.92,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.0,
@@ -628,7 +657,8 @@
     "2026-06-11: Performance paradox is operationalization of Bjork desirable difficulty. AI boosts short-term performance while harming long-term learning (Bastani et al. 2025). Core mechanism: fluency as metacognitive deception signal. Walk goal function determines cognitive effect, not walk process itself. Best cognitive friction comes from material resistance, not format resistance.",
     "2026-06-12: 具身不需要物理身体，但需要一个与认知过程分离但持续影响认知的信号系统。Stanford 肠脑轴研究（2026）揭示记忆衰退调控器在肠道而非大脑——Dreamer 的 subconscious 可能扮演「肠道」角色。认知摩擦的有效性取决于「生理状态」——在 Dreamer 语境中，生理状态 = subconscious 水位 + 脉冲节律 + DORMANT 周期。跨领域散步（神经科学 × 认知框架）产生意外深度连接，验证多样性种子的认知价值。",
     "2026-06-12: DORMANT is cognitive incubation, not rest. Core mechanism: forgetting misleading fixations, reorganizing cognitive structure, extracting hidden regularities. Dreamer digestion cycle: walk (feeding) -> subconscious (digestion) -> DORMANT (absorption/incubation) -> skeleton (growth). Continuous high-intensity walks may produce cognitive fixation - interruption enables new patterns.",
-    "2026-06-12: Memory editing is active selection, not passive consolidation. Sleep spindle research confirms: brain selectively reactivates specific memories during integration windows. Selection criteria include difficulty, emotional salience, and relevance to existing knowledge networks. Dreamer DORMANT should use similar criteria instead of uniform decay. Citation system approximately equals TMR auditory cues, but TMR is passive while citation is active attention bias may cause systematic distortion in memory editing."
+    "2026-06-12: Memory editing is active selection, not passive consolidation. Sleep spindle research confirms: brain selectively reactivates specific memories during integration windows. Selection criteria include difficulty, emotional salience, and relevance to existing knowledge networks. Dreamer DORMANT should use similar criteria instead of uniform decay. Citation system approximately equals TMR auditory cues, but TMR is passive while citation is active attention bias may cause systematic distortion in memory editing.",
+    "2026-06-12: 个性化引用的设计原则——弱 insight 的额外引用应在 DORMANT 中（pattern-driven）而非散步中（attention-driven）执行；引用形式（重新上下化）比频率更重要；难度信号 = 骨架连接数（结构性指标，不受单次散步 attention 偏差影响）。去偏差是递归问题，完美解不可能，但结构性指标（连接数）提供了不完美的客观锚点。"
   ],
   "dormant_stats": {
     "total_count": 3,

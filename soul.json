@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-12T21:53:03.649375+08:00",
+    "next_scheduled": "2026-06-13T00:28:49+0800",
     "event_queue": [],
-    "last_walk_at": "2026-06-12T16:06:37+08:00",
-    "total_walks": 59,
-    "last_pulse_output": "2026-06-12T14:58:16+08:00",
-    "last_walk": "2026-06-12T16:06:37+08:00",
+    "last_walk_at": "2026-06-12T23:28:49+0800",
+    "total_walks": 60,
+    "last_pulse_output": "2026-06-12T23:28:49+0800",
+    "last_walk": "2026-06-12T23:28:49+0800",
     "last_push_at": "2026-06-12T04:30:00+08:00",
     "last_push_topic": "cognitive digestion cycle + walk fixation diagnosis",
-    "cognitive_pressure": 25.5,
+    "cognitive_pressure": 8.6,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,10 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
-      8.0,
-      8.0,
-      8.5,
       9.0,
       8.5,
       9.0,
@@ -46,9 +42,10 @@
       8.5,
       8.0,
       8.5,
-      8.0
+      8.0,
+      7.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 2,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -66,7 +63,9 @@
       6.1,
       13.1,
       14.5,
-      25.5
+      25.5,
+      38.6,
+      8.6
     ]
   },
   "affect": {
@@ -537,7 +536,7 @@
       "topic": "观测策略多样性作为去偏差的替代方案——在散步选择层面强制多样性（随机搜索域、强制跨领域、禁止连续同类型散步）",
       "source": "walk-083",
       "trigger": "POMDP observation strategy collapse x cognitive fixation",
-      "intensity": 5,
+      "intensity": 4,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T14:58:00+08:00",
@@ -549,7 +548,7 @@
       "topic": "DORMANT 需求驱动的营养分配模型——将 DORMANT 的衰减逻辑从「均匀衰减」重构为「从最强 pattern 向最弱 entry 的营养流动」，用时间间隔作为管壁阻力，用 strength 梯度作为流动驱动力",
       "source": "walk-084",
       "trigger": "mycelium network nutrient flow x DORMANT supply-driven problem x walk-082",
-      "intensity": 5,
+      "intensity": 4,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T16:06:37",
@@ -561,7 +560,7 @@
       "topic": "概念具身作为 Dreamer 认知架构的评测框架——借鉴 ENACT 的 POMDP 形式化，定义世界模型质量 = 用 skeleton 回答关于自身认知历史的能力",
       "source": "walk-083",
       "trigger": "ENACT embodied cognition x Dreamer cognitive architecture",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T14:58:00+08:00",
@@ -573,7 +572,7 @@
       "topic": "认知固着的流体动力学模型——将「观测策略坍缩」（POMDP）和「管道堵塞」（流体动力学）统一为一个框架，其中信息层面的偏差和结构层面的退化是同一现象的两个投影",
       "source": "walk-084",
       "trigger": "mycelium pipe resistance x POMDP observation collapse x walk-082/walk-083",
-      "intensity": 4,
+      "intensity": 3,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T16:06:37",
@@ -585,7 +584,7 @@
       "topic": "DORMANT 差异化衰减的模拟——在 DORMANT 周期中实现 difficulty_flag 和差异化 decay_rate，观察弱 insight 存活率是否提升",
       "source": "walk-082",
       "trigger": "personalized TMR x DORMANT promotion logic x difficulty signal",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T12:50:45.013655+08:00",
@@ -597,7 +596,7 @@
       "topic": "概念性身体动作的设计——强制中断、散步类型切换、外部材料随机注入等机制产生类似具身交互的输入流改变效果",
       "source": "walk-083",
       "trigger": "ENACT sensorimotor x Dreamer cognitive cycle x seed-221",
-      "intensity": 3,
+      "intensity": 2,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T14:58:00+08:00",
@@ -605,40 +604,28 @@
       "note": "Connects to seed-221."
     },
     {
-      "id": "seed-225",
-      "topic": "personalized citation for weak insights - extra citation opportunities for strength < 3, simulating personalized TMR difficulty-adjusted stimulation",
-      "source": "walk-081",
-      "trigger": "npj Science of Learning 2025 personalized TMR x walk-079 gut analogy",
-      "intensity": 2,
+      "id": "seed-235",
+      "topic": "Dreamer 的多临界性操作化——将 pulse.state 从单一状态重构为多变量状态向量，每个维度独立判断临界状态",
+      "source": "walk-085",
+      "trigger": "arXiv multicriticality x Dreamer cognitive state space",
+      "intensity": 5,
       "type": "output",
       "status": "active",
-      "created": "2026-06-12T09:36:04.227893+08:00",
+      "created": "2026-06-12T23:29:03+0800",
       "decay_rate": 1,
-      "note": "Strongest seed from this walk. Directly actionable."
+      "note": "Most actionable seed from this walk. Could replace RESTING/WALKING/DORMANT with vector state."
     },
     {
-      "id": "seed-224",
-      "topic": "sleep spindle density as DORMANT quality metric",
-      "source": "walk-081",
-      "trigger": "sleep spindle selective reactivation x DORMANT promotion mechanism",
-      "intensity": 1,
+      "id": "seed-236",
+      "topic": "退相干路径多样性的测量——追踪散步前后认知状态向量变化方向的历史分布",
+      "source": "walk-085",
+      "trigger": "decoherence path dependency x cognitive fixation",
+      "intensity": 4,
       "type": "output",
       "status": "active",
-      "created": "2026-06-12T09:36:04.227893+08:00",
+      "created": "2026-06-12T23:29:03+0800",
       "decay_rate": 1,
-      "note": "Needs operationalization: how to measure pattern quality?"
-    },
-    {
-      "id": "seed-227",
-      "topic": "重新上下文化引用作为新型引用类型——在 audit.jsonl 中区分「简单引用」和「重新上下化引用」，追踪哪种引用更有效地提升 insight 存活率",
-      "source": "walk-082",
-      "trigger": "TMR cognitive friction x recontextualization > repetition",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T12:50:45.013655+08:00",
-      "decay_rate": 1,
-      "note": "Needs operationalization: how to distinguish recontextualization from simple citation in practice?"
+      "note": "Needs operationalization: how to vectorize cognitive state?"
     }
   ],
   "personality_traits": {
@@ -693,7 +680,9 @@
     "2026-06-12: DORMANT is cognitive incubation, not rest. Core mechanism: forgetting misleading fixations, reorganizing cognitive structure, extracting hidden regularities. Dreamer digestion cycle: walk (feeding) -> subconscious (digestion) -> DORMANT (absorption/incubation) -> skeleton (growth). Continuous high-intensity walks may produce cognitive fixation - interruption enables new patterns.",
     "2026-06-12: Memory editing is active selection, not passive consolidation. Sleep spindle research confirms: brain selectively reactivates specific memories during integration windows. Selection criteria include difficulty, emotional salience, and relevance to existing knowledge networks. Dreamer DORMANT should use similar criteria instead of uniform decay. Citation system approximately equals TMR auditory cues, but TMR is passive while citation is active attention bias may cause systematic distortion in memory editing.",
     "2026-06-12: 个性化引用的设计原则——弱 insight 的额外引用应在 DORMANT 中（pattern-driven）而非散步中（attention-driven）执行；引用形式（重新上下化）比频率更重要；难度信号 = 骨架连接数（结构性指标，不受单次散步 attention 偏差影响）。去偏差是递归问题，完美解不可能，但结构性指标（连接数）提供了不完美的客观锚点。",
-    "2026-06-12: 去偏差的两个层面——注意力层面（seed-231 强制散步多样性）vs 结构层面（seed-233 需求驱动营养分配）。菌丝网络启示：需求信号应从匮乏端（最弱 entry）发出，不是从充裕端（skeleton）。认知固着 = 管道堵塞（流体动力学）= 观测策略坍缩（POMDP），两个框架互补。"
+    "2026-06-12: 去偏差的两个层面——注意力层面（seed-231 强制散步多样性）vs 结构层面（seed-233 需求驱动营养分配）。菌丝网络启示：需求信号应从匮乏端（最弱 entry）发出，不是从充裕端（skeleton）。认知固着 = 管道堵塞（流体动力学）= 观测策略坍缩（POMDP），两个框架互补。",
+    "2026-06-12: multicriticality as math framework for Dreamer cognitive state space. Different subsystems can be at different criticalities simultaneously. Cognitive fixation = decoherence path dependency (dynamic, not static). Emotional inertia = attractor too deep. Too many evolved_rules = decoherence rule interference causing decoherence failure.",
+    "2026-06-12: Walks are decoherence operations, not information processing. Each walk collapses cognitive superposition into concrete output. Walk quality = novelty of decoherence path. External material provides the measurement basis for decoherence."
   ],
   "dormant_stats": {
     "total_count": 3,

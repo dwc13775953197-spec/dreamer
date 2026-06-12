@@ -37,11 +37,11 @@
       "source": "walk-084",
       "trigger": "mycelium network nutrient flow x DORMANT supply-driven problem x walk-082",
       "intensity": 5,
-      "status": "active",
+      "status": "decayed",
       "created": "2026-06-12T16:06:37",
       "decay_rate": 1,
       "note": "Corrects walk-082 assumption: demand signal should come from weakest entries, not from skeleton.",
-      "strength": 3.0
+      "strength": 2.0
     },
     {
       "id": "seed-234",
@@ -50,11 +50,11 @@
       "source": "walk-084",
       "trigger": "mycelium pipe resistance x POMDP observation collapse x walk-082/walk-083",
       "intensity": 4,
-      "status": "active",
+      "status": "decayed",
       "created": "2026-06-12T16:06:37",
       "decay_rate": 1,
       "note": "Needs operationalization: how to measure pipe resistance in Dreamer context?",
-      "strength": 3.0
+      "strength": 2.0
     }
   ]
 }

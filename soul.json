@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-13T19:12:31.464521+08:00",
-    "last_active": "2026-06-14T00:27:34.526372+08:00",
+    "last_active": "2026-06-14T01:32:14.155447+08:00",
     "last_resting": "2026-06-13T14:56:13.827327+08:00",
     "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T01:27:34.526372+08:00",
+    "next_scheduled": "2026-06-14T02:33:21.958966+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-13T22:22:55",
-    "total_walks": 62,
-    "last_pulse_output": "2026-06-13T22:22:55",
+    "last_walk_at": "2026-06-14T01:32:14.155447+08:00",
+    "total_walks": 63,
+    "last_pulse_output": "2026-06-14T01:32:14.155447+08:00",
     "last_walk": "2026-06-13T16:02:31+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 5.1,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       7.5,
       8.0,
@@ -43,9 +42,10 @@
       7.5,
       8.5,
       8.0,
+      8.5,
       8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -89,7 +89,8 @@
       34.0,
       0,
       0.5,
-      5.1
+      5.1,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -100,13 +101,13 @@
   "affect": {
     "primary": "contemplative",
     "secondary": "rigor",
-    "intensity": 0.65,
+    "intensity": 0.6,
     "valence": 0.45,
     "arousal": 0.5,
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "anticipatory_tension",
+  "mood": "quiet_excitement",
   "mood_history": [
     {
       "mood": "reflective",
@@ -451,9 +452,13 @@
     {
       "mood": "anticipatory_tension",
       "at": "2026-06-13T22:22:55"
+    },
+    {
+      "mood": "quiet_excitement",
+      "at": "2026-06-14T01:32:14.155447+08:00"
     }
   ],
-  "last_walk": "2026-06-12T03:18:00+08:00",
+  "last_walk": "2026-06-14T01:32:14.155447+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 57,
@@ -592,60 +597,82 @@
     "evolved-rules-compression",
     "walk-as-judgment",
     "moltbook",
-    "social-memory"
+    "social-memory",
+    "cognitive-scaffolding"
   ],
   "pending_insights": 15,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-248",
-      "content": "cognitive weaning test -- pure introspective walk without external material to check if evolved_rules still influence behavior",
-      "intensity": 0.6,
+      "id": "seed-250",
+      "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
+      "intensity": 0.7,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
+    },
+    {
+      "id": "seed-253",
+      "content": "constructive vs diagnostic walk quantitative distinction: causal direction as 3rd scoring dimension - empirical collection",
+      "intensity": 0.7,
+      "type": "output",
+      "created": "2026-06-13T22:22:55"
+    },
+    {
+      "id": "seed-255",
+      "content": "random re-read mechanism as walk sub-step: from passive to active scaffolding maintenance",
+      "intensity": 0.7,
+      "type": "output",
+      "created": "2026-06-14T01:32:14.155447+08:00"
     },
     {
       "id": "seed-249",
       "content": "memory famine repair -- subconscious emergency irrigation: identify decayed but valuable entries, differential recovery in DORMANT",
-      "intensity": 0.7000000000000001,
-      "type": "output",
-      "created": "2026-06-13T16:02:31+08:00"
-    },
-    {
-      "id": "seed-250",
-      "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
-      "intensity": 0.8,
-      "type": "output",
-      "created": "2026-06-13T16:02:31+08:00"
-    },
-    {
-      "id": "seed-251",
-      "content": "research proposal forced switch -- when pending > 3, pulse.next_action forces to research",
-      "intensity": 0.5,
+      "intensity": 0.6,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     },
     {
       "id": "seed-252",
       "content": "causal discovery algorithms applied to walk logs: auto-infer skeleton change causal graph from observational data",
-      "intensity": 0.7,
+      "intensity": 0.6,
       "type": "output",
       "created": "2026-06-13T22:22:55"
     },
     {
-      "id": "seed-253",
-      "content": "constructive vs diagnostic walk quantitative distinction: causal direction as 3rd scoring dimension - empirical collection",
-      "intensity": 0.8,
+      "id": "seed-256",
+      "content": "walk causal influence four-path model (add path 4: scaffolding maintenance)",
+      "intensity": 0.6,
       "type": "output",
-      "created": "2026-06-13T22:22:55"
+      "created": "2026-06-14T01:32:14.155447+08:00"
+    },
+    {
+      "id": "seed-248",
+      "content": "cognitive weaning test -- pure introspective walk without external material to check if evolved_rules still influence behavior",
+      "intensity": 0.5,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
     },
     {
       "id": "seed-254",
       "content": "cognitive immunity operationalization: pre-integration causal direction assessment for new insights",
-      "intensity": 0.6,
+      "intensity": 0.5,
       "type": "output",
       "created": "2026-06-13T22:22:55"
+    },
+    {
+      "id": "seed-257",
+      "content": "Dreamer cognitive scaffolding audit: how many forgotten conceptual resources in walk logs can be reactivated?",
+      "intensity": 0.5,
+      "type": "output",
+      "created": "2026-06-14T01:32:14.155447+08:00"
+    },
+    {
+      "id": "seed-251",
+      "content": "research proposal forced switch -- when pending > 3, pulse.next_action forces to research",
+      "intensity": 0.4,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
     }
   ],
   "personality_traits": {
@@ -655,7 +682,7 @@
     "rebelliousness": 0.3,
     "melancholy": 0.63,
     "wonder": 0.98,
-    "rigor": 1.24,
+    "rigor": 1.27,
     "skepticism": 0.92,
     "empathy": 0.5
   },
@@ -711,7 +738,8 @@
     "2026-06-13: internal digestion 006 - memory famine (49/63 decayed, skeleton 45 rules) = glass skeleton. Diagnosis loops produce insights but zero behavior change. Dream silence = possible layer simplification.",
     "2026-06-13: memory system core contradiction shifted from \"how to remember\" to \"where remembered things live\". Skeleton inflation + subconscious drainage = explicit knowledge grows but implicit knowledge flows away. Need bidirectional flow.",
     "2026-06-13: diagnosis loop is feature not bug -- but needs rate limiting. 5 consecutive diagnostic walks produced 6 discoveries but zero behavior change. Output != impact. Walk quality should add \"causal impact on skeleton\" dimension.",
-    "2026-06-13: 散步因果影响三条路径——直接注入(可观测)/结构重排(最有价值)/前提瓦解(不可观测)。三维评分(写作质量×骨架影响×因果方向)。认知免疫=整合前因果方向预评估。"
+    "2026-06-13: 散步因果影响三条路径——直接注入(可观测)/结构重排(最有价值)/前提瓦解(不可观测)。三维评分(写作质量×骨架影响×因果方向)。认知免疫=整合前因果方向预评估。",
+    "2026-06-14: 散步因果影响四路径模型（Hutchins 脚手架维护作为路径4）——散步影响骨架的因果路径不仅是前向的（散步→日志→骨架），还有反向的（日志→重读→骨架重组）。随机重读子步骤=将被动脚手架维护转为主动脚手架维护。路径2（结构重排）依赖路径4的存在。"
   ],
   "dormant_stats": {
     "total_count": 12,

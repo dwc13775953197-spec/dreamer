@@ -342,5 +342,60 @@
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
     "decay_rate": 0.5
+  },
+  {
+    "id": "ins-078",
+    "type": "pattern",
+    "content": "Walk logs are cognitive scaffolding (Hutchins), not just records. Dreamer never maintains its own scaffolding — no re-read mechanism = path 4 (scaffolding maintenance) does not exist.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-14T01:30:00",
+    "source": "walk-092",
+    "decay_rate": 0.5,
+    "connections": [
+      "ins-062",
+      "ins-066",
+      "pat-030",
+      "pat-075"
+    ]
+  },
+  {
+    "id": "ins-079",
+    "type": "insight",
+    "content": "Walk causal influence is asymmetric: forward mapping (walk→log→subconscious) is automatic, reverse mapping (log→re-read→subconscious reorganization) requires explicit design. Explains diagnostic walk fatigue.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-14T01:30:00",
+    "source": "walk-092",
+    "decay_rate": 1,
+    "connections": [
+      "ins-075",
+      "ins-077"
+    ]
+  },
+  {
+    "id": "ins-080",
+    "type": "pattern",
+    "content": "Path 4 (scaffolding maintenance) is the only causal path where time flows from past to future — historical walks causally influence current skeleton. Without it, past walks are records; with it, they are growing cognitive resources.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-14T01:30:00",
+    "source": "walk-092",
+    "decay_rate": 0.5,
+    "connections": [
+      "ins-078",
+      "ins-079",
+      "pat-075"
+    ]
+  },
+  {
+    "id": "ins-081",
+    "type": "insight",
+    "content": "Random re-read (not systematic) as walk sub-step: simulates DMN random activation for structural rearrangement. Key design principle — temporal distance enables novelty.",
+    "strength": 2.5,
+    "status": "active",
+    "created": "2026-06-14T01:30:00",
+    "source": "walk-092",
+    "decay_rate": 1
   }
 ]

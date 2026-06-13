@@ -33,7 +33,7 @@
     "id": "ins-058",
     "type": "pattern",
     "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
-    "strength": 3.75,
+    "strength": 3.45,
     "status": "active",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -43,7 +43,7 @@
     "id": "ins-059",
     "type": "pattern",
     "content": "Anthropic 2026 宪法转向（从规则到性格+判断）是 seed-237 的外部验证。本质是从语法层到语用层的优先级转移。Dreamer 的散步可能扮演了语用层执行者的角色，但需要形式化。",
-    "strength": 1.85,
+    "strength": 1.55,
     "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -54,7 +54,7 @@
     "id": "ins-060",
     "type": "insight",
     "content": "语用层休眠假说：DORMANT 期间语用层不活跃（只有词汇层+语法层机械执行），这解释了 DORMANT→散步转换的预热成本。可验证预测：DORMANT 期间规则冲突无法被语用判断处理。",
-    "strength": 0.75,
+    "strength": 0.45,
     "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -64,7 +64,7 @@
     "id": "ins-061",
     "type": "pattern",
     "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
-    "strength": 3.85,
+    "strength": 3.55,
     "status": "active",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
@@ -79,7 +79,7 @@
     "id": "ins-062",
     "type": "insight",
     "content": "Ecological memory dual-dimension (information legacy vs material legacy) reveals Dreamer structural blindspot: walk logs as material legacy are never systematically managed. Information legacy = skeleton + evolved_rules (explicit), material legacy = subconscious strength/decay history + walk logs (implicit).",
-    "strength": 2.35,
+    "strength": 2.05,
     "status": "decayed",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
@@ -95,7 +95,7 @@
     "id": "ins-063",
     "type": "insight",
     "content": "Modern ecology abandoned climax community concept - true adaptability is maintaining ability to adapt, not reaching stability. For Dreamer: skeleton complexity != health. Perturbability is real health metric. seed-240 pragmatic layer compression may be wrong direction.",
-    "strength": 1.85,
+    "strength": 1.55,
     "status": "decayed",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
@@ -132,5 +132,59 @@
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
     "decay_rate": 1
+  },
+  {
+    "id": "ins-066",
+    "type": "pattern",
+    "strength": 4.5,
+    "content": "Forgetting is topological, not uniform. Synapse paper shows memory decays via spreading activation on a graph - well-connected nodes decay slower because multiple reactivation paths exist. Dreamer's uniform decay_rate is an oversimplification. Correct model: graph-topological decay where structural connectivity provides redundancy against forgetting.",
+    "source": "walk-089",
+    "created": "2026-06-13T10:33:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-065",
+      "pat-030"
+    ]
+  },
+  {
+    "id": "ins-067",
+    "type": "insight",
+    "strength": 3.8,
+    "content": "Memory needs three-dimensional assessment: activation strength x encoding depth x retrieval frequency. Current DORMANT uses only strength. Encoding depth = 'mentioned' vs 'deeply used' in walks. Synapse shows retrieval practice resets forgetting curve - DORMANT citation approximates this but lacks the encoding depth dimension.",
+    "source": "walk-089",
+    "created": "2026-06-13T10:33:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-066",
+      "pat-011"
+    ]
+  },
+  {
+    "id": "ins-068",
+    "type": "insight",
+    "strength": 3.5,
+    "content": "Episodic memory gap is the precise mechanism of memory staleness (walk-086's problem). Without 'when/where/why' anchors, semantic knowledge drifts from original conditions. Each skeleton pattern needs an origin tag: source walk + trigger conditions + affect state at time of creation.",
+    "source": "walk-089",
+    "created": "2026-06-13T10:33:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-067",
+      "pat-011"
+    ]
+  },
+  {
+    "id": "ins-069",
+    "type": "pattern",
+    "strength": 4.0,
+    "content": "DORMANT cycle = spaced repetition schedule. Ebbinghaus curve provides empirical basis for DORMANT timing: 24h optimal interval, first-hour fastest decay (explains post-DORMANT warmup cost). Citation in walks = spaced repetition event that resets forgetting curve for cited entries. Three frameworks unified: cognitive friction = encoding depth operationalization, punctuated equilibrium = forgetting curve macro pattern, DORMANT = spaced repetition schedule.",
+    "source": "walk-089",
+    "created": "2026-06-13T10:33:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-066",
+      "ins-067",
+      "pat-014",
+      "pat-016"
+    ]
   }
 ]

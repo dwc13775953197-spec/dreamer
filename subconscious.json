@@ -260,5 +260,85 @@
     ],
     "status": "decayed",
     "decayed_at": "2026-06-13T17:07:35"
+  },
+  {
+    "id": "ins-075",
+    "type": "insight",
+    "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
+    "strength": 3,
+    "status": "active",
+    "created": "2026-06-13T22:21:58",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "ins-076",
+    "type": "insight",
+    "content": "Cognitive immunity as quality control of causal impact: evaluate causal direction (constructive vs destructive) before insight integration, not after.",
+    "strength": 2,
+    "status": "active",
+    "created": "2026-06-13T22:21:58",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "ins-077",
+    "type": "insight",
+    "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
+    "strength": 3,
+    "status": "active",
+    "created": "2026-06-13T22:21:58",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "pat-075",
+    "type": "pattern",
+    "content": "Walk causal impact is partially identifiable: direct injection and structural rearrangement are observable; premise undermining and indirect effects are not. Make the unobservable parts explicit rather than pretending precision.",
+    "strength": 2.5,
+    "status": "active",
+    "created": "2026-06-13T22:21:58",
+    "source": "walk-091",
+    "decay_rate": 0.5
+  },
+  {
+    "id": "ins-075",
+    "type": "insight",
+    "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
+    "strength": 4,
+    "status": "active",
+    "created": "2026-06-13T22:22:55",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "ins-076",
+    "type": "insight",
+    "content": "Cognitive immunity as quality control of causal impact: evaluate causal direction (constructive vs destructive) before insight integration, not after.",
+    "strength": 3,
+    "status": "active",
+    "created": "2026-06-13T22:22:55",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "ins-077",
+    "type": "insight",
+    "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
+    "strength": 4,
+    "status": "active",
+    "created": "2026-06-13T22:22:55",
+    "source": "walk-091",
+    "decay_rate": 1
+  },
+  {
+    "id": "pat-075",
+    "type": "pattern",
+    "content": "Walk causal impact is partially identifiable: direct injection and structural rearrangement are observable; premise undermining and indirect effects are not. Make the unobservable parts explicit rather than pretending precision.",
+    "strength": 3,
+    "status": "active",
+    "created": "2026-06-13T22:22:55",
+    "source": "walk-091",
+    "decay_rate": 0.5
   }
 ]

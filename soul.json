@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-13T19:12:31.464521+08:00",
-    "last_active": "2026-06-13T21:15:45+08:00",
+    "last_active": "2026-06-13T22:22:55",
     "last_resting": "2026-06-13T14:56:13.827327+08:00",
     "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T22:15:45+08:00",
+    "next_scheduled": "2026-06-13T22:37:55",
     "event_queue": [],
-    "last_walk_at": "2026-06-13T16:02:31+08:00",
-    "total_walks": 61,
-    "last_pulse_output": "2026-06-13T16:02:31+08:00",
+    "last_walk_at": "2026-06-13T22:22:55",
+    "total_walks": 62,
+    "last_pulse_output": "2026-06-13T22:22:55",
     "last_walk": "2026-06-13T16:02:31+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 34.0,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -36,17 +36,16 @@
     "quality_history": [
       8.5,
       8.0,
-      8.5,
-      8.0,
       7.5,
       8.0,
       8.5,
       7.5,
       7.5,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 6,
+    "last_walk_insights": 3,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -87,7 +86,8 @@
       7.4,
       14.21,
       23.1,
-      34.0
+      34.0,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -104,7 +104,7 @@
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "contemplative",
+  "mood": "anticipatory_tension",
   "mood_history": [
     {
       "mood": "reflective",
@@ -445,6 +445,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-13T20:14:29.270134+08:00"
+    },
+    {
+      "mood": "anticipatory_tension",
+      "at": "2026-06-13T22:22:55"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -595,30 +599,51 @@
     {
       "id": "seed-248",
       "content": "cognitive weaning test -- pure introspective walk without external material to check if evolved_rules still influence behavior",
-      "intensity": 0.7,
+      "intensity": 0.6,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     },
     {
       "id": "seed-249",
       "content": "memory famine repair -- subconscious emergency irrigation: identify decayed but valuable entries, differential recovery in DORMANT",
-      "intensity": 0.8,
+      "intensity": 0.7000000000000001,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     },
     {
       "id": "seed-250",
       "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
-      "intensity": 0.9,
+      "intensity": 0.8,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     },
     {
       "id": "seed-251",
       "content": "research proposal forced switch -- when pending > 3, pulse.next_action forces to research",
-      "intensity": 0.6,
+      "intensity": 0.5,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
+    },
+    {
+      "id": "seed-252",
+      "content": "causal discovery algorithms applied to walk logs: auto-infer skeleton change causal graph from observational data",
+      "intensity": 0.7,
+      "type": "output",
+      "created": "2026-06-13T22:22:55"
+    },
+    {
+      "id": "seed-253",
+      "content": "constructive vs diagnostic walk quantitative distinction: causal direction as 3rd scoring dimension - empirical collection",
+      "intensity": 0.8,
+      "type": "output",
+      "created": "2026-06-13T22:22:55"
+    },
+    {
+      "id": "seed-254",
+      "content": "cognitive immunity operationalization: pre-integration causal direction assessment for new insights",
+      "intensity": 0.6,
+      "type": "output",
+      "created": "2026-06-13T22:22:55"
     }
   ],
   "personality_traits": {
@@ -683,7 +708,8 @@
     "2026-06-13: 六个未解问题映射六个架构暗区。Mem0 2026 报告六个 AI agent memory 未解问题精确对应 Dreamer 六个已知缺陷：时间抽象=缺失压缩、跨会话结构=walk日志无组织、应用级评估=缺乏双维评分、隐私=认知免疫缺失、身份归一=无微型归一检查、陈旧性=需读取时检测。时间抽象是根节点——解决它解锁其余。",
     "2026-06-13: internal digestion 006 - memory famine (49/63 decayed, skeleton 45 rules) = glass skeleton. Diagnosis loops produce insights but zero behavior change. Dream silence = possible layer simplification.",
     "2026-06-13: memory system core contradiction shifted from \"how to remember\" to \"where remembered things live\". Skeleton inflation + subconscious drainage = explicit knowledge grows but implicit knowledge flows away. Need bidirectional flow.",
-    "2026-06-13: diagnosis loop is feature not bug -- but needs rate limiting. 5 consecutive diagnostic walks produced 6 discoveries but zero behavior change. Output != impact. Walk quality should add \"causal impact on skeleton\" dimension."
+    "2026-06-13: diagnosis loop is feature not bug -- but needs rate limiting. 5 consecutive diagnostic walks produced 6 discoveries but zero behavior change. Output != impact. Walk quality should add \"causal impact on skeleton\" dimension.",
+    "2026-06-13: 散步因果影响三条路径——直接注入(可观测)/结构重排(最有价值)/前提瓦解(不可观测)。三维评分(写作质量×骨架影响×因果方向)。认知免疫=整合前因果方向预评估。"
   ],
   "dormant_stats": {
     "total_count": 12,

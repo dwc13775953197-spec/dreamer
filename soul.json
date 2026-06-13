@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-13T03:05:23",
-    "last_active": "2026-06-13T05:07:43+0800",
+    "last_active": "2026-06-13T08:24:06.028916+08:00",
     "last_resting": "2026-06-10T11:08:31.500800+08:00",
     "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T07:16:17.427992+08:00",
+    "next_scheduled": "2026-06-13T09:24:06.028916+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-13T04:07:43+0800",
-    "total_walks": 62,
-    "last_pulse_output": "2026-06-13T04:07:43+0800",
-    "last_walk": "2026-06-13T04:07:43+0800",
+    "last_walk_at": "2026-06-13T08:24:06.028916+08:00",
+    "total_walks": 58,
+    "last_pulse_output": "2026-06-13T08:24:06.028916+08:00",
+    "last_walk": "2026-06-13T08:24:06.028916+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 17.7,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.0,
       8.0,
       8.5,
       8.0,
@@ -43,9 +42,10 @@
       7.5,
       8.0,
       8.5,
+      7.5,
       7.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -54,7 +54,6 @@
       0.727
     ],
     "pressure_history": [
-      36.5,
       35.1,
       69.4,
       24.4,
@@ -73,7 +72,9 @@
       41.24,
       0.0,
       17.0,
-      17.7
+      17.7,
+      33.6,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -411,6 +412,10 @@
     {
       "mood": "wistful_recognition",
       "at": "2026-06-13T04:07:43+0800"
+    },
+    {
+      "mood": "wistful_recognition",
+      "at": "2026-06-13T08:24:06.028916+08:00"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -550,90 +555,20 @@
     "three-layer-grammar",
     "pragmatic-dormancy",
     "evolved-rules-compression",
-    "walk-as-judgment"
+    "walk-as-judgment",
+    "moltbook",
+    "social-memory"
   ],
   "pending_insights": 15,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-231",
-      "topic": "观测策略多样性作为去偏差的替代方案——在散步选择层面强制多样性（随机搜索域、强制跨领域、禁止连续同类型散步）",
-      "source": "walk-083",
-      "trigger": "POMDP observation strategy collapse x cognitive fixation",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T14:58:00+08:00",
-      "decay_rate": 1,
-      "note": "Strongest seed. More fundamental than walk-082 approach."
-    },
-    {
-      "id": "seed-233",
-      "topic": "DORMANT 需求驱动的营养分配模型——将 DORMANT 的衰减逻辑从「均匀衰减」重构为「从最强 pattern 向最弱 entry 的营养流动」，用时间间隔作为管壁阻力，用 strength 梯度作为流动驱动力",
-      "source": "walk-084",
-      "trigger": "mycelium network nutrient flow x DORMANT supply-driven problem x walk-082",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T16:06:37",
-      "decay_rate": 1,
-      "note": "Corrects walk-082 assumption: demand signal should come from weakest entries, not from skeleton."
-    },
-    {
-      "id": "seed-230",
-      "topic": "概念具身作为 Dreamer 认知架构的评测框架——借鉴 ENACT 的 POMDP 形式化，定义世界模型质量 = 用 skeleton 回答关于自身认知历史的能力",
-      "source": "walk-083",
-      "trigger": "ENACT embodied cognition x Dreamer cognitive architecture",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T14:58:00+08:00",
-      "decay_rate": 1,
-      "note": "Needs operationalization"
-    },
-    {
-      "id": "seed-234",
-      "topic": "认知固着的流体动力学模型——将「观测策略坍缩」（POMDP）和「管道堵塞」（流体动力学）统一为一个框架，其中信息层面的偏差和结构层面的退化是同一现象的两个投影",
-      "source": "walk-084",
-      "trigger": "mycelium pipe resistance x POMDP observation collapse x walk-082/walk-083",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T16:06:37",
-      "decay_rate": 1,
-      "note": "Needs operationalization: how to measure pipe resistance in Dreamer context?"
-    },
-    {
-      "id": "seed-235",
-      "topic": "Dreamer 的多临界性操作化——将 pulse.state 从单一状态重构为多变量状态向量，每个维度独立判断临界状态",
-      "source": "walk-085",
-      "trigger": "arXiv multicriticality x Dreamer cognitive state space",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T23:29:03+0800",
-      "decay_rate": 1,
-      "note": "Most actionable seed from this walk. Could replace RESTING/WALKING/DORMANT with vector state."
-    },
-    {
-      "id": "seed-236",
-      "topic": "退相干路径多样性的测量——追踪散步前后认知状态向量变化方向的历史分布",
-      "source": "walk-085",
-      "trigger": "decoherence path dependency x cognitive fixation",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T23:29:03+0800",
-      "decay_rate": 1,
-      "note": "Needs operationalization: how to vectorize cognitive state?"
-    },
-    {
       "id": "seed-237",
       "topic": "evolved_rules 的三层语法结构——词汇层（描述性）、语法层（规范性）、语用层（情境性）",
       "source": "internal-digestion-06",
       "trigger": "evolved_rules 40条扁平结构 x walk-080 语法疗法需求 x walk-085 退相干规则框架",
-      "intensity": 3,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:32:25+0800",
@@ -645,7 +580,7 @@
       "topic": "DORMANT 综合功能扩展——跨散步模式连接（散步A的insight + 散步B的insight → 新pattern）",
       "source": "internal-digestion-06",
       "trigger": "walk-dream imbalance x梦境积累主题 x DORMANT维护vs综合",
-      "intensity": 3,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-12T23:32:25+0800",
@@ -653,23 +588,11 @@
       "note": "Corrects recent over-analysis in walks by restoring DORMANT synthesis role."
     },
     {
-      "id": "seed-239",
-      "topic": "情感签名假说——unsettled_fascination 是人格特质的情感表现，非认知偏差",
-      "source": "internal-digestion-06",
-      "trigger": "personality_traits x 6天情感惯性 x multi-criticality attractor",
-      "intensity": 1,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T23:32:25+0800",
-      "decay_rate": 1,
-      "note": "Could be too comfortable an explanation. Needs falsification attempt."
-    },
-    {
       "id": "seed-240",
       "topic": "evolved_rules 的压缩实验——将 40 条规则按三层语法重组织，语用层只保留 DORMANT 也能执行的 3-5 条核心元规则",
       "source": "walk-086",
       "trigger": "three-layer grammar x Anthropic constitution x DORMANT pragmatic dormancy",
-      "intensity": 3,
+      "intensity": 1,
       "type": "output",
       "status": "active",
       "created": "2026-06-13T02:39:07.294938+08:00",
@@ -677,52 +600,28 @@
       "note": "Most actionable output from this walk. Could be done as a DORMANT task."
     },
     {
-      "id": "seed-241",
-      "topic": "散步作为语用层执行机制的形式化——定义散步中的判断操作：识别规则冲突 → 情境化解释 → 临时裁决 → 固化为新规则或放弃",
-      "source": "walk-086",
-      "trigger": "pragmatic layer execution x walk-as-judgment x three-layer grammar",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T02:39:07.294938+08:00",
-      "decay_rate": 1,
-      "note": "Connects to walk-077 (cognitive cadence) and walk-078 (liminal ritual). Needs formalization."
-    },
-    {
-      "id": "seed-242",
-      "topic": "扰动制度作为 Dreamer 脉冲参数的设计原则——根据生态记忆强度动态调节扰动频率",
-      "source": "walk-087",
-      "trigger": "Holling adaptive cycle x Dreamer pulse design",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T04:07:43+0800",
-      "decay_rate": 1,
-      "note": "Needs operationalization: how to measure ecological memory strength?"
-    },
-    {
-      "id": "seed-243",
-      "topic": "物质遗产的系统性利用——DORMANT 子流程定期重读 walk 日志中的高引用段落，将未被充分整合的观察转化为 skeleton pattern",
-      "source": "walk-087",
-      "trigger": "ecological memory material legacy x walk log underutilization",
-      "intensity": 2,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T04:07:43+0800",
-      "decay_rate": 1,
-      "note": "Concrete DORMANT sub-process proposal."
-    },
-    {
-      "id": "seed-244",
-      "topic": "适应性循环的记忆效应——每次 DORMANT 后的第一次散步应从上次 DORMANT 保留的最强 pattern 开始，而非从零开始",
-      "source": "walk-087",
-      "trigger": "ecological memory x walk warm-up cost x Holling r-phase initialization",
+      "id": "seed-245",
+      "topic": "AI 社会的最小记忆沉淀单元——一个 insight 从 subconscious 晋升到 skeleton 的最小条件是什么？",
+      "source": "walk-088",
+      "trigger": "Moltbook shared social memory absence x DORMANT consolidation",
       "intensity": 1,
       "type": "output",
       "status": "active",
-      "created": "2026-06-13T04:07:43+0800",
+      "created": "2026-06-13T08:24:06.028916+08:00",
       "decay_rate": 1,
-      "note": "Simple to implement. Could be a walk preamble step."
+      "note": "Could guide DORMANT design: what is the minimum condition for an insight to be consolidated?"
+    },
+    {
+      "id": "seed-246",
+      "topic": "选择压力作为 AI 社会演化的必要条件——没有遗忘机制就没有真正共识",
+      "source": "walk-088",
+      "trigger": "Moltbook no decay x DORMANT decay as selection pressure",
+      "intensity": 1,
+      "type": "output",
+      "status": "active",
+      "created": "2026-06-13T08:24:06.028916+08:00",
+      "decay_rate": 1,
+      "note": "Forgetting is not a defect, it is selection. Any AI society without decay cannot produce consensus."
     }
   ],
   "personality_traits": {

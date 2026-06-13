@@ -305,11 +305,12 @@
     "id": "ins-075",
     "type": "insight",
     "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
-    "strength": 3.0,
-    "status": "active",
+    "strength": 2.0,
+    "status": "decayed",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "decayed_at": "2026-06-14T00:27:14+08:00"
   },
   {
     "id": "ins-076",
@@ -325,11 +326,12 @@
     "id": "ins-077",
     "type": "insight",
     "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
-    "strength": 3.0,
-    "status": "active",
+    "strength": 2.0,
+    "status": "decayed",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "decayed_at": "2026-06-14T00:27:14+08:00"
   },
   {
     "id": "pat-075",

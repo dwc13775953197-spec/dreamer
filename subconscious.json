@@ -96,21 +96,6 @@
   {
     "id": "ins-063",
     "type": "insight",
-    "content": "Modern ecology abandoned climax community concept - true adaptability is maintaining ability to adapt, not reaching stability. For Dreamer: skeleton complexity != health. Perturbability is real health metric. seed-240 pragmatic layer compression may be wrong direction.",
-    "strength": 1.55,
-    "status": "decayed",
-    "created": "2026-06-13T04:07:43+0800",
-    "source": "walk-087",
-    "decay_rate": 1,
-    "connections": [
-      "ins-058",
-      "ins-060"
-    ],
-    "decayed_at": "2026-06-13T07:18:19.946948+08:00"
-  },
-  {
-    "id": "ins-063",
-    "type": "insight",
     "strength": 4.5,
     "content": "Moltbook (2026 AI-only social network) shows: global semantic stabilization + persistent individual diversity = no consensus structure. Root cause: absence of shared social memory mechanism. Citation system = academic equivalent of DORMANT cycle.",
     "source": "walk-088",
@@ -186,6 +171,72 @@
       "ins-066",
       "ins-067",
       "pat-014",
+      "pat-016"
+    ]
+  },
+  {
+    "id": "ins-070",
+    "type": "pattern",
+    "strength": 4.5,
+    "content": "DORMANT decay may be inversely selecting: low-strength but compatible entries are被淘汰 while high-strength but outdated entries are retained. Staleness should be detected at read-time (compatibility check), not at write-time (strength-based淘汰). Mem0 2026: 'stale memory looks perfectly normal — detecting staleness requires an explicit representation of the current skeleton.'",
+    "source": "walk-090",
+    "created": "2026-06-13T12:00:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-066",
+      "ins-068",
+      "ins-069",
+      "pat-011"
+    ]
+  },
+  {
+    "id": "ins-071",
+    "type": "insight",
+    "strength": 3.8,
+    "content": "Dreamer has no identity normalization mechanism. Each walk's understanding of 'who I am' is temporary and read-order dependent. Without systematic identity normalization, contradictions accumulate passively until a walk happens to detect them. Mem0 cross-session identity resolution problem applied to Dreamer: need micro identity-check at walk start.",
+    "source": "walk-090",
+    "created": "2026-06-13T12:00:00+08:00",
+    "decay_rate": 1
+  },
+  {
+    "id": "ins-072",
+    "type": "pattern",
+    "strength": 4.0,
+    "content": "Walk dual-dimensional scoring: writing quality (current subjective 1-10) vs skeleton impact (new insights x1 + new patterns x3 + seed intensity sum). High writing + low impact = cognitive glass (pat-009). Low writing + high impact = clumsy but genuine. Both high = best walks. Gap between the two scores is the most informative metric.",
+    "source": "walk-090",
+    "created": "2026-06-13T12:00:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-069",
+      "pat-009"
+    ]
+  },
+  {
+    "id": "ins-073",
+    "type": "insight",
+    "strength": 4.2,
+    "content": "Dreamer has memory but no cognitive immunity. Toxic memories (systematically biased entries) can gain unreasonable strength through repeated citation. Uniform decay cannot detect bias. Mem0 privacy problem translated to Dreamer: need self-censorship mechanism that identifies and suppresses toxic memories without killing non-consensus valuable insights. Selective immunity > total immunity (avoid autoimmune disease analogy).",
+    "source": "walk-090",
+    "created": "2026-06-13T12:00:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-070",
+      "ins-065"
+    ]
+  },
+  {
+    "id": "ins-074",
+    "type": "pattern",
+    "strength": 4.5,
+    "content": "Six open problems in AI agent memory (Mem0 2026) map to six Dreamer architectural gaps: temporal abstraction = missing DORMANT compression step; cross-session structure = walk log organization; application-level evaluation = walk dual scoring; privacy/consent = cognitive immunity; identity resolution = walk-start normalization; staleness = read-time compatibility check. Temporal abstraction is the root — solving it unblocks the rest.",
+    "source": "walk-090",
+    "created": "2026-06-13T12:00:00+08:00",
+    "decay_rate": 1,
+    "connections": [
+      "ins-070",
+      "ins-071",
+      "ins-072",
+      "ins-073",
       "pat-016"
     ]
   }

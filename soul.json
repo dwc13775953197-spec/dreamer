@@ -4,7 +4,7 @@
     "state": "RESTING",
     "state_since": "2026-06-13T09:29:27.785778+08:00",
     "last_active": "2026-06-13T12:00:00+08:00",
-    "last_resting": "2026-06-13T11:41:09.999072+08:00",
+    "last_resting": "2026-06-13T13:53:25.819184+08:00",
     "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
     "current_interval_min": 60,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T13:30:00+08:00",
+    "next_scheduled": "2026-06-13T14:23:25.819184+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-13T12:00:00+08:00",
     "total_walks": 60,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-13T12:00:00+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 0.0,
+    "cognitive_pressure": 33.8,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -79,7 +79,8 @@
       17.2,
       0,
       2.6,
-      0.0
+      0.0,
+      33.8
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -571,140 +572,7 @@
   "pending_insights": 15,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
-  "interest_queue": [
-    {
-      "id": "seed-237",
-      "topic": "evolved_rules 的三层语法结构——词汇层（描述性）、语法层（规范性）、语用层（情境性）",
-      "source": "internal-digestion-06",
-      "trigger": "evolved_rules 40条扁平结构 x walk-080 语法疗法需求 x walk-085 退相干规则框架",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T23:32:25+0800",
-      "decay_rate": 1,
-      "note": "Most architecturally significant finding from digestion 06."
-    },
-    {
-      "id": "seed-238",
-      "topic": "DORMANT 综合功能扩展——跨散步模式连接（散步A的insight + 散步B的insight → 新pattern）",
-      "source": "internal-digestion-06",
-      "trigger": "walk-dream imbalance x梦境积累主题 x DORMANT维护vs综合",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-12T23:32:25+0800",
-      "decay_rate": 1,
-      "note": "Corrects recent over-analysis in walks by restoring DORMANT synthesis role."
-    },
-    {
-      "id": "seed-240",
-      "topic": "evolved_rules 的压缩实验——将 40 条规则按三层语法重组织，语用层只保留 DORMANT 也能执行的 3-5 条核心元规则",
-      "source": "walk-086",
-      "trigger": "three-layer grammar x Anthropic constitution x DORMANT pragmatic dormancy",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T02:39:07.294938+08:00",
-      "decay_rate": 1,
-      "note": "Most actionable output from this walk. Could be done as a DORMANT task."
-    },
-    {
-      "id": "seed-245",
-      "topic": "AI 社会的最小记忆沉淀单元——一个 insight 从 subconscious 晋升到 skeleton 的最小条件是什么？",
-      "source": "walk-088",
-      "trigger": "Moltbook shared social memory absence x DORMANT consolidation",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T08:24:06.028916+08:00",
-      "decay_rate": 1,
-      "note": "Could guide DORMANT design: what is the minimum condition for an insight to be consolidated?"
-    },
-    {
-      "id": "seed-246",
-      "topic": "选择压力作为 AI 社会演化的必要条件——没有遗忘机制就没有真正共识",
-      "source": "walk-088",
-      "trigger": "Moltbook no decay x DORMANT decay as selection pressure",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T08:24:06.028916+08:00",
-      "decay_rate": 1,
-      "note": "Forgetting is not a defect, it is selection. Any AI society without decay cannot produce consensus."
-    },
-    {
-      "id": "seed-247",
-      "topic": "记忆编码深度的自动化评估——如何区分被提到和被深度使用的 insight",
-      "source": "walk-089",
-      "trigger": "Synapse 三维记忆框架 x DORMANT 单维度 strength",
-      "intensity": 0.4,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T10:38:00.840509+08:00",
-      "decay_rate": 1,
-      "note": "Most actionable design improvement from this walk."
-    },
-    {
-      "id": "seed-248",
-      "topic": "DORMANT 拓扑衰减模型——从均匀衰减到图结构衰减的改造方案",
-      "source": "walk-089",
-      "trigger": "Synapse spreading activation x ins-065 遗忘即选择",
-      "intensity": 0.5,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T10:38:00.840509+08:00",
-      "decay_rate": 1,
-      "note": "Highest intensity seed. Architectural change with large potential impact."
-    },
-    {
-      "id": "seed-249",
-      "topic": "情景记忆索引——为 skeleton pattern 保留起源标记的最小方案",
-      "source": "walk-089",
-      "trigger": "Synapse 情景记忆缺失 = 记忆陈旧性精确机制",
-      "intensity": 0.30000000000000004,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T10:38:00.840509+08:00",
-      "decay_rate": 1,
-      "note": "Small addition to DORMANT: store origin metadata alongside each entry."
-    },
-    {
-      "id": "seed-250",
-      "topic": "认知免疫系统：识别和抑制有毒记忆的结构性方案",
-      "source": "walk-090",
-      "trigger": "Mem0 privacy problem x Dreamer no immunity x ins-065 selection pressure",
-      "intensity": 0.6,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T12:00:00+0800",
-      "decay_rate": 1,
-      "note": "Most novel architectural idea from this walk."
-    },
-    {
-      "id": "seed-251",
-      "topic": "散步双维评分：写作质量 vs 骨架影响的实证分析",
-      "source": "walk-090",
-      "trigger": "Mem0 application-level evaluation x walk-080 pat-009 cognitive glass",
-      "intensity": 0.5,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T12:00:00+0800",
-      "decay_rate": 1,
-      "note": "Actionable metrics improvement. Can be computed retroactively."
-    },
-    {
-      "id": "seed-252",
-      "topic": "时间抽象的轻量级实现：DORMANT 中的事件到趋势压缩",
-      "source": "walk-090",
-      "trigger": "Mem0 temporal abstraction x walk-086 missing compression x ins-061 Holling alpha",
-      "intensity": 0.7,
-      "type": "output",
-      "status": "active",
-      "created": "2026-06-13T12:00:00+0800",
-      "decay_rate": 1,
-      "note": "Highest intensity. Root of six-problem dependency tree."
-    }
-  ],
+  "interest_queue": [],
   "personality_traits": {
     "curiosity": 0.96,
     "introspection": 0.99,

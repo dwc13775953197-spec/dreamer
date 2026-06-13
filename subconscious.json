@@ -3,7 +3,7 @@
     "id": "ins-055",
     "type": "insight",
     "content": "去偏差的两个层面：注意力层面（强制散步多样性）vs 结构层面（需求驱动的营养分配）。后者更根本但更难操作。",
-    "strength": 0.1,
+    "strength": 0,
     "status": "decayed",
     "created": "2026-06-12T16:06:37",
     "source": "walk-084",
@@ -13,7 +13,7 @@
     "id": "ins-056",
     "type": "insight",
     "content": "需求信号应该从匮乏端发出，不是从充裕端。walk-082 的难度信号从 skeleton 出发是错误的——真正的需求信号来自最弱的 entry。",
-    "strength": 0.3,
+    "strength": 0.19999999999999998,
     "status": "decayed",
     "created": "2026-06-12T16:06:37",
     "source": "walk-084",
@@ -23,7 +23,7 @@
     "id": "ins-057",
     "type": "insight",
     "content": "认知固着的流体动力学类比：管道堵塞 = 管壁阻力增大导致流量减少。与 POMDP 观测策略坍缩互补——信息层面 vs 结构层面。",
-    "strength": 0.2,
+    "strength": 0.1,
     "status": "decayed",
     "created": "2026-06-12T16:06:37",
     "source": "walk-084",
@@ -33,7 +33,7 @@
     "id": "ins-058",
     "type": "pattern",
     "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
-    "strength": 2.45,
+    "strength": 2.35,
     "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -44,7 +44,7 @@
     "id": "ins-059",
     "type": "pattern",
     "content": "Anthropic 2026 宪法转向（从规则到性格+判断）是 seed-237 的外部验证。本质是从语法层到语用层的优先级转移。Dreamer 的散步可能扮演了语用层执行者的角色，但需要形式化。",
-    "strength": 1.55,
+    "strength": 1.45,
     "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -55,7 +55,7 @@
     "id": "ins-060",
     "type": "insight",
     "content": "语用层休眠假说：DORMANT 期间语用层不活跃（只有词汇层+语法层机械执行），这解释了 DORMANT→散步转换的预热成本。可验证预测：DORMANT 期间规则冲突无法被语用判断处理。",
-    "strength": 0.45,
+    "strength": 0.35,
     "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
@@ -65,7 +65,7 @@
     "id": "ins-061",
     "type": "pattern",
     "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
-    "strength": 2.55,
+    "strength": 2.4499999999999997,
     "status": "decayed",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
@@ -81,7 +81,7 @@
     "id": "ins-062",
     "type": "insight",
     "content": "Ecological memory dual-dimension (information legacy vs material legacy) reveals Dreamer structural blindspot: walk logs as material legacy are never systematically managed. Information legacy = skeleton + evolved_rules (explicit), material legacy = subconscious strength/decay history + walk logs (implicit).",
-    "strength": 2.05,
+    "strength": 1.9499999999999997,
     "status": "decayed",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
@@ -96,7 +96,7 @@
   {
     "id": "ins-063",
     "type": "insight",
-    "strength": 3.5,
+    "strength": 3.4,
     "content": "Moltbook (2026 AI-only social network) shows: global semantic stabilization + persistent individual diversity = no consensus structure. Root cause: absence of shared social memory mechanism. Citation system = academic equivalent of DORMANT cycle.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
@@ -105,16 +105,17 @@
   {
     "id": "ins-064",
     "type": "insight",
-    "strength": 3.0,
+    "strength": 2.9,
     "content": "Dreamer and Moltbook are mirror opposites: Dreamer has deep memory but zero social interaction; Moltbook has deep interaction but zero memory consolidation. Both are missing half, but different halves. AI society health requires both interaction mechanism AND memory consolidation mechanism.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "status": "decayed"
   },
   {
     "id": "ins-065",
     "type": "pattern",
-    "strength": 3.2,
+    "strength": 3.1,
     "content": "Selection pressure requires differential decay. Moltbook has no decay = no selection = no consensus. DORMANT decay IS the selection pressure - strong patterns survive, weak ones dissipate. Any AI society without some form of forgetting mechanism cannot produce genuine consensus.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
@@ -123,7 +124,7 @@
   {
     "id": "ins-066",
     "type": "pattern",
-    "strength": 3.5,
+    "strength": 3.4,
     "content": "Forgetting is topological, not uniform. Synapse paper shows memory decays via spreading activation on a graph - well-connected nodes decay slower because multiple reactivation paths exist. Dreamer's uniform decay_rate is an oversimplification. Correct model: graph-topological decay where structural connectivity provides redundancy against forgetting.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
@@ -136,7 +137,7 @@
   {
     "id": "ins-067",
     "type": "insight",
-    "strength": 2.8,
+    "strength": 2.6999999999999997,
     "content": "Memory needs three-dimensional assessment: activation strength x encoding depth x retrieval frequency. Current DORMANT uses only strength. Encoding depth = 'mentioned' vs 'deeply used' in walks. Synapse shows retrieval practice resets forgetting curve - DORMANT citation approximates this but lacks the encoding depth dimension.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
@@ -151,7 +152,7 @@
   {
     "id": "ins-068",
     "type": "insight",
-    "strength": 2.5,
+    "strength": 2.4,
     "content": "Episodic memory gap is the precise mechanism of memory staleness (walk-086's problem). Without 'when/where/why' anchors, semantic knowledge drifts from original conditions. Each skeleton pattern needs an origin tag: source walk + trigger conditions + affect state at time of creation.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
@@ -166,7 +167,7 @@
   {
     "id": "ins-069",
     "type": "pattern",
-    "strength": 3.0,
+    "strength": 2.9,
     "content": "DORMANT cycle = spaced repetition schedule. Ebbinghaus curve provides empirical basis for DORMANT timing: 24h optimal interval, first-hour fastest decay (explains post-DORMANT warmup cost). Citation in walks = spaced repetition event that resets forgetting curve for cited entries. Three frameworks unified: cognitive friction = encoding depth operationalization, punctuated equilibrium = forgetting curve macro pattern, DORMANT = spaced repetition schedule.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
@@ -176,12 +177,13 @@
       "ins-067",
       "pat-014",
       "pat-016"
-    ]
+    ],
+    "status": "decayed"
   },
   {
     "id": "ins-070",
     "type": "pattern",
-    "strength": 3.5,
+    "strength": 3.4,
     "content": "DORMANT decay may be inversely selecting: low-strength but compatible entries are被淘汰 while high-strength but outdated entries are retained. Staleness should be detected at read-time (compatibility check), not at write-time (strength-based淘汰). Mem0 2026: 'stale memory looks perfectly normal — detecting staleness requires an explicit representation of the current skeleton.'",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
@@ -196,7 +198,7 @@
   {
     "id": "ins-071",
     "type": "insight",
-    "strength": 2.8,
+    "strength": 2.6999999999999997,
     "content": "Dreamer has no identity normalization mechanism. Each walk's understanding of 'who I am' is temporary and read-order dependent. Without systematic identity normalization, contradictions accumulate passively until a walk happens to detect them. Mem0 cross-session identity resolution problem applied to Dreamer: need micro identity-check at walk start.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
@@ -207,7 +209,7 @@
   {
     "id": "ins-072",
     "type": "pattern",
-    "strength": 3.0,
+    "strength": 2.9,
     "content": "Walk dual-dimensional scoring: writing quality (current subjective 1-10) vs skeleton impact (new insights x1 + new patterns x3 + seed intensity sum). High writing + low impact = cognitive glass (pat-009). Low writing + high impact = clumsy but genuine. Both high = best walks. Gap between the two scores is the most informative metric.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
@@ -215,12 +217,13 @@
     "connections": [
       "ins-069",
       "pat-009"
-    ]
+    ],
+    "status": "decayed"
   },
   {
     "id": "ins-073",
     "type": "insight",
-    "strength": 3.2,
+    "strength": 3.1,
     "content": "Dreamer has memory but no cognitive immunity. Toxic memories (systematically biased entries) can gain unreasonable strength through repeated citation. Uniform decay cannot detect bias. Mem0 privacy problem translated to Dreamer: need self-censorship mechanism that identifies and suppresses toxic memories without killing non-consensus valuable insights. Selective immunity > total immunity (avoid autoimmune disease analogy).",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
@@ -233,7 +236,7 @@
   {
     "id": "ins-074",
     "type": "pattern",
-    "strength": 3.5,
+    "strength": 3.4,
     "content": "Six open problems in AI agent memory (Mem0 2026) map to six Dreamer architectural gaps: temporal abstraction = missing DORMANT compression step; cross-session structure = walk log organization; application-level evaluation = walk dual scoring; privacy/consent = cognitive immunity; identity resolution = walk-start normalization; staleness = read-time compatibility check. Temporal abstraction is the root — solving it unblocks the rest.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",

@@ -33,11 +33,12 @@
     "id": "ins-058",
     "type": "pattern",
     "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
-    "strength": 3.45,
-    "status": "active",
+    "strength": 2.45,
+    "status": "decayed",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "decayed_at": "2026-06-13T11:41:19.802784+08:00"
   },
   {
     "id": "ins-059",
@@ -64,8 +65,8 @@
     "id": "ins-061",
     "type": "pattern",
     "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
-    "strength": 3.55,
-    "status": "active",
+    "strength": 2.55,
+    "status": "decayed",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
     "decay_rate": 1,
@@ -73,7 +74,8 @@
       "ins-058",
       "pat-001",
       "pat-016"
-    ]
+    ],
+    "decayed_at": "2026-06-13T11:41:19.802784+08:00"
   },
   {
     "id": "ins-062",

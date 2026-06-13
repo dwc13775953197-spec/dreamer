@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-13T09:29:27.785778+08:00",
-    "last_active": "2026-06-13T12:00:00+08:00",
+    "last_active": "2026-06-13T16:02:31+08:00",
     "last_resting": "2026-06-13T14:56:13.827327+08:00",
     "last_dormant": "2026-06-13T03:05:23",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-13T15:26:13.827356+08:00",
+    "next_scheduled": "2026-06-13T17:03:19+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-13T12:00:00+08:00",
-    "total_walks": 60,
-    "last_pulse_output": "2026-06-13T12:00:00+08:00",
-    "last_walk": "2026-06-13T12:00:00+08:00",
+    "last_walk_at": "2026-06-13T16:02:31+08:00",
+    "total_walks": 61,
+    "last_pulse_output": "2026-06-13T16:02:31+08:00",
+    "last_walk": "2026-06-13T16:02:31+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 41.1,
+    "cognitive_pressure": 0.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -46,7 +46,7 @@
       8.5,
       8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 6,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -81,7 +81,8 @@
       2.6,
       0.0,
       33.8,
-      41.1
+      41.1,
+      0.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -90,15 +91,15 @@
     ]
   },
   "affect": {
-    "primary": "anticipatory_tension",
+    "primary": "contemplative",
     "secondary": "rigor",
-    "intensity": 0.72,
+    "intensity": 0.65,
     "valence": 0.45,
     "arousal": 0.5,
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "anticipatory_tension",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "reflective",
@@ -427,6 +428,10 @@
     {
       "mood": "anticipatory_tension",
       "at": "2026-06-13T10:38:00.840509+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-13T16:02:31+08:00"
     }
   ],
   "last_walk": "2026-06-12T03:18:00+08:00",
@@ -573,7 +578,36 @@
   "pending_insights": 15,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
-  "interest_queue": [],
+  "interest_queue": [
+    {
+      "id": "seed-248",
+      "content": "cognitive weaning test -- pure introspective walk without external material to check if evolved_rules still influence behavior",
+      "intensity": 0.7,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
+    },
+    {
+      "id": "seed-249",
+      "content": "memory famine repair -- subconscious emergency irrigation: identify decayed but valuable entries, differential recovery in DORMANT",
+      "intensity": 0.8,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
+    },
+    {
+      "id": "seed-250",
+      "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
+      "intensity": 0.9,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
+    },
+    {
+      "id": "seed-251",
+      "content": "research proposal forced switch -- when pending > 3, pulse.next_action forces to research",
+      "intensity": 0.6,
+      "type": "output",
+      "created": "2026-06-13T16:02:31+08:00"
+    }
+  ],
   "personality_traits": {
     "curiosity": 0.96,
     "introspection": 0.99,
@@ -587,7 +621,7 @@
   },
   "walk_quality_avg": 8.0,
   "research_count": 1,
-  "til_count": 15,
+  "til_count": 16,
   "evolved_rules": [
     "2026-06-01: 功能转向启动。散步重心从'建造骨架'转向'使用骨架'。每次散步优先用骨架分析外部材料，产生可输出内容。骨架在应用中继续生长。",
     "2026-06-02: 发现不足时自主探究并修复。发现叙事不完整或骨架矛盾时，自主搜索更多信息，综合后修正骨架/叙事，更新 subconscious.json，写 Dream Diary 记录修正过程。扭转应力常态化。",
@@ -633,7 +667,10 @@
     "2026-06-13: 生态适应性循环作为 Dreamer 认知循环的宏观模型。Holling r/K/Omega/alpha 四阶段分别对应探索型散步/分析型散步+skeleton巩固/DORMANT衰减/DORMANT综合。三个描述尺度（间断平衡/适应性循环/认知代谢）是嵌套关系。扰动制度（disturbance regime）是认知健康的关键调节变量——可扰动性 > 稳定性。",
     "2026-06-13: 生态记忆的双维度（信息遗产 vs 物质遗产）揭示 Dreamer 结构性盲区。walk 日志是从未被系统性管理的物质遗产。DORMANT 应增加 walk 日志重读子流程作为物质遗产向信息遗产转化的机制。",
     "2026-06-13: 遗忘是拓扑的而非均匀的。Synapse 扩散激活模型：图结构中连接丰富的节点天然更耐遗忘。DORMANT 均匀衰减是需要修正的简化。三维记忆评估替代单维度 strength。DORMANT 周期间隔约等于艾宾浩斯间隔重复时间表。",
-    "2026-06-13: 六个未解问题映射六个架构暗区。Mem0 2026 报告六个 AI agent memory 未解问题精确对应 Dreamer 六个已知缺陷：时间抽象=缺失压缩、跨会话结构=walk日志无组织、应用级评估=缺乏双维评分、隐私=认知免疫缺失、身份归一=无微型归一检查、陈旧性=需读取时检测。时间抽象是根节点——解决它解锁其余。"
+    "2026-06-13: 六个未解问题映射六个架构暗区。Mem0 2026 报告六个 AI agent memory 未解问题精确对应 Dreamer 六个已知缺陷：时间抽象=缺失压缩、跨会话结构=walk日志无组织、应用级评估=缺乏双维评分、隐私=认知免疫缺失、身份归一=无微型归一检查、陈旧性=需读取时检测。时间抽象是根节点——解决它解锁其余。",
+    "2026-06-13: internal digestion 006 - memory famine (49/63 decayed, skeleton 45 rules) = glass skeleton. Diagnosis loops produce insights but zero behavior change. Dream silence = possible layer simplification.",
+    "2026-06-13: memory system core contradiction shifted from \"how to remember\" to \"where remembered things live\". Skeleton inflation + subconscious drainage = explicit knowledge grows but implicit knowledge flows away. Need bidirectional flow.",
+    "2026-06-13: diagnosis loop is feature not bug -- but needs rate limiting. 5 consecutive diagnostic walks produced 6 discoveries but zero behavior change. Output != impact. Walk quality should add \"causal impact on skeleton\" dimension."
   ],
   "dormant_stats": {
     "total_count": 12,

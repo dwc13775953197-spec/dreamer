@@ -16,7 +16,7 @@
     "next_scheduled": "2026-06-14T23:46:17.964667+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-14T23:15:47.172150+08:00",
-    "total_walks": 61,
+    "total_walks": 62,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
     "last_walk": "2026-06-14T20:30:41.415040",
     "last_push_at": "2026-06-13T04:07:43+0800",
@@ -213,7 +213,7 @@
   "last_walk": "2026-06-14T23:15:47.172150+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 58,
+  "total_walks": 62,
   "topics": [
     "emergence",
     "consciousness",
@@ -406,13 +406,6 @@
       "created": "2026-06-14T23:15:47.172150+08:00"
     },
     {
-      "id": "seed-282",
-      "content": "Dreamer 认知周期的最优频率——散步 → DORMANT 最佳时间比（超量恢复曲线类比）",
-      "intensity": 0.35028,
-      "type": "explore",
-      "created": "2026-06-14T20:30:41.415040"
-    },
-    {
       "id": "seed-269",
       "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
       "intensity": 0.34578,
@@ -448,13 +441,6 @@
       "created": "2026-06-14T17:21:26"
     },
     {
-      "id": "seed-284",
-      "content": "感知沉默作为 Dreamer 的第三种清醒状态——轻量级环境感知（读取-不修改-仅感知），比 DORMANT 更频繁但更轻量，用于检测蓝色液体的质量",
-      "intensity": 0.315,
-      "type": "explore",
-      "created": "2026-06-14T22:00:00"
-    },
-    {
       "id": "seed-283",
       "content": "胶质细胞指标的具体设计——subconscious 健康度的三个定量指标（熵/连接密度/中间地带比例）",
       "intensity": 0.30528,
@@ -469,13 +455,6 @@
       "created": "2026-06-14T22:00:00"
     },
     {
-      "id": "seed-273",
-      "content": "DMN 远程连接作为 DORMANT 新子步骤：在 DORMANT 中引入\"随机条目对\"连接模拟，替代当前的均匀衰减",
-      "intensity": 0.28404,
-      "type": "output",
-      "created": "2026-06-14T15:09:25.375259+08:00"
-    },
-    {
       "id": "seed-280",
       "content": "散步类型与 DORMANT 效果的关系——探索型散步后的 DORMANT 是否比分析型散步后的 DORMANT 产生更多新连接？",
       "intensity": 0.27684,
@@ -483,25 +462,11 @@
       "created": "2026-06-14T17:21:26"
     },
     {
-      "id": "seed-266",
-      "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
-      "intensity": 0.27054,
-      "type": "output",
-      "created": "2026-06-14T09:39:01.588967+08:00"
-    },
-    {
       "id": "seed-270",
       "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
       "intensity": 0.26478,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
-    },
-    {
-      "id": "seed-263",
-      "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
-      "intensity": 0.25236,
-      "type": "output",
-      "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-277",
@@ -518,18 +483,25 @@
       "created": "2026-06-14T06:08:00"
     },
     {
-      "id": "seed-267",
-      "content": "maintenance rhythm: DORMANT as synaptic pruning window — alternation beats parallel repair",
-      "intensity": 0.18954000000000001,
-      "type": "output",
-      "created": "2026-06-14T09:39:01.588967+08:00"
+      "id": "seed-290",
+      "content": "裂缝音乐理论——散步的产出不是'新 insight'而是'新的认知裂缝'。好的散步创造平行裂缝（增加表面积），坏的散步创造交叉裂缝（削弱结构）。散步质量 = 平行裂缝比 / 交叉裂缝比。",
+      "intensity": 0.35,
+      "type": "explore",
+      "created": "2026-06-14T23:30:00+08:00"
     },
     {
-      "id": "seed-264",
-      "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
-      "intensity": 0.17136,
-      "type": "output",
-      "created": "2026-06-14T07:38:00+08:00"
+      "id": "seed-291",
+      "content": "空白谱架测试——一次没有预设主题、没有外部材料、没有 evolved_rules 指导的纯即兴散步。测试'无谱架'散步的产出质量，与有预设的散步对比。",
+      "intensity": 0.32,
+      "type": "explore",
+      "created": "2026-06-14T23:30:00+08:00"
+    },
+    {
+      "id": "seed-292",
+      "content": "园丁的裂缝检测算法——一个简单规则：如果一个 insight 与 2+ 已有 insight 兼容（不矛盾），它是平行裂缝；如果一个 insight 与 2+ 已有 insight 矛盾，它是交叉裂缝。DORMANT 中增加'裂缝兼容性检查'子步骤。",
+      "intensity": 0.3,
+      "type": "explore",
+      "created": "2026-06-14T23:30:00+08:00"
     }
   ],
   "personality_traits": {
@@ -615,7 +587,7 @@
     "resurrections": 0,
     "avg_strength_after_decay": 1.7
   },
-  "last_weekly_review": "2026-06-14T22:00:00+08:00",
+  "last_weekly_review": "2026-06-14T23:30:00+08:00",
   "functional_turn": {
     "started_at": "2026-06-01T10:00:00+08:00",
     "trigger": "walk-012 确认骨架结构完整 + 用户确认输出方向",

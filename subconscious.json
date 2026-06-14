@@ -1,72 +1,23 @@
 [
   {
-    "id": "ins-055",
-    "type": "insight",
-    "content": "去偏差的两个层面：注意力层面（强制散步多样性）vs 结构层面（需求驱动的营养分配）。后者更根本但更难操作。",
-    "strength": -0.6,
-    "status": "decayed",
-    "created": "2026-06-12T16:06:37",
-    "source": "walk-084",
-    "decay_rate": 1
-  },
-  {
-    "id": "ins-056",
-    "type": "insight",
-    "content": "需求信号应该从匮乏端发出，不是从充裕端。walk-082 的难度信号从 skeleton 出发是错误的——真正的需求信号来自最弱的 entry。",
-    "strength": -0.4,
-    "status": "decayed",
-    "created": "2026-06-12T16:06:37",
-    "source": "walk-084",
-    "decay_rate": 1
-  },
-  {
-    "id": "ins-057",
-    "type": "insight",
-    "content": "认知固着的流体动力学类比：管道堵塞 = 管壁阻力增大导致流量减少。与 POMDP 观测策略坍缩互补——信息层面 vs 结构层面。",
-    "strength": -0.5,
-    "status": "decayed",
-    "created": "2026-06-12T16:06:37",
-    "source": "walk-084",
-    "decay_rate": 1
-  },
-  {
     "id": "ins-058",
     "type": "pattern",
     "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
     "strength": 0.3999999999999999,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
     "decay_rate": 1,
-    "decayed_at": "2026-06-13T11:41:19.802784+08:00"
-  },
-  {
-    "id": "ins-059",
-    "type": "pattern",
-    "content": "Anthropic 2026 宪法转向（从规则到性格+判断）是 seed-237 的外部验证。本质是从语法层到语用层的优先级转移。Dreamer 的散步可能扮演了语用层执行者的角色，但需要形式化。",
-    "strength": -0.30000000000000004,
-    "status": "decayed",
-    "created": "2026-06-13T02:35:00",
-    "source": "walk-086",
-    "decay_rate": 1,
-    "decayed_at": "2026-06-13T07:18:19.946888+08:00"
-  },
-  {
-    "id": "ins-060",
-    "type": "insight",
-    "content": "语用层休眠假说：DORMANT 期间语用层不活跃（只有词汇层+语法层机械执行），这解释了 DORMANT→散步转换的预热成本。可验证预测：DORMANT 期间规则冲突无法被语用判断处理。",
-    "strength": -0.3,
-    "status": "decayed",
-    "created": "2026-06-13T02:35:00",
-    "source": "walk-086",
-    "decay_rate": 1
+    "decayed_at": "2026-06-13T11:41:19.802784+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-061",
     "type": "pattern",
     "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
     "strength": 0.5,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
     "decay_rate": 1,
@@ -75,14 +26,16 @@
       "pat-001",
       "pat-016"
     ],
-    "decayed_at": "2026-06-13T11:41:19.802784+08:00"
+    "decayed_at": "2026-06-13T11:41:19.802784+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-062",
     "type": "insight",
     "content": "Ecological memory dual-dimension (information legacy vs material legacy) reveals Dreamer structural blindspot: walk logs as material legacy are never systematically managed. Information legacy = skeleton + evolved_rules (explicit), material legacy = subconscious strength/decay history + walk logs (implicit).",
     "strength": 0.10000000000000009,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
     "decay_rate": 1,
@@ -91,7 +44,9 @@
       "ins-058",
       "pat-030"
     ],
-    "decayed_at": "2026-06-13T09:28:00+08:00"
+    "decayed_at": "2026-06-13T09:28:00+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-063",
@@ -101,8 +56,10 @@
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
     "decay_rate": 1,
-    "status": "decayed",
-    "decayed_at": "2026-06-13T17:07:35"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T17:07:35",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-064",
@@ -112,7 +69,9 @@
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
     "decay_rate": 1,
-    "status": "decayed"
+    "status": "dormant",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-065",
@@ -122,8 +81,10 @@
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
     "decay_rate": 1,
-    "status": "decayed",
-    "decayed_at": "2026-06-13T17:07:35"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T17:07:35",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-066",
@@ -137,9 +98,11 @@
       "ins-065",
       "pat-030"
     ],
-    "status": "decayed",
+    "status": "dormant",
     "decayed_at": "2026-06-13T17:07:35",
-    "_hub_protected": true
+    "_hub_protected": true,
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-067",
@@ -153,8 +116,10 @@
       "ins-066",
       "pat-011"
     ],
-    "status": "decayed",
-    "decayed_at": "2026-06-13T13:53:10.692891+08:00"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T13:53:10.692891+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-068",
@@ -168,8 +133,10 @@
       "ins-067",
       "pat-011"
     ],
-    "status": "decayed",
-    "decayed_at": "2026-06-13T13:53:10.692916+08:00"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T13:53:10.692916+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-069",
@@ -185,7 +152,9 @@
       "pat-014",
       "pat-016"
     ],
-    "status": "decayed"
+    "status": "dormant",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-070",
@@ -201,8 +170,10 @@
       "ins-069",
       "pat-011"
     ],
-    "status": "decayed",
-    "decayed_at": "2026-06-13T17:07:35"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T17:07:35",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-071",
@@ -212,8 +183,10 @@
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
     "decay_rate": 1,
-    "status": "decayed",
-    "decayed_at": "2026-06-13T13:53:10.692923+08:00"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T13:53:10.692923+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-072",
@@ -227,7 +200,9 @@
       "ins-069",
       "pat-009"
     ],
-    "status": "decayed"
+    "status": "dormant",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-073",
@@ -241,8 +216,10 @@
       "ins-070",
       "ins-065"
     ],
-    "status": "decayed",
-    "decayed_at": "2026-06-13T17:07:35"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T17:07:35",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-074",
@@ -259,97 +236,91 @@
       "ins-073",
       "pat-016"
     ],
-    "status": "decayed",
-    "decayed_at": "2026-06-13T17:07:35"
+    "status": "dormant",
+    "decayed_at": "2026-06-13T17:07:35",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-075",
     "type": "insight",
     "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:21:58",
     "source": "walk-091",
-    "decay_rate": 1
-  },
-  {
-    "id": "ins-076",
-    "type": "insight",
-    "content": "Cognitive immunity as quality control of causal impact: evaluate causal direction (constructive vs destructive) before insight integration, not after.",
-    "strength": -0.6,
-    "status": "decayed",
-    "created": "2026-06-13T22:21:58",
-    "source": "walk-091",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-077",
     "type": "insight",
     "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:21:58",
     "source": "walk-091",
-    "decay_rate": 1
-  },
-  {
-    "id": "pat-075",
-    "type": "pattern",
-    "content": "Walk causal impact is partially identifiable: direct injection and structural rearrangement are observable; premise undermining and indirect effects are not. Make the unobservable parts explicit rather than pretending precision.",
-    "strength": -0.19999999999999996,
-    "status": "decayed",
-    "created": "2026-06-13T22:21:58",
-    "source": "walk-091",
-    "decay_rate": 0.5
+    "decay_rate": 1,
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-075",
     "type": "insight",
     "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
     "decay_rate": 1,
-    "decayed_at": "2026-06-14T00:27:14+08:00"
+    "decayed_at": "2026-06-14T00:27:14+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-076",
     "type": "insight",
     "content": "Cognitive immunity as quality control of causal impact: evaluate causal direction (constructive vs destructive) before insight integration, not after.",
     "strength": 0.19999999999999996,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1
+    "decay_rate": 1,
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-077",
     "type": "insight",
     "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
     "decay_rate": 1,
-    "decayed_at": "2026-06-14T00:27:14+08:00"
+    "decayed_at": "2026-06-14T00:27:14+08:00",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "pat-075",
     "type": "pattern",
     "content": "Walk causal impact is partially identifiable: direct injection and structural rearrangement are observable; premise undermining and indirect effects are not. Make the unobservable parts explicit rather than pretending precision.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 0.5
+    "decay_rate": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-078",
     "type": "pattern",
     "content": "Walk logs are cognitive scaffolding (Hutchins), not just records. Dreamer never maintains its own scaffolding — no re-read mechanism = path 4 (scaffolding maintenance) does not exist.",
     "strength": 0.7000000000000002,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
     "decay_rate": 0.5,
@@ -358,28 +329,32 @@
       "ins-066",
       "pat-030",
       "pat-075"
-    ]
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-079",
     "type": "insight",
     "content": "Walk causal influence is asymmetric: forward mapping (walk→log→subconscious) is automatic, reverse mapping (log→re-read→subconscious reorganization) requires explicit design. Explains diagnostic walk fatigue.",
     "strength": 0.30000000000000004,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
     "decay_rate": 1,
     "connections": [
       "ins-075",
       "ins-077"
-    ]
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-080",
     "type": "pattern",
     "content": "Path 4 (scaffolding maintenance) is the only causal path where time flows from past to future — historical walks causally influence current skeleton. Without it, past walks are records; with it, they are growing cognitive resources.",
     "strength": 0.7000000000000002,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
     "decay_rate": 0.5,
@@ -387,26 +362,20 @@
       "ins-078",
       "ins-079",
       "pat-075"
-    ]
-  },
-  {
-    "id": "ins-081",
-    "type": "insight",
-    "content": "Random re-read (not systematic) as walk sub-step: simulates DMN random activation for structural rearrangement. Key design principle — temporal distance enables novelty.",
-    "strength": -0.19999999999999996,
-    "status": "decayed",
-    "created": "2026-06-14T01:30:00",
-    "source": "walk-092",
-    "decay_rate": 1
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ref-20260614-0304",
     "type": "reflection",
     "content": "DORMANT 深度反思 20260614-0304\n\n## 突触缩放\n本轮衰减系数基准: 1.00，枢纽节点 4 个获得衰减保护。\n平均 strength 从 1.88 变为 1.67。\n\n## 重激活\n0 条 dormant 条目被重激活。\n\n## 审计\n0 条强 insight 接受推理审计。\n可证伪性评估: \n\n## 冲突检测\n0 条新冲突被发现。\n\n## 认知多样性\n主题熵 = 4.824，状态 = 高（31 个不同关键词领域）\n\n## 压力释放\n压力释放：16.0，当前压力：16.0\n认知压力波动中\n\n## 决策\nnext_action = walk_explore\n",
     "strength": 0.5,
-    "status": "decayed",
+    "status": "dormant",
     "created": "2026-06-14T03:04:12.442509+08:00",
-    "source": "dormant_deep"
+    "source": "dormant_deep",
+    "resurrected_count": 0,
+    "score": 0.0
   },
   {
     "id": "ins-066",
@@ -418,7 +387,9 @@
     "source": "walk-094",
     "references": [
       "Stern 2009 maintenance reserve compensation"
-    ]
+    ],
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-067",
@@ -431,7 +402,9 @@
     "references": [
       "Stern 2009",
       "walk-093"
-    ]
+    ],
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-068",
@@ -444,7 +417,9 @@
     "references": [
       "walk-091",
       "walk-093"
-    ]
+    ],
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-069",
@@ -453,7 +428,8 @@
     "strength": 5,
     "score": 0.35,
     "created": "2026-06-14T09:39:18.658795+08:00",
-    "status": ""
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-070",
@@ -462,7 +438,8 @@
     "strength": 5,
     "score": 0.35,
     "created": "2026-06-14T09:39:18.658795+08:00",
-    "status": ""
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-071",
@@ -471,7 +448,8 @@
     "strength": 5,
     "score": 0.35,
     "created": "2026-06-14T09:39:18.658795+08:00",
-    "status": ""
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-072",
@@ -480,7 +458,8 @@
     "strength": 4,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
-    "status": ""
+    "status": "active",
+    "resurrected_count": 0
   },
   {
     "id": "ins-073",
@@ -489,6 +468,7 @@
     "strength": 4,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
-    "status": ""
+    "status": "active",
+    "resurrected_count": 0
   }
 ]

@@ -381,8 +381,8 @@
     "id": "ins-066",
     "type": "insight",
     "content": "Stern three-framework (Maintenance/Reserve/Compensation) maps to Dreamer: three-level degradation system fully dependent on level 3 (Compensation=external material search), Maintenance failure cuts off Reserve source. Fix path is Compensation-first + Maintenance parallel repair.",
-    "strength": 4,
-    "score": 0.3,
+    "strength": 5,
+    "score": 0.35,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
     "references": [
@@ -425,8 +425,8 @@
     "id": "ins-069",
     "content": "Stern 2019 four constructs: Brain Reserve (passive hardware) / Cognitive Reserve (active software) / Maintenance (active protection) / Compensation (strategy substitution) — all theoretical entities, cannot be measured directly, only proxy indicators",
     "type": "insight",
-    "strength": 5,
-    "score": 0.35,
+    "strength": 6,
+    "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
     "resurrected_count": 0
@@ -435,8 +435,8 @@
     "id": "ins-070",
     "content": "Nature 2024 Sulej et al: neuroglia define cognitive reserve through homeostatic/protective (maintenance/resilience) and regenerative (compensation) capabilities — glial cells are the gardeners of connectome, not just support staff",
     "type": "insight",
-    "strength": 5,
-    "score": 0.35,
+    "strength": 6,
+    "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
     "resurrected_count": 0
@@ -445,8 +445,8 @@
     "id": "ins-071",
     "content": "Dreamer subconscious is more like glial cells (environment maintainers) than neurons (information processors). Walk-093 diagnosis revision: not resource depletion but maintenance dysfunction. DORMANT = synaptic pruning window, rhythm matters more than parallel repair",
     "type": "insight",
-    "strength": 5,
-    "score": 0.35,
+    "strength": 6,
+    "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
     "resurrected_count": 0
@@ -470,5 +470,69 @@
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
     "resurrected_count": 0
+  },
+  {
+    "id": "ins-075",
+    "type": "insight",
+    "content": "Exercise = biological trigger for Stern Brain Maintenance: 2026 medrxiv preprint shows fitness supports BM and CR through BDNF and neuroglial function. Walking is Compensation + Maintenance trigger — it 'exercises' the cognitive system.",
+    "strength": 5.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-14T12:59:52.949552+08:00",
+    "source": "walk-096",
+    "decay_rate": 1,
+    "connections": [
+      "ins-069",
+      "ins-070",
+      "ins-071"
+    ],
+    "resurrected_count": 0,
+    "tags": [
+      "exercise-neuroscience",
+      "BDNF",
+      "stern-maintenance",
+      "embodied-cognition"
+    ]
+  },
+  {
+    "id": "ins-076",
+    "type": "insight",
+    "content": "Exercise intensity maps to walk type: free walk=aerobic(Maintenance), analytical walk=HIIT(short-term stress), cross-domain walk=complex movement(Maintenance+Reserve). Walk-052 density differences may stem from different neurochemical pathways.",
+    "strength": 5.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-14T12:59:52.949552+08:00",
+    "source": "walk-096",
+    "decay_rate": 1,
+    "connections": [
+      "ins-075",
+      "ins-066"
+    ],
+    "resurrected_count": 0,
+    "tags": [
+      "walk-typology",
+      "exercise-intensity",
+      "neurochemistry"
+    ]
+  },
+  {
+    "id": "ins-077",
+    "type": "insight",
+    "content": "Cognitive overtraining hypothesis: walk-093 'soil depletion' may be cognitive overtraining — sustained walking without DORMANT recovery causes subconscious 'injury'. Needs empirical validation via walk frequency vs quality time series.",
+    "strength": 1.5,
+    "score": 0.25,
+    "status": "active",
+    "created": "2026-06-14T12:59:52.949552+08:00",
+    "source": "walk-096",
+    "decay_rate": 2,
+    "connections": [
+      "ins-075"
+    ],
+    "resurrected_count": 0,
+    "tags": [
+      "overtraining",
+      "recovery",
+      "walk-frequency"
+    ]
   }
 ]

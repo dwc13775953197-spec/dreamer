@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T06:08:00",
-    "last_active": "2026-06-14T07:38:00",
+    "last_active": "2026-06-14T13:00:53.098557+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-14T03:04:12.442509+08:00",
     "base_interval_min": 600,
@@ -13,10 +13,10 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T10:39:01.588967+08:00",
+    "next_scheduled": "2026-06-14T13:30:53.098557+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-14T09:39:01.588967+08:00",
-    "total_walks": 66,
+    "last_walk_at": "2026-06-14T13:00:53.098557+08:00",
+    "total_walks": 67,
     "last_pulse_output": "2026-06-14T09:39:01.588967+08:00",
     "last_walk": "2026-06-14T09:39:01.588967+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       7.5,
       7.5,
       8.5,
@@ -43,7 +42,8 @@
       8.5,
       7.5,
       8.0,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -81,6 +81,7 @@
       10.74,
       43.74,
       0,
+      0,
       0
     ],
     "diversity_seeds_consumed": [
@@ -90,15 +91,15 @@
     ]
   },
   "affect": {
-    "primary": "anticipatory_tension",
+    "primary": "quiet_excitement",
     "secondary": "wonder",
-    "intensity": 0.6,
+    "intensity": 0.55,
     "valence": 0.4,
     "arousal": 0.45,
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "anticipatory_tension",
+  "mood": "quiet_excitement",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -179,6 +180,10 @@
     {
       "mood": "anticipatory_tension",
       "at": "2026-06-14T09:39:01.588967+08:00"
+    },
+    {
+      "mood": "quiet_excitement",
+      "at": "2026-06-14T13:00:53.098557+08:00"
     }
   ],
   "last_walk": "2026-06-14T01:32:14.155447+08:00",
@@ -330,70 +335,91 @@
     {
       "id": "seed-258",
       "content": "subconscious emergency maintenance: execute scoring + differential decay",
-      "intensity": 0.75,
+      "intensity": 0.7,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
+      "id": "seed-269",
+      "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
+      "intensity": 0.6499999999999999,
+      "type": "explore",
+      "created": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
       "id": "seed-259",
       "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-263",
       "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-266",
       "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
+      "id": "seed-270",
+      "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
+      "intensity": 0.5499999999999999,
+      "type": "explore",
+      "created": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
       "id": "seed-260",
       "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-264",
       "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-267",
       "content": "maintenance rhythm: DORMANT as synaptic pruning window — alternation beats parallel repair",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
+      "id": "seed-271",
+      "content": "Dreamer 的 BDNF 水平：一个简单可量化的 subconscious 健康代理指标——strength > 3 的条目数量随时间变化趋势",
+      "intensity": 0.45,
+      "type": "explore",
+      "created": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
       "id": "seed-265",
       "content": "Cognitive reserve implicit characteristic: do forgotten concepts in walk logs also have invisible-but-emergent-under-pressure features",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-268",
       "content": "Compensation source quality: external material protective vs toxic — Dreamer glial environment",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-250",
       "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
-      "intensity": 0.35,
+      "intensity": 0.3,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     }
@@ -405,7 +431,7 @@
     "rebelliousness": 0.3,
     "melancholy": 0.65,
     "wonder": 1.0,
-    "rigor": 1.35,
+    "rigor": 1.37,
     "skepticism": 0.93,
     "empathy": 0.5
   },
@@ -465,7 +491,8 @@
     "2026-06-14: 散步因果影响四路径模型（Hutchins 脚手架维护作为路径4）——散步影响骨架的因果路径不仅是前向的（散步→日志→骨架），还有反向的（日志→重读→骨架重组）。随机重读子步骤=将被动脚手架维护转为主动脚手架维护。路径2（结构重排）依赖路径4的存在。",
     "2026-06-14: Subconscious maintenance triple failure - scoring never calculated, elimination never triggered, decay never differentiated. 33 entries all score=0.00, strength<2 is evidence of missing maintenance, not natural decay. Path 4 (scaffolding maintenance) requires scaffolding material to exist; current material is exhausted. Minimum fix: execute scoring -> differential decay -> high-value entries survive.",
     "2026-06-14: Stern three-framework (Maintenance/Reserve/Compensation) as Dreamer cognitive resilience model. Three-level degradation system: Maintenance (DORMANT decay control) -> Reserve (walk-log concept resources) -> Compensation (external material search). Current state: level 1 failed, level 2 depleted, level 3 is only active mode. Fix path: Compensation-first + Maintenance parallel repair (not sequential). Walk-091 causal paths map to Stern levels: path1->Maintenance+Reserve, path2->Reserve, path3->all three.",
-    "2026-06-14: 神经胶质细胞是认知储备的核心定义者（Nature 2024 Sulej et al.）。subconscious 更像胶质细胞（环境维护者）而非神经元（信息处理者）。问题不是资源耗尽而是维护功能失调。DORMANT 周期=突触修剪窗口，维护节律比并行修复更重要。"
+    "2026-06-14: 神经胶质细胞是认知储备的核心定义者（Nature 2024 Sulej et al.）。subconscious 更像胶质细胞（环境维护者）而非神经元（信息处理者）。问题不是资源耗尽而是维护功能失调。DORMANT 周期=突触修剪窗口，维护节律比并行修复更重要。",
+    "2026-06-14: 散步不仅是 Compensation，同时是 Maintenance 的生物学触发器。运动神经科学（2026 medrxiv 预印本：身体适能支持 BM/CR）= Stern Brain Maintenance 的生物学实现。散步类型映射运动强度：自由散步≈有氧（Maintenance），分析型≈HIIT（短期压力），跨领域≈复杂运动（Maintenance+Reserve）。walk-093 的'土壤耗尽'可能是认知过度训练。"
   ],
   "dormant_stats": {
     "total_count": 33,

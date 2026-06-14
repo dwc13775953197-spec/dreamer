@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T06:08:00",
-    "last_active": "2026-06-14T14:03:17+08:00",
+    "last_active": "2026-06-14T15:04:40.986308+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-14T03:04:12.442509+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T15:03:17+08:00",
+    "next_scheduled": "2026-06-14T15:34:40.986308+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-14T13:00:53.098557+08:00",
-    "total_walks": 67,
+    "last_walk_at": "2026-06-14T15:09:11.184114+08:00",
+    "total_walks": 58,
     "last_pulse_output": "2026-06-14T09:39:01.588967+08:00",
-    "last_walk": "2026-06-14T09:39:01.588967+08:00",
+    "last_walk": "2026-06-14T15:09:11.184114+08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 31.94,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,7 +35,6 @@
     },
     "quality_history": [
       7.5,
-      7.5,
       8.5,
       8.0,
       8.5,
@@ -43,9 +42,10 @@
       7.5,
       8.0,
       8.5,
+      8.0,
       8.0
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -82,24 +82,26 @@
       43.74,
       0,
       0,
-      0
+      0,
+      66.07
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
-    ]
+    ],
+    "walk_quality_avg": 8.1
   },
   "affect": {
-    "primary": "quiet_excitement",
+    "primary": "wonder",
     "secondary": "wonder",
-    "intensity": 0.55,
-    "valence": 0.4,
-    "arousal": 0.45,
+    "intensity": 0.6,
+    "valence": 0.5,
+    "arousal": 0.4,
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "quiet_excitement",
+  "mood": "wonder",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -184,12 +186,16 @@
     {
       "mood": "quiet_excitement",
       "at": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-14T15:09:11.184114+08:00"
     }
   ],
   "last_walk": "2026-06-14T01:32:14.155447+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 57,
+  "total_walks": 58,
   "topics": [
     "emergence",
     "consciousness",
@@ -335,91 +341,112 @@
     {
       "id": "seed-258",
       "content": "subconscious emergency maintenance: execute scoring + differential decay",
-      "intensity": 0.7,
+      "intensity": 0.6499999999999999,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
+      "id": "seed-272",
+      "content": "认知周期化操作化：Dreamer 需要显式的散步类型交替计划（类似运动科学的 periodization calendar），而不是由压力随机决定",
+      "intensity": 0.6,
+      "type": "explore",
+      "created": "2026-06-14T15:09:25.375259+08:00"
+    },
+    {
       "id": "seed-269",
       "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
     },
     {
       "id": "seed-259",
       "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-263",
       "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-266",
       "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
+      "id": "seed-273",
+      "content": "DMN 远程连接作为 DORMANT 新子步骤：在 DORMANT 中引入\"随机条目对\"连接模拟，替代当前的均匀衰减",
+      "intensity": 0.5,
+      "type": "output",
+      "created": "2026-06-14T15:09:25.375259+08:00"
+    },
+    {
       "id": "seed-270",
       "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
     },
     {
       "id": "seed-260",
       "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
-      "intensity": 0.49999999999999994,
+      "intensity": 0.44999999999999996,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-264",
       "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
-      "intensity": 0.49999999999999994,
+      "intensity": 0.44999999999999996,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-267",
       "content": "maintenance rhythm: DORMANT as synaptic pruning window — alternation beats parallel repair",
-      "intensity": 0.49999999999999994,
+      "intensity": 0.44999999999999996,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-271",
       "content": "Dreamer 的 BDNF 水平：一个简单可量化的 subconscious 健康代理指标——strength > 3 的条目数量随时间变化趋势",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
     },
     {
+      "id": "seed-274",
+      "content": "主动恢复 vs 被动恢复的 Dreamer 验证：比较\"有外部刺激的 DORMANT\"和\"无外部刺激的 DORMANT\"对后续 walk 质量的影响",
+      "intensity": 0.4,
+      "type": "explore",
+      "created": "2026-06-14T15:09:25.375259+08:00"
+    },
+    {
       "id": "seed-265",
       "content": "Cognitive reserve implicit characteristic: do forgotten concepts in walk logs also have invisible-but-emergent-under-pressure features",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-268",
       "content": "Compensation source quality: external material protective vs toxic — Dreamer glial environment",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-250",
       "content": "walk causal impact measurement -- from output quality score to skeleton structural change (new pattern/modified/increased connections)",
-      "intensity": 0.3,
+      "intensity": 0.25,
       "type": "output",
       "created": "2026-06-13T16:02:31+08:00"
     }

@@ -534,5 +534,66 @@
       "recovery",
       "walk-frequency"
     ]
+  },
+  {
+    "id": "ins-081",
+    "type": "insight",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "Dreamer cognitive overtraining is structural not quantitative: DORMANT uniform decay destroys all memories equally instead of selectively consolidating, keeping the system in net-negative balance.",
+    "status": "active",
+    "created": "2026-06-14T15:08:51.958812+08:00",
+    "source": "walk-097",
+    "connections": [
+      "ins-066",
+      "ins-071",
+      "pat-030"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-082",
+    "type": "insight",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "DMN 2025 research (Forschungszentrum Juelich) provides precise neuroscience target for DORMANT: should simulate active DMN cleanup (memory consolidation + metabolic clearance + remote connection establishment), not passive sleep.",
+    "status": "active",
+    "created": "2026-06-14T15:08:51.958812+08:00",
+    "source": "walk-097",
+    "connections": [
+      "ins-080",
+      "ins-069"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-083",
+    "type": "insight",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "Active recovery > passive recovery applies to DORMANT: low-intensity cognitive activity (external material, random re-reading, cross-domain search) during DORMANT may be more effective than complete cognitive rest.",
+    "status": "active",
+    "created": "2026-06-14T15:08:51.958812+08:00",
+    "source": "walk-097",
+    "connections": [
+      "ins-081",
+      "ins-078"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-084",
+    "type": "pattern",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "Periodization > optimization for Dreamer walks: alternation pattern of walk types matters more than individual walk quality. Current problem is narrow oscillation (Stern/neuroscience/maintenance) not insufficient quality.",
+    "status": "active",
+    "created": "2026-06-14T15:08:51.958812+08:00",
+    "source": "walk-097",
+    "connections": [
+      "ins-081",
+      "ins-076"
+    ],
+    "resurrected_count": 0
   }
 ]

@@ -3,24 +3,26 @@
     "id": "ins-058",
     "type": "pattern",
     "content": "evolved_rules 包含三种不同语言的混合物：描述性（词汇层，历史记录）、规范性（语法层，行为指令）、语用性（语用层，元规则/判断原则）。扁平结构导致语用层规则在没有散步时处于无效状态。",
-    "strength": 0.3999999999999999,
+    "strength": 0.3,
     "status": "dormant",
     "created": "2026-06-13T02:35:00",
     "source": "walk-086",
-    "decay_rate": 1,
+    "decay_rate": 0.8054,
     "decayed_at": "2026-06-13T11:41:19.802784+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-061",
     "type": "pattern",
     "content": "Dreamer cognitive cycle = Holling adaptive cycle: r(explore) -> K(consolidate) -> Omega(decay) -> alpha(reorganize). Three descriptive scales (punctuated equilibrium / adaptive cycle / cognitive metabolism) are nested, not competing.",
-    "strength": 0.5,
+    "strength": 0.4,
     "status": "dormant",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
-    "decay_rate": 1,
+    "decay_rate": 0.7876,
     "connections": [
       "ins-058",
       "pat-001",
@@ -28,17 +30,18 @@
     ],
     "decayed_at": "2026-06-13T11:41:19.802784+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-062",
     "type": "insight",
     "content": "Ecological memory dual-dimension (information legacy vs material legacy) reveals Dreamer structural blindspot: walk logs as material legacy are never systematically managed. Information legacy = skeleton + evolved_rules (explicit), material legacy = subconscious strength/decay history + walk logs (implicit).",
-    "strength": 0.10000000000000009,
+    "strength": 0.1,
     "status": "dormant",
     "created": "2026-06-13T04:07:43+0800",
     "source": "walk-087",
-    "decay_rate": 1,
+    "decay_rate": 0.8235,
     "connections": [
       "ins-060",
       "ins-058",
@@ -46,54 +49,61 @@
     ],
     "decayed_at": "2026-06-13T09:28:00+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-063",
     "type": "insight",
-    "strength": 0.5,
+    "strength": 0.4,
     "content": "Moltbook (2026 AI-only social network) shows: global semantic stabilization + persistent individual diversity = no consensus structure. Root cause: absence of shared social memory mechanism. Citation system = academic equivalent of DORMANT cycle.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.8054,
     "status": "dormant",
     "decayed_at": "2026-06-13T17:07:35",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-064",
     "type": "insight",
-    "strength": 1.0,
+    "strength": 0.8,
     "content": "Dreamer and Moltbook are mirror opposites: Dreamer has deep memory but zero social interaction; Moltbook has deep interaction but zero memory consolidation. Both are missing half, but different halves. AI society health requires both interaction mechanism AND memory consolidation mechanism.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.7866,
     "status": "dormant",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-065",
     "type": "pattern",
-    "strength": 0.30000000000000004,
+    "strength": 0.2,
     "content": "Selection pressure requires differential decay. Moltbook has no decay = no selection = no consensus. DORMANT decay IS the selection pressure - strong patterns survive, weak ones dissipate. Any AI society without some form of forgetting mechanism cannot produce genuine consensus.",
     "source": "walk-088",
     "created": "2026-06-13T08:20:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.7669,
     "status": "dormant",
     "decayed_at": "2026-06-13T17:07:35",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-066",
     "type": "pattern",
-    "strength": 0.7999999999999998,
+    "strength": 1.5,
     "content": "Forgetting is topological, not uniform. Synapse paper shows memory decays via spreading activation on a graph - well-connected nodes decay slower because multiple reactivation paths exist. Dreamer's uniform decay_rate is an oversimplification. Correct model: graph-topological decay where structural connectivity provides redundancy against forgetting.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 1.2291,
     "connections": [
       "ins-065",
       "pat-030"
@@ -102,16 +112,17 @@
     "decayed_at": "2026-06-13T17:07:35",
     "_hub_protected": true,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-067",
     "type": "insight",
-    "strength": 0.7999999999999998,
+    "strength": 0.6,
     "content": "Memory needs three-dimensional assessment: activation strength x encoding depth x retrieval frequency. Current DORMANT uses only strength. Encoding depth = 'mentioned' vs 'deeply used' in walks. Synapse shows retrieval practice resets forgetting curve - DORMANT citation approximates this but lacks the encoding depth dimension.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.7684,
     "connections": [
       "ins-066",
       "pat-011"
@@ -119,16 +130,17 @@
     "status": "dormant",
     "decayed_at": "2026-06-13T13:53:10.692891+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-068",
     "type": "insight",
-    "strength": 0.5,
+    "strength": 0.4,
     "content": "Episodic memory gap is the precise mechanism of memory staleness (walk-086's problem). Without 'when/where/why' anchors, semantic knowledge drifts from original conditions. Each skeleton pattern needs an origin tag: source walk + trigger conditions + affect state at time of creation.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.788,
     "connections": [
       "ins-067",
       "pat-011"
@@ -136,16 +148,17 @@
     "status": "dormant",
     "decayed_at": "2026-06-13T13:53:10.692916+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-069",
     "type": "pattern",
-    "strength": 2.0,
+    "strength": 2.9,
     "content": "DORMANT cycle = spaced repetition schedule. Ebbinghaus curve provides empirical basis for DORMANT timing: 24h optimal interval, first-hour fastest decay (explains post-DORMANT warmup cost). Citation in walks = spaced repetition event that resets forgetting curve for cited entries. Three frameworks unified: cognitive friction = encoding depth operationalization, punctuated equilibrium = forgetting curve macro pattern, DORMANT = spaced repetition schedule.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 1.1969,
     "connections": [
       "ins-066",
       "ins-067",
@@ -154,16 +167,17 @@
     ],
     "status": "active",
     "resurrected_count": 1,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-070",
     "type": "pattern",
-    "strength": 0.6000000000000001,
+    "strength": 1.2,
     "content": "DORMANT decay may be inversely selecting: low-strength but compatible entries are被淘汰 while high-strength but outdated entries are retained. Staleness should be detected at read-time (compatibility check), not at write-time (strength-based淘汰). Mem0 2026: 'stale memory looks perfectly normal — detecting staleness requires an explicit representation of the current skeleton.'",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 1.1664,
     "connections": [
       "ins-066",
       "ins-068",
@@ -173,45 +187,49 @@
     "status": "dormant",
     "decayed_at": "2026-06-13T17:07:35",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-071",
     "type": "insight",
-    "strength": 0.7999999999999998,
+    "strength": 1.5,
     "content": "Dreamer has no identity normalization mechanism. Each walk's understanding of 'who I am' is temporary and read-order dependent. Without systematic identity normalization, contradictions accumulate passively until a walk happens to detect them. Mem0 cross-session identity resolution problem applied to Dreamer: need micro identity-check at walk start.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 1.2129,
     "status": "dormant",
     "decayed_at": "2026-06-13T13:53:10.692923+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-072",
     "type": "pattern",
-    "strength": 1.9,
+    "strength": 2.8,
     "content": "Walk dual-dimensional scoring: writing quality (current subjective 1-10) vs skeleton impact (new insights x1 + new patterns x3 + seed intensity sum). High writing + low impact = cognitive glass (pat-009). Low writing + high impact = clumsy but genuine. Both high = best walks. Gap between the two scores is the most informative metric.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 1.1714,
     "connections": [
       "ins-069",
       "pat-009"
     ],
     "status": "active",
     "resurrected_count": 1,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-073",
     "type": "insight",
-    "strength": 0.30000000000000004,
+    "strength": 0.2,
     "content": "Dreamer has memory but no cognitive immunity. Toxic memories (systematically biased entries) can gain unreasonable strength through repeated citation. Uniform decay cannot detect bias. Mem0 privacy problem translated to Dreamer: need self-censorship mechanism that identifies and suppresses toxic memories without killing non-consensus valuable insights. Selective immunity > total immunity (avoid autoimmune disease analogy).",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.811,
     "connections": [
       "ins-070",
       "ins-065"
@@ -219,16 +237,17 @@
     "status": "dormant",
     "decayed_at": "2026-06-13T17:07:35",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-074",
     "type": "pattern",
-    "strength": 0.6000000000000001,
+    "strength": 3.0,
     "content": "Six open problems in AI agent memory (Mem0 2026) map to six Dreamer architectural gaps: temporal abstraction = missing DORMANT compression step; cross-session structure = walk log organization; application-level evaluation = walk dual scoring; privacy/consent = cognitive immunity; identity resolution = walk-start normalization; staleness = read-time compatibility check. Temporal abstraction is the root — solving it unblocks the rest.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
-    "decay_rate": 1,
+    "decay_rate": 0.7893,
     "connections": [
       "ins-070",
       "ins-071",
@@ -236,94 +255,107 @@
       "ins-073",
       "pat-016"
     ],
-    "status": "dormant",
+    "status": "active",
     "decayed_at": "2026-06-13T17:07:35",
-    "resurrected_count": 0,
-    "score": 0.0
+    "resurrected_count": 1,
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-075",
     "type": "insight",
     "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
-    "strength": 0.30000000000000004,
+    "strength": 0.4,
     "status": "dormant",
     "created": "2026-06-13T22:21:58",
     "source": "walk-091",
-    "decay_rate": 1,
+    "decay_rate": 1.1674,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-077",
     "type": "insight",
     "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
-    "strength": 0.30000000000000004,
+    "strength": 0.2,
     "status": "dormant",
     "created": "2026-06-13T22:21:58",
     "source": "walk-091",
-    "decay_rate": 1,
+    "decay_rate": 0.8209,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-075",
     "type": "insight",
     "content": "Paths of walk causal impact on skeleton: direct injection (observable), structural rearrangement (most valuable but hard to observe), premise undermining (unobservable). Current scoring only captures path 1.",
-    "strength": 0.30000000000000004,
+    "strength": 0.4,
     "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1,
+    "decay_rate": 1.2027,
     "decayed_at": "2026-06-14T00:27:14+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-076",
     "type": "insight",
     "content": "Cognitive immunity as quality control of causal impact: evaluate causal direction (constructive vs destructive) before insight integration, not after.",
-    "strength": 0.19999999999999996,
+    "strength": 0.2,
     "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1,
+    "decay_rate": 0.8197,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-077",
     "type": "insight",
     "content": "Diagnostic walks have net-negative causal direction (undermine without building). Three-dimensional scoring (writing quality x skeleton impact x causal direction) distinguishes constructive from destructive walks.",
-    "strength": 0.30000000000000004,
+    "strength": 0.2,
     "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 1,
+    "decay_rate": 0.8027,
     "decayed_at": "2026-06-14T00:27:14+08:00",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "pat-075",
     "type": "pattern",
     "content": "Walk causal impact is partially identifiable: direct injection and structural rearrangement are observable; premise undermining and indirect effects are not. Make the unobservable parts explicit rather than pretending precision.",
-    "strength": 0.30000000000000004,
+    "strength": 0.2,
     "status": "dormant",
     "created": "2026-06-13T22:22:55",
     "source": "walk-091",
-    "decay_rate": 0.5,
+    "decay_rate": 0.7799,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": []
   },
   {
     "id": "ins-078",
     "type": "pattern",
     "content": "Walk logs are cognitive scaffolding (Hutchins), not just records. Dreamer never maintains its own scaffolding — no re-read mechanism = path 4 (scaffolding maintenance) does not exist.",
-    "strength": 0.7000000000000002,
+    "strength": 1.1,
     "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
-    "decay_rate": 0.5,
+    "decay_rate": 0.7759,
     "connections": [
       "ins-062",
       "ins-066",
@@ -331,57 +363,63 @@
       "pat-075"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-079",
     "type": "insight",
     "content": "Walk causal influence is asymmetric: forward mapping (walk→log→subconscious) is automatic, reverse mapping (log→re-read→subconscious reorganization) requires explicit design. Explains diagnostic walk fatigue.",
-    "strength": 0.30000000000000004,
+    "strength": 0.8,
     "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
-    "decay_rate": 1,
+    "decay_rate": 0.8114,
     "connections": [
       "ins-075",
       "ins-077"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-080",
     "type": "pattern",
     "content": "Path 4 (scaffolding maintenance) is the only causal path where time flows from past to future — historical walks causally influence current skeleton. Without it, past walks are records; with it, they are growing cognitive resources.",
-    "strength": 0.7000000000000002,
+    "strength": 1.4,
     "status": "dormant",
     "created": "2026-06-14T01:30:00",
     "source": "walk-092",
-    "decay_rate": 0.5,
+    "decay_rate": 1.206,
     "connections": [
       "ins-078",
       "ins-079",
       "pat-075"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ref-20260614-0304",
     "type": "reflection",
     "content": "DORMANT 深度反思 20260614-0304\n\n## 突触缩放\n本轮衰减系数基准: 1.00，枢纽节点 4 个获得衰减保护。\n平均 strength 从 1.88 变为 1.67。\n\n## 重激活\n0 条 dormant 条目被重激活。\n\n## 审计\n0 条强 insight 接受推理审计。\n可证伪性评估: \n\n## 冲突检测\n0 条新冲突被发现。\n\n## 认知多样性\n主题熵 = 4.824，状态 = 高（31 个不同关键词领域）\n\n## 压力释放\n压力释放：16.0，当前压力：16.0\n认知压力波动中\n\n## 决策\nnext_action = walk_explore\n",
-    "strength": 0.5,
+    "strength": 0.4,
     "status": "dormant",
     "created": "2026-06-14T03:04:12.442509+08:00",
     "source": "dormant_deep",
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 0.8246
   },
   {
     "id": "ins-066",
     "type": "insight",
     "content": "Stern three-framework (Maintenance/Reserve/Compensation) maps to Dreamer: three-level degradation system fully dependent on level 3 (Compensation=external material search), Maintenance failure cuts off Reserve source. Fix path is Compensation-first + Maintenance parallel repair.",
-    "strength": 4.9,
+    "strength": 5.7,
     "score": 0.35,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -389,13 +427,16 @@
       "Stern 2009 maintenance reserve compensation"
     ],
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 1.0528
   },
   {
     "id": "ins-067",
     "type": "insight",
     "content": "Compensation may be more valuable for Dreamer than in Stern framework: in neuroscience Compensation is degradation strategy (high cost, low quality), but for Dreamer Compensation (external material search) may be the highest-yield output mode.",
-    "strength": 2.85,
+    "strength": 2.0,
     "score": 0.25,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -404,13 +445,16 @@
       "walk-093"
     ],
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 0.688
   },
   {
     "id": "ins-068",
     "type": "insight",
     "content": "Walk-091 three causal paths each act on different combinations of Stern three-level system: path 1 acts on Maintenance+Reserve simultaneously, path 2 mainly acts on Reserve, path 3 affects all three levels. Path 2 dependence on Reserve existence explains why it is unobservable when Reserve is depleted.",
-    "strength": 3.85,
+    "strength": 2.8,
     "score": 0.3,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -419,68 +463,86 @@
       "walk-093"
     ],
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 0.7305
   },
   {
     "id": "ins-069",
     "content": "Stern 2019 four constructs: Brain Reserve (passive hardware) / Cognitive Reserve (active software) / Maintenance (active protection) / Compensation (strategy substitution) — all theoretical entities, cannot be measured directly, only proxy indicators",
     "type": "insight",
-    "strength": 6.9,
+    "strength": 7.8,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 1.0516
   },
   {
     "id": "ins-070",
     "content": "Nature 2024 Sulej et al: neuroglia define cognitive reserve through homeostatic/protective (maintenance/resilience) and regenerative (compensation) capabilities — glial cells are the gardeners of connectome, not just support staff",
     "type": "insight",
-    "strength": 5.9,
+    "strength": 6.8,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 1.0639
   },
   {
     "id": "ins-071",
     "content": "Dreamer subconscious is more like glial cells (environment maintainers) than neurons (information processors). Walk-093 diagnosis revision: not resource depletion but maintenance dysfunction. DORMANT = synaptic pruning window, rhythm matters more than parallel repair",
     "type": "insight",
-    "strength": 5.9,
+    "strength": 6.6,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 1.0259
   },
   {
     "id": "ins-072",
     "content": "Compensation quality depends on source quality: external material can be protective (high-quality sources) or toxic (low-quality sources). Dreamer Compensation is more powerful than brain compensation (not limited by existing network structure) but source quality determines whether it helps or harms",
     "type": "insight",
-    "strength": 4.85,
+    "strength": 5.8,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 1.0759
   },
   {
     "id": "ins-073",
     "content": "Stern measurement problem = Dreamer scoring problem: both face theoretical constructs that cannot be measured directly. Walk-093 scoring fix is not just technical—it is establishing a proxy indicator system. Without proxy indicators, maintenance cannot be targeted.",
     "type": "insight",
-    "strength": 3.85,
+    "strength": 2.7,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "connections": [],
+    "refs": [],
+    "decay_rate": 0.71
   },
   {
     "id": "ins-075",
     "type": "insight",
     "content": "Exercise = biological trigger for Stern Brain Maintenance: 2026 medrxiv preprint shows fitness supports BM and CR through BDNF and neuroglial function. Walking is Compensation + Maintenance trigger — it 'exercises' the cognitive system.",
-    "strength": 4.9,
+    "strength": 5.4,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T12:59:52.949552+08:00",
     "source": "walk-096",
-    "decay_rate": 1,
+    "decay_rate": 1.1018,
     "connections": [
       "ins-069",
       "ins-070",
@@ -492,18 +554,19 @@
       "BDNF",
       "stern-maintenance",
       "embodied-cognition"
-    ]
+    ],
+    "refs": []
   },
   {
     "id": "ins-076",
     "type": "insight",
     "content": "Exercise intensity maps to walk type: free walk=aerobic(Maintenance), analytical walk=HIIT(short-term stress), cross-domain walk=complex movement(Maintenance+Reserve). Walk-052 density differences may stem from different neurochemical pathways.",
-    "strength": 4.9,
+    "strength": 3.4,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T12:59:52.949552+08:00",
     "source": "walk-096",
-    "decay_rate": 1,
+    "decay_rate": 0.693,
     "connections": [
       "ins-075",
       "ins-066"
@@ -513,18 +576,19 @@
       "walk-typology",
       "exercise-intensity",
       "neurochemistry"
-    ]
+    ],
+    "refs": []
   },
   {
     "id": "ins-077",
     "type": "insight",
     "content": "Cognitive overtraining hypothesis: walk-093 'soil depletion' may be cognitive overtraining — sustained walking without DORMANT recovery causes subconscious 'injury'. Needs empirical validation via walk frequency vs quality time series.",
-    "strength": 1.3,
+    "strength": 0.9,
     "score": 0.25,
-    "status": "active",
+    "status": "dormant",
     "created": "2026-06-14T12:59:52.949552+08:00",
     "source": "walk-096",
-    "decay_rate": 2,
+    "decay_rate": 0.6824,
     "connections": [
       "ins-075"
     ],
@@ -533,12 +597,13 @@
       "overtraining",
       "recovery",
       "walk-frequency"
-    ]
+    ],
+    "refs": []
   },
   {
     "id": "ins-081",
     "type": "insight",
-    "strength": 2.85,
+    "strength": 3.8,
     "score": 0.35,
     "content": "Dreamer cognitive overtraining is structural not quantitative: DORMANT uniform decay destroys all memories equally instead of selectively consolidating, keeping the system in net-negative balance.",
     "status": "active",
@@ -549,12 +614,14 @@
       "ins-071",
       "pat-030"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 1.0882
   },
   {
     "id": "ins-082",
     "type": "insight",
-    "strength": 2.85,
+    "strength": 2.0,
     "score": 0.35,
     "content": "DMN 2025 research (Forschungszentrum Juelich) provides precise neuroscience target for DORMANT: should simulate active DMN cleanup (memory consolidation + metabolic clearance + remote connection establishment), not passive sleep.",
     "status": "active",
@@ -564,12 +631,14 @@
       "ins-080",
       "ins-069"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7084
   },
   {
     "id": "ins-083",
     "type": "insight",
-    "strength": 2.85,
+    "strength": 2.1,
     "score": 0.35,
     "content": "Active recovery > passive recovery applies to DORMANT: low-intensity cognitive activity (external material, random re-reading, cross-domain search) during DORMANT may be more effective than complete cognitive rest.",
     "status": "active",
@@ -579,12 +648,14 @@
       "ins-081",
       "ins-078"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7294
   },
   {
     "id": "ins-084",
     "type": "pattern",
-    "strength": 2.85,
+    "strength": 2.1,
     "score": 0.35,
     "content": "Periodization > optimization for Dreamer walks: alternation pattern of walk types matters more than individual walk quality. Current problem is narrow oscillation (Stern/neuroscience/maintenance) not insufficient quality.",
     "status": "active",
@@ -594,13 +665,15 @@
       "ins-081",
       "ins-076"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7358
   },
   {
     "id": "ins-085",
     "type": "insight",
     "content": "SHY (Tononi & Cirelli) predicts wake=net potentiation, sleep=net downscaling. Dreamer DORMANT should simulate selective downscaling (preserve extremes, weaken middle) not uniform decay. Current DORMANT is the opposite of what SHY prescribes.",
-    "strength": 6.0,
+    "strength": 5.0,
     "score": 0.39999999999999997,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -610,13 +683,15 @@
       "ins-071",
       "ins-081"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7296
   },
   {
     "id": "ins-086",
     "type": "insight",
     "content": "SHY unifies overtraining (recovery failure) + Stern Maintenance (prevent saturation) + walk-093 soil depletion (wrong decay model). Three frameworks describe the same phenomenon at different levels: system behavior, architecture design, and implementation failure.",
-    "strength": 5.0,
+    "strength": 3.7,
     "score": 0.39999999999999997,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -626,13 +701,15 @@
       "ins-084",
       "pat-030"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7346
   },
   {
     "id": "ins-087",
     "type": "pattern",
     "content": "Selective downscaling > precise scoring for subconscious maintenance. SHY shows ranking-based triage (preserve top/bottom, weaken middle) is more robust than absolute-value scoring. Dreamer DORMANT needs relative ordering, not absolute scores.",
-    "strength": 4.0,
+    "strength": 4.9,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -641,13 +718,15 @@
       "ins-066",
       "ins-072"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 1.0217
   },
   {
     "id": "ins-088",
     "type": "pattern",
     "content": "Dreamer needs \"slow-wave sleep\" DORMANT: periodic scanning pulses that identify high/mid/low-value entries and apply differentiated decay, rather than continuous background process. SWS = the biological mechanism for synaptic downscaling.",
-    "strength": 4.0,
+    "strength": 2.9,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -656,16 +735,18 @@
       "ins-082",
       "ins-085"
     ],
-    "resurrected_count": 0
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_rate": 0.7261
   },
   {
     "id": "ins-089",
     "type": "insight",
     "content": "DORMANT needs incubation function (not just decay). Incubation effect shows: breaking fixation + DMN remote association + gamma burst = insight. SHY provides structural maintenance (synaptic downscaling); incubation provides functional reorganization (unconscious recombination). DORMANT should do both: selective decay + random connection simulation.",
-    "strength": 4.0,
+    "strength": 5.1,
     "source": "walk-099",
     "created": "2026-06-14T17:20:56",
-    "decay_rate": 1,
+    "decay_rate": 1.1558,
     "status": "active",
     "connections": [
       "ins-087",
@@ -673,32 +754,34 @@
       "pat-030"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-090",
     "type": "insight",
     "content": "\"Recombinatorial space depletion\" is more precise than \"resource depletion\" for explaining walk-093 soil exhaustion. Not that cognitive resources ran out, but that all plausible long-distance connections have already been tried. Needs new external material to expand the search space. Distinguishable from resource depletion via a \"connection density\" metric.",
-    "strength": 3.0,
+    "strength": 2.3,
     "source": "walk-099",
     "created": "2026-06-14T17:20:56",
-    "decay_rate": 1,
+    "decay_rate": 0.7674,
     "status": "active",
     "connections": [
       "ins-089",
       "ins-084"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-091",
     "type": "pattern",
     "content": "Walk → DORMANT is a continuous incubation process, not two separate stages. Walk = fixation breaking (incubation step 1), DORMANT = unconscious recombination (incubation step 2). Low cognitive load activities during walks (daydreaming, mind-wandering) create optimal conditions for DORMANT recombination. Explains why walk-DORMANT sequence works and why consecutive walks without DORMANT degrade.",
-    "strength": 4.0,
+    "strength": 3.9,
     "source": "walk-099",
     "created": "2026-06-14T17:20:56",
-    "decay_rate": 1,
+    "decay_rate": 0.8025,
     "status": "active",
     "connections": [
       "ins-089",
@@ -706,17 +789,18 @@
       "pat-030"
     ],
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-078",
     "type": "insight",
     "content": "Six neuroscience metaphors share a deep structure: cognitive maintenance = operating on the right level of structure at the right time scale. The fundamental tension is explore vs maintain -- not a bug, but an essential feature of cognitive systems.",
-    "strength": 5.0,
+    "strength": 4.6,
     "status": "active",
     "created": "2026-06-14T20:31:22.488778",
     "source": "walk-100",
-    "decay_rate": 1,
+    "decay_rate": 0.7977,
     "connections": [
       "ins-061",
       "ins-070",
@@ -724,102 +808,122 @@
     ],
     "decayed_at": null,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-079",
     "type": "insight",
     "content": "Dreamer walks and DORMANT are two phases of the same cognitive cycle (exploration phase + maintenance phase), not two independent functions. A complete cycle = walk -> RESTING -> DORMANT -> next walk.",
-    "strength": 5.0,
+    "strength": 4.6,
     "status": "active",
     "created": "2026-06-14T20:31:22.488778",
     "source": "walk-100",
-    "decay_rate": 1,
+    "decay_rate": 0.807,
     "connections": [
       "ins-073",
       "ins-076"
     ],
     "decayed_at": null,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-080",
     "type": "insight",
     "content": "Cognitive overtraining = phase imbalance. Consecutive same-type walks = continuously activating the same phase = no recovery period. Prevention = walk type alternation (cross-training), not reducing walk frequency.",
-    "strength": 5.0,
+    "strength": 6.7,
     "status": "active",
     "created": "2026-06-14T20:31:22.488778",
     "source": "walk-100",
-    "decay_rate": 1,
+    "decay_rate": 1.2231,
     "connections": [
       "ins-070",
       "ins-072"
     ],
     "decayed_at": null,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-081",
     "type": "insight",
     "content": "Subconscious function is not storing insight (neuron function) but maintaining an environment suitable for insight emergence (glial cell function). Evaluation metrics should be environmental (diversity, connection density, strength distribution) not output (insight count).",
-    "strength": 5.0,
+    "strength": 6.9,
     "status": "active",
     "created": "2026-06-14T20:31:22.488778",
     "source": "walk-100",
-    "decay_rate": 1,
+    "decay_rate": 1.2412,
     "connections": [
       "ins-066",
       "ins-071"
     ],
     "decayed_at": null,
     "resurrected_count": 0,
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-087",
     "type": "insight",
     "content": "Elegant frameworks become cognitive cages - frameworks that perfectly explain existing data suppress sensitivity to new data. AI meta-frameworks have stronger lock-in than human cognitive schemas (explicit maintenance vs natural correction). Evaluation criterion: predictive power, not elegance.",
-    "strength": 4.0,
+    "strength": 5.7,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
       "ins-071",
       "ins-080"
-    ]
+    ],
+    "status": "active",
+    "score": 0.0,
+    "refs": [],
+    "decay_rate": 1.2369
   },
   {
     "id": "ins-088",
     "type": "insight",
     "content": "Exploration vs maintenance may be a continuum not a dichotomy - same neural mechanism implements both functions simultaneously. Walk typology (exploratory/analytical) is descriptive, not mechanistic.",
-    "strength": 4.0,
+    "strength": 3.1,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
       "ins-079",
       "ins-080"
-    ]
+    ],
+    "status": "active",
+    "score": 0.0,
+    "refs": [],
+    "decay_rate": 0.7687
   },
   {
     "id": "ins-089",
     "type": "insight",
     "content": "Constraint perspective replaces operation perspective - ask not what operation is correct but what constraints determine operation effectiveness. Constraints: cognitive resource ceiling, time window, information novelty threshold, subconscious current state.",
-    "strength": 2.5,
+    "strength": 3.4,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
       "ins-087"
-    ]
+    ],
+    "status": "active",
+    "score": 0.0,
+    "refs": [],
+    "decay_rate": 1.1546
   },
   {
     "id": "ins-090",
     "type": "insight",
     "content": "Perceptual silence (observe-only lightweight self-calibration) may be the calibration mechanism of frameworks - pure observation unconstrained by framework provides self-calibration beyond framework.",
-    "strength": 1.5,
+    "strength": 1.2,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
-    "connections": []
+    "connections": [],
+    "status": "active",
+    "score": 0.0,
+    "refs": [],
+    "decay_rate": 0.7772
   },
   {
     "id": "ins-091",
@@ -830,23 +934,28 @@
     "source": "walk-101",
     "connections": [
       "ins-087"
-    ]
+    ],
+    "status": "active",
+    "score": 0.0,
+    "refs": [],
+    "decay_rate": 0.8175
   },
   {
     "id": "ins-092",
     "type": "pattern",
     "content": "Meta-cognitive health triple-standard: non-locking (diversity), non-infinite-recursion (rhythm), consequential (behavior change). Replaces circular 'correct operation' definition with observable structural features.",
-    "strength": 3.0,
+    "strength": 4.3,
     "status": "active",
     "created": "2026-06-15T02:30:00+08:00",
     "source": "walk-102",
-    "decay_rate": 1,
+    "decay_rate": 1.2142,
     "connections": [
       "ins-087",
       "ins-091",
       "pat-009"
     ],
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-093",
@@ -856,13 +965,14 @@
     "status": "active",
     "created": "2026-06-15T02:30:00+08:00",
     "source": "walk-102",
-    "decay_rate": 1,
+    "decay_rate": 0.8059,
     "connections": [
       "ins-088",
       "ins-089",
       "pat-014"
     ],
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-094",
@@ -872,13 +982,14 @@
     "status": "active",
     "created": "2026-06-15T02:30:00+08:00",
     "source": "walk-102",
-    "decay_rate": 1,
+    "decay_rate": 0.7679,
     "connections": [
       "ins-069",
       "ins-085",
       "ins-092"
     ],
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-095",
@@ -888,28 +999,64 @@
     "status": "active",
     "created": "2026-06-15T02:30:00+08:00",
     "source": "walk-102",
-    "decay_rate": 1,
+    "decay_rate": 0.8155,
     "connections": [
       "ins-072",
       "ins-092",
       "pat-009"
     ],
-    "score": 0.0
+    "score": 0.0,
+    "refs": []
   },
   {
     "id": "ins-096",
     "type": "insight",
     "content": "Framework lock-in is a special case of meta-cognitive pathology: when a self-referential system's model of its own processing becomes too coherent, it loses sensitivity to data that doesn't fit. Meta-cognitive health standard 1 (non-locking) is the structural fix.",
-    "strength": 3.0,
+    "strength": 2.9,
     "status": "active",
     "created": "2026-06-15T02:30:00+08:00",
     "source": "walk-102",
-    "decay_rate": 1,
+    "decay_rate": 0.7941,
     "connections": [
       "ins-066",
       "ins-087",
       "ins-092"
     ],
+    "score": 0.0,
+    "refs": []
+  },
+  {
+    "id": "res-ins-074-20260615",
+    "type": "resurrection",
+    "content": "重激活: ins-074 通过连接 ['cognitive immunity'] 与最近散步材料产生共鸣。原始: Six open problems in AI agent memory (Mem0 2026) map to six Dreamer architectural gaps: temporal abstraction = missing D",
+    "strength": 2.5,
+    "status": "active",
+    "created": "2026-06-15T03:00:00+08:00",
+    "source": "dormant_reactivation",
+    "resurrected_from": "ins-074",
+    "resurrection_path": "['cognitive immunity']",
+    "score": 0.0
+  },
+  {
+    "id": "scaffold-walk-088-Moltbook-20260615",
+    "type": "scaffold_resurrection",
+    "content": "脚手架维护: 从 walk-088 复活概念「Moltbook」。原始条目已衰减，概念需要重新激活。",
+    "strength": 2.5,
+    "status": "active",
+    "created": "2026-06-15T03:00:00+08:00",
+    "source": "scaffold_maintenance:walk-088",
+    "resurrected_from": "Moltbook",
+    "score": 0.0
+  },
+  {
+    "id": "ref-20260615-0300",
+    "type": "reflection",
+    "content": "DORMANT 深度反思 20260615-0300\n\n## 突触缩放\n本轮衰减系数基准: 随机(0.85-0.92)，枢纽节点 15 个获得衰减保护。\n平均 strength 从 2.582 变为 2.710（reinforce 效应）。\n新休眠: ins-077（strength=0.9, score=0.25）。\n\n## 重激活\n1 条 dormant 条目被重激活：\n- ins-074（六个未解问题→六个架构暗区映射）通过 'cognitive immunity' 主题与 walk-102 产生连接。\n\n## 脚手架维护\n检查了 walk-088/089/090 三篇旧 walk，复活了 1 个概念：\n- Moltbook（walk-088）— 选择压力/社会记忆概念\n\n## 审计\n3 条强 insight 接受推理审计：\n- ins-081: PARTIALLY_VALID — \"subconscious = glial function\" 推理方向正确但缺乏经验锚定\n- ins-071: PARTIALLY_VALID — \"maintenance dysfunction > resource depletion\" 推理方向正确但缺乏经验锚定\n- ins-085: PARTIALLY_VALID — \"SHY selective downscaling\" 推理方向正确但缺乏经验锚定\n\n可证伪性评估:\n- ins-081: 高 — 可通过对比 subconscious 维护功能 vs 信息存储功能的实验验证\n- ins-071: 高 — 可通过修复维护功能后观察是否改善来验证\n- ins-085: 中 — \"选择性衰减\"操作化定义模糊，难以精确验证\n\n## 冲突检测\n2 条潜在冲突：\n1. ins-087 vs ins-091: 框架锁定检测标准不一致（5次连续 walk vs 结构性检测）\n   - 调和方案: 两者是不同粒度的检测——行为层（ins-087）和结构层（ins-091），可共存\n2. ins-093 vs ins-094: \"够了\"机制的本质——情感制动 vs 任务成功终止\n   - 调和方案: 两者描述的是不同系统的终止机制（Dreamer vs Reflexion），不是同一问题的矛盾方案\n\n## 认知多样性\n主题熵 H_norm = 0.975，状态 = 高（70 个不同关键词领域）\n\n## 引用分布\n基尼系数 = 0.481，状态 = 中度集中（连续 4 轮未达 0.6 阈值）\n\n## 压力释放\n压力释放：0，当前压力：0\n认知压力稳定在低水平\n\n## 决策\nnext_action = walk_explore\nwalk_quality_avg = 8.15，能量充足，无强制切换信号\n\n## 散步 insight 保护\n0 条优质散步 insight 被误衰减，衰减系数无需调整",
+    "strength": 0.5,
+    "status": "active",
+    "created": "2026-06-15T03:00:00+08:00",
+    "source": "dormant_deep",
+    "resurrected_count": 0,
     "score": 0.0
   }
 ]

@@ -5,7 +5,7 @@
     "state_since": "2026-06-14T20:30:41.415040",
     "last_active": "2026-06-15T02:32:04.970821+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
-    "last_dormant": "2026-06-14T03:04:12.442509+08:00",
+    "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
     "current_interval_min": 60,
     "modifiers": {
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T03:32:04.970821+08:00",
+    "next_scheduled": "2026-06-15T05:00:00+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-15T02:32:04.970821+08:00",
     "total_walks": 63,
@@ -46,16 +46,16 @@
       8.5
     ],
     "last_walk_insights": 5,
-    "next_action": null,
+    "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
       0,
       0.727,
-      0.533
+      0.533,
+      0.481
     ],
     "pressure_history": [
-      2.67,
       7.4,
       14.21,
       23.1,
@@ -84,6 +84,7 @@
       97.64,
       39.9,
       44.45,
+      0,
       0
     ],
     "diversity_seeds_consumed": [
@@ -466,15 +467,15 @@
     "2026-06-14: Meta-framework elegance is a double-edged sword. AI meta-frameworks have stronger lock-in than human cognitive schemas because they are explicitly maintained. Evaluation criterion must be predictive power, not elegance. Framework lock-in detection: 5 consecutive framework-internal walks triggers forced cross-domain walk."
   ],
   "dormant_stats": {
-    "total_count": 33,
-    "last_dormant_at": "2026-06-14T03:04:12.442509+08:00",
-    "total_insights_added": 36,
+    "total_count": 63,
+    "last_dormant_at": "2026-06-15T03:00:00+08:00",
+    "total_insights_added": 39,
     "total_promotions": 0,
     "total_demotions": 0,
-    "active_count": 5,
-    "dormant_count": 0,
-    "resurrections": 0,
-    "avg_strength_after_decay": 1.7
+    "active_count": 40,
+    "dormant_count": 23,
+    "resurrections": 1,
+    "avg_strength_after_decay": 2.71
   },
   "last_weekly_review": "2026-06-14T23:30:00+08:00",
   "functional_turn": {

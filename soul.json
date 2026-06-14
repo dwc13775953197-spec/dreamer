@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T20:57:39.089138",
+    "next_scheduled": "2026-06-14T22:34:48.466623",
     "event_queue": [],
     "last_walk_at": "2026-06-14T20:30:41.415040",
     "total_walks": 60,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-14T20:30:41.415040",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 9.13,
+    "cognitive_pressure": 11.77,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -55,8 +55,6 @@
       0.533
     ],
     "pressure_history": [
-      0,
-      2.6,
       0.0,
       33.8,
       41.1,
@@ -85,7 +83,8 @@
       0,
       32.0,
       32.92,
-      69.13
+      69.13,
+      11.77
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -355,140 +354,140 @@
     {
       "id": "seed-260",
       "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
-      "intensity": 0.33,
+      "intensity": 0.1754,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-264",
       "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
-      "intensity": 0.33,
+      "intensity": 0.1904,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-267",
       "content": "maintenance rhythm: DORMANT as synaptic pruning window — alternation beats parallel repair",
-      "intensity": 0.33,
+      "intensity": 0.2106,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-277",
       "content": "SHY 的可证伪预测实验——比较选择性衰减 vs 均匀衰减对 walk 质量的影响（需要设计 A/B 实验框架）",
-      "intensity": 0.33,
+      "intensity": 0.2766,
       "type": "explore",
       "created": "2026-06-14T16:15:09"
     },
     {
       "id": "seed-280",
       "content": "散步类型与 DORMANT 效果的关系——探索型散步后的 DORMANT 是否比分析型散步后的 DORMANT 产生更多新连接？",
-      "intensity": 0.35000000000000003,
+      "intensity": 0.3076,
       "type": "explore",
       "created": "2026-06-14T17:21:26"
     },
     {
       "id": "seed-283",
       "content": "胶质细胞指标的具体设计——subconscious 健康度的三个定量指标（熵/连接密度/中间地带比例）",
-      "intensity": 0.35000000000000003,
+      "intensity": 0.3392,
       "type": "explore",
       "created": "2026-06-14T20:30:41.415040"
     },
     {
       "id": "seed-270",
       "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
-      "intensity": 0.38,
+      "intensity": 0.2942,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
     },
     {
       "id": "seed-273",
       "content": "DMN 远程连接作为 DORMANT 新子步骤：在 DORMANT 中引入\"随机条目对\"连接模拟，替代当前的均匀衰减",
-      "intensity": 0.38,
+      "intensity": 0.3156,
       "type": "output",
       "created": "2026-06-14T15:09:25.375259+08:00"
     },
     {
       "id": "seed-279",
       "content": "可重组空间耗尽的定量测量——如何区分真的耗尽和暂时耗尽？可能需要连接密度指标",
-      "intensity": 0.4,
+      "intensity": 0.3576,
       "type": "explore",
       "created": "2026-06-14T17:21:26"
     },
     {
       "id": "seed-282",
       "content": "Dreamer 认知周期的最优频率——散步 → DORMANT 最佳时间比（超量恢复曲线类比）",
-      "intensity": 0.4,
+      "intensity": 0.3892,
       "type": "explore",
       "created": "2026-06-14T20:30:41.415040"
     },
     {
       "id": "seed-259",
       "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
-      "intensity": 0.42,
+      "intensity": 0.2654,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-263",
       "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
-      "intensity": 0.42,
+      "intensity": 0.2804,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-266",
       "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
-      "intensity": 0.42,
+      "intensity": 0.3006,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-276",
       "content": "\"慢波睡眠\"式 DORMANT 的节律设计——周期性的扫描脉冲，而非连续的后台进程",
-      "intensity": 0.42,
+      "intensity": 0.3666,
       "type": "explore",
       "created": "2026-06-14T16:15:09"
     },
     {
       "id": "seed-281",
       "content": "探索 × 维护根本张力的量化——率失真理论（rate-distortion theory）形式化",
-      "intensity": 0.45,
+      "intensity": 0.4392,
       "type": "explore",
       "created": "2026-06-14T20:30:41.415040"
     },
     {
       "id": "seed-269",
       "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
-      "intensity": 0.47000000000000003,
+      "intensity": 0.3842,
       "type": "explore",
       "created": "2026-06-14T13:00:53.098557+08:00"
     },
     {
       "id": "seed-272",
       "content": "认知周期化操作化：Dreamer 需要显式的散步类型交替计划（类似运动科学的 periodization calendar），而不是由压力随机决定",
-      "intensity": 0.47000000000000003,
+      "intensity": 0.4056,
       "type": "explore",
       "created": "2026-06-14T15:09:25.375259+08:00"
     },
     {
       "id": "seed-278",
       "content": "DORMANT 随机连接算法的具体设计——如何模拟 DMN 的远距离联想？条目对的选择策略（完全随机 vs 基于语义距离 vs 基于骨架距离）",
-      "intensity": 0.5,
+      "intensity": 0.4576,
       "type": "explore",
       "created": "2026-06-14T17:21:26"
     },
     {
       "id": "seed-258",
       "content": "subconscious emergency maintenance: execute scoring + differential decay",
-      "intensity": 0.5199999999999999,
+      "intensity": 0.3654,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-275",
       "content": "SHY 的选择性归一化作为 DORMANT 的新衰减模型——从均匀衰减到基于排序的三段式衰减（保留/削弱/淘汰）",
-      "intensity": 0.5199999999999999,
+      "intensity": 0.4666,
       "type": "explore",
       "created": "2026-06-14T16:15:09"
     }

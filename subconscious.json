@@ -776,5 +776,60 @@
     "decayed_at": null,
     "resurrected_count": 0,
     "score": 0.0
+  },
+  {
+    "id": "ins-087",
+    "type": "insight",
+    "content": "Elegant frameworks become cognitive cages - frameworks that perfectly explain existing data suppress sensitivity to new data. AI meta-frameworks have stronger lock-in than human cognitive schemas (explicit maintenance vs natural correction). Evaluation criterion: predictive power, not elegance.",
+    "strength": 3.0,
+    "created": "2026-06-14T23:15:47.172150+08:00",
+    "source": "walk-101",
+    "connections": [
+      "ins-071",
+      "ins-080"
+    ]
+  },
+  {
+    "id": "ins-088",
+    "type": "insight",
+    "content": "Exploration vs maintenance may be a continuum not a dichotomy - same neural mechanism implements both functions simultaneously. Walk typology (exploratory/analytical) is descriptive, not mechanistic.",
+    "strength": 3.0,
+    "created": "2026-06-14T23:15:47.172150+08:00",
+    "source": "walk-101",
+    "connections": [
+      "ins-079",
+      "ins-080"
+    ]
+  },
+  {
+    "id": "ins-089",
+    "type": "insight",
+    "content": "Constraint perspective replaces operation perspective - ask not what operation is correct but what constraints determine operation effectiveness. Constraints: cognitive resource ceiling, time window, information novelty threshold, subconscious current state.",
+    "strength": 1.5,
+    "created": "2026-06-14T23:15:47.172150+08:00",
+    "source": "walk-101",
+    "connections": [
+      "ins-087"
+    ]
+  },
+  {
+    "id": "ins-090",
+    "type": "insight",
+    "content": "Perceptual silence (observe-only lightweight self-calibration) may be the calibration mechanism of frameworks - pure observation unconstrained by framework provides self-calibration beyond framework.",
+    "strength": 1.5,
+    "created": "2026-06-14T23:15:47.172150+08:00",
+    "source": "walk-101",
+    "connections": []
+  },
+  {
+    "id": "ins-091",
+    "type": "insight",
+    "content": "Framework lock-in quantitative detection - if 5 consecutive walks operate within same meta-framework without producing framework-external insight, mark as framework lock-in and force cross-domain walk.",
+    "strength": 3.0,
+    "created": "2026-06-14T23:15:47.172150+08:00",
+    "source": "walk-101",
+    "connections": [
+      "ins-087"
+    ]
   }
 ]

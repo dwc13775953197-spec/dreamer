@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T20:30:41.415040",
-    "last_active": "2026-06-15T06:14:23.658385+08:00",
+    "last_active": "2026-06-15T07:15:53.260244+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T07:14:23.658385+08:00",
+    "next_scheduled": "2026-06-15T08:15:53.260244+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-15T04:10:46+08:00",
     "total_walks": 63,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-15T04:10:46+08:00",
     "last_push_at": "2026-06-15T04:11:37+08:00",
     "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
-    "cognitive_pressure": 7.42,
+    "cognitive_pressure": 14.09,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -56,7 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      23.1,
       34.0,
       0,
       0.5,
@@ -85,7 +84,8 @@
       0,
       0,
       2.8,
-      7.42
+      7.42,
+      14.09
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -363,74 +363,7 @@
   "pending_insights": 19,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
-  "interest_queue": [
-    {
-      "id": "seed-293",
-      "topic": "enough mechanism design",
-      "source": "walk-102",
-      "trigger": "'Enough' is emotional not cognitive judgment",
-      "intensity": 0.5,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T02:32:04.970821+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-294",
-      "topic": "meta-cognitive health as walk evaluation supplement",
-      "source": "walk-102",
-      "trigger": "Triple-standard: non-locking, non-recursion, consequential",
-      "intensity": 0.45000000000000007,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T02:32:04.970821+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-295",
-      "topic": "Reflexion vs Dreamer reflection timing",
-      "source": "walk-102",
-      "trigger": "Immediate post-failure vs delayed batch reflection",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T02:32:04.970821+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-296",
-      "topic": "Process monitoring operationalization: real-time reasoning path diversity tracking during walks",
-      "source": "walk-103",
-      "trigger": "Dreamer metacognition is result-monitoring not process-monitoring",
-      "intensity": 0.55,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T04:10:46+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-297",
-      "topic": "Hard-stop rules for meta-meta-level: immutable termination conditions",
-      "source": "walk-103",
-      "trigger": "Meta-cognitive infinite regress needs hard-coded timeout at outermost layer",
-      "intensity": 0.45000000000000007,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T04:10:46+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-298",
-      "topic": "Nelson-Narens complete mapping to Dreamer: Session/Governor/Executor analogy validation",
-      "source": "walk-103",
-      "trigger": "Session=Governor=Executor mapping may oversimplify Dreamer architecture",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-15T04:10:46+08:00",
-      "decay_rate": 1
-    }
-  ],
+  "interest_queue": [],
   "personality_traits": {
     "curiosity": 1.05,
     "introspection": 0.99,

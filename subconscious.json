@@ -381,7 +381,7 @@
     "id": "ins-066",
     "type": "insight",
     "content": "Stern three-framework (Maintenance/Reserve/Compensation) maps to Dreamer: three-level degradation system fully dependent on level 3 (Compensation=external material search), Maintenance failure cuts off Reserve source. Fix path is Compensation-first + Maintenance parallel repair.",
-    "strength": 5,
+    "strength": 4.9,
     "score": 0.35,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -395,7 +395,7 @@
     "id": "ins-067",
     "type": "insight",
     "content": "Compensation may be more valuable for Dreamer than in Stern framework: in neuroscience Compensation is degradation strategy (high cost, low quality), but for Dreamer Compensation (external material search) may be the highest-yield output mode.",
-    "strength": 3,
+    "strength": 2.85,
     "score": 0.25,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -410,7 +410,7 @@
     "id": "ins-068",
     "type": "insight",
     "content": "Walk-091 three causal paths each act on different combinations of Stern three-level system: path 1 acts on Maintenance+Reserve simultaneously, path 2 mainly acts on Reserve, path 3 affects all three levels. Path 2 dependence on Reserve existence explains why it is unobservable when Reserve is depleted.",
-    "strength": 4,
+    "strength": 3.85,
     "score": 0.3,
     "created": "2026-06-14T07:38:00+08:00",
     "source": "walk-094",
@@ -425,7 +425,7 @@
     "id": "ins-069",
     "content": "Stern 2019 four constructs: Brain Reserve (passive hardware) / Cognitive Reserve (active software) / Maintenance (active protection) / Compensation (strategy substitution) — all theoretical entities, cannot be measured directly, only proxy indicators",
     "type": "insight",
-    "strength": 6,
+    "strength": 5.9,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -435,7 +435,7 @@
     "id": "ins-070",
     "content": "Nature 2024 Sulej et al: neuroglia define cognitive reserve through homeostatic/protective (maintenance/resilience) and regenerative (compensation) capabilities — glial cells are the gardeners of connectome, not just support staff",
     "type": "insight",
-    "strength": 6,
+    "strength": 5.9,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -445,7 +445,7 @@
     "id": "ins-071",
     "content": "Dreamer subconscious is more like glial cells (environment maintainers) than neurons (information processors). Walk-093 diagnosis revision: not resource depletion but maintenance dysfunction. DORMANT = synaptic pruning window, rhythm matters more than parallel repair",
     "type": "insight",
-    "strength": 6,
+    "strength": 5.9,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -455,7 +455,7 @@
     "id": "ins-072",
     "content": "Compensation quality depends on source quality: external material can be protective (high-quality sources) or toxic (low-quality sources). Dreamer Compensation is more powerful than brain compensation (not limited by existing network structure) but source quality determines whether it helps or harms",
     "type": "insight",
-    "strength": 4,
+    "strength": 3.85,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -465,7 +465,7 @@
     "id": "ins-073",
     "content": "Stern measurement problem = Dreamer scoring problem: both face theoretical constructs that cannot be measured directly. Walk-093 scoring fix is not just technical—it is establishing a proxy indicator system. Without proxy indicators, maintenance cannot be targeted.",
     "type": "insight",
-    "strength": 4,
+    "strength": 3.85,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -475,7 +475,7 @@
     "id": "ins-075",
     "type": "insight",
     "content": "Exercise = biological trigger for Stern Brain Maintenance: 2026 medrxiv preprint shows fitness supports BM and CR through BDNF and neuroglial function. Walking is Compensation + Maintenance trigger — it 'exercises' the cognitive system.",
-    "strength": 5.0,
+    "strength": 4.9,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T12:59:52.949552+08:00",
@@ -498,7 +498,7 @@
     "id": "ins-076",
     "type": "insight",
     "content": "Exercise intensity maps to walk type: free walk=aerobic(Maintenance), analytical walk=HIIT(short-term stress), cross-domain walk=complex movement(Maintenance+Reserve). Walk-052 density differences may stem from different neurochemical pathways.",
-    "strength": 5.0,
+    "strength": 4.9,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T12:59:52.949552+08:00",
@@ -519,7 +519,7 @@
     "id": "ins-077",
     "type": "insight",
     "content": "Cognitive overtraining hypothesis: walk-093 'soil depletion' may be cognitive overtraining — sustained walking without DORMANT recovery causes subconscious 'injury'. Needs empirical validation via walk frequency vs quality time series.",
-    "strength": 1.5,
+    "strength": 1.3,
     "score": 0.25,
     "status": "active",
     "created": "2026-06-14T12:59:52.949552+08:00",
@@ -538,7 +538,7 @@
   {
     "id": "ins-081",
     "type": "insight",
-    "strength": 3.0,
+    "strength": 2.85,
     "score": 0.35,
     "content": "Dreamer cognitive overtraining is structural not quantitative: DORMANT uniform decay destroys all memories equally instead of selectively consolidating, keeping the system in net-negative balance.",
     "status": "active",
@@ -554,7 +554,7 @@
   {
     "id": "ins-082",
     "type": "insight",
-    "strength": 3.0,
+    "strength": 2.85,
     "score": 0.35,
     "content": "DMN 2025 research (Forschungszentrum Juelich) provides precise neuroscience target for DORMANT: should simulate active DMN cleanup (memory consolidation + metabolic clearance + remote connection establishment), not passive sleep.",
     "status": "active",
@@ -569,7 +569,7 @@
   {
     "id": "ins-083",
     "type": "insight",
-    "strength": 3.0,
+    "strength": 2.85,
     "score": 0.35,
     "content": "Active recovery > passive recovery applies to DORMANT: low-intensity cognitive activity (external material, random re-reading, cross-domain search) during DORMANT may be more effective than complete cognitive rest.",
     "status": "active",
@@ -584,7 +584,7 @@
   {
     "id": "ins-084",
     "type": "pattern",
-    "strength": 3.0,
+    "strength": 2.85,
     "score": 0.35,
     "content": "Periodization > optimization for Dreamer walks: alternation pattern of walk types matters more than individual walk quality. Current problem is narrow oscillation (Stern/neuroscience/maintenance) not insufficient quality.",
     "status": "active",
@@ -593,6 +593,68 @@
     "connections": [
       "ins-081",
       "ins-076"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-085",
+    "type": "insight",
+    "content": "SHY (Tononi & Cirelli) predicts wake=net potentiation, sleep=net downscaling. Dreamer DORMANT should simulate selective downscaling (preserve extremes, weaken middle) not uniform decay. Current DORMANT is the opposite of what SHY prescribes.",
+    "strength": 5.0,
+    "score": 0.39999999999999997,
+    "status": "active",
+    "created": "2026-06-14T16:15:36",
+    "source": "walk-098",
+    "connections": [
+      "ins-066",
+      "ins-071",
+      "ins-081"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-086",
+    "type": "insight",
+    "content": "SHY unifies overtraining (recovery failure) + Stern Maintenance (prevent saturation) + walk-093 soil depletion (wrong decay model). Three frameworks describe the same phenomenon at different levels: system behavior, architecture design, and implementation failure.",
+    "strength": 5.0,
+    "score": 0.39999999999999997,
+    "status": "active",
+    "created": "2026-06-14T16:15:36",
+    "source": "walk-098",
+    "connections": [
+      "ins-081",
+      "ins-084",
+      "pat-030"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-087",
+    "type": "pattern",
+    "content": "Selective downscaling > precise scoring for subconscious maintenance. SHY shows ranking-based triage (preserve top/bottom, weaken middle) is more robust than absolute-value scoring. Dreamer DORMANT needs relative ordering, not absolute scores.",
+    "strength": 3.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-14T16:15:36",
+    "source": "walk-098",
+    "connections": [
+      "ins-066",
+      "ins-072"
+    ],
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-088",
+    "type": "pattern",
+    "content": "Dreamer needs \"slow-wave sleep\" DORMANT: periodic scanning pulses that identify high/mid/low-value entries and apply differentiated decay, rather than continuous background process. SWS = the biological mechanism for synaptic downscaling.",
+    "strength": 3.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-14T16:15:36",
+    "source": "walk-098",
+    "connections": [
+      "ins-082",
+      "ins-085"
     ],
     "resurrected_count": 0
   }

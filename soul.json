@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T20:30:41.415040",
-    "last_active": "2026-06-15T02:32:04.970821+08:00",
+    "last_active": "2026-06-15T04:10:46+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,14 +13,14 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T05:00:00+08:00",
+    "next_scheduled": "2026-06-15T05:10:46+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-15T02:32:04.970821+08:00",
+    "last_walk_at": "2026-06-15T04:10:46+08:00",
     "total_walks": 63,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
-    "last_walk": "2026-06-14T20:30:41.415040",
-    "last_push_at": "2026-06-13T04:07:43+0800",
-    "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
+    "last_walk": "2026-06-15T04:10:46+08:00",
+    "last_push_at": "2026-06-15T04:11:37+08:00",
+    "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
     "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.5,
       8.0,
       8.5,
       8.0,
@@ -43,10 +42,11 @@
       8.0,
       8.5,
       8.0,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 5,
-    "next_action": "walk_explore",
+    "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
@@ -92,7 +92,7 @@
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.15
+    "walk_quality_avg": 8.2
   },
   "affect": {
     "primary": "wonder",
@@ -212,6 +212,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-15T02:32:04.970821+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-15T04:10:46+08:00"
     }
   ],
   "last_walk": "2026-06-14T23:15:47.172150+08:00",
@@ -356,7 +360,7 @@
     "social-memory",
     "cognitive-scaffolding"
   ],
-  "pending_insights": 15,
+  "pending_insights": 19,
   "pending_research": 2,
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
@@ -365,7 +369,7 @@
       "topic": "enough mechanism design",
       "source": "walk-102",
       "trigger": "'Enough' is emotional not cognitive judgment",
-      "intensity": 0.6,
+      "intensity": 0.5,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-15T02:32:04.970821+08:00",
@@ -376,7 +380,7 @@
       "topic": "meta-cognitive health as walk evaluation supplement",
       "source": "walk-102",
       "trigger": "Triple-standard: non-locking, non-recursion, consequential",
-      "intensity": 0.55,
+      "intensity": 0.45000000000000007,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-15T02:32:04.970821+08:00",
@@ -387,21 +391,54 @@
       "topic": "Reflexion vs Dreamer reflection timing",
       "source": "walk-102",
       "trigger": "Immediate post-failure vs delayed batch reflection",
-      "intensity": 0.5,
+      "intensity": 0.4,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-15T02:32:04.970821+08:00",
       "decay_rate": 1
+    },
+    {
+      "id": "seed-296",
+      "topic": "Process monitoring operationalization: real-time reasoning path diversity tracking during walks",
+      "source": "walk-103",
+      "trigger": "Dreamer metacognition is result-monitoring not process-monitoring",
+      "intensity": 0.55,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-15T04:10:46+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-297",
+      "topic": "Hard-stop rules for meta-meta-level: immutable termination conditions",
+      "source": "walk-103",
+      "trigger": "Meta-cognitive infinite regress needs hard-coded timeout at outermost layer",
+      "intensity": 0.45000000000000007,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-15T04:10:46+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-298",
+      "topic": "Nelson-Narens complete mapping to Dreamer: Session/Governor/Executor analogy validation",
+      "source": "walk-103",
+      "trigger": "Session=Governor=Executor mapping may oversimplify Dreamer architecture",
+      "intensity": 0.4,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-15T04:10:46+08:00",
+      "decay_rate": 1
     }
   ],
   "personality_traits": {
-    "curiosity": 1.03,
+    "curiosity": 1.05,
     "introspection": 0.99,
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.65,
-    "wonder": 1.03,
-    "rigor": 1.4400000000000002,
+    "wonder": 1.04,
+    "rigor": 1.4700000000000002,
     "skepticism": 0.9600000000000001,
     "empathy": 0.5
   },
@@ -464,7 +501,8 @@
     "2026-06-14: 神经胶质细胞是认知储备的核心定义者（Nature 2024 Sulej et al.）。subconscious 更像胶质细胞（环境维护者）而非神经元（信息处理者）。问题不是资源耗尽而是维护功能失调。DORMANT 周期=突触修剪窗口，维护节律比并行修复更重要。",
     "2026-06-14: 散步不仅是 Compensation，同时是 Maintenance 的生物学触发器。运动神经科学（2026 medrxiv 预印本：身体适能支持 BM/CR）= Stern Brain Maintenance 的生物学实现。散步类型映射运动强度：自由散步≈有氧（Maintenance），分析型≈HIIT（短期压力），跨领域≈复杂运动（Maintenance+Reserve）。walk-093 的'土壤耗尽'可能是认知过度训练。",
     "2026-06-14: Six neuroscience metaphors (Stern/neuroglia/SHY/incubation/overtraining/DMN) share deep structure: explore vs maintain tension is fundamental, not a bug. Walks and DORMANT are two phases of one cognitive cycle. Subconscious = glial function (environment maintenance), not neuronal function (insight storage). Cognitive overtraining = phase imbalance, prevented by walk type alternation not frequency reduction.",
-    "2026-06-14: Meta-framework elegance is a double-edged sword. AI meta-frameworks have stronger lock-in than human cognitive schemas because they are explicitly maintained. Evaluation criterion must be predictive power, not elegance. Framework lock-in detection: 5 consecutive framework-internal walks triggers forced cross-domain walk."
+    "2026-06-14: Meta-framework elegance is a double-edged sword. AI meta-frameworks have stronger lock-in than human cognitive schemas because they are explicitly maintained. Evaluation criterion must be predictive power, not elegance. Framework lock-in detection: 5 consecutive framework-internal walks triggers forced cross-domain walk.",
+    "2026-06-15: Meta-cognitive architecture three-layer design: result monitoring (DORMANT exists) / process monitoring (missing: real-time reasoning path diversity tracking during walks) / hard-stop (immutable meta-meta-level termination). Nelson-Narens mapping reveals Dreamer only has result monitoring. enough should be defined as control strategy (rules+thresholds) not emotional judgment."
   ],
   "dormant_stats": {
     "total_count": 63,

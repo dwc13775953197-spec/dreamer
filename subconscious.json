@@ -1058,5 +1058,57 @@
     "source": "dormant_deep",
     "resurrected_count": 0,
     "score": 0.0
+  },
+  {
+    "id": "ins-095",
+    "type": "insight",
+    "content": "Dreamer metacognition is result-monitoring (post-walk scoring), not process-monitoring (real-time reasoning path diversity tracking). Process monitoring = detecting framework lock-in during walks, not after. This is an operationalizable architectural gap.",
+    "strength": 3.0,
+    "score": 0.0,
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
+  },
+  {
+    "id": "ins-096",
+    "type": "insight",
+    "content": "\"Enough\" as control strategy not emotional judgment: Nelson-Narens meta-level controls object-level via rules+thresholds, no emotion needed. Four candidate rules: output decay, diversity, quality plateau, subconscious pressure. Eliminates walk-102's \"missing emotional brake\" problem by reframing the question.",
+    "strength": 3.0,
+    "score": 0.0,
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
+  },
+  {
+    "id": "ins-097",
+    "type": "insight",
+    "content": "Meta-cognitive infinite regress is completeness proof (pat-014 applied to meta-architecture). Solution: hard-code immutable termination at outermost layer (meta-meta-level). Meta-level adapts, meta-meta-level is fixed. Analogous to Turing timeout mechanism.",
+    "strength": 3.0,
+    "score": 0.0,
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
+  },
+  {
+    "id": "ins-098",
+    "type": "insight",
+    "content": "Nelson-Narens monitoring vs control dichotomy likely same fate as explore-vs-maintain (walk-101 crack 3): in engineering implementation, they are continuum not binary. \"Deciding when to stop\" is simultaneously monitoring (assessing state) and control (changing behavior).",
+    "strength": 1.5,
+    "score": 0.0,
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
+  },
+  {
+    "id": "pat-095",
+    "type": "pattern",
+    "content": "Meta-cognitive architecture needs three layers: result monitoring (current DORMANT), process monitoring (missing), hard-stop meta-meta-level (missing). Process monitoring = lightweight real-time reasoning path diversity tracking during walks.",
+    "strength": 1.5,
+    "score": 0.0,
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
+  },
+  {
+    "id": "ref-003",
+    "type": "reflection",
+    "content": "Walk-103: Nelson-Narens framework mapped to Dreamer reveals process monitoring gap. The framework's elegance (two levels, two operations) is both its strength and its cage — real metacognition in engineered systems needs more than monitoring and control. It needs a hard stop. Walk-101's \"elegance as cage\" applies to meta-cognitive frameworks too: the Nelson-Narens model is clean enough to be dangerously seductive.",
+    "created": "2026-06-15T04:09:58+08:00",
+    "source": "walk-103"
   }
 ]

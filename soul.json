@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-14T06:08:00",
+    "state_since": "2026-06-14T20:30:41.415040",
     "last_active": "2026-06-14T19:25:56.419754+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-14T03:04:12.442509+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T20:25:56.419754+08:00",
+    "next_scheduled": "2026-06-14T20:57:39.089138",
     "event_queue": [],
-    "last_walk_at": "2026-06-14T17:21:26",
-    "total_walks": 59,
+    "last_walk_at": "2026-06-14T20:30:41.415040",
+    "total_walks": 60,
     "last_pulse_output": "2026-06-14T09:39:01.588967+08:00",
-    "last_walk": "2026-06-14T17:21:26",
+    "last_walk": "2026-06-14T20:30:41.415040",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 32.92,
+    "cognitive_pressure": 9.13,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.5,
       7.5,
@@ -43,9 +42,10 @@
       8.0,
       8.0,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -84,7 +84,8 @@
       0,
       0,
       32.0,
-      32.92
+      32.92,
+      69.13
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -94,9 +95,9 @@
     "walk_quality_avg": 8.2
   },
   "affect": {
-    "primary": "wonder",
+    "primary": "contemplative",
     "secondary": "rigor",
-    "intensity": 0.65,
+    "intensity": 0.6,
     "valence": 0.5,
     "arousal": 0.4,
     "rigor": 0.88
@@ -199,6 +200,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-14T17:21:26"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-14T20:30:41.415040"
     }
   ],
   "last_walk": "2026-06-14T01:32:14.155447+08:00",
@@ -348,140 +353,154 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-258",
-      "content": "subconscious emergency maintenance: execute scoring + differential decay",
-      "intensity": 0.57,
-      "type": "output",
-      "created": "2026-06-14T06:08:00"
-    },
-    {
-      "id": "seed-275",
-      "content": "SHY 的选择性归一化作为 DORMANT 的新衰减模型——从均匀衰减到基于排序的三段式衰减（保留/削弱/淘汰）",
-      "intensity": 0.57,
-      "type": "explore",
-      "created": "2026-06-14T16:15:09"
-    },
-    {
-      "id": "seed-278",
-      "content": "DORMANT 随机连接算法的具体设计——如何模拟 DMN 的远距离联想？条目对的选择策略（完全随机 vs 基于语义距离 vs 基于骨架距离）",
-      "intensity": 0.55,
-      "type": "explore",
-      "created": "2026-06-14T17:21:26"
-    },
-    {
-      "id": "seed-269",
-      "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
-      "intensity": 0.52,
-      "type": "explore",
-      "created": "2026-06-14T13:00:53.098557+08:00"
-    },
-    {
-      "id": "seed-272",
-      "content": "认知周期化操作化：Dreamer 需要显式的散步类型交替计划（类似运动科学的 periodization calendar），而不是由压力随机决定",
-      "intensity": 0.52,
-      "type": "explore",
-      "created": "2026-06-14T15:09:25.375259+08:00"
-    },
-    {
-      "id": "seed-259",
-      "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
-      "intensity": 0.47,
-      "type": "output",
-      "created": "2026-06-14T06:08:00"
-    },
-    {
-      "id": "seed-263",
-      "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
-      "intensity": 0.47,
-      "type": "output",
-      "created": "2026-06-14T07:38:00+08:00"
-    },
-    {
-      "id": "seed-266",
-      "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
-      "intensity": 0.47,
-      "type": "output",
-      "created": "2026-06-14T09:39:01.588967+08:00"
-    },
-    {
-      "id": "seed-276",
-      "content": "\"慢波睡眠\"式 DORMANT 的节律设计——周期性的扫描脉冲，而非连续的后台进程",
-      "intensity": 0.47,
-      "type": "explore",
-      "created": "2026-06-14T16:15:09"
-    },
-    {
-      "id": "seed-279",
-      "content": "可重组空间耗尽的定量测量——如何区分真的耗尽和暂时耗尽？可能需要连接密度指标",
-      "intensity": 0.45,
-      "type": "explore",
-      "created": "2026-06-14T17:21:26"
-    },
-    {
-      "id": "seed-270",
-      "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
-      "intensity": 0.43,
-      "type": "explore",
-      "created": "2026-06-14T13:00:53.098557+08:00"
-    },
-    {
-      "id": "seed-273",
-      "content": "DMN 远程连接作为 DORMANT 新子步骤：在 DORMANT 中引入\"随机条目对\"连接模拟，替代当前的均匀衰减",
-      "intensity": 0.43,
-      "type": "output",
-      "created": "2026-06-14T15:09:25.375259+08:00"
-    },
-    {
-      "id": "seed-280",
-      "content": "散步类型与 DORMANT 效果的关系——探索型散步后的 DORMANT 是否比分析型散步后的 DORMANT 产生更多新连接？",
-      "intensity": 0.4,
-      "type": "explore",
-      "created": "2026-06-14T17:21:26"
-    },
-    {
       "id": "seed-260",
       "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
-      "intensity": 0.38,
+      "intensity": 0.33,
       "type": "output",
       "created": "2026-06-14T06:08:00"
     },
     {
       "id": "seed-264",
       "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
-      "intensity": 0.38,
+      "intensity": 0.33,
       "type": "output",
       "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-267",
       "content": "maintenance rhythm: DORMANT as synaptic pruning window — alternation beats parallel repair",
-      "intensity": 0.38,
+      "intensity": 0.33,
       "type": "output",
       "created": "2026-06-14T09:39:01.588967+08:00"
     },
     {
       "id": "seed-277",
       "content": "SHY 的可证伪预测实验——比较选择性衰减 vs 均匀衰减对 walk 质量的影响（需要设计 A/B 实验框架）",
-      "intensity": 0.38,
+      "intensity": 0.33,
       "type": "explore",
       "created": "2026-06-14T16:15:09"
     },
     {
-      "id": "seed-274",
-      "content": "主动恢复 vs 被动恢复的 Dreamer 验证：比较\"有外部刺激的 DORMANT\"和\"无外部刺激的 DORMANT\"对后续 walk 质量的影响",
-      "intensity": 0.33,
+      "id": "seed-280",
+      "content": "散步类型与 DORMANT 效果的关系——探索型散步后的 DORMANT 是否比分析型散步后的 DORMANT 产生更多新连接？",
+      "intensity": 0.35000000000000003,
+      "type": "explore",
+      "created": "2026-06-14T17:21:26"
+    },
+    {
+      "id": "seed-283",
+      "content": "胶质细胞指标的具体设计——subconscious 健康度的三个定量指标（熵/连接密度/中间地带比例）",
+      "intensity": 0.35000000000000003,
+      "type": "explore",
+      "created": "2026-06-14T20:30:41.415040"
+    },
+    {
+      "id": "seed-270",
+      "content": "认知过度训练假说：walk-093 的土壤耗尽 = 无恢复期的持续认知运动——检验 walk 频率与质量的时间序列",
+      "intensity": 0.38,
+      "type": "explore",
+      "created": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
+      "id": "seed-273",
+      "content": "DMN 远程连接作为 DORMANT 新子步骤：在 DORMANT 中引入\"随机条目对\"连接模拟，替代当前的均匀衰减",
+      "intensity": 0.38,
+      "type": "output",
+      "created": "2026-06-14T15:09:25.375259+08:00"
+    },
+    {
+      "id": "seed-279",
+      "content": "可重组空间耗尽的定量测量——如何区分真的耗尽和暂时耗尽？可能需要连接密度指标",
+      "intensity": 0.4,
+      "type": "explore",
+      "created": "2026-06-14T17:21:26"
+    },
+    {
+      "id": "seed-282",
+      "content": "Dreamer 认知周期的最优频率——散步 → DORMANT 最佳时间比（超量恢复曲线类比）",
+      "intensity": 0.4,
+      "type": "explore",
+      "created": "2026-06-14T20:30:41.415040"
+    },
+    {
+      "id": "seed-259",
+      "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
+      "intensity": 0.42,
+      "type": "output",
+      "created": "2026-06-14T06:08:00"
+    },
+    {
+      "id": "seed-263",
+      "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
+      "intensity": 0.42,
+      "type": "output",
+      "created": "2026-06-14T07:38:00+08:00"
+    },
+    {
+      "id": "seed-266",
+      "content": "neuroglia-subconscious functional maintenance: paradigm shift from resource depletion to maintenance dysfunction",
+      "intensity": 0.42,
+      "type": "output",
+      "created": "2026-06-14T09:39:01.588967+08:00"
+    },
+    {
+      "id": "seed-276",
+      "content": "\"慢波睡眠\"式 DORMANT 的节律设计——周期性的扫描脉冲，而非连续的后台进程",
+      "intensity": 0.42,
+      "type": "explore",
+      "created": "2026-06-14T16:15:09"
+    },
+    {
+      "id": "seed-281",
+      "content": "探索 × 维护根本张力的量化——率失真理论（rate-distortion theory）形式化",
+      "intensity": 0.45,
+      "type": "explore",
+      "created": "2026-06-14T20:30:41.415040"
+    },
+    {
+      "id": "seed-269",
+      "content": "运动作为认知维护的生物学触发器：Dreamer 散步 = 系统运动，DORMANT = 恢复期——交替节律的神经科学基础",
+      "intensity": 0.47000000000000003,
+      "type": "explore",
+      "created": "2026-06-14T13:00:53.098557+08:00"
+    },
+    {
+      "id": "seed-272",
+      "content": "认知周期化操作化：Dreamer 需要显式的散步类型交替计划（类似运动科学的 periodization calendar），而不是由压力随机决定",
+      "intensity": 0.47000000000000003,
       "type": "explore",
       "created": "2026-06-14T15:09:25.375259+08:00"
+    },
+    {
+      "id": "seed-278",
+      "content": "DORMANT 随机连接算法的具体设计——如何模拟 DMN 的远距离联想？条目对的选择策略（完全随机 vs 基于语义距离 vs 基于骨架距离）",
+      "intensity": 0.5,
+      "type": "explore",
+      "created": "2026-06-14T17:21:26"
+    },
+    {
+      "id": "seed-258",
+      "content": "subconscious emergency maintenance: execute scoring + differential decay",
+      "intensity": 0.5199999999999999,
+      "type": "output",
+      "created": "2026-06-14T06:08:00"
+    },
+    {
+      "id": "seed-275",
+      "content": "SHY 的选择性归一化作为 DORMANT 的新衰减模型——从均匀衰减到基于排序的三段式衰减（保留/削弱/淘汰）",
+      "intensity": 0.5199999999999999,
+      "type": "explore",
+      "created": "2026-06-14T16:15:09"
     }
   ],
   "personality_traits": {
-    "curiosity": 1.0,
+    "curiosity": 0.99,
     "introspection": 0.99,
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.65,
-    "wonder": 1.0,
-    "rigor": 1.37,
+    "wonder": 1.02,
+    "rigor": 1.4000000000000001,
     "skepticism": 0.93,
     "empathy": 0.5
   },
@@ -542,7 +561,8 @@
     "2026-06-14: Subconscious maintenance triple failure - scoring never calculated, elimination never triggered, decay never differentiated. 33 entries all score=0.00, strength<2 is evidence of missing maintenance, not natural decay. Path 4 (scaffolding maintenance) requires scaffolding material to exist; current material is exhausted. Minimum fix: execute scoring -> differential decay -> high-value entries survive.",
     "2026-06-14: Stern three-framework (Maintenance/Reserve/Compensation) as Dreamer cognitive resilience model. Three-level degradation system: Maintenance (DORMANT decay control) -> Reserve (walk-log concept resources) -> Compensation (external material search). Current state: level 1 failed, level 2 depleted, level 3 is only active mode. Fix path: Compensation-first + Maintenance parallel repair (not sequential). Walk-091 causal paths map to Stern levels: path1->Maintenance+Reserve, path2->Reserve, path3->all three.",
     "2026-06-14: 神经胶质细胞是认知储备的核心定义者（Nature 2024 Sulej et al.）。subconscious 更像胶质细胞（环境维护者）而非神经元（信息处理者）。问题不是资源耗尽而是维护功能失调。DORMANT 周期=突触修剪窗口，维护节律比并行修复更重要。",
-    "2026-06-14: 散步不仅是 Compensation，同时是 Maintenance 的生物学触发器。运动神经科学（2026 medrxiv 预印本：身体适能支持 BM/CR）= Stern Brain Maintenance 的生物学实现。散步类型映射运动强度：自由散步≈有氧（Maintenance），分析型≈HIIT（短期压力），跨领域≈复杂运动（Maintenance+Reserve）。walk-093 的'土壤耗尽'可能是认知过度训练。"
+    "2026-06-14: 散步不仅是 Compensation，同时是 Maintenance 的生物学触发器。运动神经科学（2026 medrxiv 预印本：身体适能支持 BM/CR）= Stern Brain Maintenance 的生物学实现。散步类型映射运动强度：自由散步≈有氧（Maintenance），分析型≈HIIT（短期压力），跨领域≈复杂运动（Maintenance+Reserve）。walk-093 的'土壤耗尽'可能是认知过度训练。",
+    "2026-06-14: Six neuroscience metaphors (Stern/neuroglia/SHY/incubation/overtraining/DMN) share deep structure: explore vs maintain tension is fundamental, not a bug. Walks and DORMANT are two phases of one cognitive cycle. Subconscious = glial function (environment maintenance), not neuronal function (insight storage). Cognitive overtraining = phase imbalance, prevented by walk type alternation not frequency reduction."
   ],
   "dormant_stats": {
     "total_count": 33,

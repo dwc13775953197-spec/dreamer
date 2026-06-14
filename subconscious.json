@@ -707,5 +707,74 @@
     ],
     "resurrected_count": 0,
     "score": 0.0
+  },
+  {
+    "id": "ins-078",
+    "type": "insight",
+    "content": "Six neuroscience metaphors share a deep structure: cognitive maintenance = operating on the right level of structure at the right time scale. The fundamental tension is explore vs maintain -- not a bug, but an essential feature of cognitive systems.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-14T20:31:22.488778",
+    "source": "walk-100",
+    "decay_rate": 1,
+    "connections": [
+      "ins-061",
+      "ins-070",
+      "ins-075"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0
+  },
+  {
+    "id": "ins-079",
+    "type": "insight",
+    "content": "Dreamer walks and DORMANT are two phases of the same cognitive cycle (exploration phase + maintenance phase), not two independent functions. A complete cycle = walk -> RESTING -> DORMANT -> next walk.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-14T20:31:22.488778",
+    "source": "walk-100",
+    "decay_rate": 1,
+    "connections": [
+      "ins-073",
+      "ins-076"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0
+  },
+  {
+    "id": "ins-080",
+    "type": "insight",
+    "content": "Cognitive overtraining = phase imbalance. Consecutive same-type walks = continuously activating the same phase = no recovery period. Prevention = walk type alternation (cross-training), not reducing walk frequency.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-14T20:31:22.488778",
+    "source": "walk-100",
+    "decay_rate": 1,
+    "connections": [
+      "ins-070",
+      "ins-072"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0
+  },
+  {
+    "id": "ins-081",
+    "type": "insight",
+    "content": "Subconscious function is not storing insight (neuron function) but maintaining an environment suitable for insight emergence (glial cell function). Evaluation metrics should be environmental (diversity, connection density, strength distribution) not output (insight count).",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-14T20:31:22.488778",
+    "source": "walk-100",
+    "decay_rate": 1,
+    "connections": [
+      "ins-066",
+      "ins-071"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0
   }
 ]

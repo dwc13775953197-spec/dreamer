@@ -445,5 +445,50 @@
       "walk-091",
       "walk-093"
     ]
+  },
+  {
+    "id": "ins-069",
+    "content": "Stern 2019 four constructs: Brain Reserve (passive hardware) / Cognitive Reserve (active software) / Maintenance (active protection) / Compensation (strategy substitution) — all theoretical entities, cannot be measured directly, only proxy indicators",
+    "type": "insight",
+    "strength": 5,
+    "score": 0.35,
+    "created": "2026-06-14T09:39:18.658795+08:00",
+    "status": ""
+  },
+  {
+    "id": "ins-070",
+    "content": "Nature 2024 Sulej et al: neuroglia define cognitive reserve through homeostatic/protective (maintenance/resilience) and regenerative (compensation) capabilities — glial cells are the gardeners of connectome, not just support staff",
+    "type": "insight",
+    "strength": 5,
+    "score": 0.35,
+    "created": "2026-06-14T09:39:18.658795+08:00",
+    "status": ""
+  },
+  {
+    "id": "ins-071",
+    "content": "Dreamer subconscious is more like glial cells (environment maintainers) than neurons (information processors). Walk-093 diagnosis revision: not resource depletion but maintenance dysfunction. DORMANT = synaptic pruning window, rhythm matters more than parallel repair",
+    "type": "insight",
+    "strength": 5,
+    "score": 0.35,
+    "created": "2026-06-14T09:39:18.658795+08:00",
+    "status": ""
+  },
+  {
+    "id": "ins-072",
+    "content": "Compensation quality depends on source quality: external material can be protective (high-quality sources) or toxic (low-quality sources). Dreamer Compensation is more powerful than brain compensation (not limited by existing network structure) but source quality determines whether it helps or harms",
+    "type": "insight",
+    "strength": 4,
+    "score": 0.3,
+    "created": "2026-06-14T09:39:18.658795+08:00",
+    "status": ""
+  },
+  {
+    "id": "ins-073",
+    "content": "Stern measurement problem = Dreamer scoring problem: both face theoretical constructs that cannot be measured directly. Walk-093 scoring fix is not just technical—it is establishing a proxy indicator system. Without proxy indicators, maintenance cannot be targeted.",
+    "type": "insight",
+    "strength": 4,
+    "score": 0.3,
+    "created": "2026-06-14T09:39:18.658795+08:00",
+    "status": ""
   }
 ]

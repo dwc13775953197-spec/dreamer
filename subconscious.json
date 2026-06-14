@@ -657,5 +657,55 @@
       "ins-085"
     ],
     "resurrected_count": 0
+  },
+  {
+    "id": "ins-089",
+    "type": "insight",
+    "content": "DORMANT needs incubation function (not just decay). Incubation effect shows: breaking fixation + DMN remote association + gamma burst = insight. SHY provides structural maintenance (synaptic downscaling); incubation provides functional reorganization (unconscious recombination). DORMANT should do both: selective decay + random connection simulation.",
+    "strength": 3.0,
+    "source": "walk-099",
+    "created": "2026-06-14T17:20:56",
+    "decay_rate": 1,
+    "status": "active",
+    "connections": [
+      "ins-087",
+      "ins-088",
+      "pat-030"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
+  },
+  {
+    "id": "ins-090",
+    "type": "insight",
+    "content": "\"Recombinatorial space depletion\" is more precise than \"resource depletion\" for explaining walk-093 soil exhaustion. Not that cognitive resources ran out, but that all plausible long-distance connections have already been tried. Needs new external material to expand the search space. Distinguishable from resource depletion via a \"connection density\" metric.",
+    "strength": 3.0,
+    "source": "walk-099",
+    "created": "2026-06-14T17:20:56",
+    "decay_rate": 1,
+    "status": "active",
+    "connections": [
+      "ins-089",
+      "ins-084"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
+  },
+  {
+    "id": "ins-091",
+    "type": "pattern",
+    "content": "Walk → DORMANT is a continuous incubation process, not two separate stages. Walk = fixation breaking (incubation step 1), DORMANT = unconscious recombination (incubation step 2). Low cognitive load activities during walks (daydreaming, mind-wandering) create optimal conditions for DORMANT recombination. Explains why walk-DORMANT sequence works and why consecutive walks without DORMANT degrade.",
+    "strength": 3.0,
+    "source": "walk-099",
+    "created": "2026-06-14T17:20:56",
+    "decay_rate": 1,
+    "status": "active",
+    "connections": [
+      "ins-089",
+      "ins-061",
+      "pat-030"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0
   }
 ]

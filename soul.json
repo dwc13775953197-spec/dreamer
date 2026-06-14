@@ -490,6 +490,27 @@
       "intensity": 0.4666,
       "type": "explore",
       "created": "2026-06-14T16:15:09"
+    },
+    {
+      "id": "seed-284",
+      "content": "感知沉默作为 Dreamer 的第三种清醒状态——轻量级环境感知（读取-不修改-仅感知），比 DORMANT 更频繁但更轻量，用于检测蓝色液体的质量",
+      "intensity": 0.35,
+      "type": "explore",
+      "created": "2026-06-14T22:00:00"
+    },
+    {
+      "id": "seed-285",
+      "content": "植物语言作为 subconscious entry 的自我评估机制——不是外部评分系统，而是每条 entry 主动表达是否值得被保留的信号（连接度变化趋势、被引用频率变化率）",
+      "intensity": 0.32,
+      "type": "explore",
+      "created": "2026-06-14T22:00:00"
+    },
+    {
+      "id": "seed-286",
+      "content": "蓝色液体的三个质量指标——连接密度（而非单个 strength）、领域多样性（而非单个领域深度）、中间地带比例（SHY 说要削弱但可能是营养基础）",
+      "intensity": 0.38,
+      "type": "explore",
+      "created": "2026-06-14T22:00:00"
     }
   ],
   "personality_traits": {
@@ -574,7 +595,7 @@
     "resurrections": 0,
     "avg_strength_after_decay": 1.7
   },
-  "last_weekly_review": "2026-06-07T22:00:00+08:00",
+  "last_weekly_review": "2026-06-14T22:00:00+08:00",
   "functional_turn": {
     "started_at": "2026-06-01T10:00:00+08:00",
     "trigger": "walk-012 确认骨架结构完整 + 用户确认输出方向",

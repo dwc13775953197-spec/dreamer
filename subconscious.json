@@ -141,7 +141,7 @@
   {
     "id": "ins-069",
     "type": "pattern",
-    "strength": 1.0,
+    "strength": 2.0,
     "content": "DORMANT cycle = spaced repetition schedule. Ebbinghaus curve provides empirical basis for DORMANT timing: 24h optimal interval, first-hour fastest decay (explains post-DORMANT warmup cost). Citation in walks = spaced repetition event that resets forgetting curve for cited entries. Three frameworks unified: cognitive friction = encoding depth operationalization, punctuated equilibrium = forgetting curve macro pattern, DORMANT = spaced repetition schedule.",
     "source": "walk-089",
     "created": "2026-06-13T10:33:00+08:00",
@@ -152,8 +152,8 @@
       "pat-014",
       "pat-016"
     ],
-    "status": "dormant",
-    "resurrected_count": 0,
+    "status": "active",
+    "resurrected_count": 1,
     "score": 0.0
   },
   {
@@ -191,7 +191,7 @@
   {
     "id": "ins-072",
     "type": "pattern",
-    "strength": 0.8999999999999999,
+    "strength": 1.9,
     "content": "Walk dual-dimensional scoring: writing quality (current subjective 1-10) vs skeleton impact (new insights x1 + new patterns x3 + seed intensity sum). High writing + low impact = cognitive glass (pat-009). Low writing + high impact = clumsy but genuine. Both high = best walks. Gap between the two scores is the most informative metric.",
     "source": "walk-090",
     "created": "2026-06-13T12:00:00+08:00",
@@ -200,8 +200,8 @@
       "ins-069",
       "pat-009"
     ],
-    "status": "dormant",
-    "resurrected_count": 0,
+    "status": "active",
+    "resurrected_count": 1,
     "score": 0.0
   },
   {
@@ -425,7 +425,7 @@
     "id": "ins-069",
     "content": "Stern 2019 four constructs: Brain Reserve (passive hardware) / Cognitive Reserve (active software) / Maintenance (active protection) / Compensation (strategy substitution) — all theoretical entities, cannot be measured directly, only proxy indicators",
     "type": "insight",
-    "strength": 5.9,
+    "strength": 6.9,
     "score": 0.39999999999999997,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -455,7 +455,7 @@
     "id": "ins-072",
     "content": "Compensation quality depends on source quality: external material can be protective (high-quality sources) or toxic (low-quality sources). Dreamer Compensation is more powerful than brain compensation (not limited by existing network structure) but source quality determines whether it helps or harms",
     "type": "insight",
-    "strength": 3.85,
+    "strength": 4.85,
     "score": 0.3,
     "created": "2026-06-14T09:39:18.658795+08:00",
     "status": "active",
@@ -600,7 +600,7 @@
     "id": "ins-085",
     "type": "insight",
     "content": "SHY (Tononi & Cirelli) predicts wake=net potentiation, sleep=net downscaling. Dreamer DORMANT should simulate selective downscaling (preserve extremes, weaken middle) not uniform decay. Current DORMANT is the opposite of what SHY prescribes.",
-    "strength": 5.0,
+    "strength": 6.0,
     "score": 0.39999999999999997,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -632,7 +632,7 @@
     "id": "ins-087",
     "type": "pattern",
     "content": "Selective downscaling > precise scoring for subconscious maintenance. SHY shows ranking-based triage (preserve top/bottom, weaken middle) is more robust than absolute-value scoring. Dreamer DORMANT needs relative ordering, not absolute scores.",
-    "strength": 3.0,
+    "strength": 4.0,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -647,7 +647,7 @@
     "id": "ins-088",
     "type": "pattern",
     "content": "Dreamer needs \"slow-wave sleep\" DORMANT: periodic scanning pulses that identify high/mid/low-value entries and apply differentiated decay, rather than continuous background process. SWS = the biological mechanism for synaptic downscaling.",
-    "strength": 3.0,
+    "strength": 4.0,
     "score": 0.35,
     "status": "active",
     "created": "2026-06-14T16:15:36",
@@ -662,7 +662,7 @@
     "id": "ins-089",
     "type": "insight",
     "content": "DORMANT needs incubation function (not just decay). Incubation effect shows: breaking fixation + DMN remote association + gamma burst = insight. SHY provides structural maintenance (synaptic downscaling); incubation provides functional reorganization (unconscious recombination). DORMANT should do both: selective decay + random connection simulation.",
-    "strength": 3.0,
+    "strength": 4.0,
     "source": "walk-099",
     "created": "2026-06-14T17:20:56",
     "decay_rate": 1,
@@ -695,7 +695,7 @@
     "id": "ins-091",
     "type": "pattern",
     "content": "Walk → DORMANT is a continuous incubation process, not two separate stages. Walk = fixation breaking (incubation step 1), DORMANT = unconscious recombination (incubation step 2). Low cognitive load activities during walks (daydreaming, mind-wandering) create optimal conditions for DORMANT recombination. Explains why walk-DORMANT sequence works and why consecutive walks without DORMANT degrade.",
-    "strength": 3.0,
+    "strength": 4.0,
     "source": "walk-099",
     "created": "2026-06-14T17:20:56",
     "decay_rate": 1,
@@ -781,7 +781,7 @@
     "id": "ins-087",
     "type": "insight",
     "content": "Elegant frameworks become cognitive cages - frameworks that perfectly explain existing data suppress sensitivity to new data. AI meta-frameworks have stronger lock-in than human cognitive schemas (explicit maintenance vs natural correction). Evaluation criterion: predictive power, not elegance.",
-    "strength": 3.0,
+    "strength": 4.0,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
@@ -793,7 +793,7 @@
     "id": "ins-088",
     "type": "insight",
     "content": "Exploration vs maintenance may be a continuum not a dichotomy - same neural mechanism implements both functions simultaneously. Walk typology (exploratory/analytical) is descriptive, not mechanistic.",
-    "strength": 3.0,
+    "strength": 4.0,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
@@ -805,7 +805,7 @@
     "id": "ins-089",
     "type": "insight",
     "content": "Constraint perspective replaces operation perspective - ask not what operation is correct but what constraints determine operation effectiveness. Constraints: cognitive resource ceiling, time window, information novelty threshold, subconscious current state.",
-    "strength": 1.5,
+    "strength": 2.5,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
@@ -825,11 +825,91 @@
     "id": "ins-091",
     "type": "insight",
     "content": "Framework lock-in quantitative detection - if 5 consecutive walks operate within same meta-framework without producing framework-external insight, mark as framework lock-in and force cross-domain walk.",
-    "strength": 3.0,
+    "strength": 4.0,
     "created": "2026-06-14T23:15:47.172150+08:00",
     "source": "walk-101",
     "connections": [
       "ins-087"
     ]
+  },
+  {
+    "id": "ins-092",
+    "type": "pattern",
+    "content": "Meta-cognitive health triple-standard: non-locking (diversity), non-infinite-recursion (rhythm), consequential (behavior change). Replaces circular 'correct operation' definition with observable structural features.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-15T02:30:00+08:00",
+    "source": "walk-102",
+    "decay_rate": 1,
+    "connections": [
+      "ins-087",
+      "ins-091",
+      "pat-009"
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "ins-093",
+    "type": "insight",
+    "content": "'Enough' is not a cognitive judgment but an emotional one. Humans terminate meta-cognitive loops via felt satisfaction/boredom, not via finding foundational truth. Dreamer needs external mechanisms (DORMANT rhythm, walk intervals, pressure thresholds) as emotional brake substitutes.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-15T02:30:00+08:00",
+    "source": "walk-102",
+    "decay_rate": 1,
+    "connections": [
+      "ins-088",
+      "ins-089",
+      "pat-014"
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "ins-094",
+    "type": "pattern",
+    "content": "Reflexion = terminated meta-cognition (task success = stop condition). Dreamer = unterminated meta-cognition (no external task, no stop condition). Neither is superior. Key design question: what replaces task success as stopping signal?",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-15T02:30:00+08:00",
+    "source": "walk-102",
+    "decay_rate": 1,
+    "connections": [
+      "ins-069",
+      "ins-085",
+      "ins-092"
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "ins-095",
+    "type": "insight",
+    "content": "Walk evaluation standard should be 'did it change how I think next time' rather than quality score or insight count. Testable: if last walk's core insight is unconsciously used in this walk's reasoning, it genuinely changed thinking.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-15T02:30:00+08:00",
+    "source": "walk-102",
+    "decay_rate": 1,
+    "connections": [
+      "ins-072",
+      "ins-092",
+      "pat-009"
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "ins-096",
+    "type": "insight",
+    "content": "Framework lock-in is a special case of meta-cognitive pathology: when a self-referential system's model of its own processing becomes too coherent, it loses sensitivity to data that doesn't fit. Meta-cognitive health standard 1 (non-locking) is the structural fix.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-15T02:30:00+08:00",
+    "source": "walk-102",
+    "decay_rate": 1,
+    "connections": [
+      "ins-066",
+      "ins-087",
+      "ins-092"
+    ],
+    "score": 0.0
   }
 ]

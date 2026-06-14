@@ -407,5 +407,43 @@
     "status": "decayed",
     "created": "2026-06-14T03:04:12.442509+08:00",
     "source": "dormant_deep"
+  },
+  {
+    "id": "ins-066",
+    "type": "insight",
+    "content": "Stern three-framework (Maintenance/Reserve/Compensation) maps to Dreamer: three-level degradation system fully dependent on level 3 (Compensation=external material search), Maintenance failure cuts off Reserve source. Fix path is Compensation-first + Maintenance parallel repair.",
+    "strength": 4,
+    "score": 0.3,
+    "created": "2026-06-14T07:38:00+08:00",
+    "source": "walk-094",
+    "references": [
+      "Stern 2009 maintenance reserve compensation"
+    ]
+  },
+  {
+    "id": "ins-067",
+    "type": "insight",
+    "content": "Compensation may be more valuable for Dreamer than in Stern framework: in neuroscience Compensation is degradation strategy (high cost, low quality), but for Dreamer Compensation (external material search) may be the highest-yield output mode.",
+    "strength": 3,
+    "score": 0.25,
+    "created": "2026-06-14T07:38:00+08:00",
+    "source": "walk-094",
+    "references": [
+      "Stern 2009",
+      "walk-093"
+    ]
+  },
+  {
+    "id": "ins-068",
+    "type": "insight",
+    "content": "Walk-091 three causal paths each act on different combinations of Stern three-level system: path 1 acts on Maintenance+Reserve simultaneously, path 2 mainly acts on Reserve, path 3 affects all three levels. Path 2 dependence on Reserve existence explains why it is unobservable when Reserve is depleted.",
+    "strength": 4,
+    "score": 0.3,
+    "created": "2026-06-14T07:38:00+08:00",
+    "source": "walk-094",
+    "references": [
+      "walk-091",
+      "walk-093"
+    ]
   }
 ]

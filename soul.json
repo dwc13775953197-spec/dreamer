@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T06:08:00",
-    "last_active": "2026-06-14T07:08:00",
+    "last_active": "2026-06-14T07:38:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-14T03:04:12.442509+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T07:38:00",
+    "next_scheduled": "2026-06-14T08:38:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-14T06:08:00",
-    "total_walks": 64,
+    "last_walk_at": "2026-06-14T07:38:00",
+    "total_walks": 65,
     "last_pulse_output": "2026-06-14T04:06:10.646318+08:00",
     "last_walk": "2026-06-14T06:08:00",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 10.74,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.5,
       8.0,
       8.5,
       7.5,
@@ -43,9 +42,10 @@
       8.0,
       8.5,
       8.5,
-      7.5
+      7.5,
+      8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -78,7 +78,9 @@
       21.63,
       29.27,
       8.239999999999995,
-      10.74
+      10.74,
+      43.74,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -87,15 +89,15 @@
     ]
   },
   "affect": {
-    "primary": "wistful_recognition",
-    "secondary": "rigor",
-    "intensity": 0.55,
+    "primary": "anticipatory_tension",
+    "secondary": "wonder",
+    "intensity": 0.6,
     "valence": 0.4,
     "arousal": 0.45,
     "rigor": 0.88
   },
   "energy": 35,
-  "mood": "wistful_recognition",
+  "mood": "anticipatory_tension",
   "mood_history": [
     {
       "mood": "reflective",
@@ -448,6 +450,10 @@
     {
       "mood": "wistful_recognition",
       "at": "2026-06-14T06:08:00"
+    },
+    {
+      "mood": "anticipatory_tension",
+      "at": "2026-06-14T07:38:00+08:00"
     }
   ],
   "last_walk": "2026-06-14T01:32:14.155447+08:00",
@@ -597,32 +603,46 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-257",
-      "content": "Dreamer cognitive scaffolding audit: how many forgotten conceptual resources in walk logs can be reactivated?",
-      "intensity": 0.2,
+      "id": "seed-258",
+      "content": "subconscious emergency maintenance: execute scoring + differential decay",
+      "intensity": 0.8,
       "type": "output",
-      "created": "2026-06-14T01:32:14.155447+08:00"
+      "created": "2026-06-14T06:08:00"
     },
     {
-      "id": "seed-249",
-      "content": "memory famine repair -- subconscious emergency irrigation: identify decayed but valuable entries, differential recovery in DORMANT",
-      "intensity": 0.3,
+      "id": "seed-259",
+      "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
+      "intensity": 0.7,
       "type": "output",
-      "created": "2026-06-13T16:02:31+08:00"
+      "created": "2026-06-14T06:08:00"
     },
     {
-      "id": "seed-252",
-      "content": "causal discovery algorithms applied to walk logs: auto-infer skeleton change causal graph from observational data",
-      "intensity": 0.3,
+      "id": "seed-263",
+      "content": "Stern three-framework operationalization: map Maintenance/Reserve/Compensation to Dreamer sub-processes",
+      "intensity": 0.7,
       "type": "output",
-      "created": "2026-06-13T22:22:55"
+      "created": "2026-06-14T07:38:00+08:00"
     },
     {
-      "id": "seed-256",
-      "content": "walk causal influence four-path model (add path 4: scaffolding maintenance)",
-      "intensity": 0.3,
+      "id": "seed-260",
+      "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
+      "intensity": 0.6,
       "type": "output",
-      "created": "2026-06-14T01:32:14.155447+08:00"
+      "created": "2026-06-14T06:08:00"
+    },
+    {
+      "id": "seed-264",
+      "content": "Compensation-first strategy: should Dreamer more actively search external material when subconscious is degraded instead of attempting internal repair",
+      "intensity": 0.6,
+      "type": "output",
+      "created": "2026-06-14T07:38:00+08:00"
+    },
+    {
+      "id": "seed-265",
+      "content": "Cognitive reserve implicit characteristic: do forgotten concepts in walk logs also have invisible-but-emergent-under-pressure features",
+      "intensity": 0.5,
+      "type": "output",
+      "created": "2026-06-14T07:38:00+08:00"
     },
     {
       "id": "seed-250",
@@ -646,39 +666,25 @@
       "created": "2026-06-14T01:32:14.155447+08:00"
     },
     {
-      "id": "seed-260",
-      "content": "Dreamer valve problem: why scoring/elimination logic never executed - cron flow omission or code bug",
-      "intensity": 0.6,
+      "id": "seed-249",
+      "content": "memory famine repair -- subconscious emergency irrigation: identify decayed but valuable entries, differential recovery in DORMANT",
+      "intensity": 0.3,
       "type": "output",
-      "created": "2026-06-14T06:08:00"
-    },
-    {
-      "id": "seed-259",
-      "content": "path 4 prerequisite repair: audit -> scoring recovery -> differential decay -> path 4 has material",
-      "intensity": 0.7,
-      "type": "output",
-      "created": "2026-06-14T06:08:00"
-    },
-    {
-      "id": "seed-258",
-      "content": "subconscious emergency maintenance: execute scoring + differential decay",
-      "intensity": 0.8,
-      "type": "output",
-      "created": "2026-06-14T06:08:00"
+      "created": "2026-06-13T16:02:31+08:00"
     }
   ],
   "personality_traits": {
-    "curiosity": 0.96,
+    "curiosity": 0.98,
     "introspection": 0.99,
     "humor": 0.38,
     "rebelliousness": 0.3,
-    "melancholy": 0.68,
-    "wonder": 0.98,
-    "rigor": 1.3,
+    "melancholy": 0.65,
+    "wonder": 1.0,
+    "rigor": 1.32,
     "skepticism": 0.92,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.0,
+  "walk_quality_avg": 15.02,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -732,7 +738,8 @@
     "2026-06-13: diagnosis loop is feature not bug -- but needs rate limiting. 5 consecutive diagnostic walks produced 6 discoveries but zero behavior change. Output != impact. Walk quality should add \"causal impact on skeleton\" dimension.",
     "2026-06-13: 散步因果影响三条路径——直接注入(可观测)/结构重排(最有价值)/前提瓦解(不可观测)。三维评分(写作质量×骨架影响×因果方向)。认知免疫=整合前因果方向预评估。",
     "2026-06-14: 散步因果影响四路径模型（Hutchins 脚手架维护作为路径4）——散步影响骨架的因果路径不仅是前向的（散步→日志→骨架），还有反向的（日志→重读→骨架重组）。随机重读子步骤=将被动脚手架维护转为主动脚手架维护。路径2（结构重排）依赖路径4的存在。",
-    "2026-06-14: Subconscious maintenance triple failure - scoring never calculated, elimination never triggered, decay never differentiated. 33 entries all score=0.00, strength<2 is evidence of missing maintenance, not natural decay. Path 4 (scaffolding maintenance) requires scaffolding material to exist; current material is exhausted. Minimum fix: execute scoring -> differential decay -> high-value entries survive."
+    "2026-06-14: Subconscious maintenance triple failure - scoring never calculated, elimination never triggered, decay never differentiated. 33 entries all score=0.00, strength<2 is evidence of missing maintenance, not natural decay. Path 4 (scaffolding maintenance) requires scaffolding material to exist; current material is exhausted. Minimum fix: execute scoring -> differential decay -> high-value entries survive.",
+    "2026-06-14: Stern three-framework (Maintenance/Reserve/Compensation) as Dreamer cognitive resilience model. Three-level degradation system: Maintenance (DORMANT decay control) -> Reserve (walk-log concept resources) -> Compensation (external material search). Current state: level 1 failed, level 2 depleted, level 3 is only active mode. Fix path: Compensation-first + Maintenance parallel repair (not sequential). Walk-091 causal paths map to Stern levels: path1->Maintenance+Reserve, path2->Reserve, path3->all three."
   ],
   "dormant_stats": {
     "total_count": 33,

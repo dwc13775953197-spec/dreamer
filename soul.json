@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T06:08:00",
-    "last_active": "2026-06-14T17:21:26",
+    "last_active": "2026-06-14T19:25:56.419754+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-14T03:04:12.442509+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-14T18:51:26",
+    "next_scheduled": "2026-06-14T20:25:56.419754+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-14T17:21:26",
     "total_walks": 59,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-14T17:21:26",
     "last_push_at": "2026-06-13T04:07:43+0800",
     "last_push_topic": "Dreamer 认知循环 = Holling 适应性循环 + 生态记忆双维度",
-    "cognitive_pressure": 32.0,
+    "cognitive_pressure": 32.92,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -55,9 +55,6 @@
       0.533
     ],
     "pressure_history": [
-      33.6,
-      0,
-      17.2,
       0,
       2.6,
       0.0,
@@ -86,7 +83,8 @@
       66.07,
       0,
       0,
-      32.0
+      32.0,
+      32.92
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

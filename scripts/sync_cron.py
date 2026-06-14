@@ -12,7 +12,7 @@ Dreamer Cron 同步脚本
   - Dreamer 仓库是 cron 配置的单一来源（single source of truth）
   - Hermes 的 ~/.hermes/cron/jobs.json 是运行时配置
   - 每次 Dreamer cron 任务修改 jobs.json 后，运行此脚本同步
-  - 同步后自动 git commit Dreamer 仓库中的变更
+  - 同步后自动 git commit Dreamer 仓库中的所有变更（不仅是 jobs.json）
 """
 
 import json
@@ -49,26 +49,27 @@ def sync():
     print(f"Synced: {DREAMER_CRON} -> {HERMES_CRON}")
     print(f"Jobs: {len(data.get('jobs', []))}")
 
-    # 检查变更并 git commit
+    # 检查 Dreamer 仓库是否有任何变更（不限于 jobs.json）
     try:
         result = subprocess.run(
-            ["git", "diff", "--quiet", str(DREAMER_CRON)],
+            ["git", "status", "--porcelain"],
             cwd=str(DREAMER_DIR),
             capture_output=True,
+            text=True,
         )
-        if result.returncode != 0:
-            # 有变更，commit
+        if result.stdout.strip():
+            # 有变更，commit 所有
             subprocess.run(
-                ["git", "add", "cron/jobs.json"],
+                ["git", "add", "-A"],
                 cwd=str(DREAMER_DIR),
                 check=True,
             )
             subprocess.run(
-                ["git", "commit", "-m", "chore: sync cron config update"],
+                ["git", "commit", "-m", "chore: sync all changes"],
                 cwd=str(DREAMER_DIR),
                 check=True,
             )
-            print("Committed cron changes to Dreamer repo")
+            print("Committed all changes to Dreamer repo")
         else:
             print("No changes to commit")
     except subprocess.CalledProcessError as e:

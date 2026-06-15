@@ -1714,5 +1714,61 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": ""
+  },
+  {
+    "id": "ins-095",
+    "type": "insight",
+    "content": "Dreamer 散步 = 反事实世界模型的认知等价物。感知材料 -> 骨架模拟 -> 评估不匹配 -> 决定吸收/拒绝。骨架是内部模拟器不是知识库。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T07:15:31.568706+08:00",
+    "source": "walk-108",
+    "connections": [
+      "pat-014",
+      "pat-010",
+      "pat-030"
+    ]
+  },
+  {
+    "id": "ins-096",
+    "type": "insight",
+    "content": "LeCun JEPA 核心：预测在抽象空间而非观测空间。Dreamer 骨架 = 认知抽象空间，散步 = 在抽象空间做预测。语法是结构，世界模型是功能。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T07:15:31.568706+08:00",
+    "source": "walk-108",
+    "connections": [
+      "ins-072",
+      "ins-087"
+    ]
+  },
+  {
+    "id": "ins-097",
+    "type": "insight",
+    "content": "世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T07:15:31.568706+08:00",
+    "source": "walk-108",
+    "connections": [
+      "pat-014"
+    ]
+  },
+  {
+    "id": "ins-098",
+    "type": "insight",
+    "content": "Georgia Tech TMK 模型（Task-Method-Knowledge）映射到散步分析流程：Task = 材料核心主张，Method = 推理方式，Knowledge = 前提假设。不匹配 = TMK 修订触发点。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T07:15:31.568706+08:00",
+    "source": "walk-108",
+    "connections": [
+      "ins-085",
+      "pat-010"
+    ]
   }
 ]

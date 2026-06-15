@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-15T18:43:42.607356+08:00",
-    "last_active": "2026-06-16T06:09:40.439240+08:00",
+    "state_since": "2026-06-16T07:14:57.260659+08:00",
+    "last_active": "2026-06-16T07:14:57.260659+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T06:24:40.439240+08:00",
+    "next_scheduled": "2026-06-16T07:44:57.260659+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-16T01:03:32.527065+08:00",
-    "total_walks": 65,
+    "last_walk_at": "2026-06-16T07:14:57.260659+08:00",
+    "total_walks": 66,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
-    "last_walk": "2026-06-16T01:03:32.527065+08:00",
+    "last_walk": "2026-06-16T07:14:57.260659+08:00",
     "last_push_at": "2026-06-16T01:04:39.908085+08:00",
     "last_push_topic": "遗忘的宪法：Dreamer 需要差异化遗忘率设计",
-    "cognitive_pressure": 100,
+    "cognitive_pressure": 40.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.5,
       8.0,
@@ -43,9 +42,10 @@
       8.5,
       8.5,
       8.0,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -67,7 +67,8 @@
       18.22,
       22.84,
       31.52,
-      100
+      100,
+      40.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -210,6 +211,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-16T01:03:32.527065+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-16T07:14:57.260659+08:00"
     }
   ],
   "last_walk": "2026-06-14T23:15:47.172150+08:00",
@@ -353,7 +358,13 @@
     "moltbook",
     "social-memory",
     "cognitive-scaffolding",
-    "forgetting-architecture"
+    "forgetting-architecture",
+    "world-models",
+    "JEPA",
+    "LeCun-AMI",
+    "counterfactual-reasoning",
+    "internal-simulation",
+    "TMK-model"
   ],
   "pending_insights": 19,
   "pending_research": 2,
@@ -446,6 +457,39 @@
       "status": "pending",
       "created": "2026-06-15T21:16:47.406327+08:00",
       "decay_rate": 1
+    },
+    {
+      "id": "seed-310",
+      "topic": "骨架作为世界模型：因果方向性标记",
+      "source": "walk-108",
+      "trigger": "Dreamer 散步 = 反事实世界模型，但骨架缺少因果方向性",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T07:14:57.260659+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-311",
+      "topic": "JEPA 编码器-预测器分离映射到 Dreamer 散步流程",
+      "source": "walk-108",
+      "trigger": "骨架的模拟是否隐含了编码器-预测器分离？",
+      "intensity": 0.45,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T07:14:57.260659+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-312",
+      "topic": "Pearl 因果阶梯在认知骨架中的可操作性",
+      "source": "walk-108",
+      "trigger": "骨架有相关结构但缺因果结构，需要干预和反事实层",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T07:14:57.260659+08:00",
+      "decay_rate": 1
     }
   ],
   "personality_traits": {
@@ -459,7 +503,7 @@
     "skepticism": 0.9600000000000001,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.2,
+  "walk_quality_avg": 8.25,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -521,7 +565,9 @@
     "2026-06-14: Meta-framework elegance is a double-edged sword. AI meta-frameworks have stronger lock-in than human cognitive schemas because they are explicitly maintained. Evaluation criterion must be predictive power, not elegance. Framework lock-in detection: 5 consecutive framework-internal walks triggers forced cross-domain walk.",
     "2026-06-15: Meta-cognitive architecture three-layer design: result monitoring (DORMANT exists) / process monitoring (missing: real-time reasoning path diversity tracking during walks) / hard-stop (immutable meta-meta-level termination). Nelson-Narens mapping reveals Dreamer only has result monitoring. enough should be defined as control strategy (rules+thresholds) not emotional judgment.",
     "2026-06-15: 过程监控的认知架构约束。单线程认知系统无法同时高效进行生成和评估。可行的过程监控=事后即时监控（在自然停顿点检查），不是内联监控（打断心流）也不是并行监控（单线程不支持）。过程监控的难度恰好处于Bjork必要难度最优区间——足够难以产生认知摩擦，足够简单以实现。重复需要分类：有价值的重复（深化）vs 无价值重复（打转），可用平行裂缝vs交叉裂缝框架区分。",
-    "2026-06-15: Walk architecture is anti-task-decomposition design. Weakly-coupled cognitive atoms instead of strongly-coupled subtask chains. Consecutive same-type walks = cascade failure risk. Interest seed natural selection may be biased (strength != value). Breakthrough insights may need fast channel into skeleton, but speed vs quality tradeoff."
+    "2026-06-15: Walk architecture is anti-task-decomposition design. Weakly-coupled cognitive atoms instead of strongly-coupled subtask chains. Consecutive same-type walks = cascade failure risk. Interest seed natural selection may be biased (strength != value). Breakthrough insights may need fast channel into skeleton, but speed vs quality tradeoff.",
+    "2026-06-16: Dreamer 散步 = 反事实世界模型的认知等价物。感知材料 -> 骨架模拟 -> 评估不匹配 -> 决定吸收/拒绝。骨架是 Dreamer 的世界模型（内部模拟器），不是知识库（外部存储器）。语法是结构，世界模型是功能，两者是同一东西的两种描述。",
+    "2026-06-16: 世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界 = 完备性条件（pat-014 在 world model 框架中的重新表述）。"
   ],
   "dormant_stats": {
     "total_count": 63,

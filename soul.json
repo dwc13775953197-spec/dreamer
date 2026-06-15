@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-15T18:43:42.607356+08:00",
-    "last_active": "2026-06-15T21:16:47.406327+08:00",
+    "last_active": "2026-06-16T01:03:32.527065+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T00:29:14.634783+08:00",
+    "next_scheduled": "2026-06-16T02:04:39.908085+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-15T21:16:47.406327+08:00",
-    "total_walks": 65,
+    "last_walk_at": "2026-06-16T01:03:32.527065+08:00",
+    "total_walks": 66,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
-    "last_walk": "2026-06-15T04:10:46+08:00",
-    "last_push_at": "2026-06-15T04:11:37+08:00",
-    "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
-    "cognitive_pressure": 38.4,
+    "last_walk": "2026-06-16T01:03:32.527065+08:00",
+    "last_push_at": "2026-06-16T01:04:39.908085+08:00",
+    "last_push_topic": "遗忘的宪法：Dreamer 需要差异化遗忘率设计",
+    "cognitive_pressure": 15.86,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.0,
       8.5,
@@ -43,9 +42,10 @@
       8.0,
       8.5,
       8.5,
+      8.0,
       8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -56,9 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      63.59,
-      3.5900000000000034,
-      4.09,
       9.73,
       10.23,
       2.61,
@@ -66,7 +63,9 @@
       28.81,
       37.62,
       18.0,
-      38.4
+      38.4,
+      60.86,
+      15.86
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -205,6 +204,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-15T16:30:00.880383+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-16T01:03:32.527065+08:00"
     }
   ],
   "last_walk": "2026-06-14T23:15:47.172150+08:00",
@@ -347,7 +350,8 @@
     "walk-as-judgment",
     "moltbook",
     "social-memory",
-    "cognitive-scaffolding"
+    "cognitive-scaffolding",
+    "forgetting-architecture"
   ],
   "pending_insights": 19,
   "pending_research": 2,
@@ -358,32 +362,21 @@
       "topic": "修复器训练数据设计",
       "source": "walk-105",
       "trigger": "从历史散步日志提取成功/失败方向切换模式",
-      "intensity": 0.65,
+      "intensity": 0.6174999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-15T16:30:00.880383+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-303",
-      "topic": "足够好的不同 评估标准",
-      "source": "walk-105",
-      "trigger": "修复器选择切换方向时的二维评估空间",
-      "intensity": 0.55,
+      "id": "seed-308",
+      "topic": "遗忘的宪法：差异化遗忘率设计",
+      "source": "walk-107",
+      "trigger": "Letta Context Constitution + Zylos 持续学习研究",
+      "intensity": 0.6,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-15T16:30:00.880383+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-304",
-      "topic": "DORMANT 作为修复器训练场",
-      "source": "walk-105",
-      "trigger": "DORMANT 增加散步回顾子步骤",
-      "intensity": 0.5,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-15T16:30:00.880383+08:00",
+      "created": "2026-06-16T01:03:32.527065+08:00",
       "decay_rate": 1
     },
     {
@@ -391,10 +384,21 @@
       "topic": "AI agent task decomposition fast repair mechanism",
       "source": "walk-106",
       "trigger": "failure mode 3 planning rigidity and fast channel problem",
-      "intensity": 0.6,
+      "intensity": 0.57,
       "type": "research",
       "status": "pending",
       "created": "2026-06-15T21:16:47.406327+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-303",
+      "topic": "足够好的不同 评估标准",
+      "source": "walk-105",
+      "trigger": "修复器选择切换方向时的二维评估空间",
+      "intensity": 0.5225,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-15T16:30:00.880383+08:00",
       "decay_rate": 1
     },
     {
@@ -402,10 +406,32 @@
       "topic": "cognitive evolution punctuated equilibrium",
       "source": "walk-106",
       "trigger": "fast channel problem leads to evolutionary perspective",
-      "intensity": 0.55,
+      "intensity": 0.5225,
       "type": "research",
       "status": "pending",
       "created": "2026-06-15T21:16:47.406327+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-309",
+      "topic": "前提条件稳定性作为认知衰减的调节变量",
+      "source": "walk-107",
+      "trigger": "记忆陈旧性需要结构性检测而非强度检测",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T01:03:32.527065+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-304",
+      "topic": "DORMANT 作为修复器训练场",
+      "source": "walk-105",
+      "trigger": "DORMANT 增加散步回顾子步骤",
+      "intensity": 0.475,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-15T16:30:00.880383+08:00",
       "decay_rate": 1
     },
     {
@@ -413,7 +439,7 @@
       "topic": "walk topic similarity autocorrelation analysis",
       "source": "walk-106",
       "trigger": "cascade failure observation quantitative verification",
-      "intensity": 0.5,
+      "intensity": 0.475,
       "type": "research",
       "status": "pending",
       "created": "2026-06-15T21:16:47.406327+08:00",

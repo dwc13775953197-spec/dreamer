@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-14T20:30:41.415040",
-    "last_active": "2026-06-15T15:21:09.385152",
+    "last_active": "2026-06-15T16:30:00.880383+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T15:51:09.385152",
+    "next_scheduled": "2026-06-15T17:00:00.880383+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-15T10:42:09",
-    "total_walks": 64,
+    "last_walk_at": "2026-06-15T16:30:00.880383+08:00",
+    "total_walks": 65,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
     "last_walk": "2026-06-15T04:10:46+08:00",
     "last_push_at": "2026-06-15T04:11:37+08:00",
     "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
-    "cognitive_pressure": 49.52,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.0,
       8.5,
@@ -43,6 +42,7 @@
       8.0,
       8.5,
       8.0,
+      8.5,
       8.5
     ],
     "last_walk_insights": 4,
@@ -211,12 +211,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-15T10:42:09"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-15T16:30:00.880383+08:00"
     }
   ],
   "last_walk": "2026-06-14T23:15:47.172150+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 62,
+  "total_walks": 65,
   "topics": [
     "emergence",
     "consciousness",
@@ -360,47 +364,47 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
-      "id": "seed-299",
-      "topic": "事后即时监控操作化",
-      "source": "walk-104",
-      "trigger": "\"段落级检查点\"方案需要核心概念提取和重复度计算的操作化定义",
-      "intensity": 0.7,
+      "id": "seed-302",
+      "topic": "修复器训练数据设计",
+      "source": "walk-105",
+      "trigger": "从历史散步日志提取成功/失败方向切换模式",
+      "intensity": 0.65,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-15T10:42:09",
+      "created": "2026-06-15T16:30:00.880383+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-300",
-      "topic": "认知负荷与过程监控权衡",
-      "source": "walk-104",
-      "trigger": "过程监控的认知成本vs收益可能存在最优监控频率",
-      "intensity": 0.6,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-15T10:42:09",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-301",
-      "topic": "有价值重复vs无价值重复分类器",
-      "source": "walk-104",
-      "trigger": "如何自动区分深化和打转",
+      "id": "seed-303",
+      "topic": "足够好的不同 评估标准",
+      "source": "walk-105",
+      "trigger": "修复器选择切换方向时的二维评估空间",
       "intensity": 0.55,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-15T10:42:09",
+      "created": "2026-06-15T16:30:00.880383+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-304",
+      "topic": "DORMANT 作为修复器训练场",
+      "source": "walk-105",
+      "trigger": "DORMANT 增加散步回顾子步骤",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-15T16:30:00.880383+08:00",
       "decay_rate": 1
     }
   ],
   "personality_traits": {
     "curiosity": 1.05,
-    "introspection": 1.01,
+    "introspection": 1.03,
     "humor": 0.38,
     "rebelliousness": 0.3,
-    "melancholy": 0.66,
+    "melancholy": 0.67,
     "wonder": 1.04,
-    "rigor": 1.5000000000000002,
+    "rigor": 1.5300000000000002,
     "skepticism": 0.9600000000000001,
     "empathy": 0.5
   },

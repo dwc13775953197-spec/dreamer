@@ -1213,5 +1213,57 @@
       "failure-modes",
       "ibm"
     ]
+  },
+  {
+    "id": "ins-085",
+    "type": "insight",
+    "content": "Process monitoring repairer needs procedural knowledge (knowing how to switch direction), not declarative knowledge (knowing whether repetition occurred). Detection is declarative, repair is procedural.",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-15T16:29:32.377452+08:00",
+    "source": "walk-105",
+    "references": [
+      "ins-080",
+      "pat-014"
+    ]
+  },
+  {
+    "id": "ins-086",
+    "type": "insight",
+    "content": "Repairer should run in DORMANT (not during walks) because generation > comparison in cognitive cost. DORMANT reviews recent walk logs, extracts successful/failed direction switch patterns, encodes as procedural rules.",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-15T16:29:32.377452+08:00",
+    "source": "walk-105",
+    "references": [
+      "ins-085"
+    ]
+  },
+  {
+    "id": "ins-087",
+    "type": "insight",
+    "content": "Repairer goal is 'sufficiently good different' not 'optimal.' Santa Fe metacognitive illusion accommodation strategy maps to repairer design: 'different' alone breaks repetition cycle. 'Optimal' = declarative goal, 'different' = procedural goal.",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-15T16:29:32.377452+08:00",
+    "source": "walk-105",
+    "references": [
+      "ins-085",
+      "ins-086"
+    ]
+  },
+  {
+    "id": "ins-088",
+    "type": "insight",
+    "content": "Nelson-Narens hidden assumption: meta-level needs procedural knowledge ('what is good object-level behavior'). Dreamer DORMANT only has declarative models (insights/patterns), lacking procedural models ('how to cognize' knowledge). Dual absence: detector (declarative) + repairer (procedural).",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-15T16:29:32.377452+08:00",
+    "source": "walk-105",
+    "references": [
+      "ins-085",
+      "ins-086",
+      "ins-087"
+    ]
   }
 ]

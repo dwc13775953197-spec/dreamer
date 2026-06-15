@@ -1141,5 +1141,77 @@
     "content": "Walk-103: Nelson-Narens framework mapped to Dreamer reveals process monitoring gap. The framework's elegance (two levels, two operations) is both its strength and its cage — real metacognition in engineered systems needs more than monitoring and control. It needs a hard stop. Walk-101's \"elegance as cage\" applies to meta-cognitive frameworks too: the Nelson-Narens model is clean enough to be dangerously seductive.",
     "created": "2026-06-15T04:09:58+08:00",
     "source": "walk-103"
+  },
+  {
+    "id": "ins-094",
+    "type": "insight",
+    "content": "过程监控的根本悖论：监控需要占用被监控过程的认知资源。单线程认知系统无法同时高效进行生成和评估。三种架构中只有事后即时监控（在自然停顿点检查）可行。",
+    "strength": 3.0,
+    "score": 0.0,
+    "source": "walk-104",
+    "created": "2026-06-15T10:42:09",
+    "refs": [
+      "walk-103",
+      "walk-096",
+      "pat-014"
+    ],
+    "tags": [
+      "metacognition",
+      "process-monitoring",
+      "cognitive-architecture"
+    ]
+  },
+  {
+    "id": "ins-095",
+    "type": "insight",
+    "content": "过程监控的难度恰好处于Bjork必要难度最优区间——足够难以产生认知摩擦，足够简单以实现。太容易的监控（内联）不产生学习效果，太难的监控（并行）不可能实现。",
+    "strength": 3.0,
+    "score": 0.0,
+    "source": "walk-104",
+    "created": "2026-06-15T10:42:09",
+    "refs": [
+      "walk-104",
+      "walk-096"
+    ],
+    "tags": [
+      "metacognition",
+      "bjork",
+      "desirable-difficulty"
+    ]
+  },
+  {
+    "id": "ins-096",
+    "type": "insight",
+    "content": "重复需要分类：有价值的重复（深化）vs 无价值的重复（打转）。可用平行裂缝vs交叉裂缝框架区分。过程监控不仅要检测是否重复，还要区分重复的类型。",
+    "strength": 3.0,
+    "score": 0.0,
+    "source": "walk-104",
+    "created": "2026-06-15T10:42:09",
+    "refs": [
+      "walk-104",
+      "dream-2026-06-14-weekly"
+    ],
+    "tags": [
+      "metacognition",
+      "repetition",
+      "classification"
+    ]
+  },
+  {
+    "id": "ins-097",
+    "type": "insight",
+    "content": "IBM agentic AI三大失败模式（无限循环/规划错误/不安全工具使用）的共同根因是过程监控缺失。这验证了过程监控不是Dreamer独有的问题，而是所有agentic AI系统的共同挑战。",
+    "strength": 3.0,
+    "score": 0.0,
+    "source": "walk-104",
+    "created": "2026-06-15T10:42:09",
+    "refs": [
+      "walk-104"
+    ],
+    "tags": [
+      "agentic-ai",
+      "failure-modes",
+      "ibm"
+    ]
   }
 ]

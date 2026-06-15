@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T21:16:47.406327+08:00",
+    "next_scheduled": "2026-06-15T23:56:18+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-15T21:16:47.406327+08:00",
     "total_walks": 65,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-15T04:10:46+08:00",
     "last_push_at": "2026-06-15T04:11:37+08:00",
     "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
-    "cognitive_pressure": 0.0,
+    "cognitive_pressure": 18.0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -56,7 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      22.81,
       63.59,
       3.5900000000000034,
       4.09,
@@ -65,7 +64,8 @@
       2.61,
       7.31,
       28.81,
-      37.62
+      37.62,
+      18.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

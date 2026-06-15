@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-14T20:30:41.415040",
-    "last_active": "2026-06-15T16:30:00.880383+08:00",
+    "state_since": "2026-06-15T18:43:42.607356+08:00",
+    "last_active": "2026-06-15T18:43:42.607356+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-15T18:11:14.161534+08:00",
+    "next_scheduled": "2026-06-15T19:43:42.607356+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-15T16:30:00.880383+08:00",
     "total_walks": 65,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-15T04:10:46+08:00",
     "last_push_at": "2026-06-15T04:11:37+08:00",
     "last_push_topic": "Process monitoring gap in Dreamer meta-cognitive architecture",
-    "cognitive_pressure": 2.61,
+    "cognitive_pressure": 7.31,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -56,17 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      0,
-      32.0,
-      32.92,
-      69.13,
-      11.77,
-      97.64,
-      39.9,
-      44.45,
-      0,
-      0,
-      2.8,
       7.42,
       14.09,
       22.81,
@@ -75,7 +64,8 @@
       4.09,
       9.73,
       10.23,
-      2.61
+      2.61,
+      7.31
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

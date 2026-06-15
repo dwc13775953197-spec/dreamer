@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T03:36:59.540845+08:00",
+    "next_scheduled": "2026-06-16T05:38:53.063307+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-16T01:03:32.527065+08:00",
     "total_walks": 66,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-16T01:03:32.527065+08:00",
     "last_push_at": "2026-06-16T01:04:39.908085+08:00",
     "last_push_topic": "遗忘的宪法：Dreamer 需要差异化遗忘率设计",
-    "cognitive_pressure": 22.84,
+    "cognitive_pressure": 31.52,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -65,7 +65,8 @@
       60.86,
       15.86,
       18.22,
-      22.84
+      22.84,
+      31.52
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

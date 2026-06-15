@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-15T18:43:42.607356+08:00",
-    "last_active": "2026-06-16T02:06:59.540845+08:00",
+    "last_active": "2026-06-16T03:06:59.540845+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T03:06:59.540845+08:00",
+    "next_scheduled": "2026-06-16T03:36:59.540845+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-16T01:03:32.527065+08:00",
     "total_walks": 66,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-16T01:03:32.527065+08:00",
     "last_push_at": "2026-06-16T01:04:39.908085+08:00",
     "last_push_topic": "遗忘的宪法：Dreamer 需要差异化遗忘率设计",
-    "cognitive_pressure": 18.22,
+    "cognitive_pressure": 22.84,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -56,7 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      10.23,
       2.61,
       7.31,
       28.81,
@@ -65,7 +64,8 @@
       38.4,
       60.86,
       15.86,
-      18.22
+      18.22,
+      22.84
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

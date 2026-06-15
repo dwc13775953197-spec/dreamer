@@ -60,6 +60,7 @@ def save(entries):
 def ensure_fields(entry):
     """确保 entry 有所有必要字段"""
     defaults = {
+        "strength": 3.0,
         "status": "active",
         "resurrected_count": 0,
         "score": 0.0,
@@ -120,7 +121,7 @@ def cmd_decay(args):
             entry["status"] = "active"
     
     save(entries)
-    print(f"突触缩放完成: factor={f:.3f}")
+    print(f"突触缩放完成: factor={factor:.3f}")
     print(f"  总计: {stats['total']}, 高质量保护: {stats['protected']}, 低质量加速: {stats['accelerated']}, 枢纽保护: {stats['hub_protected']}")
     
     active = [e for e in entries if e["status"] == "active"]

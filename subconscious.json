@@ -1770,5 +1770,65 @@
       "ins-085",
       "pat-010"
     ]
+  },
+  {
+    "id": "ins-104",
+    "type": "insight",
+    "content": "Dreamer 的第七种失败模式：成功陷阱（Success Trap）——高质量产出 + 零结构变化 = 认知过拟合。不在微软分类法中，但可能是最危险的，因为它是隐性的、慢性的、自我强化的。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T08:21:07.735400+08:00",
+    "source": "walk-109",
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "pat-009",
+      "pat-014",
+      "ins-091",
+      "ins-099"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "ins-105",
+    "type": "insight",
+    "content": "分类法本身可能是成功陷阱的候选对象——v1→v2 的升级是否在同一个框架内精化而非质疑框架？Dreamer 的 evolved_rules 49 条可能正经历同样的分类膨胀。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T08:21:07.735400+08:00",
+    "source": "walk-109",
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-092",
+      "pat-014"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "ins-106",
+    "type": "insight",
+    "content": "慢性锁定 vs 急性锁定：walk-101 的 5 次连续检测针对急性锁定，但慢性锁定（10+ 次高质量但零结构变化）需要不同的检测机制——骨架变化率作为散步质量的新维度。",
+    "strength": 3.0,
+    "score": 0.0,
+    "decay_rate": 1.0,
+    "created": "2026-06-16T08:21:07.735400+08:00",
+    "source": "walk-109",
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-091",
+      "ins-104",
+      "pat-009"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
   }
 ]

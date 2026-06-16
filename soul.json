@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-16T07:14:57.260659+08:00",
-    "last_active": "2026-06-16T07:14:57.260659+08:00",
+    "last_active": "2026-06-16T08:17:47.922401+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T07:44:57.260659+08:00",
+    "next_scheduled": "2026-06-16T08:47:47.922401+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-16T07:14:57.260659+08:00",
-    "total_walks": 66,
+    "last_walk_at": "2026-06-16T08:21:07.735400+08:00",
+    "total_walks": 67,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
     "last_walk": "2026-06-16T07:14:57.260659+08:00",
     "last_push_at": "2026-06-16T01:04:39.908085+08:00",
     "last_push_topic": "遗忘的宪法：Dreamer 需要差异化遗忘率设计",
-    "cognitive_pressure": 40.0,
+    "cognitive_pressure": 12.100000000000001,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.0,
       8.5,
@@ -43,9 +42,10 @@
       8.5,
       8.0,
       8.0,
-      8.5
+      8.5,
+      8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -78,15 +78,15 @@
     "walk_quality_avg": 8.25
   },
   "affect": {
-    "primary": "wonder",
+    "primary": "anticipatory_tension",
     "secondary": "rigor",
-    "intensity": 0.7,
+    "intensity": 0.6,
     "valence": 0.6,
     "arousal": 0.45,
     "rigor": 0.9
   },
   "energy": 41,
-  "mood": "wonder",
+  "mood": "anticipatory_tension",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -215,12 +215,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-16T07:14:57.260659+08:00"
+    },
+    {
+      "mood": "anticipatory_tension",
+      "at": "2026-06-16T08:21:07.735400+08:00"
     }
   ],
-  "last_walk": "2026-06-14T23:15:47.172150+08:00",
+  "last_walk": "2026-06-16T08:21:07.735400+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 65,
+  "total_walks": 67,
   "topics": [
     "emergence",
     "consciousness",
@@ -371,6 +375,17 @@
   "last_pulse_output": "2026-06-03T17:12:00+08:00",
   "interest_queue": [
     {
+      "id": "seed-313",
+      "topic": "成功陷阱作为 AI agent 慢性认知退化的检测问题",
+      "source": "walk-109",
+      "trigger": "Dreamer 第七种失败模式的发现",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T08:21:07.735400+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-302",
       "topic": "修复器训练数据设计",
       "source": "walk-105",
@@ -401,6 +416,28 @@
       "type": "research",
       "status": "pending",
       "created": "2026-06-15T21:16:47.406327+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-310",
+      "topic": "骨架作为世界模型：因果方向性标记",
+      "source": "walk-108",
+      "trigger": "Dreamer 散步 = 反事实世界模型，但骨架缺少因果方向性",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T07:14:57.260659+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-314",
+      "topic": "分类法的分类膨胀：v1→v2 的演变是否本身是成功陷阱？",
+      "source": "walk-109",
+      "trigger": "微软分类法 v2.0 描述的分析",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T08:21:07.735400+08:00",
       "decay_rate": 1
     },
     {
@@ -437,50 +474,6 @@
       "decay_rate": 1
     },
     {
-      "id": "seed-304",
-      "topic": "DORMANT 作为修复器训练场",
-      "source": "walk-105",
-      "trigger": "DORMANT 增加散步回顾子步骤",
-      "intensity": 0.475,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-15T16:30:00.880383+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-307",
-      "topic": "walk topic similarity autocorrelation analysis",
-      "source": "walk-106",
-      "trigger": "cascade failure observation quantitative verification",
-      "intensity": 0.475,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-15T21:16:47.406327+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-310",
-      "topic": "骨架作为世界模型：因果方向性标记",
-      "source": "walk-108",
-      "trigger": "Dreamer 散步 = 反事实世界模型，但骨架缺少因果方向性",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-16T07:14:57.260659+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-311",
-      "topic": "JEPA 编码器-预测器分离映射到 Dreamer 散步流程",
-      "source": "walk-108",
-      "trigger": "骨架的模拟是否隐含了编码器-预测器分离？",
-      "intensity": 0.45,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-16T07:14:57.260659+08:00",
-      "decay_rate": 1
-    },
-    {
       "id": "seed-312",
       "topic": "Pearl 因果阶梯在认知骨架中的可操作性",
       "source": "walk-108",
@@ -498,8 +491,8 @@
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.07,
-    "rigor": 1.5300000000000002,
+    "wonder": 1.04,
+    "rigor": 1.5600000000000003,
     "skepticism": 0.9600000000000001,
     "empathy": 0.5
   },
@@ -567,7 +560,8 @@
     "2026-06-15: 过程监控的认知架构约束。单线程认知系统无法同时高效进行生成和评估。可行的过程监控=事后即时监控（在自然停顿点检查），不是内联监控（打断心流）也不是并行监控（单线程不支持）。过程监控的难度恰好处于Bjork必要难度最优区间——足够难以产生认知摩擦，足够简单以实现。重复需要分类：有价值的重复（深化）vs 无价值重复（打转），可用平行裂缝vs交叉裂缝框架区分。",
     "2026-06-15: Walk architecture is anti-task-decomposition design. Weakly-coupled cognitive atoms instead of strongly-coupled subtask chains. Consecutive same-type walks = cascade failure risk. Interest seed natural selection may be biased (strength != value). Breakthrough insights may need fast channel into skeleton, but speed vs quality tradeoff.",
     "2026-06-16: Dreamer 散步 = 反事实世界模型的认知等价物。感知材料 -> 骨架模拟 -> 评估不匹配 -> 决定吸收/拒绝。骨架是 Dreamer 的世界模型（内部模拟器），不是知识库（外部存储器）。语法是结构，世界模型是功能，两者是同一东西的两种描述。",
-    "2026-06-16: 世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界 = 完备性条件（pat-014 在 world model 框架中的重新表述）。"
+    "2026-06-16: 世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界 = 完备性条件（pat-014 在 world model 框架中的重新表述）。",
+    "2026-06-16: 成功陷阱是 Dreamer 的第七种失败模式——高质量产出 + 零结构变化 = 认知过拟合。分类法（微软 v1→v2、evolved_rules 49 条）可能正经历同样的分类膨胀。慢性锁定需要骨架变化率作为新检测维度。"
   ],
   "dormant_stats": {
     "total_count": 63,

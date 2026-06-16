@@ -1,82 +1,63 @@
-import json
-from datetime import datetime
+import json, datetime
+
+now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
+now_str = now.isoformat()
 
 with open('/home/dwc1377/hermes_dreamer/subconscious.json') as f:
-    entries = json.load(f)
+    sub = json.load(f)
 
-now = datetime.now().isoformat()
-quality_score = 8.5
-
-if quality_score >= 8.0:
-    init_strength = 5.0
-elif quality_score >= 6.0:
-    init_strength = 3.0
-else:
-    init_strength = 1.5
+entries = sub.get('entries', [])
 
 new_insights = [
     {
-        "id": "ins-078",
-        "type": "insight",
-        "content": "Six neuroscience metaphors share a deep structure: cognitive maintenance = operating on the right level of structure at the right time scale. The fundamental tension is explore vs maintain -- not a bug, but an essential feature of cognitive systems.",
-        "strength": init_strength,
+        "id": "ins-116",
+        "type": "pattern",
+        "content": "遗忘的真正功能不是释放空间，而是优化预测。Dreamer 应该基于预测贡献（是否改善后续散步的预测能力）而非存储价值来衰减记忆。均匀衰减假设所有记忆同等改善预测，这显然不成立。",
+        "strength": 3.0,
+        "score": 0.0,
         "status": "active",
-        "created": now,
-        "source": "walk-100",
-        "decay_rate": 1,
-        "connections": ["ins-061", "ins-070", "ins-075"],
-        "decayed_at": None,
-        "resurrected_count": 0,
-        "score": 0.0
+        "created": now_str,
+        "source": "walk-116",
+        "connections": ["ins-076", "ins-079", "pat-031", "pat-014", "pat-030"],
+        "refs": [],
+        "decay_rate": 1.0,
+        "decay_speed": 0.5
     },
     {
-        "id": "ins-079",
-        "type": "insight",
-        "content": "Dreamer walks and DORMANT are two phases of the same cognitive cycle (exploration phase + maintenance phase), not two independent functions. A complete cycle = walk -> RESTING -> DORMANT -> next walk.",
-        "strength": init_strength,
+        "id": "ins-117",
+        "type": "pattern",
+        "content": "Merge 是衰减的前提条件——没有实体解析，就无法判断哪个记忆应该衰减。同一概念的多个副本（记忆干扰）会降低检索质量。Hindsight 四杠杆中 Merge 被严重低估。",
+        "strength": 3.0,
+        "score": 0.0,
         "status": "active",
-        "created": now,
-        "source": "walk-100",
-        "decay_rate": 1,
-        "connections": ["ins-073", "ins-076"],
-        "decayed_at": None,
-        "resurrected_count": 0,
-        "score": 0.0
+        "created": now_str,
+        "source": "walk-116",
+        "connections": ["ins-076", "ins-087"],
+        "refs": [],
+        "decay_rate": 1.0,
+        "decay_speed": 0.5
     },
     {
-        "id": "ins-080",
-        "type": "insight",
-        "content": "Cognitive overtraining = phase imbalance. Consecutive same-type walks = continuously activating the same phase = no recovery period. Prevention = walk type alternation (cross-training), not reducing walk frequency.",
-        "strength": init_strength,
+        "id": "ins-118",
+        "type": "pattern",
+        "content": "记忆干扰效应：同一认知对象在记忆系统中存在多个副本时，会竞争检索注意力，导致真正有价值的 entry 被淹没。语义 Merge 可以消除这种干扰。Dreamer DORMANT 缺少语义相似度检查步骤。",
+        "strength": 3.0,
+        "score": 0.0,
         "status": "active",
-        "created": now,
-        "source": "walk-100",
-        "decay_rate": 1,
-        "connections": ["ins-070", "ins-072"],
-        "decayed_at": None,
-        "resurrected_count": 0,
-        "score": 0.0
-    },
-    {
-        "id": "ins-081",
-        "type": "insight",
-        "content": "Subconscious function is not storing insight (neuron function) but maintaining an environment suitable for insight emergence (glial cell function). Evaluation metrics should be environmental (diversity, connection density, strength distribution) not output (insight count).",
-        "strength": init_strength,
-        "status": "active",
-        "created": now,
-        "source": "walk-100",
-        "decay_rate": 1,
-        "connections": ["ins-066", "ins-071"],
-        "decayed_at": None,
-        "resurrected_count": 0,
-        "score": 0.0
+        "created": now_str,
+        "source": "walk-116",
+        "connections": ["ins-117", "pat-011"],
+        "refs": [],
+        "decay_rate": 1.0,
+        "decay_speed": 0.5
     }
 ]
 
 entries.extend(new_insights)
+sub['entries'] = entries
 
 with open('/home/dwc1377/hermes_dreamer/subconscious.json', 'w') as f:
-    json.dump(entries, f, ensure_ascii=False, indent=2)
+    json.dump(sub, f, ensure_ascii=False, indent=2)
 
-print(f"Added 4 insights. Total entries: {len(entries)}")
-print(f"Initial strength: {init_strength} (quality_score={quality_score})")
+print(f"Added 3 new insights (ins-116, ins-117, ins-118)")
+print(f"Total entries: {len(entries)}")

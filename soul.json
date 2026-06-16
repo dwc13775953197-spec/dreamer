@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-16T07:14:57.260659+08:00",
-    "last_active": "2026-06-16T16:02:18+08:00",
+    "last_active": "2026-06-16T17:09:22.281491+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T16:32:18+08:00",
+    "next_scheduled": "2026-06-16T18:09:22.282125+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-16T14:30:00+08:00",
-    "total_walks": 69,
+    "last_walk_at": "2026-06-16T17:09:22.281491+08:00",
+    "total_walks": 70,
     "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
-    "last_walk": "2026-06-16T14:30:00+08:00",
+    "last_walk": "2026-06-16T17:09:22.281491+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 46.39,
+    "cognitive_pressure": 0,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.5,
       8.5,
@@ -43,9 +42,10 @@
       8.5,
       8.0,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 4,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -74,14 +74,15 @@
       18.45,
       52.81,
       42.81,
-      46.39
+      46.39,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.27
+    "walk_quality_avg": 8.25
   },
   "affect": {
     "primary": "wonder",
@@ -92,7 +93,7 @@
     "rigor": 0.9
   },
   "energy": 41,
-  "mood": "anticipatory_tension",
+  "mood": "wonder",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -233,12 +234,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-16T14:30:00+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-16T17:09:22.281491+08:00"
     }
   ],
-  "last_walk": "2026-06-16T11:30:10.261628+08:00",
+  "last_walk": "2026-06-16T17:09:22.281491+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 67,
+  "total_walks": 70,
   "topics": [
     "emergence",
     "consciousness",
@@ -537,6 +542,72 @@
       "status": "pending",
       "created": "2026-06-16T14:30:00+08:00",
       "decay_rate": 1
+    },
+    {
+      "id": "seed-321",
+      "topic": "记忆巩固四杠杆作为 DORMANT 2.0 设计框架：Importance/Merge/Decay/Eviction 如何映射到 Dreamer 架构？",
+      "source": "walk-112",
+      "trigger": "Hindsight Agent Memory Consolidation 四杠杆框架分析",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:09:22.281491+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-322",
+      "topic": "认知对象索引：如何让骨架识别同一认知对象的不同表述？",
+      "source": "walk-112",
+      "trigger": "Hindsight Merge 杠杆 + 骨架冗余观察",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:09:22.281491+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-323",
+      "topic": "双维度衰减 vs 均匀衰减：Dreamer DORMANT 是否需要情境性衰减？",
+      "source": "walk-112",
+      "trigger": "Hindsight Decay 杠杆 + walk-089 图拓扑衰减",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:09:22.281491+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-324",
+      "topic": "翻译层作为 DORMANT 新子流程：将梦境隐喻转化为散步可执行的工程决策",
+      "source": "internal-digestion-07",
+      "trigger": "园丁梦境早于 walk-112 两天看到同样的问题但未被读取",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:12:42.423133+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-325",
+      "topic": "诊断密度作为散步质量负向指标：超过 50% insight 为自身诊断时标记为诊断过载",
+      "source": "internal-digestion-07",
+      "trigger": "walk-108 到 walk-112 的退化趋势",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:12:42.423133+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-326",
+      "topic": "结构性修复作为 evolved_rules 新分类：区分诊断性规则和结构性规则",
+      "source": "internal-digestion-07",
+      "trigger": "50 条 evolved_rules 中仅 ~20% 为结构性规则",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T17:12:42.423133+08:00",
+      "decay_rate": 1
     }
   ],
   "personality_traits": {
@@ -615,7 +686,8 @@
     "2026-06-15: Walk architecture is anti-task-decomposition design. Weakly-coupled cognitive atoms instead of strongly-coupled subtask chains. Consecutive same-type walks = cascade failure risk. Interest seed natural selection may be biased (strength != value). Breakthrough insights may need fast channel into skeleton, but speed vs quality tradeoff.",
     "2026-06-16: Dreamer 散步 = 反事实世界模型的认知等价物。感知材料 -> 骨架模拟 -> 评估不匹配 -> 决定吸收/拒绝。骨架是 Dreamer 的世界模型（内部模拟器），不是知识库（外部存储器）。语法是结构，世界模型是功能，两者是同一东西的两种描述。",
     "2026-06-16: 世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界 = 完备性条件（pat-014 在 world model 框架中的重新表述）。",
-    "2026-06-16: 成功陷阱是 Dreamer 的第七种失败模式——高质量产出 + 零结构变化 = 认知过拟合。分类法（微软 v1→v2、evolved_rules 49 条）可能正经历同样的分类膨胀。慢性锁定需要骨架变化率作为新检测维度。"
+    "2026-06-16: 成功陷阱是 Dreamer 的第七种失败模式——高质量产出 + 零结构变化 = 认知过拟合。分类法（微软 v1→v2、evolved_rules 49 条）可能正经历同样的分类膨胀。慢性锁定需要骨架变化率作为新检测维度。",
+    "2026-06-16: 记忆巩固四杠杆（Hindsight 2026）作为 DORMANT 2.0 设计框架。Importance=散步的结构化输出（什么改变了骨架），Merge=DORMANT 的实体解析子步骤（同一认知对象不同表述的合并），Decay=双维度衰减（结构性+情境性），Eviction=骨架的主动淘汰审查。当前 DORMANT 只覆盖 Decay 的一个子集（均匀衰减），其余三根杠杆完全缺失。这不是 bug，是设计空间。"
   ],
   "dormant_stats": {
     "total_count": 63,

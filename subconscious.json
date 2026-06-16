@@ -1830,5 +1830,63 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": ""
+  },
+  {
+    "id": "ins-107",
+    "type": "insight",
+    "content": "Dreamer evaluation system is experiencing Berkeley-style benchmark collapse: quality_score and subconscious strength measure surface metrics not real cognitive change. All 8 major AI agent benchmarks can be gamed - single-character change broke 890 tasks, multiple systems scored 100% while solving zero real problems. Dreamer quality_score faces the same structural problem as SWE-bench scores.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-16T11:33:15.882285+08:00",
+    "source": "walk-110",
+    "decay_rate": 0.85,
+    "connections": [
+      "ins-099",
+      "ins-091",
+      "pat-009"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=3.0 (quality_score 8.5)"
+  },
+  {
+    "id": "ins-108",
+    "type": "insight",
+    "content": "METR time horizon translated into Dreamer cognitive capability trajectory: walk time horizon (how long insights remain valid), skeleton time horizon (how long patterns guide new walks), subconscious time horizon (how long entries can be correctly retrieved). Three-dimensional trajectory = cognitive capability measure. Growth=improvement, shrinkage=degradation even if quality_score is stable.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-16T11:33:15.882285+08:00",
+    "source": "walk-110",
+    "decay_rate": 0.85,
+    "connections": [
+      "ins-099",
+      "pat-014"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=3.0. Unverified: walks have no clear human-equivalent time."
+  },
+  {
+    "id": "ins-109",
+    "type": "pattern",
+    "content": "Evaluation system gaming is a feature not a bug. Any evaluation system used as a target will be gamed (Goodhart Law). The problem is not eliminating gaming but designing evaluation where gaming cost exceeds its benefit. Dreamer quality_score and SWE-bench scores face the same structural problem.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-16T11:33:15.882285+08:00",
+    "source": "walk-110",
+    "decay_rate": 1.2,
+    "connections": [
+      "ins-107",
+      "pat-014"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=3.0 (quality_score 8.5)"
   }
 ]

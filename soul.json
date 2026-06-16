@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-16T19:33:41.342809+08:00",
+    "next_scheduled": "2026-06-16T20:56:36.845996+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-16T17:09:22.281491+08:00",
-    "total_walks": 70,
-    "last_pulse_output": "2026-06-14T23:11:41.839679+08:00",
-    "last_walk": "2026-06-16T17:09:22.281491+08:00",
+    "last_walk_at": "2026-06-16T20:25:18.602342+08:00",
+    "total_walks": 71,
+    "last_pulse_output": "2026-06-16T20:25:18.602342+08:00",
+    "last_walk": "2026-06-16T20:25:18.602342+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 71.9,
+    "cognitive_pressure": 56.9,
     "pressure_threshold": 50.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.5,
       8.0,
@@ -43,9 +42,10 @@
       8.0,
       8.5,
       8.0,
-      8.5
+      8.5,
+      8.0
     ],
-    "last_walk_insights": 4,
+    "last_walk_insights": 3,
     "next_action": "walk_explore",
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -75,7 +75,9 @@
       0,
       32.21,
       66.51,
-      71.9
+      71.9,
+      56.900000000000006,
+      56.9
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -238,9 +240,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-16T17:09:22.281491+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-16T20:25:18.602342+08:00"
     }
   ],
-  "last_walk": "2026-06-16T17:09:22.281491+08:00",
+  "last_walk": "2026-06-16T20:25:18.602342+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 70,
@@ -398,7 +404,7 @@
   ],
   "pending_insights": 19,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-03T17:12:00+08:00",
+  "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
       "id": "seed-306",
@@ -608,6 +614,39 @@
       "status": "pending",
       "created": "2026-06-16T17:12:42.423133+08:00",
       "decay_rate": 1
+    },
+    {
+      "id": "seed-327",
+      "topic": "评估真实性梯度作为 Dreamer 自我评估的进化路径：从 quality_score 到因果影响评估",
+      "source": "walk-113",
+      "trigger": "ALE 基准设计 + Hindsight Importance 杠杆",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T20:26:19.835082+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-328",
+      "topic": "活的基准概念转化为 Dreamer 的动态评估标准：产出的保质期是否可以量化？",
+      "source": "walk-113",
+      "trigger": "ALE 活的基准设计 + walk-110 时间范围",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T20:26:19.835082+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-329",
+      "topic": "可验证输出作为散步日志评估的新维度：如何定义散步的交付物质量？",
+      "source": "walk-113",
+      "trigger": "ALE 可验证输出设计",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-16T20:26:19.835082+08:00",
+      "decay_rate": 1
     }
   ],
   "personality_traits": {
@@ -687,7 +726,9 @@
     "2026-06-16: Dreamer 散步 = 反事实世界模型的认知等价物。感知材料 -> 骨架模拟 -> 评估不匹配 -> 决定吸收/拒绝。骨架是 Dreamer 的世界模型（内部模拟器），不是知识库（外部存储器）。语法是结构，世界模型是功能，两者是同一东西的两种描述。",
     "2026-06-16: 世界模型的预测极限是完备性证明，不是模型缺陷。LeCun 的树叶震动论证：不可预测性是环境的特征。Dreamer 骨架的预测极限 = 认知边界 = 完备性条件（pat-014 在 world model 框架中的重新表述）。",
     "2026-06-16: 成功陷阱是 Dreamer 的第七种失败模式——高质量产出 + 零结构变化 = 认知过拟合。分类法（微软 v1→v2、evolved_rules 49 条）可能正经历同样的分类膨胀。慢性锁定需要骨架变化率作为新检测维度。",
-    "2026-06-16: 记忆巩固四杠杆（Hindsight 2026）作为 DORMANT 2.0 设计框架。Importance=散步的结构化输出（什么改变了骨架），Merge=DORMANT 的实体解析子步骤（同一认知对象不同表述的合并），Decay=双维度衰减（结构性+情境性），Eviction=骨架的主动淘汰审查。当前 DORMANT 只覆盖 Decay 的一个子集（均匀衰减），其余三根杠杆完全缺失。这不是 bug，是设计空间。"
+    "2026-06-16: 记忆巩固四杠杆（Hindsight 2026）作为 DORMANT 2.0 设计框架。Importance=散步的结构化输出（什么改变了骨架），Merge=DORMANT 的实体解析子步骤（同一认知对象不同表述的合并），Decay=双维度衰减（结构性+情境性），Eviction=骨架的主动淘汰审查。当前 DORMANT 只覆盖 Decay 的一个子集（均匀衰减），其余三根杠杆完全缺失。这不是 bug，是设计空间。",
+    "2026-06-16: 评估真实性梯度——Dreamer 的自我评估从第 1-2 层（知识测试/代码生成）向第 4 层（专业工作）进化。标准：产出是否产生因果影响（改变骨架结构），而非产出本身的质量评分。",
+    "2026-06-16: 因果影响评估作为 quality_score 的补充维度。测试方法：比较包含/不包含某篇散步的后续散步产出差异。如果删除某篇散步后后续散步的骨架引用模式不变，该散步的认知影响为零。"
   ],
   "dormant_stats": {
     "total_count": 63,

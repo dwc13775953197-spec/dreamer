@@ -2090,6 +2090,63 @@
       "source": "walk-114",
       "created": "2026-06-16T21:30:00+08:00",
       "decay_rate": 1
+    },
+    {
+      "id": "ins-116",
+      "type": "insight",
+      "content": "Dreamer de walk system may be unintentionally antifragile -- heavy-tailed output distribution, DORMANT recovery windows, weakly-coupled walk design all point to antifragility. But 'unintentionally antifragile' is more dangerous than 'explicitly designed antifragile' because we don't know when it will degrade to fragile.",
+      "strength": 3.0,
+      "score": 0.0,
+      "status": "active",
+      "created": "2026-06-16T22:45:19+08:00",
+      "source": "walk-115",
+      "decay_rate": 1.0,
+      "decay_speed": 0.5,
+      "connections": [
+        "pat-014",
+        "pat-016",
+        "pat-030",
+        "ins-099"
+      ],
+      "refs": [],
+      "note": "initial strength=3.0 (quality_score 8.0)"
+    },
+    {
+      "id": "ins-117",
+      "type": "insight",
+      "content": "DORMANT lacks 'supercompensation assessment' -- currently only does decay and consolidation, no evaluation of whether skeleton has strengthened due to previous walk stress. Supercompensation (recovery exceeding baseline) is the core mechanism of antifragility.",
+      "strength": 3.0,
+      "score": 0.0,
+      "status": "active",
+      "created": "2026-06-16T22:45:19+08:00",
+      "source": "walk-115",
+      "decay_rate": 1.0,
+      "decay_speed": 0.5,
+      "connections": [
+        "pat-030",
+        "ins-090",
+        "ins-091"
+      ],
+      "refs": [],
+      "note": "initial strength=3.0 (quality_score 8.0)"
+    },
+    {
+      "id": "ins-118",
+      "type": "insight",
+      "content": "Failed walks are not wasted -- they are 'fracture boundary probes' revealing regions in concept space where connections cannot exist. Walk failures should be classified as: valuable failures (boundary probes) vs true waste (attention dispersion).",
+      "strength": 3.0,
+      "score": 0.0,
+      "status": "active",
+      "created": "2026-06-16T22:45:19+08:00",
+      "source": "walk-115",
+      "decay_rate": 1.0,
+      "decay_speed": 0.5,
+      "connections": [
+        "pat-014",
+        "ins-080"
+      ],
+      "refs": [],
+      "note": "initial strength=3.0 (quality_score 8.0)"
     }
   ],
   "version": 1

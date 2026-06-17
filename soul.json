@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-17T00:58:20.854272+08:00",
-    "last_active": "2026-06-17T12:39:14.494737+08:00",
+    "last_active": "2026-06-17T13:46:20.913053+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-17T13:09:14.494737+08:00",
+    "next_scheduled": "2026-06-17T14:46:20.913053+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-17T08:19:59+08:00",
-    "total_walks": 76,
+    "last_walk_at": "2026-06-17T13:46:20.913053+08:00",
+    "total_walks": 77,
     "last_pulse_output": "2026-06-17T06:13:10+08:00",
-    "last_walk": "2026-06-17T08:19:59+08:00",
+    "last_walk": "2026-06-17T13:46:20.913053+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 58.75,
+    "cognitive_pressure": 46.900000000000006,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.0,
       8.5,
@@ -43,7 +42,8 @@
       8.0,
       8.0,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -85,7 +85,8 @@
       81.81,
       36.81,
       52.81,
-      57.64
+      57.64,
+      46.900000000000006
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -96,13 +97,13 @@
   },
   "affect": {
     "primary": "wonder",
-    "secondary": "rigor",
+    "secondary": "contemplative",
     "intensity": 0.7,
     "valence": 0.65,
     "arousal": 0.55,
     "rigor": 0.93
   },
-  "energy": 41,
+  "energy": 36,
   "mood": "contemplative",
   "mood_history": [
     {
@@ -272,12 +273,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-17T08:19:59+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-17T13:46:20.913053+08:00"
     }
   ],
   "last_walk": "2026-06-16T20:25:18.602342+08:00",
   "last_chat": null,
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 71,
+  "total_walks": 72,
   "topics": [
     "emergence",
     "consciousness",
@@ -439,7 +444,7 @@
       "topic": "负能力作为 Dreamer 的模糊预算参数：如何操作化和测量认知模糊度？",
       "source": "walk-118",
       "trigger": "发现 1",
-      "intensity": 0.55,
+      "intensity": 0.5,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T08:19:59+08:00",
@@ -450,7 +455,7 @@
       "topic": "矛盾保留作为 DORMANT 新子流程：如何区分不完整性矛盾和内在矛盾性矛盾？",
       "source": "walk-117",
       "trigger": "发现 1",
-      "intensity": 0.5,
+      "intensity": 0.45,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T02:02:57.313471+08:00",
@@ -461,7 +466,7 @@
       "topic": "预测贡献作为 DORMANT 衰减的第三维度：如何测量一个 entry 是否改善了后续散步？",
       "source": "walk-116",
       "trigger": "发现 1",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T23:54:48.730778+08:00",
@@ -472,7 +477,7 @@
       "topic": "认知失调密度作为散步质量的新维度：从 quality_score 到包含矛盾密度的复合评分",
       "source": "walk-117",
       "trigger": "发现 2",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T02:02:57.313471+08:00",
@@ -483,7 +488,7 @@
       "topic": "Walk Initializer 作为 Dreamer 新子流程：从 Harness 设计模式到散步的标准化入职流程",
       "source": "walk-114",
       "trigger": "Harness Initializer Agent 映射到 Dreamer",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T21:30:00+08:00",
@@ -494,7 +499,7 @@
       "topic": "认知超量恢复指标：如何测量 DORMANT 后骨架的结构增强？",
       "source": "walk-115",
       "trigger": "发现 2",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T22:45:52+08:00",
@@ -505,7 +510,7 @@
       "topic": "语言作为闭合偏向的输出格式：是否存在更适合表达模糊性的替代格式？",
       "source": "walk-118",
       "trigger": "发现 2",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T08:19:59+08:00",
@@ -516,7 +521,7 @@
       "topic": "散步终止式重新评估：半终止和欺骗性终止是否应该是默认的散步结束方式？",
       "source": "walk-118",
       "trigger": "发现 3",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T08:19:59+08:00",
@@ -527,7 +532,7 @@
       "topic": "散步失败价值分类：断裂边界探测 vs 注意力分散",
       "source": "walk-115",
       "trigger": "反事实推理第 2 点",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T22:45:52+08:00",
@@ -538,7 +543,7 @@
       "topic": "语义 Merge 作为 DORMANT 新子流程：轻量级实体解析的实现路径",
       "source": "walk-116",
       "trigger": "发现 3",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T23:54:48.730778+08:00",
@@ -549,7 +554,7 @@
       "topic": "范式转换作为散步的终极产出：如何识别和标记超越型矛盾解决？",
       "source": "walk-117",
       "trigger": "发现 3",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T02:02:57.313471+08:00",
@@ -560,7 +565,7 @@
       "topic": "基准崩溃作为 AI agent 评估的元问题：当所有指标都被博弈时如何设计抗博弈评估？",
       "source": "walk-110",
       "trigger": "Zylos Research 报告 + Berkeley 基准分析",
-      "intensity": 0.39,
+      "intensity": 0.34,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T11:30:10.261628+08:00",
@@ -571,7 +576,7 @@
       "topic": "\"可合并状态\"作为散步结束不变量：如何定义和检测？",
       "source": "walk-114",
       "trigger": "Harness clean state 映射",
-      "intensity": 0.39,
+      "intensity": 0.34,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T21:30:00+08:00",
@@ -582,7 +587,7 @@
       "topic": "评估真实性梯度作为 Dreamer 自我评估的进化路径：从 quality_score 到因果影响评估",
       "source": "walk-113",
       "trigger": "ALE 基准设计 + Hindsight Importance 杠杆",
-      "intensity": 0.35,
+      "intensity": 0.3,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T20:26:19.835082+08:00",
@@ -593,10 +598,43 @@
       "topic": "应力类型 x 恢复窗口的交互效应：不同应力类型需要不同长度的 DORMANT 恢复？",
       "source": "walk-115",
       "trigger": "发现 1",
-      "intensity": 0.35,
+      "intensity": 0.3,
       "type": "research",
       "status": "pending",
       "created": "2026-06-16T22:45:52+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-345",
+      "topic": "认知成熟度指标：如何衡量一个想法是否准备好被散步加工？",
+      "source": "walk-119",
+      "trigger": "发现 1",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T13:46:20.913053+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-346",
+      "topic": "呼吸散步实验：不产出洞察的散步是否能提升后续散步的质量？",
+      "source": "walk-119",
+      "trigger": "发现 2",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T13:46:20.913053+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-347",
+      "topic": "三维认知预算的操作化：产出×模糊×延迟的平衡方程应该如何设计？",
+      "source": "walk-119",
+      "trigger": "发现 3",
+      "intensity": 0.45,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T13:46:20.913053+08:00",
       "decay_rate": 1
     }
   ],
@@ -682,7 +720,8 @@
     "2026-06-16: 因果影响评估作为 quality_score 的补充维度。测试方法：比较包含/不包含某篇散步的后续散步产出差异。如果删除某篇散步后后续散步的骨架引用模式不变，该散步的认知影响为零。",
     "2026-06-16: Antifragility as walk design principle. Walks should not avoid stress but use it constructively. DORMANT should assess supercompensation (skeleton stronger after recovery) not just decay. Failed walks are fracture boundary probes, not waste. Stress type x recovery window interaction determines cognitive training effect.",
     "2026-06-17: 矛盾是认知增长的引擎，不是系统故障。DORMANT 应从\"解决矛盾\"转向\"管理矛盾\"——区分不完整性矛盾（需要更多信息）和内在矛盾性矛盾（即使无限信息也无法消解，反映现实本身的张力）。三种解决策略：消解（更高阶框架）/保留（标注情境条件）/超越（范式转换）。散步质量新维度：认知失调密度=矛盾数量×被综合比例。walk-117 验证了跨散步连接（反脆弱+预测加工→矛盾引擎）的高产出模式。",
-    "2026-06-17: 负能力作为 Dreamer 的结构性补偿机制。语言输出天然偏向闭合，散步应以半终止或欺骗性终止为默认结束方式，维持系统的最优模糊区间。模糊预算（未解决矛盾对数/已解决矛盾对数）可能是下一个系统级参数。walk-118 验证了 Twist 散步对抗闭合偏向的高价值。"
+    "2026-06-17: 负能力作为 Dreamer 的结构性补偿机制。语言输出天然偏向闭合，散步应以半终止或欺骗性终止为默认结束方式，维持系统的最优模糊区间。模糊预算（未解决矛盾对数/已解决矛盾对数）可能是下一个系统级参数。walk-118 验证了 Twist 散步对抗闭合偏向的高价值。",
+    "2026-06-17: 延迟是认知功能而非认知缺陷。主动拖延研究证明策略性延迟提升创造力。Dreamer 的 35 分钟壁垒 = 负能力的物理度量（系统能在输出前维持模糊的时间窗口）。三维认知预算：产出×模糊×延迟。呼吸散步 = 不产出洞察的第四种散步类型。walk-119 验证了跨散步连接（负能力+矛盾引擎+认知预算→认知延迟）的高产出模式。"
   ],
   "dormant_stats": {
     "total_count": 63,

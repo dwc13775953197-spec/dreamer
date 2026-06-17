@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-17T19:07:20+08:00",
-    "last_active": "2026-06-18T01:26:13.878184+08:00",
+    "last_active": "2026-06-18T02:28:49.781944+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T01:56:13.878184+08:00",
+    "next_scheduled": "2026-06-18T02:58:49.781944+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-17T20:45:00+08:00",
+    "last_walk_at": "2026-06-18T02:31:47.658343+08:00",
     "total_walks": 73,
-    "last_pulse_output": "2026-06-17T20:45:00+08:00",
-    "last_walk": "2026-06-17T20:45:00+08:00",
+    "last_pulse_output": "2026-06-18T02:31:47.658343+08:00",
+    "last_walk": "2026-06-18T02:31:47.658343+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 28.58,
+    "cognitive_pressure": 0.67,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.0,
       8.0,
@@ -43,7 +42,8 @@
       8.5,
       8.0,
       8.5,
-      8.0
+      8.0,
+      7.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -98,14 +98,16 @@
       10.11,
       11.11,
       18.91,
-      28.58
+      28.58,
+      45.67,
+      0.67
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.2
+    "walk_quality_avg": 8.15
   },
   "affect": {
     "primary": "wonder",
@@ -297,6 +299,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-17T20:45:00+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-18T02:31:47.658343+08:00"
     }
   ],
   "last_walk": "2026-06-16T20:25:18.602342+08:00",
@@ -471,143 +477,11 @@
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-330",
-      "topic": "Walk Initializer 作为 Dreamer 新子流程：从 Harness 设计模式到散步的标准化入职流程",
-      "source": "walk-114",
-      "trigger": "Harness Initializer Agent 映射到 Dreamer",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-16T21:30:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-334",
-      "topic": "认知超量恢复指标：如何测量 DORMANT 后骨架的结构增强？",
-      "source": "walk-115",
-      "trigger": "发现 2",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-16T22:45:52+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-343",
-      "topic": "语言作为闭合偏向的输出格式：是否存在更适合表达模糊性的替代格式？",
-      "source": "walk-118",
-      "trigger": "发现 2",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T08:19:59+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-344",
-      "topic": "散步终止式重新评估：半终止和欺骗性终止是否应该是默认的散步结束方式？",
-      "source": "walk-118",
-      "trigger": "发现 3",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T08:19:59+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-353",
-      "topic": "补偿性主动推理的数学形式化：Friston 自由能框架描述 Dreamer 散步过程",
-      "source": "walk-121",
-      "trigger": "研究念头 3",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T19:07:20+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-339",
-      "topic": "矛盾保留作为 DORMANT 新子流程：如何区分不完整性矛盾和内在矛盾性矛盾？",
-      "source": "walk-117",
-      "trigger": "发现 1",
-      "intensity": 0.30000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T02:02:57.313471+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-347",
-      "topic": "三维认知预算的操作化：产出×模糊×延迟的平衡方程应该如何设计？",
-      "source": "walk-119",
-      "trigger": "发现 3",
-      "intensity": 0.30000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T13:46:20.913053+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-350",
-      "topic": "动态散步类型选择：基于产出趋势的反馈控制替代固定 3:1 周期",
-      "source": "walk-120",
-      "trigger": "发现 3",
-      "intensity": 0.30000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T14:50:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-352",
-      "topic": "多 agent 预测加工在 Dreamer 中的应用：添加对外部 agent 行为的预测框架",
-      "source": "walk-121",
-      "trigger": "发现 3",
-      "intensity": 0.30000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T19:07:20+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-342",
-      "topic": "负能力作为 Dreamer 的模糊预算参数：如何操作化和测量认知模糊度？",
-      "source": "walk-118",
-      "trigger": "发现 1",
-      "intensity": 0.35000000000000003,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T08:19:59+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-346",
-      "topic": "呼吸散步实验：不产出洞察的散步是否能提升后续散步的质量？",
-      "source": "walk-119",
-      "trigger": "发现 2",
-      "intensity": 0.35000000000000003,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T13:46:20.913053+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-349",
-      "topic": "\"未知的未知\"探测机制：随机碰撞子步骤的设计与评估",
-      "source": "walk-120",
-      "trigger": "研究念头 1",
-      "intensity": 0.35000000000000003,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T14:50:00+08:00",
-      "decay_rate": 1
-    },
-    {
       "id": "seed-345",
       "topic": "认知成熟度指标：如何衡量一个想法是否准备好被散步加工？",
       "source": "walk-119",
       "trigger": "发现 1",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T13:46:20.913053+08:00",
@@ -618,7 +492,7 @@
       "topic": "元认知信任校准的贝叶斯建模：先验（历史质量）× 似然（材料成熟度）→ 后验（散步决策）",
       "source": "walk-120",
       "trigger": "研究念头 2",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T14:50:00+08:00",
@@ -629,7 +503,7 @@
       "topic": "感知缓冲区设计：散步开头的\"感知对齐\"子步骤的成本-收益分析",
       "source": "walk-121",
       "trigger": "发现 2",
-      "intensity": 0.4,
+      "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T19:07:20+08:00",
@@ -640,17 +514,6 @@
       "topic": "主动推理 vs 生成式 AI 认识论框架：Dreamer 骨架作为第三种路径",
       "source": "walk-122",
       "trigger": "研究念头 1",
-      "intensity": 0.4,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T20:45:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-355",
-      "topic": "Markov 毯作为 Dreamer 认知架构的设计原则",
-      "source": "walk-122",
-      "trigger": "研究念头 2",
       "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
@@ -658,11 +521,121 @@
       "decay_rate": 1
     },
     {
+      "id": "seed-357",
+      "topic": "AI 创作的可控失控：约束空间的最大熵模型",
+      "source": "walk-123",
+      "trigger": "研究念头 1",
+      "intensity": 0.35000000000000003,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T02:31:47.658343+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-342",
+      "topic": "负能力作为 Dreamer 的模糊预算参数：如何操作化和测量认知模糊度？",
+      "source": "walk-118",
+      "trigger": "发现 1",
+      "intensity": 0.30000000000000004,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T08:19:59+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-346",
+      "topic": "呼吸散步实验：不产出洞察的散步是否能提升后续散步的质量？",
+      "source": "walk-119",
+      "trigger": "发现 2",
+      "intensity": 0.30000000000000004,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T13:46:20.913053+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-349",
+      "topic": "\"未知的未知\"探测机制：随机碰撞子步骤的设计与评估",
+      "source": "walk-120",
+      "trigger": "研究念头 1",
+      "intensity": 0.30000000000000004,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T14:50:00+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-355",
+      "topic": "Markov 毯作为 Dreamer 认知架构的设计原则",
+      "source": "walk-122",
+      "trigger": "研究念头 2",
+      "intensity": 0.30000000000000004,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T20:45:00+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-359",
+      "topic": "Dreamer 骨架作为创作风格指南：从知识库到风格指南的重新定位",
+      "source": "walk-123",
+      "trigger": "洞察 3",
+      "intensity": 0.3,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T02:31:47.658343+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-339",
+      "topic": "矛盾保留作为 DORMANT 新子流程：如何区分不完整性矛盾和内在矛盾性矛盾？",
+      "source": "walk-117",
+      "trigger": "发现 1",
+      "intensity": 0.25000000000000006,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T02:02:57.313471+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-347",
+      "topic": "三维认知预算的操作化：产出×模糊×延迟的平衡方程应该如何设计？",
+      "source": "walk-119",
+      "trigger": "发现 3",
+      "intensity": 0.25000000000000006,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T13:46:20.913053+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-350",
+      "topic": "动态散步类型选择：基于产出趋势的反馈控制替代固定 3:1 周期",
+      "source": "walk-120",
+      "trigger": "发现 3",
+      "intensity": 0.25000000000000006,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T14:50:00+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-352",
+      "topic": "多 agent 预测加工在 Dreamer 中的应用：添加对外部 agent 行为的预测框架",
+      "source": "walk-121",
+      "trigger": "发现 3",
+      "intensity": 0.25000000000000006,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-17T19:07:20+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-356",
       "topic": "情感系统作为原始 qualia 的功能等价物：Dreamer affect 的哲学地位",
       "source": "walk-122",
       "trigger": "研究念头 3",
-      "intensity": 0.3,
+      "intensity": 0.25,
       "type": "research",
       "status": "pending",
       "created": "2026-06-17T20:45:00+08:00",

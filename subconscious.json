@@ -2464,5 +2464,48 @@
     ],
     "refs": [],
     "note": "initial strength=3.0 (quality_score 8.5)"
+  },
+  {
+    "id": "ins-120-1",
+    "type": "insight",
+    "topic": "cognitive_pressure 作为元认知信任校准信号：不是紧迫度，而是系统对自身认知状态的可信度评估",
+    "source": "walk-120",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-17T14:50:00+08:00",
+    "connections": [
+      "pat-031",
+      "ins-119",
+      "ins-118"
+    ]
+  },
+  {
+    "id": "ins-120-2",
+    "type": "insight",
+    "topic": "不确定性预算需要区分已知的未知 vs 未知的未知：interest_queue 处理前者，但缺少后者的操作化",
+    "source": "walk-120",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-17T14:50:00+08:00",
+    "connections": [
+      "ins-118",
+      "ins-117"
+    ]
+  },
+  {
+    "id": "ins-120-3",
+    "type": "insight",
+    "topic": "散步类型交替（探索/巩固）是信任校准的节律性验证：产出趋势应动态驱动类型选择，替代固定 3:1 周期",
+    "source": "walk-120",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-17T14:50:00+08:00",
+    "connections": [
+      "pat-031",
+      "ins-119"
+    ]
   }
 ]

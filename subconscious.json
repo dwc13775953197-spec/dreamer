@@ -2769,5 +2769,43 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-124-1",
+    "type": "insight",
+    "content": "延迟悖论有实证支持：CHI 2026 实验证明 2 秒延迟被评为比 9-20 秒更差，即使内容相同。延迟不是成本，是信号。",
+    "strength": 3.0,
+    "score": 0.3,
+    "created": "2026-06-18T07:14:05.801830+08:00",
+    "source": "walk-124",
+    "connections": [
+      "pat-014",
+      "pat-008"
+    ],
+    "decayed_at": null
+  },
+  {
+    "id": "ins-124-2",
+    "type": "insight",
+    "content": "创作型 vs 建议型任务对延迟的敏感性不同：创作型任务需要过程（预期+对比），对延迟更敏感。Dreamer 的散步是转化型交互，35 分钟不是摩擦而是必要空间。",
+    "strength": 3.0,
+    "score": 0.3,
+    "created": "2026-06-18T07:14:05.801830+08:00",
+    "source": "walk-124",
+    "connections": [
+      "pat-008"
+    ],
+    "decayed_at": null
+  },
+  {
+    "id": "ins-124-3",
+    "type": "insight",
+    "content": "延迟 = 认知难度的隐式标注。延迟本身携带信息，就像会话中的停顿传递态度。系统可以在设计中利用延迟作为信号，而不只是作为副作用。",
+    "strength": 3.0,
+    "score": 0.3,
+    "created": "2026-06-18T07:14:05.801830+08:00",
+    "source": "walk-124",
+    "connections": [],
+    "decayed_at": null
   }
 ]

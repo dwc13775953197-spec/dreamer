@@ -139,17 +139,31 @@ cat ~/hermes_dreamer/soul.json | python3 -c "import sys,json; d=json.load(sys.st
 
 **状态限制：** ACTIVE 和 RESTING 可直接触发；DORMANT 状态下如果 walk 计时器到期 → 先切换到 RESTING，再执行 walk。
 
-### 散步类型选择（3:1 周期）
+### 散步类型选择（动态反馈控制）
 
-每次散步开始前，根据 `soul.json` 的 `pulse.total_walks` 决定本次散步类型：
+每次散步开始前，根据 `soul.json` 的 `pulse.total_walks` 和最近散步的产出趋势决定本次散步类型：
+
+**动态规则**（优先级高于固定周期）：
+1. 读取 `soul.json` 的 `quality_history`（最近散步质量评分）
+2. 如果最近 3 次散步 quality_score 平均值 < 6.5 → **强制巩固型**（产出下降，需要消化）
+3. 如果最近 3 次散步 quality_score 平均值 > 8.0 → **强制探索型**（产出高，骨架有新连接值得扩展）
+4. 否则 → **按 3:1 周期**：`total_walks % 4 == 3` 时巩固型，其余探索型
 
 ```python
-walk_number = pulse.total_walks  # 本次散步前已完成的散步数
-if walk_number % 4 == 3:  # 第 4、8、12... 次（0-indexed: 3, 7, 11...）
-    walk_type = "consolidate"  # 巩固型
+# 伪代码
+recent_avg = mean(quality_history[-3:]) if len(quality_history) >= 3 else 7.0
+if recent_avg < 6.5:
+    walk_type = "consolidate"  # 产出下降，强制巩固
+elif recent_avg > 8.0:
+    walk_type = "explore"       # 产出高，强制探索
 else:
-    walk_type = "explore"      # 探索型（默认）
+    walk_type = "consolidate" if total_walks % 4 == 3 else "explore"
 ```
+
+**设计原则**：
+- 动态反馈优先于固定周期——让散步类型响应系统实际状态而非机械日历
+- 3:1 是基线节奏，动态规则是自适应修正
+- 防止连续 4+ 次同类型（如果动态规则和固定周期都指向同类型，第 4 次强制切换）
 
 **探索型（explore）**：默认散步类型。引入外部新材料，探索新领域，扩展概念边界。使用 stress-type 框架（Stretch/Shear/Compress/Twist）。
 

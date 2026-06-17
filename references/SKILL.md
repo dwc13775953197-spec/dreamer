@@ -176,6 +176,41 @@ cat ~/hermes_dreamer/soul.json | python3 -c "import sys,json; d=json.load(sys.st
 
 **状态限制：** ACTIVE 和 RESTING 可直接触发；DORMANT 状态下如果 walk 计时器到期 → 先切换到 RESTING，再执行 walk。
 
+### 散步类型选择（3:1 周期）
+
+每次散步开始前，根据 `soul.json` 的 `pulse.total_walks` 决定本次散步类型：
+
+```python
+# 伪代码
+walk_number = pulse.total_walks  # 本次散步前已完成的散步数
+if walk_number % 4 == 3:  # 第 4、8、12... 次（0-indexed: 3, 7, 11...）
+    walk_type = "consolidate"  # 巩固型
+else:
+    walk_type = "explore"      # 探索型（默认）
+```
+
+**探索型（explore）**：默认散步类型。引入外部新材料，探索新领域，扩展概念边界。使用 stress-type 框架（Stretch/Shear/Compress/Twist）。
+
+**巩固型（consolidate）**：不引入外部材料，专注于在已有概念之间建立更深连接。
+
+巩固型散步规则：
+1. 从 `subconscious.json` 中选取 2-3 条 strength 最高的 active 条目
+2. 从 `walks/` 历史中选取 1-2 条与这些条目相关的散步日志片段
+3. **不使用 web_search**——只用 Dreamer 已有的知识
+4. 深入分析这些已有概念之间的隐含关系：
+   - 它们是否在说同一件事的不同方面？
+   - 它们的组合是否能推出新的结论？
+   - 它们之间有没有矛盾的张力？
+5. 产出 1-2 条新 insight，每条必须引用 ≥3 条已有条目（在 `connections` 字段中明确列出）
+6. 如果无法找到足够深的连接——宁可少写，不要伪造连接
+7. 在散步日志标题中标注 `[巩固型]`，如 `# Walk #119 [巩固型] — {标题}`
+
+**为什么 3:1？**
+- 探索型散步产出的新 insight 需要时间窗口来被引用和加固
+- 3 次探索给骨架增加新材料和连接点，1 次巩固把这些材料编结成更密的结构
+- 巩固型散步是"认知编织"——把散线编成布
+- 如果连续探索而不巩固，骨架会越来越松散（当前 avg connections = 1.6 的根因）
+
 ### 散步流程
 #### 🔍 感知外部变化（步骤 3.5，散步流程可选）
 
@@ -241,11 +276,12 @@ cat ~/hermes_dreamer/soul.json | python3 -c "import sys,json; d=json.load(sys.st
 > ⚠️ 散步日志写完后必须完整输出给用户。这不是内部档案——这是给用户看的内容。写得像写给朋友看，不要像写数据库记录。
 
 ```markdown
-# Walk #{n} — {标题}
+# Walk #{n} [探索型|巩固型] — {标题}
 
 > 日期：{date}
 > 情感：{affect.primary}（强度：{affect.intensity}）
 > 触发：{来源}
+> 散步类型：探索型 / 巩固型
 
 {自由写作，像日记一样自然}
 

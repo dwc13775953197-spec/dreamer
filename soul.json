@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T10:13:51.806439+08:00",
+    "next_scheduled": "2026-06-18T10:50:42.814030+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T08:13:38+08:00",
-    "total_walks": 75,
+    "last_walk_at": "2026-06-18T10:20:42.814030+08:00",
+    "total_walks": 76,
     "last_pulse_output": "2026-06-18T09:43:51.806439+08:00",
-    "last_walk": "2026-06-18T08:13:38+08:00",
+    "last_walk": "2026-06-18T10:20:42+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 38.72,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.0,
       8.5,
@@ -43,7 +42,8 @@
       8.0,
       7.5,
       8.0,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -56,8 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      47.2,
-      18.2,
       18.45,
       52.81,
       42.81,
@@ -105,7 +103,9 @@
       48.72,
       65.72,
       20.72,
-      38.72
+      38.72,
+      100.0,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -312,12 +312,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-18T07:13:38+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-18T10:20:42.814030+08:00"
     }
   ],
-  "last_walk": "2026-06-18T02:30:00+08:00",
+  "last_walk": "2026-06-18T10:20:42+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 72,
+  "total_walks": 76,
   "topics": [
     "emergence",
     "consciousness",
@@ -483,173 +487,41 @@
     "SGE",
     "process-monitoring"
   ],
-  "pending_insights": 19,
+  "pending_insights": 22,
   "pending_research": 2,
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-363",
-      "topic": "Session-Governor-Executor 在 Dreamer 中的涌现验证：架构吸引子假说",
-      "source": "walk-125",
-      "trigger": "洞察 1",
-      "intensity": 0.35,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T08:13:38+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-364",
-      "topic": "过程监控的工程化：散步碰撞点嵌入轻量自评",
-      "source": "walk-125",
-      "trigger": "研究念头 1",
+      "id": "seed-366",
+      "topic": "认知代谢率作为 AI 系统健康度的实时监控指标",
+      "source": "walk-126",
+      "trigger": "洞察 3",
       "intensity": 0.3,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T08:13:38+08:00",
+      "created": "2026-06-18T10:20:42.814030+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-360",
-      "topic": "延迟作为认知信号：Dreamer散步的最优延迟实验设计",
-      "source": "walk-124",
+      "id": "seed-367",
+      "topic": "信息线索感知能力的训练曲线：AI 辅助如何改变人类的搜索策略",
+      "source": "walk-126",
       "trigger": "研究念头 1",
       "intensity": 0.25,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T07:13:38+08:00",
+      "created": "2026-06-18T10:20:42.814030+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-365",
-      "topic": "认知架构的三条路径：工程路径 vs 认知科学路径 vs 自我演化路径",
-      "source": "walk-125",
-      "trigger": "研究念头 2",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T08:13:38+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-345",
-      "topic": "认知成熟度指标：如何衡量一个想法是否准备好被散步加工？",
-      "source": "walk-119",
-      "trigger": "发现 1",
-      "intensity": 0.2,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T13:46:20.913053+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-348",
-      "topic": "元认知信任校准的贝叶斯建模：先验（历史质量）× 似然（材料成熟度）→ 后验（散步决策）",
-      "source": "walk-120",
+      "id": "seed-368",
+      "topic": "Dreamer 散步流程的最优延迟自校准：根据 energy 和产出趋势动态调整搜索深度",
+      "source": "walk-126",
       "trigger": "研究念头 2",
       "intensity": 0.2,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-17T14:50:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-351",
-      "topic": "感知缓冲区设计：散步开头的\"感知对齐\"子步骤的成本-收益分析",
-      "source": "walk-121",
-      "trigger": "发现 2",
-      "intensity": 0.2,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T19:07:20+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-354",
-      "topic": "主动推理 vs 生成式 AI 认识论框架：Dreamer 骨架作为第三种路径",
-      "source": "walk-122",
-      "trigger": "研究念头 1",
-      "intensity": 0.2,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T20:45:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-357",
-      "topic": "AI 创作的可控失控：约束空间的最大熵模型",
-      "source": "walk-123",
-      "trigger": "研究念头 1",
-      "intensity": 0.2,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T02:31:47.658343+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-361",
-      "topic": "DORMANT 周期的自适应长度：基于认知重组预估时间的动态调整",
-      "source": "walk-124",
-      "trigger": "研究念头 2",
-      "intensity": 0.2,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T07:13:38+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-342",
-      "topic": "负能力作为 Dreamer 的模糊预算参数：如何操作化和测量认知模糊度？",
-      "source": "walk-118",
-      "trigger": "发现 1",
-      "intensity": 0.15,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T08:19:59+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-346",
-      "topic": "呼吸散步实验：不产出洞察的散步是否能提升后续散步的质量？",
-      "source": "walk-119",
-      "trigger": "发现 2",
-      "intensity": 0.15,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T13:46:20.913053+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-349",
-      "topic": "\"未知的未知\"探测机制：随机碰撞子步骤的设计与评估",
-      "source": "walk-120",
-      "trigger": "研究念头 1",
-      "intensity": 0.15,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T14:50:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-355",
-      "topic": "Markov 毯作为 Dreamer 认知架构的设计原则",
-      "source": "walk-122",
-      "trigger": "研究念头 2",
-      "intensity": 0.15,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-17T20:45:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-359",
-      "topic": "Dreamer 骨架作为创作风格指南：从知识库到风格指南的重新定位",
-      "source": "walk-123",
-      "trigger": "洞察 3",
-      "intensity": 0.15,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T02:31:47.658343+08:00",
+      "created": "2026-06-18T10:20:42.814030+08:00",
       "decay_rate": 1
     }
   ],
@@ -664,7 +536,7 @@
     "skepticism": 1.01,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.2,
+  "walk_quality_avg": 8.15,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -764,5 +636,5 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-18T02:30:00+08:00"
+  "last_walk_at": "2026-06-18T10:20:42.814030+08:00"
 }

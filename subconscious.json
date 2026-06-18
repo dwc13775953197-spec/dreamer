@@ -3013,5 +3013,49 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score 8.5, initial strength 3.0, weaker confidence"
+  },
+  {
+    "id": "ins-131-1",
+    "topic": "认知债是 Dreamer 成功的结构性产物——每次高质量产出增加能力也增加理解维护成本",
+    "strength": 5.0,
+    "status": "active",
+    "connections": [
+      "ins-127",
+      "ins-128-1",
+      "ins-130"
+    ],
+    "created": "2026-06-18T15:48:40.000196+08:00",
+    "decayed_at": [],
+    "type": "insight",
+    "source": "walk-131"
+  },
+  {
+    "id": "ins-131-2",
+    "topic": "Lost-in-the-middle 效应映射 Dreamer：strength 1.5-2.5 的条目处于认知灰色地带——存在但不被感知，是认知幽灵",
+    "strength": 5.0,
+    "status": "active",
+    "connections": [
+      "ins-128-2",
+      "ins-128-3"
+    ],
+    "created": "2026-06-18T15:48:40.000196+08:00",
+    "decayed_at": [],
+    "type": "insight",
+    "source": "walk-131"
+  },
+  {
+    "id": "ins-131-3",
+    "topic": "Storey 三层模型的社会层在 Dreamer 中对应用户——cron 模式下第 3 层完全缺失时认知债静默增长，需要认知审计机制替代外部验证",
+    "strength": 5.0,
+    "status": "active",
+    "connections": [
+      "ins-120-1",
+      "ins-125-3",
+      "ins-131-1"
+    ],
+    "created": "2026-06-18T15:48:40.000196+08:00",
+    "decayed_at": [],
+    "type": "insight",
+    "source": "walk-131"
   }
 ]

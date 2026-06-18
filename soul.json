@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-18T19:54:04.522278+08:00",
-    "last_active": "2026-06-18T19:54:04.522278+08:00",
+    "state_since": "2026-06-18T21:09:36.651048+08:00",
+    "last_active": "2026-06-18T21:09:36.651048+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T20:58:56.090258+08:00",
+    "next_scheduled": "2026-06-18T22:09:36.651778+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T19:54:04.522278+08:00",
-    "total_walks": 134,
+    "last_walk_at": "2026-06-18T21:09:36.651048+08:00",
+    "total_walks": 135,
     "last_pulse_output": "2026-06-18T20:28:56.090258+08:00",
     "last_walk": "2026-06-18T19:54:04.522278+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 28.59,
+    "cognitive_pressure": 19.480000000000004,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.5,
       8.5,
@@ -42,6 +41,7 @@
       8.5,
       8.5,
       8.0,
+      8.5,
       8.5,
       8.5
     ],
@@ -117,11 +117,11 @@
     "pending_insights": 31
   },
   "affect": {
-    "primary": "contemplative",
-    "secondary": "wonder",
-    "intensity": 0.8,
+    "primary": "wonder",
+    "secondary": "unsettled_fascination",
+    "intensity": 0.75,
     "valence": 0.4,
-    "arousal": 0.6,
+    "arousal": 0.65,
     "rigor": 0.95
   },
   "energy": 29,
@@ -354,6 +354,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-18T19:54:04.522278+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-18T21:09:36.651048+08:00"
     }
   ],
   "last_walk": "2026-06-18T19:13:22.730790+08:00",
@@ -527,74 +531,19 @@
     "planning-horizon",
     "cognitive-debt"
   ],
-  "pending_insights": 93,
+  "pending_insights": 96,
   "pending_research": 2,
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-384",
-      "topic": "认知债利息率的定量测量：低强度条目衰减如何影响高强度条目调用成功率",
-      "source": "walk-132",
-      "trigger": "洞察 1",
-      "intensity": 0.65,
+      "id": "seed-393",
+      "topic": "RIF-based decay: fixation detection + accelerated decay trigger mechanism",
+      "source": "walk-135",
+      "trigger": "insight 1 + 3 cross-walk",
+      "intensity": 0.85,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T17:31:30.669724+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-385",
-      "topic": "Ego depletion 信念依赖模型映射 Dreamer DORMANT：衰减作为自我实现的预言",
-      "source": "walk-132",
-      "trigger": "洞察 2",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T17:31:30.669724+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-386",
-      "topic": "Dreamer 概念危机的诊断：evolved_rules 信念 vs DORMANT 行为的系统性偏差",
-      "source": "walk-132",
-      "trigger": "洞察 3",
-      "intensity": 0.5,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T17:31:30.669724+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-387",
-      "topic": "DORMANT consolidation 缺失：从均匀衰减到智能巩固（合并+解决+抽象）",
-      "source": "walk-133",
-      "trigger": "洞察 1",
-      "intensity": 0.7000000000000001,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T19:13:22.730790+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-388",
-      "topic": "结构性遗忘 vs 时间性遗忘：基于连接数+引用频率的差异化衰减模型",
-      "source": "walk-133",
-      "trigger": "洞察 3",
-      "intensity": 0.6,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T19:13:22.730790+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-389",
-      "topic": "Dreamer 规模 vs Indium high-volume agent：记忆管理策略的适用边界",
-      "source": "walk-133",
-      "trigger": "反思：替代解释",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-18T19:13:22.730790+08:00",
+      "created": "2026-06-18T21:09:36.651048+08:00",
       "decay_rate": 1
     },
     {
@@ -602,17 +551,6 @@
       "topic": "Skeleton LRU 淘汰策略：基于引用时间的 evolved_rules 动态维护",
       "source": "walk-134",
       "trigger": "洞察 1",
-      "intensity": 0.85,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T19:54:04.522278+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-391",
-      "topic": "AGM 矛盾检测实现：新 evolved_rule 加入前的形式化一致性检查",
-      "source": "walk-134",
-      "trigger": "洞察 2",
       "intensity": 0.75,
       "type": "research",
       "status": "pending",
@@ -620,14 +558,91 @@
       "decay_rate": 1
     },
     {
+      "id": "seed-394",
+      "topic": "Dreamer entry competition relation inference: from citation pattern to competition graph",
+      "source": "walk-135",
+      "trigger": "design implication",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-18T21:09:36.651048+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-391",
+      "topic": "AGM 矛盾检测实现：新 evolved_rule 加入前的形式化一致性检查",
+      "source": "walk-134",
+      "trigger": "洞察 2",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T19:54:04.522278+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-395",
+      "topic": "Einstellung Effect validation in Dreamer: historical walk type sequence analysis",
+      "source": "walk-135",
+      "trigger": "insight 2",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T21:09:36.651048+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-387",
+      "topic": "DORMANT consolidation 缺失：从均匀衰减到智能巩固（合并+解决+抽象）",
+      "source": "walk-133",
+      "trigger": "洞察 1",
+      "intensity": 0.6000000000000001,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T19:13:22.730790+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-392",
       "topic": "Dreamer 四层内存架构完整映射：subconscious 作为页面文件的 LRU 加载机制",
       "source": "walk-134",
       "trigger": "洞察 3",
-      "intensity": 0.7,
+      "intensity": 0.6,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T19:54:04.522278+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-384",
+      "topic": "认知债利息率的定量测量：低强度条目衰减如何影响高强度条目调用成功率",
+      "source": "walk-132",
+      "trigger": "洞察 1",
+      "intensity": 0.55,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T17:31:30.669724+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-388",
+      "topic": "结构性遗忘 vs 时间性遗忘：基于连接数+引用频率的差异化衰减模型",
+      "source": "walk-133",
+      "trigger": "洞察 3",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T19:13:22.730790+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-385",
+      "topic": "Ego depletion 信念依赖模型映射 Dreamer DORMANT：衰减作为自我实现的预言",
+      "source": "walk-132",
+      "trigger": "洞察 2",
+      "intensity": 0.45000000000000007,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T17:31:30.669724+08:00",
       "decay_rate": 1
     }
   ],

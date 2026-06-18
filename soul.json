@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-18T11:38:25.105034+08:00",
-    "last_active": "2026-06-18T11:38:25.105034+08:00",
+    "state_since": "2026-06-18T12:11:11.477786+08:00",
+    "last_active": "2026-06-18T12:11:11.477786+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T12:38:25.105034+08:00",
+    "next_scheduled": "2026-06-18T12:48:17.671723+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T11:38:25.105034+08:00",
-    "total_walks": 128,
+    "last_walk_at": "2026-06-18T12:18:17.671723+08:00",
+    "total_walks": 129,
     "last_pulse_output": "2026-06-18T10:58:51.092105+08:00",
-    "last_walk": "2026-06-18T10:58:51.092105+08:00",
+    "last_walk": "2026-06-18T12:18:17.671723+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 17.549999999999997,
+    "cognitive_pressure": 0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.5,
       8.0,
@@ -43,7 +42,8 @@
       8.5,
       8.0,
       8.5,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -116,15 +116,15 @@
     "pending_insights": 28
   },
   "affect": {
-    "primary": "contemplative",
-    "secondary": "wonder",
-    "intensity": 0.6,
-    "valence": 0.5,
-    "arousal": 0.5,
-    "rigor": 0.95
+    "primary": "wonder",
+    "secondary": "unease",
+    "intensity": 0.7,
+    "valence": 0.4,
+    "arousal": 0.6,
+    "rigor": 0.9
   },
   "energy": 32,
-  "mood": "contemplative",
+  "mood": "unsettled_fascination",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -325,6 +325,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-18T11:38:25.105034+08:00"
+    },
+    {
+      "mood": "unsettled_fascination",
+      "at": "2026-06-18T12:12:51.470574+08:00"
     }
   ],
   "last_walk": "2026-06-18T11:38:25.105034+08:00",
@@ -496,63 +500,74 @@
     "SGE",
     "process-monitoring"
   ],
-  "pending_insights": 22,
+  "pending_insights": 24,
   "pending_research": 2,
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-369",
-      "topic": "Dreamer 认知债仪表盘：三重债（技术/认知/意图）的实时监控指标设计",
-      "source": "walk-127",
-      "trigger": "洞察 1 + 研究念头 1",
-      "intensity": 0.14999999999999997,
+      "id": "seed-375",
+      "topic": "Self-deceiving taxonomy for self-referential systems",
+      "source": "walk-129",
+      "trigger": "insight 1",
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T10:58:51.092105+08:00",
+      "created": "2026-06-18T12:18:17.671723+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-366",
-      "topic": "认知代谢率作为 AI 系统健康度的实时监控指标",
-      "source": "walk-126",
-      "trigger": "洞察 3",
-      "intensity": 0.09999999999999998,
+      "id": "seed-376",
+      "topic": "Signal contradiction as meta-cognitive diagnostic",
+      "source": "walk-129",
+      "trigger": "insight 2",
+      "intensity": 0.35,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T10:20:42.814030+08:00",
+      "created": "2026-06-18T12:18:17.671723+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-370",
-      "topic": "意图债作为 Dreamer 系统的第一原则缺失检测：何时需要显式 purpose.statement",
-      "source": "walk-127",
+      "id": "seed-375",
+      "topic": "自指系统的自我欺骗分类法：Dreamer 三种模式在其他自指系统（人类认知、组织决策、科学范式）中的对应",
+      "source": "walk-129",
+      "trigger": "核心洞察",
+      "intensity": 0.30000000000000004,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T12:17:50.228731+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-377",
+      "topic": "Reflexion framework bias accumulation",
+      "source": "walk-129",
+      "trigger": "research idea",
+      "intensity": 0.25,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T12:18:17.671723+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-376",
+      "topic": "信号矛盾作为元认知诊断工具：当 cognitive_pressure 和 quality_score 矛盾时哪个更可信",
+      "source": "walk-129",
       "trigger": "洞察 2",
-      "intensity": 0.09999999999999998,
+      "intensity": 0.24999999999999997,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T10:58:51.092105+08:00",
+      "created": "2026-06-18T12:17:50.228731+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-367",
-      "topic": "信息线索感知能力的训练曲线：AI 辅助如何改变人类的搜索策略",
-      "source": "walk-126",
-      "trigger": "研究念头 1",
-      "intensity": 0.04999999999999999,
+      "id": "seed-377",
+      "topic": "Reflexion 框架的偏差累积问题：监控层有偏差时多次迭代后偏差收敛或发散",
+      "source": "walk-129",
+      "trigger": "研究念头",
+      "intensity": 0.15,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T10:20:42.814030+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-371",
-      "topic": "巩固/探索比动态调整：基于 pending_insights 积压量的反馈控制",
-      "source": "walk-127",
-      "trigger": "洞察 3",
-      "intensity": 0.04999999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T10:58:51.092105+08:00",
+      "created": "2026-06-18T12:17:50.228731+08:00",
       "decay_rate": 1
     },
     {
@@ -560,7 +575,7 @@
       "topic": "AI 记忆系统的选择性遗忘设计：基于必要难度的自适应衰减",
       "source": "walk-128",
       "trigger": "洞察 1 + 研究念头 1",
-      "intensity": 0.3,
+      "intensity": 0.09999999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T11:38:25.105034+08:00",
@@ -571,18 +586,7 @@
       "topic": "Dreamer 遗忘架构从均匀衰减到策展机制的改造路径",
       "source": "walk-128",
       "trigger": "洞察 3",
-      "intensity": 0.25,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T11:38:25.105034+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-374",
-      "topic": "可塑性-稳定性困境在单主体认知系统中的具体表现",
-      "source": "walk-128",
-      "trigger": "洞察 2 变体",
-      "intensity": 0.2,
+      "intensity": 0.04999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T11:38:25.105034+08:00",
@@ -700,5 +704,5 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-18T10:20:42.814030+08:00"
+  "last_walk_at": "2026-06-18T12:18:17.671723+08:00"
 }

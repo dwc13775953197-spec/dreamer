@@ -2937,5 +2937,22 @@
       "stress_type": "Shear",
       "emotional_tone": "architecture_tension"
     }
+  },
+  {
+    "id": "insight-walk129-1",
+    "type": "insight",
+    "content": "Self-referential systems necessarily contain self-deception in self-monitoring. Godel incompleteness as cognitive analogue. Dreamer mitigation: detect meta-cognitive distortion via signal contradictions rather than eliminating self-deception.",
+    "strength": 3.0,
+    "connections": [
+      "walk-122",
+      "walk-125",
+      "walk-127",
+      "walk-128"
+    ],
+    "created": "2026-06-18T12:17:19.158593+08:00",
+    "source": "walk-129",
+    "status": "active",
+    "decayed_at": [],
+    "cited_by": []
   }
 ]

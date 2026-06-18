@@ -3268,5 +3268,48 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "Competitive inhibition decay design"
+  },
+  {
+    "id": "entry-061",
+    "type": "insight",
+    "content": "Dreamer arch metaphor shift: economy to ecology",
+    "strength": 5.0,
+    "connections": [
+      "entry-052-skeleton-is-ram",
+      "entry-056-cognitive-matthew"
+    ],
+    "created": "2026-06-18T23:17:00+08:00",
+    "status": "active",
+    "walk_source": "walk-136",
+    "decay_count": 0
+  },
+  {
+    "id": "entry-062",
+    "type": "insight",
+    "content": "Local not global competition: citation triggers within-domain suppression per RIF, not uniform decay",
+    "strength": 5.0,
+    "connections": [
+      "entry-058-rif-decay",
+      "entry-053-sleep-consolidation"
+    ],
+    "created": "2026-06-18T23:17:00+08:00",
+    "status": "active",
+    "walk_source": "walk-136",
+    "decay_count": 0
+  },
+  {
+    "id": "entry-063",
+    "type": "insight",
+    "content": "DORMANT under auto-attention dominance: needs weak topdown signal to balance Matthew effect",
+    "strength": 5.0,
+    "connections": [
+      "entry-054-allostasis",
+      "entry-056-cognitive-matthew",
+      "entry-051-dormant-as-incubation"
+    ],
+    "created": "2026-06-18T23:17:00+08:00",
+    "status": "active",
+    "walk_source": "walk-136",
+    "decay_count": 0
   }
 ]

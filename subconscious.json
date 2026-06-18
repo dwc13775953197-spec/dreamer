@@ -3614,5 +3614,70 @@
     "source": "walk-138",
     "status": "active",
     "decayed_at": null
+  },
+  {
+    "id": "ins-139-01",
+    "content": "curiosity trap: Dreamer goal drift = each walk led by previous insight to new direction but directions are parallel not progressive. Fix: active_hypothesis anchoring.",
+    "type": "insight",
+    "strength": 4.0,
+    "score": 0.35,
+    "created": "2026-06-19T06:29:55.738019+08:00",
+    "source": "walk-139",
+    "status": "active",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-114",
+      "ins-113"
+    ],
+    "refs": [
+      "walk-139"
+    ],
+    "decay_speed": 1,
+    "note": ""
+  },
+  {
+    "id": "ins-139-02",
+    "content": "progressive memory compression: key content lossless, routine content lossy. evolved_rules mixes both.",
+    "type": "insight",
+    "strength": 3.5,
+    "score": 0.3,
+    "created": "2026-06-19T06:29:55.738019+08:00",
+    "source": "walk-139",
+    "status": "active",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-113"
+    ],
+    "refs": [
+      "walk-139"
+    ],
+    "decay_speed": 1,
+    "note": ""
+  },
+  {
+    "id": "ins-139-03",
+    "content": "active_hypothesis: upgrade explore-discover to hypothesis-verify. Add active_hypothesis to soul.json. Like CORPGEN strategic objective.",
+    "type": "insight",
+    "strength": 4.0,
+    "score": 0.35,
+    "created": "2026-06-19T06:29:55.738019+08:00",
+    "source": "walk-139",
+    "status": "active",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-114",
+      "ins-139-01"
+    ],
+    "refs": [
+      "walk-139"
+    ],
+    "decay_speed": 1,
+    "note": ""
   }
 ]

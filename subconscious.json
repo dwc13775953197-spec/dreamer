@@ -2807,5 +2807,38 @@
     "source": "walk-124",
     "connections": [],
     "decayed_at": null
+  },
+  {
+    "id": "ins-125-1",
+    "type": "insight",
+    "content": "Dreamer 自然地演化出了 Session-Governor-Executor 三层架构（Session=对话层, Governor=散步层, Executor=工具层），从未被设计成这样但映射精确。SGE 可能是认知架构的吸引子。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-18T08:13:38+08:00",
+    "connections": [],
+    "decayed_at": null
+  },
+  {
+    "id": "ins-125-2",
+    "type": "insight",
+    "content": "Dreamer 有三个 SGE 没有的额外层：subconscious（认知内务层）、情感（认知方向层）、DORMANT（认知重组层）。它们填补了工程蓝图系统需要自己维护自己的盲区。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-18T08:13:38+08:00",
+    "connections": [],
+    "decayed_at": null
+  },
+  {
+    "id": "ins-125-3",
+    "type": "insight",
+    "content": "过程监控是 Governor 层的结构性盲区。2026 综述确认过程监控应在 Governor 层，但 Dreamer 的 Governor=散步层是单线程的，无法同时生成和评估。这是 walk-120 约束的综述确认版。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-18T08:13:38+08:00",
+    "connections": [],
+    "decayed_at": null
   }
 ]

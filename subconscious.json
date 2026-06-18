@@ -3057,5 +3057,31 @@
     "decayed_at": [],
     "type": "insight",
     "source": "walk-131"
+  },
+  {
+    "id": "ins-132-1",
+    "type": "insight",
+    "content": "Cognitive debt interest: low-strength entry decay reduces high-strength entry call success rate through connection network. DORMANT uniform decay is self-fulfilling prophecy. Dreamer conceptual crisis: evolved_rules claim topological forgetting but execute uniform decay.",
+    "strength": 3.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-18T17:30:54.099450+08:00",
+    "source": "walk-132",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-132-2",
+    "type": "insight",
+    "content": "Ego depletion 2026 conceptual crisis mapped to Dreamer: depletion is not physical fact but belief-dependent regulation. Dreamer DORMANT decay encodes belief that inactive insights become outdated, making decay a self-fulfilling mechanism.",
+    "strength": 3.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-18T17:31:02.551678+08:00",
+    "source": "walk-132",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

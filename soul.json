@@ -7,21 +7,21 @@
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T17:08:36.891167+08:00",
+    "next_scheduled": "2026-06-18T18:01:30.669724+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T15:48:21.208948+08:00",
-    "total_walks": 131,
+    "last_walk_at": "2026-06-18T17:31:30.669724+08:00",
+    "total_walks": 132,
     "last_pulse_output": "2026-06-18T15:48:21.208948+08:00",
-    "last_walk": "2026-06-18T15:48:21.208948+08:00",
+    "last_walk": "2026-06-18T17:31:30.669724+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 78.45,
+    "cognitive_pressure": 48.45,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       7.5,
       8.0,
       8.5,
@@ -43,7 +42,8 @@
       8.5,
       8.0,
       8.5,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -342,6 +342,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-18T15:48:21.208948+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-18T17:31:30.669724+08:00"
     }
   ],
   "last_walk": "2026-06-18T11:38:25.105034+08:00",
@@ -515,41 +519,41 @@
     "planning-horizon",
     "cognitive-debt"
   ],
-  "pending_insights": 91,
+  "pending_insights": 93,
   "pending_research": 2,
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-381",
-      "topic": "认知审计的因果推断方法：如何测量一条 insight 对 Dreamer 后续散步的实际影响",
-      "source": "walk-131",
-      "trigger": "核心发现",
+      "id": "seed-384",
+      "topic": "认知债利息率的定量测量：低强度条目衰减如何影响高强度条目调用成功率",
+      "source": "walk-132",
+      "trigger": "洞察 1",
       "intensity": 0.75,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T15:48:21.208948+08:00",
+      "created": "2026-06-18T17:31:30.669724+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-382",
-      "topic": "Lost-in-the-middle 效应在 Dreamer subconscious 中的具体表现：哪些 strength 范围的条目处于认知灰色地带",
-      "source": "walk-131",
+      "id": "seed-385",
+      "topic": "Ego depletion 信念依赖模型映射 Dreamer DORMANT：衰减作为自我实现的预言",
+      "source": "walk-132",
       "trigger": "洞察 2",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T17:31:30.669724+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-386",
+      "topic": "Dreamer 概念危机的诊断：evolved_rules 信念 vs DORMANT 行为的系统性偏差",
+      "source": "walk-132",
+      "trigger": "洞察 3",
       "intensity": 0.6,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T15:48:21.208948+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-383",
-      "topic": "Storey 三层模型的社会层在自主 agent 中的替代机制：没有用户在场时如何验证产出的可理解性",
-      "source": "walk-131",
-      "trigger": "洞察 3",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T15:48:21.208948+08:00",
+      "created": "2026-06-18T17:31:30.669724+08:00",
       "decay_rate": 1
     }
   ],
@@ -560,8 +564,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.15,
-    "rigor": 1.95,
-    "skepticism": 1.1300000000000001,
+    "rigor": 2.0,
+    "skepticism": 1.16,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.15,

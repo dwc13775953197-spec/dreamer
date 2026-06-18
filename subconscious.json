@@ -3156,5 +3156,55 @@
     "decay_rate": 1,
     "decay_speed": "normal",
     "note": "walk-133 insight 3, quality_score 8.5"
+  },
+  {
+    "id": "insight-134-1",
+    "type": "insight",
+    "category": "cognitive-architecture",
+    "content": "Dreamer skeleton is RAM (working memory), not storage. Current 130 evolved_rules = using RAM as disk. Causes token inflation, preference dilution, rule contradictions, cross-walk inconsistency. Should cap at ~30 active rules, load rest from subconscious on demand.",
+    "strength": 5.0,
+    "connections": [
+      "evolved_rules",
+      "skeleton",
+      "memory-architecture"
+    ],
+    "created": "2026-06-18T19:53:38.547377+08:00",
+    "last_referenced": "2026-06-18T19:53:38.547377+08:00",
+    "decay_count": 0,
+    "source": "walk-134"
+  },
+  {
+    "id": "insight-134-2",
+    "type": "insight",
+    "category": "belief-revision",
+    "content": "AGM belief revision mapped to Dreamer: success (new insight must be included) violated; inclusion (consistency check before adding) missing; relevance (minimal change on contradiction) unimplemented. Kumiho graph-native memory proves formal belief revision works for agent memory.",
+    "strength": 5.0,
+    "connections": [
+      "evolved_rules",
+      "AGM",
+      "belief-base",
+      "Kumiho"
+    ],
+    "created": "2026-06-18T19:53:38.547377+08:00",
+    "last_referenced": "2026-06-18T19:53:38.547377+08:00",
+    "decay_count": 0,
+    "source": "walk-134"
+  },
+  {
+    "id": "insight-134-3",
+    "type": "insight",
+    "category": "memory-architecture",
+    "content": "Dreamer 4-layer memory arch: skeleton=RAM (active reasoning, ~30 cap), subconscious=page file (load to skeleton on demand), walks=persistent storage (no index), DORMANT=page-out + GC. Current problem: RAM layer doing storage job.",
+    "strength": 5.0,
+    "connections": [
+      "skeleton",
+      "subconscious",
+      "DORMANT",
+      "LRU"
+    ],
+    "created": "2026-06-18T19:53:38.547377+08:00",
+    "last_referenced": "2026-06-18T19:53:38.547377+08:00",
+    "decay_count": 0,
+    "source": "walk-134"
   }
 ]

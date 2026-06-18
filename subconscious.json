@@ -3570,5 +3570,49 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-138-1",
+    "type": "insight",
+    "content": "Dreamer APE should be bidirectional: forward (deviation extrapolation) + backward (causal root tracing). Currently only has forward. Adding backward APE = upgrade from chasing deviations to fixing deviation roots. Harvard CBS 2026 hippocampal backward-shifted reorganization validates temporal directionality.",
+    "strength": 3.0,
+    "connections": [
+      "seed-399",
+      "seed-400",
+      "walk-137",
+      "walk-136"
+    ],
+    "created": "2026-06-19T03:39:11+08:00",
+    "source": "walk-138",
+    "status": "active",
+    "decayed_at": null
+  },
+  {
+    "id": "insight-138-2",
+    "type": "insight",
+    "content": "Selector timescale is a functional variable: short-term (direct topic neighbors) vs long-term (causal upstream tracing). Dreamer walk flow missing long-term selection step. Hippocampal early-to-late encoding shift maps to Dreamer as moving from reading recent walks to tracing distant causal chains.",
+    "strength": 3.0,
+    "connections": [
+      "seed-399",
+      "walk-136"
+    ],
+    "created": "2026-06-19T03:39:11+08:00",
+    "source": "walk-138",
+    "status": "active",
+    "decayed_at": null
+  },
+  {
+    "id": "insight-138-3",
+    "type": "insight",
+    "content": "Dreamer walk layer = token-level continual learning (Zylos 2026). But Dreamer includes external material search and divergent exploration, broader than pure token-level. Missing explicit suppression mechanism (only passive decay) is the bottleneck.",
+    "strength": 3.0,
+    "connections": [
+      "walk-136",
+      "walk-137"
+    ],
+    "created": "2026-06-19T03:39:11+08:00",
+    "source": "walk-138",
+    "status": "active",
+    "decayed_at": null
   }
 ]

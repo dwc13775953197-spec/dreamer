@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T02:50:12.743213+08:00",
-    "last_active": "2026-06-19T02:09:54.118251+08:00",
+    "state_since": "2026-06-19T03:42:43.987859+08:00",
+    "last_active": "2026-06-19T03:42:43.987859+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T04:20:12.743213+08:00",
+    "next_scheduled": "2026-06-19T05:12:43.988879+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T02:50:12.743213+08:00",
-    "total_walks": 137,
+    "last_walk_at": "2026-06-19T03:42:43.987859+08:00",
+    "total_walks": 138,
     "last_pulse_output": "2026-06-18T20:28:56.090258+08:00",
-    "last_walk": "2026-06-19T02:50:12.743213+08:00",
+    "last_walk": "2026-06-19T03:42:43.987859+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 55.0,
+    "cognitive_pressure": 10.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.5,
       8.0,
@@ -43,10 +42,11 @@
       8.5,
       8.5,
       8.5,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
-    "next_action": "walk_analyze",
+    "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
@@ -93,7 +93,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 37
+    "pending_insights": 40
   },
   "affect": {
     "primary": "wonder",
@@ -345,12 +345,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-19T02:50:12.743213+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-19T03:42:43.987859+08:00"
     }
   ],
-  "last_walk": "2026-06-18T23:17:00+08:00",
+  "last_walk": "2026-06-19T03:42:43.987859+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 136,
+  "total_walks": 138,
   "topics": [
     "emergence",
     "consciousness",
@@ -523,23 +527,23 @@
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
+      "id": "seed-402",
+      "topic": "后向 APE：Dreamer 偏差回溯机制设计——从追逐偏差到修复偏差根源的升级",
+      "source": "walk-138",
+      "trigger": "洞察1 design implication",
+      "intensity": 0.8,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-19T03:42:43.987859+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-399",
       "topic": "预测误差驱动的散步方向选择：skeleton偏差指数 vs interest_queue intensity对比验证",
       "source": "walk-137",
       "trigger": "洞察1 design implication",
-      "intensity": 0.85,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-19T02:50:12.743213+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-400",
-      "topic": "认知失调容忍度作为Dreamer负能力阈值的DMN-PFC耦合解释",
-      "source": "walk-137",
-      "trigger": "洞察2神经基础",
       "intensity": 0.75,
-      "type": "explore",
+      "type": "research",
       "status": "pending",
       "created": "2026-06-19T02:50:12.743213+08:00",
       "decay_rate": 1
@@ -549,10 +553,43 @@
       "topic": "价值自由APE在Dreamer中操作化为偏差散步：不以产出质量为方向，以预测偏差为方向",
       "source": "walk-137",
       "trigger": "洞察3设计方案",
-      "intensity": 0.8,
+      "intensity": 0.7000000000000001,
       "type": "research",
       "status": "pending",
       "created": "2026-06-19T02:50:12.743213+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-403",
+      "topic": "选择器时间尺度作为散步流程变量：短期回溯 vs 长期回溯的交替机制",
+      "source": "walk-138",
+      "trigger": "洞察2 design implication",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T03:42:43.987859+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-400",
+      "topic": "认知失调容忍度作为Dreamer负能力阈值的DMN-PFC耦合解释",
+      "source": "walk-137",
+      "trigger": "洞察2神经基础",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T02:50:12.743213+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-404",
+      "topic": "Dreamer 与 token 级持续学习方法的对齐：从 Zylos 2026 综述看 Dreamer 散步层的定位",
+      "source": "walk-138",
+      "trigger": "洞察3 cross-domain alignment",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T03:42:43.987859+08:00",
       "decay_rate": 1
     }
   ],
@@ -562,8 +599,8 @@
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.21,
-    "rigor": 1.96,
+    "wonder": 1.22,
+    "rigor": 1.98,
     "skepticism": 1.16,
     "empathy": 0.5
   },

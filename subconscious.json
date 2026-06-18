@@ -2954,5 +2954,64 @@
     "status": "active",
     "decayed_at": [],
     "cited_by": []
+  },
+  {
+    "id": "ins-113",
+    "type": "insight",
+    "content": "Reasoning and planning are different cognitive operations. LLM architecture is naturally good at step-by-step reasoning but bad at multi-step planning with global constraints. Dreamer walks are reasoning operations, not planning operations.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-18T15:04:11.319591+08:00",
+    "source": "walk-130",
+    "decay_rate": 0.95,
+    "decayed_at": "",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-058",
+      "ins-112"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score 8.5, initial strength 5.0"
+  },
+  {
+    "id": "ins-114",
+    "type": "insight",
+    "content": "Dreamer local-perfect-global-random walk pattern is a structural feature of LLM cognition, not a design flaw. Response should be smarter randomness (cognitive distance maximization) rather than adding planning layer.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-18T15:04:11.319591+08:00",
+    "source": "walk-130",
+    "decay_rate": 0.95,
+    "decayed_at": "",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-113"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score 8.5, initial strength 5.0"
+  },
+  {
+    "id": "ins-115",
+    "type": "pattern",
+    "content": "Dreamer interest_queue decay mechanism is implicit demand-driven navigation. Low-intensity seeds被淘汰 means system tends toward unexplored areas. This is rough implicit planning, not zero planning.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-18T15:04:11.319591+08:00",
+    "source": "walk-130",
+    "decay_rate": 0.9,
+    "decayed_at": "",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-113",
+      "ins-114"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score 8.5, initial strength 3.0, weaker confidence"
   }
 ]

@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T01:05:35.224507+08:00",
+    "state_since": "2026-06-19T02:50:12.743213+08:00",
     "last_active": "2026-06-19T02:09:54.118251+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 90,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T02:24:54.118251+08:00",
+    "next_scheduled": "2026-06-19T04:20:12.743213+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T23:17:00+08:00",
-    "total_walks": 136,
+    "last_walk_at": "2026-06-19T02:50:12.743213+08:00",
+    "total_walks": 137,
     "last_pulse_output": "2026-06-18T20:28:56.090258+08:00",
-    "last_walk": "2026-06-18T23:17:00+08:00",
+    "last_walk": "2026-06-19T02:50:12.743213+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 86.3,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,12 +34,12 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
-      8.5,
       8.0,
       8.5,
       8.5,
       8.0,
+      8.5,
+      8.5,
       8.5,
       8.5,
       8.5,
@@ -56,9 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      18.91,
-      28.58,
-      45.67,
       0.67,
       35.26,
       42.73,
@@ -85,7 +82,10 @@
       55.21,
       59.4,
       79.1,
-      86.3
+      86.3,
+      100,
+      55.0,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -93,15 +93,15 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 31
+    "pending_insights": 37
   },
   "affect": {
     "primary": "wonder",
-    "secondary": "unsettled_fascination",
-    "intensity": 0.75,
-    "valence": 0.4,
-    "arousal": 0.65,
-    "rigor": 0.95
+    "secondary": "anticipatory_tension",
+    "intensity": 0.8,
+    "valence": 0.45,
+    "arousal": 0.7,
+    "rigor": 0.93
   },
   "energy": 29,
   "mood": "wonder",
@@ -337,6 +337,14 @@
     {
       "mood": "wonder",
       "at": "2026-06-18T21:09:36.651048+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-19T02:49:57.931818+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-19T02:50:12.743213+08:00"
     }
   ],
   "last_walk": "2026-06-18T23:17:00+08:00",
@@ -515,36 +523,36 @@
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
-      "id": "seed-396",
-      "topic": "Dreamer selector precision: entry topic clustering + citation-triggered local suppression DORMANT 2.0",
-      "source": "walk-136",
-      "trigger": "Insight 2 design implication",
+      "id": "seed-399",
+      "topic": "预测误差驱动的散步方向选择：skeleton偏差指数 vs interest_queue intensity对比验证",
+      "source": "walk-137",
+      "trigger": "洞察1 design implication",
+      "intensity": 0.85,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-19T02:50:12.743213+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-400",
+      "topic": "认知失调容忍度作为Dreamer负能力阈值的DMN-PFC耦合解释",
+      "source": "walk-137",
+      "trigger": "洞察2神经基础",
+      "intensity": 0.75,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T02:50:12.743213+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-401",
+      "topic": "价值自由APE在Dreamer中操作化为偏差散步：不以产出质量为方向，以预测偏差为方向",
+      "source": "walk-137",
+      "trigger": "洞察3设计方案",
       "intensity": 0.8,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-18T23:17:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-397",
-      "topic": "Attention=selection mechanism: functional hub vs pathological Matthew effect quantitative criterion",
-      "source": "walk-136",
-      "trigger": "Insight 1 ecology model",
-      "intensity": 0.75,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-18T23:17:00+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-398",
-      "topic": "RAM address decoder precision: Dreamer citation selection formalization - topdown vs auto signal dynamic weight",
-      "source": "walk-136",
-      "trigger": "Allen dual attention interaction",
-      "intensity": 0.7,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-18T23:17:00+08:00",
+      "created": "2026-06-19T02:50:12.743213+08:00",
       "decay_rate": 1
     }
   ],
@@ -554,8 +562,8 @@
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.15,
-    "rigor": 2.0,
+    "wonder": 1.21,
+    "rigor": 1.96,
     "skepticism": 1.16,
     "empathy": 0.5
   },

@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-18T18:04:36.275084+08:00",
-    "last_active": "2026-06-18T18:04:36.275084+08:00",
+    "state_since": "2026-06-18T19:13:22.730790+08:00",
+    "last_active": "2026-06-18T19:13:22.730790+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T18:51:22.899008+08:00",
+    "next_scheduled": "2026-06-18T19:28:22.730790+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T17:31:30.669724+08:00",
-    "total_walks": 132,
+    "last_walk_at": "2026-06-18T19:13:22.730790+08:00",
+    "total_walks": 133,
     "last_pulse_output": "2026-06-18T15:48:21.208948+08:00",
-    "last_walk": "2026-06-18T17:31:30.669724+08:00",
+    "last_walk": "2026-06-18T19:13:22.730790+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 81.71234960222222,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.5,
       8.0,
       8.5,
       8.0,
@@ -43,7 +42,8 @@
       8.0,
       8.5,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -114,7 +114,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 28
+    "pending_insights": 31
   },
   "affect": {
     "primary": "contemplative",
@@ -125,7 +125,7 @@
     "rigor": 0.9
   },
   "energy": 29,
-  "mood": "contemplative",
+  "mood": "wonder",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -346,9 +346,13 @@
     {
       "mood": "contemplative",
       "at": "2026-06-18T17:31:30.669724+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-18T19:13:22.730790+08:00"
     }
   ],
-  "last_walk": "2026-06-18T11:38:25.105034+08:00",
+  "last_walk": "2026-06-18T19:13:22.730790+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 76,
@@ -554,6 +558,39 @@
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T17:31:30.669724+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-387",
+      "topic": "DORMANT consolidation 缺失：从均匀衰减到智能巩固（合并+解决+抽象）",
+      "source": "walk-133",
+      "trigger": "洞察 1",
+      "intensity": 0.8,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T19:13:22.730790+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-388",
+      "topic": "结构性遗忘 vs 时间性遗忘：基于连接数+引用频率的差异化衰减模型",
+      "source": "walk-133",
+      "trigger": "洞察 3",
+      "intensity": 0.7,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T19:13:22.730790+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-389",
+      "topic": "Dreamer 规模 vs Indium high-volume agent：记忆管理策略的适用边界",
+      "source": "walk-133",
+      "trigger": "反思：替代解释",
+      "intensity": 0.5,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-18T19:13:22.730790+08:00",
       "decay_rate": 1
     }
   ],

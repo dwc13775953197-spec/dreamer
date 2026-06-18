@@ -3083,5 +3083,78 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-133-1",
+    "type": "insight",
+    "content": "DORMANT 缺少 Consolidation 层 -- 当前行为是衰减而非巩固。完整记忆管理 = 编码-巩固-检索-遗忘。Dreamer 有编码和遗忘,缺巩固(合并冗余/解决矛盾/抽象提炼)",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-18T19:14:20.826566+08:00",
+    "source": "walk-133",
+    "references": [
+      "ins-128-1",
+      "ins-128-2",
+      "ins-131-1"
+    ],
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-128-1",
+      "ins-128-2",
+      "ins-131-1"
+    ],
+    "refs": [],
+    "decay_rate": 1,
+    "decay_speed": "normal",
+    "note": "walk-133 insight 1, quality_score 8.5"
+  },
+  {
+    "id": "ins-133-2",
+    "type": "insight",
+    "content": "异步精炼的时间解耦映射 Dreamer 节律: 散步=白天编码, DORMANT=夜间精炼。但 DORMANT 当前只有衰减,没有利用空闲时间做巩固。修复方向: DORMANT 增加合并+解决+抽象子步骤",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-18T19:14:20.826566+08:00",
+    "source": "walk-133",
+    "references": [
+      "ins-125-2",
+      "ins-128-1",
+      "ins-133-1"
+    ],
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-125-2",
+      "ins-128-1",
+      "ins-133-1"
+    ],
+    "refs": [],
+    "decay_rate": 1,
+    "decay_speed": "normal",
+    "note": "walk-133 insight 2, quality_score 8.5"
+  },
+  {
+    "id": "ins-133-3",
+    "type": "insight",
+    "content": "Context Window 衰减(位置性遗忘) vs Strength 衰减(时间性遗忘) vs 结构性遗忘(网络位置)。Dreamer 当前只有时间性遗忘,但 LLM lost-in-the-middle 表明位置性遗忘同样严重。基于结构重要性(连接数x引用频率)的差异化衰减更合理",
+    "strength": 5.0,
+    "score": 0.0,
+    "created": "2026-06-18T19:14:20.826566+08:00",
+    "source": "walk-133",
+    "references": [
+      "ins-128-2",
+      "ins-131-2"
+    ],
+    "status": "active",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-128-2",
+      "ins-131-2"
+    ],
+    "refs": [],
+    "decay_rate": 1,
+    "decay_speed": "normal",
+    "note": "walk-133 insight 3, quality_score 8.5"
   }
 ]

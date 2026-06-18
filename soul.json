@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-18T09:43:51.806439+08:00",
-    "last_active": "2026-06-18T09:43:51.806439+08:00",
+    "state_since": "2026-06-18T10:58:51.092105+08:00",
+    "last_active": "2026-06-18T10:58:51.092105+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-18T10:50:42.814030+08:00",
+    "next_scheduled": "2026-06-18T11:28:51.092105+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-18T10:20:42.814030+08:00",
-    "total_walks": 76,
-    "last_pulse_output": "2026-06-18T09:43:51.806439+08:00",
-    "last_walk": "2026-06-18T10:20:42+08:00",
+    "last_walk_at": "2026-06-18T10:58:51.092105+08:00",
+    "total_walks": 127,
+    "last_pulse_output": "2026-06-18T10:58:51.092105+08:00",
+    "last_walk": "2026-06-18T10:58:51.092105+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 55.0,
+    "cognitive_pressure": 44.6,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
       8.5,
       8.0,
@@ -43,7 +42,8 @@
       7.5,
       8.0,
       8.5,
-      8.0
+      8.0,
+      8.5
     ],
     "last_walk_insights": 3,
     "next_action": "walk_explore",
@@ -56,7 +56,6 @@
       0.481
     ],
     "pressure_history": [
-      18.45,
       52.81,
       42.81,
       46.39,
@@ -105,22 +104,24 @@
       20.72,
       38.72,
       100.0,
-      55.0
+      55.0,
+      44.6
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.15
+    "walk_quality_avg": 8.15,
+    "pending_insights": 25
   },
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
     "intensity": 0.65,
-    "valence": 0.6,
-    "arousal": 0.5,
-    "rigor": 0.93
+    "valence": 0.5,
+    "arousal": 0.6,
+    "rigor": 0.95
   },
   "energy": 32,
   "mood": "wonder",
@@ -316,6 +317,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-18T10:20:42.814030+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-18T10:58:51.092105+08:00"
     }
   ],
   "last_walk": "2026-06-18T10:20:42+08:00",
@@ -492,14 +497,36 @@
   "last_pulse_output": "2026-06-16T20:26:36.846024+08:00",
   "interest_queue": [
     {
+      "id": "seed-369",
+      "topic": "Dreamer 认知债仪表盘：三重债（技术/认知/意图）的实时监控指标设计",
+      "source": "walk-127",
+      "trigger": "洞察 1 + 研究念头 1",
+      "intensity": 0.24999999999999997,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T10:58:51.092105+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-366",
       "topic": "认知代谢率作为 AI 系统健康度的实时监控指标",
       "source": "walk-126",
       "trigger": "洞察 3",
-      "intensity": 0.3,
+      "intensity": 0.19999999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T10:20:42.814030+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-370",
+      "topic": "意图债作为 Dreamer 系统的第一原则缺失检测：何时需要显式 purpose.statement",
+      "source": "walk-127",
+      "trigger": "洞察 2",
+      "intensity": 0.19999999999999998,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T10:58:51.092105+08:00",
       "decay_rate": 1
     },
     {
@@ -507,10 +534,21 @@
       "topic": "信息线索感知能力的训练曲线：AI 辅助如何改变人类的搜索策略",
       "source": "walk-126",
       "trigger": "研究念头 1",
-      "intensity": 0.25,
+      "intensity": 0.15,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T10:20:42.814030+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-371",
+      "topic": "巩固/探索比动态调整：基于 pending_insights 积压量的反馈控制",
+      "source": "walk-127",
+      "trigger": "洞察 3",
+      "intensity": 0.15,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-18T10:58:51.092105+08:00",
       "decay_rate": 1
     },
     {
@@ -518,7 +556,7 @@
       "topic": "Dreamer 散步流程的最优延迟自校准：根据 energy 和产出趋势动态调整搜索深度",
       "source": "walk-126",
       "trigger": "研究念头 2",
-      "intensity": 0.2,
+      "intensity": 0.1,
       "type": "research",
       "status": "pending",
       "created": "2026-06-18T10:20:42.814030+08:00",
@@ -532,8 +570,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.15,
-    "rigor": 1.8,
-    "skepticism": 1.01,
+    "rigor": 1.82,
+    "skepticism": 1.04,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.15,

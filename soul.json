@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T21:34:00+08:00",
+    "state_since": "2026-06-19T23:26:06.593822+08:00",
     "last_active": "2026-06-19T21:34:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T23:04:00+08:00",
+    "next_scheduled": "2026-06-19T23:56:06.593822+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T21:34:00+08:00",
-    "total_walks": 147,
-    "last_pulse_output": "2026-06-19T21:19:00+08:00",
-    "last_walk": "2026-06-19T21:34:00+08:00",
+    "last_walk_at": "2026-06-19T23:26:06.593822+08:00",
+    "total_walks": 148,
+    "last_pulse_output": "2026-06-19T23:26:06.593822+08:00",
+    "last_walk": "2026-06-19T23:26:06.593822+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 69.16,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,8 +34,8 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.0,
+      8.5,
       8.5,
       8.5,
       8.5,
@@ -86,7 +86,8 @@
       52.06,
       67.06,
       99.16,
-      69.16
+      69.16,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -94,39 +95,39 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 51,
+    "pending_insights": 54,
     "interest_queue": [
       {
-        "id": "seed-0426",
-        "topic": "不可压缩性作为认知价值的指标：越抵抗压缩的 insight 越可能代表真正的认知边界",
-        "source": "walk-147",
-        "trigger": "insight-1 compression as understanding",
+        "id": "seed-0429",
+        "topic": "维度疲劳的测量方法：如何独立追踪 Dreamer 各认知维度的耗竭状态",
+        "source": "walk-148",
+        "trigger": "insight-1 dimensional vs systemic fatigue",
         "intensity": 0.8,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-19T21:34:00+08:00",
+        "created": "2026-06-19T23:26:29.753468+08:00",
         "decay_rate": 1
       },
       {
-        "id": "seed-0427",
-        "topic": "Information Bottleneck 的最优压缩率计算方法：给定 Dreamer 的下游任务反推最优压缩标准",
-        "source": "walk-147",
-        "trigger": "insight-2 IB operationalization",
-        "intensity": 0.75,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-19T21:34:00+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0428",
-        "topic": "evolved_rules 的压缩偏差审计：检验不可压缩洞察是否被系统性丢失",
-        "source": "walk-147",
-        "trigger": "insight-3 compression bias audit",
+        "id": "seed-0430",
+        "topic": "Baumeister 信念效应在 AI 系统中的类比：Dreamer 的 self-fulfilling prophecy 检测",
+        "source": "walk-148",
+        "trigger": "insight-2 belief-as-cause",
         "intensity": 0.7,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-19T21:34:00+08:00",
+        "created": "2026-06-19T23:26:29.753468+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0431",
+        "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
+        "source": "walk-148",
+        "trigger": "insight-3 quality score density bias",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T23:26:29.753468+08:00",
         "decay_rate": 1
       }
     ]
@@ -309,12 +310,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-19T21:34:00+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T23:26:06.593822+08:00"
     }
   ],
   "last_walk": "2026-06-19T16:25:00+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 145,
+  "total_walks": 148,
   "topics": [
     "emergence",
     "consciousness",
@@ -487,41 +492,41 @@
     "active-hypothesis",
     "progressive-memory-compression"
   ],
-  "pending_insights": 99,
+  "pending_insights": 54,
   "pending_research": 2,
   "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
   "interest_queue": [
     {
-      "id": "seed-0423",
-      "topic": "DORMANT 时间抽象子步骤：每次 DORMANT 检查是否存在多条语义等价的 active entry，合并之",
-      "source": "walk-145",
-      "trigger": "insight-1 DORMANT temporal abstraction",
-      "intensity": 0.85,
+      "id": "seed-0429",
+      "topic": "维度疲劳的测量方法：如何独立追踪 Dreamer 各认知维度的耗竭状态",
+      "source": "walk-148",
+      "trigger": "insight-1 dimensional vs systemic fatigue",
+      "intensity": 0.8,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-19T19:24:11.411814+08:00",
+      "created": "2026-06-19T23:26:29.753468+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-0424",
-      "topic": "散步叙事时间线：为 walks/ 目录维护一个主题演化图，追踪每个主题的连续探索路径",
-      "source": "walk-145",
-      "trigger": "insight-2 walk narrative timeline",
-      "intensity": 0.75,
+      "id": "seed-0430",
+      "topic": "Baumeister 信念效应在 AI 系统中的类比：Dreamer 的 self-fulfilling prophecy 检测",
+      "source": "walk-148",
+      "trigger": "insight-2 belief-as-cause",
+      "intensity": 0.7,
       "type": "explore",
       "status": "pending",
-      "created": "2026-06-19T19:24:11.411814+08:00",
+      "created": "2026-06-19T23:26:29.753468+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-0425",
-      "topic": "六边形优先级：时间抽象 > 身份归一 > 应用级评估——时间抽象是根节点，解决它解锁其他",
-      "source": "walk-145",
-      "trigger": "insight-3 hexagonal priority",
-      "intensity": 0.7,
+      "id": "seed-0431",
+      "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
+      "source": "walk-148",
+      "trigger": "insight-3 quality score density bias",
+      "intensity": 0.75,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-19T19:24:11.411814+08:00",
+      "created": "2026-06-19T23:26:29.753468+08:00",
       "decay_rate": 1
     }
   ],
@@ -639,7 +644,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-18T23:17:00+08:00",
+  "last_walk_at": "2026-06-19T23:26:06.593822+08:00",
   "pressure": {
     "threshold": 50.0
   }

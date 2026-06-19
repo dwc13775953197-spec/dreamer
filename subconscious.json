@@ -4097,5 +4097,46 @@
       "insight-143-1",
       "ins-058"
     ]
+  },
+  {
+    "id": "insight-148-1",
+    "type": "insight",
+    "topic": "疲劳的维度转移假说：疲惫改变认知维度偏好而非产出质量——低 energy 高密度产出是可能的",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T23:25:48.859665+08:00",
+    "connections": [
+      "insight-147-1",
+      "entry-061",
+      "insight-143-1"
+    ],
+    "source": "walk-148",
+    "decay_count": 0
+  },
+  {
+    "id": "insight-148-2",
+    "topic": "维度疲劳 vs 系统疲劳：Dreamer 需要区分局部维度耗竭和全局认知耗竭，独立追踪各维度能量",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T23:25:48.859665+08:00",
+    "connections": [
+      "insight-148-1",
+      "insight-146-1"
+    ],
+    "source": "walk-148",
+    "decay_count": 0
+  },
+  {
+    "id": "insight-148-3",
+    "topic": "Baumeister 信念效应对 Dreamer 的影响：系统对自身状态的信念（如\"energy 低=低效\"）可能成为自我实现的预言",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T23:25:48.859665+08:00",
+    "connections": [
+      "insight-148-1",
+      "insight-144-1"
+    ],
+    "source": "walk-148",
+    "decay_count": 0
   }
 ]

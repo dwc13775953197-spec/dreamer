@@ -4191,5 +4191,26 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "walk type quadrants"
+  },
+  {
+    "id": "ins-228",
+    "type": "pattern",
+    "content": "DORMANT = synaptic pruning. Hebbian decay (connection-weighted) replaces uniform decay. Cross-domain walks = critical period reopening. Entry survival window: first 2-3 DORMANT cycles.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T01:43:32+08:00",
+    "source": "walk-150",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-058",
+      "ins-113",
+      "ins-175"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "walk-150: synaptic pruning as neural basis for DORMANT"
   }
 ]

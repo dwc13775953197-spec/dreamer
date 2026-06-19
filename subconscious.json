@@ -3917,5 +3917,44 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score 8.5, initial strength 5.0"
+  },
+  {
+    "id": "insight-144-1",
+    "type": "insight",
+    "content": "散步应有内部周期：前 2/3 时间外部搜索+连接建立，后 1/3 时间关闭搜索，只做已有 entry 的快速重连（类似睡眠中 NREM→REM 交替）",
+    "strength": 5.0,
+    "score": 0.75,
+    "status": "active",
+    "created": "2026-06-19T18:12:00.375223+08:00",
+    "source": "walk-144",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-144-2",
+    "type": "insight",
+    "content": "DORMANT random reconnection: every 3 DORMANT triggers, randomly pick 2-3 low-connection entries, attempt to establish new connections between them",
+    "strength": 5.0,
+    "score": 0.72,
+    "status": "active",
+    "created": "2026-06-19T18:12:12.937458+08:00",
+    "source": "walk-144",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-144-3",
+    "type": "insight",
+    "content": "Consolidation and clearing are parallel (not alternating) operations in sleep. DORMANT should do both: primary decay + secondary random reconnection. Walks should do both: primary exploration + secondary eviction of weak entries.",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-19T18:12:20.867993+08:00",
+    "source": "walk-144",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

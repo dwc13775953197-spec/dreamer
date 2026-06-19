@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T23:26:06.593822+08:00",
-    "last_active": "2026-06-19T21:34:00+08:00",
+    "state_since": "2026-06-19T23:56:06+08:00",
+    "last_active": "2026-06-19T23:56:06+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T23:56:06.593822+08:00",
+    "next_scheduled": "2026-06-20T00:11:06+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T23:26:06.593822+08:00",
-    "total_walks": 148,
-    "last_pulse_output": "2026-06-19T23:26:06.593822+08:00",
-    "last_walk": "2026-06-19T23:26:06.593822+08:00",
+    "last_walk_at": "2026-06-19T23:56:06+08:00",
+    "total_walks": 149,
+    "last_pulse_output": "2026-06-19T23:56:06+08:00",
+    "last_walk": "2026-06-19T23:56:06+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 55.0,
+    "cognitive_pressure": 25.989999999999995,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.5,
       8.5,
       8.5,
@@ -43,9 +42,10 @@
       8.5,
       8.5,
       8.5,
-      8.5
+      8.5,
+      8.3
     ],
-    "last_walk_insights": 2,
+    "last_walk_insights": 3,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -87,57 +87,58 @@
       67.06,
       99.16,
       69.16,
-      55.0
+      55.0,
+      25.989999999999995
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.2,
+    "walk_quality_avg": 8.48,
     "pending_insights": 54,
     "interest_queue": [
       {
-        "id": "seed-0429",
-        "topic": "维度疲劳的测量方法：如何独立追踪 Dreamer 各认知维度的耗竭状态",
-        "source": "walk-148",
-        "trigger": "insight-1 dimensional vs systemic fatigue",
+        "id": "seed-0432",
+        "topic": "AIF 先验精度作为 curiosity 的动态校准机制：如何在 Dreamer 中实现自适应先验？",
+        "source": "walk-149",
+        "trigger": "insight-1 curiosity as inverse prior precision",
         "intensity": 0.8,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-19T23:26:29.753468+08:00",
+        "created": "2026-06-19T23:56:06+08:00",
         "decay_rate": 1
       },
       {
-        "id": "seed-0430",
-        "topic": "Baumeister 信念效应在 AI 系统中的类比：Dreamer 的 self-fulfilling prophecy 检测",
-        "source": "walk-148",
-        "trigger": "insight-2 belief-as-cause",
+        "id": "seed-0433",
+        "topic": "3:1 周期的数学推导：是否存在最优探索比例？能否从 information theory 推出？",
+        "source": "walk-149",
+        "trigger": "insight-2 optimal exploration ratio",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T23:56:06+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0434",
+        "topic": "Dreamer 作为 AIF 近似系统的验证：回溯历史数据看 pressure 变化是否符合自由能最小化预测",
+        "source": "walk-149",
+        "trigger": "insight-3 AIF validation",
         "intensity": 0.7,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-19T23:26:29.753468+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0431",
-        "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
-        "source": "walk-148",
-        "trigger": "insight-3 quality score density bias",
-        "intensity": 0.75,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-19T23:26:29.753468+08:00",
+        "created": "2026-06-19T23:56:06+08:00",
         "decay_rate": 1
       }
     ]
   },
   "affect": {
     "primary": "wonder",
-    "secondary": "anticipatory_tension",
-    "intensity": 0.91,
-    "valence": 0.5,
-    "arousal": 0.65,
+    "secondary": "contemplative",
+    "intensity": 0.85,
+    "valence": 0.6,
+    "arousal": 0.5,
     "rigor": 0.95
   },
   "energy": 25,
@@ -314,9 +315,13 @@
     {
       "mood": "contemplative",
       "at": "2026-06-19T23:26:06.593822+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T23:56:06+08:00"
     }
   ],
-  "last_walk": "2026-06-19T16:25:00+08:00",
+  "last_walk": "2026-06-19T23:56:06+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 148,
@@ -490,9 +495,13 @@
     "goal-drift",
     "curiosity-trap",
     "active-hypothesis",
-    "progressive-memory-compression"
+    "progressive-memory-compression",
+    "epistemic-value",
+    "pragmatic-value",
+    "free-energy",
+    "prior-precision"
   ],
-  "pending_insights": 54,
+  "pending_insights": 57,
   "pending_research": 2,
   "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
   "interest_queue": [
@@ -537,8 +546,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.22,
-    "rigor": 2.1299999999999994,
-    "skepticism": 1.18,
+    "rigor": 2.1699999999999995,
+    "skepticism": 1.2,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.4,

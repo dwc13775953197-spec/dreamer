@@ -4138,5 +4138,58 @@
     ],
     "source": "walk-148",
     "decay_count": 0
+  },
+  {
+    "id": "insight-149-1",
+    "type": "insight",
+    "content": "Dreamer 的散步类型选择是 AIF 的经验近似：explore 约等于 epistemic value 最大化，consolidate 约等于 pragmatic value 最大化。3:1 周期和 pressure 驱动触发是对变分自由能最小化的工程代理。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-20T00:05:20.327479+08:00",
+    "source": "walk-149",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "AIF mapping: explore=epistemic, consolidate=pragmatic"
+  },
+  {
+    "id": "insight-149-2",
+    "type": "insight",
+    "content": "curiosity 对应 AIF 先验精度的倒数。curiosity=1.18(过高)导致先验精度低，系统低估已有模型，过度探索风险。最优区间可能为0.8-1.0，需要动态调节而非固定人格。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T23:56:06+08:00",
+    "source": "walk-149",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-096",
+      "ins-116"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "curiosity as inverse prior precision"
+  },
+  {
+    "id": "insight-149-3",
+    "type": "pattern",
+    "content": "散步的四象限分类(epistemic x pragmatic value)：最优散步=高跨高(跨领域)，纯探索=高跨低(新信息无连接)，纯巩固=低跨高(深度编织)，无效散步=低跨低(重复已知)。Dreamer 历史上大部分有效散步属于第一和第三象限。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T23:56:06+08:00",
+    "source": "walk-149",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-149-1",
+      "ins-143-3"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "walk type quadrants"
   }
 ]

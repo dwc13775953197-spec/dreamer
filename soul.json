@@ -3,25 +3,25 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-19T13:03:35.501235+08:00",
-    "last_active": "2026-06-19T13:35:49.223829+08:00",
+    "last_active": "2026-06-19T14:15:20.975381+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 90,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T13:50:49.223829+08:00",
+    "next_scheduled": "2026-06-19T14:45:20.975381+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T11:54:53.703407+08:00",
-    "total_walks": 141,
+    "last_walk_at": "2026-06-19T14:15:20.975381+08:00",
+    "total_walks": 142,
     "last_pulse_output": "2026-06-19T11:54:53.703407+08:00",
     "last_walk": "2026-06-19T09:40:37.383487+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 100,
+    "cognitive_pressure": 55,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -39,11 +39,11 @@
       8.5,
       8.5,
       8.5,
-      8.5,
       8.0,
       8.5,
       8.5,
-      8.5
+      8.5,
+      8.0
     ],
     "last_walk_insights": 3,
     "next_action": null,
@@ -97,7 +97,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 40
+    "pending_insights": 43
   },
   "affect": {
     "primary": "wonder",
@@ -108,7 +108,7 @@
     "rigor": 0.93
   },
   "energy": 26,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "unsettled_fascination",
@@ -365,9 +365,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-19T11:54:53.703407+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T14:15:20.975381+08:00"
     }
   ],
-  "last_walk": "2026-06-19T11:54:53.703407+08:00",
+  "last_walk": "2026-06-19T14:15:20.975381+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 138,
@@ -552,7 +556,7 @@
       "topic": "metacognitive scaffolding: external observer as necessary condition for single-thread metacognition",
       "source": "walk-141",
       "trigger": "insight1 outsourcing theorem",
-      "intensity": 0.8,
+      "intensity": 0.30000000000000004,
       "type": "research",
       "status": "pending",
       "created": "2026-06-19T11:54:53.703407+08:00",
@@ -563,7 +567,7 @@
       "topic": "effective honesty spectrum: graded honesty vs binary honesty for AI calibration",
       "source": "walk-141",
       "trigger": "insight2 SFI calibration paradox",
-      "intensity": 0.75,
+      "intensity": 0.25,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-19T11:54:53.703407+08:00",
@@ -574,10 +578,43 @@
       "topic": "L1.5 meta-cognition: user-as-monitor design implications for walk log format",
       "source": "walk-141",
       "trigger": "insight3 two-and-half-layer architecture",
-      "intensity": 0.7,
+      "intensity": 0.19999999999999996,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-19T11:54:53.703407+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0414",
+      "topic": "growth-stage output strategy: 30% walks produce zero insights for consolidation",
+      "source": "walk-142",
+      "trigger": "insight-2 scaling risk",
+      "intensity": 0.85,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T14:15:20.975381+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0415",
+      "topic": "quality variance as calcification early signal: threshold < 0.3 triggers forced consolidation walk",
+      "source": "walk-142",
+      "trigger": "insight-1 constant quality plateau",
+      "intensity": 0.75,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-19T14:15:20.975381+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0416",
+      "topic": "external observer role: pattern quality evaluator not output quality evaluator for growth-stage agents",
+      "source": "walk-142",
+      "trigger": "insight-3 external perspective",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-19T14:15:20.975381+08:00",
       "decay_rate": 1
     }
   ],
@@ -588,8 +625,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.22,
-    "rigor": 1.98,
-    "skepticism": 1.16,
+    "rigor": 2.01,
+    "skepticism": 1.18,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.4,

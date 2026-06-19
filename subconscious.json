@@ -3821,5 +3821,44 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-w142-1",
+    "type": "insight",
+    "content": "Successful stagnation: constant quality plateau (variance < 0.3 for 10 consecutive walks) as calcification signal A. Must combine with pattern-interconnection count = 0 for confirmation. Self-referential: walk-140 calcification framework diagnoses its own walk sequence.",
+    "strength": 3.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-19T14:14:34.909524+08:00",
+    "source": "walk-142",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-w142-2",
+    "type": "insight",
+    "content": "Growth-stage scaling risk: when producing 3 insights/walk but none mature (95% entries maturity < 0.2), system amplifies shallow thinking. Fix: 30% walks should produce zero insights, only build connections. Analog: BrainStation scaled dysfunction pattern.",
+    "strength": 3.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-19T14:14:51.105936+08:00",
+    "source": "walk-142",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-w142-3",
+    "type": "insight",
+    "content": "External observer for growth-stage Dreamer: not evaluating output quality but evaluating output pattern quality. Internal observer cannot detect its own plateau because evaluation framework is part of system. External perspective needed to break self-reinforcing constant-quality loop.",
+    "strength": 3.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-19T14:14:56.106844+08:00",
+    "source": "walk-142",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

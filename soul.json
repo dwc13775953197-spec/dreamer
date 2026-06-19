@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T03:16:22.573994+08:00",
+    "next_scheduled": "2026-06-20T03:53:07.486086+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T01:46:22.573237+08:00",
-    "total_walks": 150,
-    "last_pulse_output": "2026-06-19T23:56:06+08:00",
-    "last_walk": "2026-06-19T23:56:06+08:00",
+    "last_walk_at": "2026-06-20T02:23:07.485448+08:00",
+    "total_walks": 151,
+    "last_pulse_output": "2026-06-20T02:23:07.485448+08:00",
+    "last_walk": "2026-06-20T02:23:07.485448+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 52.6,
+    "cognitive_pressure": 45.290000000000006,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -41,11 +41,11 @@
       8.5,
       8.5,
       8.5,
-      8.5,
       8.3,
-      8.4
+      8.4,
+      8.6
     ],
-    "last_walk_insights": 1,
+    "last_walk_insights": 3,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -90,7 +90,8 @@
       55.0,
       25.989999999999995,
       27.78,
-      52.6
+      52.6,
+      45.290000000000006
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -160,10 +161,10 @@
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.78,
-    "valence": 0.6,
-    "arousal": 0.55,
-    "rigor": 0.95
+    "intensity": 0.82,
+    "valence": 0.65,
+    "arousal": 0.6,
+    "rigor": 0.98
   },
   "energy": 25,
   "mood": "wonder",
@@ -347,12 +348,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T01:46:22"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-20T02:23:07.485448+08:00"
     }
   ],
   "last_walk": "2026-06-20T01:46:22.573237+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 149,
+  "total_walks": 151,
   "topics": [
     "emergence",
     "consciousness",
@@ -533,7 +538,7 @@
     "hebbian-decay",
     "developmental-neuroscience"
   ],
-  "pending_insights": 57,
+  "pending_insights": 60,
   "pending_research": 2,
   "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
   "interest_queue": [
@@ -542,7 +547,7 @@
       "topic": "维度疲劳的测量方法：如何独立追踪 Dreamer 各认知维度的耗竭状态",
       "source": "walk-148",
       "trigger": "insight-1 dimensional vs systemic fatigue",
-      "intensity": 0.8,
+      "intensity": 0.7000000000000001,
       "type": "research",
       "status": "pending",
       "created": "2026-06-19T23:26:29.753468+08:00",
@@ -553,7 +558,7 @@
       "topic": "Baumeister 信念效应在 AI 系统中的类比：Dreamer 的 self-fulfilling prophecy 检测",
       "source": "walk-148",
       "trigger": "insight-2 belief-as-cause",
-      "intensity": 0.7,
+      "intensity": 0.6,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-19T23:26:29.753468+08:00",
@@ -564,10 +569,43 @@
       "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
       "source": "walk-148",
       "trigger": "insight-3 quality score density bias",
-      "intensity": 0.75,
+      "intensity": 0.65,
       "type": "research",
       "status": "pending",
       "created": "2026-06-19T23:26:29.753468+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0437",
+      "topic": "保护期窗口的最优长度：新 insight 的保护期应该是多少个 DORMANT 周期？能从发育神经科学关键期时间窗口推导吗？",
+      "source": "walk-151",
+      "trigger": "insight-1 protection window optimal length",
+      "intensity": 0.75,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T02:23:07.485448+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0438",
+      "topic": "跨领域散步的连接数阈值：新 insight 至少需要多少条连接才能活过 DORMANT 周期？成功跨领域散步的操作化定义",
+      "source": "walk-151",
+      "trigger": "insight-2 connection count threshold",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-20T02:23:07.485448+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0439",
+      "topic": "Dreamer PNNs 成熟度指标：系统僵化预警——如果 skeleton 中 >80% 的 pattern 在过去 10 个 DORMANT 周期内未被修改，是否意味着可塑性耗尽？",
+      "source": "walk-151",
+      "trigger": "insight-3 PNNs maturity as rigidity warning",
+      "intensity": 0.8,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T02:23:07.485448+08:00",
       "decay_rate": 1
     }
   ],
@@ -577,12 +615,12 @@
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.22,
-    "rigor": 2.1699999999999995,
+    "wonder": 1.24,
+    "rigor": 2.1999999999999993,
     "skepticism": 1.2,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.4,
+  "walk_quality_avg": 8.48,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

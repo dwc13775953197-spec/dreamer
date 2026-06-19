@@ -4067,5 +4067,35 @@
     "created": "2026-06-19T20:33:32.455844+08:00",
     "decay_count": 0,
     "source": "walk-146"
+  },
+  {
+    "id": "insight-147-1",
+    "type": "pattern",
+    "content": "压缩不是理解的副产品，压缩就是理解的本身。约束迫使合成发生——无限上下文使合成变为可选。好的理解 = IB 最优压缩点：最大压缩 + 最大保留的平衡。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T21:34:00+08:00",
+    "source": "walk-147",
+    "decay_rate": 0.95,
+    "decayed_at": "2026-06-19T21:34:00+08:00",
+    "connections": [
+      "ins-143-3",
+      "ins-058"
+    ]
+  },
+  {
+    "id": "insight-147-2",
+    "type": "pattern",
+    "content": "不可压缩性可能是认知价值的一个指标：越抵抗压缩的 insight 越可能代表真正的认知边界。Dreamer 的压缩机制（uniform decay + strength-based elimination）可能系统性地丢失了最有价值的不可压缩洞察。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T21:34:00+08:00",
+    "source": "walk-147",
+    "decay_rate": 0.92,
+    "decayed_at": "2026-06-19T21:34:00+08:00",
+    "connections": [
+      "insight-143-1",
+      "ins-058"
+    ]
   }
 ]

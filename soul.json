@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T21:19:00+08:00",
-    "last_active": "2026-06-19T21:19:00+08:00",
+    "state_since": "2026-06-19T21:34:00+08:00",
+    "last_active": "2026-06-19T21:34:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T21:34:00+08:00",
+    "next_scheduled": "2026-06-19T23:04:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T20:34:24.197157+08:00",
-    "total_walks": 146,
+    "last_walk_at": "2026-06-19T21:34:00+08:00",
+    "total_walks": 147,
     "last_pulse_output": "2026-06-19T21:19:00+08:00",
-    "last_walk": "2026-06-19T20:34:24.197157+08:00",
+    "last_walk": "2026-06-19T21:34:00+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 99.16,
+    "cognitive_pressure": 69.16,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,8 +35,8 @@
     },
     "quality_history": [
       8.5,
-      8.5,
       8.0,
+      8.5,
       8.5,
       8.5,
       8.5,
@@ -45,7 +45,7 @@
       8.5,
       8.5
     ],
-    "last_walk_insights": 3,
+    "last_walk_insights": 2,
     "next_action": null,
     "decay_adjustment": 1.0,
     "gini_history": [
@@ -85,7 +85,8 @@
       97.06,
       52.06,
       67.06,
-      99.16
+      99.16,
+      69.16
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -93,19 +94,53 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 49,
-    "interest_queue": []
+    "pending_insights": 51,
+    "interest_queue": [
+      {
+        "id": "seed-0426",
+        "topic": "不可压缩性作为认知价值的指标：越抵抗压缩的 insight 越可能代表真正的认知边界",
+        "source": "walk-147",
+        "trigger": "insight-1 compression as understanding",
+        "intensity": 0.8,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T21:34:00+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0427",
+        "topic": "Information Bottleneck 的最优压缩率计算方法：给定 Dreamer 的下游任务反推最优压缩标准",
+        "source": "walk-147",
+        "trigger": "insight-2 IB operationalization",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T21:34:00+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0428",
+        "topic": "evolved_rules 的压缩偏差审计：检验不可压缩洞察是否被系统性丢失",
+        "source": "walk-147",
+        "trigger": "insight-3 compression bias audit",
+        "intensity": 0.7,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-19T21:34:00+08:00",
+        "decay_rate": 1
+      }
+    ]
   },
   "affect": {
     "primary": "wonder",
     "secondary": "anticipatory_tension",
-    "intensity": 0.88,
+    "intensity": 0.91,
     "valence": 0.5,
     "arousal": 0.65,
     "rigor": 0.95
   },
   "energy": 25,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "contemplative",
@@ -270,6 +305,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-19T20:29:35.992246+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T21:34:00+08:00"
     }
   ],
   "last_walk": "2026-06-19T16:25:00+08:00",
@@ -489,11 +528,11 @@
   "personality_traits": {
     "curiosity": 1.1800000000000002,
     "introspection": 1.08,
-    "humor": 0.38,
+    "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.22,
-    "rigor": 2.0999999999999996,
+    "rigor": 2.1299999999999994,
     "skepticism": 1.18,
     "empathy": 0.5
   },

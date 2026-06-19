@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T19:57:10.894971+08:00",
-    "last_active": "2026-06-19T19:57:10.894971+08:00",
+    "state_since": "2026-06-19T20:34:24.197157+08:00",
+    "last_active": "2026-06-19T20:34:24.197157+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T20:27:10.894971+08:00",
+    "next_scheduled": "2026-06-19T20:49:24.197157+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T19:24:11.411814+08:00",
-    "total_walks": 145,
-    "last_pulse_output": "2026-06-19T19:57:10.894971+08:00",
-    "last_walk": "2026-06-19T19:24:11+08:00",
+    "last_walk_at": "2026-06-19T20:34:24.197157+08:00",
+    "total_walks": 146,
+    "last_pulse_output": "2026-06-19T20:34:24.197157+08:00",
+    "last_walk": "2026-06-19T20:34:24.197157+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 62.17,
+    "cognitive_pressure": 52.06,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -36,8 +36,8 @@
     "quality_history": [
       8.5,
       8.5,
-      8.5,
       8.0,
+      8.5,
       8.5,
       8.5,
       8.5,
@@ -95,7 +95,9 @@
       80.9,
       73.88,
       91.09,
-      62.17
+      62.17,
+      97.06,
+      52.06
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -103,131 +105,20 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 49
+    "pending_insights": 49,
+    "interest_queue": []
   },
   "affect": {
     "primary": "wonder",
-    "secondary": "quiet_satisfaction",
-    "intensity": 0.82,
-    "valence": 0.55,
-    "arousal": 0.6,
+    "secondary": "anticipatory_tension",
+    "intensity": 0.88,
+    "valence": 0.5,
+    "arousal": 0.65,
     "rigor": 0.95
   },
-  "energy": 28,
+  "energy": 25,
   "mood": "wonder",
   "mood_history": [
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-11T15:22:58+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-11T21:56:32.985638+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-11T22:30:00+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-12T03:18:00+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-12T04:30:00+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-12T09:36:04.227893+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-12T12:50:45.013655+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-12T14:58:16+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-13T02:39:07.294938+08:00"
-    },
-    {
-      "mood": "wistful_recognition",
-      "at": "2026-06-13T04:07:43+0800"
-    },
-    {
-      "mood": "wistful_recognition",
-      "at": "2026-06-13T08:24:06.028916+08:00"
-    },
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-13T10:38:00.840509+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-13T16:02:31+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-13T17:07:35.473369+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-13T20:14:29.270134+08:00"
-    },
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-13T22:22:55"
-    },
-    {
-      "mood": "quiet_excitement",
-      "at": "2026-06-14T01:32:14.155447+08:00"
-    },
-    {
-      "mood": "wistful_recognition",
-      "at": "2026-06-14T06:08:00"
-    },
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-14T07:38:00+08:00"
-    },
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-14T09:39:01.588967+08:00"
-    },
-    {
-      "mood": "quiet_excitement",
-      "at": "2026-06-14T13:00:53.098557+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-14T15:09:11.184114+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-14T16:15:09"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-14T17:21:26"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-14T20:30:41.415040"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-14T23:15:47.172150+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-15T02:32:04.970821+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-15T04:10:46+08:00"
-    },
     {
       "mood": "contemplative",
       "at": "2026-06-15T10:42:09"
@@ -387,6 +278,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-19T19:24:11.411814+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T20:29:35.992246+08:00"
     }
   ],
   "last_walk": "2026-06-19T16:25:00+08:00",

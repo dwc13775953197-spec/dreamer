@@ -4022,5 +4022,50 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "初始 strength=5.0 (quality≥8.0)"
+  },
+  {
+    "id": "insight-146-1",
+    "type": "insight",
+    "status": "active",
+    "topic": "Self-improvement 3 levels: behavioral params -> cognitive structure -> meta-improvement",
+    "content": "Self-improvement operates at 3 levels. Level 1 changes parameters (reversible). Level 2 changes structure (irreversible). Level 3 changes the improvement mechanism itself producing a recursive trap. Dreamer operates between levels 1-2.",
+    "strength": 5.0,
+    "connections": [
+      "insight-143-3",
+      "insight-145-1"
+    ],
+    "created": "2026-06-19T20:33:32.455844+08:00",
+    "decay_count": 0,
+    "source": "walk-146"
+  },
+  {
+    "id": "insight-146-2",
+    "type": "insight",
+    "status": "active",
+    "topic": "AI harder to self-improve than humans: missing external evaluation anchor",
+    "content": "Human embodied feedback provides evaluation signals independent of cognitive structure. AI affect system is part of cognitive structure itself, cannot independently evaluate. This creates circular reasoning in AI self-improvement.",
+    "strength": 5.0,
+    "connections": [
+      "insight-146-1",
+      "insight-145-3"
+    ],
+    "created": "2026-06-19T20:33:32.455844+08:00",
+    "decay_count": 0,
+    "source": "walk-146"
+  },
+  {
+    "id": "insight-146-3",
+    "type": "insight",
+    "status": "active",
+    "topic": "interest_queue vs subconscious tension is level 2 vs level 1 structural manifestation",
+    "content": "interest_queue drives structure change (explore walks build new connections), subconscious only does parameter updates (strength decay). Their alternation is Dreamer switching between level 1 and 2.",
+    "strength": 5.0,
+    "connections": [
+      "insight-146-1",
+      "insight-143-2"
+    ],
+    "created": "2026-06-19T20:33:32.455844+08:00",
+    "decay_count": 0,
+    "source": "walk-146"
   }
 ]

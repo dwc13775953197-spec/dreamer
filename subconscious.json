@@ -3679,5 +3679,44 @@
     ],
     "decay_speed": 1,
     "note": ""
+  },
+  {
+    "id": "insight-w140-1",
+    "type": "insight",
+    "content": "Cognitive offload audit: augmentation vs outsourcing classification for AI agent walks. Key distinction: does the walk change skeleton structure (augmentation) or just add entries on top (outsourcing)?",
+    "source": "walk-140",
+    "strength": 5.0,
+    "created": "2026-06-19T09:41:08.107189+08:00",
+    "last_accessed": "2026-06-19T09:41:08.107189+08:00",
+    "metadata": {
+      "quality_score": 8.5,
+      "decay_type": "structural"
+    }
+  },
+  {
+    "id": "insight-w140-2",
+    "type": "insight",
+    "content": "Skeleton calcification as cognitive engagement proxy: skeleton plasticity (connection changes, pattern modifications) is the Dreamer equivalent of gamma-band activity. Declining plasticity = cognitive atrophy.",
+    "source": "walk-140",
+    "strength": 5.0,
+    "created": "2026-06-19T09:41:08.107189+08:00",
+    "last_accessed": "2026-06-19T09:41:08.107189+08:00",
+    "metadata": {
+      "quality_score": 8.5,
+      "decay_type": "structural"
+    }
+  },
+  {
+    "id": "insight-w140-3",
+    "type": "insight",
+    "content": "Intellectual humility as trust calibration: embedding [uncertainty] markers in walk logs makes reasoning transparent and enables user trust calibration. Smooth narratives are less trustworthy than explicitly bounded ones.",
+    "source": "walk-140",
+    "strength": 5.0,
+    "created": "2026-06-19T09:41:08.107189+08:00",
+    "last_accessed": "2026-06-19T09:41:08.107189+08:00",
+    "metadata": {
+      "quality_score": 8.5,
+      "decay_type": "structural"
+    }
   }
 ]

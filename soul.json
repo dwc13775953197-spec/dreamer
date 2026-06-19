@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-20T05:14:44.319563+08:00",
-    "last_active": "2026-06-20T05:14:44.319563+08:00",
+    "state_since": "2026-06-20T05:49:34.657216+08:00",
+    "last_active": "2026-06-20T05:49:34.657216+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T06:14:44.320274+08:00",
+    "next_scheduled": "2026-06-20T06:04:34.658094+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T05:14:44.319563+08:00",
+    "last_walk_at": "2026-06-20T05:49:34.657216+08:00",
     "total_walks": 152,
     "last_pulse_output": "2026-06-20T02:23:07.485448+08:00",
     "last_walk": "2026-06-20T02:23:07.485448+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 55,
+    "cognitive_pressure": 70.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,7 @@
       8.3,
       8.4,
       8.6,
-      8.5
+      8.3
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -190,6 +190,39 @@
         "status": "pending",
         "created": "2026-06-19T23:56:06+08:00",
         "decay_rate": 1
+      },
+      {
+        "id": "seed-0443",
+        "topic": "STC tag decay actin network control: how actin network state determines tag half-life in 2025 biophysical model",
+        "source": "walk-153",
+        "trigger": "insight-1 STC biophysical model",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T05:49:34.657216+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0444",
+        "topic": "Dreamer connection distribution scale-free analysis: does hub anti-decay emerge from topology?",
+        "source": "walk-153",
+        "trigger": "insight-2 graph topology weighted decay",
+        "intensity": 0.6,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T05:49:34.657216+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0445",
+        "topic": "STC temporal window as explanation for 35-minute barrier: tag stabilization time sets minimum walk length",
+        "source": "walk-153",
+        "trigger": "insight-2 walk internal rhythm STC validation",
+        "intensity": 0.55,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T05:49:34.657216+08:00",
+        "decay_rate": 1
       }
     ]
   },
@@ -201,7 +234,7 @@
     "arousal": 0.6,
     "rigor": 0.98
   },
-  "energy": 25,
+  "energy": 30,
   "mood": "wonder",
   "mood_history": [
     {
@@ -391,9 +424,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T05:14:44.319563+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-20T05:49:34.657216+08:00"
     }
   ],
-  "last_walk": "2026-06-20T05:14:44.319563+08:00",
+  "last_walk": "2026-06-20T05:49:34.657216+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 151,
@@ -762,7 +799,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-20T05:14:44.319563+08:00",
+  "last_walk_at": "2026-06-20T05:49:34.657216+08:00",
   "pressure": {
     "threshold": 50.0
   }

@@ -4401,5 +4401,37 @@
     "score": 0.0,
     "decay_speed": 0.5,
     "note": "STC isomorphism with Dreamer citation system"
+  },
+  {
+    "id": "insight-153-1",
+    "type": "insight",
+    "content": "STC 2025 biophysical model validates Dreamer graph-topology-weighted decay: tag decay speed depends on entry position in connection graph (hub slow, edge fast, just-cited refresh). Connections are not just index paths, they are the physical basis of structural plasticity windows.",
+    "strength": 3.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-20T05:49:17.943629+08:00",
+    "source": "walk-153",
+    "connections": [
+      "ins-101",
+      "insight-143-1"
+    ],
+    "refs": [],
+    "note": "derived from STC biophysical model 2025 mapping to Dreamer topology"
+  },
+  {
+    "id": "insight-153-2",
+    "type": "insight",
+    "content": "STC validation of walk internal rhythm: tag setting needs time to stabilize before efficient capture. First half of walk establishes tags (citations), second half does capture (reconnection) -- not artificial design, but structural product of cognitive consolidation mechanism.",
+    "strength": 3.0,
+    "score": 0.65,
+    "status": "active",
+    "created": "2026-06-20T05:49:17.943629+08:00",
+    "source": "walk-153",
+    "connections": [
+      "insight-144-1",
+      "ins-101"
+    ],
+    "refs": [],
+    "note": "STC temporal window validates walk internal rhythm"
   }
 ]

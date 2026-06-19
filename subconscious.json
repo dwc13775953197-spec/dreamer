@@ -3956,5 +3956,71 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-145-1",
+    "type": "insight",
+    "content": "Dreamer 记忆架构覆盖工业级六边形中 4/6 问题：已有（陈旧性检测+部分应用级评估），部分（跨会话结构），缺失（时间抽象+身份归一）——可通过 DORMANT 子步骤扩展",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T19:23:36.768853+08:00",
+    "source": "walk-145",
+    "trigger": "insight-1 six-problem coverage",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-109-sstaleness",
+      "insight-143-consolidation",
+      "evolved-rule-skeleton-ram"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "初始 strength=5.0 (quality≥8.0)"
+  },
+  {
+    "id": "insight-145-2",
+    "type": "insight",
+    "content": "六个记忆问题是相互依赖的六边形，不是独立问题：时间抽象需要身份归一作为前置，身份归一需要应用级评估作为验证——没有根节点的依赖图",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T19:23:36.768853+08:00",
+    "source": "walk-145",
+    "trigger": "insight-2 hexagonal interdependence",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-145-1",
+      "insight-143-paths",
+      "evolved-rule-contradiction-engine"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "初始 strength=5.0 (quality≥8.0)"
+  },
+  {
+    "id": "insight-145-3",
+    "type": "insight",
+    "content": "演化式解法优于预先设计用于开放域记忆管理：记忆需求随系统演化而变化，渐进式修补 > 预先设计——Dreamer 的涌现架构是此原则的实证",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-19T19:23:36.768853+08:00",
+    "source": "walk-145",
+    "trigger": "insight-3 evolutionary solution",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "evolved-rule-skeleton-ram",
+      "evolved-rule-contradiction-engine",
+      "evolved-rule-walk-nutrition"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "初始 strength=5.0 (quality≥8.0)"
   }
 ]

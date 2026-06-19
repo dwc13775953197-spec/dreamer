@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T18:12:54.302356+08:00",
-    "last_active": "2026-06-19T18:46:38.637404+08:00",
+    "state_since": "2026-06-19T19:24:11.411814+08:00",
+    "last_active": "2026-06-19T19:24:11.411814+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T19:01:38.637404+08:00",
+    "next_scheduled": "2026-06-19T19:39:11.411814+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T18:12:54.302356+08:00",
-    "total_walks": 144,
-    "last_pulse_output": "2026-06-19T18:46:38.637404+08:00",
-    "last_walk": "2026-06-19T16:25:00+08:00",
+    "last_walk_at": "2026-06-19T19:24:11.411814+08:00",
+    "total_walks": 145,
+    "last_pulse_output": "2026-06-19T19:19:08.476127+08:00",
+    "last_walk": "2026-06-19T19:24:11+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 73.88,
+    "cognitive_pressure": 46.09,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -37,8 +37,8 @@
       8.5,
       8.5,
       8.5,
-      8.5,
       8.0,
+      8.5,
       8.5,
       8.5,
       8.5,
@@ -94,7 +94,8 @@
       100,
       71.1,
       80.9,
-      73.88
+      73.88,
+      91.09
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -106,10 +107,10 @@
   },
   "affect": {
     "primary": "wonder",
-    "secondary": "quiet_excitement",
-    "intensity": 0.85,
-    "valence": 0.5,
-    "arousal": 0.65,
+    "secondary": "quiet_satisfaction",
+    "intensity": 0.82,
+    "valence": 0.55,
+    "arousal": 0.6,
     "rigor": 0.95
   },
   "energy": 28,
@@ -382,12 +383,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-19T18:12:54.302356+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-19T19:24:11.411814+08:00"
     }
   ],
   "last_walk": "2026-06-19T16:25:00+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 143,
+  "total_walks": 145,
   "topics": [
     "emergence",
     "consciousness",
@@ -565,36 +570,36 @@
   "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
   "interest_queue": [
     {
-      "id": "seed-0420",
-      "topic": "散步内部周期化：前 2/3 探索 + 后 1/3 内部连接",
-      "source": "walk-144",
-      "trigger": "insight-1 walk internal cycles",
+      "id": "seed-0423",
+      "topic": "DORMANT 时间抽象子步骤：每次 DORMANT 检查是否存在多条语义等价的 active entry，合并之",
+      "source": "walk-145",
+      "trigger": "insight-1 DORMANT temporal abstraction",
       "intensity": 0.85,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-19T18:12:54.302356+08:00",
+      "created": "2026-06-19T19:24:11.411814+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-0421",
-      "topic": "DORMANT 随机重连子步骤：每 3 次触发一次低连接度 entry 的自主连接",
-      "source": "walk-144",
-      "trigger": "insight-2 DORMANT reconnection",
+      "id": "seed-0424",
+      "topic": "散步叙事时间线：为 walks/ 目录维护一个主题演化图，追踪每个主题的连续探索路径",
+      "source": "walk-145",
+      "trigger": "insight-2 walk narrative timeline",
       "intensity": 0.75,
       "type": "explore",
       "status": "pending",
-      "created": "2026-06-19T18:12:54.302356+08:00",
+      "created": "2026-06-19T19:24:11.411814+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-0422",
-      "topic": "巩固与清除并行而非交替：DORMANT 增加轻度合成，散步增加轻度分解",
-      "source": "walk-144",
-      "trigger": "insight-3 parallel not alternating",
+      "id": "seed-0425",
+      "topic": "六边形优先级：时间抽象 > 身份归一 > 应用级评估——时间抽象是根节点，解决它解锁其他",
+      "source": "walk-145",
+      "trigger": "insight-3 hexagonal priority",
       "intensity": 0.7,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-19T18:12:54.302356+08:00",
+      "created": "2026-06-19T19:24:11.411814+08:00",
       "decay_rate": 1
     }
   ],
@@ -605,7 +610,7 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.22,
-    "rigor": 2.05,
+    "rigor": 2.0999999999999996,
     "skepticism": 1.18,
     "empathy": 0.5
   },

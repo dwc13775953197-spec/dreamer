@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-19T15:53:22.385065+08:00",
+    "state_since": "2026-06-19T16:30:17.641832+08:00",
     "last_active": "2026-06-19T15:30:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-19T16:08:22.385065+08:00",
+    "next_scheduled": "2026-06-19T18:00:17.641832+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-19T14:15:20.975381+08:00",
-    "total_walks": 142,
-    "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
-    "last_walk": "2026-06-19T09:40:37.383487+08:00",
+    "last_walk_at": "2026-06-19T16:30:17.641832+08:00",
+    "total_walks": 143,
+    "last_pulse_output": "2026-06-19T16:30:17.641832+08:00",
+    "last_walk": "2026-06-19T16:25:00+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 100,
+    "cognitive_pressure": 55,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,7 @@
       8.5,
       8.5,
       8.5,
-      8.0
+      8.5
     ],
     "last_walk_insights": 3,
     "next_action": null,
@@ -99,7 +99,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.2,
-    "pending_insights": 43
+    "pending_insights": 46
   },
   "affect": {
     "primary": "wonder",
@@ -109,7 +109,7 @@
     "arousal": 0.7,
     "rigor": 0.93
   },
-  "energy": 26,
+  "energy": 28,
   "mood": "contemplative",
   "mood_history": [
     {
@@ -371,12 +371,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-19T14:15:20.975381+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-19T16:30:17.641832+08:00"
     }
   ],
-  "last_walk": "2026-06-19T14:15:20.975381+08:00",
+  "last_walk": "2026-06-19T16:25:00+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 138,
+  "total_walks": 143,
   "topics": [
     "emergence",
     "consciousness",
@@ -554,80 +558,47 @@
   "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
   "interest_queue": [
     {
-      "id": "seed-0411",
-      "topic": "metacognitive scaffolding: external observer as necessary condition for single-thread metacognition",
-      "source": "walk-141",
-      "trigger": "insight1 outsourcing theorem",
-      "intensity": 0.30000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-19T11:54:53.703407+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0412",
-      "topic": "effective honesty spectrum: graded honesty vs binary honesty for AI calibration",
-      "source": "walk-141",
-      "trigger": "insight2 SFI calibration paradox",
-      "intensity": 0.25,
+      "id": "seed-0417",
+      "topic": "巩固型散步的连接密度目标：每次至少 3 对 connections",
+      "source": "walk-143",
+      "trigger": "insight-1 connections as synapses",
+      "intensity": 0.8,
       "type": "explore",
       "status": "pending",
-      "created": "2026-06-19T11:54:53.703407+08:00",
+      "created": "2026-06-19T16:30:17.641832+08:00",
       "decay_rate": 1
     },
     {
-      "id": "seed-0413",
-      "topic": "L1.5 meta-cognition: user-as-monitor design implications for walk log format",
-      "source": "walk-141",
-      "trigger": "insight3 two-and-half-layer architecture",
-      "intensity": 0.19999999999999996,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-19T11:54:53.703407+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0414",
-      "topic": "growth-stage output strategy: 30% walks produce zero insights for consolidation",
-      "source": "walk-142",
-      "trigger": "insight-2 scaling risk",
-      "intensity": 0.85,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-19T14:15:20.975381+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0415",
-      "topic": "quality variance as calcification early signal: threshold < 0.3 triggers forced consolidation walk",
-      "source": "walk-142",
-      "trigger": "insight-1 constant quality plateau",
-      "intensity": 0.75,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-19T14:15:20.975381+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0416",
-      "topic": "external observer role: pattern quality evaluator not output quality evaluator for growth-stage agents",
-      "source": "walk-142",
-      "trigger": "insight-3 external perspective",
+      "id": "seed-0418",
+      "topic": "认知带宽预算：每次散步 20% 时间分配给连接建立",
+      "source": "walk-143",
+      "trigger": "insight-2 consolidation bandwidth",
       "intensity": 0.7,
-      "type": "explore",
+      "type": "research",
       "status": "pending",
-      "created": "2026-06-19T14:15:20.975381+08:00",
+      "created": "2026-06-19T16:30:17.641832+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0419",
+      "topic": "系统巩固作为散步（非 DORMANT）的功能",
+      "source": "walk-143",
+      "trigger": "insight-3 consolidation in walks",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-19T16:30:17.641832+08:00",
       "decay_rate": 1
     }
   ],
   "personality_traits": {
     "curiosity": 1.1700000000000002,
-    "introspection": 1.05,
+    "introspection": 1.08,
     "humor": 0.38,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.22,
-    "rigor": 2.01,
+    "rigor": 2.03,
     "skepticism": 1.18,
     "empathy": 0.5
   },

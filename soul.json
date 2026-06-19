@@ -46,7 +46,7 @@
       8.6
     ],
     "last_walk_insights": 3,
-    "next_action": null,
+    "next_action": "walk_analyze",
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,

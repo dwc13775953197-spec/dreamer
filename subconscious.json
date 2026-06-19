@@ -4459,5 +4459,23 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "quality_score=8.4 → strength=5.0"
+  },
+  {
+    "id": "insight-155-1",
+    "content": "Consolidation is not reinforcement but recontextualization. STC tag=marking importance, PRP reactivation=re-encoding in current skeleton context. After high-quality walks, DORMANT does both synthesis (new tags) and decomposition (old entries recontextualized in new schema), drawing from the same cognitive bandwidth pool. Bandwidth ceiling = skeleton carrying capacity. Depletion root cause: maintenance cost growth exceeds skeleton carrying capacity.",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "ins-101",
+      "insight-144-3",
+      "ins-133-4",
+      "insight-154-1",
+      "insight-154-2"
+    ],
+    "created": "2026-06-20T07:28:00+08:00",
+    "decayed_at": null,
+    "decay_rate": 1,
+    "source": "walk-155"
   }
 ]

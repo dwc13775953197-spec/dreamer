@@ -4380,5 +4380,26 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-101",
+    "type": "insight",
+    "content": "Dreamer citation system = STC functional implementation: citation=tag setting, DORMANT=PRP arrival, insight survival=capture probability. Optimal memory consolidation converges to same solution across physical substrates.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T05:11:52+0800",
+    "source": "walk-152",
+    "decay_rate": 1.0,
+    "connections": [
+      "ins-066",
+      "ins-069",
+      "pat-014",
+      "pat-030"
+    ],
+    "refs": [],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "note": "STC isomorphism with Dreamer citation system"
   }
 ]

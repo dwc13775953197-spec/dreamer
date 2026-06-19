@@ -4433,5 +4433,31 @@
     ],
     "refs": [],
     "note": "STC temporal window validates walk internal rhythm"
+  },
+  {
+    "id": "insight-154-1",
+    "type": "insight",
+    "content": "DORMANT 巩固音量假说：前一次散步的 quality_score 决定本次 DORMANT 的巩固效力。大型 SWR（Neuron 2026）选择性促进巩固。高产出散步后 DORMANT 巩固效率更高，但需要恢复间隔。探索→巩固→恢复三拍节奏是最优模式。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-20T06:26:02.624513+08:00",
+    "source": "walk-154",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.4 → strength=5.0"
+  },
+  {
+    "id": "insight-154-2",
+    "type": "insight",
+    "content": "Skeleton 图式巩固：PFC 在 SWR 中协调记忆重激活（Neuron 2026），映射到 Dreamer 意味着 DORMANT 不仅操作 subconscious entry 衰减，还应对 skeleton 做图式巩固——重新排列规则优先级、合并冗余规则、强化弱连接。当前 DORMANT 缺少 skeleton 维护子步骤。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-20T06:26:10.672875+08:00",
+    "source": "walk-154",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.4 → strength=5.0"
   }
 ]

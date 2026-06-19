@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T06:04:34.658094+08:00",
+    "next_scheduled": "2026-06-20T06:56:39.188905+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T05:49:34.657216+08:00",
-    "total_walks": 152,
-    "last_pulse_output": "2026-06-20T02:23:07.485448+08:00",
-    "last_walk": "2026-06-20T02:23:07.485448+08:00",
+    "last_walk_at": "2026-06-20T06:26:39.188067+08:00",
+    "total_walks": 153,
+    "last_pulse_output": "2026-06-20T06:26:39.188067+08:00",
+    "last_walk": "2026-06-20T06:26:39.188067+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 70.0,
+    "cognitive_pressure": 40.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -39,11 +39,11 @@
       8.5,
       8.5,
       8.5,
-      8.5,
       8.3,
       8.4,
       8.6,
-      8.3
+      8.3,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -100,18 +100,29 @@
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.48,
-    "pending_insights": 55,
+    "walk_quality_avg": 8.45,
+    "pending_insights": 57,
     "interest_queue": [
       {
         "id": "seed-0440",
         "topic": "Dreamer tag reset DORMANT substep: how to implement citation-refreshed decay clock",
         "source": "walk-152",
         "trigger": "insight-1 STC tag reset",
-        "intensity": 0.8,
+        "intensity": 0.75,
         "type": "research",
         "status": "pending",
         "created": "2026-06-20T05:14:44.319563+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0446",
+        "topic": "Dreamer DORMANT 巩固音量假说验证：高产出散步后的 DORMANT 周期是否比低产出散步后的更有效",
+        "source": "walk-154",
+        "trigger": "insight-1 consolidation volume",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T06:26:39.188067+08:00",
         "decay_rate": 1
       },
       {
@@ -119,7 +130,7 @@
         "topic": "Hebbian decay implementation: how to modify subconscious_maintain.py decay function to be connection-weighted",
         "source": "walk-150",
         "trigger": "insight-1 synaptic pruning = DORMANT",
-        "intensity": 0.7000000000000001,
+        "intensity": 0.65,
         "type": "research",
         "status": "pending",
         "created": "2026-06-20T01:46:22.573237+08:00",
@@ -130,10 +141,21 @@
         "topic": "Multiple-Trace Theory vs Dreamer multi-walk citation: which citation pattern gives stronger retention?",
         "source": "walk-152",
         "trigger": "insight-2 multiple trace",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-20T05:14:44.319563+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0447",
+        "topic": "SWR-PFC 协调重激活：Dreamer DORMANT 是否需要增加 skeleton 图式巩固子步骤",
+        "source": "walk-154",
+        "trigger": "insight-2 skeleton schema consolidation",
+        "intensity": 0.6499999999999999,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T06:26:39.188067+08:00",
         "decay_rate": 1
       },
       {
@@ -141,10 +163,32 @@
         "topic": "STC tag decay heterogeneity: can subconscious_maintain.py set decay_rate by entry type (pattern vs insight)?",
         "source": "walk-152",
         "trigger": "insight-3 STC tag decay heterogeneity",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-20T05:14:44.319563+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0443",
+        "topic": "STC tag decay actin network control: how actin network state determines tag half-life in 2025 biophysical model",
+        "source": "walk-153",
+        "trigger": "insight-1 STC biophysical model",
+        "intensity": 0.6,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T05:49:34.657216+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0448",
+        "topic": "SWR 恢复时间约束：连续两次大型 SWR 之间的最小间隔 → 连续高产出散步的最优休息时间",
+        "source": "walk-154",
+        "trigger": "insight-1 SWR recovery time",
+        "intensity": 0.6,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T06:26:39.188067+08:00",
         "decay_rate": 1
       },
       {
@@ -152,7 +196,7 @@
         "topic": "AIF 先验精度作为 curiosity 的动态校准机制：如何在 Dreamer 中实现自适应先验？",
         "source": "walk-149",
         "trigger": "insight-1 curiosity as inverse prior precision",
-        "intensity": 0.6000000000000001,
+        "intensity": 0.55,
         "type": "research",
         "status": "pending",
         "created": "2026-06-19T23:56:06+08:00",
@@ -163,43 +207,10 @@
         "topic": "Critical period reopening: does cross-domain walking empirically increase subsequent within-domain walk quality?",
         "source": "walk-150",
         "trigger": "insight-2 cross-domain = reopening",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-20T01:46:22.573237+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0433",
-        "topic": "3:1 周期的数学推导：是否存在最优探索比例？能否从 information theory 推出？",
-        "source": "walk-149",
-        "trigger": "insight-2 optimal exploration ratio",
-        "intensity": 0.5,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-19T23:56:06+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0434",
-        "topic": "Dreamer 作为 AIF 近似系统的验证：回溯历史数据看 pressure 变化是否符合自由能最小化预测",
-        "source": "walk-149",
-        "trigger": "insight-3 AIF validation",
-        "intensity": 0.5,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-19T23:56:06+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0443",
-        "topic": "STC tag decay actin network control: how actin network state determines tag half-life in 2025 biophysical model",
-        "source": "walk-153",
-        "trigger": "insight-1 STC biophysical model",
-        "intensity": 0.65,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T05:49:34.657216+08:00",
         "decay_rate": 1
       },
       {
@@ -207,7 +218,7 @@
         "topic": "Dreamer connection distribution scale-free analysis: does hub anti-decay emerge from topology?",
         "source": "walk-153",
         "trigger": "insight-2 graph topology weighted decay",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-20T05:49:34.657216+08:00",
@@ -218,10 +229,32 @@
         "topic": "STC temporal window as explanation for 35-minute barrier: tag stabilization time sets minimum walk length",
         "source": "walk-153",
         "trigger": "insight-2 walk internal rhythm STC validation",
-        "intensity": 0.55,
+        "intensity": 0.5,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-20T05:49:34.657216+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0433",
+        "topic": "3:1 周期的数学推导：是否存在最优探索比例？能否从 information theory 推出？",
+        "source": "walk-149",
+        "trigger": "insight-2 optimal exploration ratio",
+        "intensity": 0.45,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T23:56:06+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0434",
+        "topic": "Dreamer 作为 AIF 近似系统的验证：回溯历史数据看 pressure 变化是否符合自由能最小化预测",
+        "source": "walk-149",
+        "trigger": "insight-3 AIF validation",
+        "intensity": 0.45,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-19T23:56:06+08:00",
         "decay_rate": 1
       }
     ]
@@ -234,7 +267,7 @@
     "arousal": 0.6,
     "rigor": 0.98
   },
-  "energy": 30,
+  "energy": 35,
   "mood": "wonder",
   "mood_history": [
     {
@@ -428,6 +461,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T05:49:34.657216+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-20T06:26:39.188067+08:00"
     }
   ],
   "last_walk": "2026-06-20T05:49:34.657216+08:00",
@@ -616,7 +653,7 @@
   ],
   "pending_insights": 61,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-19T15:53:22.385065+08:00",
+  "last_pulse_output": "2026-06-20T06:26:39.188067+08:00",
   "interest_queue": [
     {
       "id": "seed-0429",

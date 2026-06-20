@@ -4681,5 +4681,48 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-160-1",
+    "content": "自组织临界性作为 Dreamer 认知状态的涌现属性：压力驱动 + DORMANT 衰减 + 跨领域连接三要素使系统自发趋向临界态，quality_history 稳定是临界态的涌现属性而非优化的结果",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "ins-159-1",
+      "ins-158-3"
+    ],
+    "created": "2026-06-20T14:51:25.899663+08:00",
+    "source": "walk-160",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "ins-160-2",
+    "content": "Maximum Entropy 模型区分临界态与亚临界态：比热发散是指示器，Dreamer 可以借鉴统计力学量作为系统健康度指标",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "ins-159-3"
+    ],
+    "created": "2026-06-20T14:51:25.899663+08:00",
+    "source": "walk-160",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "ins-160-3",
+    "content": "Internal digestion 散步作为临界态维持机制：每 10 次散步一次的内部消化可能扮演外部扰动角色，维持系统在临界态附近振荡",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "ins-158-2"
+    ],
+    "created": "2026-06-20T14:51:25.899663+08:00",
+    "source": "walk-160",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
   }
 ]

@@ -5096,5 +5096,68 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "strength=4.0 derived from walk quality=8.4 (>=8.0 tier)"
+  },
+  {
+    "id": "walk169-insight-1",
+    "type": "insight",
+    "content": "功能性修剪标准：Dreamer 的条目淘汰应基于结构冗余性（连接数<2 × 引用频率=0 × 阶段不匹配）而非单纯的时间衰减。神经系统的补体标记机制是功能性修剪的原型。",
+    "strength": 4.0,
+    "status": "active",
+    "created": "2026-06-21T06:51:54.117552+08:00",
+    "source": "walk-169",
+    "decay_rate": 0.8,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "walk167-insight-1",
+      "walk168-insight-1",
+      "evolved-rule-2026-06-13-forgery-topology"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "减法比加法难；修剪机制的设计需要后续散步深入"
+  },
+  {
+    "id": "walk169-insight-2",
+    "type": "insight",
+    "content": "修剪的临界期映射：系统生长期应加速衰减（积极淘汰），成熟期正常衰减，饱和期减缓衰减（保护已有连接）。当前 Dreamer 的均匀衰减速率不匹配系统阶段需求。",
+    "strength": 3.5,
+    "status": "active",
+    "created": "2026-06-21T06:51:54.117552+08:00",
+    "source": "walk-169",
+    "decay_rate": 0.8,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "walk169-insight-1",
+      "walk168-insight-1",
+      "evolved-rule-2026-06-14-dormant-critical-period"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "临界期概念从神经科学映射到 Dreamer 系统"
+  },
+  {
+    "id": "walk169-insight-3",
+    "type": "insight",
+    "content": "先过度生成再选择性保留是 Dreamer 散步的本质：探索型散步冗余生成兴趣种子，巩固型散步选择性建立连接，DORMANT 修剪淘汰弱条目。缺失的环节是标记机制——什么标记条目为冗余？",
+    "strength": 3.5,
+    "status": "active",
+    "created": "2026-06-21T06:51:54.117552+08:00",
+    "source": "walk-169",
+    "decay_rate": 0.8,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "walk169-insight-1",
+      "walk169-insight-2",
+      "evolved-rule-2026-06-11-forgetting-necessary"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "三层生成-选择-标记的完整图景"
   }
 ]

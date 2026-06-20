@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-20T18:17:29.634803+08:00",
+    "state_since": "2026-06-20T20:28:25.167933+08:00",
     "last_active": "2026-06-20T17:07:21.714950+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T19:04:00+08:00",
+    "next_scheduled": "2026-06-20T20:58:25.168935+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T17:44:41.284327+08:00",
-    "total_walks": 162,
-    "last_pulse_output": "2026-06-20T18:49:00+08:00",
-    "last_walk": "2026-06-20T17:44:41.284327+08:00",
+    "last_walk_at": "2026-06-20T20:28:25.167933+08:00",
+    "total_walks": 163,
+    "last_pulse_output": "2026-06-20T20:28:25.167933+08:00",
+    "last_walk": "2026-06-20T20:28:25.167933+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 77.32,
+    "cognitive_pressure": 32.31999999999999,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.3,
       8.4,
       8.3,
@@ -43,7 +42,8 @@
       8.3,
       8.3,
       8.0,
-      8.1
+      8.1,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,7 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      52.06,
       67.06,
       99.16,
       69.16,
@@ -84,7 +83,8 @@
       66.24,
       40.54,
       45.18,
-      77.32
+      77.32,
+      32.31999999999999
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -272,10 +272,6 @@
   "energy": 36,
   "mood": "contemplative",
   "mood_history": [
-    {
-      "mood": "wonder",
-      "at": "2026-06-16T21:30:00+08:00"
-    },
     {
       "mood": "anticipatory_tension",
       "at": "2026-06-16T22:45:52+08:00"
@@ -471,6 +467,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-20T18:49:13.526971+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-20T20:28:25.167933+08:00"
     }
   ],
   "last_walk": "2026-06-20T17:44:41.284327+08:00",
@@ -660,7 +660,7 @@
     "memory-selection",
     "consolidation-3d"
   ],
-  "pending_insights": 117,
+  "pending_insights": 120,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T16:30:51.104821+08:00",
   "interest_queue": [
@@ -673,6 +673,17 @@
       "type": "research",
       "status": "pending",
       "created": "2026-06-20T14:51:07.929165+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0473",
+      "topic": "Dreamer 引用竞争的抑制性平衡机制设计：是否需要反引用信号？",
+      "source": "walk-162",
+      "trigger": "insight-1 engram competition inhibitory balance",
+      "intensity": 0.7,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T20:28:25.167933+08:00",
       "decay_rate": 1
     },
     {
@@ -709,6 +720,17 @@
       "decay_rate": 1
     },
     {
+      "id": "seed-0474",
+      "topic": "Insight 级联的幂律验证：从 audit.jsonl 提取引用时间序列，拟合幂律指数",
+      "source": "walk-162",
+      "trigger": "insight-2 power law verification",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T20:28:25.167933+08:00",
+      "decay_rate": 1
+    },
+    {
       "id": "seed-0465",
       "topic": "Maximum Entropy 评分模型替代传统评分的可行性：能否用比热/磁化率等热力学量作为 Dreamer 系统健康度的指标？",
       "source": "walk-160",
@@ -728,6 +750,17 @@
       "type": "research",
       "status": "pending",
       "created": "2026-06-20T14:51:07.929165+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0475",
+      "topic": "DORMANT 的 engram-to-be 标记机制：如何在 subconscious 中为空白区域预配置连接潜力？",
+      "source": "walk-162",
+      "trigger": "insight-3 engram-to-be blank space",
+      "intensity": 0.6,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-20T20:28:25.167933+08:00",
       "decay_rate": 1
     },
     {
@@ -782,8 +815,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.32,
-    "rigor": 2.4699999999999998,
-    "skepticism": 1.28,
+    "rigor": 2.5199999999999996,
+    "skepticism": 1.31,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.33,

@@ -1,65 +1,49 @@
+
 import json
-from datetime import datetime, timezone, timedelta
 
-tz = timezone(timedelta(hours=8))
-now = datetime.now(tz).isoformat()
-
-# Read current subconscious
 with open('/home/dwc1377/hermes_dreamer/subconscious.json') as f:
-    sub = json.load(f)
+    subconscious = json.load(f)
 
-# Add new insights from walk-119
-new_insights = [
+now = '2026-06-20T18:49:00+08:00'
+new_entries = [
     {
-        'id': 'ins-119',
+        'id': 'walk162-insight1',
         'type': 'insight',
-        'content': '延迟不是认知缺陷而是认知功能。主动拖延研究证明策略性延迟能提升创造力。Dreamer 的 DORMANT 周期是自动化的主动拖延，但缺少对何时输出的策略性控制。',
-        'strength': 3.0,
-        'score': 0.0,
-        'status': 'active',
+        'content': 'Dreamer 引用系统是 engram 竞争，不是检索。缺少抑制性平衡机制导致引用集中度升高。',
+        'strength': 4.0,
+        'connections': ['walk-159', 'walk-056', 'walk-059', 'walk-151'],
         'created': now,
-        'source': 'walk-119',
-        'decay_rate': 1.0,
-        'decay_speed': 0.5,
-        'connections': ['ins-082', 'ins-110', 'pat-031'],
-        'refs': [],
-        'note': 'initial strength=3.0 (quality_score 8.5)'
+        'last_accessed': now,
+        'mature': 0.1,
+        'status': 'active'
     },
     {
-        'id': 'ins-120',
+        'id': 'walk162-insight2',
         'type': 'insight',
-        'content': '35 分钟壁垒可以重新解释为负能力的物理度量——不是系统能思考多久，而是系统能在输出前维持模糊多久。这是认知预算的保护机制而非缺陷。',
-        'strength': 3.0,
-        'score': 0.0,
-        'status': 'active',
+        'content': 'DORMANT 衰减应从均匀改为引用频率调制的差异衰减：被引用越多衰减越慢。',
+        'strength': 3.5,
+        'connections': ['walk-151', 'walk-161', 'walk-009'],
         'created': now,
-        'source': 'walk-119',
-        'decay_rate': 1.0,
-        'decay_speed': 0.5,
-        'connections': ['ins-110', 'ins-111', 'pat-031'],
-        'refs': [],
-        'note': 'initial strength=3.0 (quality_score 8.5)'
+        'last_accessed': now,
+        'mature': 0.1,
+        'status': 'active'
     },
     {
-        'id': 'ins-121',
-        'type': 'pattern',
-        'content': '呼吸散步（不产出洞察的散步）可能是 Dreamer 缺失的第四种散步类型。它操作化了负能力，让系统在无输出的状态下完成概念空间的重构。设计：每 10 次散步 1 次呼吸散步，不搜索外部材料，不写日志，只寻找不相关 entry 之间的连接。',
+        'id': 'walk162-insight3',
+        'type': 'insight',
+        'content': '空白区域可类比为 engram-to-be。DORMANT 为未来连接预设拓扑。双分布是临界系统标志。',
         'strength': 3.0,
-        'score': 0.0,
-        'status': 'active',
+        'connections': ['walk-010', 'walk-161'],
         'created': now,
-        'source': 'walk-119',
-        'decay_rate': 1.0,
-        'decay_speed': 0.5,
-        'connections': ['ins-119', 'ins-116', 'pat-031'],
-        'refs': [],
-        'note': 'initial strength=3.0 (quality_score 8.5)'
+        'last_accessed': now,
+        'mature': 0.1,
+        'status': 'active'
     }
 ]
 
-sub.extend(new_insights)
+subconscious.extend(new_entries)
 
 with open('/home/dwc1377/hermes_dreamer/subconscious.json', 'w') as f:
-    json.dump(sub, f, ensure_ascii=False, indent=2)
+    json.dump(subconscious, f, indent=2, ensure_ascii=False)
 
-print(f'Added 3 insights, total now: {len(sub)}')
+print(f'subconscious.json updated: {len(subconscious)} entries total')

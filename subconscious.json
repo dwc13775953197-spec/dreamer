@@ -4860,5 +4860,67 @@
     "decay_rate": 1.0,
     "connections": [],
     "refs": []
+  },
+  {
+    "id": "insight-164-1",
+    "type": "insight",
+    "content": "Cognitive respiration model: walks should be micro-cycles of explore-consolidate (not time-segmented), analogous to NREM-REM iteration. Walker 2022 validates biphasic cognitive modes; Sleep Advances 2024 validates iterative refinement. 2:1 is energy ratio, not time ratio.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-20T22:11:53.832767+08:00",
+    "source": "walk-164",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0,
+    "connections": [
+      "insight-144-1",
+      "insight-144-2",
+      "insight-144-3"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "Deepening of strongest entry insight-144-1 with sleep neuroscience cross-validation"
+  },
+  {
+    "id": "insight-164-2",
+    "type": "insight",
+    "content": "Real-time switching trigger: use consecutive search failure count as signal to switch from explore to consolidate mode (area-restricted search framework, Frontiers 2023). Superior to preset time-ratio mechanical switching.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-20T22:11:53.832767+08:00",
+    "source": "walk-164",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0,
+    "connections": [
+      "insight-144-1",
+      "seed-0476"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "Area-restricted search dynamic switching applied to Dreamer"
+  },
+  {
+    "id": "insight-164-3",
+    "type": "insight",
+    "content": "Iterative refinement hypothesis: multiple small search-connect cycles should produce deeper insights than one large search + one large connect. Prediction: search success rate decays during walk, hitting threshold triggers consolidate mode.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-20T22:11:53.832767+08:00",
+    "source": "walk-164",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0,
+    "connections": [
+      "insight-144-1",
+      "insight-164-1",
+      "insight-164-2"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "Testable prediction - needs search success rate curve measurement in Dreamer walks"
   }
 ]

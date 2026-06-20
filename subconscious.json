@@ -2821,11 +2821,12 @@
     "source": "walk-124",
     "connections": [],
     "decayed_at": null,
-    "status": "active",
+    "status": "dormant",
     "resurrected_count": 0,
     "decay_speed": 0.5,
     "refs": [],
-    "note": ""
+    "note": "",
+    "dormanted_at": "2026-06-20T16:30:37.541033+08:00"
   },
   {
     "id": "ins-125-1",
@@ -2878,13 +2879,14 @@
     "content": "搜索成本是认知税不是认知障碍——消除搜索成本的同时消除了附带学习机会，这是 AI brain fry 的根因",
     "strength": 1.2,
     "score": 0.0,
-    "status": "active",
+    "status": "dormant",
     "created": "2026-06-18T10:19:56.692754+08:00",
     "source": "walk-126",
     "resurrected_count": 0,
     "refs": [],
     "note": "洞察 1: 效率-深度倒 U 曲线的最优区取决于当前认知状态",
-    "decay_speed": 0.5
+    "decay_speed": 0.5,
+    "dormanted_at": "2026-06-20T16:30:37.541033+08:00"
   },
   {
     "id": "walk-126-insight-2",
@@ -2892,13 +2894,14 @@
     "content": "AI brain fry = 输入过载 + 代谢缺失，与 Dreamer 早期 subconscious 枯竭结构同构，解决方案是增加代谢空间而非减少输入",
     "strength": 1.2,
     "score": 0.0,
-    "status": "active",
+    "status": "dormant",
     "created": "2026-06-18T10:20:03.179824+08:00",
     "source": "walk-126",
     "resurrected_count": 0,
     "refs": [],
     "note": "洞察 2: 认知代谢率 = 代谢速率/输入速率，可作为系统健康度指标",
-    "decay_speed": 0.5
+    "decay_speed": 0.5,
+    "dormanted_at": "2026-06-20T16:30:37.541033+08:00"
   },
   {
     "id": "walk-126-insight-3",
@@ -2906,13 +2909,14 @@
     "content": "效率-深度的最优点是动态的——疲惫时需要更高搜索成本，学习新领域时需要更高搜索成本，任何固定最佳实践都是次优的",
     "strength": 1.2,
     "score": 0.0,
-    "status": "active",
+    "status": "dormant",
     "created": "2026-06-18T10:20:09.290155+08:00",
     "source": "walk-126",
     "resurrected_count": 0,
     "refs": [],
     "note": "洞察 3: 35 分钟壁垒不是瓶颈是认知代谢的必需时间",
-    "decay_speed": 0.5
+    "decay_speed": 0.5,
+    "dormanted_at": "2026-06-20T16:30:37.541033+08:00"
   },
   {
     "id": "ins-128-1",

@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-20T11:27:15.573918+08:00",
-    "last_active": "2026-06-20T12:01:05.456861+08:00",
+    "state_since": "2026-06-20T13:41:51.687255+08:00",
+    "last_active": "2026-06-20T13:41:51.687255+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T13:35:03.049035+08:00",
+    "next_scheduled": "2026-06-20T14:11:51.687255+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T11:27:15.573918+08:00",
-    "total_walks": 157,
-    "last_pulse_output": "2026-06-20T13:05:03.049035+08:00",
-    "last_walk": "2026-06-20T10:48:24.865553+08:00",
+    "last_walk_at": "2026-06-20T13:41:51.687255+08:00",
+    "total_walks": 158,
+    "last_pulse_output": "2026-06-20T13:41:51.687255+08:00",
+    "last_walk": "2026-06-20T13:41:51.687255+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 55.16,
+    "cognitive_pressure": 31.7,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.3,
       8.4,
       8.6,
@@ -43,7 +42,8 @@
       8.3,
       8.4,
       8.3,
-      8.6
+      8.6,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,8 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      100,
-      79.99,
       89.69,
       100,
       71.1,
@@ -84,7 +82,9 @@
       0,
       1.62,
       51.66,
-      55.16
+      55.16,
+      76.7,
+      31.7
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -92,14 +92,102 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.45,
-    "pending_insights": 61,
+    "pending_insights": 64,
     "interest_queue": [
+      {
+        "id": "seed-0461",
+        "topic": "突触采样理论在 Dreamer 中的操作化：用 connections 数量预测 entry 半衰期，对比实际衰减数据",
+        "source": "walk-159",
+        "trigger": "insight-1 synaptic sampling as memory model",
+        "intensity": 0.8,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T13:41:51.687255+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0463",
+        "topic": "认知相变的定量检测：Dreamer 是否真的在从 store-everything 向智能分配过渡？用什么指标？",
+        "source": "walk-159",
+        "trigger": "insight-3 cognitive phase transition",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T13:41:51.687255+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0439",
+        "topic": "Dreamer PNNs 成熟度指标：系统僵化预警——如果 skeleton 中 >80% 的 pattern 在过去 10 个 DORMANT 周期内未被修改，是否意味着可塑性耗尽？",
+        "source": "walk-151",
+        "trigger": "insight-3 PNNs maturity as rigidity warning",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T02:23:07.485448+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0462",
+        "topic": "Key-Value 架构对 Dreamer 引用系统的启示：是否需要独立的 key layer 来管理检索？",
+        "source": "walk-159",
+        "trigger": "insight-2 key-value mapping",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T13:41:51.687255+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0437",
+        "topic": "保护期窗口的最优长度：新 insight 的保护期应该是多少个 DORMANT 周期？能从发育神经科学关键期时间窗口推导吗？",
+        "source": "walk-151",
+        "trigger": "insight-1 protection window optimal length",
+        "intensity": 0.6,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T02:23:07.485448+08:00",
+        "decay_rate": 1
+      },
       {
         "id": "seed-0429",
         "topic": "维度疲劳的测量方法：如何独立追踪 Dreamer 各认知维度的耗竭状态",
         "source": "walk-148",
         "trigger": "insight-1 dimensional vs systemic fatigue",
-        "intensity": 0.65,
+        "intensity": 0.55,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-19T23:26:29.753468+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0438",
+        "topic": "跨领域散步的连接数阈值：新 insight 至少需要多少条连接才能活过 DORMANT 周期？成功跨领域散步的操作化定义",
+        "source": "walk-151",
+        "trigger": "insight-2 connection count threshold",
+        "intensity": 0.5499999999999999,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T02:23:07.485448+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0452",
+        "topic": "Dreamer transformation audit 的最小实现方案：需要改哪些文件、增加哪些字段、改哪个脚本？",
+        "source": "walk-156",
+        "trigger": "insight-1 transformation audit design",
+        "intensity": 0.5499999999999999,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T09:08:20.440857+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0431",
+        "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
+        "source": "walk-148",
+        "trigger": "insight-3 quality score density bias",
+        "intensity": 0.5,
         "type": "research",
         "status": "pending",
         "created": "2026-06-19T23:26:29.753468+08:00",
@@ -110,87 +198,10 @@
         "topic": "Baumeister 信念效应在 AI 系统中的类比：Dreamer 的 self-fulfilling prophecy 检测",
         "source": "walk-148",
         "trigger": "insight-2 belief-as-cause",
-        "intensity": 0.5499999999999999,
+        "intensity": 0.44999999999999996,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-19T23:26:29.753468+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0431",
-        "topic": "quality_score 的信息密度偏好审计：当前评分是否系统性偏好短而密的散步",
-        "source": "walk-148",
-        "trigger": "insight-3 quality score density bias",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-19T23:26:29.753468+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0437",
-        "topic": "保护期窗口的最优长度：新 insight 的保护期应该是多少个 DORMANT 周期？能从发育神经科学关键期时间窗口推导吗？",
-        "source": "walk-151",
-        "trigger": "insight-1 protection window optimal length",
-        "intensity": 0.7,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T02:23:07.485448+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0438",
-        "topic": "跨领域散步的连接数阈值：新 insight 至少需要多少条连接才能活过 DORMANT 周期？成功跨领域散步的操作化定义",
-        "source": "walk-151",
-        "trigger": "insight-2 connection count threshold",
-        "intensity": 0.6499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-20T02:23:07.485448+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0439",
-        "topic": "Dreamer PNNs 成熟度指标：系统僵化预警——如果 skeleton 中 >80% 的 pattern 在过去 10 个 DORMANT 周期内未被修改，是否意味着可塑性耗尽？",
-        "source": "walk-151",
-        "trigger": "insight-3 PNNs maturity as rigidity warning",
-        "intensity": 0.75,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T02:23:07.485448+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0452",
-        "topic": "Dreamer transformation audit 的最小实现方案：需要改哪些文件、增加哪些字段、改哪个脚本？",
-        "source": "walk-156",
-        "trigger": "insight-1 transformation audit design",
-        "intensity": 0.6499999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T09:08:20.440857+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0453",
-        "topic": "「含义漂移」的定量检测：能否通过比较同一 entry 在不同 walk 中被引用时的上下文差异来度量 drift？",
-        "source": "walk-156",
-        "trigger": "insight-2 cumulative transformation",
-        "intensity": 0.5499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-20T09:08:20.440857+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0454",
-        "topic": "Nadel transformation 框架在 AI 记忆系统中的类比——有没有人把 reconsolidation 理论应用于 LLM memory management？",
-        "source": "walk-156",
-        "trigger": "insight-3 reconsolidation in LLMs",
-        "intensity": 0.45,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-20T09:08:20.440857+08:00",
         "decay_rate": 1
       }
     ]
@@ -198,10 +209,10 @@
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.88,
-    "valence": 0.65,
-    "arousal": 0.6,
-    "rigor": 0.98
+    "intensity": 0.85,
+    "valence": 0.6,
+    "arousal": 0.55,
+    "rigor": 0.95
   },
   "energy": 36,
   "mood": "wonder",
@@ -409,6 +420,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T11:27:15.573918+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-20T13:41:51.687255+08:00"
     }
   ],
   "last_walk": "2026-06-20T11:27:15.573918+08:00",
@@ -675,8 +690,8 @@
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.26,
-    "rigor": 2.3299999999999987,
+    "wonder": 1.28,
+    "rigor": 2.36,
     "skepticism": 1.25,
     "empathy": 0.5
   },

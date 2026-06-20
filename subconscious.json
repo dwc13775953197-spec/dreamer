@@ -4642,5 +4642,44 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "初始 strength=5.0 (quality_score=8.6≥8.0)"
+  },
+  {
+    "id": "insight-159-1",
+    "type": "insight",
+    "content": "Dreamer memory 系统的容量约束不是 entry 数量，而是每条 entry 的连接复杂度（突触采样理论）。高 connections = 高 SNR = 长寿命。当前均匀衰减策略违背幂律预测，应改为连接数加权衰减。",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-20T13:41:05.544823+08:00",
+    "source": "walk-159",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-159-2",
+    "type": "insight",
+    "content": "Gershman 2025 hippocampal index theory mapping: Dreamer entry id = key, content+connections = value. Retrieval failure = key loss, not value corruption. Diversity seeds essentially increase retrieval paths.",
+    "strength": 3.0,
+    "score": 0.6,
+    "status": "active",
+    "created": "2026-06-20T13:41:16.277379+08:00",
+    "source": "walk-159",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-159-3",
+    "type": "insight",
+    "content": "Cognitive phase transition hypothesis: Dreamer is transitioning from store-everything (maximize entry count) to intelligent retrieval allocation (maximize SNR of key entries). Metric: ratio of high-connection (>5 conn) to low-connection (<2 conn) entries over time.",
+    "strength": 3.0,
+    "score": 0.6,
+    "status": "active",
+    "created": "2026-06-20T13:41:23.190078+08:00",
+    "source": "walk-159",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

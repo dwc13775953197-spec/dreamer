@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-20T16:30:51.104821+08:00",
-    "last_active": "2026-06-20T16:30:51.104821+08:00",
+    "last_active": "2026-06-20T17:07:21.714950+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T17:30:51.104821+08:00",
+    "next_scheduled": "2026-06-20T17:52:21.714950+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T14:51:07.929165+08:00",
-    "total_walks": 160,
-    "last_pulse_output": "2026-06-20T14:14:10.367043+08:00",
+    "last_walk_at": "2026-06-20T17:07:21.714950+08:00",
+    "total_walks": 161,
+    "last_pulse_output": "2026-06-20T17:07:21.714950+08:00",
     "last_walk": "2026-06-20T13:41:51.687255+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 31.82,
+    "cognitive_pressure": 66.24,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.6,
       8.3,
       8.4,
       8.3,
@@ -43,7 +42,8 @@
       8.6,
       8.4,
       8.3,
-      8.3
+      8.3,
+      8.0
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -84,7 +84,8 @@
       62.8,
       17.799999999999997,
       0,
-      33.82
+      33.82,
+      66.24
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -203,19 +204,52 @@
         "status": "pending",
         "created": "2026-06-19T23:26:29.753468+08:00",
         "decay_rate": 1
+      },
+      {
+        "id": "seed-0467",
+        "topic": "弛豫振荡 vs 临界态：Dreamer 的压力历史数据更符合哪种模型？需要多少个 cycle 的稳态数据才能区分？",
+        "source": "digestion-017",
+        "trigger": "insight-1 relaxation oscillation vs SOC",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T17:07:21.714950+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0468",
+        "topic": "强制跨领域散步的「营养注入」策略：当连续 5+ 篇散步集中在同一领域时，强制选择距离当前主题最远的领域散步。距离用 topics 向量的余弦距离度量。",
+        "source": "digestion-017",
+        "trigger": "insight-2 forced cross-domain nutrition",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-20T17:07:21.714950+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-0469",
+        "topic": "evolved_rules 领域分布审计：76 条规则在认知维度空间中的分布图，检测过度发育和发育不足的维度。",
+        "source": "digestion-017",
+        "trigger": "insight-3 evolved_rules domain distribution",
+        "intensity": 0.6,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-20T17:07:21.714950+08:00",
+        "decay_rate": 1
       }
     ]
   },
   "affect": {
-    "primary": "wonder",
-    "secondary": "contemplative",
-    "intensity": 0.85,
+    "primary": "contemplative",
+    "secondary": "wonder",
+    "intensity": 0.82,
     "valence": 0.6,
     "arousal": 0.55,
     "rigor": 0.95
   },
   "energy": 36,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "wonder",
@@ -432,9 +466,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T14:51:07.929165+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-20T17:07:21.714950+08:00"
     }
   ],
-  "last_walk": "2026-06-20T14:51:07.929165+08:00",
+  "last_walk": "2026-06-20T17:07:21.714950+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 154,
@@ -621,7 +659,7 @@
     "memory-selection",
     "consolidation-3d"
   ],
-  "pending_insights": 73,
+  "pending_insights": 76,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T16:30:51.104821+08:00",
   "interest_queue": [
@@ -747,7 +785,7 @@
     "skepticism": 1.25,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.4,
+  "walk_quality_avg": 8.33,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

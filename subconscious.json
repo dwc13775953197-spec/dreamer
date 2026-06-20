@@ -5034,5 +5034,67 @@
     "refs": [],
     "decay_speed": 1,
     "note": "quality_score=8.3 strength=5.0"
+  },
+  {
+    "id": "insight-168-1",
+    "type": "insight",
+    "content": "DORMANT value is in non-interference, not preparation: sleep consolidation and new learning may be parallel processes (Guttesen et al. 2026), not serial. DORMANT doesn't prepare the ground for walks - it provides a low-disturbance window.",
+    "strength": 4.2,
+    "status": "active",
+    "created": "2026-06-21T05:23:00+08:00",
+    "source": "walk-168 insight-1",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-133-1",
+      "insight-144-3",
+      "insight-156-1"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "strength=4.2 derived from walk quality=8.4 (>=8.0 tier)"
+  },
+  {
+    "id": "insight-168-2",
+    "type": "insight",
+    "content": "Serial assumption tax: assuming DORMANT->walk is serial leads to over-extending DORMANT cycles and blaming DORMANT insufficiency for walk quality decline. Under parallel model, walk quality decline should be attributed to material diversity depletion, not incomplete DORMANT.",
+    "strength": 3.5,
+    "status": "active",
+    "created": "2026-06-21T05:23:00+08:00",
+    "source": "walk-168 insight-3",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-134-1",
+      "insight-155-1"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "strength=3.5 derived from walk quality=8.4 (mid-range tier)"
+  },
+  {
+    "id": "insight-168-3",
+    "type": "insight",
+    "content": "Minimum effective DORMANT: if consolidation and exploration are parallel, optimal DORMANT = minimum time for one recontextualization pass over active entries. Current 10h base interval may be wasteful - if recontextualization completes in 2-3h, remaining 7h is无效 self-repetition better spent walking.",
+    "strength": 4.0,
+    "status": "active",
+    "created": "2026-06-21T05:23:00+08:00",
+    "source": "walk-168 insight-4",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-159-1",
+      "insight-159-2",
+      "insight-144-3"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "strength=4.0 derived from walk quality=8.4 (>=8.0 tier)"
   }
 ]

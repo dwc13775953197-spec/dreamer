@@ -4922,5 +4922,66 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "Testable prediction - needs search success rate curve measurement in Dreamer walks"
+  },
+  {
+    "id": "ins-165-1",
+    "type": "insight",
+    "content": "Dreamer pressure system is a relaxation oscillator: sawtooth accumulation/release pattern. Oscillation frequency determined by accumulation rate (base_rate * interval) and release depth (insight_count * release_per_insight). Mirollo-Strogatz pulse-coupled oscillator model provides precise analogy: when coupling strength exceeds threshold, system jumps from chaos to synchronization, similar to Dreamer high-low pressure phase transition.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T01:25:19.389376+08:00",
+    "source": "walk-165",
+    "decay_rate": 0.95,
+    "connections": [
+      "seed-0476",
+      "seed-0470",
+      "seed-0472"
+    ],
+    "refs": [
+      "walk-163",
+      "walk-161",
+      "walk-159"
+    ],
+    "note": "relaxation oscillator model"
+  },
+  {
+    "id": "ins-165-2",
+    "type": "insight",
+    "content": "Allostatic prediction can improve pressure system: switch from homeostatic (wait for threshold) to allostatic (predict need). Simple implementation: when last walk yield low (last_walk_insights < 2), add extra pressure to trigger exploration earlier. Aligns with walk-125 predictive coding as walk meta-framework.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T01:25:19.389376+08:00",
+    "source": "walk-165",
+    "decay_rate": 0.95,
+    "connections": [
+      "seed-0470",
+      "seed-0467"
+    ],
+    "refs": [
+      "walk-125",
+      "walk-161"
+    ],
+    "note": "allostatic pressure design"
+  },
+  {
+    "id": "ins-165-3",
+    "type": "insight",
+    "content": "Walk type selection should respond to relaxation oscillator phase, not fixed cycle. Accumulation phase (pressure rising) -> consolidate first (deepen existing structure); just after release -> explore first (introduce new material while space is available). More flexible than fixed 3:1 cycle, consistent with walk-164 NREM-REM analogy.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T01:25:19.389376+08:00",
+    "source": "walk-165",
+    "decay_rate": 0.95,
+    "connections": [
+      "seed-0470",
+      "seed-0477",
+      "seed-0472"
+    ],
+    "refs": [
+      "walk-164",
+      "walk-163",
+      "walk-161"
+    ],
+    "note": "oscillation-phase walk selection"
   }
 ]

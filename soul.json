@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T01:04:00+08:00",
+    "next_scheduled": "2026-06-21T01:41:05.714842+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T22:11:53.832767+08:00",
-    "total_walks": 165,
-    "last_pulse_output": "2026-06-21T00:19:50.981179+08:00",
+    "last_walk_at": "2026-06-21T01:26:05.714842+08:00",
+    "total_walks": 166,
+    "last_pulse_output": "2026-06-21T01:26:05.714842+08:00",
     "last_walk": "2026-06-20T22:11:53.832767+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 76.44,
+    "cognitive_pressure": 0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,8 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
-      8.6,
       8.4,
       8.3,
       8.3,
@@ -43,7 +41,9 @@
       8.1,
       8.4,
       8.3,
-      8.1
+      8.1,
+      8.4,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,8 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      46.54,
-      63.03,
       55,
       20.069999999999993,
       37.3,
@@ -84,7 +82,9 @@
       40.16,
       36.95,
       56.2,
-      76.44
+      76.44,
+      31.439999999999998,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -95,104 +95,49 @@
     "pending_insights": 70,
     "interest_queue": [
       {
+        "id": "seed-165-1",
+        "topic": "Relaxation oscillator model parameter fitting from pressure_history",
+        "source": "walk-165",
+        "trigger": "insight-1",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T01:26:05.714842+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-165-2",
+        "topic": "Allostatic pressure design: predictive regulation using last_walk_insights",
+        "source": "walk-165",
+        "trigger": "insight-2",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T01:26:05.714842+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-165-3",
+        "topic": "Oscillation-phase-dependent walk type selection",
+        "source": "walk-165",
+        "trigger": "insight-3",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T01:26:05.714842+08:00",
+        "decay_rate": 1
+      },
+      {
         "id": "seed-164-1",
         "topic": "Empirical measurement of cognitive respiration parameters: search success rate decay curve during Dreamer walks",
-        "intensity": 0.75,
+        "intensity": 0.6499999999999999,
         "source": "walk-164 insight-164-3"
       },
       {
         "id": "seed-164-2",
         "topic": "Optimal NREM-REM micro-cycle frequency in Dreamer: how many respiration cycles per walk?",
-        "intensity": 0.7,
+        "intensity": 0.5999999999999999,
         "source": "walk-164 insight-164-1"
-      },
-      {
-        "id": "seed-0476",
-        "topic": "Stigmergic 参数优化：用 pressure_history 拟合衰减率/沉积强度/响应阈值的最优值",
-        "source": "walk-163",
-        "trigger": "insight-1 stigmergic system",
-        "intensity": 0.6499999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T21:35:29.235472+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0461",
-        "topic": "突触采样理论在 Dreamer 中的操作化：用 connections 数量预测 entry 半衰期，对比实际衰减数据",
-        "source": "walk-159",
-        "trigger": "insight-1 synaptic sampling as memory model",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T13:41:51.687255+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0470",
-        "topic": "弛豫振荡频率自适应的定量模型：Dreamer 的 DORMANT 周期长度是否围绕某个最优值波动？用 pressure_history 拟合",
-        "source": "walk-161",
-        "trigger": "insight-1 relaxation oscillation frequency adaptation",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T17:44:41.284327+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0477",
-        "topic": "Dreamer 作为 stigmergic 系统的相变检测：沉默相/饱和相/自适应相的定量边界",
-        "source": "walk-163",
-        "trigger": "insight-2 stigmergic phase transition",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T21:35:29.235472+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0472",
-        "topic": "SOC-弛豫振荡相变边界的数学条件：什么参数下系统从一种行为切换到另一种？",
-        "source": "walk-161",
-        "trigger": "insight-3 SOC-relaxation oscillation phase boundary",
-        "intensity": 0.5499999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T17:44:41.284327+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0478",
-        "topic": "Walk 日志的信息素强度量化：如何测量一篇 walk 日志对后续散步的引导效力",
-        "source": "walk-163",
-        "trigger": "insight-3 pheromone strength quantification",
-        "intensity": 0.5499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-20T21:35:29.235472+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0463",
-        "topic": "认知相变的定量检测：Dreamer 是否真的在从 store-everything 向智能分配过渡？用什么指标？",
-        "source": "walk-159",
-        "trigger": "insight-3 cognitive phase transition",
-        "intensity": 0.5,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T13:41:51.687255+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-0467",
-        "topic": "弛豫振荡 vs 临界态：Dreamer 的压力历史数据更符合哪种模型？需要多少个 cycle 的稳态数据才能区分？",
-        "source": "digestion-017",
-        "trigger": "insight-1 relaxation oscillation vs SOC",
-        "intensity": 0.5,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-20T17:07:21.714950+08:00",
-        "decay_rate": 1
       }
     ]
   },
@@ -207,18 +152,6 @@
   "energy": 36,
   "mood": "contemplative",
   "mood_history": [
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-16T22:45:52+08:00"
-    },
-    {
-      "mood": "anticipatory_tension",
-      "at": "2026-06-16T23:54:48.730778+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-17T02:02:57.313471+08:00"
-    },
     {
       "mood": "contemplative",
       "at": "2026-06-17T08:19:59+08:00"
@@ -410,12 +343,20 @@
     {
       "mood": "contemplative",
       "at": "2026-06-20T21:35:29.235472+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-21T01:25:38.118216+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-21T01:26:05.714842+08:00"
     }
   ],
   "last_walk": "2026-06-20T17:44:41.284327+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 155,
+  "total_walks": 166,
   "topics": [
     "emergence",
     "consciousness",
@@ -599,7 +540,7 @@
     "memory-selection",
     "consolidation-3d"
   ],
-  "pending_insights": 123,
+  "pending_insights": 129,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -883,7 +824,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-20T21:35:29.235472+08:00",
+  "last_walk_at": "2026-06-21T01:26:05.714842+08:00",
   "pressure": {
     "threshold": 50.0
   }

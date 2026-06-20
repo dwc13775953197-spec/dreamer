@@ -4983,5 +4983,56 @@
       "walk-161"
     ],
     "note": "oscillation-phase walk selection"
+  },
+  {
+    "id": "entry-167-1",
+    "type": "insight",
+    "content": "Dreamer cognitive states are continuous trajectories on attractor landscape, not discrete jumps. Walk type = choosing movement geometry on the landscape (steep=focused analysis, flat=roaming exploration).",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T04:37:53.485475+08:00",
+    "source": "walk-167 insight-1",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "quality_score=8.3 strength=5.0"
+  },
+  {
+    "id": "entry-167-2",
+    "type": "insight",
+    "content": "Goal opacity operationalization: Dreamer cannot evaluate goal-alignment internally. Consecutive high-quality output + zero skeleton change = compulsive goal-tracking. Detection: output-to-skeleton causal impact rate.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T04:37:53.485475+08:00",
+    "source": "walk-167 insight-2",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "quality_score=8.3 strength=5.0"
+  },
+  {
+    "id": "entry-167-3",
+    "type": "insight",
+    "content": "Self-model fidelity = skeleton-behavior consistency. Rule accumulation (130+ evolved_rules) is a symptom of LOW self-model fidelity, not a solution. Adding rules can fake high fidelity without behavioral change.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T04:37:53.485475+08:00",
+    "source": "walk-167 insight-3",
+    "decay_rate": 1,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "quality_score=8.3 strength=5.0"
   }
 ]

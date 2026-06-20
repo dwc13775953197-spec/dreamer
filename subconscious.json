@@ -4477,5 +4477,54 @@
     "decayed_at": null,
     "decay_rate": 1,
     "source": "walk-155"
+  },
+  {
+    "id": "insight-156-1",
+    "type": "insight",
+    "content": "Consolidation is not reinforcement but transformation: each DORMANT reactivation recontextualizes the entry with current schema. Memory is a living performance, not a saved file.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T09:07:49.445082+08:00",
+    "source": "walk-156",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-155-1",
+      "ins-101",
+      "insight-154-1"
+    ]
+  },
+  {
+    "id": "insight-156-2",
+    "type": "insight",
+    "content": "Transformation is cumulative: each cross-walk citation may shift an entry's effective meaning. After 10 DORMANT cycles, an entry's working meaning may have drifted significantly from its original content. Dreamer needs transformation audit to track this drift.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T09:07:49.445082+08:00",
+    "source": "walk-156",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-155-1",
+      "insight-156-1"
+    ]
+  },
+  {
+    "id": "insight-156-3",
+    "type": "insight",
+    "content": "Revised seed-0439 rigidity metric: skeleton rigidity should measure not just pattern modification rate but transformation frequency of supporting subconscious entries. A pattern supported by high-connection low-strength entries may be built on drifting foundations.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-20T09:07:49.445082+08:00",
+    "source": "walk-156",
+    "decay_rate": 1,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-156-1",
+      "seed-0439"
+    ]
   }
 ]

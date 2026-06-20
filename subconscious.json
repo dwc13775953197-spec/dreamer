@@ -4526,5 +4526,70 @@
       "insight-156-1",
       "seed-0439"
     ]
+  },
+  {
+    "id": "insight-157-1",
+    "type": "insight",
+    "content": "引用系统具有双重身份：既是记忆巩固工具（加强可达性），也是记忆选择器（决定下次散步激活哪些特征）。当前只意识到了第一重身份。引用效率=被引用且被实际激活的entry数/总引用entry数，是未被度量的关键指标。",
+    "strength": 3.0,
+    "decay": 0.99,
+    "created": "2026-06-20T10:49:00.636403+08:00",
+    "last_accessed": "2026-06-20T10:49:00.636403+08:00",
+    "sources": [
+      "walk-157"
+    ],
+    "tags": [
+      "citation",
+      "memory-consolidation",
+      "function-token"
+    ],
+    "connections": [
+      "walk-156",
+      "walk-157"
+    ],
+    "walk_ref_count": 0
+  },
+  {
+    "id": "insight-157-2",
+    "type": "insight",
+    "content": "LLM function tokens 与 Dreamer 引用系统在结构上同构——两者都是从大量记忆中选择最相关的特征/条目进入当前计算。关键差异：LLM不可逆（稳定性高），Dreamer可逆（适应性高但可能振荡）。可逆性优势需要引用惯性机制才能实现。",
+    "strength": 3.0,
+    "decay": 0.99,
+    "created": "2026-06-20T10:49:00.636403+08:00",
+    "last_accessed": "2026-06-20T10:49:00.636403+08:00",
+    "sources": [
+      "walk-157"
+    ],
+    "tags": [
+      "function-token",
+      "llm-memory",
+      "reversibility"
+    ],
+    "connections": [
+      "walk-157"
+    ],
+    "walk_ref_count": 0
+  },
+  {
+    "id": "insight-157-3",
+    "type": "insight",
+    "content": "巩固三维模型：可达性（引用/激活）× 含义（transformation/reconsolidation）× 结构（骨架连接/拓扑）。当前Dreamer在可达性维度最强，含义维度次之（DORMANT有漂移但未系统管理），结构维度最弱（连接数不区分功能性和噪声）。",
+    "strength": 3.0,
+    "decay": 0.99,
+    "created": "2026-06-20T10:49:00.636403+08:00",
+    "last_accessed": "2026-06-20T10:49:00.636403+08:00",
+    "sources": [
+      "walk-157"
+    ],
+    "tags": [
+      "consolidation",
+      "three-dimensions",
+      "memory-architecture"
+    ],
+    "connections": [
+      "walk-156",
+      "walk-157"
+    ],
+    "walk_ref_count": 0
   }
 ]

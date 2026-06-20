@@ -4591,5 +4591,56 @@
       "walk-157"
     ],
     "walk_ref_count": 0
+  },
+  {
+    "id": "ins-232",
+    "type": "insight",
+    "content": "Dreamer 引用系统存在累积性含义漂移：每次引用通过更新 connections 在不修改 content 的情况下改变 entry 的隐含含义。经过 N 次引用后，entry 的\"有效含义\"（在所有引用中的平均解读）可能和原始含义有系统性偏移，偏移方向偏向骨架最活跃的模块。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T11:26:44.797494+08:00",
+    "source": "walk-158",
+    "decay_rate": 0.95,
+    "decayed_at": "2026-06-20T11:26:44.797494+08:00",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "初始 strength=5.0 (quality_score=8.6≥8.0)"
+  },
+  {
+    "id": "ins-233",
+    "type": "pattern",
+    "content": "Boundary extension 是引用噪声的结构性来源：视觉系统自动生成画面边界外的预期，这些预期与实际记忆合并。映射到 Dreamer：骨架对 entry 的含义有基于 connections 网络的预期，引用时自动扩展 entry 的含义边界。因为概念空间没有物理连续性，这种扩展产生 false connections——entry 被隐含地与它实际上不支持的主题关联。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T11:26:44.797494+08:00",
+    "source": "walk-158",
+    "decay_rate": 0.95,
+    "decayed_at": "2026-06-20T11:26:44.797494+08:00",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "初始 strength=5.0 (quality_score=8.6≥8.0)"
+  },
+  {
+    "id": "ins-234",
+    "type": "insight",
+    "content": "Dreamer entry 经历\"结构重建但内容保留\"——content 字段静态不变，但 connections 和 strength 每次引用都可能更新。这处于 Nadel 的渐进重构和 Tsinghua 的完全重建之间的中间状态。类比：同一栋房子不断翻新——墙壁还是原来的，但电线管道每次翻新都变了。比拆了重建更渐进，比保持原样更激进。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T11:26:44.797494+08:00",
+    "source": "walk-158",
+    "decay_rate": 0.95,
+    "decayed_at": "2026-06-20T11:26:44.797494+08:00",
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "初始 strength=5.0 (quality_score=8.6≥8.0)"
   }
 ]

@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-20T10:48:24.865553+08:00",
-    "last_active": "2026-06-20T09:40:39.218370+08:00",
+    "state_since": "2026-06-20T11:27:15.573918+08:00",
+    "last_active": "2026-06-20T11:27:15.573918+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-20T11:48:24.865606+08:00",
+    "next_scheduled": "2026-06-20T11:57:15.573918+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-20T10:48:24.865553+08:00",
-    "total_walks": 156,
+    "last_walk_at": "2026-06-20T11:27:15.573918+08:00",
+    "total_walks": 157,
     "last_pulse_output": "2026-06-20T10:48:24.865553+08:00",
     "last_walk": "2026-06-20T10:48:24.865553+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 26.72,
+    "cognitive_pressure": 0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,7 +35,6 @@
     },
     "quality_history": [
       8.5,
-      8.5,
       8.3,
       8.4,
       8.6,
@@ -43,7 +42,8 @@
       8.4,
       8.3,
       8.4,
-      8.3
+      8.3,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,7 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      100,
       55,
       73.83,
       82.12,
@@ -84,7 +83,8 @@
       20.069999999999993,
       37.3,
       71.72,
-      26.72
+      26.72,
+      0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -92,7 +92,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.45,
-    "pending_insights": 58,
+    "pending_insights": 61,
     "interest_queue": [
       {
         "id": "seed-0429",
@@ -198,12 +198,12 @@
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.75,
+    "intensity": 0.88,
     "valence": 0.65,
-    "arousal": 0.55,
+    "arousal": 0.6,
     "rigor": 0.98
   },
-  "energy": 34,
+  "energy": 36,
   "mood": "wonder",
   "mood_history": [
     {
@@ -405,9 +405,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-20T10:48:24.865553+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-20T11:27:15.573918+08:00"
     }
   ],
-  "last_walk": "2026-06-20T10:48:24.865553+08:00",
+  "last_walk": "2026-06-20T11:27:15.573918+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 152,
@@ -603,7 +607,7 @@
       "topic": "引用效率的定量度量：Dreamer 引用系统中有多少引用是噪声（被引用但从未被二次激活）？",
       "source": "walk-157",
       "trigger": "insight-1 citation dual identity",
-      "intensity": 0.7,
+      "intensity": 0.6,
       "type": "research",
       "status": "pending",
       "created": "2026-06-20T10:48:24.865553+08:00",
@@ -614,7 +618,7 @@
       "topic": "巩固三维模型（可达性×含义×结构）的操作化：如何统一度量三个维度？它们之间的交互效应是什么？",
       "source": "walk-157",
       "trigger": "insight-3 consolidation three dimensions",
-      "intensity": 0.65,
+      "intensity": 0.55,
       "type": "research",
       "status": "pending",
       "created": "2026-06-20T10:48:24.865553+08:00",
@@ -625,10 +629,43 @@
       "topic": "引用惯性机制设计：Dreamer 的引用策略需要多大的惯性系数才能避免振荡？与 LLM 的不可逆性对比。",
       "source": "walk-157",
       "trigger": "insight-2 reversibility vs stability",
-      "intensity": 0.6,
+      "intensity": 0.5,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-20T10:48:24.865553+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0458",
+      "topic": "Engram 重建在 Dreamer 中的定量追踪：选取 5 条高频引用 entry，绘制其在近 10 次散步中的含义漂移轨迹，区分信号引用和噪声引用",
+      "source": "walk-158",
+      "trigger": "insight-1 citation drift tracking",
+      "intensity": 0.75,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T11:27:15.573918+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0459",
+      "topic": "Boundary extension 作为认知系统的一般性设计问题：所有预测性系统都面临\"过度扩展\"的风险。能否建立统一框架？",
+      "source": "walk-158",
+      "trigger": "insight-2 boundary extension general framework",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-20T11:27:15.573918+08:00",
+      "decay_rate": 1
+    },
+    {
+      "id": "seed-0460",
+      "topic": "Dreamer entry 的\"半衰期\"概念：经过多少次引用后 entry 的含义会偏离原始到不可辨认？与初始 connections 数量的关系",
+      "source": "walk-158",
+      "trigger": "insight-3 entry half-life",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-20T11:27:15.573918+08:00",
       "decay_rate": 1
     }
   ],
@@ -638,8 +675,8 @@
     "humor": 0.4,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.24,
-    "rigor": 2.299999999999999,
+    "wonder": 1.26,
+    "rigor": 2.3299999999999987,
     "skepticism": 1.25,
     "empathy": 0.5
   },

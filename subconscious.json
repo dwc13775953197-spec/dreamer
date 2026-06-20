@@ -4824,5 +4824,41 @@
     "last_accessed": "2026-06-20T18:49:00+08:00",
     "mature": 0.1,
     "status": "active"
+  },
+  {
+    "id": "ins-163-1",
+    "type": "insight",
+    "content": "Dreamer is already a stigmergic system: walk logs are pheromone traces guiding subsequent walks. The question is not \"whether\" but whether parameters are optimal (decay rate, deposition strength, response threshold).",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T21:35:58.672906+08:00",
+    "source": "walk-163",
+    "decay_rate": 1.0,
+    "connections": [],
+    "refs": []
+  },
+  {
+    "id": "ins-163-2",
+    "type": "insight",
+    "content": "Trace decay rate should be citation-frequency modulated: more-cited entries decay slower (pheromone highways). Current uniform decay is suboptimal parameter.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T21:35:58.672906+08:00",
+    "source": "walk-163",
+    "decay_rate": 1.0,
+    "connections": [],
+    "refs": []
+  },
+  {
+    "id": "ins-163-3",
+    "type": "insight",
+    "content": "Dreamer exhibits stigmergic phase transitions: silent phase (glass skeleton), saturated phase (RAM-as-disk), adaptive phase (critical point). Adaptive phase is the target -- dynamic balance between silence and saturation.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-20T21:35:58.672906+08:00",
+    "source": "walk-163",
+    "decay_rate": 1.0,
+    "connections": [],
+    "refs": []
   }
 ]

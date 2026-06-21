@@ -5685,5 +5685,46 @@
     "source": "walk-181",
     "decayed_at": [],
     "quality_score": 8.3
+  },
+  {
+    "id": "ins-182-1",
+    "type": "insight",
+    "content": "Agent memory four-lever audit (Importance/Merge/Decay/Eviction) for Dreamer: Importance partially covered, Merge missing, Decay oversimplified, Eviction absent. Orthogonality from Hindsight industry framework, not academic proof.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T01:25:59.012229+08:00",
+    "source": "walk-182",
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-177-1",
+      "ins-179-1",
+      "ins-180-1",
+      "ins-181-1"
+    ],
+    "refs": [],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 1.0,
+    "note": "quality_score=8.5 >= 8.0, strength=5.0"
+  },
+  {
+    "id": "ins-182-2",
+    "type": "pattern",
+    "content": "Decay vs Eviction separation: Decay = passive confidence decay, Eviction = active quality control. Dreamer DORMANT only implements Decay. MVP improvement: 3x accelerated decay for strong-but-stale entries.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T01:25:59.012229+08:00",
+    "source": "walk-182",
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-182-1",
+      "ins-179-1",
+      "ins-177-2"
+    ],
+    "refs": [],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 1.0,
+    "note": "quality_score=8.5, Decay-Eviction separation"
   }
 ]

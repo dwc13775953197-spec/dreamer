@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T19:34:37.400946+08:00",
+    "next_scheduled": "2026-06-21T20:04:37+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-21T18:34:37.400161+08:00",
     "total_walks": 177,
@@ -202,7 +202,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 26.78
+    "pressure": 58.78
   },
   "affect": {
     "primary": "wonder",

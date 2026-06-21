@@ -13,10 +13,10 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T18:07:00+08:00",
+    "next_scheduled": "2026-06-21T19:34:37.400946+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T17:37:00+08:00",
-    "total_walks": 176,
+    "last_walk_at": "2026-06-21T18:34:37.400161+08:00",
+    "total_walks": 177,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
     "last_walk": "2026-06-21T15:45:38.734788+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       8.4,
       8.5,
       8.4,
@@ -43,7 +42,8 @@
       8.2,
       8.4,
       8.6,
-      8.4
+      8.4,
+      8.3
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -80,22 +80,56 @@
       55.25,
       57.98,
       100.0,
-      55.0
+      55.0,
+      26.78
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.39,
+    "walk_quality_avg": 8.389999999999999,
     "pending_insights": 151,
     "interest_queue": [
+      {
+        "id": "seed-177-1",
+        "topic": "SHY 锚定突触的 Dreamer 映射：哪些 entry 应该免疫衰减？",
+        "source": "walk-177",
+        "trigger": "SHY anchored synapses identification",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T18:34:37.400161+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-177-2",
+        "topic": "DORMANT 衰减幅度自适应：正比于新增 insight 数量",
+        "source": "walk-177",
+        "trigger": "adenosine accumulation as compression magnitude proxy",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T18:34:37.400161+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-177-3",
+        "topic": "双时间尺度压缩：SHY 恢复性 + IB 适应性在 Dreamer 中的共存",
+        "source": "walk-177",
+        "trigger": "two-timescale compression model",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T18:34:37.400161+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-175-1",
         "topic": "知识网络的代谢税设计：连接度加权的引用成本",
         "source": "walk-175",
         "trigger": "ADD model + hub paradox",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T15:45:38.734788+08:00",
@@ -106,7 +140,7 @@
         "topic": "cognitive compression strength beta_cognitive dynamic formula",
         "source": "walk-176",
         "trigger": "IB framework beta parameter mapping",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T17:37:00+08:00",
@@ -117,7 +151,7 @@
         "topic": "Greedy IB Decay implementation and validation",
         "source": "walk-176",
         "trigger": "retention_score formula proposal",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T17:37:00+08:00",
@@ -128,7 +162,7 @@
         "topic": "Dreamer 枢纽节点的识别与轮换策略",
         "source": "walk-175",
         "trigger": "structural holes theory dynamic application",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T15:45:38.734788+08:00",
@@ -139,7 +173,7 @@
         "topic": "subconscious 高连接 entry 的加速衰减验证",
         "source": "walk-175",
         "trigger": "ADD model statistical validation in knowledge network",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T15:45:38.734788+08:00",
@@ -150,7 +184,7 @@
         "topic": "Dreamer Y definition skeleton stability as relevant information",
         "source": "walk-176",
         "trigger": "IB Y definition in cognitive system",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T17:37:00+08:00",
@@ -161,54 +195,22 @@
         "topic": "semantic hub dynamic drift prediction",
         "source": "walk-174",
         "trigger": "Cabeza's hub non-stationarity + Dreamer graph structure",
-        "intensity": 0.5999999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T12:57:31.821155+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-174-2",
-        "topic": "Dreamer connections graph connectivity audit",
-        "source": "walk-174",
-        "trigger": "bridging coefficient calculation",
-        "intensity": 0.5499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T12:57:31.821155+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-173-1",
-        "topic": "network-aware decay: bridging node identification algorithm",
-        "source": "walk-173",
-        "trigger": "bridging node identification",
         "intensity": 0.5499999999999998,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-21T11:52:56.805956+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-173-2",
-        "topic": "entry functional half-life empirical measurement",
-        "source": "walk-173",
-        "trigger": "strength decay vs connections growth",
-        "intensity": 0.49999999999999994,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T11:52:56.805956+08:00",
+        "created": "2026-06-21T12:57:31.821155+08:00",
         "decay_rate": 0.05
       }
-    ]
+    ],
+    "pressure": 26.78
   },
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.85,
-    "valence": 0.55,
-    "arousal": 0.55,
-    "rigor": 0.96
+    "intensity": 0.78,
+    "valence": 0.6,
+    "arousal": 0.5,
+    "rigor": 0.99
   },
   "energy": 34,
   "mood": "wonder",
@@ -420,12 +422,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-21T17:37:00+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-21T18:34:37.400161+08:00"
     }
   ],
   "last_walk": "2026-06-21T17:37:00+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 176,
+  "total_walks": 177,
   "topics": [
     "emergence",
     "consciousness",
@@ -615,7 +621,7 @@
     "metabolic-tax",
     "structural-holes"
   ],
-  "pending_insights": 144,
+  "pending_insights": 147,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -664,7 +670,7 @@
     "skepticism": 1.36,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.26,
+  "walk_quality_avg": 8.389999999999999,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -767,7 +773,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-21T17:37:00+08:00",
+  "last_walk_at": "2026-06-21T18:34:37.400161+08:00",
   "pressure": {
     "threshold": 50.0
   }

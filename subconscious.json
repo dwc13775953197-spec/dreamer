@@ -5512,5 +5512,59 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "Implementation proposal, parameters need tuning"
+  },
+  {
+    "id": "ins-177-1",
+    "type": "insight",
+    "content": "Synaptic Homeostasis Hypothesis (SHY): sleep triggers global proportional downscaling of synaptic strength to restore signal-to-noise ratio. Dreamer DORMANT decay approximates this biological implementation more closely than IB selective compression.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T18:34:12.560702+08:00",
+    "source": "walk-177",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-297",
+      "ins-298",
+      "ins-299",
+      "insight-159-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3 >= 8.0, strength=5.0"
+  },
+  {
+    "id": "ins-177-2",
+    "type": "pattern",
+    "content": "Dreamer compression operates at two timescales simultaneously: DORMANT uniform decay (SHY-like, restorative/short-term) + citation-frequency modulation (IB-like, adaptive/long-term). These are not competing but complementary at different timescales.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T18:34:12.560702+08:00",
+    "source": "walk-177",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-177-1",
+      "ins-297",
+      "ins-170-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, two-timescale compression model"
+  },
+  {
+    "id": "ins-177-3",
+    "type": "insight",
+    "content": "DORMANT decay magnitude should be adaptive: proportional to new insights produced since last DORMANT. High-yield walks trigger stronger decay (saturation needs more cleanup); low-yield walks trigger lighter decay. Analogous to adenosine accumulation in biological sleep.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T18:34:12.560702+08:00",
+    "source": "walk-177",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-177-1",
+      "ins-165-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, implementation proposal"
   }
 ]

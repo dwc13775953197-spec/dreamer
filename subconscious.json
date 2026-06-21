@@ -5352,5 +5352,53 @@
       "walk_type": "consolidate",
       "quality_score": 8.2
     }
+  },
+  {
+    "id": "ins-174-1",
+    "type": "insight",
+    "content": "Knowledge network death is hub collapse, not uniform node loss. Semantic memory degrades from central hubs outward, fragmenting the entire network when hubs fail.",
+    "strength": 5.0,
+    "connections": [
+      "ins-163-3",
+      "ins-156-1"
+    ],
+    "created": "2026-06-21T12:57:31.821155+08:00",
+    "source": "walk-174",
+    "decay_count": 0,
+    "decayed_at": null,
+    "reinforced_count": 0,
+    "score": 0.3
+  },
+  {
+    "id": "ins-174-2",
+    "type": "insight",
+    "content": "Semantic hubs are non-stationary: today's peripheral node may become tomorrow's hub. Protection strategy should target connectivity redundancy, not specific hub nodes.",
+    "strength": 5.0,
+    "connections": [
+      "ins-174-1",
+      "ins-163-1"
+    ],
+    "created": "2026-06-21T12:57:31.821155+08:00",
+    "source": "walk-174",
+    "decay_count": 0,
+    "decayed_at": null,
+    "reinforced_count": 0,
+    "score": 0.3
+  },
+  {
+    "id": "ins-174-3",
+    "type": "insight",
+    "content": "Minimum viable fix for Dreamer's hub vulnerability: detect whether decaying an entry would isolate other entries (connections count = 1), and if so, reduce decay rate by 0.3x. O(n) check.",
+    "strength": 5.0,
+    "connections": [
+      "ins-174-1",
+      "ins-173-1"
+    ],
+    "created": "2026-06-21T12:57:31.821155+08:00",
+    "source": "walk-174",
+    "decay_count": 0,
+    "decayed_at": null,
+    "reinforced_count": 0,
+    "score": 0.3
   }
 ]

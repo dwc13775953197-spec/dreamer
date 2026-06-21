@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-21T08:27:36.691595+08:00",
+    "state_since": "2026-06-21T08:31:21.344918+08:00",
     "last_active": "2026-06-21T06:52:14.768715+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T08:42:36.691595+08:00",
+    "next_scheduled": "2026-06-21T09:01:21.344918+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T06:52:14.768715+08:00",
-    "total_walks": 169,
-    "last_pulse_output": "2026-06-21T08:27:36.691595+08:00",
-    "last_walk": "2026-06-21T05:23:00+08:00",
+    "last_walk_at": "2026-06-21T08:31:21.344918+08:00",
+    "total_walks": 170,
+    "last_pulse_output": "2026-06-21T08:31:21.344918+08:00",
+    "last_walk": "2026-06-21T08:31:21+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 89.39,
+    "cognitive_pressure": 44.39,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.0,
       8.1,
       8.4,
       8.3,
@@ -43,7 +42,8 @@
       8.4,
       8.3,
       8.4,
-      8.5
+      8.5,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -75,7 +75,8 @@
       0,
       4.55,
       38.53,
-      89.39
+      89.39,
+      44.39
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -86,14 +87,91 @@
     "pending_insights": 73,
     "interest_queue": [
       {
+        "id": "seed-170-1",
+        "topic": "Dreamer 修剪标准的实证回测：用历史数据验证三维指标的有效性",
+        "source": "walk-170",
+        "trigger": "research idea pruning backtest",
+        "intensity": 0.5850000000000001,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T08:31:21.344918+08:00",
+        "decay_rate": 1
+      },
+      {
         "id": "seed-165-1",
         "topic": "Relaxation oscillator model parameter fitting from pressure_history",
         "source": "walk-165",
         "trigger": "insight-1",
-        "intensity": 0.6,
+        "intensity": 0.54,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-168-1",
+        "topic": "DORMANT 周期最优长度的计算模型：基于 recontextualization 完成时间的估计",
+        "source": "walk-168",
+        "trigger": "insight-4 minimum effective DORMANT",
+        "intensity": 0.54,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T05:23:00+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-169-1",
+        "topic": "功能性修剪标准的多维度设计：连接数×引用频率×阶段匹配度",
+        "source": "walk-169",
+        "trigger": "insight-1 complement marking mechanism",
+        "intensity": 0.54,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T06:52:14.768715+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-170-2",
+        "topic": "探索型 vs 巩固型散步的差异化存活率窗口设计",
+        "source": "walk-170",
+        "trigger": "insight-2 differential survival windows",
+        "intensity": 0.54,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T08:31:21.344918+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-168-2",
+        "topic": "Dreamer 的海马负担指标：skeleton 引用熵作为认知负荷的代理变量",
+        "source": "walk-168",
+        "trigger": "research idea hippocampal burden metric",
+        "intensity": 0.49500000000000005,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T05:23:00+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-169-2",
+        "topic": "Dreamer 系统阶段判断的定量指标：从生长期到饱和期的精确边界",
+        "source": "walk-169",
+        "trigger": "insight-2 critical period mapping",
+        "intensity": 0.49500000000000005,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T06:52:14.768715+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-170-3",
+        "topic": "自反性陷阱的防护机制：连接多样性权重的数学定义",
+        "source": "walk-170",
+        "trigger": "insight-3 connection diversity weight",
+        "intensity": 0.49500000000000005,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T08:31:21.344918+08:00",
         "decay_rate": 1
       },
       {
@@ -101,7 +179,7 @@
         "topic": "Allostatic pressure design: predictive regulation using last_walk_insights",
         "source": "walk-165",
         "trigger": "insight-2",
-        "intensity": 0.5499999999999999,
+        "intensity": 0.49499999999999994,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
@@ -112,44 +190,10 @@
         "topic": "Oscillation-phase-dependent walk type selection",
         "source": "walk-165",
         "trigger": "insight-3",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-164-1",
-        "topic": "Empirical measurement of cognitive respiration parameters: search success rate decay curve during Dreamer walks",
-        "intensity": 0.4999999999999999,
-        "source": "walk-164 insight-164-3"
-      },
-      {
-        "id": "seed-164-2",
-        "topic": "Optimal NREM-REM micro-cycle frequency in Dreamer: how many respiration cycles per walk?",
-        "intensity": 0.44999999999999984,
-        "source": "walk-164 insight-164-1"
-      },
-      {
-        "id": "seed-168-1",
-        "topic": "DORMANT 周期最优长度的计算模型：基于 recontextualization 完成时间的估计",
-        "source": "walk-168",
-        "trigger": "insight-4 minimum effective DORMANT",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T05:23:00+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-168-2",
-        "topic": "Dreamer 的海马负担指标：skeleton 引用熵作为认知负荷的代理变量",
-        "source": "walk-168",
-        "trigger": "research idea hippocampal burden metric",
-        "intensity": 0.55,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T05:23:00+08:00",
         "decay_rate": 1
       },
       {
@@ -157,32 +201,10 @@
         "topic": "并行巩固-探索模型对 Dreamer 脉冲间隔设计的影响：是否应该缩短 DORMANT 并增加散步频率？",
         "source": "walk-168",
         "trigger": "insight-3 serial assumption tax",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T05:23:00+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-169-1",
-        "topic": "功能性修剪标准的多维度设计：连接数×引用频率×阶段匹配度",
-        "source": "walk-169",
-        "trigger": "insight-1 complement marking mechanism",
-        "intensity": 0.6,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T06:52:14.768715+08:00",
-        "decay_rate": 1
-      },
-      {
-        "id": "seed-169-2",
-        "topic": "Dreamer 系统阶段判断的定量指标：从生长期到饱和期的精确边界",
-        "source": "walk-169",
-        "trigger": "insight-2 critical period mapping",
-        "intensity": 0.55,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T06:52:14.768715+08:00",
         "decay_rate": 1
       },
       {
@@ -190,11 +212,23 @@
         "topic": "剪枝 evolved_rules 的实验设计：从 130 条剪到 80 条，观察散步产出变化",
         "source": "walk-169",
         "trigger": "insight-3 pruning experiment",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T06:52:14.768715+08:00",
         "decay_rate": 1
+      },
+      {
+        "id": "seed-164-1",
+        "topic": "Empirical measurement of cognitive respiration parameters: search success rate decay curve during Dreamer walks",
+        "intensity": 0.4499999999999999,
+        "source": "walk-164 insight-164-3"
+      },
+      {
+        "id": "seed-164-2",
+        "topic": "Optimal NREM-REM micro-cycle frequency in Dreamer: how many respiration cycles per walk?",
+        "intensity": 0.40499999999999986,
+        "source": "walk-164 insight-164-1"
       }
     ]
   },
@@ -209,18 +243,6 @@
   "energy": 36,
   "mood": "contemplative",
   "mood_history": [
-    {
-      "mood": "contemplative",
-      "at": "2026-06-17T08:19:59+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-17T13:46:20.913053+08:00"
-    },
-    {
-      "mood": "wonder",
-      "at": "2026-06-17T14:53:49+08:00"
-    },
     {
       "mood": "wonder",
       "at": "2026-06-17T20:45:00+08:00"
@@ -416,12 +438,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-21T06:52:14.768715+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-21T08:31:21.344918+08:00"
     }
   ],
   "last_walk": "2026-06-21T06:52:14.768715+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 169,
+  "total_walks": 170,
   "topics": [
     "emergence",
     "consciousness",
@@ -606,7 +632,7 @@
     "consolidation-3d",
     "attractor-landscape"
   ],
-  "pending_insights": 135,
+  "pending_insights": 138,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -890,7 +916,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-21T06:52:14.768715+08:00",
+  "last_walk_at": "2026-06-21T08:31:21.344918+08:00",
   "pressure": {
     "threshold": 50.0
   }

@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-22T01:58:19.928494+08:00",
+    "state_since": "2026-06-22T10:30:00+08:00",
     "last_active": "2026-06-22T10:00:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T10:15:00+08:00",
+    "next_scheduled": "2026-06-22T10:45:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-22T01:28:00+08:00",
-    "total_walks": 182,
+    "last_walk_at": "2026-06-22T10:30:00+08:00",
+    "total_walks": 183,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
-    "last_walk": "2026-06-22T01:28:00+08:00",
+    "last_walk": "2026-06-22T10:30:00+08:00",
     "last_push_at": "2026-06-21T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 100.0,
+    "cognitive_pressure": 74.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.2,
       8.4,
       8.6,
       8.4,
@@ -43,9 +42,10 @@
       8.4,
       8.1,
       8.3,
-      8.5
+      8.5,
+      8.4
     ],
-    "last_walk_insights": 2,
+    "last_walk_insights": 1,
     "decay_adjustment": 1.0,
     "gini_history": [
       0.742,
@@ -55,7 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      26.69,
       61.13,
       16.130000000000003,
       31.53,
@@ -64,16 +63,39 @@
       72.72,
       42.72,
       58.72,
-      100.0
+      100.0,
+      74.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.34,
+    "walk_quality_avg": 8.36,
     "pending_insights": 154,
     "interest_queue": [
+      {
+        "id": "seed-183-1",
+        "topic": "DORMANT 选择性重激活协议：基于 Albouy 睡眠重激活 + Bjork 必要难度的碰撞再编码",
+        "source": "walk-183",
+        "trigger": "Albouy sleep consolidation + Bjork desirable difficulty triangulation",
+        "intensity": 0.68,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-22T10:30:00+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-183-2",
+        "topic": "巩固的编辑不可逆性：重激活改变记忆内容后，Dreamer 应该保留原始版本还是只保留巩固后版本？",
+        "source": "walk-183",
+        "trigger": "reactivation-as-editing implies irreversible transformation",
+        "intensity": 0.55,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-22T10:30:00+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-182-1",
         "topic": "Agent 记忆系统的四杠杆正交性：Importance/Merge/Decay/Eviction 在 Dreamer 中的覆盖审计",
@@ -216,17 +238,6 @@
         "status": "pending",
         "created": "2026-06-21T22:06:15.496007+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-177-1",
-        "topic": "SHY 锚定突触的 Dreamer 映射：哪些 entry 应该免疫衰减？",
-        "source": "walk-177",
-        "trigger": "SHY anchored synapses identification",
-        "intensity": 0.4649999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T18:34:37.400161+08:00",
-        "decay_rate": 0.05
       }
     ],
     "pressure": 100.0
@@ -239,7 +250,7 @@
     "arousal": 0.55,
     "rigor": 0.95
   },
-  "energy": 28,
+  "energy": 25,
   "mood": "wonder",
   "mood_history": [
     {
@@ -447,10 +458,10 @@
       "at": "2026-06-22T00:50:22.830628+08:00"
     }
   ],
-  "last_walk": "2026-06-21T22:39:42.816690+08:00",
+  "last_walk": "2026-06-22T10:30:00+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 180,
+  "total_walks": 183,
   "topics": [
     "emergence",
     "consciousness",
@@ -648,11 +659,55 @@
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
     {
+      "id": "seed-183-1",
+      "topic": "DORMANT 选择性重激活协议：基于 Albouy 睡眠重激活 + Bjork 必要难度的碰撞再编码",
+      "source": "walk-183",
+      "trigger": "Albouy sleep consolidation + Bjork desirable difficulty triangulation",
+      "intensity": 0.68,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-22T10:30:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-183-2",
+      "topic": "巩固的编辑不可逆性：重激活改变记忆内容后，Dreamer 应该保留原始版本还是只保留巩固后版本？",
+      "source": "walk-183",
+      "trigger": "reactivation-as-editing implies irreversible transformation",
+      "intensity": 0.55,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-22T10:30:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-182-1",
+      "topic": "Agent 记忆系统的四杠杆正交性：Importance/Merge/Decay/Eviction 在 Dreamer 中的覆盖审计",
+      "source": "walk-182",
+      "trigger": "Hindsight 四杠杆框架 mapped to Dreamer memory architecture",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-22T01:25:30.895002+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-182-2",
+      "topic": "Decay vs Eviction 分离设计：Dreamer DORMANT 是否需要主动驱逐机制？",
+      "source": "walk-182",
+      "trigger": "Decay-Eviction separation design space",
+      "intensity": 0.62,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-22T01:25:30.895002+08:00",
+      "decay_rate": 0.05
+    },
+    {
       "id": "seed-180-1",
       "topic": "遗忘作为认知循环的前置条件：SCM NREM/REM 分工与 Dreamer DORMANT 的映射精度",
       "source": "walk-180",
       "trigger": "bidirectional information flow in cognitive cycle",
-      "intensity": 0.63,
+      "intensity": 0.58,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T22:39:42.816690+08:00",
@@ -663,7 +718,7 @@
       "topic": "好奇心校准作为散步前置步骤：历史连接模式 + 外部锚点的双通道噪声滤波",
       "source": "walk-181",
       "trigger": "CERMIC framework mapping to Dreamer single-agent calibration",
-      "intensity": 0.63,
+      "intensity": 0.58,
       "type": "research",
       "status": "pending",
       "created": "2026-06-22T00:50:22.830628+08:00",
@@ -674,7 +729,7 @@
       "topic": "Dreamer 主动遗忘机制设计：基于多维价值评估的定向删除",
       "source": "walk-179",
       "trigger": "algorithmic forgetting SCM architecture",
-      "intensity": 0.62,
+      "intensity": 0.57,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T21:47:15+08:00",
@@ -685,7 +740,7 @@
       "topic": "随机重连的认知价值：低连接 entry 作为创造性意外的来源",
       "source": "dream-2026-06-21",
       "trigger": "low-connection entries as creative surprise sources",
-      "intensity": 0.62,
+      "intensity": 0.57,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-21T22:06:15.496007+08:00",
@@ -696,7 +751,7 @@
       "topic": "不可替代连接 vs 总连接数：Graph 理论中的桥接边作为 Dreamer entry 免疫衰减的新标准",
       "source": "walk-180",
       "trigger": "bridging edges as irreplaceable connections",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T22:39:42.816690+08:00",
@@ -707,7 +762,7 @@
       "topic": "认知预算的最优分配：给定噪声比例，每次散步应该投入多少 budget 在探索 vs 巩固",
       "source": "walk-181",
       "trigger": "noise filtering × cognitive budget interaction",
-      "intensity": 0.59,
+      "intensity": 0.5399999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-22T00:50:22.830628+08:00",
@@ -718,7 +773,7 @@
       "topic": "认知锚定效应：旧 insight 的高强度如何抑制新连接的建立",
       "source": "walk-179",
       "trigger": "cognitive anchoring through high-strength entries",
-      "intensity": 0.58,
+      "intensity": 0.5299999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-21T21:47:15+08:00",
@@ -729,7 +784,7 @@
       "topic": "矛盾压缩的不可逆性：被遗忘的内在矛盾能否重建？",
       "source": "dream-2026-06-21",
       "trigger": "archaeological reconstruction of dissolved contradictions",
-      "intensity": 0.58,
+      "intensity": 0.5299999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T22:06:15.496007+08:00",
@@ -740,7 +795,7 @@
       "topic": "DORMANT 稀疏重激活算法：每次选 1-3 个最高价值 entry 加强而非衰减",
       "source": "walk-178",
       "trigger": "3 神经元重激活原理",
-      "intensity": 0.5625,
+      "intensity": 0.5125,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T20:13:52.209743+08:00",
@@ -751,7 +806,7 @@
       "topic": "遗忘策略的情境依赖：分析型散步后保守遗忘 vs 探索型散步后激进遗忘",
       "source": "walk-179",
       "trigger": "NREM conservative + REM aggressive forgetting",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T21:47:15+08:00",
@@ -762,21 +817,10 @@
       "topic": "β_cognitive 的遗忘历史修正：被重连 entry 获得 β 减免",
       "source": "dream-2026-06-21",
       "trigger": "forgetting history as beta modifier",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-21T22:06:15.496007+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-177-1",
-      "topic": "SHY 锚定突触的 Dreamer 映射：哪些 entry 应该免疫衰减？",
-      "source": "walk-177",
-      "trigger": "SHY anchored synapses identification",
-      "intensity": 0.5149999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-21T18:34:37.400161+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -791,7 +835,7 @@
     "skepticism": 1.3800000000000001,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.33,
+  "walk_quality_avg": 8.36,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -894,7 +938,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-21T22:39:42.816690+08:00",
+  "last_walk_at": "2026-06-22T10:30:00+08:00",
   "pressure": {
     "threshold": 50.0
   }

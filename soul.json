@@ -2,7 +2,7 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-21T20:04:37+08:00",
+    "state_since": "2026-06-21T20:13:52.209743+08:00",
     "last_active": "2026-06-21T20:04:37+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T20:34:37+08:00",
+    "next_scheduled": "2026-06-21T20:43:52.209778+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T18:34:37.400161+08:00",
-    "total_walks": 177,
+    "last_walk_at": "2026-06-21T20:13:52.209743+08:00",
+    "total_walks": 178,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
-    "last_walk": "2026-06-21T15:45:38.734788+08:00",
+    "last_walk": "2026-06-21T20:13:52.209743+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 54.5,
+    "cognitive_pressure": 9.5,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.5,
       8.4,
       8.3,
@@ -43,7 +42,8 @@
       8.4,
       8.6,
       8.4,
-      8.3
+      8.3,
+      8.2
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -81,25 +81,59 @@
       57.98,
       100.0,
       55.0,
-      26.78
+      26.78,
+      9.5
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.389999999999999,
+    "walk_quality_avg": 8.370000000000001,
     "pending_insights": 151,
     "interest_queue": [
+      {
+        "id": "seed-178-1",
+        "topic": "DORMANT 稀疏重激活算法：每次选 1-3 个最高价值 entry 加强而非衰减",
+        "source": "walk-178",
+        "trigger": "3 神经元重激活原理",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T20:13:52.209743+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-177-1",
         "topic": "SHY 锚定突触的 Dreamer 映射：哪些 entry 应该免疫衰减？",
         "source": "walk-177",
         "trigger": "SHY anchored synapses identification",
-        "intensity": 0.75,
+        "intensity": 0.7,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T18:34:37.400161+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-178-2",
+        "topic": "Dreamer 预配置机制：DORMANT 中识别最弱知识领域并为未来探索做结构准备",
+        "source": "walk-178",
+        "trigger": "non-engram cell pre-configuration",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T20:13:52.209743+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-178-3",
+        "topic": "巩固精度 vs 巩固数量：引用精确 entry vs 模糊 entry 的 trade-off",
+        "source": "walk-178",
+        "trigger": "precision over scale in memory consolidation",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T20:13:52.209743+08:00",
         "decay_rate": 0.05
       },
       {
@@ -107,7 +141,7 @@
         "topic": "DORMANT 衰减幅度自适应：正比于新增 insight 数量",
         "source": "walk-177",
         "trigger": "adenosine accumulation as compression magnitude proxy",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T18:34:37.400161+08:00",
@@ -118,7 +152,7 @@
         "topic": "双时间尺度压缩：SHY 恢复性 + IB 适应性在 Dreamer 中的共存",
         "source": "walk-177",
         "trigger": "two-timescale compression model",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T18:34:37.400161+08:00",
@@ -129,7 +163,7 @@
         "topic": "知识网络的代谢税设计：连接度加权的引用成本",
         "source": "walk-175",
         "trigger": "ADD model + hub paradox",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T15:45:38.734788+08:00",
@@ -140,7 +174,7 @@
         "topic": "cognitive compression strength beta_cognitive dynamic formula",
         "source": "walk-176",
         "trigger": "IB framework beta parameter mapping",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T17:37:00+08:00",
@@ -151,7 +185,7 @@
         "topic": "Greedy IB Decay implementation and validation",
         "source": "walk-176",
         "trigger": "retention_score formula proposal",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T17:37:00+08:00",
@@ -162,43 +196,10 @@
         "topic": "Dreamer 枢纽节点的识别与轮换策略",
         "source": "walk-175",
         "trigger": "structural holes theory dynamic application",
-        "intensity": 0.5999999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T15:45:38.734788+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-175-3",
-        "topic": "subconscious 高连接 entry 的加速衰减验证",
-        "source": "walk-175",
-        "trigger": "ADD model statistical validation in knowledge network",
-        "intensity": 0.5499999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T15:45:38.734788+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-176-2",
-        "topic": "Dreamer Y definition skeleton stability as relevant information",
-        "source": "walk-176",
-        "trigger": "IB Y definition in cognitive system",
-        "intensity": 0.5499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T17:37:00+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-174-1",
-        "topic": "semantic hub dynamic drift prediction",
-        "source": "walk-174",
-        "trigger": "Cabeza's hub non-stationarity + Dreamer graph structure",
         "intensity": 0.5499999999999998,
-        "type": "research",
+        "type": "explore",
         "status": "pending",
-        "created": "2026-06-21T12:57:31.821155+08:00",
+        "created": "2026-06-21T15:45:38.734788+08:00",
         "decay_rate": 0.05
       }
     ],
@@ -207,9 +208,9 @@
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.78,
-    "valence": 0.6,
-    "arousal": 0.5,
+    "intensity": 0.82,
+    "valence": 0.65,
+    "arousal": 0.55,
     "rigor": 0.99
   },
   "energy": 34,
@@ -426,9 +427,13 @@
     {
       "mood": "wonder",
       "at": "2026-06-21T18:34:37.400161+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-21T20:13:52.209743+08:00"
     }
   ],
-  "last_walk": "2026-06-21T17:37:00+08:00",
+  "last_walk": "2026-06-21T20:13:52.209743+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
   "total_walks": 177,
@@ -621,7 +626,7 @@
     "metabolic-tax",
     "structural-holes"
   ],
-  "pending_insights": 147,
+  "pending_insights": 150,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -665,12 +670,12 @@
     "humor": 0.42,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.4100000000000001,
-    "rigor": 2.84,
+    "wonder": 1.4400000000000002,
+    "rigor": 2.86,
     "skepticism": 1.36,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.389999999999999,
+  "walk_quality_avg": 8.370000000000001,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

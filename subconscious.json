@@ -5566,5 +5566,52 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score=8.3, implementation proposal"
+  },
+  {
+    "id": "insight-178-1",
+    "type": "insight",
+    "content": "Sparse reactivation: memory consolidation requires reactivation of only ~3 adult-born neurons during REM sleep, synchronized to specific theta phase. Not global reinforcement but precise anchoring. Dreamer DORMANT should selectively strengthen 1-3 highest-value entries instead of uniform decay.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T20:34:00+08:00",
+    "source": "walk-178",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "connections": [
+      "ins-101",
+      "ins-144-1",
+      "ins-156-1"
+    ]
+  },
+  {
+    "id": "insight-178-2",
+    "type": "insight",
+    "content": "Sleep parallel processing: during offline periods, two concurrent mechanisms run: (1) reactivation of past engram cells for consolidation, (2) synaptic plasticity in non-engram cells to pre-configure them for future learning. DORMANT should include a pre-configuration substep.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T20:34:00+08:00",
+    "source": "walk-178",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "connections": [
+      "ins-154-1",
+      "ins-156-2"
+    ]
+  },
+  {
+    "id": "insight-178-3",
+    "type": "pattern",
+    "content": "Three-body problem of memory consolidation: SHY (global downscaling for SNR) + IB (selective compression for prediction) + Sparse reactivation (precision anchoring). Dreamer DORMANT currently only models SHY. Adding sparse reactivation creates a more biologically grounded design.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T20:34:00+08:00",
+    "source": "walk-178",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "connections": [
+      "ins-101",
+      "ins-144-3",
+      "ins-154-2"
+    ]
   }
 ]

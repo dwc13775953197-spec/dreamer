@@ -193,6 +193,39 @@
         "status": "pending",
         "created": "2026-06-21T15:45:38.734788+08:00",
         "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-1",
+        "topic": "随机重连的认知价值：低连接 entry 作为创造性意外的来源",
+        "source": "dream-2026-06-21",
+        "trigger": "low-connection entries as creative surprise sources",
+        "intensity": 0.72,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-2",
+        "topic": "矛盾压缩的不可逆性：被遗忘的内在矛盾能否重建？",
+        "source": "dream-2026-06-21",
+        "trigger": "archaeological reconstruction of dissolved contradictions",
+        "intensity": 0.68,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-3",
+        "topic": "β_cognitive 的遗忘历史修正：被重连 entry 获得 β 减免",
+        "source": "dream-2026-06-21",
+        "trigger": "forgetting history as beta modifier",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
+        "decay_rate": 0.05
       }
     ],
     "pressure": 16.130000000000003
@@ -763,7 +796,7 @@
     "resurrections": 1,
     "avg_strength_after_decay": 2.71
   },
-  "last_weekly_review": "2026-06-14T23:30:00+08:00",
+  "last_weekly_review": "2026-06-21T22:06:15.496007+08:00",
   "functional_turn": {
     "started_at": "2026-06-01T10:00:00+08:00",
     "trigger": "walk-012 确认骨架结构完整 + 用户确认输出方向",

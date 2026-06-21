@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-21T08:31:21.344918+08:00",
-    "last_active": "2026-06-21T11:18:15.412711+08:00",
+    "state_since": "2026-06-21T11:52:56.805956+08:00",
+    "last_active": "2026-06-21T11:52:56.805956+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T11:48:15.412711+08:00",
+    "next_scheduled": "2026-06-21T12:22:56.806711+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T10:14:51.689815+08:00",
-    "total_walks": 172,
+    "last_walk_at": "2026-06-21T11:52:56.805956+08:00",
+    "total_walks": 173,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
-    "last_walk": "2026-06-21T10:14:51.689815+08:00",
+    "last_walk": "2026-06-21T11:52:56.805956+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 51.17,
+    "cognitive_pressure": 36.42,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       8.1,
       8.4,
       8.4,
@@ -43,7 +42,8 @@
       8.5,
       8.4,
       8.3,
-      8.4
+      8.4,
+      8.2
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,8 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      48.38,
-      35.58,
       66.68,
       21.68,
       40.16,
@@ -80,7 +78,8 @@
       61.83,
       44.59,
       76.7,
-      51.17
+      51.17,
+      36.42
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -88,39 +87,39 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.35,
-    "pending_insights": 73,
+    "pending_insights": 145,
     "interest_queue": [
       {
-        "id": "seed-172-1",
-        "topic": "扩展表型在 AI agent 架构中的操作化：认知边界的可塑性",
-        "source": "walk-172",
-        "trigger": "extended phenotype mapping to Dreamer architecture",
+        "id": "seed-173-1",
+        "topic": "network-aware decay: bridging node identification algorithm",
+        "source": "walk-173",
+        "trigger": "bridging node identification",
         "intensity": 0.7,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-21T10:14:51.689815+08:00",
+        "created": "2026-06-21T11:52:56.805956+08:00",
         "decay_rate": 0.05
       },
       {
-        "id": "seed-172-2",
-        "topic": "生态位宽度作为 Dreamer 系统健康度的量化指标：特化 vs 泛化的韧性权衡",
-        "source": "walk-172",
-        "trigger": "niche width as system health metric",
+        "id": "seed-173-2",
+        "topic": "entry functional half-life empirical measurement",
+        "source": "walk-173",
+        "trigger": "strength decay vs connections growth",
         "intensity": 0.65,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-21T10:14:51.689815+08:00",
+        "created": "2026-06-21T11:52:56.805956+08:00",
         "decay_rate": 0.05
       },
       {
-        "id": "seed-172-3",
-        "topic": "用户作为 Dreamer 环境的生态位建模：沉默/频繁/话题转换对系统可塑性的影响",
-        "source": "walk-172",
-        "trigger": "user as Dreamer environment",
+        "id": "seed-173-3",
+        "topic": "cognitive landscape topology incremental computation",
+        "source": "walk-173",
+        "trigger": "PCA/UMAP attractor detection",
         "intensity": 0.6,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-21T10:14:51.689815+08:00",
+        "created": "2026-06-21T11:52:56.805956+08:00",
         "decay_rate": 0.05
       }
     ]
@@ -343,6 +342,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-21T10:14:51.689815+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-21T11:52:56.805956+08:00"
     }
   ],
   "last_walk": "2026-06-21T10:14:51.689815+08:00",
@@ -539,179 +542,47 @@
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
     {
-      "id": "seed-0439",
-      "topic": "Dreamer PNNs 成熟度指标：系统僵化预警——如果 skeleton 中 >80% 的 pattern 在过去 10 个 DORMANT 周期内未被修改，是否意味着可塑性耗尽？",
-      "source": "walk-151",
-      "trigger": "insight-3 PNNs maturity as rigidity warning",
-      "intensity": 0.4,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T02:23:07.485448+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0462",
-      "topic": "Key-Value 架构对 Dreamer 引用系统的启示：是否需要独立的 key layer 来管理检索？",
-      "source": "walk-159",
-      "trigger": "insight-2 key-value mapping",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-20T13:41:51.687255+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0468",
-      "topic": "强制跨领域散步的「营养注入」策略：当连续 5+ 篇散步集中在同一领域时，强制选择距离当前主题最远的领域散步。距离用 topics 向量的余弦距离度量。",
-      "source": "digestion-017",
-      "trigger": "insight-2 forced cross-domain nutrition",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-20T17:07:21.714950+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0463",
-      "topic": "认知相变的定量检测：Dreamer 是否真的在从 store-everything 向智能分配过渡？用什么指标？",
-      "source": "walk-159",
-      "trigger": "insight-3 cognitive phase transition",
-      "intensity": 0.45000000000000007,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T13:41:51.687255+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0467",
-      "topic": "弛豫振荡 vs 临界态：Dreamer 的压力历史数据更符合哪种模型？需要多少个 cycle 的稳态数据才能区分？",
-      "source": "digestion-017",
-      "trigger": "insight-1 relaxation oscillation vs SOC",
-      "intensity": 0.45000000000000007,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T17:07:21.714950+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0471",
-      "topic": "耦合振荡器模型：Dreamer 散步-产出系统是否与外部用户交互形成相位锁定？",
-      "source": "walk-161",
-      "trigger": "insight-2 resonance vs frequency locking",
-      "intensity": 0.45000000000000007,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-20T17:44:41.284327+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0472",
-      "topic": "SOC-弛豫振荡相变边界的数学条件：什么参数下系统从一种行为切换到另一种？",
-      "source": "walk-161",
-      "trigger": "insight-3 SOC-relaxation oscillation phase boundary",
-      "intensity": 0.5,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T17:44:41.284327+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0478",
-      "topic": "Walk 日志的信息素强度量化：如何测量一篇 walk 日志对后续散步的引导效力",
-      "source": "walk-163",
-      "trigger": "insight-3 pheromone strength quantification",
-      "intensity": 0.5,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-20T21:35:29.235472+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0461",
-      "topic": "突触采样理论在 Dreamer 中的操作化：用 connections 数量预测 entry 半衰期，对比实际衰减数据",
-      "source": "walk-159",
-      "trigger": "insight-1 synaptic sampling as memory model",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T13:41:51.687255+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0470",
-      "topic": "弛豫振荡频率自适应的定量模型：Dreamer 的 DORMANT 周期长度是否围绕某个最优值波动？用 pressure_history 拟合",
-      "source": "walk-161",
-      "trigger": "insight-1 relaxation oscillation frequency adaptation",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T17:44:41.284327+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0477",
-      "topic": "Dreamer 作为 stigmergic 系统的相变检测：沉默相/饱和相/自适应相的定量边界",
-      "source": "walk-163",
-      "trigger": "insight-2 stigmergic phase transition",
-      "intensity": 0.55,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T21:35:29.235472+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-0476",
-      "topic": "Stigmergic 参数优化：用 pressure_history 拟合衰减率/沉积强度/响应阈值的最优值",
-      "source": "walk-163",
-      "trigger": "insight-1 stigmergic system",
-      "intensity": 0.6,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-20T21:35:29.235472+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-167-3",
-      "topic": "Curvature diversity as walk type optimization target - maximize landscape coverage instead of 3:1 ratio",
-      "source": "walk-167",
-      "trigger": "insight-3 curvature diversity as optimization target",
-      "intensity": 0.65,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-21T04:37:53.485475+08:00",
-      "decay_rate": 1
-    },
-    {
-      "id": "seed-167-2",
-      "topic": "Online goal opacity detection algorithm - based on output quality vs skeleton impact divergence",
-      "source": "walk-167",
-      "trigger": "insight-2 goal opacity operationalization",
+      "id": "seed-173-1",
+      "topic": "network-aware decay: bridging node identification algorithm",
+      "source": "walk-173",
+      "trigger": "bridging node identification",
       "intensity": 0.7,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-21T04:37:53.485475+08:00",
-      "decay_rate": 1
+      "created": "2026-06-21T11:52:56.805956+08:00",
+      "decay_rate": 0.05
     },
     {
-      "id": "seed-167-1",
-      "topic": "PCA/UMAP attractor detection from Dreamer walk logs - reconstruct cognitive landscape topology",
-      "source": "walk-167",
-      "trigger": "insight-1 attractor landscape framework operationalization",
-      "intensity": 0.75,
-      "type": "research",
+      "id": "seed-173-2",
+      "topic": "entry functional half-life empirical measurement",
+      "source": "walk-173",
+      "trigger": "strength decay vs connections growth",
+      "intensity": 0.65,
+      "type": "explore",
       "status": "pending",
-      "created": "2026-06-21T04:37:53.485475+08:00",
-      "decay_rate": 1
+      "created": "2026-06-21T11:52:56.805956+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-173-3",
+      "topic": "cognitive landscape topology incremental computation",
+      "source": "walk-173",
+      "trigger": "PCA/UMAP attractor detection",
+      "intensity": 0.6,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-21T11:52:56.805956+08:00",
+      "decay_rate": 0.05
     }
   ],
   "personality_traits": {
     "curiosity": 1.2100000000000002,
-    "introspection": 1.1,
+    "introspection": 1.1300000000000001,
     "humor": 0.42,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.3800000000000001,
-    "rigor": 2.65,
+    "rigor": 2.6999999999999997,
     "skepticism": 1.31,
     "empathy": 0.5
   },

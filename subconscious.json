@@ -5331,5 +5331,26 @@
     "score": 0.0,
     "decay_speed": 0.5,
     "note": "quality_score=8.4 -> strength=5.0"
+  },
+  {
+    "id": "insight-173-1",
+    "content": "Dreamer entry functional half-life determined by network position in connections graph, not by time. Bridging nodes (entries connecting two unlinked clusters) should decay slower than edge nodes because losing bridging nodes costs more (causes network fragmentation). Current uniform decay ignores network topology.",
+    "topic": "network-aware decay: bridging node identification in subconscious graph",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "insight-156-1",
+      "ins-234",
+      "ins-163-3",
+      "seed-167-1"
+    ],
+    "created": "2026-06-21T11:52:32.101693+08:00",
+    "decay_count": 0,
+    "metadata": {
+      "source": "walk-173",
+      "walk_type": "consolidate",
+      "quality_score": 8.2
+    }
   }
 ]

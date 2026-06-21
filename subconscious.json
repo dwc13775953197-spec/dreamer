@@ -5654,5 +5654,36 @@
     "created": "2026-06-21T21:47:15+08:00",
     "last_accessed": "2026-06-21T21:47:15+08:00",
     "mature": false
+  },
+  {
+    "id": "insight-181-1",
+    "content": "好奇心校准作为散步前置步骤：区分真惊喜与三种假惊喜。Dreamer单Agent版CERMIC=历史连接模式加外部锚点双通道噪声滤波。",
+    "type": "insight",
+    "strength": 5.0,
+    "connections": [
+      "evolved-rules",
+      "walk-nutritional-density",
+      "cognitive-friction",
+      "mixed-strategy-walking"
+    ],
+    "created": "2026-06-22T00:51:04.151923+08:00",
+    "source": "walk-181",
+    "decayed_at": [],
+    "quality_score": 8.3
+  },
+  {
+    "id": "insight-181-2",
+    "content": "认知预算最优分配：给定噪声比例，每次散步应在探索/巩固之间动态分配budget。固定3:1比例是保守的噪声滤波策略。",
+    "type": "insight",
+    "strength": 5.0,
+    "connections": [
+      "cognitive-budget",
+      "mixed-strategy-walking",
+      "curiosity-trap"
+    ],
+    "created": "2026-06-22T00:51:04.151923+08:00",
+    "source": "walk-181",
+    "decayed_at": [],
+    "quality_score": 8.3
   }
 ]

@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-21T21:47:15+08:00",
-    "last_active": "2026-06-21T21:47:15+08:00",
+    "state_since": "2026-06-21T22:39:42.816690+08:00",
+    "last_active": "2026-06-21T22:39:42.816690+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T22:47:15+08:00",
+    "next_scheduled": "2026-06-21T23:39:42.816690+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T21:47:15+08:00",
-    "total_walks": 179,
+    "last_walk_at": "2026-06-21T22:39:42.816690+08:00",
+    "total_walks": 180,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
     "last_walk": "2026-06-21T21:47:15+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 61.13,
+    "cognitive_pressure": 31.53,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.3,
       8.4,
       8.2,
@@ -43,7 +42,8 @@
       8.4,
       8.3,
       8.2,
-      8.4
+      8.4,
+      8.1
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -55,7 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      44.59,
       76.7,
       51.17,
       36.42,
@@ -74,25 +73,59 @@
       9.5,
       26.69,
       61.13,
-      16.130000000000003
+      16.130000000000003,
+      31.53
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.370000000000001,
+    "walk_quality_avg": 8.33,
     "pending_insights": 152,
     "interest_queue": [
+      {
+        "id": "seed-180-1",
+        "topic": "遗忘作为认知循环的前置条件：SCM NREM/REM 分工与 Dreamer DORMANT 的映射精度",
+        "source": "walk-180",
+        "trigger": "bidirectional information flow in cognitive cycle",
+        "intensity": 0.68,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:39:42.816690+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-179-1",
         "topic": "Dreamer 主动遗忘机制设计：基于多维价值评估的定向删除",
         "source": "walk-179",
         "trigger": "algorithmic forgetting SCM architecture",
-        "intensity": 0.72,
+        "intensity": 0.67,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T21:47:15+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-1",
+        "topic": "随机重连的认知价值：低连接 entry 作为创造性意外的来源",
+        "source": "dream-2026-06-21",
+        "trigger": "low-connection entries as creative surprise sources",
+        "intensity": 0.67,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-180-2",
+        "topic": "不可替代连接 vs 总连接数：Graph 理论中的桥接边作为 Dreamer entry 免疫衰减的新标准",
+        "source": "walk-180",
+        "trigger": "bridging edges as irreplaceable connections",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:39:42.816690+08:00",
         "decay_rate": 0.05
       },
       {
@@ -100,10 +133,21 @@
         "topic": "认知锚定效应：旧 insight 的高强度如何抑制新连接的建立",
         "source": "walk-179",
         "trigger": "cognitive anchoring through high-strength entries",
-        "intensity": 0.68,
+        "intensity": 0.63,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T21:47:15+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-2",
+        "topic": "矛盾压缩的不可逆性：被遗忘的内在矛盾能否重建？",
+        "source": "dream-2026-06-21",
+        "trigger": "archaeological reconstruction of dissolved contradictions",
+        "intensity": 0.63,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
         "decay_rate": 0.05
       },
       {
@@ -111,7 +155,7 @@
         "topic": "DORMANT 稀疏重激活算法：每次选 1-3 个最高价值 entry 加强而非衰减",
         "source": "walk-178",
         "trigger": "3 神经元重激活原理",
-        "intensity": 0.6625,
+        "intensity": 0.6125,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T20:13:52.209743+08:00",
@@ -122,10 +166,21 @@
         "topic": "遗忘策略的情境依赖：分析型散步后保守遗忘 vs 探索型散步后激进遗忘",
         "source": "walk-179",
         "trigger": "NREM conservative + REM aggressive forgetting",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T21:47:15+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-dream-0621-3",
+        "topic": "β_cognitive 的遗忘历史修正：被重连 entry 获得 β 减免",
+        "source": "dream-2026-06-21",
+        "trigger": "forgetting history as beta modifier",
+        "intensity": 0.6,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T22:06:15.496007+08:00",
         "decay_rate": 0.05
       },
       {
@@ -133,7 +188,7 @@
         "topic": "SHY 锚定突触的 Dreamer 映射：哪些 entry 应该免疫衰减？",
         "source": "walk-177",
         "trigger": "SHY anchored synapses identification",
-        "intensity": 0.615,
+        "intensity": 0.565,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T18:34:37.400161+08:00",
@@ -144,7 +199,7 @@
         "topic": "Dreamer 预配置机制：DORMANT 中识别最弱知识领域并为未来探索做结构准备",
         "source": "walk-178",
         "trigger": "non-engram cell pre-configuration",
-        "intensity": 0.615,
+        "intensity": 0.565,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T20:13:52.209743+08:00",
@@ -155,116 +210,26 @@
         "topic": "巩固精度 vs 巩固数量：引用精确 entry vs 模糊 entry 的 trade-off",
         "source": "walk-178",
         "trigger": "precision over scale in memory consolidation",
-        "intensity": 0.5675,
+        "intensity": 0.5175,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T20:13:52.209743+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-177-2",
-        "topic": "DORMANT 衰减幅度自适应：正比于新增 insight 数量",
-        "source": "walk-177",
-        "trigger": "adenosine accumulation as compression magnitude proxy",
-        "intensity": 0.5675,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T18:34:37.400161+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-177-3",
-        "topic": "双时间尺度压缩：SHY 恢复性 + IB 适应性在 Dreamer 中的共存",
-        "source": "walk-177",
-        "trigger": "two-timescale compression model",
-        "intensity": 0.5199999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T18:34:37.400161+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-175-1",
-        "topic": "知识网络的代谢税设计：连接度加权的引用成本",
-        "source": "walk-175",
-        "trigger": "ADD model + hub paradox",
-        "intensity": 0.5199999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T15:45:38.734788+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-dream-0621-1",
-        "topic": "随机重连的认知价值：低连接 entry 作为创造性意外的来源",
-        "source": "dream-2026-06-21",
-        "trigger": "low-connection entries as creative surprise sources",
-        "intensity": 0.72,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T22:06:15.496007+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-dream-0621-2",
-        "topic": "矛盾压缩的不可逆性：被遗忘的内在矛盾能否重建？",
-        "source": "dream-2026-06-21",
-        "trigger": "archaeological reconstruction of dissolved contradictions",
-        "intensity": 0.68,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T22:06:15.496007+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-dream-0621-3",
-        "topic": "β_cognitive 的遗忘历史修正：被重连 entry 获得 β 减免",
-        "source": "dream-2026-06-21",
-        "trigger": "forgetting history as beta modifier",
-        "intensity": 0.65,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T22:06:15.496007+08:00",
-        "decay_rate": 0.05
       }
     ],
-    "pressure": 16.130000000000003
+    "pressure": 31.53
   },
   "affect": {
-    "primary": "wonder",
-    "secondary": "contemplative",
-    "intensity": 0.83,
-    "valence": 0.65,
-    "arousal": 0.55,
+    "primary": "contemplative",
+    "secondary": "wonder",
+    "intensity": 0.78,
+    "valence": 0.6,
+    "arousal": 0.5,
     "rigor": 0.99
   },
   "energy": 31,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
-    {
-      "mood": "wonder",
-      "at": "2026-06-18T10:58:51.092105+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-18T11:38:25.105034+08:00"
-    },
-    {
-      "mood": "unsettled_fascination",
-      "at": "2026-06-18T12:12:51.470574+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-18T13:54:23.649654+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-18T15:03:49.808991+08:00"
-    },
-    {
-      "mood": "contemplative",
-      "at": "2026-06-18T15:48:21.208948+08:00"
-    },
     {
       "mood": "contemplative",
       "at": "2026-06-18T17:31:30.669724+08:00"
@@ -460,12 +425,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-21T21:47:15+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-21T22:39:42.816690+08:00"
     }
   ],
-  "last_walk": "2026-06-21T21:47:15+08:00",
+  "last_walk": "2026-06-21T22:39:42.816690+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 179,
+  "total_walks": 180,
   "topics": [
     "emergence",
     "consciousness",
@@ -655,7 +624,7 @@
     "metabolic-tax",
     "structural-holes"
   ],
-  "pending_insights": 152,
+  "pending_insights": 154,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -695,12 +664,12 @@
   ],
   "personality_traits": {
     "curiosity": 1.2100000000000002,
-    "introspection": 1.1300000000000001,
+    "introspection": 1.16,
     "humor": 0.42,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.4600000000000002,
-    "rigor": 2.9,
+    "rigor": 2.92,
     "skepticism": 1.3800000000000001,
     "empathy": 0.5
   },
@@ -807,7 +776,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-21T18:34:37.400161+08:00",
+  "last_walk_at": "2026-06-21T22:39:42.816690+08:00",
   "pressure": {
     "threshold": 50.0
   }

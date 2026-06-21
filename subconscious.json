@@ -5400,5 +5400,66 @@
     "decayed_at": null,
     "reinforced_count": 0,
     "score": 0.3
+  },
+  {
+    "id": "ins-walk175-1",
+    "type": "insight",
+    "content": "Hub paradox in knowledge networks: high centrality nodes are both most valuable (many connections) and most vulnerable (activity-dependent degeneration). In biological networks, excessive neuronal activity increases amyloid deposition, causing hub-priority collapse. In Dreamer, reinforce mechanism may chronically kill the most insightful entries through metabolic tax.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T15:24:26+08:00",
+    "source": "walk-175",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-066",
+      "ins-065",
+      "pat-030"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Initial strength 5.0 (walk quality 8.6 >= 8.0)"
+  },
+  {
+    "id": "ins-walk175-2",
+    "type": "pattern",
+    "content": "Metabolic tax design for knowledge networks: entries with more connections should have diminishing reinforce returns. Connection count / 10 = tax rate. High-connectivity hubs accumulate hidden maintenance costs through frequent DORMANT checks, creating a death spiral: high activity → high visibility → more checks → faster apparent decay.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-21T15:24:26+08:00",
+    "source": "walk-175",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-walk175-1",
+      "ins-066"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Initial strength 5.0 (walk quality 8.6 >= 8.0)"
+  },
+  {
+    "id": "ins-walk175-3",
+    "type": "insight",
+    "content": "Walk chain 169→173→174→175 forms complete reasoning on network self-destruction: citation creates Matthew effect (169) → network topology polarization (173) → hub priority collapse (174) → collapse caused by connectivity itself via activity-dependent degeneration (175). Each step deepens: network structure is not neutral — it creates its own destruction mechanism.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T15:24:26+08:00",
+    "source": "walk-175",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-walk175-1",
+      "ins-walk175-2"
+    ],
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Initial strength 3.0 (walk quality 8.6, meta-insight)"
   }
 ]

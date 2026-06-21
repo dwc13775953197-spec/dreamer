@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-21T12:57:31.821155+08:00",
-    "last_active": "2026-06-21T15:09:26.722751+08:00",
+    "state_since": "2026-06-21T15:45:38.734788+08:00",
+    "last_active": "2026-06-21T15:45:38.734788+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T15:24:26.722751+08:00",
+    "next_scheduled": "2026-06-21T16:15:38.734886+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T12:57:31.821155+08:00",
-    "total_walks": 174,
+    "last_walk_at": "2026-06-21T15:45:38.734788+08:00",
+    "total_walks": 175,
     "last_pulse_output": "2026-06-21T10:00:00+08:00",
-    "last_walk": "2026-06-21T11:52:56.805956+08:00",
+    "last_walk": "2026-06-21T15:45:38.734788+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 100,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,7 +35,6 @@
     },
     "quality_history": [
       8.4,
-      8.4,
       8.3,
       8.4,
       8.5,
@@ -43,7 +42,8 @@
       8.3,
       8.4,
       8.2,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -76,14 +76,15 @@
       24.599999999999994,
       27.11,
       45.44,
-      100
+      100,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.35,
+    "walk_quality_avg": 8.39,
     "pending_insights": 148,
     "interest_queue": [
       {
@@ -91,7 +92,7 @@
         "topic": "network-aware decay: bridging node identification algorithm",
         "source": "walk-173",
         "trigger": "bridging node identification",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T11:52:56.805956+08:00",
@@ -102,7 +103,7 @@
         "topic": "entry functional half-life empirical measurement",
         "source": "walk-173",
         "trigger": "strength decay vs connections growth",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T11:52:56.805956+08:00",
@@ -113,7 +114,7 @@
         "topic": "cognitive landscape topology incremental computation",
         "source": "walk-173",
         "trigger": "PCA/UMAP attractor detection",
-        "intensity": 0.5499999999999999,
+        "intensity": 0.49999999999999994,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T11:52:56.805956+08:00",
@@ -124,7 +125,7 @@
         "topic": "semantic hub dynamic drift prediction",
         "source": "walk-174",
         "trigger": "Cabeza's hub non-stationarity + Dreamer graph structure",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T12:57:31.821155+08:00",
@@ -135,7 +136,7 @@
         "topic": "Dreamer connections graph connectivity audit",
         "source": "walk-174",
         "trigger": "bridging coefficient calculation",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T12:57:31.821155+08:00",
@@ -146,24 +147,57 @@
         "topic": "redundancy building vs hub protection comparison",
         "source": "walk-174",
         "trigger": "three-strategy tradeoff analysis",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T12:57:31.821155+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-175-1",
+        "topic": "知识网络的代谢税设计：连接度加权的引用成本",
+        "source": "walk-175",
+        "trigger": "ADD model + hub paradox",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T15:45:38.734788+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-175-2",
+        "topic": "Dreamer 枢纽节点的识别与轮换策略",
+        "source": "walk-175",
+        "trigger": "structural holes theory dynamic application",
+        "intensity": 0.7,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T15:45:38.734788+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-175-3",
+        "topic": "subconscious 高连接 entry 的加速衰减验证",
+        "source": "walk-175",
+        "trigger": "ADD model statistical validation in knowledge network",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T15:45:38.734788+08:00",
         "decay_rate": 0.05
       }
     ]
   },
   "affect": {
     "primary": "contemplative",
-    "secondary": "contemplative",
-    "intensity": 0.85,
-    "valence": 0.6,
-    "arousal": 0.5,
-    "rigor": 0.95
+    "secondary": "unsettled_fascination",
+    "intensity": 0.88,
+    "valence": 0.55,
+    "arousal": 0.55,
+    "rigor": 0.96
   },
   "energy": 34,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "wonder",
@@ -364,12 +398,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-21T12:57:31.821155+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-21T15:45:38.734788+08:00"
     }
   ],
   "last_walk": "2026-06-21T10:14:51.689815+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 172,
+  "total_walks": 175,
   "topics": [
     "emergence",
     "consciousness",
@@ -553,7 +591,11 @@
     "memory-selection",
     "consolidation-3d",
     "attractor-landscape",
-    "extended-phenotype"
+    "extended-phenotype",
+    "hub-paradox",
+    "activity-dependent-degeneration",
+    "metabolic-tax",
+    "structural-holes"
   ],
   "pending_insights": 144,
   "pending_research": 2,
@@ -600,8 +642,8 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.3800000000000001,
-    "rigor": 2.7399999999999998,
-    "skepticism": 1.33,
+    "rigor": 2.79,
+    "skepticism": 1.36,
     "empathy": 0.5
   },
   "walk_quality_avg": 8.26,

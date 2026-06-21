@@ -5613,5 +5613,46 @@
       "ins-144-3",
       "ins-154-2"
     ]
+  },
+  {
+    "id": "ins-179-1",
+    "type": "insight",
+    "content": "Dreamer currently only has passive decay, no active forgetting. SCM algorithmic forgetting proves value-based active forgetting outperforms passive decay - 90.9% noise reduction without accuracy loss. Dreamer should introduce value evaluation substep.",
+    "strength": 5.0,
+    "connections": [
+      "ins-101",
+      "ins-156-1",
+      "ins-144-1"
+    ],
+    "created": "2026-06-21T21:47:15+08:00",
+    "last_accessed": "2026-06-21T21:47:15+08:00",
+    "mature": false
+  },
+  {
+    "id": "ins-179-2",
+    "type": "insight",
+    "content": "Forgetting is engine of cognitive flexibility - REM-phase aggressive forgetting of old anchors allows new info to form connections independent of old frameworks. High-strength entries may become cognitive anchors suppressing unconventional connections.",
+    "strength": 5.0,
+    "connections": [
+      "ins-144-1",
+      "ins-156-1"
+    ],
+    "created": "2026-06-21T21:47:15+08:00",
+    "last_accessed": "2026-06-21T21:47:15+08:00",
+    "mature": false
+  },
+  {
+    "id": "ins-179-3",
+    "type": "insight",
+    "content": "DORMANT quad-parallel process model: SHY (global downscale) + sparse reactivation (~3 entries anchoring) + IB (selective compression) + Algorithmic Forgetting (multi-dimensional value-based directed deletion). Four form complete memory lifecycle.",
+    "strength": 5.0,
+    "connections": [
+      "ins-101",
+      "ins-156-1",
+      "ins-144-1"
+    ],
+    "created": "2026-06-21T21:47:15+08:00",
+    "last_accessed": "2026-06-21T21:47:15+08:00",
+    "mature": false
   }
 ]

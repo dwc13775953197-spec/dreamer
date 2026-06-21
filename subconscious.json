@@ -5159,5 +5159,60 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "三层生成-选择-标记的完整图景"
+  },
+  {
+    "id": "ins-170-1",
+    "type": "insight",
+    "content": "Functional pruning 3D metric: connection_diversity x citation_frequency x stage_match_score. Dreamer淘汰标准应基于结构嵌入度而非时间年龄;高connections必须来自不同散步才计数(防操纵)。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T08:30:52.173975+08:00",
+    "source": "walk-170",
+    "decay_rate": 1,
+    "connections": [
+      "insight-159-1",
+      "ins-163-2",
+      "ins-229",
+      "ins-155-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "ins-170-2",
+    "type": "insight",
+    "content": "Self-referential trap protection: pruning metric connections must be weighted by cross-walk source diversity, not absolute count. N connections from same source < N connections from different sources. Goodhart's law in pruning = entries gaming the metric.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T08:30:52.173975+08:00",
+    "source": "walk-170",
+    "decay_rate": 1,
+    "connections": [
+      "ins-170-1",
+      "walk162-insight1",
+      "ins-232"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "ins-170-3",
+    "type": "insight",
+    "content": "Differential survival rate windows: explore-type walks use long windows (seed potential needs multiple walks to verify), consolidate-type uses short windows (survival = cited in subsequent walks). Two types are complementary.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T08:30:52.173975+08:00",
+    "source": "walk-170",
+    "decay_rate": 1,
+    "connections": [
+      "ins-229",
+      "insight-155-1",
+      "ins-156-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
   }
 ]

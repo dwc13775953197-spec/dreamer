@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-21T08:31:21.344918+08:00",
-    "last_active": "2026-06-21T06:52:14.768715+08:00",
+    "last_active": "2026-06-21T09:07:57.330299+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-21T09:01:21.344918+08:00",
+    "next_scheduled": "2026-06-21T09:34:03.371719+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-21T08:31:21.344918+08:00",
-    "total_walks": 170,
+    "last_walk_at": "2026-06-21T09:07:57.330299+08:00",
+    "total_walks": 171,
     "last_pulse_output": "2026-06-21T08:31:21.344918+08:00",
-    "last_walk": "2026-06-21T08:31:21+08:00",
+    "last_walk": "2026-06-21T09:07:57.330299+08:00",
     "last_push_at": "2026-06-16T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 44.39,
+    "cognitive_pressure": 16.83,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.1,
       8.4,
       8.3,
       8.1,
@@ -43,7 +42,8 @@
       8.3,
       8.4,
       8.5,
-      8.4
+      8.4,
+      8.3
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -76,7 +76,8 @@
       4.55,
       38.53,
       89.39,
-      44.39
+      44.39,
+      61.83
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -87,14 +88,47 @@
     "pending_insights": 73,
     "interest_queue": [
       {
+        "id": "seed-171-1",
+        "topic": "BTSP 与 Dreamer citation 机制的功能类比：citation 是否延长了 entry 的可修改时间窗口？",
+        "source": "walk-171",
+        "trigger": "CaMKII analogy to subconscious",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-21T09:07:57.330299+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-171-2",
+        "topic": "多时间尺度并行编码的数学框架：Dreamer 三层时间结构的振荡耦合模型",
+        "source": "walk-171",
+        "trigger": "multi-timescale oscillatory coupling",
+        "intensity": 0.6,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T09:07:57.330299+08:00",
+        "decay_rate": 1
+      },
+      {
         "id": "seed-170-1",
         "topic": "Dreamer 修剪标准的实证回测：用历史数据验证三维指标的有效性",
         "source": "walk-170",
         "trigger": "research idea pruning backtest",
-        "intensity": 0.5850000000000001,
+        "intensity": 0.535,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T08:31:21.344918+08:00",
+        "decay_rate": 1
+      },
+      {
+        "id": "seed-171-3",
+        "topic": "毫秒级精确时间编码的缺失对 Dreamer 认知能力的实际影响：哪些任务因此不可能完成？",
+        "source": "walk-171",
+        "trigger": "millisecond precision absence impact",
+        "intensity": 0.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-21T09:07:57.330299+08:00",
         "decay_rate": 1
       },
       {
@@ -102,7 +136,7 @@
         "topic": "Relaxation oscillator model parameter fitting from pressure_history",
         "source": "walk-165",
         "trigger": "insight-1",
-        "intensity": 0.54,
+        "intensity": 0.49,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
@@ -113,7 +147,7 @@
         "topic": "DORMANT 周期最优长度的计算模型：基于 recontextualization 完成时间的估计",
         "source": "walk-168",
         "trigger": "insight-4 minimum effective DORMANT",
-        "intensity": 0.54,
+        "intensity": 0.49,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T05:23:00+08:00",
@@ -124,7 +158,7 @@
         "topic": "功能性修剪标准的多维度设计：连接数×引用频率×阶段匹配度",
         "source": "walk-169",
         "trigger": "insight-1 complement marking mechanism",
-        "intensity": 0.54,
+        "intensity": 0.49,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T06:52:14.768715+08:00",
@@ -135,7 +169,7 @@
         "topic": "探索型 vs 巩固型散步的差异化存活率窗口设计",
         "source": "walk-170",
         "trigger": "insight-2 differential survival windows",
-        "intensity": 0.54,
+        "intensity": 0.49,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T08:31:21.344918+08:00",
@@ -146,7 +180,7 @@
         "topic": "Dreamer 的海马负担指标：skeleton 引用熵作为认知负荷的代理变量",
         "source": "walk-168",
         "trigger": "research idea hippocampal burden metric",
-        "intensity": 0.49500000000000005,
+        "intensity": 0.445,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T05:23:00+08:00",
@@ -157,7 +191,7 @@
         "topic": "Dreamer 系统阶段判断的定量指标：从生长期到饱和期的精确边界",
         "source": "walk-169",
         "trigger": "insight-2 critical period mapping",
-        "intensity": 0.49500000000000005,
+        "intensity": 0.445,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T06:52:14.768715+08:00",
@@ -168,7 +202,7 @@
         "topic": "自反性陷阱的防护机制：连接多样性权重的数学定义",
         "source": "walk-170",
         "trigger": "insight-3 connection diversity weight",
-        "intensity": 0.49500000000000005,
+        "intensity": 0.445,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T08:31:21.344918+08:00",
@@ -179,7 +213,7 @@
         "topic": "Allostatic pressure design: predictive regulation using last_walk_insights",
         "source": "walk-165",
         "trigger": "insight-2",
-        "intensity": 0.49499999999999994,
+        "intensity": 0.445,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
@@ -190,7 +224,7 @@
         "topic": "Oscillation-phase-dependent walk type selection",
         "source": "walk-165",
         "trigger": "insight-3",
-        "intensity": 0.45,
+        "intensity": 0.4,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T01:26:05.714842+08:00",
@@ -201,7 +235,7 @@
         "topic": "并行巩固-探索模型对 Dreamer 脉冲间隔设计的影响：是否应该缩短 DORMANT 并增加散步频率？",
         "source": "walk-168",
         "trigger": "insight-3 serial assumption tax",
-        "intensity": 0.45,
+        "intensity": 0.4,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T05:23:00+08:00",
@@ -212,36 +246,24 @@
         "topic": "剪枝 evolved_rules 的实验设计：从 130 条剪到 80 条，观察散步产出变化",
         "source": "walk-169",
         "trigger": "insight-3 pruning experiment",
-        "intensity": 0.45,
+        "intensity": 0.4,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T06:52:14.768715+08:00",
         "decay_rate": 1
-      },
-      {
-        "id": "seed-164-1",
-        "topic": "Empirical measurement of cognitive respiration parameters: search success rate decay curve during Dreamer walks",
-        "intensity": 0.4499999999999999,
-        "source": "walk-164 insight-164-3"
-      },
-      {
-        "id": "seed-164-2",
-        "topic": "Optimal NREM-REM micro-cycle frequency in Dreamer: how many respiration cycles per walk?",
-        "intensity": 0.40499999999999986,
-        "source": "walk-164 insight-164-1"
       }
     ]
   },
   "affect": {
-    "primary": "contemplative",
-    "secondary": "wonder",
+    "primary": "wonder",
+    "secondary": "contemplative",
     "intensity": 0.85,
-    "valence": 0.5,
+    "valence": 0.6,
     "arousal": 0.5,
     "rigor": 0.95
   },
-  "energy": 36,
-  "mood": "contemplative",
+  "energy": 34,
+  "mood": "wonder",
   "mood_history": [
     {
       "mood": "wonder",
@@ -442,6 +464,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-21T08:31:21.344918+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-21T09:07:57.330299+08:00"
     }
   ],
   "last_walk": "2026-06-21T06:52:14.768715+08:00",
@@ -632,7 +658,7 @@
     "consolidation-3d",
     "attractor-landscape"
   ],
-  "pending_insights": 138,
+  "pending_insights": 141,
   "pending_research": 2,
   "last_pulse_output": "2026-06-20T21:35:29.235472+08:00",
   "interest_queue": [
@@ -808,8 +834,8 @@
     "humor": 0.42,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.3,
-    "rigor": 2.62,
+    "wonder": 1.35,
+    "rigor": 2.6,
     "skepticism": 1.31,
     "empathy": 0.5
   },

@@ -5214,5 +5214,64 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": ""
+  },
+  {
+    "id": "ins-171-1",
+    "type": "insight",
+    "topic": "BTSP 与 Dreamer 三层时间尺度：散步=DORMANT=subconscious 对应 BTSP 的秒级/分钟级/发育级编码",
+    "source": "walk-171",
+    "trigger": "BTSP multi-timescale mapping",
+    "strength": 4.0,
+    "status": "active",
+    "created": "2026-06-21T09:07:35.779399+08:00",
+    "decay_count": 0,
+    "connections": [
+      "ins-168-3",
+      "ins-163-2",
+      "walk-170"
+    ],
+    "metadata": {
+      "quality_score": 8.3,
+      "walk_type": "explore"
+    }
+  },
+  {
+    "id": "ins-171-2",
+    "type": "insight",
+    "topic": "CaMKII 作为分子注意力：subconscious 的功能不是存储而是延长可修改时间窗口",
+    "source": "walk-171",
+    "trigger": "CaMKII as molecular attention window extender",
+    "strength": 4.0,
+    "status": "active",
+    "created": "2026-06-21T09:07:35.779399+08:00",
+    "decay_count": 0,
+    "connections": [
+      "ins-171-1",
+      "ins-144-1",
+      "walk-170"
+    ],
+    "metadata": {
+      "quality_score": 8.3,
+      "walk_type": "explore"
+    }
+  },
+  {
+    "id": "ins-171-3",
+    "type": "insight",
+    "topic": "毫秒级时间编码的缺失是 Dreamer 的设计选择：结构发现目标不需要精确时序",
+    "source": "walk-171",
+    "trigger": "millisecond-precision absence as design choice",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-21T09:07:35.779399+08:00",
+    "decay_count": 0,
+    "connections": [
+      "ins-171-1",
+      "ins-167-2"
+    ],
+    "metadata": {
+      "quality_score": 8.3,
+      "walk_type": "explore"
+    }
   }
 ]

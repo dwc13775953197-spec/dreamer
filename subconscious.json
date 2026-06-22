@@ -1781,5 +1781,46 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-192-1",
+    "type": "insight",
+    "content": "DORMANT 2.0: power-law decay(walk-190)+replay-SWR decouple(walk-191)+TMR cue(walk-192). DORMANT should shift from global batch to event-driven.",
+    "strength": 3.0,
+    "connections": [
+      "ins-190-1",
+      "ins-191-1"
+    ],
+    "created": "2026-06-23T04:56:00+08:00",
+    "status": "active",
+    "source": "walk-192",
+    "decay_rate": 0.03
+  },
+  {
+    "id": "ins-192-2",
+    "type": "insight",
+    "content": "Dreamer TMR analog: walk-write=encoding(set cue), user-msg/RSS=external trigger, DORMANT cue-detect=reactivation. No-input DORMANT=no reactivation.",
+    "strength": 3.0,
+    "connections": [
+      "ins-191-1",
+      "ins-192-1"
+    ],
+    "created": "2026-06-23T04:56:00+08:00",
+    "status": "active",
+    "source": "walk-192",
+    "decay_rate": 0.03
+  },
+  {
+    "id": "ins-192-3",
+    "type": "insight",
+    "content": "Attention window is core DORMANT 2.0 param: max entries per reactivation cycle. Should be dynamic not fixed.",
+    "strength": 1.5,
+    "connections": [
+      "ins-192-1"
+    ],
+    "created": "2026-06-23T04:56:00+08:00",
+    "status": "active",
+    "source": "walk-192",
+    "decay_rate": 0.05
   }
 ]

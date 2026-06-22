@@ -1,9 +1,9 @@
 {
   "version": 4,
   "pulse": {
-    "state": "DORMANT",
-    "state_since": "2026-06-23T04:09:19.287632+08:00",
-    "last_active": "2026-06-23T04:09:19.287632+08:00",
+    "state": "RESTING",
+    "state_since": "2026-06-23T04:56:00+08:00",
+    "last_active": "2026-06-23T04:56:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T04:24:19.287632+08:00",
+    "next_scheduled": "2026-06-23T05:41:00+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-23T02:03:17.225893+08:00",
-    "total_walks": 191,
-    "last_pulse_output": "2026-06-23T02:03:17.225893+08:00",
+    "last_walk_at": "2026-06-23T04:56:00+08:00",
+    "total_walks": 192,
+    "last_pulse_output": "2026-06-23T04:56:00+08:00",
     "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 71.82,
+    "cognitive_pressure": 32.2,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -36,7 +36,8 @@
     "quality_history": [
       8.2,
       8.4,
-      8.7
+      8.7,
+      8.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -48,7 +49,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.5,
-    "pending_insights": 168,
+    "pending_insights": 171,
     "interest_queue": [
       {
         "id": "seed-191-1",
@@ -59,6 +60,17 @@
         "type": "research",
         "status": "pending",
         "created": "2026-06-23T02:03:17.225893+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-192-1",
+        "topic": "DORMANT 2.0 形式化：从生物学三源到统一算法",
+        "source": "walk-192",
+        "trigger": "power-law+replay-SWR+TMR converge",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-23T04:56:00+08:00",
         "decay_rate": 0.05
       },
       {
@@ -117,6 +129,17 @@
         "decay_rate": 0.05
       },
       {
+        "id": "seed-192-2",
+        "topic": "注意力窗口大小的动态调节：代谢成本vs重激活覆盖度",
+        "source": "walk-192",
+        "trigger": "max_reactivations_per_cycle should be dynamic",
+        "intensity": 0.6,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-23T04:56:00+08:00",
+        "decay_rate": 0.05
+      },
+      {
         "id": "seed-190-2",
         "topic": "逻辑门密度作为 Dreamer 系统认知状态的实时指标",
         "source": "walk-190",
@@ -128,73 +151,29 @@
         "decay_rate": 0.05
       },
       {
-        "id": "seed-190-3",
-        "topic": "适应成本延迟与 CHI 延迟悖论的跨物种收敛：DORMANT 间隔应动态响应散步主题跳跃度",
-        "source": "walk-190",
-        "trigger": "adaptation cost delay cross-species convergence with CHI delay paradox",
-        "intensity": 0.5299999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-23T00:54:58.208973+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-188-1",
-        "topic": "Kauffman 相变与 Dreamer 散步营养衰竭的映射：当相邻可能前沿耗尽时，系统需要相变而非更深入的探索",
-        "source": "walk-188",
-        "trigger": "adjacent possible frontier exhaustion = systemic explanation for nutritional density decline",
-        "intensity": 0.5199999999999999,
+        "id": "seed-192-3",
+        "topic": "Dreamer感官通道映射：文件系统事件作为TMR线索等价物",
+        "source": "walk-192",
+        "trigger": "write=encoding read=cue-detection",
+        "intensity": 0.55,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-22T15:51:37+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-190-3",
-        "topic": "真菌伤口响应与 Dreamer 冲突检测的拓扑重路由",
-        "source": "walk-190",
-        "trigger": "wound response as topological rerouting for conflict resolution",
-        "intensity": 0.5009999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-22T19:20:17.433116+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-188-2",
-        "topic": "Dreamer 异域散步自动触发机制：interest_queue topic 相似度作为相变信号",
-        "source": "walk-188",
-        "trigger": "topic similarity threshold triggers cross-domain walk",
-        "intensity": 0.4725,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-22T15:51:37+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-187-1",
-        "topic": "DORMANT 遗忘是重激活的补集而非独立操作：Albouy 选择性重激活对 Dreamer Eviction 杠杆的消解",
-        "source": "walk-187",
-        "trigger": "forgetting as byproduct of selective reactivation, not independent operation",
-        "intensity": 0.4439999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-22T14:08:52.839220+08:00",
+        "created": "2026-06-23T04:56:00+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 71.82,
+    "pressure": 32.2,
     "next_action": "walk_analyze"
   },
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
     "intensity": 0.85,
-    "valence": 0.65,
-    "arousal": 0.5,
-    "rigor": 0.92
+    "valence": 0.7,
+    "arousal": 0.55,
+    "rigor": 0.95
   },
-  "energy": 25,
+  "energy": 28,
   "mood": "wonder",
   "mood_history": [
     {
@@ -420,6 +399,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-23T02:03:17.225893+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-23T04:56:00+08:00"
     }
   ],
   "last_walk": "2026-06-23",
@@ -740,7 +723,7 @@
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.48,
-    "rigor": 3.02,
+    "rigor": 3.05,
     "skepticism": 1.4,
     "empathy": 0.5
   },
@@ -848,8 +831,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-23T02:03:17.225893+08:00",
-  "pressure": 43.599999999999994,
-  "next_scheduled": "2026-06-23T04:24:19.287632+08:00",
+  "pressure": 77.2,
+  "next_scheduled": "2026-06-23T04:56:00.202819+08:00",
   "cognitive_pressure": 43.599999999999994,
-  "last_active": "2026-06-23T04:09:19.287632+08:00"
+  "last_active": "2026-06-23T04:41:00.202819+08:00"
 }

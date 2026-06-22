@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T20:56:21.755694+08:00",
+    "next_scheduled": "2026-06-22T21:29:27.863866+08:00",
     "event_queue": [],
     "last_walk_at": "",
     "total_walks": 0,
-    "last_pulse_output": "2026-06-22T20:26:21.755694+08:00",
+    "last_pulse_output": "2026-06-22T20:59:27.863866+08:00",
     "last_walk": "",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 39.7,
+    "cognitive_pressure": 59.3,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,

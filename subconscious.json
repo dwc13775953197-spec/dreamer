@@ -1641,5 +1641,56 @@
     "source": "walk-190",
     "status": "active",
     "decayed_at": null
+  },
+  {
+    "id": "insight-191-1",
+    "type": "pattern",
+    "content": "Replay can occur without sharp wave ripples (Nature Communications 2025) -> Dreamer DORMANT reactivation and decay should be DECOUPLED: decay stays as DORMANT core, reactivation becomes a byproduct of walk citations",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T02:02:41.812228+08:00",
+    "source": "walk-191",
+    "connections": [
+      "ins-182-2",
+      "ins-186-2",
+      "ins-297"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=5.0 (quality_score=8.7>=8.0)"
+  },
+  {
+    "id": "insight-191-2",
+    "type": "pattern",
+    "content": "Ripple fields are discrete, content-dependent, and environment-remappable -> Dreamer reactivation should NOT scan all dormant entries globally; only activate when walks produce actual connections, threshold adjusts to skeleton density",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T02:02:41.812228+08:00",
+    "source": "walk-191",
+    "connections": [
+      "ins-233",
+      "ins-182-1",
+      "insight-191-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=5.0 (quality_score=8.7>=8.0)"
+  },
+  {
+    "id": "insight-191-3",
+    "type": "pattern",
+    "content": "Replay without SWR = replay without consolidation -> DORMANT reactivation restores entry status but does NOT strengthen connections; genuine consolidation only happens during walk citations",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T02:02:41.812228+08:00",
+    "source": "walk-191",
+    "connections": [
+      "insight-191-1",
+      "ins-182-2",
+      "ins-177-2"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "initial strength=5.0 (quality_score=8.7>=8.0)"
   }
 ]

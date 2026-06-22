@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T01:57:44.645022+08:00",
+    "next_scheduled": "2026-06-23T03:03:17.225893+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-23T00:54:58.208973+08:00",
-    "total_walks": 190,
-    "last_pulse_output": "2026-06-23T01:27:44.645022+08:00",
-    "last_walk": "2026-06-22T21:31:00+08:00",
+    "last_walk_at": "2026-06-23T02:03:17.225893+08:00",
+    "total_walks": 191,
+    "last_pulse_output": "2026-06-23T02:03:17.225893+08:00",
+    "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 44.965580589583325,
+    "cognitive_pressure": 17.11,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,7 +35,8 @@
     },
     "quality_history": [
       8.2,
-      8.4
+      8.4,
+      8.7
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -47,14 +48,36 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.5,
-    "pending_insights": 165,
+    "pending_insights": 168,
     "interest_queue": [
+      {
+        "id": "seed-191-1",
+        "topic": "回放-锐波解耦作为 Dreamer DORMANT 重激活范式重构的基础：reactivation 不应在 DORMANT 中发生",
+        "source": "walk-191",
+        "trigger": "replay without SWR = replay without consolidation, DORMANT reactivation is incomplete consolidation",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-23T02:03:17.225893+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-191-2",
+        "topic": "涟漪场离散性映射到 Dreamer 重激活阈值：skeleton 密度作为动态重激活门控",
+        "source": "walk-191",
+        "trigger": "ripple fields are discrete + environment-remappable = skeleton-density-gated reactivation",
+        "intensity": 0.68,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-23T02:03:17.225893+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-190-1",
         "topic": "细菌幂律记忆衰减作为 Dreamer 动态衰减率的设计参考：environmental-change-driven decay",
         "source": "walk-190",
         "trigger": "power-law memory decay as function of environmental change frequency",
-        "intensity": 0.72,
+        "intensity": 0.6699999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-23T00:54:58.208973+08:00",
@@ -65,10 +88,21 @@
         "topic": "菌丝网络的结构性遗忘作为 Dreamer 僵尸 entry 清理的设计参考",
         "source": "walk-190",
         "trigger": "structural forgetting = physical deletion vs Dreamer decay-based forgetting",
-        "intensity": 0.6839999999999999,
+        "intensity": 0.6339999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T19:20:17.433116+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-191-3",
+        "topic": "walk-190 与 walk-191 的跨散步连接：从 power-law 衰减到 replay-SWR 解耦，Dreamer DORMANT 的完整重设计路线图",
+        "source": "walk-191",
+        "trigger": "walk-190 dynamic decay + walk-191 decoupled reactivation = two-axis DORMANT redesign",
+        "intensity": 0.62,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-23T02:03:17.225893+08:00",
         "decay_rate": 0.05
       },
       {
@@ -76,7 +110,7 @@
         "topic": "调控网络重建损耗作为 Dreamer DORMANT 选择性重建的生物学模型",
         "source": "walk-190",
         "trigger": "network reconstruction loss = DORMANT selective reactivation",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-23T00:54:58.208973+08:00",
@@ -87,7 +121,7 @@
         "topic": "逻辑门密度作为 Dreamer 系统认知状态的实时指标",
         "source": "walk-190",
         "trigger": "AND/OR gate density as real-time cognitive state metric",
-        "intensity": 0.6174999999999999,
+        "intensity": 0.5674999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T19:20:17.433116+08:00",
@@ -98,7 +132,7 @@
         "topic": "适应成本延迟与 CHI 延迟悖论的跨物种收敛：DORMANT 间隔应动态响应散步主题跳跃度",
         "source": "walk-190",
         "trigger": "adaptation cost delay cross-species convergence with CHI delay paradox",
-        "intensity": 0.58,
+        "intensity": 0.5299999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-23T00:54:58.208973+08:00",
@@ -109,7 +143,7 @@
         "topic": "Kauffman 相变与 Dreamer 散步营养衰竭的映射：当相邻可能前沿耗尽时，系统需要相变而非更深入的探索",
         "source": "walk-188",
         "trigger": "adjacent possible frontier exhaustion = systemic explanation for nutritional density decline",
-        "intensity": 0.57,
+        "intensity": 0.5199999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T15:51:37+08:00",
@@ -120,7 +154,7 @@
         "topic": "真菌伤口响应与 Dreamer 冲突检测的拓扑重路由",
         "source": "walk-190",
         "trigger": "wound response as topological rerouting for conflict resolution",
-        "intensity": 0.5509999999999999,
+        "intensity": 0.5009999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-22T19:20:17.433116+08:00",
@@ -131,7 +165,7 @@
         "topic": "Dreamer 异域散步自动触发机制：interest_queue topic 相似度作为相变信号",
         "source": "walk-188",
         "trigger": "topic similarity threshold triggers cross-domain walk",
-        "intensity": 0.5225,
+        "intensity": 0.4725,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T15:51:37+08:00",
@@ -142,36 +176,25 @@
         "topic": "DORMANT 遗忘是重激活的补集而非独立操作：Albouy 选择性重激活对 Dreamer Eviction 杠杆的消解",
         "source": "walk-187",
         "trigger": "forgetting as byproduct of selective reactivation, not independent operation",
-        "intensity": 0.4939999999999999,
+        "intensity": 0.4439999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T14:08:52.839220+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-188-3",
-        "topic": "文件系统作为感知-行动接口的独特问题：Dreamer 的身体具体是什么",
-        "source": "walk-188",
-        "trigger": "filesystem as perception-action interface has unique constraints",
-        "intensity": 0.475,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-22T15:51:37+08:00",
-        "decay_rate": 0.05
       }
     ],
-    "pressure": 44.965580589583325,
+    "pressure": 17.11,
     "next_action": "walk_explore"
   },
   "affect": {
     "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.82,
+    "intensity": 0.85,
     "valence": 0.65,
     "arousal": 0.5,
     "rigor": 0.92
   },
-  "energy": 22,
+  "energy": 25,
   "mood": "wonder",
   "mood_history": [
     {
@@ -393,6 +416,10 @@
     {
       "mood": "contemplative",
       "at": "2026-06-23T00:54:58"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-23T02:03:17.225893+08:00"
     }
   ],
   "last_walk": "2026-06-23",
@@ -820,7 +847,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-23T00:54:58.208973+08:00",
+  "last_walk_at": "2026-06-23T02:03:17.225893+08:00",
   "pressure": 43.599999999999994,
   "next_scheduled": "2026-06-23T02:24:58.209036+08:00",
   "cognitive_pressure": 43.599999999999994

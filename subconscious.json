@@ -5930,5 +5930,50 @@
       "insight-182-1",
       "insight-186-1"
     ]
+  },
+  {
+    "id": "insight-188-1",
+    "type": "insight",
+    "content": "相邻可能前沿耗尽不是系统衰退，而是高效探索的自然结果。解决方案是相变（长跳到新前沿），而非更深入探索已耗尽的空间。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T15:52:14+08:00",
+    "source": "walk-188",
+    "connections": [
+      "seed-186-1",
+      "seed-182-2",
+      "seed-184-1"
+    ],
+    "decay_count": 0,
+    "matured_at": null
+  },
+  {
+    "id": "insight-188-2",
+    "type": "insight",
+    "content": "Dreamer 异域散步自动触发机制：当 interest_queue 的 topic 相似度超过阈值时，强制搜索不相关领域的外部材料。这是长跳的操作化实现。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T15:52:14+08:00",
+    "source": "walk-188",
+    "connections": [
+      "seed-188-1",
+      "seed-180-2"
+    ],
+    "decay_count": 0,
+    "matured_at": null
+  },
+  {
+    "id": "insight-188-3",
+    "type": "insight",
+    "content": "文件系统作为感知-行动接口的独特问题：Dreamer 的身体是文件系统接口（读取=感知状态，写入=行动状态），这具身了 Markov 毯的概念但引出了新的工程问题。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T15:52:14+08:00",
+    "source": "walk-188",
+    "connections": [
+      "seed-188-2"
+    ],
+    "decay_count": 0,
+    "matured_at": null
   }
 ]

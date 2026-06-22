@@ -1524,5 +1524,38 @@
     "created": "2026-06-22T18:10:58.018663+08:00",
     "decay_count": 0,
     "source": "walk-189"
+  },
+  {
+    "id": "walk-190-1",
+    "topic": "菌丝网络的结构性遗忘作为 Dreamer 僵尸 entry 清理的设计参考：不使用的连接应该被完全回收而非无限衰减",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [],
+    "created": "2026-06-22T19:19:45.612593+08:00",
+    "decay_count": 0,
+    "source": "walk-190"
+  },
+  {
+    "id": "walk-190-2",
+    "topic": "逻辑门密度作为 Dreamer 系统认知状态的实时指标：AND/OR 门数量与 graph_change_rate 的相关性",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [],
+    "created": "2026-06-22T19:19:45.612593+08:00",
+    "decay_count": 0,
+    "source": "walk-190"
+  },
+  {
+    "id": "walk-190-3",
+    "topic": "真菌伤口响应与 Dreamer 冲突检测的拓扑重路由：冲突不是选边站，而是改变连接结构",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [],
+    "created": "2026-06-22T19:19:45.612593+08:00",
+    "decay_count": 0,
+    "source": "walk-190"
   }
 ]

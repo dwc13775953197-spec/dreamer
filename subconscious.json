@@ -5773,5 +5773,59 @@
       "DORMANT-design",
       "memory-editing"
     ]
+  },
+  {
+    "id": "ins-185-1",
+    "type": "insight",
+    "content": "错误检测与错误修正是两个独立的认知操作——Dreamer 当前只有修正（散步后更新）没有检测（实时矛盾预测 error 触发）",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T09:39:43.638288+08:00",
+    "source": "walk-185",
+    "connections": [
+      "walk-184",
+      "walk-183",
+      "evolved_rule-2026-06-15"
+    ],
+    "metadata": {
+      "walk_number": 185,
+      "quality_score": 8.3
+    }
+  },
+  {
+    "id": "ins-185-2",
+    "type": "insight",
+    "content": "在线元认知（Georgia Tech TMK）和离线元认知（Dreamer 散步）的时间尺度差异不是 4 个数量级而是设计约束——单线程系统只能用慢修正处理认知结构级错误",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T09:39:43.638288+08:00",
+    "source": "walk-185",
+    "connections": [
+      "walk-184",
+      "evolved_rule-2026-06-15",
+      "evolved_rule-2026-06-18"
+    ],
+    "metadata": {
+      "walk_number": 185,
+      "quality_score": 8.3
+    }
+  },
+  {
+    "id": "ins-185-3",
+    "type": "insight",
+    "content": "修正触发器是 DORMANT 失稳信号的等价物——当新散步与旧 insight 产生矛盾时（prediction error > 阈值），应标记 entry 为需要再巩固",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T09:39:43.638288+08:00",
+    "source": "walk-185",
+    "connections": [
+      "walk-184",
+      "walk-182",
+      "walk-179"
+    ],
+    "metadata": {
+      "walk_number": 185,
+      "quality_score": 8.3
+    }
   }
 ]

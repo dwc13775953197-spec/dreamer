@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T19:50:17.433876+08:00",
+    "next_scheduled": "2026-06-22T20:23:28.559158+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-22T19:20:17.433116+08:00",
-    "total_walks": 188,
-    "last_pulse_output": "2026-06-22T17:29:22.316193+08:00",
+    "last_walk_at": "",
+    "total_walks": 0,
+    "last_pulse_output": "2026-06-22T19:53:28.559158+08:00",
     "last_walk": "",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 21.290000000000006,
+    "cognitive_pressure": 30.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -33,9 +33,7 @@
       "dormant_release": 0.5,
       "conversation_release": 0.7
     },
-    "quality_history": [
-      8.2
-    ],
+    "quality_history": [],
     "last_walk_insights": 0,
     "decay_adjustment": 1.0,
     "gini_history": [],
@@ -48,7 +46,7 @@
     "walk_quality_avg": 8.5,
     "pending_insights": 161,
     "interest_queue": [],
-    "pressure": 21.290000000000006,
+    "pressure": 22.9,
     "next_action": "walk_explore"
   },
   "affect": {

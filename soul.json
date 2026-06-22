@@ -7,21 +7,21 @@
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 90,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T16:54:21.872936+08:00",
+    "next_scheduled": "2026-06-22T17:44:22.316193+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-22T15:51:37+08:00",
     "total_walks": 188,
-    "last_pulse_output": "2026-06-22T14:42:38.403807+08:00",
+    "last_pulse_output": "2026-06-22T17:29:22.316193+08:00",
     "last_walk": "2026-06-22T12:27:15.520873+08:00",
     "last_push_at": "2026-06-21T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 30.38,
+    "cognitive_pressure": 81.29,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -55,8 +55,6 @@
       0.481
     ],
     "pressure_history": [
-      100.0,
-      74.0,
       66.51,
       79.34,
       86.84,
@@ -74,7 +72,9 @@
       57.1,
       66.79,
       21.790000000000006,
-      30.38
+      30.38,
+      33.05,
+      81.29
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",

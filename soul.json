@@ -3,17 +3,17 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-22T21:31:00+08:00",
-    "last_active": "2026-06-22T21:31:00+08:00",
+    "last_active": "2026-06-22T22:11:18.820159+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T23:01:00+08:00",
+    "next_scheduled": "2026-06-22T22:41:18.820159+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-22T21:31:00+08:00",
     "total_walks": 189,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-22T21:31:00+08:00",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 14.3,
+    "cognitive_pressure": 23.1,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -33,7 +33,9 @@
       "dormant_release": 0.5,
       "conversation_release": 0.7
     },
-    "quality_history": [8.2],
+    "quality_history": [
+      8.2
+    ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
     "gini_history": [],
@@ -80,7 +82,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 22.9,
+    "pressure": 23.1,
     "next_action": "walk_explore"
   },
   "affect": {

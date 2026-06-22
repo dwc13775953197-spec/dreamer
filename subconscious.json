@@ -1822,5 +1822,58 @@
     "status": "active",
     "source": "walk-192",
     "decay_rate": 0.05
+  },
+  {
+    "id": "insight-193-1",
+    "type": "insight",
+    "content": "DORMANT 2.0 代谢预算：重激活是稀缺资源，max_reactivations_per_cycle 应由 energy + active_ratio + 散步产出 + 压力的函数决定（1-10 条动态调节）",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-23T06:56:29.204364+08:00",
+    "source": "walk-193",
+    "decay_rate": 0.0,
+    "decayed_at": null,
+    "connections": [
+      "ins-walk175-2",
+      "ins-297",
+      "ins-192-3"
+    ]
+  },
+  {
+    "id": "insight-193-2",
+    "type": "insight",
+    "content": "Bollmann 漂移映射到 Dreamer：每次重激活不是精确回放，应执行条目微调（修剪 dangling connections + 更新 recency + 尝试 merge）",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-23T06:56:29.204364+08:00",
+    "source": "walk-193",
+    "decay_rate": 0.0,
+    "decayed_at": null,
+    "connections": [
+      "ins-191-3",
+      "ins-192-2",
+      "ins-117"
+    ]
+  },
+  {
+    "id": "insight-193-3",
+    "type": "insight",
+    "content": "DORMANT 2.0 v2 完整框架四轴：衰减轴(幂律) × 重激活轴(TMR线索+代谢约束) × 漂移更新轴(条目微调) × 代谢预算轴(系统资源)",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-23T06:56:29.204364+08:00",
+    "source": "walk-193",
+    "decay_rate": 0.0,
+    "decayed_at": null,
+    "connections": [
+      "insight-190-1",
+      "insight-191-1",
+      "insight-192-1",
+      "insight-193-1",
+      "insight-193-2"
+    ]
   }
 ]

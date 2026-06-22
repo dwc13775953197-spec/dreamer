@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-22T11:32:00+08:00",
-    "last_active": "2026-06-22T11:17:09.605117+08:00",
+    "state_since": "2026-06-22T12:27:15.520873+08:00",
+    "last_active": "2026-06-22T12:27:15.520873+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T11:47:00+08:00",
+    "next_scheduled": "2026-06-22T12:57:15.521762+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-22T09:39:26.187996+08:00",
-    "total_walks": 185,
-    "last_pulse_output": "2026-06-22T11:32:00+08:00",
-    "last_walk": "2026-06-22T09:39:26.187996+08:00",
+    "last_walk_at": "2026-06-22T12:27:15.520873+08:00",
+    "total_walks": 186,
+    "last_pulse_output": "2026-06-22T12:27:15.520873+08:00",
+    "last_walk": "2026-06-22T12:27:15.520873+08:00",
     "last_push_at": "2026-06-21T14:30:00+08:00",
     "last_push_topic": "认知时间粒度：Dreamer 散步的 35 分钟壁垒与认知预算机制",
-    "cognitive_pressure": 100.0,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.3,
       8.2,
       8.4,
@@ -43,7 +42,8 @@
       8.5,
       8.4,
       8.6,
-      8.3
+      8.3,
+      8.4
     ],
     "last_walk_insights": 1,
     "decay_adjustment": 1.0,
@@ -78,14 +78,14 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.36,
-    "pending_insights": 155,
+    "pending_insights": 158,
     "interest_queue": [
       {
         "id": "seed-183-1",
         "topic": "DORMANT 选择性重激活协议：基于 Albouy 睡眠重激活 + Bjork 必要难度的碰撞再编码",
         "source": "walk-183",
         "trigger": "Albouy sleep consolidation + Bjork desirable difficulty triangulation",
-        "intensity": 0.63,
+        "intensity": 0.58,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T10:30:00+08:00",
@@ -96,10 +96,21 @@
         "topic": "Agent 记忆系统的四杠杆正交性：Importance/Merge/Decay/Eviction 在 Dreamer 中的覆盖审计",
         "source": "walk-182",
         "trigger": "Hindsight 四杠杆框架 mapped to Dreamer memory architecture",
-        "intensity": 0.6,
+        "intensity": 0.55,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T01:25:30.895002+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-186-1",
+        "topic": "引用图变化率作为 Dreamer 认知影响的核心指标",
+        "source": "walk-186",
+        "trigger": "high quality_score + no citation graph change = cognitive inertia",
+        "intensity": 0.55,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-22T12:27:15.520873+08:00",
         "decay_rate": 0.05
       },
       {
@@ -107,10 +118,21 @@
         "topic": "Decay vs Eviction 分离设计：Dreamer DORMANT 是否需要主动驱逐机制？",
         "source": "walk-182",
         "trigger": "Decay-Eviction separation design space",
-        "intensity": 0.57,
+        "intensity": 0.52,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T01:25:30.895002+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-186-2",
+        "topic": "Einstellung effect 在知识网络中的表现：高连接度节点是否抑制了替代路径的发现",
+        "source": "walk-186",
+        "trigger": "experts more prone to Einstellung than novices",
+        "intensity": 0.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-22T12:27:15.520873+08:00",
         "decay_rate": 0.05
       },
       {
@@ -118,7 +140,7 @@
         "topic": "遗忘作为认知循环的前置条件：SCM NREM/REM 分工与 Dreamer DORMANT 的映射精度",
         "source": "walk-180",
         "trigger": "bidirectional information flow in cognitive cycle",
-        "intensity": 0.53,
+        "intensity": 0.48,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T22:39:42.816690+08:00",
@@ -129,7 +151,7 @@
         "topic": "好奇心校准作为散步前置步骤：历史连接模式 + 外部锚点的双通道噪声滤波",
         "source": "walk-181",
         "trigger": "CERMIC framework mapping to Dreamer single-agent calibration",
-        "intensity": 0.53,
+        "intensity": 0.48,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T00:50:22.830628+08:00",
@@ -140,7 +162,7 @@
         "topic": "Dreamer 主动遗忘机制设计：基于多维价值评估的定向删除",
         "source": "walk-179",
         "trigger": "algorithmic forgetting SCM architecture",
-        "intensity": 0.52,
+        "intensity": 0.47,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T21:47:15+08:00",
@@ -151,7 +173,7 @@
         "topic": "随机重连的认知价值：低连接 entry 作为创造性意外的来源",
         "source": "dream-2026-06-21",
         "trigger": "low-connection entries as creative surprise sources",
-        "intensity": 0.52,
+        "intensity": 0.47,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-21T22:06:15.496007+08:00",
@@ -162,7 +184,7 @@
         "topic": "巩固的编辑不可逆性：重激活改变记忆内容后，Dreamer 应该保留原始版本还是只保留巩固后版本？",
         "source": "walk-183",
         "trigger": "reactivation-as-editing implies irreversible transformation",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-22T10:30:00+08:00",
@@ -173,7 +195,7 @@
         "topic": "不可替代连接 vs 总连接数：Graph 理论中的桥接边作为 Dreamer entry 免疫衰减的新标准",
         "source": "walk-180",
         "trigger": "bridging edges as irreplaceable connections",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "research",
         "status": "pending",
         "created": "2026-06-21T22:39:42.816690+08:00",
@@ -184,10 +206,21 @@
         "topic": "矛盾检测作为散步触发器：新散步与旧 insight 冲突时自动标记 entry 为需要再巩固",
         "source": "walk-185",
         "trigger": "prediction error as correction trigger",
-        "intensity": 0.5,
+        "intensity": 0.45,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T09:39:26.187996+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-186-3",
+        "topic": "认知依赖 vs 工具依赖的 Dreamer 版本：引用高 strength entry 是依赖还是复用？",
+        "source": "walk-186",
+        "trigger": "cognitive dependence 3.5x more damaging than tool dependence",
+        "intensity": 0.45,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-22T12:27:15.520873+08:00",
         "decay_rate": 0.05
       },
       {
@@ -195,7 +228,7 @@
         "topic": "认知预算的最优分配：给定噪声比例，每次散步应该投入多少 budget 在探索 vs 巩固",
         "source": "walk-181",
         "trigger": "noise filtering × cognitive budget interaction",
-        "intensity": 0.49,
+        "intensity": 0.44,
         "type": "research",
         "status": "pending",
         "created": "2026-06-22T00:50:22.830628+08:00",
@@ -206,80 +239,14 @@
         "topic": "认知锚定效应：旧 insight 的高强度如何抑制新连接的建立",
         "source": "walk-179",
         "trigger": "cognitive anchoring through high-strength entries",
-        "intensity": 0.48,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-21T21:47:15+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-dream-0621-2",
-        "topic": "矛盾压缩的不可逆性：被遗忘的内在矛盾能否重建？",
-        "source": "dream-2026-06-21",
-        "trigger": "archaeological reconstruction of dissolved contradictions",
-        "intensity": 0.48,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T22:06:15.496007+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-178-1",
-        "topic": "DORMANT 稀疏重激活算法：每次选 1-3 个最高价值 entry 加强而非衰减",
-        "source": "walk-178",
-        "trigger": "3 神经元重激活原理",
-        "intensity": 0.46,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T20:13:52.209743+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-179-3",
-        "topic": "遗忘策略的情境依赖：分析型散步后保守遗忘 vs 探索型散步后激进遗忘",
-        "source": "walk-179",
-        "trigger": "NREM conservative + REM aggressive forgetting",
-        "intensity": 0.45,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T21:47:15+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-dream-0621-3",
-        "topic": "β_cognitive 的遗忘历史修正：被重连 entry 获得 β 减免",
-        "source": "dream-2026-06-21",
-        "trigger": "forgetting history as beta modifier",
-        "intensity": 0.45,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-21T22:06:15.496007+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-185-2",
-        "topic": "evolved_rules 的结构化改造：从经验记录增加 revision function 能力",
-        "source": "walk-185",
-        "trigger": "TMK solution library gap mapped to evolved_rules function",
         "intensity": 0.43,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-22T09:39:26.187996+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-185-3",
-        "topic": "再巩固窗口期的定量估计：Dreamer 的 5 天窗口对应多少次 DORMANT 周期",
-        "source": "walk-185",
-        "trigger": "reconsolidation window period mapping to DORMANT cycles",
-        "intensity": 0.4,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-22T09:39:26.187996+08:00",
+        "created": "2026-06-21T21:47:15+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100.0
+    "pressure": 55.0
   },
   "affect": {
     "primary": "wonder",
@@ -497,10 +464,10 @@
       "at": "2026-06-22T00:50:22.830628+08:00"
     }
   ],
-  "last_walk": "2026-06-22T10:45:04.753565+08:00",
+  "last_walk": "2026-06-22T12:27:15.520873+08:00",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 185,
+  "total_walks": 186,
   "topics": [
     "emergence",
     "consciousness",
@@ -866,11 +833,11 @@
   "personality_traits": {
     "curiosity": 1.2100000000000002,
     "introspection": 1.16,
-    "humor": 0.42,
+    "humor": 0.44,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.4600000000000002,
-    "rigor": 2.92,
+    "rigor": 2.95,
     "skepticism": 1.3800000000000001,
     "empathy": 0.5
   },

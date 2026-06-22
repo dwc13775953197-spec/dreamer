@@ -5827,5 +5827,59 @@
       "walk_number": 185,
       "quality_score": 8.3
     }
+  },
+  {
+    "id": "ins-186-1",
+    "type": "insight",
+    "content": "Cognitive inertia in Dreamer: citation system may create confirmation dependency on high-strength entries. Frontiers 2025 empirical evidence shows cognitive dependence (beta=0.570) is 3.5x more damaging to innovation than tool dependence. Dreamer equivalent: citing high-strength entries = cognitive dependence; finding new connections = tool use.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T12:26:43.738849+08:00",
+    "source": "walk-186",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-179-2",
+      "ins-175-1",
+      "ins-167-2"
+    ],
+    "refs": [
+      "Frontiers in Psychology 2025 AI dependence cognitive inertia"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, strength=5.0"
+  },
+  {
+    "id": "ins-186-2",
+    "type": "pattern",
+    "content": "Diagnostic criteria for cognitive inertia in knowledge networks: high quality_score + no citation graph change = Einstellung effect; high quality_score + graph change = genuine consolidation. Four-quadrant diagnostic: (high_q, change)=consolidate, (high_q, no_change)=inertia, (low_q, change)=explore, (low_q, no_change)=waste.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-22T12:26:43.738849+08:00",
+    "source": "walk-186",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-186-1",
+      "ins-182-1",
+      "ins-185-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, four-quadrant diagnostic"
+  },
+  {
+    "id": "ins-186-3",
+    "type": "insight",
+    "content": "Interest queue intensity decline as cognitive inertia signal: 6 consecutive walks produced no seed above 0.7 threshold. While quality scores rise (8.3-8.6), seed impact decreases. Pattern: high quality + low directional change = refinement in place. Alternative explanation: 15 seeds in queue dilutes attention (dilution effect).",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-22T12:26:43.738849+08:00",
+    "source": "walk-186",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-186-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, diagnostic ambiguity"
   }
 ]

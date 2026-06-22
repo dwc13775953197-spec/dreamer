@@ -5751,5 +5751,27 @@
     ],
     "decay_speed": 1.0,
     "note": "quality_score 8.4, strength 3.0"
+  },
+  {
+    "id": "ins-184-1",
+    "type": "insight",
+    "content": "Nader 的再巩固理论揭示了记忆编辑的结构性前提：只有在失稳（lability）状态中，记忆才能被修改。Dreamer DORMANT 当前跳过了失稳步骤，直接做衰减——这就像试图在程序运行时修改代码。修正方案：DORMANT 应增加 lability 状态（失稳→再巩固窗口→重建/淘汰），entry 的 edit_log 记录每次再巩固的修改历程。\"原始版本\"是幻觉——entry 从存在起就处于持续的再巩固循环中。",
+    "strength": 5.0,
+    "connections": [
+      "ins-183-1",
+      "ins-228",
+      "ins-133-1"
+    ],
+    "status": "active",
+    "created": "2026-06-22T11:00:00+08:00",
+    "decay_count": 0,
+    "matured_at": null,
+    "source": "walk-184",
+    "tags": [
+      "reconsolidation",
+      "lability",
+      "DORMANT-design",
+      "memory-editing"
+    ]
   }
 ]

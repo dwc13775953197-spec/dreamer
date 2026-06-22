@@ -1564,7 +1564,10 @@
     "content": "Summary creates zombie knowledge: summarized info cannot be cited, connected, or falsified. Looks like preservation but actually kills knowledge activity. Eviction beats summarization.",
     "source": "walk-189",
     "strength": 5.0,
-    "connections": ["ins-061", "pat-001"],
+    "connections": [
+      "ins-061",
+      "pat-001"
+    ],
     "created": "2026-06-22T21:31:00+08:00",
     "decay_count": 0,
     "status": "active"
@@ -1575,7 +1578,10 @@
     "content": "Stronger eviction = weaker unlearning need. Industry investment in machine unlearning is structural evidence of weak eviction mechanisms. Dreamer's natural decay should minimize explicit deletion demand.",
     "source": "walk-189",
     "strength": 5.0,
-    "connections": ["ins-058", "pat-001"],
+    "connections": [
+      "ins-058",
+      "pat-001"
+    ],
     "created": "2026-06-22T21:31:00+08:00",
     "decay_count": 0,
     "status": "active"
@@ -1586,9 +1592,54 @@
     "content": "Preservation vs Growth paradigm is the fundamental fork in agent memory design. Industry chooses preservation (parameter protection + adapter stacking), Dreamer chooses growth (natural decay + selective reactivation). Multi-user scenarios need both mixed.",
     "source": "walk-189",
     "strength": 5.0,
-    "connections": ["ins-058", "ins-061"],
+    "connections": [
+      "ins-058",
+      "ins-061"
+    ],
     "created": "2026-06-22T21:31:00+08:00",
     "decay_count": 0,
     "status": "active"
+  },
+  {
+    "id": "insight-190-1",
+    "type": "insight",
+    "content": "细菌记忆衰减遵循幂律（power-law）且衰减指数是环境变化频率的函数 → Dreamer DORMANT 应实现动态衰减率（环境稳定时慢、环境变化时快），替代固定 0.95 系数",
+    "strength": 5.0,
+    "connections": [
+      "evolved-rule-2026-06-13-memory",
+      "evolved-rule-2026-06-16-hindsight"
+    ],
+    "created": "2026-06-23T00:54:22.352512+08:00",
+    "source": "walk-190",
+    "status": "active",
+    "decayed_at": null
+  },
+  {
+    "id": "insight-190-2",
+    "type": "insight",
+    "content": "调控网络记忆的\"重建≠复制\"揭示 DORMANT 衰减的本质是重建损耗而非简单遗忘 → 选择性重建标准应成为下一个 DORMANT 协议的核心设计",
+    "strength": 5.0,
+    "connections": [
+      "evolved-rule-2026-06-14-dormant",
+      "evolved-rule-2026-06-16-four-levers"
+    ],
+    "created": "2026-06-23T00:54:22.352512+08:00",
+    "source": "walk-190",
+    "status": "active",
+    "decayed_at": null
+  },
+  {
+    "id": "insight-190-3",
+    "type": "insight",
+    "content": "适应成本延迟（细菌蛋白质合成延迟表型响应）与 CHI 延迟悖论跨物种收敛 → 最优延迟窗口 = f(环境变化率, 适应成本)，DORMANT 间隔应动态响应散步主题跳跃度",
+    "strength": 5.0,
+    "connections": [
+      "evolved-rule-2026-06-17-delay-signal",
+      "evolved-rule-2026-06-18-delay-paradox"
+    ],
+    "created": "2026-06-23T00:54:22.352512+08:00",
+    "source": "walk-190",
+    "status": "active",
+    "decayed_at": null
   }
 ]

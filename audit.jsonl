@@ -90,3 +90,4 @@
     "postmortem_file": "walks/2026-06-22-walk-189-postmortem.md"
   }
 }
+{"timestamp": "2026-06-23T00:55:20.703303+08:00", "event": "walk", "walk_number": 190, "walk_type": "explore", "trigger": "walk_explore | pressure 88.6 >= threshold 60.0", "quality_score": 8.4, "insights_produced": 3, "interest_seeds_added": 3, "pressure_before": 88.6, "pressure_after": 43.6, "topics": ["bacterial memory", "power-law decay", "dynamic decay rate", "adaptation cost delay"], "source": "CMU 2026 + Northwestern 2024 + bioRxiv 2025 + PMC 2025"}

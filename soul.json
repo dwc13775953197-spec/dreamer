@@ -184,7 +184,7 @@
       }
     ],
     "pressure": 63.22,
-    "next_action": "walk_explore"
+    "next_action": "walk_analyze"
   },
   "affect": {
     "primary": "wonder",

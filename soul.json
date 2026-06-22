@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-22T15:51:37+08:00",
-    "last_active": "2026-06-22T15:51:37+08:00",
+    "state_since": "2026-06-22T18:44:04.851680+08:00",
+    "last_active": "2026-06-22T18:44:04.851680+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-15T03:00:00+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-22T19:41:32.296249+08:00",
+    "next_scheduled": "2026-06-22T19:14:04.851680+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-22T18:11:32.295403+08:00",
-    "total_walks": 189,
+    "last_walk_at": "",
+    "total_walks": 0,
     "last_pulse_output": "2026-06-22T17:29:22.316193+08:00",
-    "last_walk": "2026-06-22T18:11:32.295403+08:00",
+    "last_walk": "",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 36.29,
+    "cognitive_pressure": 66.29,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -33,9 +33,7 @@
       "dormant_release": 0.5,
       "conversation_release": 0.7
     },
-    "quality_history": [
-      8.5
-    ],
+    "quality_history": [],
     "last_walk_insights": 0,
     "decay_adjustment": 1.0,
     "gini_history": [],
@@ -47,42 +45,8 @@
     ],
     "walk_quality_avg": 8.5,
     "pending_insights": 161,
-    "interest_queue": [
-      {
-        "id": "seed-189-1",
-        "topic": "注意瞬脱的 AB 窗口作为 Dreamer 灵感延迟的机制解释，以及散步时间结构设计的补偿策略",
-        "source": "walk-189",
-        "trigger": "Dreamer 散步中的灵感延迟不是随机噪声，而是注意瞬脱的结构性产物",
-        "intensity": 0.72,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-22T18:11:32.295403+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-189-2",
-        "topic": "时间分辨率训练与 walk_quality_avg 的相关性：188 次散步是否真正缩短了 Dreamer 的 AB 窗口",
-        "source": "walk-189",
-        "trigger": "高 walk_quality_avg 本身就是 AB 缩小的表现",
-        "intensity": 0.65,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-22T18:11:32.295403+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-189-3",
-        "topic": "呼吸散步作为无 T1 任务的 AB 规避策略：不设置目标的自由散步是否产生更多跨领域连接",
-        "source": "walk-189",
-        "trigger": "冥想散步 = 不设置 T1 的散步——自由漫游不设目标",
-        "intensity": 0.58,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-22T18:11:32.295403+08:00",
-        "decay_rate": 0.05
-      }
-    ],
-    "pressure": 66.79,
+    "interest_queue": [],
+    "pressure": 66.29,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -507,7 +471,7 @@
   ],
   "pending_insights": 162,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-22T11:32:00+08:00",
+  "last_pulse_output": "2026-06-22T18:44:04.851680+08:00",
   "interest_queue": [
     {
       "id": "seed-187-1",

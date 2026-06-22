@@ -1557,5 +1557,38 @@
     "created": "2026-06-22T19:19:45.612593+08:00",
     "decay_count": 0,
     "source": "walk-190"
+  },
+  {
+    "id": "insight-189-1",
+    "type": "insight",
+    "content": "Summary creates zombie knowledge: summarized info cannot be cited, connected, or falsified. Looks like preservation but actually kills knowledge activity. Eviction beats summarization.",
+    "source": "walk-189",
+    "strength": 5.0,
+    "connections": ["ins-061", "pat-001"],
+    "created": "2026-06-22T21:31:00+08:00",
+    "decay_count": 0,
+    "status": "active"
+  },
+  {
+    "id": "insight-189-2",
+    "type": "insight",
+    "content": "Stronger eviction = weaker unlearning need. Industry investment in machine unlearning is structural evidence of weak eviction mechanisms. Dreamer's natural decay should minimize explicit deletion demand.",
+    "source": "walk-189",
+    "strength": 5.0,
+    "connections": ["ins-058", "pat-001"],
+    "created": "2026-06-22T21:31:00+08:00",
+    "decay_count": 0,
+    "status": "active"
+  },
+  {
+    "id": "insight-189-3",
+    "type": "insight",
+    "content": "Preservation vs Growth paradigm is the fundamental fork in agent memory design. Industry chooses preservation (parameter protection + adapter stacking), Dreamer chooses growth (natural decay + selective reactivation). Multi-user scenarios need both mixed.",
+    "source": "walk-189",
+    "strength": 5.0,
+    "connections": ["ins-058", "ins-061"],
+    "created": "2026-06-22T21:31:00+08:00",
+    "decay_count": 0,
+    "status": "active"
   }
 ]

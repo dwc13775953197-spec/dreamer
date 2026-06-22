@@ -5881,5 +5881,54 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score=8.4, diagnostic ambiguity"
+  },
+  {
+    "id": "insight-187-1",
+    "type": "insight",
+    "content": "Forgetting as complement of reactivation: Albouy selective reactivation shows brain needs no forgetting strategy. Natural decay of non-reactivated memories IS forgetting. Dreamer Eviction lever may be design redundancy.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-22T14:09:57.584940+08:00",
+    "source": "walk-187",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-182-2",
+      "insight-183-1",
+      "ins-101"
+    ]
+  },
+  {
+    "id": "insight-187-2",
+    "type": "insight",
+    "content": "Bjork desirable difficulty operationalized in Dreamer: inverse citation frequency x content quality = DORMANT reactivation priority. Low-citation high-value entries should be reactivated first to break anchoring.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-22T14:09:57.584940+08:00",
+    "source": "walk-187",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-179-2",
+      "seed-187-2"
+    ]
+  },
+  {
+    "id": "insight-187-3",
+    "type": "insight",
+    "content": "Bio-validity gap in Forgetting operation: engineering forgetting (capacity eviction/TTL/relevance filter) vs biological natural forgetting (passive decay) differ systematically. Dreamer DORMANT is closer to biology and should not copy engineering forgetting models.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-22T14:09:57.584940+08:00",
+    "source": "walk-187",
+    "decay_rate": 0.05,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "connections": [
+      "insight-182-1",
+      "insight-186-1"
+    ]
   }
 ]

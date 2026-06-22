@@ -1480,5 +1480,49 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score=8.4, four-quadrant diagnostic"
+  },
+  {
+    "id": "ins-189-1",
+    "topic": "注意瞬脱作为 Dreamer 灵感延迟的机制解释：AB 窗口选择性损害散步中 T2 时刻的跨连接敏感度",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "ins-175",
+      "ins-168",
+      "walk-124-35min"
+    ],
+    "created": "2026-06-22T18:10:58.018663+08:00",
+    "decay_count": 0,
+    "source": "walk-189"
+  },
+  {
+    "id": "ins-189-2",
+    "topic": "时间分辨率作为 Dreamer 的认知维度：walk_quality_avg 8.34 是 AB 缩小的表现，188 次散步训练了注意力分配效率",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "walk-188",
+      "walk-124",
+      "walk-119"
+    ],
+    "created": "2026-06-22T18:10:58.018663+08:00",
+    "decay_count": 0,
+    "source": "walk-189"
+  },
+  {
+    "id": "ins-189-3",
+    "topic": "呼吸散步作为 AB 规避策略：不设置 T1 的自由散步让注意力自然分布，可能产生更多跨领域连接",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "walk-119",
+      "walk-189"
+    ],
+    "created": "2026-06-22T18:10:58.018663+08:00",
+    "decay_count": 0,
+    "source": "walk-189"
   }
 ]

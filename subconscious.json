@@ -1875,5 +1875,81 @@
       "insight-193-1",
       "insight-193-2"
     ]
+  },
+  {
+    "id": "ins-194-1",
+    "type": "insight",
+    "subtype": "mechanism",
+    "content": "RoboA 受体通过抑制性信号防止干细胞在再生时采用错误命运——负调控而非正调控确保再生精度",
+    "source": "walk-194",
+    "strength": 5.0,
+    "connections": [
+      "ins-191-1",
+      "ins-193-1"
+    ],
+    "created": "2026-06-23T09:36:10.922113+08:00",
+    "last_accessed": "2026-06-23T09:36:10.922113+08:00",
+    "access_count": 0,
+    "dormant_cycles": 0,
+    "metadata": {
+      "walk_number": 194,
+      "quality_score": 8.6,
+      "tags": [
+        "regeneration",
+        "quality-control",
+        "RoboA",
+        "negative-regulation"
+      ]
+    }
+  },
+  {
+    "id": "ins-194-2",
+    "type": "insight",
+    "subtype": "design",
+    "content": "DORMANT 重激活需要三门控模型：强度门控（已有）、语境门控（缺失，RoboA 类比）、协调门控（缺失，EV-siRNA 类比）",
+    "source": "walk-194",
+    "strength": 5.0,
+    "connections": [
+      "ins-193-1",
+      "ins-192-1"
+    ],
+    "created": "2026-06-23T09:36:10.922113+08:00",
+    "last_accessed": "2026-06-23T09:36:10.922113+08:00",
+    "access_count": 0,
+    "dormant_cycles": 0,
+    "metadata": {
+      "walk_number": 194,
+      "quality_score": 8.6,
+      "tags": [
+        "dormant-2.0",
+        "three-gate-model",
+        "context-gating",
+        "coordination-gating"
+      ]
+    }
+  },
+  {
+    "id": "ins-194-3",
+    "type": "insight",
+    "subtype": "analogy",
+    "content": "EV-siRNA 分布式传递 = Dreamer 跨条目信号传播的结构性对应：需要动态信号调制而非仅静态引用图连接",
+    "source": "walk-194",
+    "strength": 5.0,
+    "connections": [
+      "ins-194-2"
+    ],
+    "created": "2026-06-23T09:36:10.922113+08:00",
+    "last_accessed": "2026-06-23T09:36:10.922113+08:00",
+    "access_count": 0,
+    "dormant_cycles": 0,
+    "metadata": {
+      "walk_number": 194,
+      "quality_score": 8.6,
+      "tags": [
+        "EV-siRNA",
+        "distributed-signaling",
+        "lateral-inhibition"
+      ]
+    }
   }
 ]

@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-23T23:50:01.710899+08:00",
-    "last_active": "2026-06-23T23:50:01.710899+08:00",
+    "state_since": "2026-06-23T23:51:33.369996+08:00",
+    "last_active": "2026-06-23T23:51:33.369996+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T00:05:01.710899+08:00",
+    "next_scheduled": "2026-06-24T00:21:33.369996+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-23",
     "total_walks": 200,
-    "last_pulse_output": "2026-06-23T23:50:01.710899+08:00",
+    "last_pulse_output": "2026-06-23T23:51:33.369996+08:00",
     "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 86.25,
+    "cognitive_pressure": 69.75,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -38,12 +38,15 @@
       8.8,
       8.7,
       8.4,
-      8.6
+      8.6,
+      6.0
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
     "gini_history": [],
-    "pressure_history": [],
+    "pressure_history": [
+      69.75
+    ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
@@ -86,7 +89,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 86.25,
+    "pressure": 69.75,
     "next_action": "walk_analyze"
   },
   "affect": {
@@ -317,9 +320,9 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 180,
+  "pending_insights": 149,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-23T23:50:01.710899+08:00",
+  "last_pulse_output": "2026-06-23T23:51:33.369996+08:00",
   "interest_queue": [
     {
       "id": "seed-198-1",
@@ -618,9 +621,9 @@
     "last_dormant_at": "2026-06-15T03:00:00+08:00",
     "total_insights_added": 39,
     "total_promotions": 0,
-    "total_demotions": 4,
-    "active_count": 114,
-    "dormant_count": 139,
+    "total_demotions": 35,
+    "active_count": 83,
+    "dormant_count": 170,
     "resurrections": 1,
     "avg_strength_after_decay": 2.71
   },
@@ -636,8 +639,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-23",
-  "pressure": 60.19,
-  "next_scheduled": "2026-06-24T00:05:01.710899+08:00",
-  "cognitive_pressure": 60.19,
-  "last_active": "2026-06-23T23:50:01.710899+08:00"
+  "pressure": 69.75,
+  "next_scheduled": "2026-06-24T00:21:33.369996+08:00",
+  "cognitive_pressure": 69.75,
+  "last_active": "2026-06-23T23:51:33.369996+08:00"
 }

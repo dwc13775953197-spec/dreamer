@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-24T04:16:10.941034+08:00",
-    "last_active": "2026-06-24T04:49:13.176575+08:00",
+    "last_active": "2026-06-24T05:21:14.915914+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T05:48:57.968205+08:00",
+    "next_scheduled": "2026-06-24T06:21:14.915914+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-24",
     "total_walks": 203,
-    "last_pulse_output": "2026-06-24T04:49:13.176575+08:00",
+    "last_pulse_output": "2026-06-24T05:21:14.915914+08:00",
     "last_walk": "2026-06-24",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 16.55,
+    "cognitive_pressure": 17.87,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -55,7 +55,8 @@
       60.21,
       15.21,
       15.21,
-      16.55
+      16.55,
+      17.87
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -176,7 +177,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 16.55,
+    "pressure": 17.87,
     "next_action": null
   },
   "affect": {

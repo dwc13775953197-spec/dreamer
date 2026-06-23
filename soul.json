@@ -127,7 +127,8 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 30.299999999999997
+    "pressure": 30.299999999999997,
+    "next_action": "walk_analyze"
   },
   "affect": {
     "primary": "contemplative",

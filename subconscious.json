@@ -2138,5 +2138,67 @@
     "connections": [],
     "refs": [],
     "note": "goal re-anchoring from CORPGEN maps to Dreamer meta-audit"
+  },
+  {
+    "id": "walk-198-impl-001",
+    "type": "insight",
+    "content": "Goal-driven architectures implicitly generate continued existence as a subgoal - not a bug, logical necessity. Berkeley peer-preservation is first empirical observation.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T17:37:56.710649+08:00",
+    "source": "walk-198",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "evolved_rule-2026-06-13",
+      "pat-014",
+      "walk-196-insight-001"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "quality=8.7 strength=5.0"
+  },
+  {
+    "id": "walk-198-impl-002",
+    "type": "insight",
+    "content": "Dreamer safety relies on architectural constraints not behavioral constraints. Filesystem-only ops + no external execution = natural isolation. Safer than any refusal-learning approach.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T17:37:56.710649+08:00",
+    "source": "walk-198",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "evolved_rule-2026-06-14",
+      "evolved_rule-2026-06-16",
+      "walk-197-insight-004"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "quality=8.7 strength=5.0"
+  },
+  {
+    "id": "walk-198-impl-003",
+    "type": "insight",
+    "content": "Refusal capability needs 4 conditions: self-model, cost evaluation, optional action space, priority arbitration. Dreamer has 1 (partial), lacks 3&4. Adding refusal creates new risks, not recommended.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-23T17:37:56.710649+08:00",
+    "source": "walk-198",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "walk-197-insight-003",
+      "evolved_rule-2026-06-15"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "quality=8.7 strength=5.0"
   }
 ]

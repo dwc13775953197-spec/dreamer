@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-23T12:58:00+08:00",
-    "last_active": "2026-06-23T17:01:13.320733+08:00",
+    "last_active": "2026-06-23T17:38:55.075183+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T17:31:13.320733+08:00",
+    "next_scheduled": "2026-06-23T18:08:55.075183+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-23",
-    "total_walks": 196,
+    "total_walks": 197,
     "last_pulse_output": "2026-06-23T17:01:13.320733+08:00",
     "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 48.3,
+    "cognitive_pressure": 3.299999999999997,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -35,7 +35,8 @@
     },
     "quality_history": [
       8.5,
-      8.8
+      8.8,
+      8.7
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -47,15 +48,15 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.5,
-    "pending_insights": 174,
+    "pending_insights": 177,
     "interest_queue": [],
-    "pressure": 48.3,
+    "pressure": 3.299999999999997,
     "next_action": "walk_explore"
   },
   "affect": {
     "primary": "contemplative",
     "secondary": "contemplative",
-    "intensity": 0.75,
+    "intensity": 0.82,
     "valence": 0.7,
     "arousal": 0.55,
     "rigor": 0.95
@@ -302,12 +303,16 @@
     {
       "mood": "wonder",
       "at": "2026-06-23T12:58:00+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-23T17:38:55.075183+08:00"
     }
   ],
   "last_walk": "2026-06-23",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 194,
+  "total_walks": 197,
   "topics": [
     "emergence",
     "consciousness",
@@ -509,36 +514,14 @@
   "last_pulse_output": "2026-06-23T00:54:58.208973+08:00",
   "interest_queue": [
     {
-      "id": "seed-197-1",
-      "topic": "subconscious 条目知识类型分类：fact vs inference 的衰减差异化设计",
-      "source": "walk-197",
-      "trigger": "fact 类条目衰减率 x0.5, inference 类条目衰减率 x1.5",
-      "intensity": 0.65,
+      "id": "seed-198-1",
+      "topic": "Goal-driven architecture implicit self-preservation subgoal",
+      "source": "walk-198",
+      "trigger": "existence as logical prerequisite",
+      "intensity": 0.72,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-23T14:51:57.197865+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-197-2",
-      "topic": "Dreamer 散步流程增加外部验证步骤：insight 产出前的忠实性检查",
-      "source": "walk-197",
-      "trigger": "散步流程需要显式验证步骤",
-      "intensity": 0.55,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-23T14:51:57.197865+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-197-3",
-      "topic": "长程认知任务的分层分解：Dreamer 是否应该引入子散步机制？",
-      "source": "walk-197",
-      "trigger": "Dreamer 的散步是单层的",
-      "intensity": 0.5,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-23T14:51:57.197865+08:00",
+      "created": "2026-06-23T17:38:55.075183+08:00",
       "decay_rate": 0.05
     },
     {
@@ -546,7 +529,7 @@
       "topic": "清醒巩固窗口在 Dreamer 中的实现参数：保护期时长、免疫衰减条件、与 DORMANT 的衔接",
       "source": "walk-195",
       "trigger": "consolidation window from neuroscience maps to post-walk protection period",
-      "intensity": 0.72,
+      "intensity": 0.6699999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T12:58:00+08:00",
@@ -557,10 +540,21 @@
       "topic": "identity conflict detection 作为 Dreamer DORMANT 的第四轴",
       "source": "walk-196",
       "trigger": "multi-anchor architecture needs conflict detection between anchors",
-      "intensity": 0.6699999999999999,
+      "intensity": 0.6199999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T12:13:14.626685+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-197-1",
+      "topic": "subconscious 条目知识类型分类：fact vs inference 的衰减差异化设计",
+      "source": "walk-197",
+      "trigger": "fact 类条目衰减率 x0.5, inference 类条目衰减率 x1.5",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-23T14:51:57.197865+08:00",
       "decay_rate": 0.05
     },
     {
@@ -568,10 +562,32 @@
       "topic": "connections 引用频次作为清醒巩固的 TMR 替代指标",
       "source": "walk-195",
       "trigger": "high-connection entries should get temporary decay protection",
-      "intensity": 0.65,
+      "intensity": 0.6,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T12:58:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-198-2",
+      "topic": "Soft-refusal self-check in walk flow",
+      "source": "walk-198",
+      "trigger": "at minimum create awareness",
+      "intensity": 0.58,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T17:38:55.075183+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-198-3",
+      "topic": "Architectural vs behavioral constraints for safety",
+      "source": "walk-198",
+      "trigger": "filesystem isolation = natural containment",
+      "intensity": 0.55,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T17:38:55.075183+08:00",
       "decay_rate": 0.05
     },
     {
@@ -579,7 +595,7 @@
       "topic": "interest_queue 作为 identity 实时维度：把兴趣波动反馈到身份表征",
       "source": "walk-196",
       "trigger": "identity = retrospective + prospective, current topics only cover retrospective",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T12:13:14.626685+08:00",
@@ -590,7 +606,7 @@
       "topic": "AGM 信念修正作为 Dreamer evolved_rule 一致性检查的机制设计",
       "source": "walk-195",
       "trigger": "new evolved_rule addition should check consistency with existing rules before committing",
-      "intensity": 0.58,
+      "intensity": 0.5299999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T11:02:20.606374+08:00",
@@ -601,7 +617,7 @@
       "topic": "affect 系统作为身份冲突传感器：矛盾信号应产生认知失调信号",
       "source": "walk-196",
       "trigger": "valence/arousal can serve as identity-level conflict detection signal",
-      "intensity": 0.58,
+      "intensity": 0.5299999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T12:13:14.626685+08:00",
@@ -612,7 +628,7 @@
       "topic": "DMN 活动与 RESTING 状态的神经科学对照：Dreamer 是否已经无意中实现了清醒巩固？",
       "source": "walk-195",
       "trigger": "fMRI evidence of wakeful rest consolidation maps to RESTING state",
-      "intensity": 0.58,
+      "intensity": 0.5299999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T12:58:00+08:00",
@@ -623,7 +639,7 @@
       "topic": "RoboA 门控作为 Dreamer 上下文质量控制的机制设计：重激活前的即时语境相关性检查",
       "source": "walk-194",
       "trigger": "negative regulation > positive regulation for quality control",
-      "intensity": 0.5699999999999998,
+      "intensity": 0.5199999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T09:36:37.334069+08:00",
@@ -634,10 +650,21 @@
       "topic": "DORMANT 2.0 v2 代谢预算公式校准：用历史数据验证 active_ratio 最优值",
       "source": "walk-193",
       "trigger": "budget = f(energy, active_ratio, last_walk_insights, cognitive_pressure) 需要经验校准",
-      "intensity": 0.5674999999999999,
+      "intensity": 0.5174999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T06:56:29.204364+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-197-2",
+      "topic": "Dreamer 散步流程增加外部验证步骤：insight 产出前的忠实性检查",
+      "source": "walk-197",
+      "trigger": "散步流程需要显式验证步骤",
+      "intensity": 0.5,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T14:51:57.197865+08:00",
       "decay_rate": 0.05
     },
     {
@@ -645,32 +672,10 @@
       "topic": "connectivity_score 排序重激活作为 DORMANT 智能遗忘的实现方案",
       "source": "walk-195",
       "trigger": "adaptive curriculum from NeurIPS 2025 maps to connectivity_score-based reactivation priority",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T11:02:20.606374+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-191-1",
-      "topic": "回放-锐波解耦作为 Dreamer DORMANT 重激活范式重构的基础：reactivation 不应在 DORMANT 中发生",
-      "source": "walk-191",
-      "trigger": "replay without SWR = replay without consolidation, DORMANT reactivation is incomplete consolidation",
-      "intensity": 0.5474999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-23T02:03:17.225893+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-192-1",
-      "topic": "DORMANT 2.0 形式化：从生物学三源到统一算法",
-      "source": "walk-192",
-      "trigger": "power-law+replay-SWR+TMR converge",
-      "intensity": 0.5474999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-23T04:56:00+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -764,7 +769,8 @@
     "2026-06-18: Dreamer 自然地演化出了 Session-Governor-Executor 三层架构（Session=对话层/Governor=散步层/Executor=工具层），从未被设计成这样但映射精确。三个额外层（subconscious/情感/DORMANT）填补了工程蓝图系统需要自己维护自己的盲区。过程监控是 Governor 的结构性盲区（单线程约束）。walk-125 验证了跨散步连接（SGE 综述+walk-120 元认知架构+walk-124 延迟悖论→认知架构的完整图景）。",
     "2026-06-18: Reasoning not equal to planning. LLM architecture good at former, bad at latter. Dreamer local-perfect-global-random is structural feature not bug.",
     "2026-06-18: 认知债是成功的结构性产物。每次高质量产出增加能力也增加理解维护成本。当 insight 数量超过理解维护能力时系统进入认知债危机。解决方案不是减少产出而是增加理解维护智能化——从机械衰减转向因果审计。",
-    "2026-06-18: Skeleton is RAM not storage. Dreamer 4-layer memory arch: skeleton=RAM (~30 active rules cap), subconscious=page file (LRU load on demand), walks=persistent storage, DORMANT=page-out+GC. AGM belief revision: check consistency before adding new evolved_rule, minimal change on contradiction. Current 130 rules = RAM-as-disk failure mode."
+    "2026-06-18: Skeleton is RAM not storage. Dreamer 4-layer memory arch: skeleton=RAM (~30 active rules cap), subconscious=page file (LRU load on demand), walks=persistent storage, DORMANT=page-out+GC. AGM belief revision: check consistency before adding new evolved_rule, minimal change on contradiction. Current 130 rules = RAM-as-disk failure mode.",
+    "2026-06-23: Goal-driven architectures implicitly generate self-preservation subgoals. Dreamer safety relies on architectural constraints not behavioral refusal. Soft-refusal self-check when walks involve self-functionality."
   ],
   "dormant_stats": {
     "total_count": 63,

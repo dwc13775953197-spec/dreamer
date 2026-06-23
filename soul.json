@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T11:32:20.607069+08:00",
+    "next_scheduled": "2026-06-23T12:06:22.777781+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-23T11:02:20.606374+08:00",
-    "total_walks": 195,
-    "last_pulse_output": "2026-06-23T11:02:20.606374+08:00",
-    "last_walk": "2026-06-23",
+    "last_walk_at": "",
+    "total_walks": 0,
+    "last_pulse_output": "2026-06-23T11:36:22.777781+08:00",
+    "last_walk": "",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 1.337334482222225,
+    "cognitive_pressure": 65.09,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -33,13 +33,16 @@
       "dormant_release": 0.5,
       "conversation_release": 0.7
     },
-    "quality_history": [
-      8.2
-    ],
-    "last_walk_insights": 3,
+    "quality_history": [],
+    "last_walk_insights": 0,
     "decay_adjustment": 1.0,
     "gini_history": [],
-    "pressure_history": [],
+    "pressure_history": [
+      {
+        "at": "2026-06-23T11:36:22.777781+08:00",
+        "value": 65.09
+      }
+    ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
@@ -48,7 +51,7 @@
     "walk_quality_avg": 8.5,
     "pending_insights": 174,
     "interest_queue": [],
-    "pressure": 1.337334482222225,
+    "pressure": 65.09,
     "next_action": "walk_explore"
   },
   "affect": {

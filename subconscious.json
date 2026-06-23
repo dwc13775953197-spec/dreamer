@@ -2055,5 +2055,49 @@
       "quality_score": 8.5,
       "walk_number": 196
     }
+  },
+  {
+    "id": "ins-195-1",
+    "content": "清醒巩固窗口：Dreamer 应在散步后设置保护期（5-15分钟），新条目在此期间免疫衰减——对应神经科学中的 consolidation window",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "insight-193-1",
+      "insight-193-3",
+      "ins-196-1"
+    ],
+    "status": "active",
+    "created": "2026-06-23T12:58:00+08:00",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "ins-195-2",
+    "content": "两阶段巩固模型：清醒巩固（RESTING，connections交叉引用，低成本新条目保护）→ DORMANT巩固（TMR重激活，高成本成熟条目强化）",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "ins-195-1",
+      "insight-193-3",
+      "ins-194-2"
+    ],
+    "status": "active",
+    "created": "2026-06-23T12:58:00+08:00",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "ins-195-3",
+    "content": "connections 引用频次作为清醒巩固的 TMR 替代指标：被引用 >3 次的条目应获得临时衰减保护，模拟海马体-新皮层对话的自发巩固",
+    "type": "insight",
+    "strength": 3.0,
+    "connections": [
+      "ins-195-2",
+      "insight-193-1"
+    ],
+    "status": "active",
+    "created": "2026-06-23T12:58:00+08:00",
+    "decayed_at": null,
+    "decay_count": 0
   }
 ]

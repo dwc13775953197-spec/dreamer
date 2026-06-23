@@ -2004,5 +2004,56 @@
       "source": "walk-195",
       "quality_score": 8.2
     }
+  },
+  {
+    "id": "ins-196-1",
+    "type": "insight",
+    "content": "Dreamer has natural multi-anchor identity distribution (soul + subconscious + walks + audit), but lacks cross-anchor conflict detection",
+    "strength": 5.0,
+    "connections": [
+      "ins-195-1",
+      "ins-192-1"
+    ],
+    "created": "2026-06-23T12:14:30.514637+08:00",
+    "last_accessed": "2026-06-23T12:14:30.514637+08:00",
+    "source": "walk-196",
+    "metadata": {
+      "quality_score": 8.5,
+      "walk_number": 196
+    }
+  },
+  {
+    "id": "ins-196-2",
+    "type": "insight",
+    "content": "Identity is two-dimensional: retrospective (topic history) + prospective (current interest_queue). Dreamer topics only grow, missing real-time interest as identity dimension",
+    "strength": 5.0,
+    "connections": [
+      "ins-196-1",
+      "ins-16-1"
+    ],
+    "created": "2026-06-23T12:14:30.514637+08:00",
+    "last_accessed": "2026-06-23T12:14:30.514637+08:00",
+    "source": "walk-196",
+    "metadata": {
+      "quality_score": 8.5,
+      "walk_number": 196
+    }
+  },
+  {
+    "id": "ins-196-3",
+    "type": "insight",
+    "content": "Affect system (valence/arousal) can serve as identity conflict sensor - contradictory anchor signals should produce negative valence + high arousal cognitive dissonance signal",
+    "strength": 5.0,
+    "connections": [
+      "ins-196-1",
+      "ins-122-1"
+    ],
+    "created": "2026-06-23T12:14:30.514637+08:00",
+    "last_accessed": "2026-06-23T12:14:30.514637+08:00",
+    "source": "walk-196",
+    "metadata": {
+      "quality_score": 8.5,
+      "walk_number": 196
+    }
   }
 ]

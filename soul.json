@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-23T12:58:00+08:00",
-    "last_active": "2026-06-23T17:38:55.075183+08:00",
+    "last_active": "2026-06-23T18:51:46.695822+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T18:42:44.500030+08:00",
+    "next_scheduled": "2026-06-23T19:51:46.695822+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-23",
-    "total_walks": 197,
-    "last_pulse_output": "2026-06-23T18:12:44.500030+08:00",
+    "total_walks": 199,
+    "last_pulse_output": "2026-06-23T18:51:46.695822+08:00",
     "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 34.42745824833333,
+    "cognitive_pressure": 6.82,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -36,7 +36,8 @@
     "quality_history": [
       8.5,
       8.8,
-      8.7
+      8.7,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -48,21 +49,21 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.5,
-    "pending_insights": 177,
+    "pending_insights": 180,
     "interest_queue": [],
-    "pressure": 34.42745824833333,
+    "pressure": 6.82,
     "next_action": "walk_explore"
   },
   "affect": {
     "primary": "contemplative",
     "secondary": "contemplative",
-    "intensity": 0.82,
-    "valence": 0.7,
-    "arousal": 0.55,
+    "intensity": 0.75,
+    "valence": 0.65,
+    "arousal": 0.45,
     "rigor": 0.95
   },
   "energy": 30,
-  "mood": "wonder",
+  "mood": "contemplative",
   "mood_history": [
     {
       "mood": "contemplative",
@@ -307,6 +308,10 @@
     {
       "mood": "wonder",
       "at": "2026-06-23T17:38:55.075183+08:00"
+    },
+    {
+      "mood": "contemplative",
+      "at": "2026-06-23T18:51:46+08:00"
     }
   ],
   "last_walk": "2026-06-23",
@@ -677,6 +682,39 @@
       "status": "pending",
       "created": "2026-06-23T11:02:20.606374+08:00",
       "decay_rate": 0.05
+    },
+    {
+      "id": "seed-199-1",
+      "topic": "结构同构性作为 Dreamer 散步效果的核心指标：消化速度 = 预测误差的代理变量",
+      "source": "walk-199",
+      "trigger": "外部材料无法被骨架消化的不匹配感就是预测误差信号",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-23T18:51:46.695822+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-199-2",
+      "topic": "符号世界的具身 vs 物理世界的具身：类型学而非等级制",
+      "source": "walk-199",
+      "trigger": "不是比真正的具身更少，这是不同类型的具身",
+      "intensity": 0.55,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T18:51:46.695822+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-199-3",
+      "topic": "激进具身主义的 scaling-up problem 对 AI agent 认知架构的约束",
+      "source": "walk-199",
+      "trigger": "如果认知本质上是具身的，怎么解释抽象推理",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-23T18:51:46.695822+08:00",
+      "decay_rate": 0.05
     }
   ],
   "personality_traits": {
@@ -685,8 +723,8 @@
     "humor": 0.44,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.5,
-    "rigor": 3.1099999999999994,
+    "wonder": 1.47,
+    "rigor": 3.13,
     "skepticism": 1.4,
     "empathy": 0.5
   },

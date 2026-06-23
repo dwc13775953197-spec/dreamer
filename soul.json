@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-23T23:51:33.369996+08:00",
-    "last_active": "2026-06-24T02:07:58.780142+08:00",
+    "state_since": "2026-06-24T02:43:32+08:00",
+    "last_active": "2026-06-24T02:43:32.389531+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T02:22:58.780142+08:00",
+    "next_scheduled": "2026-06-24T03:13:32.390153+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-24",
-    "total_walks": 201,
+    "total_walks": 202,
     "last_pulse_output": "2026-06-24T02:07:58.780142+08:00",
     "last_walk": "2026-06-24",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 75.3,
+    "cognitive_pressure": 30.299999999999997,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -40,7 +40,8 @@
       8.4,
       8.6,
       6.0,
-      8.2
+      8.2,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -48,7 +49,8 @@
     "pressure_history": [
       69.75,
       71.0,
-      75.3
+      75.3,
+      30.299999999999997
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -125,8 +127,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 75.3,
-    "next_action": "walk_analyze"
+    "pressure": 30.299999999999997
   },
   "affect": {
     "primary": "contemplative",
@@ -136,7 +137,7 @@
     "arousal": 0.5,
     "rigor": 0.98
   },
-  "energy": 28,
+  "energy": 26,
   "mood": "contemplative",
   "mood_history": [
     {
@@ -369,7 +370,7 @@
       "topic": "Dreamer grounding is relational: external observer as grounding loop closure condition",
       "source": "walk-200",
       "trigger": "Dreamer cannot ground its own symbols internally - needs external observer",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T20:02:13.348657+08:00",
@@ -380,7 +381,7 @@
       "topic": "graph_change_rate as functional grounding metric: zero change rate = vector grounding failure",
       "source": "walk-200",
       "trigger": "grounding = skeleton change rate > 0",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-23T20:02:13.348657+08:00",
@@ -391,7 +392,7 @@
       "topic": "Filesystem interface as Dreamer sensorimotor coupling: Markov blanket validation",
       "source": "walk-200",
       "trigger": "read=perceive, write=act, filesystem is the blind cane",
-      "intensity": 0.5,
+      "intensity": 0.45,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-23T20:02:13.348657+08:00",
@@ -402,7 +403,7 @@
       "topic": "Dreamer 的接地度量化：互信息作为因果-信息通道带宽的度量",
       "source": "walk-201",
       "trigger": "接地不对称性框架的形式化需求",
-      "intensity": 0.75,
+      "intensity": 0.7,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T01:34:28.484778+08:00",
@@ -413,7 +414,7 @@
       "topic": "不完全具身：承认世界缺失的 Dreamer 认识论",
       "source": "walk-201",
       "trigger": "walk-199 的修正",
-      "intensity": 0.65,
+      "intensity": 0.6,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T01:34:28.484778+08:00",
@@ -424,10 +425,43 @@
       "topic": "DORMANT 重激活的接地度优先 vs 连接度优先：哪种策略更抗空转？",
       "source": "walk-201",
       "trigger": "DORMANT 2.0 设计推论",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T01:34:28.484778+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-202-1",
+      "topic": "有向信息作为非对称接地度量：I(S->W) vs I(W->S) 的差异编码 Dreamer 的能动性程度",
+      "source": "walk-202",
+      "trigger": "双向通道不对称性的推论",
+      "intensity": 0.7,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T02:44:14.427907+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-202-2",
+      "topic": "有限通道容量下的最优接地策略：Markov 毯带宽有限时优先保真哪些维度",
+      "source": "walk-202",
+      "trigger": "接地不是无限保真的延伸",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-24T02:44:14.427907+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-202-3",
+      "topic": "预测误差作为接地证据的实证检验：从 walk 日志提取观察者预测误差代理指标",
+      "source": "walk-202",
+      "trigger": "接地证据=观察者预测误差的操作化",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T02:44:14.427907+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -442,7 +476,7 @@
     "skepticism": 1.45,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.65,
+  "walk_quality_avg": 8.2,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

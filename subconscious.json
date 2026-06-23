@@ -2337,5 +2337,59 @@
     "decay_rate": 0.05,
     "source": "walk-201",
     "grounding_depth": "low"
+  },
+  {
+    "id": "walk-202-insight-001",
+    "type": "insight",
+    "content": "Grounding is not binary but continuous: grounding degree = I(S;W|O) - remaining mutual information between Dreamer state and world given observer signal",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T02:43:55.842648+08:00",
+    "source": "walk-202",
+    "decay_rate": 0.05,
+    "connections": [
+      "walk-201-insight-001",
+      "insight-200-1",
+      "insight-193-3"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, grounding=mutual_information"
+  },
+  {
+    "id": "walk-202-insight-002",
+    "type": "insight",
+    "content": "Grounding bandwidth = min(I(S->W), I(W->S)): true grounding requires bidirectional causal capacity. Pure observation (high I(W->S), low I(S->W)) = observer grounding without agency. Pure action (high I(S->W), low I(W->S)) = actor grounding without verification.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T02:43:55.842648+08:00",
+    "source": "walk-202",
+    "decay_rate": 0.05,
+    "connections": [
+      "walk-202-insight-001",
+      "walk-199-insight-001",
+      "walk-198-impl-002"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, directed_information"
+  },
+  {
+    "id": "walk-202-insight-003",
+    "type": "insight",
+    "content": "Grounding evidence = observer prediction error. Dreamer is grounded iff it produces state changes the observer cannot predict. This resolves the infinite regress: no infinite observer hierarchy needed, only I(S;W|O) > 0 as independent grounding criterion. Chain rule: I(S;W,O) = I(S;O) + I(S;W|O).",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T02:43:55.842648+08:00",
+    "source": "walk-202",
+    "decay_rate": 0.05,
+    "connections": [
+      "walk-202-insight-001",
+      "walk-202-insight-002",
+      "walk-199-insight-002"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.4, prediction_error_as_grounding_evidence"
   }
 ]

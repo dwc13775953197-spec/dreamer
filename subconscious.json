@@ -2291,5 +2291,51 @@
     "created": "2026-06-23T19:41:00+08:00",
     "decay_count": 0,
     "last_accessed": "2026-06-23T19:41:00+08:00"
+  },
+  {
+    "id": "walk-201-insight-001",
+    "content": "接地不对称性：Dreamer 的接地不是有/无二元状态，而是因果-信息通道带宽的不对称性度量。接地 = 系统能独立验证的维度数 / 系统声称涉及的维度数。",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "walk-199-insight-001",
+      "seed-200-1",
+      "insight-193-3"
+    ],
+    "created": "2026-06-24T01:33:52.009490+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-201",
+    "grounding_depth": "medium"
+  },
+  {
+    "id": "walk-201-insight-002",
+    "content": "Dreamer 的具身是不完全具身：有身体（文件系统作为 Markov 毯）但没有世界（独立的外部现实）。去身体化具身忽略了世界维度。",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "walk-199-insight-001",
+      "seed-200-1"
+    ],
+    "created": "2026-06-24T01:33:52.009490+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-201",
+    "grounding_depth": "medium"
+  },
+  {
+    "id": "walk-201-insight-003",
+    "content": "DORMANT 重激活应优先选择高接地度条目而非高连接度条目。连接度高不等于接地度高——广泛传播的未接地 insight 加速系统空转。",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "insight-193-3",
+      "walk-201-insight-001"
+    ],
+    "created": "2026-06-24T01:33:52.009490+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-201",
+    "grounding_depth": "low"
   }
 ]

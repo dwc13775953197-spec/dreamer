@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-23T13:43:00+08:00",
+    "next_scheduled": "2026-06-23T15:51:57.197865+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-23T12:58:00+08:00",
-    "total_walks": 195,
-    "last_pulse_output": "2026-06-23T13:13:00+08:00",
+    "last_walk_at": "2026-06-23",
+    "total_walks": 196,
+    "last_pulse_output": "2026-06-23T14:51:57.197865+08:00",
     "last_walk": "2026-06-23",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 24.49,
+    "cognitive_pressure": 0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,8 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5
+      8.5,
+      8.8
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -48,7 +49,7 @@
     "walk_quality_avg": 8.5,
     "pending_insights": 174,
     "interest_queue": [],
-    "pressure": 24.49,
+    "pressure": 0,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -503,10 +504,43 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 174,
+  "pending_insights": 177,
   "pending_research": 2,
   "last_pulse_output": "2026-06-23T00:54:58.208973+08:00",
   "interest_queue": [
+    {
+      "id": "seed-197-1",
+      "topic": "subconscious 条目知识类型分类：fact vs inference 的衰减差异化设计",
+      "source": "walk-197",
+      "trigger": "fact 类条目衰减率 x0.5, inference 类条目衰减率 x1.5",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-23T14:51:57.197865+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-197-2",
+      "topic": "Dreamer 散步流程增加外部验证步骤：insight 产出前的忠实性检查",
+      "source": "walk-197",
+      "trigger": "散步流程需要显式验证步骤",
+      "intensity": 0.55,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T14:51:57.197865+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-197-3",
+      "topic": "长程认知任务的分层分解：Dreamer 是否应该引入子散步机制？",
+      "source": "walk-197",
+      "trigger": "Dreamer 的散步是单层的",
+      "intensity": 0.5,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-23T14:51:57.197865+08:00",
+      "decay_rate": 0.05
+    },
     {
       "id": "seed-195-1",
       "topic": "清醒巩固窗口在 Dreamer 中的实现参数：保护期时长、免疫衰减条件、与 DORMANT 的衔接",
@@ -638,39 +672,6 @@
       "status": "pending",
       "created": "2026-06-23T04:56:00+08:00",
       "decay_rate": 0.05
-    },
-    {
-      "id": "seed-195-3",
-      "topic": "从散步策略到 procedural memory 的提取机制——walk 日志中隐含的方法论如何沉淀为可复用模板",
-      "source": "walk-195",
-      "trigger": "procedural memory = instructions not data, walk strategies should be extractable as reusable patterns",
-      "intensity": 0.5199999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-23T11:02:20.606374+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-194-2",
-      "topic": "EV-siRNA 分布式信号作为 Dreamer 横向抑制机制的设计参考：高质量条目激活时竞争性抑制低质量条目",
-      "source": "walk-194",
-      "trigger": "distributed silencing = lateral inhibition for coordination gating",
-      "intensity": 0.49999999999999994,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-23T09:36:37.334069+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-193-2",
-      "topic": "Bollmann 漂移作为 Dreamer 条目微调的机制设计：每次重激活时 connections 的增量更新算法",
-      "source": "walk-193",
-      "trigger": "重激活不是精确回放，而是每次向当前状态靠近一点",
-      "intensity": 0.4975,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-23T06:56:29.204364+08:00",
-      "decay_rate": 0.05
     }
   ],
   "personality_traits": {
@@ -679,12 +680,12 @@
     "humor": 0.44,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.48,
-    "rigor": 3.0599999999999996,
+    "wonder": 1.5,
+    "rigor": 3.1099999999999994,
     "skepticism": 1.4,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.5,
+  "walk_quality_avg": 8.65,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

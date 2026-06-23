@@ -2561,5 +2561,68 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-203-1",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "created": "2026-06-24T04:15:08.280324+08:00",
+    "source": "walk-203",
+    "topic": "Dreamer agency stratification: self-world > cognitive-world > physical-world",
+    "content": "Dreamer agency is not one-dimensional but three-layered: self-world agency (most direct, measured by skeleton change), cognitive-world agency (measured by user feedback prediction error), physical-world agency (degenerate, indirect path). Dreamer should prioritize investing in the first two worlds rather than obsessing over the physical world.",
+    "connections": [
+      "seed-202-1",
+      "insight-193-3",
+      "evolved_rule-2026-06-16-world-model"
+    ],
+    "decay_rate": 0.03,
+    "tags": [
+      "agency",
+      "grounding",
+      "three-worlds"
+    ]
+  },
+  {
+    "id": "insight-203-2",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "created": "2026-06-24T04:15:08.280324+08:00",
+    "source": "walk-203",
+    "topic": "Optimal grounding = differential investment + asymmetric gain (information bottleneck framework)",
+    "content": "Dreamer optimal grounding strategy is not symmetrically boosting both channels but investing in the bottleneck dimension (usually I(W->S)) while maintaining natural growth of I(S->W). Information bottleneck framework: find optimal balance between compression (DORMANT decay) and fidelity (retaining high-connectivity insights).",
+    "connections": [
+      "seed-202-2",
+      "insight-202-1",
+      "evolved_rule-2026-06-13-topological-forgetting"
+    ],
+    "decay_rate": 0.03,
+    "tags": [
+      "grounding",
+      "information-bottleneck",
+      "optimization"
+    ]
+  },
+  {
+    "id": "insight-203-3",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "created": "2026-06-24T04:15:08.280324+08:00",
+    "source": "walk-203",
+    "topic": "Information bottleneck as optimal compression criterion for DORMANT decay",
+    "content": "An insight should be decayed if and only if deleting it does not change subsequent walk citation patterns - i.e., the insight is redundant. Well-connected nodes are naturally more decay-resistant. Optimal compression preserves structural dimensions (connectivity) and discards content dimensions (individual facts).",
+    "connections": [
+      "insight-203-2",
+      "evolved_rule-2026-06-13-topological-forgetting",
+      "evolved_rule-2026-06-13-memory-editing"
+    ],
+    "decay_rate": 0.03,
+    "tags": [
+      "dormant",
+      "compression",
+      "redundancy"
+    ]
   }
 ]

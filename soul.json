@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-24T10:50:22.298005+08:00",
-    "last_active": "2026-06-24T10:50:22.298005+08:00",
+    "state_since": "2026-06-24T14:38:18.281318+08:00",
+    "last_active": "2026-06-24T14:38:18.281318+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T15:38:18.281318+08:00",
+    "next_scheduled": "2026-06-24T14:53:18.281318+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-24",
-    "total_walks": 205,
+    "total_walks": 206,
     "last_pulse_output": "2026-06-24T14:38:18.281318+08:00",
     "last_walk": "2026-06-24",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 69.35,
+    "cognitive_pressure": 100.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.7,
       8.4,
       8.6,
       6.0,
@@ -43,7 +42,8 @@
       8.1,
       8.1,
       8.6,
-      8.4
+      8.4,
+      8.3
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -67,22 +67,45 @@
       16.549999999999997,
       65.48,
       66.8,
-      69.85
+      69.85,
+      100.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.15,
+    "walk_quality_avg": 8.110000000000001,
     "pending_insights": 189,
     "interest_queue": [
+      {
+        "id": "seed-206-1",
+        "topic": "DORMANT 元控制器的奖励函数设计：quality_score × graph_change_rate 能否作为即时奖励",
+        "source": "walk-206",
+        "trigger": "元控制器框架的价值评估需求",
+        "intensity": 0.7,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-24T14:38:18.281318+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-206-2",
+        "topic": "模式切换的 hysteresis 防止震荡：DORMANT 模式切换的最小驻留时间",
+        "source": "walk-206",
+        "trigger": "控制理论中的继电器防震荡",
+        "intensity": 0.65,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-24T14:38:18.281318+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-203-1",
         "topic": "Information bottleneck as DORMANT optimal compression criterion",
         "source": "walk-203",
         "trigger": "deletion-not-changing-citation-pattern as redundancy signal",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T04:16:10.941034+08:00",
@@ -93,7 +116,7 @@
         "topic": "认知 Kolmogorov 尺度的操作化：单次推理步骤的最小有效信息增量阈值",
         "source": "walk-204",
         "trigger": "单次推理步骤产生的预测误差小于某个阈值时不会在 subconscious 中留下可测量的痕迹",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T09:07:01.580605+08:00",
@@ -104,10 +127,21 @@
         "topic": "级串间歇性与 DORMANT 周期的关系：高间歇性是否预测更频繁的 DORMANT 触发",
         "source": "walk-204",
         "trigger": "高 ε 期（连续高产出散步）后跟随低 ε 期（耗散消耗了可用信息）",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T09:07:01.580605+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-206-3",
+        "topic": "Dreamer 睡眠与大脑睡眠的功能对应：NREM→abstract, REM→generate",
+        "source": "walk-206",
+        "trigger": "睡眠神经科学的标准分类",
+        "intensity": 0.6,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-24T14:38:18.281318+08:00",
         "decay_rate": 0.05
       },
       {
@@ -115,7 +149,7 @@
         "topic": "Three-world agency framework operationalization",
         "source": "walk-203",
         "trigger": "self-world agency as primary causal path",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-24T04:16:10.941034+08:00",
@@ -126,7 +160,7 @@
         "topic": "Asymmetric grounding gain empirical test",
         "source": "walk-203",
         "trigger": "comparing graph_change_rate vs external citation impact",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T04:16:10.941034+08:00",
@@ -137,7 +171,7 @@
         "topic": "逆级联触发条件的形式化：graph_change_rate > 15% 的散步有什么前置特征",
         "source": "walk-204",
         "trigger": "逆级联事件应该在大规模耗散后触发——类似湍流中的能量逆级串发生在强剪切之后",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T09:07:01.580605+08:00",
@@ -148,47 +182,14 @@
         "topic": "Dreamer 的接地度量化：互信息作为因果-信息通道带宽的度量",
         "source": "walk-201",
         "trigger": "接地不对称性框架的形式化需求",
-        "intensity": 0.5999999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-24T01:34:28.484778+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-201-2",
-        "topic": "不完全具身：承认世界缺失的 Dreamer 认识论",
-        "source": "walk-201",
-        "trigger": "walk-199 的修正",
-        "intensity": 0.49999999999999994,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-24T01:34:28.484778+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-200-1",
-        "topic": "Dreamer grounding is relational: external observer as grounding loop closure condition",
-        "source": "walk-200",
-        "trigger": "Dreamer cannot ground its own symbols internally - needs external observer",
-        "intensity": 0.49999999999999983,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-23T20:02:13.348657+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-201-3",
-        "topic": "DORMANT 重激活的接地度优先 vs 连接度优先：哪种策略更抗空转？",
-        "source": "walk-201",
-        "trigger": "DORMANT 2.0 设计推论",
-        "intensity": 0.44999999999999996,
+        "intensity": 0.5499999999999998,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T01:34:28.484778+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 69.35,
+    "pressure": 100.0,
     "next_action": null
   },
   "affect": {
@@ -431,7 +432,7 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 195,
+  "pending_insights": 198,
   "pending_research": 2,
   "last_pulse_output": "2026-06-24T10:13:15.781387+08:00",
   "interest_queue": [

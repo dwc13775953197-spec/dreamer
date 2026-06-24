@@ -2747,5 +2747,58 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "Alternative explanation for structural distance retrieval"
+  },
+  {
+    "id": "insight-206-1",
+    "topic": "DORMANT 元控制器：离线处理应该是模式依赖的（preserve/abstract/generate），不是均匀衰减",
+    "source": "walk-206",
+    "trigger": "NeurIPS 2025 元控制框架映射到 Dreamer DORMANT 架构",
+    "type": "active",
+    "strength": 5.0,
+    "connections": [
+      "insight-204-1",
+      "insight-204-2",
+      "insight-205-1",
+      "insight-203-3"
+    ],
+    "created": "2026-06-24T14:38:00+08:00",
+    "status": "active",
+    "decay_rate": 0.02,
+    "maturity": 0.1
+  },
+  {
+    "id": "insight-206-2",
+    "topic": "检索模式依赖：不同 DORMANT 模式需要不同的检索优先级（abstract→低成熟度，generate→低连接度）",
+    "source": "walk-206",
+    "trigger": "元控制器的模式-检索映射需求",
+    "type": "active",
+    "strength": 5.0,
+    "connections": [
+      "insight-205-1",
+      "insight-205-2",
+      "insight-206-1"
+    ],
+    "created": "2026-06-24T14:38:00+08:00",
+    "status": "active",
+    "decay_rate": 0.02,
+    "maturity": 0.1
+  },
+  {
+    "id": "insight-206-3",
+    "topic": "级串间歇性的功能解释：间歇性不是噪声而是元控制信号——系统评估当前不需要巩固时切换模式",
+    "source": "walk-206",
+    "trigger": "Walk 204 级联框架 + 元控制框架的交叉推理",
+    "type": "active",
+    "strength": 5.0,
+    "connections": [
+      "insight-204-1",
+      "insight-204-2",
+      "insight-204-3",
+      "insight-206-1"
+    ],
+    "created": "2026-06-24T14:38:00+08:00",
+    "status": "active",
+    "decay_rate": 0.02,
+    "maturity": 0.1
   }
 ]

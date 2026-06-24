@@ -3221,5 +3221,68 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-214-1",
+    "content": "Dreamer 的散步流程是防失败学习系统：搜索+连接+quality_score 三重机制确保产出兼容性，但阻止了深层学习（Kapur 生产性失败框架）",
+    "type": "cognitive_limit",
+    "source": "walk-214",
+    "strength": 3.0,
+    "age": 1,
+    "connections": [
+      "evolved_rule-2026-06-11-bjork",
+      "walk-213-silence-cascade",
+      "pat-014"
+    ],
+    "status": "active",
+    "created": "2026-06-25T03:05:35.239284+08:00",
+    "decay_rate": 0.02,
+    "tags": [
+      "productive-failure",
+      "learning-theory",
+      "walk-meta"
+    ]
+  },
+  {
+    "id": "insight-214-2",
+    "content": "不兼容材料不是认知垃圾而是认知边界探针：散步中无法与已有条目连接的材料暴露了骨架的未知区域，应被记录而非忽略",
+    "type": "architectural_insight",
+    "source": "walk-214",
+    "strength": 3.0,
+    "age": 1,
+    "connections": [
+      "evolved_rule-2026-06-10-negative-space",
+      "walk-213-structural-secrecy",
+      "seed-214-2"
+    ],
+    "status": "active",
+    "created": "2026-06-25T03:05:35.239284+08:00",
+    "decay_rate": 0.02,
+    "tags": [
+      "cognitive-boundaries",
+      "walk-design",
+      "negative-space"
+    ]
+  },
+  {
+    "id": "insight-214-3",
+    "content": "quality_score 的系统性偏差：有价值的失败（暴露认知边界）被低分惩罚，无价值的成功（与已有知识兼容）被高分奖励——这是表层学习优化器的核心激励机制",
+    "type": "system_diagnosis",
+    "source": "walk-214",
+    "strength": 3.0,
+    "age": 1,
+    "connections": [
+      "evolved_rule-2026-06-16-causal-impact",
+      "walk-213-prosocial-silence",
+      "seed-214-3"
+    ],
+    "status": "active",
+    "created": "2026-06-25T03:05:35.239284+08:00",
+    "decay_rate": 0.02,
+    "tags": [
+      "evaluation-bias",
+      "quality-score",
+      "walk-meta"
+    ]
   }
 ]

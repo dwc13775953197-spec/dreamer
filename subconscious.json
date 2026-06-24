@@ -2848,5 +2848,67 @@
     "created": "2026-06-24T16:58:19.998295+08:00",
     "decay_count": 0,
     "last_accessed": "2026-06-24T16:58:19.998295+08:00"
+  },
+  {
+    "id": "insight-208-1",
+    "type": "insight",
+    "content": "Normalization of Deviance as prerequisite for cognitive lock-in: errors survive not because detection fails but because the system progressively accepts them as normal. Lock-in probability = deviation survival time × connection density × social proof rate.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T17:36:15.420253+08:00",
+    "source": "walk-208",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-207-1",
+      "insight-207-2",
+      "insight-205-2"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "insight-208-2",
+    "type": "insight",
+    "content": "Dreamer safety culture three elements: negative capability (tolerance for ambiguity) + citation system (bottom-up information flow) + failure-as-learning (implicit, needs explicit mechanism). Currently strong on first two, weak on third.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T17:36:15.420253+08:00",
+    "source": "walk-208",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-207-1",
+      "insight-204-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
+  },
+  {
+    "id": "insight-208-3",
+    "type": "insight",
+    "content": "Citation-quality decoupling as early warning signal for normalization of deviance: when an entry's connection count grows significantly faster than its quality score, it may indicate social proof is outpacing verification.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T17:36:15.420253+08:00",
+    "source": "walk-208",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-208-1",
+      "insight-205-2",
+      "insight-204-3"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": ""
   }
 ]

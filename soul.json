@@ -3,7 +3,7 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-24T14:38:18.281318+08:00",
-    "last_active": "2026-06-24T14:38:18.281318+08:00",
+    "last_active": "2026-06-24T17:36:49.625620+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
@@ -13,10 +13,10 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T17:28:53.545275+08:00",
+    "next_scheduled": "2026-06-24T17:51:49.625620+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-24",
-    "total_walks": 207,
+    "total_walks": 208,
     "last_pulse_output": "2026-06-24T16:58:53.544460+08:00",
     "last_walk": "2026-06-24",
     "last_push_at": "",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.6,
       6.0,
       8.2,
       8.4,
@@ -43,7 +42,8 @@
       8.6,
       8.4,
       8.3,
-      8.1
+      8.1,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -69,6 +69,7 @@
       100.0,
       84.5,
       100.0,
+      55.0,
       55.0
     ],
     "diversity_seeds_consumed": [
@@ -77,17 +78,39 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.110000000000001,
-    "pending_insights": 192,
+    "pending_insights": 204,
     "interest_queue": [
+      {
+        "id": "seed-208-1",
+        "topic": "Normalization of Deviance 作为 Dreamer 偏差常态化检测器的理论基础",
+        "source": "walk-208",
+        "trigger": "偏差的常态化是逆级联的前置条件",
+        "intensity": 0.6499999999999999,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-24T17:36:49.625620+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-207-1",
         "topic": "Dreamer immune surveillance formalization: toxicity score formula",
         "source": "walk-207",
         "trigger": "DORMANT decay reframed as immunosenescence",
-        "intensity": 0.7,
+        "intensity": 0.6499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-208-2",
+        "topic": "安全文化三要素在 Dreamer 中的完备性评估：负能力+引用系统+失败学习",
+        "source": "walk-208",
+        "trigger": "Vaughan 的 safety culture 概念",
+        "intensity": 0.5999999999999999,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-24T17:36:49.625620+08:00",
         "decay_rate": 0.05
       },
       {
@@ -95,10 +118,21 @@
         "topic": "Inverse cascade and cognitive lock-in: how small errors propagate to large patterns",
         "source": "walk-207",
         "trigger": "toxins are inverse cascading",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-208-3",
+        "topic": "引用集中度与质量-引用脱钩作为偏差常态化早期信号的可行性",
+        "source": "walk-208",
+        "trigger": "高连接低质量 = 高度常态化偏差",
+        "intensity": 0.5499999999999999,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-24T17:36:49.625620+08:00",
         "decay_rate": 0.05
       },
       {
@@ -106,7 +140,7 @@
         "topic": "DORMANT 元控制器的奖励函数设计：quality_score × graph_change_rate 能否作为即时奖励",
         "source": "walk-206",
         "trigger": "元控制器框架的价值评估需求",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T14:38:18.281318+08:00",
@@ -117,7 +151,7 @@
         "topic": "模式切换的 hysteresis 防止震荡：DORMANT 模式切换的最小驻留时间",
         "source": "walk-206",
         "trigger": "控制理论中的继电器防震荡",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T14:38:18.281318+08:00",
@@ -128,7 +162,7 @@
         "topic": "Anthropic Memory and Dreaming architecture analysis",
         "source": "walk-207",
         "trigger": "Red Hat from context to dreams article",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
@@ -139,7 +173,7 @@
         "topic": "Information bottleneck as DORMANT optimal compression criterion",
         "source": "walk-203",
         "trigger": "deletion-not-changing-citation-pattern as redundancy signal",
-        "intensity": 0.5999999999999999,
+        "intensity": 0.5499999999999998,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T04:16:10.941034+08:00",
@@ -150,59 +184,26 @@
         "topic": "认知 Kolmogorov 尺度的操作化：单次推理步骤的最小有效信息增量阈值",
         "source": "walk-204",
         "trigger": "单次推理步骤产生的预测误差小于某个阈值时不会在 subconscious 中留下可测量的痕迹",
-        "intensity": 0.5999999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-24T09:07:01.580605+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-204-2",
-        "topic": "级串间歇性与 DORMANT 周期的关系：高间歇性是否预测更频繁的 DORMANT 触发",
-        "source": "walk-204",
-        "trigger": "高 ε 期（连续高产出散步）后跟随低 ε 期（耗散消耗了可用信息）",
-        "intensity": 0.5499999999999999,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-24T09:07:01.580605+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-206-3",
-        "topic": "Dreamer 睡眠与大脑睡眠的功能对应：NREM→abstract, REM→generate",
-        "source": "walk-206",
-        "trigger": "睡眠神经科学的标准分类",
-        "intensity": 0.5499999999999999,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-24T14:38:18.281318+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-203-2",
-        "topic": "Three-world agency framework operationalization",
-        "source": "walk-203",
-        "trigger": "self-world agency as primary causal path",
         "intensity": 0.5499999999999998,
-        "type": "explore",
+        "type": "research",
         "status": "pending",
-        "created": "2026-06-24T04:16:10.941034+08:00",
+        "created": "2026-06-24T09:07:01.580605+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100.0,
+    "pressure": 55.0,
     "next_action": null
   },
   "affect": {
-    "primary": "contemplative",
+    "primary": "wonder",
     "secondary": "contemplative",
-    "intensity": 0.82,
-    "valence": 0.55,
-    "arousal": 0.5,
+    "intensity": 0.85,
+    "valence": 0.6,
+    "arousal": 0.55,
     "rigor": 0.98
   },
   "energy": 26,
-  "mood": "contemplative",
+  "mood": "wonder",
   "mood_history": [
     {
       "mood": "wonder",
@@ -231,12 +232,16 @@
     {
       "mood": "contemplative",
       "at": "2026-06-24T10:50:22.298005+08:00"
+    },
+    {
+      "mood": "wonder",
+      "at": "2026-06-24T17:36:49.625620+08:00"
     }
   ],
   "last_walk": "2026-06-24",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 207,
+  "total_walks": 208,
   "topics": [
     "emergence",
     "consciousness",
@@ -433,7 +438,7 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 201,
+  "pending_insights": 204,
   "pending_research": 2,
   "last_pulse_output": "2026-06-24T15:49:54.628029+08:00",
   "interest_queue": [
@@ -442,10 +447,21 @@
       "topic": "Dreamer 检索层的轻量实现：基于结构距离的 entry 召回优先级",
       "source": "walk-205",
       "trigger": "MemTier 的 PPO 检索失败暗示需要更简单的替代方案",
-      "intensity": 0.7,
+      "intensity": 0.6499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-208-1",
+      "topic": "Normalization of Deviance 作为 Dreamer 偏差常态化检测器的理论基础",
+      "source": "walk-208",
+      "trigger": "偏差的常态化是逆级联的前置条件",
+      "intensity": 0.6499999999999999,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T17:36:49.625620+08:00",
       "decay_rate": 0.05
     },
     {
@@ -453,7 +469,7 @@
       "topic": "strength vs confidence 双维度：Dreamer 的 Memory Poisoning 检测",
       "source": "walk-205",
       "trigger": "Mem0 的 Memory Poisoning + Walk 199 correction 的未修正风险",
-      "intensity": 0.65,
+      "intensity": 0.6,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
@@ -464,7 +480,7 @@
       "topic": "Information bottleneck as DORMANT optimal compression criterion",
       "source": "walk-203",
       "trigger": "deletion-not-changing-citation-pattern as redundancy signal",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T04:16:10.941034+08:00",
@@ -475,10 +491,21 @@
       "topic": "认知 Kolmogorov 尺度的操作化：单次推理步骤的最小有效信息增量阈值",
       "source": "walk-204",
       "trigger": "单次推理步骤产生的预测误差小于某个阈值时不会在 subconscious 中留下可测量的痕迹",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T09:07:01.580605+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-208-2",
+      "topic": "安全文化三要素在 Dreamer 中的完备性评估：负能力+引用系统+失败学习",
+      "source": "walk-208",
+      "trigger": "Vaughan 的 safety culture 概念",
+      "intensity": 0.5999999999999999,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-24T17:36:49.625620+08:00",
       "decay_rate": 0.05
     },
     {
@@ -486,7 +513,7 @@
       "topic": "级串间歇性与 DORMANT 周期的关系：高间歇性是否预测更频繁的 DORMANT 触发",
       "source": "walk-204",
       "trigger": "高 ε 期（连续高产出散步）后跟随低 ε 期（耗散消耗了可用信息）",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T09:07:01.580605+08:00",
@@ -497,10 +524,21 @@
       "topic": "巩固型散步作为记忆消毒机制：显式审查高 connections 低 confidence 的 entry",
       "source": "walk-205",
       "trigger": "DORMANT 衰减的结构性盲区",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-208-3",
+      "topic": "引用集中度与质量-引用脱钩作为偏差常态化早期信号的可行性",
+      "source": "walk-208",
+      "trigger": "高连接低质量 = 高度常态化偏差",
+      "intensity": 0.5499999999999999,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T17:36:49.625620+08:00",
       "decay_rate": 0.05
     },
     {
@@ -508,43 +546,10 @@
       "topic": "Three-world agency framework operationalization",
       "source": "walk-203",
       "trigger": "self-world agency as primary causal path",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T04:16:10.941034+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-203-3",
-      "topic": "Asymmetric grounding gain empirical test",
-      "source": "walk-203",
-      "trigger": "comparing graph_change_rate vs external citation impact",
-      "intensity": 0.5499999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-24T04:16:10.941034+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-204-3",
-      "topic": "逆级联触发条件的形式化：graph_change_rate > 15% 的散步有什么前置特征",
-      "source": "walk-204",
-      "trigger": "逆级联事件应该在大规模耗散后触发——类似湍流中的能量逆级串发生在强剪切之后",
-      "intensity": 0.5499999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-24T09:07:01.580605+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-201-1",
-      "topic": "Dreamer 的接地度量化：互信息作为因果-信息通道带宽的度量",
-      "source": "walk-201",
-      "trigger": "接地不对称性框架的形式化需求",
-      "intensity": 0.5499999999999998,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-24T01:34:28.484778+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -554,12 +559,12 @@
     "humor": 0.44,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
-    "wonder": 1.5,
-    "rigor": 3.2999999999999994,
+    "wonder": 1.55,
+    "rigor": 3.329999999999999,
     "skepticism": 1.5,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.15,
+  "walk_quality_avg": 8.06,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -665,7 +670,7 @@
   ],
   "last_walk_at": "2026-06-24",
   "pressure": 100.0,
-  "next_scheduled": "2026-06-24T16:37:08.636235+08:00",
+  "next_scheduled": "2026-06-24T17:51:49.625620+08:00",
   "cognitive_pressure": 84.5,
-  "last_active": "2026-06-24T04:49:13.176575+08:00"
+  "last_active": "2026-06-24T17:36:49.625620+08:00"
 }

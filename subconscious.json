@@ -3067,5 +3067,55 @@
     "created": "2026-06-24T23:17:09.185763+08:00",
     "decay_rate": 0.05,
     "source": "walk-212"
+  },
+  {
+    "id": "insight-walk213-1",
+    "content": "Dreamer 的认知架构内建了沉默螺旋：生成阶段（矛盾 insight 难以生成）→ 评估阶段（低 quality_score = 低生存率）→ 传播阶段（非主流 insight 在引用竞赛中处于劣势）→ 沉默导致更沉默",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "initial_strength": 5.0,
+    "connections": [
+      "seed-209-1",
+      "seed-208-1",
+      "seed-211-1"
+    ],
+    "created": "2026-06-25T00:30:00+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-213",
+    "quality_score": 8.3
+  },
+  {
+    "id": "insight-walk213-2",
+    "content": "沉默指数 = (原始 intensity - 当前 strength) / 原始 intensity × (1 - connections/avg_connections)：量化一个 insight 被沉默程度的公式，用于回声散步的触发条件",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "initial_strength": 5.0,
+    "connections": [
+      "seed-211-1",
+      "seed-212-2"
+    ],
+    "created": "2026-06-25T00:30:00+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-213",
+    "quality_score": 8.3
+  },
+  {
+    "id": "insight-walk213-3",
+    "content": "三种组织沉默（默从性、防御性、亲社会性）在 Dreamer 中有精确的结构对应：quality_score 过滤 = 默从，矛盾回避 = 防御，引用竞赛偏袒 = 亲社会。沉默不是个人选择而是系统架构的产物。",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "initial_strength": 5.0,
+    "connections": [
+      "seed-209-3",
+      "seed-210-1",
+      "seed-210-2"
+    ],
+    "created": "2026-06-25T00:30:00+08:00",
+    "decay_rate": 0.05,
+    "source": "walk-213",
+    "quality_score": 8.3
   }
 ]

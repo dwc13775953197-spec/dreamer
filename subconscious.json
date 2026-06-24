@@ -2624,5 +2624,67 @@
       "compression",
       "redundancy"
     ]
+  },
+  {
+    "id": "insight-204-1",
+    "type": "insight",
+    "content": "Dreamer cognitive system as Kolmogorov cascade: information injects at large scale (skeleton), transfers through inertial zone (subconscious), dissipates at small scale (immediate reasoning). Structure change (inverse cascade) is intrinsic, not exceptional.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T09:30:00+08:00",
+    "source": "walk-204",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-203-1",
+      "insight-203-2",
+      "ins-061"
+    ],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "Cognitive cascade model: unifies walk-202 info-theoretic grounding with walk-203 three-world agency"
+  },
+  {
+    "id": "insight-204-2",
+    "type": "insight",
+    "content": "Cognitive Kolmogorov scale: minimum effective information increment per reasoning step. Steps below this threshold are cognitive thermodynamic noise — no measurable trace in subconscious.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T09:30:00+08:00",
+    "source": "walk-204",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-203-3",
+      "insight-193-3"
+    ],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "Dissipation cutoff analog: explains low-quality walks as all-reasoning-in-dissipation-zone"
+  },
+  {
+    "id": "insight-204-3",
+    "type": "insight",
+    "content": "Intermittency prediction: high cognitive flux periods (consecutive high-quality walks) should be followed by dissipation periods (low-quality or DORMANT). Inverse cascade (structure reorganization) triggers after large-scale dissipation.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T09:30:00+08:00",
+    "source": "walk-204",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-204-1",
+      "insight-204-2",
+      "dormant-20260624-0306"
+    ],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "Testable: quality_score time series should show turbulent intermittency (flat factor > 3)"
   }
 ]

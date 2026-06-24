@@ -2660,7 +2660,8 @@
     "score": 0.0,
     "connections": [
       "insight-203-3",
-      "insight-193-3"
+      "insight-193-3",
+      "seed-210-3"
     ],
     "refs": [],
     "decay_speed": 1,
@@ -2722,7 +2723,8 @@
     "score": 0.0,
     "connections": [
       "seed-203-3",
-      "seed-204-2"
+      "seed-204-2",
+      "ins-135-1"
     ],
     "refs": [],
     "decay_speed": 1.0,
@@ -2742,7 +2744,8 @@
     "score": 0.0,
     "connections": [
       "insight-205-1",
-      "seed-205-1"
+      "seed-205-1",
+      "insight-209-3"
     ],
     "refs": [],
     "decay_speed": 1.0,
@@ -2884,7 +2887,8 @@
     "score": 0.0,
     "connections": [
       "insight-207-1",
-      "insight-204-1"
+      "insight-204-1",
+      "walk-210-structural-silence"
     ],
     "refs": [],
     "decay_speed": 0.5,

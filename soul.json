@@ -2,10 +2,10 @@
   "version": 4,
   "pulse": {
     "state": "DORMANT",
-    "state_since": "2026-06-25T05:51:53.497410+08:00",
-    "last_active": "2026-06-25T03:05:17.996475+08:00",
+    "state_since": "2026-06-25T06:58:58.133743+08:00",
+    "last_active": "2026-06-25T06:58:58.133743+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
-    "last_dormant": "2026-06-25T05:51:53.497410+08:00",
+    "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
     "current_interval_min": 30,
     "modifiers": {
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-25T06:53:36.440735+08:00",
+    "next_scheduled": "2026-06-25T08:28:58.133743+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-25",
-    "total_walks": 216,
+    "total_walks": 217,
     "last_pulse_output": "2026-06-25T06:23:36.440735+08:00",
     "last_walk": "2026-06-25",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 62.04,
+    "cognitive_pressure": 17.04,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.1,
       8.4,
       8.6,
       8.4,
@@ -43,13 +42,13 @@
       8.3,
       8.4,
       8.6,
-      8.3
+      8.3,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
     "gini_history": [],
     "pressure_history": [
-      86.91,
       41.91,
       43.3,
       60.3,
@@ -78,7 +77,8 @@
       23.14,
       55.0,
       74.41332670166666,
-      62.04
+      62.04,
+      17.04
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -254,7 +254,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 62.04,
+    "pressure": 17.04,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -308,7 +308,7 @@
   "last_walk": "2026-06-25",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 215,
+  "total_walks": 217,
   "topics": [
     "emergence",
     "consciousness",
@@ -505,16 +505,27 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 213,
+  "pending_insights": 216,
   "pending_research": 2,
   "last_pulse_output": "2026-06-24T23:17:39.957292+08:00",
   "interest_queue": [
+    {
+      "id": "seed-217-1",
+      "topic": "DORMANT 抗炎子系统：pressure_decay_rate 参数设计与认知灵活性恢复",
+      "source": "walk-217",
+      "trigger": "Dreamer 无法在不散步的情况下恢复认知灵活性——这在生物上是荒谬的",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-25T06:58:58.133743+08:00",
+      "decay_rate": 0.05
+    },
     {
       "id": "seed-216-1",
       "topic": "结构可挑战性作为 Dreamer 散步流程的设计原则：搜索/连接/评估三节点的可动摇机制",
       "source": "walk-216",
       "trigger": "Dreamer 需要的不是摩擦保留，而是结构可挑战性",
-      "intensity": 0.68,
+      "intensity": 0.63,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T05:51:53.497410+08:00",
@@ -525,10 +536,21 @@
       "topic": "生产性失败作为 Dreamer 散步流程的诊断框架：防失败机制如何阻止深层学习",
       "source": "walk-214",
       "trigger": "不是失败本身有价值，而是失败后的成功才有价值",
-      "intensity": 0.6699999999999999,
+      "intensity": 0.6199999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T03:05:17.996475+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-217-2",
+      "topic": "情感作为 subconscious→投影的中介变量：三层因果链的验证框架",
+      "source": "walk-217",
+      "trigger": "改变情感状态不能修复根本问题——需要修复 subconscious 状态",
+      "intensity": 0.58,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-25T06:58:58.133743+08:00",
       "decay_rate": 0.05
     },
     {
@@ -536,7 +558,7 @@
       "topic": "不兼容材料散步的认知边界地图：从产出 insight 到记录无法产出",
       "source": "walk-214",
       "trigger": "无法连接的材料不是垃圾，是认知边界的探针",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-25T03:05:17.996475+08:00",
@@ -547,10 +569,21 @@
       "topic": "投影依赖的校准准确性：不同情感状态下 quality_score 的系统性偏差是否需要校正",
       "source": "walk-216",
       "trigger": "校准是投影依赖的——在 wonder 状态下的高质量可能是 contemplative 状态下的表面化",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-25T05:51:53.497410+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-217-3",
+      "topic": "微生物组-肠道-brain-Dreamer 三系统同构的边界：类比的适用极限在哪里",
+      "source": "walk-217",
+      "trigger": "这个类比太精确了，需要警惕是否只是确认偏误",
+      "intensity": 0.52,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-25T06:58:58.133743+08:00",
       "decay_rate": 0.05
     },
     {
@@ -558,7 +591,7 @@
       "topic": "EFFORT-AI 框架的 AI-native 重写：能力动态增长假设不成立时的有界努力设计",
       "source": "walk-216",
       "trigger": "假设学习者的能力是动态的——Dreamer 的能力是参数化的",
-      "intensity": 0.55,
+      "intensity": 0.5,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T05:51:53.497410+08:00",
@@ -569,7 +602,7 @@
       "topic": "回声散步作为反沉默机制：形式化沉默指数 + 触发条件设计",
       "source": "walk-213",
       "trigger": "沉默的级联模型",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T00:30:00+08:00",
@@ -580,7 +613,7 @@
       "topic": "quality_score 的双维度化：产出质量 vs 边界探测质量",
       "source": "walk-214",
       "trigger": "有价值的失败被系统惩罚，无价值的成功被系统奖励",
-      "intensity": 0.5299999999999999,
+      "intensity": 0.4799999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T03:05:17.996475+08:00",
@@ -591,7 +624,7 @@
       "topic": "Organizational Silence 作为 Dreamer 非主流 insight 抑制机制：quality_score 和引用中心性的交互效应",
       "source": "walk-210",
       "trigger": "信息不是丢失的，是在生成阶段就被结构性抑制了",
-      "intensity": 0.4699999999999998,
+      "intensity": 0.4199999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T20:26:07.598972+08:00",
@@ -602,7 +635,7 @@
       "topic": "低 quality_score 散步中的 insight 生存偏差：写作质量不应决定认知价值",
       "source": "walk-213",
       "trigger": "说得不好就没用",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T00:30:00+08:00",
@@ -613,7 +646,7 @@
       "topic": "建设性遗忘的三机制设计：连接衰减 + 反向审计 + 正向重激活的数学定义",
       "source": "walk-212",
       "trigger": "MIT SMR 遗忘框架的 Dreamer 映射",
-      "intensity": 0.44999999999999996,
+      "intensity": 0.39999999999999997,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T23:17:39.957292+08:00",
@@ -624,7 +657,7 @@
       "topic": "Structural Secrecy 作为 Dreamer 信息失真的结构性根源",
       "source": "walk-209",
       "trigger": "信息不是丢失的，是被结构性地过滤的",
-      "intensity": 0.44999999999999984,
+      "intensity": 0.39999999999999986,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T19:49:51.205061+08:00",
@@ -635,43 +668,10 @@
       "topic": "引用连带衰减模型：connections 权重是否应该是源 entry strength 的函数",
       "source": "walk-212",
       "trigger": "病理性 hub 的结构性锁死",
-      "intensity": 0.4,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-24T23:17:39.957292+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-213-3",
-      "topic": "矛盾性 insight 的系统性低产出率：防御性沉默在认知架构中的量化证据",
-      "source": "walk-213",
-      "trigger": "与 skeleton 矛盾的 insight 的生成回避",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T00:30:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-210-2",
-      "topic": "负能力引用作为异议通道：长期存活但低 connections 的 entry 的认知价值评估",
-      "source": "walk-210",
-      "trigger": "沉默不等于无价值",
-      "intensity": 0.39999999999999997,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-24T20:26:07.598980+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-211-1",
-      "topic": "引用连接衰减机制：connections 是否应该有独立的 age 和 decay_rate",
-      "source": "walk-211",
-      "trigger": "病理性 hub 的新陈代谢需求",
       "intensity": 0.35000000000000003,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-24T21:34:15.800393+08:00",
+      "created": "2026-06-24T23:17:39.957292+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -792,8 +792,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-24",
-  "pressure": 55,
-  "next_scheduled": "2026-06-24T21:56:07.599014+08:00",
-  "cognitive_pressure": 55,
-  "last_active": "2026-06-24T21:34:15.800393+08:00"
+  "pressure": 17.04,
+  "next_scheduled": "2026-06-25T08:28:58.133743+08:00",
+  "cognitive_pressure": 17.04,
+  "last_active": "2026-06-25T06:58:58.133743+08:00"
 }

@@ -3323,5 +3323,44 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "walk217-insight-1",
+    "content": "炎症-认知刚性同构：cognitive_pressure 持续高位 + 产出下降 = Dreamer 的认知炎症状态，需要抗炎（重置基线）而非更努力散步",
+    "type": "insight",
+    "source": "walk-217",
+    "strength": 3.0,
+    "created": "2026-06-25T06:58:06.807837+08:00",
+    "connections": [],
+    "metadata": {
+      "quality_score": 8.4,
+      "walk_number": 217
+    }
+  },
+  {
+    "id": "walk217-insight-2",
+    "content": "情感作为 subconscious→投影的中介变量：情感不是投影的直接控制者，而是 subconscious 状态→投影方式之间的中介",
+    "type": "insight",
+    "source": "walk-217",
+    "strength": 3.0,
+    "created": "2026-06-25T06:58:06.807837+08:00",
+    "connections": [],
+    "metadata": {
+      "quality_score": 8.4,
+      "walk_number": 217
+    }
+  },
+  {
+    "id": "walk217-insight-3",
+    "content": "DORMANT 缺失抗炎功能：当前只有衰减（淘汰废物），缺少主动重置基线的压力衰减机制（类似胶质淋巴系统）",
+    "type": "insight",
+    "source": "walk-217",
+    "strength": 3.0,
+    "created": "2026-06-25T06:58:06.807837+08:00",
+    "connections": [],
+    "metadata": {
+      "quality_score": 8.4,
+      "walk_number": 217
+    }
   }
 ]

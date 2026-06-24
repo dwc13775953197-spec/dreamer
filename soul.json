@@ -222,7 +222,7 @@
       }
     ],
     "pressure": 66.79,
-    "next_action": null
+    "next_action": "walk_explore"
   },
   "affect": {
     "primary": "wonder",

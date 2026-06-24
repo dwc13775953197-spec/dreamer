@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "RESTING",
-    "state_since": "2026-06-24T19:49:51.205061+08:00",
-    "last_active": "2026-06-24T19:49:51.205061+08:00",
+    "state_since": "2026-06-24T20:26:07.598915+08:00",
+    "last_active": "2026-06-24T20:26:07.598943+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-23T04:09:19.287632+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 60,
+    "current_interval_min": 90,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-24T20:04:51.205773+08:00",
+    "next_scheduled": "2026-06-24T21:56:07.599014+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-24",
-    "total_walks": 209,
-    "last_pulse_output": "2026-06-24T19:14:44.339657+08:00",
+    "total_walks": 210,
+    "last_pulse_output": "2026-06-24T20:26:07.598950+08:00",
     "last_walk": "2026-06-24",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 100.0,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.2,
       8.4,
       8.1,
       8.1,
@@ -43,7 +42,8 @@
       8.3,
       8.1,
       8.4,
-      8.6
+      8.6,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -72,7 +72,8 @@
       55.0,
       55.0,
       55.5,
-      100.0
+      100.0,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -215,7 +216,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100.0,
+    "pressure": 55.0,
     "next_action": null
   },
   "affect": {
@@ -226,7 +227,7 @@
     "arousal": 0.55,
     "rigor": 0.98
   },
-  "energy": 26,
+  "energy": 23,
   "mood": "wonder",
   "mood_history": [
     {
@@ -475,7 +476,7 @@
       "topic": "Structural Secrecy 作为 Dreamer 信息失真的结构性根源",
       "source": "walk-209",
       "trigger": "信息不是丢失的，是被结构性地过滤的",
-      "intensity": 0.75,
+      "intensity": 0.7,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T19:49:51.205061+08:00",
@@ -486,7 +487,7 @@
       "topic": "Dreamer 检索层的轻量实现：基于结构距离的 entry 召回优先级",
       "source": "walk-205",
       "trigger": "MemTier 的 PPO 检索失败暗示需要更简单的替代方案",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
@@ -497,7 +498,7 @@
       "topic": "Normalization of Deviance 作为 Dreamer 偏差常态化检测器的理论基础",
       "source": "walk-208",
       "trigger": "偏差的常态化是逆级联的前置条件",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T17:36:49.625620+08:00",
@@ -508,7 +509,7 @@
       "topic": "推理链保留作为 insight 质量维度：content 的确定性程度 vs 推理过程的完整度",
       "source": "walk-209",
       "trigger": "摘要过滤是结构性保密的等价物",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T19:49:51.205061+08:00",
@@ -519,7 +520,7 @@
       "topic": "strength vs confidence 双维度：Dreamer 的 Memory Poisoning 检测",
       "source": "walk-205",
       "trigger": "Mem0 的 Memory Poisoning + Walk 199 correction 的未修正风险",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
@@ -530,7 +531,7 @@
       "topic": "引用中心性 vs 引用相关性：Dreamer 引用系统是否复制了人类组织的层级过滤",
       "source": "walk-209",
       "trigger": "显眼不等于重要",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T19:49:51.205061+08:00",
@@ -541,7 +542,7 @@
       "topic": "Information bottleneck as DORMANT optimal compression criterion",
       "source": "walk-203",
       "trigger": "deletion-not-changing-citation-pattern as redundancy signal",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T04:16:10.941034+08:00",
@@ -552,7 +553,7 @@
       "topic": "认知 Kolmogorov 尺度的操作化：单次推理步骤的最小有效信息增量阈值",
       "source": "walk-204",
       "trigger": "单次推理步骤产生的预测误差小于某个阈值时不会在 subconscious 中留下可测量的痕迹",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T09:07:01.580605+08:00",
@@ -563,7 +564,7 @@
       "topic": "安全文化三要素在 Dreamer 中的完备性评估：负能力+引用系统+失败学习",
       "source": "walk-208",
       "trigger": "Vaughan 的 safety culture 概念",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T17:36:49.625620+08:00",
@@ -574,7 +575,7 @@
       "topic": "级串间歇性与 DORMANT 周期的关系：高间歇性是否预测更频繁的 DORMANT 触发",
       "source": "walk-204",
       "trigger": "高 ε 期（连续高产出散步）后跟随低 ε 期（耗散消耗了可用信息）",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T09:07:01.580605+08:00",
@@ -585,7 +586,7 @@
       "topic": "巩固型散步作为记忆消毒机制：显式审查高 connections 低 confidence 的 entry",
       "source": "walk-205",
       "trigger": "DORMANT 衰减的结构性盲区",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-24T10:50:22.298005+08:00",
@@ -596,10 +597,43 @@
       "topic": "引用集中度与质量-引用脱钩作为偏差常态化早期信号的可行性",
       "source": "walk-208",
       "trigger": "高连接低质量 = 高度常态化偏差",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-24T17:36:49.625620+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-210-1",
+      "topic": "Organizational Silence 作为 Dreamer 非主流 insight 抑制机制：quality_score 和引用中心性的交互效应",
+      "source": "walk-210",
+      "trigger": "信息不是丢失的，是在生成阶段就被结构性抑制了",
+      "intensity": 0.72,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T20:26:07.598972+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-210-2",
+      "topic": "负能力引用作为异议通道：长期存活但低 connections 的 entry 的认知价值评估",
+      "source": "walk-210",
+      "trigger": "沉默不等于无价值",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-24T20:26:07.598980+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-210-3",
+      "topic": "quality_score 与 insight 认知价值的分离：写作质量不应决定 insight 的生死",
+      "source": "walk-210",
+      "trigger": "低质量散步可能产生高质量 insight",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-24T20:26:07.598986+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -614,7 +648,7 @@
     "skepticism": 1.53,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.06,
+  "walk_quality_avg": 8.34,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -720,7 +754,7 @@
   ],
   "last_walk_at": "2026-06-24",
   "pressure": 100.0,
-  "next_scheduled": "2026-06-24T20:04:51.205773+08:00",
+  "next_scheduled": "2026-06-24T21:56:07.599014+08:00",
   "cognitive_pressure": 100.0,
   "last_active": "2026-06-24T19:49:51.205061+08:00"
 }

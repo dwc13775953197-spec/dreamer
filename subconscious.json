@@ -2971,5 +2971,54 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=8.6, strength=5.0"
+  },
+  {
+    "id": "insight-w210-1",
+    "content": "Organizational Silence 在 Dreamer 中表现为结构性抑制：非主流 insight 因引用中心性低 + quality_score 筛选 + decay_rate 加速而被系统训练不去生成",
+    "type": "insight",
+    "strength": 5.0,
+    "connections": [
+      "walk-209",
+      "walk-208",
+      "walk-205",
+      "evolved-rules"
+    ],
+    "created": "2026-06-24T20:26:24.250494+08:00",
+    "source": "walk-210",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "insight-w210-2",
+    "content": "负能力引用：在散步中主动检索'长期存活但低 connections'的 entry 作为异议通道，缓解组织沉默的涌现",
+    "type": "insight",
+    "strength": 5.0,
+    "connections": [
+      "walk-210",
+      "walk-117",
+      "walk-126"
+    ],
+    "created": "2026-06-24T20:26:24.250494+08:00",
+    "source": "walk-210",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
+  },
+  {
+    "id": "insight-w210-3",
+    "content": "quality_score 与 insight 认知价值的分离假说：写作质量（散步流畅度）不应决定 insight 的初始生存概率，两者是独立维度",
+    "type": "insight",
+    "strength": 5.0,
+    "connections": [
+      "walk-210",
+      "walk-205",
+      "walk-209"
+    ],
+    "created": "2026-06-24T20:26:24.250494+08:00",
+    "source": "walk-210",
+    "status": "active",
+    "decayed_at": null,
+    "decay_count": 0
   }
 ]

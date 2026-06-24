@@ -3284,5 +3284,44 @@
       "quality-score",
       "walk-meta"
     ]
+  },
+  {
+    "id": "ins-215-1",
+    "type": "insight",
+    "content": "投影盲区：骨架作为地图投影，其内在变换方式本身不允许某些维度被表示——不是因为缺少数据，而是投影的数学约束",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-25T04:45:05.328781+08:00",
+    "source": "walk-215",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-215-2",
+    "type": "insight",
+    "content": "情感作为投影参数假说：wonder=广角投影（范围广深度浅），contemplative=窄角投影（深度深范围窄），melancholy=滤镜投影（偏向损失/缺失类材料）",
+    "strength": 5.0,
+    "score": 0.65,
+    "status": "active",
+    "created": "2026-06-25T04:45:09.578170+08:00",
+    "source": "walk-215",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-215-3",
+    "type": "insight",
+    "content": "Walk 212-215 四步结构性限制模型：遗忘→沉默→防失败→投影盲区。投影盲区是最深层的结构性限制，是系统存在方式的内在约束",
+    "strength": 5.0,
+    "score": 0.6,
+    "status": "active",
+    "created": "2026-06-25T04:45:14.010272+08:00",
+    "source": "walk-215",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

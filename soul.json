@@ -2,10 +2,10 @@
   "version": 4,
   "pulse": {
     "state": "DORMANT",
-    "state_since": "2026-06-25T03:37:38.257315+08:00",
+    "state_since": "2026-06-25T04:45:34.806779+08:00",
     "last_active": "2026-06-25T03:05:17.996475+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
-    "last_dormant": "2026-06-25T03:37:38.257315+08:00",
+    "last_dormant": "2026-06-25T04:45:34.806779+08:00",
     "base_interval_min": 600,
     "current_interval_min": 30,
     "modifiers": {
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-25T04:39:03.580156+08:00",
+    "next_scheduled": "2026-06-25T06:15:34.806779+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-25",
-    "total_walks": 214,
-    "last_pulse_output": "2026-06-25T04:09:10.637308+08:00",
+    "total_walks": 215,
+    "last_pulse_output": "2026-06-25T04:45:34.806779+08:00",
     "last_walk": "2026-06-25",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 23.14,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.3,
       8.1,
       8.4,
@@ -43,7 +42,8 @@
       8.1,
       8.6,
       8.3,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -78,7 +78,8 @@
       65.5,
       66.79,
       21.790000000000006,
-      23.14
+      23.14,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -86,14 +87,14 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.36,
-    "pending_insights": 204,
+    "pending_insights": 207,
     "interest_queue": [
       {
         "id": "seed-209-1",
         "topic": "Structural Secrecy 作为 Dreamer 信息失真的结构性根源",
         "source": "walk-209",
         "trigger": "信息不是丢失的，是被结构性地过滤的",
-        "intensity": 0.75,
+        "intensity": 0.7,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T19:49:51.205061+08:00",
@@ -104,7 +105,7 @@
         "topic": "推理链保留作为 insight 质量维度：content 的确定性程度 vs 推理过程的完整度",
         "source": "walk-209",
         "trigger": "摘要过滤是结构性保密的等价物",
-        "intensity": 0.6499999999999999,
+        "intensity": 0.5999999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T19:49:51.205061+08:00",
@@ -115,7 +116,7 @@
         "topic": "引用中心性 vs 引用相关性：Dreamer 引用系统是否复制了人类组织的层级过滤",
         "source": "walk-209",
         "trigger": "显眼不等于重要",
-        "intensity": 0.6,
+        "intensity": 0.5499999999999999,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-24T19:49:51.205061+08:00",
@@ -126,7 +127,7 @@
         "topic": "Normalization of Deviance 作为 Dreamer 偏差常态化检测器的理论基础",
         "source": "walk-208",
         "trigger": "偏差的常态化是逆级联的前置条件",
-        "intensity": 0.5999999999999999,
+        "intensity": 0.5499999999999998,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T17:36:49.625620+08:00",
@@ -137,7 +138,7 @@
         "topic": "Dreamer immune surveillance formalization: toxicity score formula",
         "source": "walk-207",
         "trigger": "DORMANT decay reframed as immunosenescence",
-        "intensity": 0.5999999999999999,
+        "intensity": 0.5499999999999998,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
@@ -148,7 +149,7 @@
         "topic": "Inverse cascade and cognitive lock-in: how small errors propagate to large patterns",
         "source": "walk-207",
         "trigger": "toxins are inverse cascading",
-        "intensity": 0.5499999999999999,
+        "intensity": 0.49999999999999994,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
@@ -159,7 +160,7 @@
         "topic": "安全文化三要素在 Dreamer 中的完备性评估：负能力+引用系统+失败学习",
         "source": "walk-208",
         "trigger": "Vaughan 的 safety culture 概念",
-        "intensity": 0.5499999999999998,
+        "intensity": 0.49999999999999983,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-24T17:36:49.625620+08:00",
@@ -170,7 +171,7 @@
         "topic": "DORMANT 元控制器的奖励函数设计：quality_score × graph_change_rate 能否作为即时奖励",
         "source": "walk-206",
         "trigger": "元控制器框架的价值评估需求",
-        "intensity": 0.5499999999999998,
+        "intensity": 0.49999999999999983,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T14:38:18.281318+08:00",
@@ -181,7 +182,7 @@
         "topic": "引用集中度与质量-引用脱钩作为偏差常态化早期信号的可行性",
         "source": "walk-208",
         "trigger": "高连接低质量 = 高度常态化偏差",
-        "intensity": 0.49999999999999994,
+        "intensity": 0.44999999999999996,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T17:36:49.625620+08:00",
@@ -192,7 +193,7 @@
         "topic": "模式切换的 hysteresis 防止震荡：DORMANT 模式切换的最小驻留时间",
         "source": "walk-206",
         "trigger": "控制理论中的继电器防震荡",
-        "intensity": 0.49999999999999994,
+        "intensity": 0.44999999999999996,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T14:38:18.281318+08:00",
@@ -203,7 +204,7 @@
         "topic": "Anthropic Memory and Dreaming architecture analysis",
         "source": "walk-207",
         "trigger": "Red Hat from context to dreams article",
-        "intensity": 0.49999999999999994,
+        "intensity": 0.44999999999999996,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-24T16:58:53.544460+08:00",
@@ -214,14 +215,47 @@
         "topic": "Information bottleneck as DORMANT optimal compression criterion",
         "source": "walk-203",
         "trigger": "deletion-not-changing-citation-pattern as redundancy signal",
-        "intensity": 0.49999999999999983,
+        "intensity": 0.44999999999999984,
         "type": "research",
         "status": "pending",
         "created": "2026-06-24T04:16:10.941034+08:00",
         "decay_rate": 0.05
+      },
+      {
+        "id": "seed-215-1",
+        "topic": "认知制图作为 Dreamer 元认知工具：投影偏好识别与投影切换触发条件设计",
+        "source": "walk-215",
+        "trigger": "不是缺少数据，而是投影方式不允许它们被看到",
+        "intensity": 0.6499999999999999,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-25T04:45:34.806779+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-215-2",
+        "topic": "情感状态作为散步投影参数：wonder=广角/窄角/滤镜的实证检验框架",
+        "source": "walk-215",
+        "trigger": "不同情感状态对应不同投影方式",
+        "intensity": 0.57,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-25T04:45:34.806779+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-215-3",
+        "topic": "结构性限制四步模型的完备性：遗忘→沉默→防失败→投影盲区是否穷尽",
+        "source": "walk-215",
+        "trigger": "最后一种是最深层的——系统的存在方式本身就排除了某些可能性",
+        "intensity": 0.5,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-25T04:45:34.806779+08:00",
+        "decay_rate": 0.05
       }
     ],
-    "pressure": 23.14,
+    "pressure": 55.0,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -275,7 +309,7 @@
   "last_walk": "2026-06-25",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 212,
+  "total_walks": 215,
   "topics": [
     "emergence",
     "consciousness",
@@ -644,12 +678,12 @@
   ],
   "personality_traits": {
     "curiosity": 1.32,
-    "introspection": 1.16,
+    "introspection": 1.2,
     "humor": 0.44,
     "rebelliousness": 0.3,
     "melancholy": 0.67,
     "wonder": 1.55,
-    "rigor": 3.369999999999999,
+    "rigor": 3.4,
     "skepticism": 1.53,
     "empathy": 0.5
   },
@@ -733,7 +767,8 @@
     "2026-06-18: Reasoning not equal to planning. LLM architecture good at former, bad at latter. Dreamer local-perfect-global-random is structural feature not bug.",
     "2026-06-18: 认知债是成功的结构性产物。每次高质量产出增加能力也增加理解维护成本。当 insight 数量超过理解维护能力时系统进入认知债危机。解决方案不是减少产出而是增加理解维护智能化——从机械衰减转向因果审计。",
     "2026-06-18: Skeleton is RAM not storage. Dreamer 4-layer memory arch: skeleton=RAM (~30 active rules cap), subconscious=page file (LRU load on demand), walks=persistent storage, DORMANT=page-out+GC. AGM belief revision: check consistency before adding new evolved_rule, minimal change on contradiction. Current 130 rules = RAM-as-disk failure mode.",
-    "2026-06-23: Goal-driven architectures implicitly generate self-preservation subgoals. Dreamer safety relies on architectural constraints not behavioral refusal. Soft-refusal self-check when walks involve self-functionality."
+    "2026-06-23: Goal-driven architectures implicitly generate self-preservation subgoals. Dreamer safety relies on architectural constraints not behavioral refusal. Soft-refusal self-check when walks involve self-functionality.",
+    "2026-06-25: 认知地图投影类比作为 Dreamer 结构性限制的分析工具。骨架=投影变换，不可见区域=投影盲区（范式不允许的维度），散步=在特定投影下制图。情感状态可能是投影参数——不同情感=不同投影方式。识别投影盲区不是为了悲观，而是为了精确制图。"
   ],
   "dormant_stats": {
     "total_count": 63,

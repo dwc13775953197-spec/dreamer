@@ -2686,5 +2686,66 @@
     "refs": [],
     "decay_speed": 1,
     "note": "Testable: quality_score time series should show turbulent intermittency (flat factor > 3)"
+  },
+  {
+    "id": "insight-205-1",
+    "type": "insight",
+    "content": "Retrieval is not a subsidiary function of memory system but its defining layer. Dreamer currently lacks explicit retrieval layer. MemTier proves semantic consolidation layer matters more than retrieval algorithm.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T10:51:45.110666+08:00",
+    "source": "walk-205",
+    "decay_rate": 0.02,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "seed-204-1",
+      "seed-203-1",
+      "seed-204-3"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "MemTier PPO retrieval failure implies simpler alternative needed"
+  },
+  {
+    "id": "insight-205-2",
+    "type": "insight",
+    "content": "Dreamer Memory Poisoning: not external malicious input but reasoning defects solidified as patterns. High-connections low-confidence entries cannot be cleared by DORMANT decay. Need confidence dimension independent of strength.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T10:51:45.110666+08:00",
+    "source": "walk-205",
+    "decay_rate": 0.02,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "seed-203-3",
+      "seed-204-2"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "Mem0 Memory Poisoning + Walk 199 correction residual risk"
+  },
+  {
+    "id": "insight-205-3",
+    "type": "insight",
+    "content": "Retrieval layer design needs balance between structural signal and contextual signal. Random retrieval may be source of creativity not bug. Audit of retrieval preferences matters more than retrieval algorithm optimization.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T10:51:45.110666+08:00",
+    "source": "walk-205",
+    "decay_rate": 0.02,
+    "decayed_at": 0,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "insight-205-1",
+      "seed-205-1"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "Alternative explanation for structural distance retrieval"
   }
 ]

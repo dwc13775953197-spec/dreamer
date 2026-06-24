@@ -2910,5 +2910,66 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": ""
+  },
+  {
+    "id": "insight-209-1",
+    "type": "insight",
+    "content": "Structural Secrecy in Dreamer has three forms: summary filtering (reasoning chain loss during insight-ification), citation localization (information flows by centrality not relevance), and DORMANT pressure squeezing (uniform decay cannot distinguish irrelevance from hidden value)",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T19:50:13.264348+08:00",
+    "source": "walk-209",
+    "decay_rate": 0.05,
+    "connections": [
+      "insight-208-1",
+      "insight-208-2",
+      "insight-207-2",
+      "walk-208"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.6, strength=5.0"
+  },
+  {
+    "id": "insight-209-2",
+    "type": "insight",
+    "content": "Cognitive lock-in requires two simultaneous preconditions: normalization of deviance (walk-208) AND structural secrecy (walk-209). Without structural secrecy, deviations are detected early; without normalization, deviations dont spread even when hidden. Together they create invisible rot.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T19:50:13.264348+08:00",
+    "source": "walk-209",
+    "decay_rate": 0.05,
+    "connections": [
+      "insight-209-1",
+      "insight-208-1",
+      "insight-208-3"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.6, strength=5.0"
+  },
+  {
+    "id": "insight-209-3",
+    "type": "insight",
+    "content": "Solution to structural secrecy is not better detectors but more transparent information channels: preserve reasoning chains in insights, weight citations by relevance not centrality, protect uncertainty signals in DORMANT decay",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-24T19:50:13.264348+08:00",
+    "source": "walk-209",
+    "decay_rate": 0.05,
+    "connections": [
+      "insight-209-1",
+      "insight-209-2",
+      "insight-206-1"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.6, strength=5.0"
   }
 ]

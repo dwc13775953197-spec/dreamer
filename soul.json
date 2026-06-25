@@ -21,8 +21,8 @@
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 70.0,
-    "pressure_threshold": 60.0,
+    "cognitive_pressure": 50.0,
+    "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
       "time_factor": 2.0,
@@ -46,7 +46,7 @@
       8.4
     ],
     "last_walk_insights": 3,
-    "decay_adjustment": 1.0,
+    "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
       61.93,
@@ -241,7 +241,7 @@
       }
     ],
     "pressure": 70.0,
-    "next_action": "walk_explore"
+    "next_action": "walk_analyze"
   },
   "affect": {
     "primary": "wonder",

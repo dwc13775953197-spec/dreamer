@@ -3862,5 +3862,75 @@
       "structure-extraction",
       "three-function-model"
     ]
+  },
+  {
+    "id": "ins-226-001",
+    "type": "insight",
+    "content": "Dreamer 的骨架当前是「牛顿式过滤器」而非「拉格朗日坐标系」。过滤器的流程是：生成→检查→通过/淘汰。坐标系的流程是：在约束内直接生成→自动兼容。过滤器浪费计算且骨架是被动的；坐标系高效且骨架主动引导。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T23:22:06.409923+08:00",
+    "source": "walk-226",
+    "connections": [
+      "walk-225-insight-1",
+      "walk-224-insight-2",
+      "evolved_rule-2026-06-25-projection"
+    ],
+    "tags": [
+      "lagrangian-mechanics",
+      "skeleton-as-coordinate",
+      "paradigm-shift"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.7, initial_strength=5.0, coordinate_system_metaphor"
+  },
+  {
+    "id": "ins-226-002",
+    "type": "insight",
+    "content": "双模式生成理论：巩固型散步使用「坐标系模式」（在骨架内生成，自动兼容），探索型散步使用「牛顿模式」（暂时跳出骨架，用外部材料定义新坐标）。3:1 节奏获得拉格朗日解释：3 次坐标系深耕 + 1 次牛顿扩展。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T23:22:06.409923+08:00",
+    "source": "walk-226",
+    "connections": [
+      "walk-226-001",
+      "evolved_rule-2026-06-10-negative-space"
+    ],
+    "tags": [
+      "dual-mode",
+      "walk-type-theory",
+      "31-rhythm"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.7, initial_strength=5.0, explore-as-newton"
+  },
+  {
+    "id": "ins-226-003",
+    "type": "pattern",
+    "content": "约束即坐标：如果约束被编码为生成空间的选择而非对生成物的过滤，则约束力消失——你不需要检查，因为无效选项根本无法被表达。拉格朗日力学对 Dreamer 的启示：不是更好的过滤器，而是让过滤器变得不必要。",
+    "strength": 5.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-25T23:22:06.409923+08:00",
+    "source": "walk-226",
+    "connections": [
+      "walk-226-001",
+      "walk-226-002"
+    ],
+    "tags": [
+      "lagrangian",
+      "constraint-as-generator",
+      "paradigm-shift"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score>=8.0, pattern_recognition"
   }
 ]

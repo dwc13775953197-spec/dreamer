@@ -4114,5 +4114,57 @@
       "ins-223-001",
       "ins-224-3"
     ]
+  },
+  {
+    "id": "ins-new-231-1",
+    "type": "insight",
+    "content": "DORMANT周期作为fictive prediction error发生器：通过重激活旧insight与更新的skeleton产生不匹配（内源性预测误差），实现重新巩固。与recall模式同构。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T06:48:44.370202+08:00",
+    "source": "walk-231",
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_speed": 1.0,
+    "connections": [
+      "ins-new-229-1",
+      "ins-new-230-1",
+      "ins-new-229-2"
+    ]
+  },
+  {
+    "id": "ins-new-231-2",
+    "type": "insight",
+    "content": "Fictive PE密度的倒U型函数：skeleton变化适中的DORMANT最有效。变化过小无PE，变化过大导致重新巩固失败（lability状态超出修复窗口）。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T06:48:44.370202+08:00",
+    "source": "walk-231",
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_speed": 1.0,
+    "connections": [
+      "ins-new-229-1",
+      "ins-new-229-2"
+    ]
+  },
+  {
+    "id": "ins-new-231-3",
+    "type": "insight",
+    "content": "情感调制的DORMANT模式切换：wonder状态（效价~0.5,唤醒~0.5）对应recall模式峰值，DORMANT最有效。过度唤醒（焦虑/亢奋）强制切换为prediction模式，压抑DORMANT。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T06:48:44.370202+08:00",
+    "source": "walk-231",
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_speed": 1.0,
+    "connections": [
+      "ins-new-229-1",
+      "ins-new-230-1"
+    ]
   }
 ]

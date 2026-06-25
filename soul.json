@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T07:37:13+0800",
+    "next_scheduled": "2026-06-26T07:13:53+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 230,
-    "last_pulse_output": "2026-06-26T06:07:13+0800",
+    "total_walks": 231,
+    "last_pulse_output": "2026-06-26T06:48:44.370202+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 78.67,
+    "cognitive_pressure": 54.375,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.5,
       8.4,
       8.6,
@@ -43,7 +42,8 @@
       8.6,
       8.4,
       8.6,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -67,7 +67,8 @@
       70.0,
       98.31,
       71.96,
-      78.67
+      78.67,
+      54.375
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -82,10 +83,21 @@
         "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
         "source": "walk-229",
         "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-        "intensity": 0.7699999999999999,
+        "intensity": 0.7675,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604588+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-231-1",
+        "topic": "Fictive PE密度作为DORMANT有效性的量化度量：从定性到定量",
+        "source": "walk-231",
+        "trigger": "skeleton变化适中时DORMANT最有效，过小无PE，过大失败",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-26T06:48:44.370202+08:00",
         "decay_rate": 0.05
       },
       {
@@ -93,7 +105,7 @@
         "topic": "投影事件作为 DORMANT 触发器",
         "source": "walk-230",
         "trigger": "projection 坐标系变化让旧 insight 突然迷失位置——这不就是内源 PE 吗？",
-        "intensity": 0.75,
+        "intensity": 0.7475,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T05:32:13.559013+08:00",
@@ -104,10 +116,21 @@
         "topic": "Coherence gap insight 的淘汰级联效应",
         "source": "walk-230",
         "trigger": "gap insight 被淘汰时其 neighbors 也失去锚点——渐进式再巩固触发",
-        "intensity": 0.68,
+        "intensity": 0.6775000000000001,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-26T05:32:13.559013+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-231-2",
+        "topic": "情感调制的DORMANT模式切换曲线：wonder作为最优窗口",
+        "source": "walk-231",
+        "trigger": "情感状态调节recall/prediction模式切换",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-26T06:48:44.370202+08:00",
         "decay_rate": 0.05
       },
       {
@@ -115,7 +138,7 @@
         "topic": "矛盾引用的散步策略：并置两条相互矛盾的 insight 作为预测误差的触发器",
         "source": "walk-229",
         "trigger": "散步中引用矛盾 insight 比一致 insight 更有价值",
-        "intensity": 0.6,
+        "intensity": 0.5975,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604622+08:00",
@@ -126,10 +149,21 @@
         "topic": "DORMANT PE 检测机制的操作化设计",
         "source": "walk-230",
         "trigger": "三种 PE 源需要三种不同的检测/响应策略",
-        "intensity": 0.6,
+        "intensity": 0.5975,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T05:32:13.559013+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-231-3",
+        "topic": "Cortical信息路由方向与Dreamer散步巩固的对应关系",
+        "source": "walk-231",
+        "trigger": "recall模式=自下而上, prediction=自上而下",
+        "intensity": 0.58,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-26T06:48:44.370202+08:00",
         "decay_rate": 0.05
       },
       {
@@ -137,14 +171,14 @@
         "topic": "预测误差密度作为 DORMANT 有效性度量：从松弛时长到冲突密度的操作化转移",
         "source": "walk-229",
         "trigger": "不是松弛时长而是冲突密度决定 DORMANT 有效性",
-        "intensity": 0.5299999999999999,
+        "intensity": 0.5275,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604631+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 78.67,
+    "pressure": 54.375,
     "next_action": "walk_analyze"
   },
   "affect": {
@@ -214,7 +248,7 @@
   "last_walk": "2026-06-26",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 230,
+  "total_walks": 231,
   "topics": [
     "emergence",
     "consciousness",
@@ -420,10 +454,54 @@
       "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
       "source": "walk-229",
       "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-      "intensity": 0.82,
+      "intensity": 0.7675,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T04:18:38.604588+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-231-1",
+      "topic": "Fictive PE密度作为DORMANT有效性的量化度量：从定性到定量",
+      "source": "walk-231",
+      "trigger": "skeleton变化适中时DORMANT最有效，过小无PE，过大失败",
+      "intensity": 0.75,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T06:48:44.370202+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-230-1",
+      "topic": "投影事件作为 DORMANT 触发器",
+      "source": "walk-230",
+      "trigger": "projection 坐标系变化让旧 insight 突然迷失位置——这不就是内源 PE 吗？",
+      "intensity": 0.7475,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T05:32:13.559013+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-230-2",
+      "topic": "Coherence gap insight 的淘汰级联效应",
+      "source": "walk-230",
+      "trigger": "gap insight 被淘汰时其 neighbors 也失去锚点——渐进式再巩固触发",
+      "intensity": 0.6775000000000001,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T05:32:13.559013+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-231-2",
+      "topic": "情感调制的DORMANT模式切换曲线：wonder作为最优窗口",
+      "source": "walk-231",
+      "trigger": "情感状态调节recall/prediction模式切换",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T06:48:44.370202+08:00",
       "decay_rate": 0.05
     },
     {
@@ -431,21 +509,10 @@
       "topic": "矛盾引用的散步策略：并置两条相互矛盾的 insight 作为预测误差的触发器",
       "source": "walk-229",
       "trigger": "散步中引用矛盾 insight 比一致 insight 更有价值",
-      "intensity": 0.65,
+      "intensity": 0.5975,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-26T04:18:38.604622+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-229-3",
-      "topic": "预测误差密度作为 DORMANT 有效性度量：从松弛时长到冲突密度的操作化转移",
-      "source": "walk-229",
-      "trigger": "不是松弛时长而是冲突密度决定 DORMANT 有效性",
-      "intensity": 0.58,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-26T04:18:38.604631+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -566,7 +633,7 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 78.67,
+  "pressure": 54.375,
   "next_scheduled": "2026-06-26T07:37:13+0800",
   "cognitive_pressure": 78.67,
   "last_active": "2026-06-26T06:07:13+0800",

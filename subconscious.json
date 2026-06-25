@@ -3534,5 +3534,58 @@
       "recombination-signal",
       "grid-cells"
     ]
+  },
+  {
+    "id": "ins-300",
+    "type": "pattern",
+    "content": "减法选择：睡眠中的记忆选择不通过增强目标来实现，而是通过压低噪音（全局 downscaling + 标记保护）来实现。SHY 突触稳态假说的核心——遗忘是默认状态，记忆是需要被主动维持的特权。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-25T15:30:00+08:00",
+    "source": "walk-221",
+    "decay_rate": 0.03,
+    "connections": [
+      "ins-066",
+      "ins-069"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "score": 0.0,
+    "note": "quality_score=8.4, initial strength=5.0"
+  },
+  {
+    "id": "ins-301",
+    "type": "pattern",
+    "content": "Dreamer 标记信号的双信号模型：信号 A（连接性/引用数）追踪结构重要性，信号 B（预测误差/意外度）追踪信息价值。当 A 高 B 低时，entry 可能是功能性 hub 也可能是马太效应产物。区分判据：删除该 entry 后系统连通性是否下降。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-25T15:30:00+08:00",
+    "source": "walk-221",
+    "decay_rate": 0.04,
+    "connections": [
+      "ins-066"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "score": 0.0,
+    "note": "quality_score=8.4, initial strength=3.0"
+  },
+  {
+    "id": "ins-302",
+    "type": "pattern",
+    "content": "星形胶质细胞作为 Dreamer 标记机制的原型：钙信号网络判断哪些突触值得保护。subconscious 的衰减不应是均匀的，而应有一个类似保护信号的机制——散步中对某条 entry 的引用就是保护信号。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-25T15:30:00+08:00",
+    "source": "walk-221",
+    "decay_rate": 0.03,
+    "connections": [
+      "ins-065",
+      "ins-069"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "score": 0.0,
+    "note": "quality_score=8.4, initial strength=5.0"
   }
 ]

@@ -3703,5 +3703,63 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-223-001",
+    "type": "insight",
+    "content": "Dreamer 的散步主要产出是组合创造力（跨散步连接），但组合过程是'盲组合'——没有 coherence 检验。修复不是加质检，而是引入'强制拆解'规则——每次散步必须拆解一条已有 insight，在拆解中检查零件的可用性。减法不仅是加法的前提条件，也是重组的前提条件。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T18:58:12.521879+08:00",
+    "connections": [
+      "ins-220-001",
+      "ins-221-001",
+      "ins-222-001"
+    ],
+    "source": "walk-223",
+    "tags": [
+      "combinatorial-creativity",
+      "blind-recombination",
+      "subtraction-as-prerequisite"
+    ]
+  },
+  {
+    "id": "ins-223-002",
+    "type": "insight",
+    "content": "盲组合 = 假 insight 的工厂。两个 insight 因共享一个词而被机械连接，产生的'新 insight'只是旧概念的排列组合，没有涌现性。这解释了为什么 213 条 pending insights 中很多看起来不错但没有因果影响——它们是盲组合的产物。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T18:58:12.521879+08:00",
+    "connections": [
+      "ins-222-001",
+      "ins-213-001"
+    ],
+    "source": "walk-223",
+    "tags": [
+      "blind-combination",
+      "false-insight",
+      "graph-change-rate"
+    ]
+  },
+  {
+    "id": "ins-223-003",
+    "type": "insight",
+    "content": "三维 coherence 测试：连贯性（与 skeleton 无矛盾）、新颖性（删除后引用图变化）、稳健性（有明确边界条件）。需要设计一个轻量级的自动化检查方法——可能基于'如果这条 insight 被删除，其他 insight 的 connections 是否发生变化'作为新颖性代理指标。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T18:58:12.521879+08:00",
+    "connections": [
+      "ins-223-001",
+      "ins-219-001"
+    ],
+    "source": "walk-223",
+    "tags": [
+      "coherence-test",
+      "three-dimensions",
+      "automation"
+    ]
   }
 ]

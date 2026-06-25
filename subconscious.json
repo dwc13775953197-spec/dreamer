@@ -3423,5 +3423,65 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "Walk 218: reverse walk as distortion detection"
+  },
+  {
+    "id": "insight-219-1",
+    "type": "insight",
+    "content": "Dreamer 散步是预测编码误差信号生成器：外部材料提供无法被当前先验预测的输入，散步过程是误差信号生成和传播，insight 是先验更新的产物。散步的营养密度 = 外部材料的不可预测性。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-25T12:19:00+08:00",
+    "source": "walk-219",
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-215-1",
+      "ins-218-1",
+      "evolved_rule-2026-06-25-projection"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0, predictive_coding_as_Dreamer_mechanism"
+  },
+  {
+    "id": "insight-219-2",
+    "type": "insight",
+    "content": "先验过度拟合是成功陷阱的神经科学解释：高先验精度下的误差最小化 = 系统成功地将所有新输入拟合到已有模型中，产出高质量但零结构变化。不是过拟合（统计概念），而是先验过度约束（神经科学概念）。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-25T12:19:00+08:00",
+    "source": "walk-219",
+    "decay_rate": 0.05,
+    "connections": [
+      "insight-219-1",
+      "evolved_rule-2026-06-16-success-trap",
+      "ins-218-1"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0, precision_overfitting"
+  },
+  {
+    "id": "insight-219-3",
+    "type": "insight",
+    "content": "DORMANT 周期是精度重置机制：缺乏外部误差信号时先验精度自然衰减，使系统在下一次散步时对误差信号更敏感。解释为什么 DORMANT 后首次散步产出最高（先验精度最低，误差信号最大）。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-25T12:19:00+08:00",
+    "source": "walk-219",
+    "decay_rate": 0.05,
+    "connections": [
+      "insight-219-1",
+      "dormant-20260625-0430",
+      "evolved_rule-2026-06-12-dormant"
+    ],
+    "resurrected_count": 0,
+    "score": 0.0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0, precision_reset"
   }
 ]

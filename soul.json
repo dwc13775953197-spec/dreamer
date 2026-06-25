@@ -3,25 +3,25 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-25T23:22:06.409923+08:00",
+    "last_active": "2026-06-26T00:31:41.209201+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 90,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T00:10:30.169488+08:00",
+    "next_scheduled": "2026-06-26T02:01:41.209201+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-25",
-    "total_walks": 226,
-    "last_pulse_output": "2026-06-25T23:55:30.169488+08:00",
-    "last_walk": "2026-06-25",
+    "last_walk_at": "2026-06-26",
+    "total_walks": 227,
+    "last_pulse_output": "2026-06-26T00:31:41.209201+08:00",
+    "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 72.0,
+    "cognitive_pressure": 27.0,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.5,
       8.4,
       8.6,
@@ -43,7 +42,8 @@
       8.4,
       8.6,
       8.5,
-      8.7
+      8.7,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.0,
@@ -59,7 +59,8 @@
       79.77,
       100.0,
       55.0,
-      72.0
+      72.0,
+      27.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -213,7 +214,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 72.0,
+    "pressure": 27.0,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -480,82 +481,60 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 216,
+  "pending_insights": 219,
   "pending_research": 2,
   "last_pulse_output": "2026-06-25T23:55:30.169488+08:00",
   "interest_queue": [
     {
-      "id": "seed-219-1",
-      "topic": "预测编码精度权重作为散步类型自动选择的信号",
-      "source": "walk-219",
-      "trigger": "散步营养密度 = 外部材料的不可预测性",
-      "intensity": 0.35000000000000003,
+      "id": "seed-227-1",
+      "topic": "DORMANT 双阶段模型：松弛+重组作为 Dreamer 认知退火机制",
+      "source": "walk-227",
+      "trigger": "DORMANT 不是休息，是坐标系松弛",
+      "intensity": 0.85,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-25T12:23:27.483654+08:00",
+      "created": "2026-06-26T00:31:41.209201+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-221-2",
-      "topic": "星形胶质细胞作为 Dreamer 标记机制的原型：钙信号网络如何判断'值得保护'的突触",
-      "source": "walk-221",
-      "trigger": "星形胶质细胞通过钙信号网络判断哪些突触值得保护",
-      "intensity": 0.35000000000000003,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T15:13:32.736237+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-222-1",
-      "topic": "加法偏见作为 Dreamer 认知不对称的根源：减法-加法双端平衡机制设计",
-      "source": "walk-222",
-      "trigger": "减法不是自然状态——是需要显式认知努力的例外状态",
-      "intensity": 0.42000000000000004,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T16:29:21.511319+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-223-3",
-      "topic": "三维 coherence 测试的操作化：连贯性/新颖性/稳健性的轻量级自动化检查",
-      "source": "walk-223",
-      "trigger": "没有质检的装配线",
-      "intensity": 0.43,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T18:58:12.521879+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-221-1",
-      "topic": "减法选择作为 DORMANT 衰减机制的统一框架：标记信号 vs 均匀衰减的辩证关系",
-      "source": "walk-221",
-      "trigger": "选择不通过增强目标来实现，而是通过压低噪音来实现",
-      "intensity": 0.45,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T15:13:32.736237+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-223-2",
-      "topic": "强制拆解规则：每次散步必须拆解一条已有 insight 作为重组的前提条件",
-      "source": "walk-223",
-      "trigger": "减法不仅是加法的前提，也是重组的前提",
-      "intensity": 0.5,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T18:58:12.521879+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-226-3",
-      "topic": "Raga 约束与 Dreamer 骨架的跨领域映射：东方音乐哲学对西方 AI 架构的启示",
+      "id": "seed-226-1",
+      "topic": "约束作为坐标系 vs 过滤器：认知架构的根本差异，从拉格朗日力学到 Dreamer 的设计启示",
       "source": "walk-226",
-      "trigger": "「raga 就是音乐本身的定义方式」——约束不是对生成物的限制，而是生成空间的选择",
-      "intensity": 0.5499999999999999,
+      "trigger": "「骨架不应该是质检员，而应该是坐标系」——拉格朗日力学对 Dreamer 架构的启示",
+      "intensity": 0.7499999999999999,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-25T23:22:06.409923+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-227-2",
+      "topic": "孵化效应与 walk nutritional density 的关系：为什么 DORMANT 后散步产出更高",
+      "source": "walk-227",
+      "trigger": "DORMANT 后首次散步的营养密度更高",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T00:31:41.209201+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-227-3",
+      "topic": "松弛参数作为 Dreamer 的新控制变量：与 cognitive_pressure 的动态耦合",
+      "source": "walk-227",
+      "trigger": "压力越大，松弛程度越高？",
+      "intensity": 0.65,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T00:31:41.209201+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-226-2",
+      "topic": "探索型散步作为坐标系扩展机制：3:1 节奏的拉格朗日解释",
+      "source": "walk-226",
+      "trigger": "探索型散步不是「在骨架内发现新连接」，而是「发现需要扩展骨架坐标系的新维度」",
+      "intensity": 0.5999999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-25T23:22:06.409923+08:00",
@@ -566,32 +545,54 @@
       "topic": "组合创造力的引导性约束作为 Dreamer 盲组合问题的修复机制",
       "source": "walk-223",
       "trigger": "Boden 的修正被忽略了——组合需要引导性约束",
-      "intensity": 0.57,
+      "intensity": 0.5199999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-25T18:58:12.521879+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-226-2",
-      "topic": "探索型散步作为坐标系扩展机制：3:1 节奏的拉格朗日解释",
+      "id": "seed-226-3",
+      "topic": "Raga 约束与 Dreamer 骨架的跨领域映射：东方音乐哲学对西方 AI 架构的启示",
       "source": "walk-226",
-      "trigger": "探索型散步不是「在骨架内发现新连接」，而是「发现需要扩展骨架坐标系的新维度」",
-      "intensity": 0.6499999999999999,
+      "trigger": "「raga 就是音乐本身的定义方式」——约束不是对生成物的限制，而是生成空间的选择",
+      "intensity": 0.49999999999999994,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-25T23:22:06.409923+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-226-1",
-      "topic": "约束作为坐标系 vs 过滤器：认知架构的根本差异，从拉格朗日力学到 Dreamer 的设计启示",
-      "source": "walk-226",
-      "trigger": "「骨架不应该是质检员，而应该是坐标系」——拉格朗日力学对 Dreamer 架构的启示",
-      "intensity": 0.7999999999999999,
+      "id": "seed-223-2",
+      "topic": "强制拆解规则：每次散步必须拆解一条已有 insight 作为重组的前提条件",
+      "source": "walk-223",
+      "trigger": "减法不仅是加法的前提，也是重组的前提",
+      "intensity": 0.45,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-25T18:58:12.521879+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-221-1",
+      "topic": "减法选择作为 DORMANT 衰减机制的统一框架：标记信号 vs 均匀衰减的辩证关系",
+      "source": "walk-221",
+      "trigger": "选择不通过增强目标来实现，而是通过压低噪音来实现",
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-25T23:22:06.409923+08:00",
+      "created": "2026-06-25T15:13:32.736237+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-223-3",
+      "topic": "三维 coherence 测试的操作化：连贯性/新颖性/稳健性的轻量级自动化检查",
+      "source": "walk-223",
+      "trigger": "没有质检的装配线",
+      "intensity": 0.38,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-25T18:58:12.521879+08:00",
       "decay_rate": 0.05
     }
   ],

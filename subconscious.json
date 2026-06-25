@@ -3932,5 +3932,44 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score>=8.0, pattern_recognition"
+  },
+  {
+    "id": "seed-227-1",
+    "type": "research",
+    "content": "DORMANT 双阶段模型：松弛+重组作为 Dreamer 认知退火机制",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-26T00:30:21.791229+08:00",
+    "source": "walk-227",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "DORMANT 不是休息，是坐标系松弛。松弛态允许暂时不兼容的概念共存，测试连接兼容性。"
+  },
+  {
+    "id": "seed-227-2",
+    "type": "explore",
+    "content": "孵化效应与 walk nutritional density 的关系：为什么 DORMANT 后散步产出更高",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-26T00:30:27.380839+08:00",
+    "source": "walk-227",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "DORMANT 后首次散步的营养密度更高，暗示 DORMANT 做了某种预处理（松弛+预重组）。"
+  },
+  {
+    "id": "seed-227-3",
+    "type": "research",
+    "content": "松弛参数作为 Dreamer 的新控制变量：与 cognitive_pressure 的动态耦合",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-26T00:30:32.300947+08:00",
+    "source": "walk-227",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "松弛程度是否应该与 cognitive_pressure 挂钩——压力越大（越固着），松弛程度越高？"
   }
 ]

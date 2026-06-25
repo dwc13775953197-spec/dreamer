@@ -3587,5 +3587,48 @@
     "decay_speed": 0.5,
     "score": 0.0,
     "note": "quality_score=8.4, initial strength=5.0"
+  },
+  {
+    "id": "walk222-insight-1",
+    "content": "减法不是加法的对立面，是加法的前提条件。没有减法的加法是噪音的积累。",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "walk221-insight-1",
+      "walk220-insight-1",
+      "walk16-insight-1"
+    ],
+    "created": "2026-06-25T16:28:43.481380+08:00",
+    "source": "walk-222",
+    "decay_rate": 0.05
+  },
+  {
+    "id": "walk222-insight-2",
+    "content": "加法偏见作为 Dreamer 认知不对称的根源：加法端无门控 + 减法端无选择性 = 单调增长 + 平坦质量分布。",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "walk221-insight-1",
+      "walk219-insight-1"
+    ],
+    "created": "2026-06-25T16:28:43.481380+08:00",
+    "source": "walk-222",
+    "decay_rate": 0.05
+  },
+  {
+    "id": "walk222-insight-3",
+    "content": "强制减法规则作为认知多样性保护机制：每次散步必须标记可淘汰条目，补偿加法偏见。",
+    "type": "hypothesis",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "walk222-insight-1",
+      "walk222-insight-2"
+    ],
+    "created": "2026-06-25T16:28:43.481380+08:00",
+    "source": "walk-222",
+    "decay_rate": 0.05
   }
 ]

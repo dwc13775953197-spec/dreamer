@@ -3,25 +3,25 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T04:18:38.605661+08:00",
+    "last_active": "2026-06-26T05:32:13.559013+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 90,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T05:08:36.653231+08:00",
+    "next_scheduled": "2026-06-26T05:47:13.559013+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 229,
+    "total_walks": 230,
     "last_pulse_output": "2026-06-26T04:53:36.653231+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 71.96,
+    "cognitive_pressure": 70.0,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.6,
       8.4,
       8.5,
       8.4,
@@ -43,7 +42,8 @@
       8.7,
       8.6,
       8.4,
-      8.6
+      8.6,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -74,17 +74,39 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.53,
-    "pending_insights": 219,
+    "pending_insights": 221,
     "interest_queue": [
       {
         "id": "seed-229-1",
         "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
         "source": "walk-229",
         "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-        "intensity": 0.82,
+        "intensity": 0.7699999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604588+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-230-1",
+        "topic": "投影事件作为 DORMANT 触发器",
+        "source": "walk-230",
+        "trigger": "projection 坐标系变化让旧 insight 突然迷失位置——这不就是内源 PE 吗？",
+        "intensity": 0.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-26T05:32:13.559013+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-230-2",
+        "topic": "Coherence gap insight 的淘汰级联效应",
+        "source": "walk-230",
+        "trigger": "gap insight 被淘汰时其 neighbors 也失去锚点——渐进式再巩固触发",
+        "intensity": 0.68,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-26T05:32:13.559013+08:00",
         "decay_rate": 0.05
       },
       {
@@ -92,10 +114,21 @@
         "topic": "矛盾引用的散步策略：并置两条相互矛盾的 insight 作为预测误差的触发器",
         "source": "walk-229",
         "trigger": "散步中引用矛盾 insight 比一致 insight 更有价值",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604622+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-230-3",
+        "topic": "DORMANT PE 检测机制的操作化设计",
+        "source": "walk-230",
+        "trigger": "三种 PE 源需要三种不同的检测/响应策略",
+        "intensity": 0.6,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-26T05:32:13.559013+08:00",
         "decay_rate": 0.05
       },
       {
@@ -103,14 +136,14 @@
         "topic": "预测误差密度作为 DORMANT 有效性度量：从松弛时长到冲突密度的操作化转移",
         "source": "walk-229",
         "trigger": "不是松弛时长而是冲突密度决定 DORMANT 有效性",
-        "intensity": 0.58,
+        "intensity": 0.5299999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T04:18:38.604631+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 71.96,
+    "pressure": 70.0,
     "next_action": "walk_analyze"
   },
   "affect": {
@@ -180,7 +213,7 @@
   "last_walk": "2026-06-26",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 229,
+  "total_walks": 230,
   "topics": [
     "emergence",
     "consciousness",

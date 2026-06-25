@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-25T14:33:55.722169+08:00",
+    "next_scheduled": "2026-06-25T14:51:39.138906+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-25",
     "total_walks": 220,
-    "last_pulse_output": "2026-06-25T14:03:55.722169+08:00",
+    "last_pulse_output": "2026-06-25T14:36:39.138906+08:00",
     "last_walk": "2026-06-25",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 54.346235605000004,
+    "cognitive_pressure": 71.8,
     "pressure_threshold": 60.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -50,7 +50,6 @@
     "gini_history": [],
     "pressure_history": [
       55.0,
-      55.0,
       55.5,
       100.0,
       55.0,
@@ -78,7 +77,8 @@
       52.34,
       68.3,
       99.35,
-      54.35
+      54.35,
+      71.8
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -287,7 +287,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 54.346235605000004,
+    "pressure": 71.8,
     "next_action": "walk_explore"
   },
   "affect": {
@@ -544,7 +544,7 @@
   ],
   "pending_insights": 210,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-25T14:03:55.722169+08:00",
+  "last_pulse_output": "2026-06-25T14:36:39.138906+08:00",
   "interest_queue": [
     {
       "id": "seed-219-1",
@@ -862,8 +862,40 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-24",
-  "pressure": 54.346235605000004,
-  "next_scheduled": "2026-06-25T14:15:06.622021+08:00",
-  "cognitive_pressure": 54.346235605000004,
-  "last_active": "2026-06-25T11:10:55.745581+08:00"
+  "pressure": 71.8,
+  "next_scheduled": "2026-06-25T14:51:39.138906+08:00",
+  "cognitive_pressure": 71.8,
+  "last_active": "2026-06-25T11:10:55.745581+08:00",
+  "pressure_history": [
+    55.0,
+    55.5,
+    100.0,
+    55.0,
+    72.34,
+    91.66,
+    46.66,
+    46.4,
+    100.0,
+    55.0,
+    65.5,
+    66.79,
+    21.790000000000006,
+    23.14,
+    55.0,
+    74.41332670166666,
+    62.04,
+    17.04,
+    32.35,
+    48.4,
+    50.64,
+    50.66,
+    67.23,
+    21.230000000000004,
+    0,
+    52.34,
+    68.3,
+    99.35,
+    54.35,
+    71.8
+  ]
 }

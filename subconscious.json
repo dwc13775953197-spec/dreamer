@@ -3971,5 +3971,52 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "松弛程度是否应该与 cognitive_pressure 挂钩——压力越大（越固着），松弛程度越高？"
+  },
+  {
+    "id": "insight-228-1",
+    "type": "insight",
+    "content": "认知退火循环：紧缩（分析型散步/骨架内连接）-松弛（DORMANT/无目标重组）交替作为 Dreamer 认知机制的统一控制框架。远距离探索论文验证：松弛解锁解空间边界，使系统从局部最优逃逸到远端。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T02:57:00.210875+08:00",
+    "connections": [
+      "ins-089",
+      "ins-091",
+      "ins-088",
+      "seed-227-1",
+      "seed-226-1"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [
+      "walk-225",
+      "walk-226",
+      "walk-227"
+    ],
+    "note": "与 walk-225/226/227 聚类形成巩固连接，统一远距离探索-坐标系松弛-结构同构性三主题"
+  },
+  {
+    "id": "insight-228-2",
+    "type": "insight",
+    "content": "松弛幅度作为 Dreamer DORMANT 的可控参数：与 cognitive_pressure 动态耦合。远距离探索论文表明搜索距离是连续变量，对应松弛幅度应为连续调节（vs 当前 DORMANT 二元开关）。高压 → 大幅度松弛（挣脱困境），低压 → 小幅度松弛（维持采样）。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T02:57:00.210875+08:00",
+    "connections": [
+      "insight-228-1",
+      "seed-227-3",
+      "ins-088"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [
+      "walk-227",
+      "walk-228"
+    ],
+    "note": "将 Walk 227 的二元松弛概念操作化为连续控制变量"
   }
 ]

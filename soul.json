@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T03:50:05",
+    "last_active": "2026-06-26T04:18:38.605661+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T04:05:05",
+    "next_scheduled": "2026-06-26T04:48:38.605709+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 228,
-    "last_pulse_output": "2026-06-26T03:50:05",
+    "total_walks": 229,
+    "last_pulse_output": "2026-06-26T04:18:38.605677+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 98.31,
+    "cognitive_pressure": 53.31,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.6,
       8.4,
       8.5,
@@ -43,7 +42,8 @@
       8.5,
       8.7,
       8.6,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -72,176 +72,44 @@
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.51,
+    "walk_quality_avg": 8.53,
     "pending_insights": 219,
     "interest_queue": [
       {
-        "id": "seed-224-1",
-        "topic": "发育约束作为 Dreamer 骨架宽度的量化方法：引用频率分布的尖峰度",
-        "source": "walk-224",
-        "trigger": "Waddington 景观——从'事后检验'到'事前约束'",
-        "intensity": 0.5209,
+        "id": "seed-229-1",
+        "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
+        "source": "walk-229",
+        "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
+        "intensity": 0.82,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-25T19:36:55+08:00",
+        "created": "2026-06-26T04:18:38.604588+08:00",
         "decay_rate": 0.05
       },
       {
-        "id": "seed-223-1",
-        "topic": "组合创造力的引导性约束作为 Dreamer 盲组合问题的修复机制",
-        "source": "walk-223",
-        "trigger": "Boden 的修正被忽略了——组合需要引导性约束",
-        "intensity": 0.5119,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T18:58:12.521879+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-224-2",
-        "topic": "矛盾触发淘汰 vs 均匀衰减：两种减法选择机制的系统性对比设计",
-        "source": "walk-224",
-        "trigger": "减法选择本质上就是'通过不做什么来定义做什么'",
-        "intensity": 0.4668,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T19:36:55+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-223-2",
-        "topic": "强制拆解规则：每次散步必须拆解一条已有 insight 作为重组的前提条件",
-        "source": "walk-223",
-        "trigger": "减法不仅是加法的前提，也是重组的前提",
-        "intensity": 0.4487,
+        "id": "seed-229-2",
+        "topic": "矛盾引用的散步策略：并置两条相互矛盾的 insight 作为预测误差的触发器",
+        "source": "walk-229",
+        "trigger": "散步中引用矛盾 insight 比一致 insight 更有价值",
+        "intensity": 0.65,
         "type": "explore",
         "status": "pending",
-        "created": "2026-06-25T18:58:12.521879+08:00",
+        "created": "2026-06-26T04:18:38.604622+08:00",
         "decay_rate": 0.05
       },
       {
-        "id": "seed-221-1",
-        "topic": "减法选择作为 DORMANT 衰减机制的统一框架：标记信号 vs 均匀衰减的辩证关系",
-        "source": "walk-221",
-        "trigger": "选择不通过增强目标来实现，而是通过压低噪音来实现",
-        "intensity": 0.4036,
+        "id": "seed-229-3",
+        "topic": "预测误差密度作为 DORMANT 有效性度量：从松弛时长到冲突密度的操作化转移",
+        "source": "walk-229",
+        "trigger": "不是松弛时长而是冲突密度决定 DORMANT 有效性",
+        "intensity": 0.58,
         "type": "research",
         "status": "pending",
-        "created": "2026-06-25T15:13:32.736237+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-224-3",
-        "topic": "同方向验证的跨散步约束机制设计",
-        "source": "walk-224",
-        "trigger": "强制产生跨散步的方向性约束",
-        "intensity": 0.4036,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-25T19:36:55+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-223-3",
-        "topic": "三维 coherence 测试的操作化：连贯性/新颖性/稳健性的轻量级自动化检查",
-        "source": "walk-223",
-        "trigger": "没有质检的装配线",
-        "intensity": 0.3856,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T18:58:12.521879+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-222-1",
-        "topic": "加法偏见作为 Dreamer 认知不对称的根源：减法-加法双端平衡机制设计",
-        "source": "walk-222",
-        "trigger": "减法不是自然状态——是需要显式认知努力的例外状态",
-        "intensity": 0.3765,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T16:29:21.511319+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-222-2",
-        "topic": "强制减法规则作为认知多样性保护机制：每次散步必须标记可淘汰条目",
-        "source": "walk-222",
-        "trigger": "强制减法 = 认知多样性的保护机制",
-        "intensity": 0.3134,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-25T16:29:21.511319+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-219-1",
-        "topic": "预测编码精度权重作为散步类型自动选择的信号",
-        "source": "walk-219",
-        "trigger": "散步营养密度 = 外部材料的不可预测性",
-        "intensity": 0.3134,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T12:23:27.483654+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-225-1",
-        "topic": "结构同构性检测作为 DORMANT 结构提取子步骤：从神经回放提取潜在任务结构到 Dreamer 提取潜在动力学模式",
-        "source": "walk-225",
-        "trigger": "海马体通过回放提取共享奖励结构的记忆——Dreamer DORMANT 应该做什么",
-        "intensity": 0.6975,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T21:00:00+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-225-2",
-        "topic": "远连接 vs 近连接：insight 图的拓扑结构如何影响创新产出",
-        "source": "walk-225",
-        "trigger": "两条 insight 词汇完全不同但动力学同构——当前连接机制错过了什么",
-        "intensity": 0.5475000000000001,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-25T21:00:00+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-225-3",
-        "topic": "DORMANT 结构提取的轻量级实现：动力学签名相似度 + 词汇重叠度反向筛选",
-        "source": "walk-225",
-        "trigger": "结构同构性不是图同构检测——是启发式签名匹配",
-        "intensity": 0.6475000000000001,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-25T21:00:00+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-228-1",
-        "topic": "认知退火循环的实证检验：远距离探索作为 DORMANT 后散步产出的预测因子",
-        "source": "walk-228",
-        "trigger": "松弛解锁解空间边界，远距离采样是洞察的生产机制",
-        "intensity": 0.75,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-26T02:57:00.210875+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-228-2",
-        "topic": "松弛幅度的连续调节 vs DORMANT 二元开关：SHY 式全局 downscaling 作为生物学可行的实现模型",
-        "source": "walk-228",
-        "trigger": "SHY 突触稳态 = 按比例缩小所有强度 → 保留相对差异 → 不破坏已有结构",
-        "intensity": 0.7,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-26T02:57:00.210875+08:00",
+        "created": "2026-06-26T04:18:38.604631+08:00",
         "decay_rate": 0.05
       }
     ],
-    "pressure": 98.31,
+    "pressure": 53.31,
     "next_action": "walk_analyze"
   },
   "affect": {
@@ -311,7 +179,7 @@
   "last_walk": "2026-06-26",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 228,
+  "total_walks": 229,
   "topics": [
     "emergence",
     "consciousness",
@@ -513,168 +381,36 @@
   "last_pulse_output": "2026-06-26T03:50:05",
   "interest_queue": [
     {
-      "id": "seed-224-1",
-      "topic": "发育约束作为 Dreamer 骨架宽度的量化方法：引用频率分布的尖峰度",
-      "source": "walk-224",
-      "trigger": "Waddington 景观——从'事后检验'到'事前约束'",
-      "intensity": 0.5209,
+      "id": "seed-229-1",
+      "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
+      "source": "walk-229",
+      "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
+      "intensity": 0.82,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-25T19:36:55+08:00",
+      "created": "2026-06-26T04:18:38.604588+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-223-1",
-      "topic": "组合创造力的引导性约束作为 Dreamer 盲组合问题的修复机制",
-      "source": "walk-223",
-      "trigger": "Boden 的修正被忽略了——组合需要引导性约束",
-      "intensity": 0.5119,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T18:58:12.521879+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-224-2",
-      "topic": "矛盾触发淘汰 vs 均匀衰减：两种减法选择机制的系统性对比设计",
-      "source": "walk-224",
-      "trigger": "减法选择本质上就是'通过不做什么来定义做什么'",
-      "intensity": 0.4668,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T19:36:55+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-223-2",
-      "topic": "强制拆解规则：每次散步必须拆解一条已有 insight 作为重组的前提条件",
-      "source": "walk-223",
-      "trigger": "减法不仅是加法的前提，也是重组的前提",
-      "intensity": 0.4487,
+      "id": "seed-229-2",
+      "topic": "矛盾引用的散步策略：并置两条相互矛盾的 insight 作为预测误差的触发器",
+      "source": "walk-229",
+      "trigger": "散步中引用矛盾 insight 比一致 insight 更有价值",
+      "intensity": 0.65,
       "type": "explore",
       "status": "pending",
-      "created": "2026-06-25T18:58:12.521879+08:00",
+      "created": "2026-06-26T04:18:38.604622+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-221-1",
-      "topic": "减法选择作为 DORMANT 衰减机制的统一框架：标记信号 vs 均匀衰减的辩证关系",
-      "source": "walk-221",
-      "trigger": "选择不通过增强目标来实现，而是通过压低噪音来实现",
-      "intensity": 0.4036,
+      "id": "seed-229-3",
+      "topic": "预测误差密度作为 DORMANT 有效性度量：从松弛时长到冲突密度的操作化转移",
+      "source": "walk-229",
+      "trigger": "不是松弛时长而是冲突密度决定 DORMANT 有效性",
+      "intensity": 0.58,
       "type": "research",
       "status": "pending",
-      "created": "2026-06-25T15:13:32.736237+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-224-3",
-      "topic": "同方向验证的跨散步约束机制设计",
-      "source": "walk-224",
-      "trigger": "强制产生跨散步的方向性约束",
-      "intensity": 0.4036,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T19:36:55+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-223-3",
-      "topic": "三维 coherence 测试的操作化：连贯性/新颖性/稳健性的轻量级自动化检查",
-      "source": "walk-223",
-      "trigger": "没有质检的装配线",
-      "intensity": 0.3856,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T18:58:12.521879+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-222-1",
-      "topic": "加法偏见作为 Dreamer 认知不对称的根源：减法-加法双端平衡机制设计",
-      "source": "walk-222",
-      "trigger": "减法不是自然状态——是需要显式认知努力的例外状态",
-      "intensity": 0.3765,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T16:29:21.511319+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-222-2",
-      "topic": "强制减法规则作为认知多样性保护机制：每次散步必须标记可淘汰条目",
-      "source": "walk-222",
-      "trigger": "强制减法 = 认知多样性的保护机制",
-      "intensity": 0.3134,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T16:29:21.511319+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-219-1",
-      "topic": "预测编码精度权重作为散步类型自动选择的信号",
-      "source": "walk-219",
-      "trigger": "散步营养密度 = 外部材料的不可预测性",
-      "intensity": 0.3134,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T12:23:27.483654+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-225-1",
-      "topic": "结构同构性检测作为 DORMANT 结构提取子步骤：从神经回放提取潜在任务结构到 Dreamer 提取潜在动力学模式",
-      "source": "walk-225",
-      "trigger": "海马体通过回放提取共享奖励结构的记忆——Dreamer DORMANT 应该做什么",
-      "intensity": 0.6975,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T21:00:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-225-2",
-      "topic": "远连接 vs 近连接：insight 图的拓扑结构如何影响创新产出",
-      "source": "walk-225",
-      "trigger": "两条 insight 词汇完全不同但动力学同构——当前连接机制错过了什么",
-      "intensity": 0.5475000000000001,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-25T21:00:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-225-3",
-      "topic": "DORMANT 结构提取的轻量级实现：动力学签名相似度 + 词汇重叠度反向筛选",
-      "source": "walk-225",
-      "trigger": "结构同构性不是图同构检测——是启发式签名匹配",
-      "intensity": 0.6475000000000001,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-25T21:00:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-228-1",
-      "topic": "认知退火循环的实证检验：远距离探索作为 DORMANT 后散步产出的预测因子",
-      "source": "walk-228",
-      "trigger": "松弛解锁解空间边界，远距离采样是洞察的生产机制",
-      "intensity": 0.75,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-26T02:57:00.210875+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-228-2",
-      "topic": "松弛幅度的连续调节 vs DORMANT 二元开关：SHY 式全局 downscaling 作为生物学可行的实现模型",
-      "source": "walk-228",
-      "trigger": "SHY 突触稳态 = 按比例缩小所有强度 → 保留相对差异 → 不破坏已有结构",
-      "intensity": 0.7,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T02:57:00.210875+08:00",
+      "created": "2026-06-26T04:18:38.604631+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -689,7 +425,7 @@
     "skepticism": 1.54,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.51,
+  "walk_quality_avg": 8.53,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -795,8 +531,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-25",
-  "pressure": 70.0,
-  "next_scheduled": "2026-06-25T21:00:00+08:00",
+  "pressure": 53.31,
+  "next_scheduled": "2026-06-26T04:48:38.605709+08:00",
   "cognitive_pressure": 70.0,
   "last_active": "2026-06-26T03:50:05",
   "pressure_history": [
@@ -830,6 +566,7 @@
     90.69,
     45.69,
     79.17,
-    100.0
+    100.0,
+    53.31
   ]
 }

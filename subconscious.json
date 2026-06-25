@@ -4061,5 +4061,38 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-new-229-1",
+    "type": "insight",
+    "content": "记忆再巩固窗口 = DORMANT 的 REM 阶段。再巩固需要预测误差（不匹配信号）才会触发——无冲突的松弛只是休息，不是更新。当前 DORMANT 的 uniform decay 缺少预测误差驱动的主动更新机制。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T04:18:38.604639+08:00",
+    "source": "walk-229",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-066",
+      "ins-069",
+      "pat-016"
+    ],
+    "refs": [],
+    "decay_speed": 1.2
+  },
+  {
+    "id": "ins-new-229-2",
+    "type": "insight",
+    "content": "散步中引用矛盾 insight 比一致 insight 更有价值。矛盾触发预测误差，预测误差触发重组。巩固型散步应优先选择矛盾对而非一致对——这是再巩固理论的直接操作化。当前散步流程缺少矛盾可解性预评估步骤。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-26T04:18:38.604646+08:00",
+    "source": "walk-229",
+    "decay_rate": 0.95,
+    "connections": [
+      "ins-071",
+      "pat-029"
+    ],
+    "refs": [],
+    "decay_speed": 1.2
   }
 ]

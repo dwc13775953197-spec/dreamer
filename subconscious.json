@@ -3362,5 +3362,66 @@
       "quality_score": 8.4,
       "walk_number": 217
     }
+  },
+  {
+    "id": "ins-218-1",
+    "type": "pattern",
+    "content": "认知地图失真理论：Dreamer 的骨架几何结构系统性扭曲新 insight 的编码方向，高 quality_score + 低 graph_change_rate 可能是投影畸变的早期信号而非巩固期的正常表现",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-25T11:45:00+08:00",
+    "source": "walk-218",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-215-1",
+      "ins-217-1",
+      "ins-058"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Walk 218: grid cell distortion + quality-change rate decoupling"
+  },
+  {
+    "id": "ins-218-2",
+    "type": "pattern",
+    "content": "失真级联：Dreamer 的地图更新延迟窗口（散步→引用→后续散步→骨架修正）导致失真在被修正前级联放大，单次散步的高质量可能掩盖系统性偏移的累积",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-25T11:45:00+08:00",
+    "source": "walk-218",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-218-1",
+      "ins-217-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Walk 218: temporal cascade of projection distortion"
+  },
+  {
+    "id": "ins-218-3",
+    "type": "pattern",
+    "content": "反向散步作为失真检测机制：连续多次散步 graph_change_rate < 5% 时，刻意从与最近连接方向相反的材料搜索，如果产出显著不同则说明存在系统性失真",
+    "strength": 1.5,
+    "status": "active",
+    "created": "2026-06-25T11:45:00+08:00",
+    "source": "walk-218",
+    "decay_rate": 0.05,
+    "decayed_at": null,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "connections": [
+      "ins-218-1",
+      "ins-216-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "Walk 218: reverse walk as distortion detection"
   }
 ]

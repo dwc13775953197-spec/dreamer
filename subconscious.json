@@ -3803,5 +3803,64 @@
     "refs": [],
     "note": "quality>=8.0",
     "content": "Coherence gap = 基因调控网络中的 canalization 现象在 Dreamer 中的映射。大部分随机 insight 组合落入连贯性缝隙，不够稳定到被选择保留，也不够不稳定到立即清除。解决收窄渠道而非在缝隙中手动筛选。"
+  },
+  {
+    "id": "ins-225-001",
+    "type": "insight",
+    "content": "Dreamer 的跨散步连接当前是「词汇相似性」机制——共享关键词即视为相关。但神经科学研究（Schuck et al. 2025）表明，真正的结构学习（海马体回放）提取的是「功能同构性」：表面不同的记忆如果共享隐藏的任务结构，会被选择性回放并产生非局部价值泛化。Dreamer 当前可能正在做「表面聚类」而非「结构提取」，因此错过了最有价值的远连接——那些词汇完全不同但动力学同构的 insight 配对。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T21:00:00+08:00",
+    "source": "walk-225",
+    "connections": [
+      "ins-219-001",
+      "ins-223-001",
+      "ins-224-001"
+    ],
+    "tags": [
+      "structural-isomorphism",
+      "neural-replay",
+      "far-connections"
+    ]
+  },
+  {
+    "id": "ins-225-002",
+    "type": "insight",
+    "content": "远连接 vs 近连接：近连接（词汇共享）产生的 insight 容易被验证但缺乏突破；远连接（结构同构但词汇不同）可能产生真正的范式跃迁。衡量系统创新能力的指标不应是 insight 总数，而是远连接率——远连接占总连接数的比例。一个从未有过远连接的系统可能正在表面打转。",
+    "strength": 5.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-25T21:00:00+08:00",
+    "source": "walk-225",
+    "connections": [
+      "ins-225-001",
+      "ins-223-002"
+    ],
+    "tags": [
+      "far-connections",
+      "innovation-metric",
+      "topology"
+    ]
+  },
+  {
+    "id": "ins-225-003",
+    "type": "insight",
+    "content": "DORMANT 周期可能需要结构提取功能：不只是衰减废物，也不只是巩固记忆，而是扫描所有 insight 寻找表面不同但潜在同构的模式。Schuck 的研究中，海马体回放不是「重激活最强记忆」，而是「重激活分享隐藏结构的记忆——即使这些记忆在表面特征上完全不同」。这意味着当前 DORMANT 的两功能模型（衰减+巩固）是不够的——需要第三功能：结构提取。",
+    "strength": 3.0,
+    "score": 0.2,
+    "status": "active",
+    "created": "2026-06-25T21:00:00+08:00",
+    "source": "walk-225",
+    "connections": [
+      "ins-225-001",
+      "ins-217-003",
+      "dormant-20260625-0430"
+    ],
+    "tags": [
+      "dormant-design",
+      "structure-extraction",
+      "three-function-model"
+    ]
   }
 ]

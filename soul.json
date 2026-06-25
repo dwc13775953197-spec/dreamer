@@ -21,7 +21,7 @@
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 88.67,
+    "cognitive_pressure": 78.67,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -67,7 +67,7 @@
       70.0,
       98.31,
       71.96,
-      88.67
+      78.67
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -144,7 +144,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 88.67,
+    "pressure": 78.67,
     "next_action": "walk_analyze"
   },
   "affect": {
@@ -566,9 +566,9 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 88.67,
+  "pressure": 78.67,
   "next_scheduled": "2026-06-26T07:37:13+0800",
-  "cognitive_pressure": 88.67,
+  "cognitive_pressure": 78.67,
   "last_active": "2026-06-26T06:07:13+0800",
   "pressure_history": [
     91.66,
@@ -603,6 +603,6 @@
     79.17,
     100.0,
     53.31,
-    88.67
+    78.67
   ]
 }

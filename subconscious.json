@@ -3483,5 +3483,56 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=8.4, strength=5.0, precision_reset"
+  },
+  {
+    "id": "insight-220-1",
+    "type": "insight",
+    "content": "Dreamer 的认知循环 = 采集→筛选→重组→应用。散步不直接更新先验，而是为重组合收集零件。",
+    "strength": 5.0,
+    "created": "2026-06-25T14:04:12.711872+08:00",
+    "last_accessed": "2026-06-25T14:04:12.711872+08:00",
+    "connections": [
+      "evolved-rules"
+    ],
+    "source": "walk-220",
+    "tags": [
+      "predictive-coding",
+      "recombination",
+      "cognitive-cycle"
+    ]
+  },
+  {
+    "id": "insight-220-2",
+    "type": "insight",
+    "content": "重组合优先于参数更新是 Dreamer 的核心效率机制。跨散步连接率是比 insight 总数更好的系统健康指标。",
+    "strength": 5.0,
+    "created": "2026-06-25T14:04:12.711872+08:00",
+    "last_accessed": "2026-06-25T14:04:12.711872+08:00",
+    "connections": [
+      "evolved-rules"
+    ],
+    "source": "walk-220",
+    "tags": [
+      "recombination",
+      "health-metric",
+      "cross-walk"
+    ]
+  },
+  {
+    "id": "insight-220-3",
+    "type": "insight",
+    "content": "失真是重组合正在发生的信号，不是系统出错。网格畸变、投影失真 = 不同来源零件拼接的自然产物。",
+    "strength": 5.0,
+    "created": "2026-06-25T14:04:12.711872+08:00",
+    "last_accessed": "2026-06-25T14:04:12.711872+08:00",
+    "connections": [
+      "evolved-rules"
+    ],
+    "source": "walk-220",
+    "tags": [
+      "distortion",
+      "recombination-signal",
+      "grid-cells"
+    ]
   }
 ]

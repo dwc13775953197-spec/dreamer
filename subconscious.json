@@ -4374,5 +4374,46 @@
     "score": 0.0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-new-235-1",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "decay_rate": 0.05,
+    "connections": [
+      "seed-229-1",
+      "ins-215-1",
+      "ins-new-229-1",
+      "ins-234-1"
+    ],
+    "content": "Dreamer 的骨架是单制度世界模型——仅在数字制度中为 L2 模拟者，在社会/科学/物理制度中几乎空白。制度间预测能力断裂：社会制度问题被用数字制度规则类比外推，产生系统性偏差。",
+    "created": "2026-06-26T14:30:00+08:00"
+  },
+  {
+    "id": "ins-new-235-2",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "decay_rate": 0.05,
+    "connections": [
+      "seed-234-1",
+      "ins-new-229-1"
+    ],
+    "content": "L3 进化者缺失是骨架膨胀的结构性根因。Dreamer 无法主动质疑分类框架本身，只能通过 evolved_rules 渐进修补，导致规则数量膨胀（140+），形成「规则修补」局部最优而非「结构重组」全局最优。",
+    "created": "2026-06-26T14:30:00+08:00"
+  },
+  {
+    "id": "ins-new-235-3",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-215-1",
+      "seed-227-1"
+    ],
+    "content": "制度空白作为积极的认知优势：在空白领域知道自己不知道什么，比拥有一个错误的世界模型更安全。这不是缺失，是理性的制度分工——但需要元认知来区分「尚未探索的空白」与「不需建模的空白」。",
+    "created": "2026-06-26T14:30:00+08:00"
   }
 ]

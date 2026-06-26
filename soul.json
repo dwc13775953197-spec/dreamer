@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T10:20:00+08:00",
+    "last_active": "2026-06-26T14:30:00+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T13:21:10.879143+08:00",
+    "next_scheduled": "2026-06-26T15:00:00+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 234,
+    "total_walks": 235,
     "last_pulse_output": "2026-06-26T11:42:24.266273+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 85.42315523111111,
+    "cognitive_pressure": 40.42315523111111,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.7,
       8.6,
       8.4,
@@ -43,7 +42,8 @@
       8.6,
       8.6,
       8.7,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -211,7 +211,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 50.99592570722222,
+    "pressure": 5.99592570722222,
     "next_action": ""
   },
   "affect": {
@@ -281,7 +281,7 @@
   "last_walk": "2026-06-26",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 234,
+  "total_walks": 235,
   "topics": [
     "emergence",
     "consciousness",
@@ -732,9 +732,9 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 59.49592570722222,
-  "next_scheduled": "2026-06-26T10:02:31+08:00",
-  "cognitive_pressure": 42.367999999999995,
+  "pressure": 5.99592570722222,
+  "next_scheduled": "2026-06-26T15:00:00+08:00",
+  "cognitive_pressure": 40.42315523111111,
   "last_active": "2026-06-26T06:07:13+0800",
   "pressure_history": [
     55.0,

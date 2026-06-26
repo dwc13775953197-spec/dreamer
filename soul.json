@@ -3,25 +3,25 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T14:30:00+08:00",
+    "last_active": "2026-06-26T14:06:06+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T15:00:00+08:00",
+    "next_scheduled": "2026-06-26T14:21:06+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
     "total_walks": 235,
-    "last_pulse_output": "2026-06-26T11:42:24.266273+08:00",
+    "last_pulse_output": "2026-06-26T14:06:06+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 40.42315523111111,
+    "cognitive_pressure": 100.0,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,17 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      79.77,
-      100.0,
-      55.0,
-      72.0,
-      27.0,
-      43.29,
-      61.46,
-      100.0,
-      70.0,
-      98.31,
-      71.96,
       78.67,
       54.375,
       80.087,
@@ -68,7 +57,8 @@
       87.368,
       42.367999999999995,
       50.99592570722222,
-      59.49592570722222
+      59.49592570722222,
+      100.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -211,7 +201,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 5.99592570722222,
+    "pressure": 100.0,
     "next_action": ""
   },
   "affect": {
@@ -480,7 +470,7 @@
   ],
   "pending_insights": 219,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-26T07:23:21.866000+08:00",
+  "last_pulse_output": "2026-06-26T14:06:06+08:00",
   "interest_queue": [
     {
       "id": "seed-233-1",
@@ -732,32 +722,11 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 5.99592570722222,
-  "next_scheduled": "2026-06-26T15:00:00+08:00",
-  "cognitive_pressure": 40.42315523111111,
-  "last_active": "2026-06-26T06:07:13+0800",
+  "pressure": 100.0,
+  "next_scheduled": "2026-06-26T14:21:06+08:00",
+  "cognitive_pressure": 100.0,
+  "last_active": "2026-06-26T14:06:06+08:00",
   "pressure_history": [
-    55.0,
-    65.5,
-    66.79,
-    21.790000000000006,
-    23.14,
-    55.0,
-    74.41332670166666,
-    62.04,
-    17.04,
-    32.35,
-    48.4,
-    50.64,
-    50.66,
-    67.23,
-    21.230000000000004,
-    0,
-    52.34,
-    68.3,
-    99.35,
-    54.35,
-    71.8,
     26.799999999999997,
     73.42,
     90.69,
@@ -766,7 +735,9 @@
     100.0,
     53.31,
     78.67,
-    88.09
+    88.09,
+    100.0
   ],
-  "next_action": ""
+  "next_action": "",
+  "current_interval_min": 15
 }

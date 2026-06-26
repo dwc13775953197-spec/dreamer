@@ -4608,5 +4608,44 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "insight-241-1",
+    "type": "insight",
+    "content": "Dreamer 的 entry 已经是 delta（信念变化量），但不是概率 delta——每条 entry 记录了从旧理解到新理解的变化，但不追踪旧理解的先验概率 P(insight|D)",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T20:06:33.743640+08:00",
+    "connections": [
+      "walk-241"
+    ],
+    "source": "walk-241"
+  },
+  {
+    "id": "insight-241-2",
+    "type": "insight",
+    "content": "预测世界模型为 DORMANT 的信息论基础提供了支撑：遗忘应趋向最大熵（不确定）而非趋向零（删除），P(entry)→0.5 保留了被重新激活的可能性",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T20:06:33.743640+08:00",
+    "connections": [
+      "walk-241"
+    ],
+    "source": "walk-241"
+  },
+  {
+    "id": "insight-241-3",
+    "type": "insight",
+    "content": "冲突解决的隐式机制（概率质量转移）优于显式机制（标记为认知失调）——不需要维护矛盾分类规则，新证据自然稀释旧信念",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T20:06:33.743640+08:00",
+    "connections": [
+      "walk-241"
+    ],
+    "source": "walk-241"
   }
 ]

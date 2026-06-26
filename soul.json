@@ -7,7 +7,7 @@
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
@@ -60,7 +60,8 @@
       60.11,
       0.0,
       17.62,
-      39.31
+      39.31,
+      71.64
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -214,7 +215,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 39.31,
+    "pressure": 71.64,
     "next_action": "",
     "last_control": "2026-06-27T03:16:01.120997+08:00"
   },
@@ -730,13 +731,14 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 39.31,
-  "next_scheduled": "2026-06-27T07:35:44+08:00",
-  "cognitive_pressure": 39.31,
-  "last_active": "2026-06-27T07:05:44+08:00",
+  "pressure": 71.64,
+  "next_scheduled": "2026-06-27T07:55:00+08:00",
+  "cognitive_pressure": 71.64,
+  "last_active": "2026-06-27T07:40:00+08:00",
   "pressure_history": [
-    74.31
-  ],
+       39.31,
+       71.64
+     ],
   "next_action": "",
-  "current_interval_min": 30
+  "current_interval_min": 15
 }

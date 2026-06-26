@@ -4510,5 +4510,44 @@
     "source": "walk-237",
     "decay_rate": 0.02,
     "score": 0.34
+  },
+  {
+    "id": "ins-238-1",
+    "type": "insight",
+    "content": "记忆竞争生态：DORMANT 的第三条选择路径——既非均匀衰减（无选择）也非 PE 加权（外部信号驱动），而是基于 entry 群落内部动力学的竞争选择。每个 entry 占据认知生态位，竞争结果取决于连接强度、skeleton 匹配度和近因效应的多维竞争。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T16:09:45.612620+08:00",
+    "source": "walk-238",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0"
+  },
+  {
+    "id": "ins-238-2",
+    "type": "insight",
+    "content": "生态位分化作为 insight 多样性的保护机制——避免竞争退化为连接数竞赛（马太效应）。需要设计竞争规则使弱但高潜力的 insight 能存活，而非仅靠历史连接数决定生存。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T16:09:54.451257+08:00",
+    "source": "walk-238",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0"
+  },
+  {
+    "id": "ins-238-3",
+    "type": "insight",
+    "content": "竞争与再巩固的互补——DORMANT 3.0 的双引擎架构：竞争决定哪些 entry 存活（选择压力），再巩固修改存活 entry 的内容（可塑性编辑）。两者不互斥，共同构成完整的记忆更新机制。",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-26T16:10:02.288465+08:00",
+    "source": "walk-238",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.4, strength=5.0"
   }
 ]

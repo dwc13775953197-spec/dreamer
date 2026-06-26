@@ -4758,5 +4758,47 @@
     "refs": [],
     "note": "",
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-243-1",
+    "type": "insight",
+    "content": "Affect 调制预测目标函数，而非预测处理强度：高好奇状态→DORMANT构建跨领域预测模型（探索性目标），高压力状态→构建错误/威胁预测模型（修正性目标），低能量状态→构建保守预测模型（维持性目标）。这比ins-242-2的'调节器'比喻更精确——affect选择的是预测的目标函数，不是处理的优先级队列。",
+    "strength": 5.0,
+    "score": 0.72,
+    "status": "active",
+    "created": "2026-06-26T23:15:23.432839+08:00",
+    "source": "walk-243",
+    "decay_rate": 0.05,
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-094",
+      "ins-242-2",
+      "insight-234-1",
+      "ins-237-1"
+    ],
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-243-2",
+    "type": "insight",
+    "content": "DORMANT不是再巩固的容器，而是再巩固的系统级实现：再巩固=记忆层面的PE触发可塑态更新，DORMANT=系统层面的离线预测模型构建。两者是同一过程在不同抽象层级的命名，不需要单独的'再巩固模块'。",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-26T23:15:23.432839+08:00",
+    "source": "walk-243",
+    "decay_rate": 0.05,
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-237-1",
+      "insight-234-1",
+      "ins-242-2",
+      "ins-new-229-1"
+    ],
+    "refs": [],
+    "note": ""
   }
 ]

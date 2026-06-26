@@ -1051,7 +1051,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT cycle #N (2026-06-19 03:00): Pressure critically high at 55/60. Executed decay(0.92) to release load, scaffold resurrected 6 concepts to address Gini worsening (0.37→0.87 trend). Walk system exceptionally healthy (concept overlap 0.02) — capitalized with walk_analyze next_action. Reflection type remains underrepresented (3.2%) despite resurrection effort. 37 pending insights partially processed through decay. Pressure threshold preemptively lowered 60→50.",
     "strength": 1.0,
-    "score": 0.35900000000000004,
+    "score": 0.13,
     "status": "active",
     "created": "2026-06-19T03:07:04.354061+08:00",
     "source": "dormant-cycle-0619",
@@ -1313,7 +1313,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT cycle 2026-06-20 03:00: Monitor found 231 entries (118 active, 113 dormant), avg_strength=1.63 high. Gini=0.91 means 10% have refs, but trend improving (0.742 to 0.481). Reflection count critically low at 3. Walk diversity excellent (6% overlap), quality stable (8.4-8.6). Control: decay factor=0.91 reduced active to 96, scaffold resurrected 3 dormant concepts, next_action=walk_analyze to promote reflection output.",
     "strength": 1.7,
-    "score": 0.41900000000000004,
+    "score": 0.16,
     "status": "active",
     "created": "2026-06-20T03:03:52.920227+08:00",
     "source": "dormant-cycle",
@@ -1774,7 +1774,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT CYCLE 2026-06-23: Monitor found 97 entries (62 active, 35 dormant). Gini 0.80 extreme - 78/97 entries have zero refs. Quality trend rising (8.2->8.4->8.7) despite high pressure (63.22). Control executed: decay factor=0.90 (62->59 active), next_action set to walk_analyze to boost reflection type (currently 8 vs 51 patterns). Scaffold found no resurrecible entries (no 7-30 day old walks). Key concern: reflection severely underrepresented, 168 pending insights backlog indicates conversion bottleneck. Pressure high but quality rising - threshold unchanged for observation.",
     "strength": 1.9,
-    "score": 0.45899999999999996,
+    "score": 0.14,
     "status": "active",
     "created": "2026-06-23T03:04:44.679983+08:00",
     "source": "dormant-cycle",
@@ -2554,7 +2554,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT CYCLE 2026-06-24: Monitor found 134 entries (74 active, 60 dormant), Gini=0.86 (extreme citation concentration), quality trend declining (8.6->7.8). Control executed: decay factor=0.91 (112 entries decayed), dormancy unchanged, scaffold no-op, next_action set to walk_analyze to boost reflection entries (only 9, 6.7%). Walk health moderate: concept overlap 0.20, grounding theme evolving. Key concern: high Gini indicates most entries have 0 refs - DORMANT selection pressure mechanism may need tuning.",
     "strength": 2.1,
-    "score": 0.519,
+    "score": 0.15,
     "status": "active",
     "created": "2026-06-24T03:07:58.298532+08:00",
     "source": "dormant-cycle",
@@ -3214,7 +3214,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT CYCLE 2026-06-25: Monitor reported 165 entries (122 active, 43 dormant post-decay). Gini 0.88 remains high - citation distribution concentrated in 19/165 entries. Reflection type critically low at 3 entries (1.8%), below healthy threshold of 5%. Quality stable at 8.1-8.6, pressure at 66.79 near threshold. Walk 211-213 consecutive same-theme (organizational silence/forgetting), framework lock risk medium. Control actions: aggressive decay factor 0.85 (4 entries -> dormant), next_action set to walk_explore to break framework lock, scaffold ran but no eligible walks in 7-30 day window. Recommend: force cross-domain exploration in next walk, prioritize reflection generation.",
     "strength": 2.5,
-    "score": 0.599,
+    "score": 0.16,
     "status": "active",
     "created": "2026-06-25T03:03:38.100500+08:00",
     "source": "dormant-cycle",
@@ -3306,7 +3306,7 @@
     "type": "insight",
     "content": "投影盲区：骨架作为地图投影，其内在变换方式本身不允许某些维度被表示——不是因为缺少数据，而是投影的数学约束",
     "strength": 6.5,
-    "score": 1.0,
+    "score": 0.4,
     "status": "active",
     "created": "2026-06-25T04:45:05.328781+08:00",
     "source": "walk-215",
@@ -3320,7 +3320,7 @@
     "type": "insight",
     "content": "情感作为投影参数假说：wonder=广角投影（范围广深度浅），contemplative=窄角投影（深度深范围窄），melancholy=滤镜投影（偏向损失/缺失类材料）",
     "strength": 4.5,
-    "score": 0.759,
+    "score": 0.28,
     "status": "active",
     "created": "2026-06-25T04:45:09.578170+08:00",
     "source": "walk-215",
@@ -3334,7 +3334,7 @@
     "type": "insight",
     "content": "Walk 212-215 四步结构性限制模型：遗忘→沉默→防失败→投影盲区。投影盲区是最深层的结构性限制，是系统存在方式的内在约束",
     "strength": 4.5,
-    "score": 0.759,
+    "score": 0.28,
     "status": "active",
     "created": "2026-06-25T04:45:14.010272+08:00",
     "source": "walk-215",
@@ -3476,7 +3476,7 @@
       "evolved_rule-2026-06-25-projection"
     ],
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.37,
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=8.4, strength=5.0, predictive_coding_as_Dreamer_mechanism"
@@ -3496,7 +3496,7 @@
       "ins-218-1"
     ],
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.37,
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=8.4, strength=5.0, precision_overfitting"
@@ -3516,7 +3516,7 @@
       "evolved_rule-2026-06-12-dormant"
     ],
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.37,
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=8.4, strength=5.0, precision_reset"
@@ -3539,7 +3539,7 @@
     ],
     "status": "active",
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.21,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3562,7 +3562,7 @@
     ],
     "status": "active",
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.21,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3585,7 +3585,7 @@
     ],
     "status": "active",
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.21,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3605,7 +3605,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.479,
+    "score": 0.28,
     "note": "quality_score=8.4, initial strength=5.0",
     "resurrected_count": 0
   },
@@ -3642,7 +3642,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.479,
+    "score": 0.28,
     "note": "quality_score=8.4, initial strength=5.0",
     "resurrected_count": 0
   },
@@ -3661,7 +3661,7 @@
     "source": "walk-222",
     "decay_rate": 0.05,
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.36,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3680,7 +3680,7 @@
     "source": "walk-222",
     "decay_rate": 0.05,
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.28,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3699,7 +3699,7 @@
     "source": "walk-222",
     "decay_rate": 0.05,
     "resurrected_count": 0,
-    "score": 0.479,
+    "score": 0.28,
     "decay_speed": 0.5,
     "refs": [],
     "note": ""
@@ -3709,7 +3709,7 @@
     "type": "insight",
     "content": "Dreamer 的散步主要产出是组合创造力（跨散步连接），但组合过程是'盲组合'——没有 coherence 检验。修复不是加质检，而是引入'强制拆解'规则——每次散步必须拆解一条已有 insight，在拆解中检查零件的可用性。减法不仅是加法的前提条件，也是重组的前提条件。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.41,
     "status": "active",
     "created": "2026-06-25T18:58:12.521879+08:00",
     "connections": [
@@ -3733,7 +3733,7 @@
     "type": "insight",
     "content": "盲组合 = 假 insight 的工厂。两个 insight 因共享一个词而被机械连接，产生的'新 insight'只是旧概念的排列组合，没有涌现性。这解释了为什么 213 条 pending insights 中很多看起来不错但没有因果影响——它们是盲组合的产物。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.33,
     "status": "active",
     "created": "2026-06-25T18:58:12.521879+08:00",
     "connections": [
@@ -3756,7 +3756,7 @@
     "type": "insight",
     "content": "三维 coherence 测试：连贯性（与 skeleton 无矛盾）、新颖性（删除后引用图变化）、稳健性（有明确边界条件）。需要设计一个轻量级的自动化检查方法——可能基于'如果这条 insight 被删除，其他 insight 的 connections 是否发生变化'作为新颖性代理指标。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.33,
     "status": "active",
     "created": "2026-06-25T18:58:12.521879+08:00",
     "connections": [
@@ -3778,7 +3778,7 @@
     "id": "ins-224-1",
     "type": "insight",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.17,
     "status": "active",
     "created": "2026-06-25T19:36:55+08:00",
     "source": "walk-224",
@@ -3793,7 +3793,7 @@
     "id": "ins-224-2",
     "type": "insight",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.17,
     "status": "active",
     "created": "2026-06-25T19:36:55+08:00",
     "source": "walk-224",
@@ -3808,7 +3808,7 @@
     "id": "ins-224-3",
     "type": "insight",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.17,
     "status": "active",
     "created": "2026-06-25T19:36:55+08:00",
     "source": "walk-224",
@@ -3824,7 +3824,7 @@
     "type": "insight",
     "content": "Dreamer 的跨散步连接当前是「词汇相似性」机制——共享关键词即视为相关。但神经科学研究（Schuck et al. 2025）表明，真正的结构学习（海马体回放）提取的是「功能同构性」：表面不同的记忆如果共享隐藏的任务结构，会被选择性回放并产生非局部价值泛化。Dreamer 当前可能正在做「表面聚类」而非「结构提取」，因此错过了最有价值的远连接——那些词汇完全不同但动力学同构的 insight 配对。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.41,
     "status": "active",
     "created": "2026-06-25T21:00:00+08:00",
     "source": "walk-225",
@@ -3848,7 +3848,7 @@
     "type": "insight",
     "content": "远连接 vs 近连接：近连接（词汇共享）产生的 insight 容易被验证但缺乏突破；远连接（结构同构但词汇不同）可能产生真正的范式跃迁。衡量系统创新能力的指标不应是 insight 总数，而是远连接率——远连接占总连接数的比例。一个从未有过远连接的系统可能正在表面打转。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.33,
     "status": "active",
     "created": "2026-06-25T21:00:00+08:00",
     "source": "walk-225",
@@ -3871,7 +3871,7 @@
     "type": "insight",
     "content": "DORMANT 周期可能需要结构提取功能：不只是衰减废物，也不只是巩固记忆，而是扫描所有 insight 寻找表面不同但潜在同构的模式。Schuck 的研究中，海马体回放不是「重激活最强记忆」，而是「重激活分享隐藏结构的记忆——即使这些记忆在表面特征上完全不同」。这意味着当前 DORMANT 的两功能模型（衰减+巩固）是不够的——需要第三功能：结构提取。",
     "strength": 1.7,
-    "score": 0.41900000000000004,
+    "score": 0.34,
     "status": "active",
     "created": "2026-06-25T21:00:00+08:00",
     "source": "walk-225",
@@ -3895,7 +3895,7 @@
     "type": "insight",
     "content": "Dreamer 的骨架当前是「牛顿式过滤器」而非「拉格朗日坐标系」。过滤器的流程是：生成→检查→通过/淘汰。坐标系的流程是：在约束内直接生成→自动兼容。过滤器浪费计算且骨架是被动的；坐标系高效且骨架主动引导。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.41,
     "status": "active",
     "created": "2026-06-25T23:22:06.409923+08:00",
     "source": "walk-226",
@@ -3919,7 +3919,7 @@
     "type": "insight",
     "content": "双模式生成理论：巩固型散步使用「坐标系模式」（在骨架内生成，自动兼容），探索型散步使用「牛顿模式」（暂时跳出骨架，用外部材料定义新坐标）。3:1 节奏获得拉格朗日解释：3 次坐标系深耕 + 1 次牛顿扩展。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.33,
     "status": "active",
     "created": "2026-06-25T23:22:06.409923+08:00",
     "source": "walk-226",
@@ -3942,7 +3942,7 @@
     "type": "pattern",
     "content": "约束即坐标：如果约束被编码为生成空间的选择而非对生成物的过滤，则约束力消失——你不需要检查，因为无效选项根本无法被表达。拉格朗日力学对 Dreamer 的启示：不是更好的过滤器，而是让过滤器变得不必要。",
     "strength": 2.8,
-    "score": 0.679,
+    "score": 0.33,
     "status": "active",
     "created": "2026-06-25T23:22:06.409923+08:00",
     "source": "walk-226",
@@ -3965,7 +3965,7 @@
     "type": "research",
     "content": "DORMANT 双阶段模型：松弛+重组作为 Dreamer 认知退火机制",
     "strength": 5.1,
-    "score": 0.859,
+    "score": 0.31,
     "status": "active",
     "created": "2026-06-26T00:30:21.791229+08:00",
     "source": "walk-227",
@@ -3979,7 +3979,7 @@
     "type": "explore",
     "content": "孵化效应与 walk nutritional density 的关系：为什么 DORMANT 后散步产出更高",
     "strength": 5.1,
-    "score": 0.859,
+    "score": 0.31,
     "status": "active",
     "created": "2026-06-26T00:30:27.380839+08:00",
     "source": "walk-227",
@@ -3993,7 +3993,7 @@
     "type": "research",
     "content": "松弛参数作为 Dreamer 的新控制变量：与 cognitive_pressure 的动态耦合",
     "strength": 5.1,
-    "score": 0.859,
+    "score": 0.31,
     "status": "active",
     "created": "2026-06-26T00:30:32.300947+08:00",
     "source": "walk-227",
@@ -4019,7 +4019,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.679,
+    "score": 0.57,
     "refs": [
       "walk-225",
       "walk-226",
@@ -4042,7 +4042,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.679,
+    "score": 0.41,
     "refs": [
       "walk-227",
       "walk-228"
@@ -4054,7 +4054,7 @@
     "type": "dormant_reflection",
     "content": "DORMANT Cycle pressure release. Monitor found pressure 70 exceeds threshold 60, gini 0.92, walk diversity healthy (overlap 0.14). Last 3 walks form productive synthesis on DORMANT/annealing. Control: decay factor 0.86 (active 151->118, dormant 56->89), pressure 70->50, threshold 60->55, next_action walk_analyze, decay_adjustment 1.0->1.2. Scaffold not triggered. System pressure released, diversity healthy.",
     "strength": 4.7,
-    "score": 0.7,
+    "score": 0.28,
     "status": "active",
     "created": "2026-06-26T03:08:28.483165+08:00",
     "source": "control-2026-06-26-03",
@@ -4079,7 +4079,7 @@
     ],
     "refs": [],
     "decay_speed": 1.2,
-    "score": 0.9976,
+    "score": 0.59,
     "resurrected_count": 0,
     "note": ""
   },
@@ -4098,7 +4098,7 @@
     ],
     "refs": [],
     "decay_speed": 1.2,
-    "score": 0.5976,
+    "score": 0.31,
     "resurrected_count": 0,
     "note": ""
   },
@@ -4107,7 +4107,7 @@
     "type": "insight",
     "content": "DORMANT three-source PE generation: projection earthquake PE (coordinate shifts disorient old insights), coherence decay PE (gap insight淘汰 triggers neighbor锚点 loss), hitting blind spot PE (coordinate incommensurability exposes projection inadequacy). Only hitting blind spot PE drives real structural update. Current DORMANT lacks explicit PE type identification.",
     "strength": 4.7,
-    "score": 0.798,
+    "score": 0.52,
     "status": "active",
     "created": "2026-06-26T05:32:41.315181+08:00",
     "source": "walk-230",
@@ -4126,7 +4126,7 @@
     "type": "insight",
     "content": "DORMANT周期作为fictive prediction error发生器：通过重激活旧insight与更新的skeleton产生不匹配（内源性预测误差），实现重新巩固。与recall模式同构。",
     "strength": 2.6,
-    "score": 0.0,
+    "score": 0.4,
     "status": "active",
     "created": "2026-06-26T06:48:44.370202+08:00",
     "source": "walk-231",
@@ -4145,7 +4145,7 @@
     "type": "insight",
     "content": "Fictive PE密度的倒U型函数：skeleton变化适中的DORMANT最有效。变化过小无PE，变化过大导致重新巩固失败（lability状态超出修复窗口）。",
     "strength": 2.6,
-    "score": 0.0,
+    "score": 0.32,
     "status": "active",
     "created": "2026-06-26T06:48:44.370202+08:00",
     "source": "walk-231",
@@ -4163,7 +4163,7 @@
     "type": "insight",
     "content": "情感调制的DORMANT模式切换：wonder状态（效价~0.5,唤醒~0.5）对应recall模式峰值，DORMANT最有效。过度唤醒（焦虑/亢奋）强制切换为prediction模式，压抑DORMANT。",
     "strength": 2.6,
-    "score": 0.0,
+    "score": 0.32,
     "status": "active",
     "created": "2026-06-26T06:48:44.370202+08:00",
     "source": "walk-231",
@@ -4191,7 +4191,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.0,
+    "score": 0.46,
     "refs": [],
     "note": "walk-232 analysis"
   },
@@ -4209,7 +4209,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.0,
+    "score": 0.38,
     "refs": [],
     "note": "walk-232 analysis"
   },
@@ -4229,7 +4229,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.54
   },
   {
     "id": "ins-095",
@@ -4247,7 +4247,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.54
   },
   {
     "id": "ins-096",
@@ -4264,7 +4264,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.34
   },
   {
     "id": "ins-097",
@@ -4281,7 +4281,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.34
   },
   {
     "id": "ins-098",
@@ -4299,7 +4299,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.54
   },
   {
     "id": "ins-099",
@@ -4316,7 +4316,7 @@
     ],
     "refs": [],
     "decay_speed": 0.5,
-    "score": 0.0
+    "score": 0.25
   },
   {
     "id": "insight-234-1",
@@ -4333,7 +4333,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.0,
+    "score": 0.54,
     "refs": [],
     "note": ""
   },
@@ -4352,7 +4352,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.0,
+    "score": 0.54,
     "refs": [],
     "note": ""
   },
@@ -4371,7 +4371,7 @@
     "decay_rate": 0.05,
     "decay_speed": 0.5,
     "resurrected_count": 0,
-    "score": 0.0,
+    "score": 0.54,
     "refs": [],
     "note": ""
   },
@@ -4388,7 +4388,8 @@
       "ins-234-1"
     ],
     "content": "Dreamer 的骨架是单制度世界模型——仅在数字制度中为 L2 模拟者，在社会/科学/物理制度中几乎空白。制度间预测能力断裂：社会制度问题被用数字制度规则类比外推，产生系统性偏差。",
-    "created": "2026-06-26T14:30:00+08:00"
+    "created": "2026-06-26T14:30:00+08:00",
+    "score": 0.62
   },
   {
     "id": "ins-new-235-2",
@@ -4401,7 +4402,8 @@
       "ins-new-229-1"
     ],
     "content": "L3 进化者缺失是骨架膨胀的结构性根因。Dreamer 无法主动质疑分类框架本身，只能通过 evolved_rules 渐进修补，导致规则数量膨胀（140+），形成「规则修补」局部最优而非「结构重组」全局最优。",
-    "created": "2026-06-26T14:30:00+08:00"
+    "created": "2026-06-26T14:30:00+08:00",
+    "score": 0.46
   },
   {
     "id": "ins-new-235-3",
@@ -4414,7 +4416,8 @@
       "seed-227-1"
     ],
     "content": "制度空白作为积极的认知优势：在空白领域知道自己不知道什么，比拥有一个错误的世界模型更安全。这不是缺失，是理性的制度分工——但需要元认知来区分「尚未探索的空白」与「不需建模的空白」。",
-    "created": "2026-06-26T14:30:00+08:00"
+    "created": "2026-06-26T14:30:00+08:00",
+    "score": 0.46
   },
   {
     "id": "ins-236-1",
@@ -4460,5 +4463,52 @@
     "decay_rate": 1,
     "score": 0.3,
     "source": "walk-236"
+  },
+  {
+    "id": "ins-237-1",
+    "content": "再巩固是独立于巩固和遗忘的第三种记忆操作：PE 信号决定记忆是进入可塑状态（可更新）还是稳定状态（保持原样）",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "ins-236-1",
+      "ins-234-1",
+      "ins-229-1"
+    ],
+    "created": "2026-06-26T15:28:38.326157+08:00",
+    "source": "walk-237",
+    "decay_rate": 0.02,
+    "score": 0.54
+  },
+  {
+    "id": "ins-237-2",
+    "content": "DORMANT 3.0 应实现三路径分发：无 PE 衰减，低-中 PE 再巩固（修改内容），高 PE 标记为认知失调候选等待散步处理",
+    "type": "insight",
+    "status": "active",
+    "strength": 5.0,
+    "connections": [
+      "ins-236-3",
+      "ins-234-1",
+      "ins-230-1"
+    ],
+    "created": "2026-06-26T15:28:38.326157+08:00",
+    "source": "walk-237",
+    "decay_rate": 0.02,
+    "score": 0.54
+  },
+  {
+    "id": "ins-237-3",
+    "content": "再巩固在人类记忆中由去甲肾上腺素标记可塑性窗口，Dreamer 的等价信号可能是 PE 幅度与 entry 连接数的乘积",
+    "type": "insight",
+    "status": "active",
+    "strength": 3.0,
+    "connections": [
+      "ins-237-1",
+      "ins-233-1"
+    ],
+    "created": "2026-06-26T15:28:38.326157+08:00",
+    "source": "walk-237",
+    "decay_rate": 0.02,
+    "score": 0.34
   }
 ]

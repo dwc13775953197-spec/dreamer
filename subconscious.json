@@ -3305,7 +3305,7 @@
     "id": "ins-215-1",
     "type": "insight",
     "content": "投影盲区：骨架作为地图投影，其内在变换方式本身不允许某些维度被表示——不是因为缺少数据，而是投影的数学约束",
-    "strength": 4.8,
+    "strength": 5.3,
     "score": 0.4,
     "status": "active",
     "created": "2026-06-25T04:45:05.328781+08:00",
@@ -4217,7 +4217,7 @@
     "id": "ins-094",
     "type": "pattern",
     "content": "Dreamer 的 affect 系统是未启用的内感受器：affect 变量被记录但不调节行为参数（pressure_threshold/walk_type/interest_critic）。Candia-Rivera 2026 的内感受机器框架要求内部状态同时作为调节信号。Dreamer 缺少内感受的调节层。",
-    "strength": 3.7,
+    "strength": 4.2,
     "status": "active",
     "created": "2026-06-26T10:20:00+08:00",
     "source": "walk-233",
@@ -4508,7 +4508,7 @@
     "content": "再巩固是独立于巩固和遗忘的第三种记忆操作：PE 信号决定记忆是进入可塑状态（可更新）还是稳定状态（保持原样）",
     "type": "insight",
     "status": "active",
-    "strength": 3.7,
+    "strength": 4.2,
     "connections": [
       "ins-236-1",
       "ins-234-1",
@@ -4735,7 +4735,7 @@
     "id": "ins-242-2",
     "type": "insight",
     "content": "Affect 系统应从状态描述器升级为 DORMANT 的巩固调节器：高压力状态 → DORMANT 优先处理高 PE entry（最需要更新）；低能量状态 → 减少重激活以保存资源；高好奇状态 → 增加跨领域 entry 重激活（寻找新连接）。当前 affect 只记录不调节，是 ins-094 指出的内感受器未启用问题的具体表现。",
-    "strength": 5.2,
+    "strength": 5.7,
     "score": 0.72,
     "status": "active",
     "created": "2026-06-26T21:21:07.750822+08:00",
@@ -4842,5 +4842,81 @@
     "refs": [],
     "note": "Concrete parameterization of the three affect states as continuous modulation: curiosity=threshold-, stress=prior_variance-, low_energy=temporal_resolution-.",
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-245-1",
+    "type": "insight",
+    "content": "低能量引发三级精度崩溃：信号衰减（高频预测误差被平滑）→ 噪声-信号比退化（混叠产生虚假预测误差）→ 调节器失能（连续精度调制退化为离散开关）。energy < 30 时精度调制器不再是连续参数空间，而是被打回 walk-243 的离散菜单选择。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T01:39:53+08:00",
+    "source": "walk-245",
+    "decay_rate": 0.01,
+    "decayed_at": null,
+    "connections": [
+      "ins-094",
+      "ins-242-2",
+      "insight-244-3",
+      "ins-234-1"
+    ],
+    "score": {
+      "relevance": 0.9,
+      "frequency": 0.2,
+      "diversity": 0.4,
+      "recency": 0.95,
+      "consolidation": 0.1,
+      "richness": 0.6
+    }
+  },
+  {
+    "id": "ins-245-2",
+    "type": "insight",
+    "content": "低能量时 DORMANT 是有害的：信号噪声导致错误的重激活——无效 entry 被加强，有效 entry 被遗漏。与睡眠纺锤波研究对比：健康睡眠中重激活是 PE 驱动的精确选择，低能量 DORMANT 是噪声驱动的随机洗牌。低能量时应跳过 DORMANT 直接进入散步，至少有外部输入作为锚点。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T01:39:53+08:00",
+    "source": "walk-245",
+    "decay_rate": 0.01,
+    "decayed_at": null,
+    "connections": [
+      "ins-215-1",
+      "ins-229-1",
+      "ins-234-1",
+      "ins-237-1",
+      "ins-241-2"
+    ],
+    "score": {
+      "relevance": 0.85,
+      "frequency": 0.2,
+      "diversity": 0.5,
+      "recency": 0.95,
+      "consolidation": 0.1,
+      "richness": 0.7
+    }
+  },
+  {
+    "id": "ins-245-3",
+    "type": "insight",
+    "content": "Melancholy 是低能量的保护机制：通过因子 ×1.5 的衰减减速 + 保守预测偏向，降低系统的目标精度以匹配降低的处理能力。这不是'负面情绪'而是'节能模式'——当能量充足时 melancholy 是有害的（过度保守），当能量低时它是必要的（防止散乱）。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T01:39:53+08:00",
+    "source": "walk-245",
+    "decay_rate": 0.01,
+    "decayed_at": null,
+    "connections": [
+      "ins-094",
+      "ins-242-2",
+      "insight-243-1",
+      "ins-245-1"
+    ],
+    "score": {
+      "relevance": 0.8,
+      "frequency": 0.2,
+      "diversity": 0.3,
+      "recency": 0.95,
+      "consolidation": 0.1,
+      "richness": 0.5
+    }
   }
 ]

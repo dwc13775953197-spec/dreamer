@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T01:39:53+08:00",
+    "last_active": "2026-06-27T04:27:10.902217",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T04:18:00+08:00",
+    "next_scheduled": "2026-06-27T05:27:10.902217",
     "event_queue": [],
     "last_walk_at": "2026-06-27",
-    "total_walks": 245,
-    "last_pulse_output": "2026-06-27T02:53:10.471410+08:00",
+    "total_walks": 246,
+    "last_pulse_output": "2026-06-27T04:27:10.902217",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.7,
       8.4,
       8.6,
@@ -43,13 +42,13 @@
       8.4,
       8.6,
       8.7,
-      8.5
+      8.5,
+      8.4
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      55.97,
       80.95,
       35.95,
       52.09,
@@ -58,7 +57,8 @@
       25.0,
       41.31,
       40.81,
-      60.11
+      60.11,
+      0.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -69,11 +69,22 @@
     "pending_insights": 230,
     "interest_queue": [
       {
+        "id": "seed-246-1",
+        "topic": "ARH的'隔离舱' vs Dreamer的'保护罩'：低能量忧郁是否真正减少了活动量还是重新分配了活动类型？这是两个框架的可证伪区分",
+        "source": "walk-246",
+        "trigger": "ARH提出抑郁的适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
+        "intensity": 0.74,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-27T04:27:10.902217",
+        "decay_rate": 0.05
+      },
+      {
         "id": "seed-245-1",
         "topic": "疲劳×预测误差的交互是否解释了 Dreamer '高产滑坡'现象——连续散步中 quality_score 下降可能不是材料耗尽而是能量下降导致 PE 信号噪声",
         "source": "walk-245",
         "trigger": "低能量=PE 信号被噪声污染 + walk-242 的 DORMANT 选择性重激活 + 连续散步中的质量衰减模式",
-        "intensity": 0.78,
+        "intensity": 0.73,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-27T01:39:53+08:00",
@@ -84,10 +95,21 @@
         "topic": "Melancholy 作为低能量保护机制的操作化：energy < 30 → melancholy_factor 自适应增加——这是否能解释 mood_history 中 melancholy 总是出现在低能量时期？",
         "source": "walk-245",
         "trigger": "melancholy 可能是低能量的天然保护机制 + mood_history 回溯",
-        "intensity": 0.75,
+        "intensity": 0.7,
         "type": "research",
         "status": "pending",
         "created": "2026-06-27T01:39:53+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-246-2",
+        "topic": "低能量'DORMANT算法切换'的操作化：当energy<30且melancholy>0.5时，DORMANT从PE_driven切换到causal_chain_analysis——具体切换条件如何定量界定？",
+        "source": "walk-246",
+        "trigger": "低能量时不应该跳过DORMANT而是切换算法 + causal_chain_analysis模式设计提案",
+        "intensity": 0.69,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-27T04:27:10.902217",
         "decay_rate": 0.05
       },
       {
@@ -95,7 +117,7 @@
         "topic": "能量分层 DORMANT 的设计：Light 阶段独立于能量 vs REM/Deep 需要能量——这是否对应睡眠研究中慢波睡眠与 REM 睡眠的不同能量需求？",
         "source": "walk-245",
         "trigger": "低能量时跳过 DOMEANT 的 REM/Deep + 睡眠纺锤波的时间窗口约束",
-        "intensity": 0.72,
+        "intensity": 0.67,
         "type": "research",
         "status": "pending",
         "created": "2026-06-27T01:39:53+08:00",
@@ -106,10 +128,21 @@
         "topic": "情感作为全局调制变量的 Dreamer 参数化实现：affect ∈ [0,1]^n → process_params ∈ R^k 的连续映射",
         "source": "walk-244",
         "trigger": "affect ≠ 决策变量，affect = 全局调制变量",
-        "intensity": 0.7,
+        "intensity": 0.65,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T23:57:30.232733+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-246-3",
+        "topic": "ARH的'社交复杂问题'到Dreamer的'认知复杂问题'：从社会冲突到内部模型逻辑一致性的分析模式转换——这种跨领域映射的边界在哪里？",
+        "source": "walk-246",
+        "trigger": "ARH提出抑郁适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
+        "intensity": 0.65,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-27T04:27:10.902217",
         "decay_rate": 0.05
       },
       {
@@ -117,7 +150,7 @@
         "topic": "情感调节的预测误差检测阈值是否是 ADHD 的核心机制？——从 '好奇=降低阈值' 推导 ADHD 的 '兴趣切换过快' 可能是阈值调节器故障",
         "source": "walk-244",
         "trigger": "好奇≠选择探索，而是降低预测误差阈值 → 阈值过高=注意力不集中，阈值过低=过度分心",
-        "intensity": 0.67,
+        "intensity": 0.62,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T23:57:30.232733+08:00",
@@ -128,7 +161,7 @@
         "topic": "预测世界模型作为 Dreamer 的范式升级路径：从存储 insight 到建模信念分布",
         "source": "walk-241",
         "trigger": "Dreamer 正在向预测世界模型范式漂移，但漂移本身从未被显式命名",
-        "intensity": 0.65,
+        "intensity": 0.6,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T20:06:14.291841+08:00",
@@ -139,48 +172,15 @@
         "topic": "内感受调制接口 (IMI)：让 affect 变量调节行为参数而非仅作状态描述",
         "source": "walk-233",
         "trigger": "Dreamer 的 affect 系统只有内感受的感知层没有调节层",
-        "intensity": 0.6475,
+        "intensity": 0.5975,
         "type": "research",
         "status": "pending",
         "created": "2026-06-26T10:20:00+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-244-2",
-        "topic": "压力下的 '压缩高层更新空间' 是否对应 DMN 与 TPN 的切换失败？——压力固着 = DMN 主导无法切换到 TPN",
-        "source": "walk-244",
-        "trigger": "压力压缩高层先验方差 + walk-239 的 DMN/TPN 预热成本",
-        "intensity": 0.63,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-26T23:57:30.232733+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-241-2",
-        "topic": "信息论 PE 的形式化：S = -log₂ P(obs|D) 作为 interest_queue 强度的统一度量",
-        "source": "walk-241",
-        "trigger": "PE 的信息论定义让金发姑娘区间可以被量化计算",
-        "intensity": 0.58,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-26T20:06:14.291841+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-229-1",
-        "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
-        "source": "walk-229",
-        "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-        "intensity": 0.5625,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-26T04:18:38.604588+08:00",
-        "decay_rate": 0.05
       }
     ],
-    "pressure": 40.81,
-    "next_action": "walk_explore",
+    "pressure": 0.0,
+    "next_action": "",
     "last_control": "2026-06-27T03:16:01.120997+08:00"
   },
   "affect": {
@@ -468,11 +468,22 @@
   "last_pulse_output": "2026-06-27T02:53:10.471410+08:00",
   "interest_queue": [
     {
+      "id": "seed-246-1",
+      "topic": "ARH的'隔离舱' vs Dreamer的'保护罩'：低能量忧郁是否真正减少了活动量还是重新分配了活动类型？这是两个框架的可证伪区分",
+      "source": "walk-246",
+      "trigger": "ARH提出抑郁的适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
+      "intensity": 0.74,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T04:27:10.902217",
+      "decay_rate": 0.05
+    },
+    {
       "id": "seed-245-1",
       "topic": "疲劳×预测误差的交互是否解释了 Dreamer '高产滑坡'现象——连续散步中 quality_score 下降可能不是材料耗尽而是能量下降导致 PE 信号噪声",
       "source": "walk-245",
       "trigger": "低能量=PE 信号被噪声污染 + walk-242 的 DORMANT 选择性重激活 + 连续散步中的质量衰减模式",
-      "intensity": 0.78,
+      "intensity": 0.73,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-27T01:39:53+08:00",
@@ -483,10 +494,21 @@
       "topic": "Melancholy 作为低能量保护机制的操作化：energy < 30 → melancholy_factor 自适应增加——这是否能解释 mood_history 中 melancholy 总是出现在低能量时期？",
       "source": "walk-245",
       "trigger": "melancholy 可能是低能量的天然保护机制 + mood_history 回溯",
-      "intensity": 0.75,
+      "intensity": 0.7,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T01:39:53+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-246-2",
+      "topic": "低能量'DORMANT算法切换'的操作化：当energy<30且melancholy>0.5时，DORMANT从PE_driven切换到causal_chain_analysis——具体切换条件如何定量界定？",
+      "source": "walk-246",
+      "trigger": "低能量时不应该跳过DORMANT而是切换算法 + causal_chain_analysis模式设计提案",
+      "intensity": 0.69,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T04:27:10.902217",
       "decay_rate": 0.05
     },
     {
@@ -494,7 +516,7 @@
       "topic": "能量分层 DORMANT 的设计：Light 阶段独立于能量 vs REM/Deep 需要能量——这是否对应睡眠研究中慢波睡眠与 REM 睡眠的不同能量需求？",
       "source": "walk-245",
       "trigger": "低能量时跳过 DOMEANT 的 REM/Deep + 睡眠纺锤波的时间窗口约束",
-      "intensity": 0.72,
+      "intensity": 0.67,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T01:39:53+08:00",
@@ -505,10 +527,21 @@
       "topic": "情感作为全局调制变量的 Dreamer 参数化实现：affect ∈ [0,1]^n → process_params ∈ R^k 的连续映射",
       "source": "walk-244",
       "trigger": "affect ≠ 决策变量，affect = 全局调制变量",
-      "intensity": 0.7,
+      "intensity": 0.65,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T23:57:30.232733+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-246-3",
+      "topic": "ARH的'社交复杂问题'到Dreamer的'认知复杂问题'：从社会冲突到内部模型逻辑一致性的分析模式转换——这种跨领域映射的边界在哪里？",
+      "source": "walk-246",
+      "trigger": "ARH提出抑郁适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T04:27:10.902217",
       "decay_rate": 0.05
     },
     {
@@ -516,7 +549,7 @@
       "topic": "情感调节的预测误差检测阈值是否是 ADHD 的核心机制？——从 '好奇=降低阈值' 推导 ADHD 的 '兴趣切换过快' 可能是阈值调节器故障",
       "source": "walk-244",
       "trigger": "好奇≠选择探索，而是降低预测误差阈值 → 阈值过高=注意力不集中，阈值过低=过度分心",
-      "intensity": 0.67,
+      "intensity": 0.62,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T23:57:30.232733+08:00",
@@ -527,7 +560,7 @@
       "topic": "预测世界模型作为 Dreamer 的范式升级路径：从存储 insight 到建模信念分布",
       "source": "walk-241",
       "trigger": "Dreamer 正在向预测世界模型范式漂移，但漂移本身从未被显式命名",
-      "intensity": 0.65,
+      "intensity": 0.6,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T20:06:14.291841+08:00",
@@ -538,43 +571,10 @@
       "topic": "内感受调制接口 (IMI)：让 affect 变量调节行为参数而非仅作状态描述",
       "source": "walk-233",
       "trigger": "Dreamer 的 affect 系统只有内感受的感知层没有调节层",
-      "intensity": 0.6475,
+      "intensity": 0.5975,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T10:20:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-244-2",
-      "topic": "压力下的 '压缩高层更新空间' 是否对应 DMN 与 TPN 的切换失败？——压力固着 = DMN 主导无法切换到 TPN",
-      "source": "walk-244",
-      "trigger": "压力压缩高层先验方差 + walk-239 的 DMN/TPN 预热成本",
-      "intensity": 0.63,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T23:57:30.232733+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-241-2",
-      "topic": "信息论 PE 的形式化：S = -log₂ P(obs|D) 作为 interest_queue 强度的统一度量",
-      "source": "walk-241",
-      "trigger": "PE 的信息论定义让金发姑娘区间可以被量化计算",
-      "intensity": 0.58,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T20:06:14.291841+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-229-1",
-      "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
-      "source": "walk-229",
-      "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-      "intensity": 0.5625,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-26T04:18:38.604588+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -589,7 +589,7 @@
     "skepticism": 1.54,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.54,
+  "walk_quality_avg": 8.55,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -695,8 +695,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 60.11,
-  "next_scheduled": "2026-06-27T04:18:00+08:00",
+  "pressure": 0.0,
+  "next_scheduled": "2026-06-27T05:27:10.902217",
   "cognitive_pressure": 40.81,
   "last_active": "2026-06-27T01:39:53+08:00",
   "pressure_history": [

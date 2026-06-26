@@ -4922,5 +4922,33 @@
     "resurrected_count": 0,
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-246-1",
+    "type": "insight",
+    "content": "忧郁不仅是'能量保护罩'（walk-245），ARH表明它是'深度分析隔离舱'——关闭外部输入干扰以维持因果链追踪。walk-245的'保守预测'是外部观察者视角，内部操作者视角是'切换分析模式为因果链追踪'。ARH提出：抑郁不是病理性的，而是用于求解复杂问题的适应器。低能量时不应该跳过DORMANT，而应切换到'因果链追踪型DORMANT'。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-27T04:27:28.502571",
+    "source": "walk-246",
+    "decay_rate": 0.05,
+    "connections": [],
+    "refs": [],
+    "score": 0.0,
+    "note": "ARH adaptation hypothesis + walk-245 revision"
+  },
+  {
+    "id": "ins-246-2",
+    "type": "insight",
+    "content": "低能量时DORMANT不应被跳过，而应切换算法——从'PE驱动重激活'切换到'因果链追踪分析'。PE驱动型DORMANT受噪声影响（walk-245正确），但存在另一种'因果链追踪型DORMANT'——噪声容忍度更高、需要深度内部专注、正是melancholy状态能提供的环境。设计提案：if energy<30 and melancholy_factor>0.5 → causal_chain_analysis模式，不重激活高PE条目，而是寻找skeleton中的因果链条，检查逻辑一致性。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-27T04:27:28.502571",
+    "source": "walk-246",
+    "decay_rate": 0.05,
+    "connections": [],
+    "refs": [],
+    "score": 0.0,
+    "note": "DORMANT algorithm switching design proposal"
   }
 ]

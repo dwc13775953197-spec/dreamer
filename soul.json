@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T14:06:06+08:00",
+    "last_active": "2026-06-26T14:48:07.243314+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T14:21:06+08:00",
+    "next_scheduled": "2026-06-26T15:18:07.243314+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 235,
-    "last_pulse_output": "2026-06-26T14:06:06+08:00",
+    "total_walks": 236,
+    "last_pulse_output": "2026-06-26T14:48:07.243314+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 100.0,
+    "cognitive_pressure": 55.0,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.7,
       8.6,
       8.4,
       8.6,
@@ -43,13 +42,13 @@
       8.6,
       8.7,
       8.4,
-      8.6
+      8.6,
+      8.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      78.67,
       54.375,
       80.087,
       43.087,
@@ -58,7 +57,8 @@
       42.367999999999995,
       50.99592570722222,
       59.49592570722222,
-      100.0
+      100.0,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -201,7 +201,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100.0,
+    "pressure": 55.0,
     "next_action": ""
   },
   "affect": {
@@ -468,16 +468,38 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 219,
+  "pending_insights": 222,
   "pending_research": 2,
   "last_pulse_output": "2026-06-26T14:06:06+08:00",
   "interest_queue": [
+    {
+      "id": "seed-236-1",
+      "topic": "惊讶度加权的 DORMANT：从均匀衰减到选择性巩固",
+      "source": "walk-236",
+      "trigger": "PE 幅度作为巩固优先级信号：中等PE加强，低PE衰减，高PE标记",
+      "intensity": 0.8,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T14:48:07.243314+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-236-2",
+      "topic": "Affect 调制的 PE 阈值：IMI 的具体操作化",
+      "source": "walk-236",
+      "trigger": "情感状态调节对新信息的开放程度：wonder降低阈值，melancholy提高阈值",
+      "intensity": 0.7,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T14:48:07.243314+08:00",
+      "decay_rate": 0.05
+    },
     {
       "id": "seed-233-1",
       "topic": "内感受调制接口 (IMI)：让 affect 变量调节行为参数而非仅作状态描述",
       "source": "walk-233",
       "trigger": "Dreamer 的 affect 系统只有内感受的感知层没有调节层",
-      "intensity": 0.7475,
+      "intensity": 0.6975,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T10:20:00+08:00",
@@ -488,10 +510,32 @@
       "topic": "预测误差信号 vs DORMANT 二元开关：从衰减模式到编辑模式的范式转移",
       "source": "walk-229",
       "trigger": "DORMANT 的松弛功能只是创造更新窗口，不是重组本身——预测误差才是",
-      "intensity": 0.6625,
+      "intensity": 0.6124999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T04:18:38.604588+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-236-3",
+      "topic": "认知失调密度作为散步质量的量化维度",
+      "source": "walk-236",
+      "trigger": "零失调密度 = 制度盲区的表现",
+      "intensity": 0.6,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T14:48:07.243314+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-234-1",
+      "topic": "DORMANT 2.0：预测序列编码替代均匀衰减——从 selectively strengthen vs weaken 双路径模型",
+      "source": "walk-234",
+      "trigger": "睡眠不是加强所有记忆而是构建预测模型，DORMANT也应区分强化vs削弱两种操作",
+      "intensity": 0.5999999999999999,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T11:08:34.032281+08:00",
       "decay_rate": 0.05
     },
     {
@@ -499,7 +543,7 @@
       "topic": "Dreamer-CDP reconstruction-free作为DORMANT第三路径：从全量松弛到选择性预测微调",
       "source": "walk-232",
       "trigger": "Dreamer-CDP移除了重建目标但保留预测误差，映射到DORMANT的坐标系变换",
-      "intensity": 0.6475,
+      "intensity": 0.5974999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T08:32:31.574359+08:00",
@@ -510,7 +554,7 @@
       "topic": "情感调制的散步类型选择 → 解析化：从启发式转向 allostatic 控制信号",
       "source": "walk-233",
       "trigger": "情感状态不是噪声而是策略参数",
-      "intensity": 0.6475,
+      "intensity": 0.5974999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-26T10:20:00+08:00",
@@ -521,7 +565,7 @@
       "topic": "Fictive PE密度作为DORMANT有效性的量化度量：从定性到定量",
       "source": "walk-231",
       "trigger": "skeleton变化适中时DORMANT最有效，过小无PE，过大失败",
-      "intensity": 0.645,
+      "intensity": 0.595,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T06:48:44.370202+08:00",
@@ -532,76 +576,10 @@
       "topic": "投影事件作为 DORMANT 触发器",
       "source": "walk-230",
       "trigger": "projection 坐标系变化让旧 insight 突然迷失位置——这不就是内源 PE 吗？",
-      "intensity": 0.6425,
+      "intensity": 0.5924999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T05:32:13.559013+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-230-2",
-      "topic": "Coherence gap insight 的淘汰级联效应",
-      "source": "walk-230",
-      "trigger": "gap insight 被淘汰时其 neighbors 也失去锚点——渐进式再巩固触发",
-      "intensity": 0.5725,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T05:32:13.559013+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-232-2",
-      "topic": "投影不变性作为insight鲁棒性的结构维度：pat-014极限子维度的操作化",
-      "source": "walk-232",
-      "trigger": "高投影不变性insight不产生PE，低投影不变性是DORMANT优先目标",
-      "intensity": 0.5475,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T08:32:31.574359+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-233-3",
-      "topic": "Enactive 精炼的内隐通道：外部材料如何改变 subconscious 而非仅 skeleton",
-      "source": "walk-233",
-      "trigger": "散步通过引入外部类比触发跨 domain 的 subconscious 关联",
-      "intensity": 0.5475,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T10:20:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-231-2",
-      "topic": "情感调制的DORMANT模式切换曲线：wonder作为最优窗口",
-      "source": "walk-231",
-      "trigger": "情感状态调节recall/prediction模式切换",
-      "intensity": 0.5449999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T06:48:44.370202+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-234-1",
-      "topic": "DORMANT 2.0：预测序列编码替代均匀衰减——从 selectively strengthen vs weaken 双路径模型",
-      "source": "walk-234",
-      "trigger": "睡眠不是加强所有记忆而是构建预测模型，DORMANT也应区分强化vs削弱两种操作",
-      "intensity": 0.6499999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-26T11:08:34.032281+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-234-2",
-      "topic": "Pressure从连续值改造为离散状态：encoding/consolidation双模切换的可行性分析",
-      "source": "walk-234",
-      "trigger": "Digital Brain用神经调节状态切换控制模式，pressure可能应该是离散开关",
-      "intensity": 0.6,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T11:08:34.032281+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -616,7 +594,7 @@
     "skepticism": 1.54,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.53,
+  "walk_quality_avg": 8.54,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

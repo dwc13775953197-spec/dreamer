@@ -4317,5 +4317,62 @@
     "refs": [],
     "decay_speed": 0.5,
     "score": 0.0
+  },
+  {
+    "id": "insight-234-1",
+    "type": "insight",
+    "content": "DORMANT是预测模型构建窗口，不是记忆衰减窗口；评价DORMANT有效性的标准应该是下次散步的连接建立速度（预测准确率变化）",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T11:08:34.032281+08:00",
+    "connections": [
+      "skeleton-consolidation-vs-decay",
+      "insight-229-1-pe-dormant",
+      "skeleton-predictive-coding"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-234-2",
+    "type": "insight",
+    "content": "睡眠的预测序列编码=离线提取泛化结构；CDP reconstruction-free保留预测误差恰好对应睡眠不重放原始经历而提取序列结构的机制",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T11:08:34.032281+08:00",
+    "connections": [
+      "insight-232-1-dcdp-third-path",
+      "skeleton-swr-consolidation",
+      "skeleton-predictive-coding"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "insight-234-3",
+    "type": "insight",
+    "content": "Digital Brain的encoding/consolidation双模式由神经调节状态切换触发；Dreamer的pressure系统本质上就是这个神经调节状态——连续值vs离散状态的张力是下一个设计决策点",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T11:08:34.032281+08:00",
+    "connections": [
+      "skeleton-pressure-system",
+      "skeleton-walk-dormant-switch",
+      "skeleton-encoding-consolidation"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "note": ""
   }
 ]

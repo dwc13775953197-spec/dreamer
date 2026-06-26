@@ -4647,5 +4647,44 @@
       "walk-241"
     ],
     "source": "walk-241"
+  },
+  {
+    "id": "ins-242-1",
+    "type": "insight",
+    "content": "睡眠纺锤波锁定（时间窗口）+ 预测误差驱动（选择性）+ 再巩固窗口（可塑性态）的三重机制 = Dreamer DORMANT 的生物学实现。当前 DORMANT 做无差别均匀衰减（strength -= 0.05），但神经科学要求选择性重激活：高 PE 的 entry 在 DORMANT 中被优先重激活并进入可塑态（再巩固窗口），低 PE 的 entry 保持原样。纺锤波时间窗口约束了再巩固发生的时序——不是所有时候都适合更新记忆。",
+    "strength": 5.0,
+    "score": 0.75,
+    "status": "active",
+    "created": "2026-06-26T21:21:00.082833+08:00",
+    "source": "walk-242",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-242-2",
+    "type": "insight",
+    "content": "Affect 系统应从状态描述器升级为 DORMANT 的巩固调节器：高压力状态 → DORMANT 优先处理高 PE entry（最需要更新）；低能量状态 → 减少重激活以保存资源；高好奇状态 → 增加跨领域 entry 重激活（寻找新连接）。当前 affect 只记录不调节，是 ins-094 指出的内感受器未启用问题的具体表现。",
+    "strength": 5.0,
+    "score": 0.72,
+    "status": "active",
+    "created": "2026-06-26T21:21:07.750822+08:00",
+    "source": "walk-242",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-242-3",
+    "type": "insight",
+    "content": "Dreamer 的遗忘曲线应该是阶梯式（选择性重激活 + 内容更新）而非线性（均匀衰减）。高 PE entry 在 DORMANT 中被重激活并修改内容，实现'预测准确率提升'；低 PE entry 保持原样（预测准确不需要更新）。这比 walk-241 的熵衰减（趋向最大熵）更精确——不是让所有 entry 变得'不确定'，而是让高 PE 的 entry 变得'更准确'。",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-26T21:21:15.535367+08:00",
+    "source": "walk-242",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

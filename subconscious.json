@@ -4175,5 +4175,42 @@
       "ins-new-230-1"
     ],
     "note": ""
+  },
+  {
+    "id": "insight-232-1",
+    "type": "insight",
+    "content": "Dreamer-CDP的reconstruction-free路径作为DORMANT第三模式——全量松弛/选择性预测微调/无产出。Dreamer-CDP证明了prediction本身足以工作，无需reconstruction。映射到Dreamer：投影事件=内源PE发生器，DORMANT可以通过选择性预测微调有效工作，不需要full relaxation。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T08:32:31.574359+08:00",
+    "connections": [
+      "seed-230-1",
+      "seed-231-1",
+      "seed-231-3"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "note": "walk-232 analysis"
+  },
+  {
+    "id": "insight-232-2",
+    "type": "insight",
+    "content": "投影不变性作为pat-014极限子维度的操作化概念——insight在不同投影坐标系下的鲁棒性。高投影不变性=不产生PE，低投影不变性=DORMANT优先操作目标。类比Dreamer-CDP的连续确定性表征——不变性更强的表征预测更稳定。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-26T08:32:31.574359+08:00",
+    "connections": [
+      "seed-232-1",
+      "seed-230-1"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "score": 0.0,
+    "refs": [],
+    "note": "walk-232 analysis"
   }
 ]

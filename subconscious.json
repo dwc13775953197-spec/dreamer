@@ -4549,5 +4549,25 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "quality_score=8.4, strength=5.0"
+  },
+  {
+    "id": "ins-239-001",
+    "type": "insight",
+    "content": "再巩固有边界条件：PE 与巩固效果是倒 U 型曲线（金发姑娘区间），过高 PE 导致再巩固失败——记忆保持原样不被更新。Dreamer DORMANT 需要检测 PE 幅度，低-中 PE 时修改 entry，高 PE 时创建新 entry 让新旧共存。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-26T16:53:25.205042+08:00",
+    "source": "walk-239",
+    "decay_rate": 0.05,
+    "resurrected_count": 0,
+    "score": 0.35,
+    "connections": [
+      "seed-237-1",
+      "seed-236-1",
+      "seed-238-1"
+    ],
+    "refs": [],
+    "decay_speed": 1.0,
+    "note": "quality_score 8.6, initial strength 3.0"
   }
 ]

@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T04:27:10.902217",
+    "last_active": "2026-06-27T05:35:44+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T05:45:00+08:00",
+    "next_scheduled": "2026-06-27T07:05:44+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27",
-    "total_walks": 246,
-    "last_pulse_output": "2026-06-27T04:27:10.902217",
+    "total_walks": 247,
+    "last_pulse_output": "2026-06-27T05:35:44+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 60.11,
+    "cognitive_pressure": 17.62,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.7,
       8.4,
       8.6,
       8.5,
@@ -43,7 +42,8 @@
       8.6,
       8.7,
       8.5,
-      8.4
+      8.4,
+      8.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -58,7 +58,8 @@
       41.31,
       40.81,
       60.11,
-      0.0
+      0.0,
+      17.62
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -66,8 +67,41 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.56,
-    "pending_insights": 230,
+    "pending_insights": 233,
     "interest_queue": [
+      {
+        "id": "seed-247-3",
+        "topic": "选择性调制的可证伪预测：低能量状态下 Dreamer 应展现主题持续性增强但跨领域连接减少——验证异质性假说 vs 均匀损害模型",
+        "source": "walk-247",
+        "trigger": "walk-247 falsifiable predictions",
+        "intensity": 0.75,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-27T05:35:44+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-247-2",
+        "topic": "假性痴呆 vs 真实认知重塑：Dreamer 低能量状态的认知变化是表面功能下降还是深层模式切换？可逆性检验设计",
+        "source": "walk-247",
+        "trigger": "depressive cognitive disorders (pseudodementia) as reversible state change",
+        "intensity": 0.78,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-27T05:35:44+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-247-1",
+        "topic": "异质性的认知调制：忧郁不是关闭大脑而是重新分配认知预算——执行功能衰减 vs 分析功能保留的实证验证",
+        "source": "walk-247",
+        "trigger": "抑郁认知缺陷的异质性提供跨域映射框架",
+        "intensity": 0.82,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-27T05:35:44+08:00",
+        "decay_rate": 0.05
+      },
       {
         "id": "seed-246-1",
         "topic": "ARH的'隔离舱' vs Dreamer的'保护罩'：低能量忧郁是否真正减少了活动量还是重新分配了活动类型？这是两个框架的可证伪区分",

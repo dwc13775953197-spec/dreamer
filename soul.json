@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T18:35:09.588039+08:00",
+    "next_scheduled": "2026-06-26T19:05:09+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
     "total_walks": 239,
-    "last_pulse_output": "2026-06-26T16:52:50.173666+08:00",
+    "last_pulse_output": "2026-06-26T18:35:09+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 66.254,
+    "cognitive_pressure": 84.66455555555557,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,7 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      87.368,
       42.367999999999995,
       50.99592570722222,
       59.49592570722222,
@@ -58,7 +57,8 @@
       100.0,
       55.0,
       40.0,
-      66.254
+      66.254,
+      84.665
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -201,7 +201,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 66.254,
+    "pressure": 84.66455555555557,
     "next_action": ""
   },
   "affect": {
@@ -470,7 +470,7 @@
   ],
   "pending_insights": 226,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-26T14:06:06+08:00",
+  "last_pulse_output": "2026-06-26T18:35:09+08:00",
   "interest_queue": [
     {
       "id": "seed-237-1",
@@ -700,12 +700,11 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 56.37,
-  "next_scheduled": "2026-06-26T18:35:09.588039+08:00",
-  "cognitive_pressure": 56.37,
+  "pressure": 84.66455555555557,
+  "next_scheduled": "2026-06-26T19:05:09+08:00",
+  "cognitive_pressure": 84.66455555555557,
   "last_active": "2026-06-26T18:05:09.588039+08:00",
   "pressure_history": [
-    87.368,
     42.367999999999995,
     50.99592570722222,
     59.49592570722222,
@@ -714,7 +713,8 @@
     100.0,
     55.0,
     40.0,
-    66.254
+    66.254,
+    84.665
   ],
   "next_action": "",
   "current_interval_min": 30

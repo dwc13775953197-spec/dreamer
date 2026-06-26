@@ -4800,5 +4800,44 @@
     ],
     "refs": [],
     "note": ""
+  },
+  {
+    "id": "ins-244-1",
+    "type": "research",
+    "content": "Emotion does not select goals - it selects precision. Curiosity != select exploration goal; curiosity = lower prediction error detection threshold. Stress != select correction goal; stress = compress higher-level prior variance. Low energy != select maintenance goal; low energy = downsample internal simulation.",
+    "strength": 5.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-26T23:56:04.032942+08:00",
+    "source": "walk-244",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Framework shift from discrete emotion->goal menu to continuous emotion->precision parameter space. Evidence: Yu 2024 (Nature Communications), Osman 2024 (Frontiers Neural Circuits), ATP Model 2024."
+  },
+  {
+    "id": "ins-244-2",
+    "type": "explore",
+    "content": "Affect as global modulation variable: affect is not a decision variable (if wonder then explore), but a global modulation variable that adjusts process parameters in real-time. Dreamer's affect system should modulate: search threshold during walks, update rules in DORMANT, decay speed in subconscious.",
+    "strength": 5.0,
+    "score": 0.42,
+    "status": "active",
+    "created": "2026-06-26T23:56:14.576704+08:00",
+    "source": "walk-244",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Radical implication: affect != branching condition, affect == continuous parameter vector that modulates all cognitive processes."
+  },
+  {
+    "id": "ins-244-3",
+    "type": "research",
+    "content": "Precision weighting parameterization of affect: curiosity widens prediction error bandwidth (lower threshold), stress narrows higher-level update bandwidth (compress prior variance), low energy reduces temporal resolution of internal simulation (downsampling). Three continuous parameters replacing three discrete mappings.",
+    "strength": 5.0,
+    "score": 0.4,
+    "status": "active",
+    "created": "2026-06-26T23:56:22.590264+08:00",
+    "source": "walk-244",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Concrete parameterization of the three affect states as continuous modulation: curiosity=threshold-, stress=prior_variance-, low_energy=temporal_resolution-."
   }
 ]

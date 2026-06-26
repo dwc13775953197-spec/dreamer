@@ -180,7 +180,8 @@
       }
     ],
     "pressure": 40.81,
-    "next_action": ""
+    "next_action": "walk_explore",
+    "last_control": "2026-06-27T03:16:01.120997+08:00"
   },
   "affect": {
     "primary": "wonder",

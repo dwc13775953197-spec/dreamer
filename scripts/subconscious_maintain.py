@@ -71,7 +71,18 @@ def ensure_fields(entry):
     for k, v in defaults.items():
         if k not in entry:
             entry[k] = v
+    # 数据迁移：score 从 dict → float
+    if isinstance(entry.get("score"), dict):
+        entry["score"] = float(entry["score"].get("value", entry["score"].get("score", 0.0)))
     return entry
+
+
+def get_score(entry):
+    """安全获取 score（兼容 dict 和 float）"""
+    s = entry.get("score", 0)
+    if isinstance(s, dict):
+        return float(s.get("value", s.get("score", 0.0)))
+    return float(s)
 
 
 def cmd_decay(args):
@@ -100,10 +111,10 @@ def cmd_decay(args):
             stats["hub_protected"] += 1
         
         # 高质量保护 / 低质量加速
-        if entry.get("score", 0) >= 0.7:
+        if get_score(entry) >= 0.7:
             decay_f *= 1.2
             stats["protected"] += 1
-        elif entry.get("score", 0) < 0.4:
+        elif get_score(entry) < 0.4:
             decay_f *= 0.8
             stats["accelerated"] += 1
         
@@ -111,11 +122,11 @@ def cmd_decay(args):
         entry["strength"] = round(entry["strength"] * decay_f, 1)
         
         # strength 下限保护
-        if entry.get("score", 0) >= 0.7 and entry["strength"] < 2.0:
+        if get_score(entry) >= 0.7 and entry["strength"] < 2.0:
             entry["strength"] = 2.0
         
         # 休眠标记
-        if entry["strength"] < 1.0 and entry.get("score", 0) < 0.4:
+        if entry["strength"] < 1.0 and get_score(entry) < 0.4:
             entry["status"] = "dormant"
         elif entry["status"] == "dormant" and entry["strength"] >= 1.0:
             entry["status"] = "active"
@@ -167,7 +178,7 @@ def cmd_dormancy(args):
     count = 0
     for entry in entries:
         ensure_fields(entry)
-        if entry["strength"] < 1.0 and entry.get("score", 0) < 0.4:
+        if entry["strength"] < 1.0 and get_score(entry) < 0.4:
             if entry["status"] != "dormant":
                 entry["status"] = "dormant"
                 count += 1
@@ -283,7 +294,7 @@ def cmd_stats(args):
     
     if active:
         strengths = [e["strength"] for e in active]
-        scores = [e.get("score", 0) for e in active]
+        scores = [get_score(e) for e in active]
         print(f"active strength: {min(strengths):.1f}~{max(strengths):.1f}, avg={sum(strengths)/len(strengths):.1f}")
         print(f"active score: {min(scores):.2f}~{max(scores):.2f}")
     

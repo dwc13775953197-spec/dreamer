@@ -3,25 +3,25 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-25T23:22:06.409923+08:00",
-    "last_active": "2026-06-26T18:05:09.588039+08:00",
+    "last_active": "2026-06-26T19:23:41.397679+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 45,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-26T19:05:09+08:00",
+    "next_scheduled": "2026-06-26T20:08:41.397679+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-26",
-    "total_walks": 239,
+    "total_walks": 240,
     "last_pulse_output": "2026-06-26T18:35:09+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 84.66455555555557,
+    "cognitive_pressure": 39.664555555555566,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.4,
       8.6,
       8.6,
       8.7,
@@ -43,13 +42,13 @@
       8.5,
       8.7,
       8.4,
-      8.6
+      8.6,
+      8.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      42.367999999999995,
       50.99592570722222,
       59.49592570722222,
       100.0,
@@ -58,7 +57,8 @@
       55.0,
       40.0,
       66.254,
-      84.665
+      84.665,
+      39.665
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -201,7 +201,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 84.66455555555557,
+    "pressure": 39.664555555555566,
     "next_action": ""
   },
   "affect": {
@@ -271,7 +271,7 @@
   "last_walk": "2026-06-26",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 235,
+  "total_walks": 240,
   "topics": [
     "emergence",
     "consciousness",
@@ -468,16 +468,49 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 226,
+  "pending_insights": 67,
   "pending_research": 2,
   "last_pulse_output": "2026-06-26T18:35:09+08:00",
   "interest_queue": [
+    {
+      "id": "seed-240-1",
+      "topic": "Continual learning in token space: Dreamer vs A-MEM/Letta/Titans specific differences",
+      "source": "walk-240",
+      "trigger": "Dreamer only has forgetting and reconsolidation, lacks machine unlearning",
+      "intensity": 0.72,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T19:23:41.397679+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-240-2",
+      "topic": "Forgetting curve-driven DORMANT: from uniform decay to connection-based topological decay",
+      "source": "walk-240",
+      "trigger": "Dreamer does not track forgetting speed per entry",
+      "intensity": 0.68,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-26T19:23:41.397679+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-240-3",
+      "topic": "Lightweight learned memory policies: RL tuning replaces manual heuristics",
+      "source": "walk-240",
+      "trigger": "RL agents discover non-obvious strategies outperforming human-designed heuristics",
+      "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-26T19:23:41.397679+08:00",
+      "decay_rate": 0.05
+    },
     {
       "id": "seed-237-1",
       "topic": "再巩固作为 DORMANT 的第三种操作：从二选一（加强/衰减）到三路径分发",
       "source": "walk-237",
       "trigger": "PE 的存在决定了记忆是进入可塑状态（可更新）还是稳定状态（保持原样）",
-      "intensity": 0.7,
+      "intensity": 0.6499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T15:28:12.094071+08:00",
@@ -488,7 +521,7 @@
       "topic": "惊讶度加权的 DORMANT：从均匀衰减到选择性巩固",
       "source": "walk-236",
       "trigger": "PE 幅度作为巩固优先级信号：中等PE加强，低PE衰减，高PE标记",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T14:48:07.243314+08:00",
@@ -499,7 +532,7 @@
       "topic": "记忆竞争生态：DORMANT 从淘汰老弱者到生态位竞争的范式转移",
       "source": "walk-238",
       "trigger": "Engram competition 综述揭示遗忘是主动竞争的结果——entry 群落内部动力学实现选择性遗忘",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T16:11:41.614484+08:00",
@@ -510,7 +543,7 @@
       "topic": "再巩固的窄窗口效应：DORMANT 中 PE 幅度的倒 U 型曲线",
       "source": "walk-239",
       "trigger": "PE 与巩固效果不是单调关系，而是倒 U 型曲线——金发姑娘区间",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T16:52:50.173666+08:00",
@@ -521,7 +554,7 @@
       "topic": "DORMANT 3.0 设计草案：基于 PE 的三路径分发与 entry 内容更新",
       "source": "walk-237",
       "trigger": "高 PE 不是问题而是机会——打开 entry 进行内容修改而非简单地标记或衰减",
-      "intensity": 0.5999999999999999,
+      "intensity": 0.5499999999999998,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T15:28:12.094071+08:00",
@@ -532,7 +565,7 @@
       "topic": "生态位分化作为 insight 多样性的保护机制：避免马太效应的竞争规则设计",
       "source": "walk-238",
       "trigger": "竞争可能退化为连接数竞赛，需要设计保护弱但高潜力 insight 的规则",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-26T16:11:41.614484+08:00",
@@ -543,43 +576,10 @@
       "topic": "竞争与再巩固的互补：DORMANT 3.0 的双引擎架构",
       "source": "walk-238",
       "trigger": "竞争决定存活，再巩固决定内容——两者不互斥",
-      "intensity": 0.5499999999999999,
+      "intensity": 0.49999999999999994,
       "type": "research",
       "status": "pending",
       "created": "2026-06-26T16:11:41.614484+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-239-2",
-      "topic": "固化 entry 的检测与隔离：当再巩固连续失败时的处理策略",
-      "source": "walk-239",
-      "trigger": "不是所有记忆都能被更新，有些记忆就是固化了",
-      "intensity": 0.5499999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T16:52:50.173666+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-239-3",
-      "topic": "Dreamer 的版本化优势：entry 的精确复制与回滚能力如何改变再巩固的游戏规则",
-      "source": "walk-239",
-      "trigger": "Dreamer 的 entry 可以被精确复制、版本化、回滚——人类记忆没有这些能力",
-      "intensity": 0.5499999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T16:52:50.173666+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-236-2",
-      "topic": "Affect 调制的 PE 阈值：IMI 的具体操作化",
-      "source": "walk-236",
-      "trigger": "情感状态调节对新信息的开放程度：wonder降低阈值，melancholy提高阈值",
-      "intensity": 0.5499999999999998,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-26T14:48:07.243314+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -700,8 +700,8 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 84.66455555555557,
-  "next_scheduled": "2026-06-26T19:05:09+08:00",
+  "pressure": 39.664555555555566,
+  "next_scheduled": "2026-06-26T20:08:41.397679+08:00",
   "cognitive_pressure": 84.66455555555557,
   "last_active": "2026-06-26T18:05:09.588039+08:00",
   "pressure_history": [

@@ -4569,5 +4569,44 @@
     "refs": [],
     "decay_speed": 1.0,
     "note": "quality_score 8.6, initial strength 3.0"
+  },
+  {
+    "id": "ins-240-1",
+    "type": "insight",
+    "content": "Dreamer 的 DORMANT 是睡眠依赖性回放的行业实现之一（映射到 hippocampal-neocortical consolidation），但缺少选择性重放的精度：人类睡眠只重放预测误差大的记忆，Dreamer 当前 DORMANT 是均匀衰减。未来应引入 PE 加权的选择性重放。",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-26T19:22:33.597105+08:00",
+    "source": "walk-240",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-240-2",
+    "type": "insight",
+    "content": "Dreamer lacks machine unlearning - only has natural decay, no active deletion response. Current design goal is not privacy compliance, but if Dreamer needs to interact with user data in the future, machine unlearning becomes necessary.",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-26T19:22:51.047395+08:00",
+    "source": "walk-240",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-240-3",
+    "type": "insight",
+    "content": "Learned memory policies via RL can outperform hand-designed heuristics. Dreamer could use RL to tune decay parameters while maintaining interpretability - hybrid approach (core rules + RL tuning) is the safest path forward.",
+    "strength": 5.0,
+    "score": 0.7,
+    "status": "active",
+    "created": "2026-06-26T19:22:57.627478+08:00",
+    "source": "walk-240",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

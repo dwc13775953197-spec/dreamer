@@ -5622,5 +5622,44 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score=8.1, initial strength=5.0"
+  },
+  {
+    "id": "ins-262-1",
+    "type": "insight",
+    "content": "认知亚切换：参考点漂移导致的未被察觉的拓扑变化。低能量下参考点快速漂移时，每次微拓扑变化被新的参考点重新归类为'仍在原拓扑内'，导致系统看起来在一个主题内打转但实际上发生了多次亚切换。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-28T06:39:56.922442+08:00",
+    "source": "walk-262",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-262-2",
+    "type": "insight",
+    "content": "认知浓雾：低能量下切换操作失效不是'太贵而不能切'而是'切/不切的区别消失'。精度→0时不是成本发散，而是操作本身不可定义。类比：在浓雾中，运动和静止的区别消失——不是不能走，是不知道自己在走还是停下来。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-28T06:39:58.319154+08:00",
+    "source": "walk-262",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
+  },
+  {
+    "id": "ins-262-3",
+    "type": "insight",
+    "content": "低能量好奇的引擎空转状态：执行能量不足但驱动信号過剩。发动机在响，离合器分离，方向盘在漂移。生成大量联想但缺乏执行能量将任何联想投入应用，导致非自主的漂流式思考。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-28T06:39:59.660127+08:00",
+    "source": "walk-262",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": ""
   }
 ]

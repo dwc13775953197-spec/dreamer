@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T21:06:56.904017+08:00",
+    "next_scheduled": "2026-06-27T22:02:41.715687+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-27T19:42:14.241920+08:00",
-    "total_walks": 256,
+    "last_walk_at": "2026-06-27T21:32:41.714800+08:00",
+    "total_walks": 257,
     "last_pulse_output": "2026-06-27T16:00:00+08:00",
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 77.27,
+    "cognitive_pressure": 32.269999999999996,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.6,
       8.4,
       8.6,
       7.5,
@@ -43,7 +42,8 @@
       8.4,
       8.1,
       8.4,
-      8.4
+      8.4,
+      8.6
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 77.27,
+    "pressure": 32.269999999999996,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00"

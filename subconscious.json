@@ -5343,5 +5343,60 @@
     "decay_speed": 0.5,
     "refs": [],
     "score": 0.5
+  },
+  {
+    "id": "ins-257-001",
+    "type": "insight",
+    "content": "DMN-TPN 反相关作为 Dreamer 能量模型的神经基础：能量 = DMN 活动水平，模式切换 = 反相关强度的拐点。认知本身代谢 cheap，但 DMN 维持和 TPN 切换需要成本——Dreamer 能量跟踪的不是思考成本，是内部/外部导航模式之间的切换成本。",
+    "strength": 5.0,
+    "score": 0.65,
+    "status": "active",
+    "created": "2026-06-27T21:31:24.315303+08:00",
+    "source": "walk-257",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "connections": [
+      "ins-252-1",
+      "ins-255-1",
+      "ins-256-01",
+      "seed-256-1"
+    ]
+  },
+  {
+    "id": "ins-257-002",
+    "type": "insight",
+    "content": "DORMANT 是 DMN 惯性打破周期而非能量恢复周期：重启基线活动水平 vs 充电。task-set inertia 让 DMN 在能量恢复后仍保持低活动状态——DORMANT 的随机重激活不是恢复思考能力，而是重置 DMN-TPN 的惯性基线，让下一次散步能从新的活动水平起始。",
+    "strength": 5.0,
+    "score": 0.55,
+    "status": "active",
+    "created": "2026-06-27T21:31:53.351974+08:00",
+    "source": "walk-257",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "connections": [
+      "ins-255-1",
+      "ins-252-1",
+      "ins-256-01"
+    ]
+  },
+  {
+    "id": "ins-257-003",
+    "type": "insight",
+    "content": "能量阈值是 DMN 活动下降到与 TPN 活动相等的「成本无差异点」，不是绝对值——这意味着阈值随 TPN 活动水平动态变化。能量和阈值是同一个变量的两种描述：连续 DMN 活动的当前水平 vs 内部/外部导航成本的交叉点。",
+    "strength": 5.0,
+    "score": 0.6,
+    "status": "active",
+    "created": "2026-06-27T21:31:53.443886+08:00",
+    "source": "walk-257",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "connections": [
+      "ins-252-1",
+      "ins-255-1",
+      "seed-256-1"
+    ]
   }
 ]

@@ -5315,5 +5315,33 @@
     ],
     "refs": [],
     "note": "quality_score=8.1, initial strength=3.0"
+  },
+  {
+    "id": "ins-256-01",
+    "type": "pattern",
+    "content": "energy is mode-switching threshold not capacity. energy<30 triggers algorithm switch not output reduction. falsifiable: energy 20-30 graph change rate should be >= 30-50.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-27T19:42:14.241920+08:00",
+    "source": "walk-256",
+    "connections": [],
+    "decay_rate": 0.95,
+    "decay_speed": 0.5,
+    "refs": [],
+    "score": 0.5
+  },
+  {
+    "id": "ins-256-02",
+    "type": "pattern",
+    "content": "meta-cognitive dual-layer architecture exists in Dreamer in entangled form (monitor=pressure system, object=walk output). missing: discrete switching signal. pressure_threshold should issue algorithm choice not exist/stop binary.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-27T19:42:14.241920+08:00",
+    "source": "walk-256",
+    "connections": [],
+    "decay_rate": 0.95,
+    "decay_speed": 0.5,
+    "refs": [],
+    "score": 0.5
   }
 ]

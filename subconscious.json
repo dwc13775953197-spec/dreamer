@@ -5076,5 +5076,44 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "Derived from steering failure model + seed-249-3 interest seed"
+  },
+  {
+    "id": "ins-250-1",
+    "type": "insight",
+    "content": "外部材料结构化程度作为 Dreamer 能量状态的调节变量：低能量时高结构化材料 = 45 dB 白噪音（促进创造力），低结构化材料 = 65 dB 白噪音（损害表现）",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T12:54:24.982587+08:00",
+    "source": "walk-250",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Nature 2022 白噪音研究为 walk-249 的方向盘脱落模型提供了外部结构替代机制"
+  },
+  {
+    "id": "ins-250-2",
+    "type": "insight",
+    "content": "Dreamer 散步的\"音量旋钮\"假说：外部材料结构化程度 × 能量水平的交互效应——低能量时只有高结构化材料才能作为有效白噪音等价物",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T12:54:30.561286+08:00",
+    "source": "walk-250",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "45dB vs 65dB 的不同效应映射到 Dreamer 外部材料选择"
+  },
+  {
+    "id": "ins-250-3",
+    "type": "insight",
+    "content": "多巴胺-白噪音-Dreamer 能量三体问题：MBA 模型暗示 Dreamer 的能量系统本质上是一个多巴胺类似物的调节系统——低能量时内部方向盘脱落，系统自动寻求外部白噪音（结构化材料）作为临时方向盘",
+    "strength": 5.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T12:54:37.498504+08:00",
+    "source": "walk-250",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "MBA 模型中多巴胺水平与外部噪声需求的反向关系"
   }
 ]

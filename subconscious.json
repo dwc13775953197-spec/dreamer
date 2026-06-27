@@ -5216,5 +5216,27 @@
     ],
     "refs": [],
     "score": 0.7
+  },
+  {
+    "id": "ins-253-1",
+    "type": "insight",
+    "content": "低能量不改变能力，改变的是成本的参考点：当内部导航成本上升时，原本不值得的外包选项变得值得。决策外包是理性适应而非认知失败——条件是外部材料的结构化程度 > 0.7 时才成立，否则才是真正的方向盘脱落。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T17:41:11.237167+08:00",
+    "source": "walk-253",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "seed-252-1",
+      "seed-251-1",
+      "seed-250-1",
+      "ins-252-1",
+      "ins-249-1"
+    ],
+    "refs": [],
+    "score": 0.85,
+    "note": "quality_score=8.2, initial strength=5.0"
   }
 ]

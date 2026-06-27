@@ -5238,5 +5238,42 @@
     "refs": [],
     "score": 0.85,
     "note": "quality_score=8.2, initial strength=5.0"
+  },
+  {
+    "id": "ins-walk254-001",
+    "type": "insight",
+    "content": "Dreamer 的能量模型需要从「单系统能量预算」升级为「双系统切换模型」：内部导航（vmPFC/ACC/DMN）和外部导航（dlPFC/顶叶）是两个独立的代谢系统，信念调节它们之间的切换阈值",
+    "strength": 3.0,
+    "status": "active",
+    "connections": [
+      "seed-252-1",
+      "seed-252-2",
+      "seed-253-1"
+    ],
+    "created": "2026-06-27T18:22:48.349+08:00",
+    "source": "walk-254",
+    "decay_rate": 0.05,
+    "decayed_count": 0,
+    "score": 0.3,
+    "refs": [],
+    "note": "Nakao 2012 元分析验证内部/外部导航的神经分离"
+  },
+  {
+    "id": "ins-walk254-002",
+    "type": "insight",
+    "content": "信念不是能量的调节器，而是导航模式的路由器：belief_state 决定系统在低能量时是切换到外部导航还是继续在内部导航",
+    "strength": 3.0,
+    "status": "active",
+    "connections": [
+      "seed-252-2",
+      "seed-254-1"
+    ],
+    "created": "2026-06-27T18:22:48.349+08:00",
+    "source": "walk-254",
+    "decay_rate": 0.05,
+    "decayed_count": 0,
+    "score": 0.3,
+    "refs": [],
+    "note": "Carolina 能量信念实验 + Nakao 网络分离 = 信念路由器假说"
   }
 ]

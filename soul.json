@@ -1,8 +1,8 @@
 {
   "version": 4,
   "pulse": {
-    "state": "ACTIVE",
-    "state_since": "2026-06-26T23:57:30.232733+08:00",
+    "state": "DORMANT",
+    "state_since": "2026-06-27T20:19:47.426454+08:00",
     "last_active": "2026-06-27T18:58:21.123689+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T21:12:14.241920+08:00",
+    "next_scheduled": "2026-06-27T21:49:47.426454+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27T19:42:14.241920+08:00",
     "total_walks": 256,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 29.21,
+    "cognitive_pressure": 29.95,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -179,9 +179,10 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 29.21,
+    "pressure": 29.95,
     "next_action": "",
-    "last_control": "2026-06-27T08:05:44"
+    "last_control": "2026-06-27T08:05:44",
+    "last_dormant_at": "2026-06-27T20:19:47.426454+08:00"
   },
   "affect": {
     "primary": "wonder",
@@ -697,7 +698,7 @@
   "last_walk_at": "2026-06-27T19:42:14.241920+08:00",
   "pressure": 55.0,
   "next_scheduled": "2026-06-27T17:21:22.576523+08:00",
-  "cognitive_pressure": 0,
+  "cognitive_pressure": 29.21,
   "last_active": "2026-06-27T17:06:22.576523+08:00",
   "pressure_history": [
     80.23,
@@ -711,7 +712,6 @@
     50.1301,
     100.0
   ],
-  "cognitive_pressure": 29.21,
   "next_action": "",
   "current_interval_min": 15.0
 }

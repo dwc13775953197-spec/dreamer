@@ -3,25 +3,25 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T07:35:44+08:00",
+    "last_active": "2026-06-27T08:35:44+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30.0,
+    "current_interval_min": 15.0,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T08:35:44",
+    "next_scheduled": "2026-06-27T09:25:29.956489+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27",
     "total_walks": 247,
-    "last_pulse_output": "2026-06-27T08:05:44",
+    "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
     "last_walk": "2026-06-26",
     "last_push_at": "",
     "last_push_topic": "",
-    "cognitive_pressure": 59.23444444444445,
+    "cognitive_pressure": 94.78442027166668,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,13 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      80.95,
-      35.95,
-      52.09,
-      51.59,
-      70.0,
-      25.0,
-      41.31,
       40.81,
       60.11,
       0.0,
@@ -63,7 +56,9 @@
       39.31,
       71.64,
       50.73444444444445,
-      59.23
+      59.23,
+      80.23,
+      94.78442027166668
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -184,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 59.23444444444445,
+    "pressure": 94.78442027166668,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44"
   },
@@ -470,7 +465,7 @@
   ],
   "pending_insights": 230,
   "pending_research": 2,
-  "last_pulse_output": "2026-06-27T05:30:00+08:00",
+  "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
   "interest_queue": [
     {
       "id": "seed-246-1",
@@ -700,14 +695,14 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-26",
-  "pressure": 71.64,
-  "next_scheduled": "2026-06-27T07:55:00+08:00",
-  "cognitive_pressure": 71.64,
+  "pressure": 94.78442027166668,
+  "next_scheduled": "2026-06-27T09:25:29.956489+08:00",
+  "cognitive_pressure": 94.78442027166668,
   "last_active": "2026-06-27T07:40:00+08:00",
   "pressure_history": [
     39.31,
     71.64
   ],
   "next_action": "",
-  "current_interval_min": 15
+  "current_interval_min": 15.0
 }

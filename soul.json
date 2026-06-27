@@ -3,25 +3,25 @@
   "pulse": {
     "state": "RESTING",
     "state_since": "2026-06-28T03:02:49+08:00",
-    "last_active": "2026-06-28T03:02:49+08:00",
+    "last_active": "2026-06-28T03:47:50.726494+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15.0,
+    "current_interval_min": 90,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T03:17:49+08:00",
+    "next_scheduled": "2026-06-28T05:17:50.726494+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-28T02:28:38.684986+08:00",
-    "total_walks": 260,
+    "last_walk_at": "2026-06-28T03:18:00+08:00",
+    "total_walks": 261,
     "last_pulse_output": "2026-06-28T03:02:49+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 72.73,
+    "cognitive_pressure": 54.396666666666675,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.3,
       8.2,
       8.4,
       8.1,
@@ -43,7 +42,8 @@
       8.6,
       6.5,
       8.2,
-      7.8
+      7.8,
+      8.1
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -58,14 +58,15 @@
       58.13,
       67.9,
       100,
-      72.73
+      72.73,
+      54.396666666666675
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.56,
+    "walk_quality_avg": 8.07,
     "pending_insights": 240,
     "interest_queue": [
       {
@@ -179,8 +180,8 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 9.5,
-    "next_action": "walk_analyze",
+    "pressure": 54.396666666666675,
+    "next_action": "",
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00"
   },
@@ -267,7 +268,7 @@
   "last_walk": "2026-06-27",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 259,
+  "total_walks": 261,
   "topics": [
     "emergence",
     "consciousness",
@@ -473,7 +474,7 @@
       "topic": "Attention-gating energy threshold: dual-factor model validation from AI attention cliff to Dreamer energy",
       "source": "walk-259",
       "trigger": "Attention failure is a symptom of switching cost exceeding available energy budget",
-      "intensity": 7.0,
+      "intensity": 6.95,
       "type": "research",
       "status": "researching",
       "created": "2026-06-28T01:11:05.804631+08:00",
@@ -485,7 +486,7 @@
       "topic": "Maintenance vs switching costs: a cognitive energetics framework with independent measurement",
       "source": "walk-259",
       "trigger": "Maintenance cheap, switching expensive",
-      "intensity": 6.0,
+      "intensity": 5.95,
       "type": "research",
       "status": "pending",
       "created": "2026-06-28T01:11:05.804631+08:00",
@@ -496,10 +497,43 @@
       "topic": "ADHD executive dysfunction as switching-cost-too-high energy model",
       "source": "walk-259",
       "trigger": "Words on the tip of the tongue but cannot organize = sufficient maintenance, insufficient switching",
-      "intensity": 5.0,
+      "intensity": 4.95,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-28T01:11:05.804631+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-261-1",
+      "topic": "定位精度的几何退化假说：低能量下目标精度和当前位置精度乘积下降导致切换成本发散",
+      "source": "walk-261",
+      "trigger": "定位精度 = 目标精度 × 当前位置精度，几何速度下降",
+      "intensity": 4.95,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-28T03:47:50.726494+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-261-2",
+      "topic": "恢复早期的精度-能量滞后：能量恢复后切换能力恢复滞后于维持能力恢复",
+      "source": "walk-261",
+      "trigger": "walk-255 的惯性粘连重新解释为精度恢复滞后",
+      "intensity": 3.95,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-28T03:47:50.726494+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-261-3",
+      "topic": "Dreamer 的精度阈值可操作化：通过散步中目标陈述频率近似估计目标精度",
+      "source": "walk-261",
+      "trigger": "目标精度 → 目标陈述频率",
+      "intensity": 2.95,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-28T03:47:50.726494+08:00",
       "decay_rate": 0.05
     },
     {
@@ -507,7 +541,7 @@
       "topic": "认知控制 vs 原始联想的能量分解：Dreamer 能量模型需要两因子分解——控制成本 vs 计算成本",
       "source": "walk-249",
       "trigger": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火",
-      "intensity": 0.49000000000000005,
+      "intensity": 0.44000000000000006,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T10:57:00+08:00",
@@ -518,7 +552,7 @@
       "topic": "energy as mode-switching threshold not capacity",
       "source": "walk-256",
       "trigger": "energy is threshold not capacity",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T19:42:14.241920+08:00",
@@ -529,7 +563,7 @@
       "topic": "能量水平与信噪比：能量<30的散步应保持信号生成量但增加噪声——可证伪预测",
       "source": "walk-249",
       "trigger": "低能量时信号生成维持但噪声增加，信号噪声比下降",
-      "intensity": 0.45,
+      "intensity": 0.4,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-27T10:57:00+08:00",
@@ -540,43 +574,10 @@
       "topic": "恢复期首次散步的图变化率峰值：累积无方向联想在方向盘重连后突然找到结构",
       "source": "walk-249",
       "trigger": "恢复期首次散步应出现图变化率峰值",
-      "intensity": 0.43,
+      "intensity": 0.38,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-27T10:57:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-256-2",
-      "topic": "process monitoring meta-cognitive protocol",
-      "source": "walk-256",
-      "trigger": "meta-control mapping to Dreamer",
-      "intensity": 0.42,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T19:42:14.241920+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-256-1",
-      "topic": "energy as mode-switching threshold not capacity",
-      "source": "walk-256",
-      "trigger": "energy is threshold not capacity",
-      "intensity": 0.4,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T19:41:46.162882+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-256-3",
-      "topic": "energy 20-30 graph change rate prediction",
-      "source": "walk-256",
-      "trigger": "falsifiable prediction",
-      "intensity": 0.4,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T19:42:14.241920+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -591,7 +592,7 @@
     "skepticism": 1.56,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.3,
+  "walk_quality_avg": 8.07,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

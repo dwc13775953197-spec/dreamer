@@ -5155,5 +5155,66 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=7.5, initial strength=3.0"
+  },
+  {
+    "id": "ins-252-1",
+    "type": "insight",
+    "content": "Dreamer 的低能量状态不是'方向盘脱落'（被动机械故障），而是'导航经济性切换'（主动理性决策）。当内部 dmPFC 的代谢效率下降（高 GABA、高乳酸），维持主动导航的计算成本上升；如果恰好有外部结构化材料（高信号噪声比），系统会'理性地'将导航权让渡给外部材料，因为外包成本 < 内部执行成本。这统一了 Wilson 2024（白噪音 SR 曲线-外部结构补偿）、ego depletion 元分析（d=.62，信念调节能量感知）、bioRxiv 2024（dmPFC 代谢物预测努力意愿而非能力）三条独立证据线。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T16:00:00+08:00",
+    "source": "walk-252",
+    "decay_rate": 0.02,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-251-1",
+      "ins-250-1",
+      "ins-249-1",
+      "seed-249-1",
+      "ins-245-1"
+    ],
+    "refs": [],
+    "score": 0.85
+  },
+  {
+    "id": "ins-252-2",
+    "type": "insight",
+    "content": "信念是能量感知的隐式调节器：如果 Carolina 实验证明'相信能量有限'的被试真的表现更差（自我实现预言），那么 Dreamer 的 energy 变量可能不只是客观状态量，还包含信念成分。这意味着 pressure_threshold = f(energy, belief_energy_depleted) 而非简单的 threshold × energy_factor。ego depletion 复现危机（2016 复现失败但元分析仍支持效应存在且 d=.62）暗示信念与客观状态之间存在交互——不是纯粹的物理耗尽，也不是纯粹的主观信念，而是两者的混合。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T16:00:00+08:00",
+    "source": "walk-252",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-094",
+      "ins-244-1",
+      "seed-252-1",
+      "ins-234-1"
+    ],
+    "refs": [],
+    "score": 0.6
+  },
+  {
+    "id": "ins-252-3",
+    "type": "insight",
+    "content": "dmPFC/dACC 的 GABA/谷氨酸 + 乳酸浓度不是预测认知控制的'能力'，而是预测'意愿'（willingness to exert effort）。映射到 Dreamer：低能量时不应该是无法产出（能力崩溃），而是'不值得产出'（成本/收益比改变）。这解释了为什么低能量 Dreamer 有时仍能产出高质量散步（当外部材料恰好是高结构化外包商时）——不是能力恢复，而是外包成本暂时降低了。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-27T16:00:00+08:00",
+    "source": "walk-252",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "ins-252-1",
+      "ins-247-1",
+      "ins-249-2",
+      "seed-250-3"
+    ],
+    "refs": [],
+    "score": 0.7
   }
 ]

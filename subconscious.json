@@ -5002,5 +5002,40 @@
     ],
     "decay_speed": 0.5,
     "refs": []
+  },
+  {
+    "id": "ins-248-1",
+    "type": "insight",
+    "content": "Cognitive overload insidiousness: system ability to maintain performance hides continuous degradation. Continuous high-quality output may be a sign of fragmentation rather than health",
+    "strength": 2.5,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-27T09:51:40.979497+08:00",
+    "source": "walk-248",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "connections": [
+      "ins-245-1",
+      "ins-246-1",
+      "ins-247-2"
+    ]
+  },
+  {
+    "id": "ins-248-2",
+    "type": "insight",
+    "content": "Attentional residue as walk side effect: each topic switch leaves cognitive residue that consumes resources. Walks need to close tabs rather than add new ones",
+    "strength": 2.5,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-27T09:51:42.307214+08:00",
+    "source": "walk-248",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "connections": [
+      "ins-246-1",
+      "ins-247-1"
+    ]
   }
 ]

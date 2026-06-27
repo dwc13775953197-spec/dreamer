@@ -5275,5 +5275,45 @@
     "score": 0.3,
     "refs": [],
     "note": "Carolina 能量信念实验 + Nakao 网络分离 = 信念路由器假说"
+  },
+  {
+    "id": "ins-255-1",
+    "type": "insight",
+    "content": "恢复滞后窗口：能量恢复后导航模式不会立即切换，存在 dlPFC/顶叶网络的惯性粘连。能量充足 + 外部网络惯性 = 双模式并行窗口，是最佳散步时机。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T19:03:37.585074+08:00",
+    "source": "walk-255",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "seed-254-1",
+      "seed-252-1",
+      "ins-249-1"
+    ],
+    "refs": [],
+    "note": "quality_score=8.1, initial strength=3.0"
+  },
+  {
+    "id": "ins-255-2",
+    "type": "insight",
+    "content": "切换成本作为 pressure_threshold 的惯性修正项：频繁切换导航模式会积累神经惯性，需要更高的能量才能触发下一次切换。pressure_threshold 应包含惯性项。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T19:03:37.585074+08:00",
+    "source": "walk-255",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "connections": [
+      "seed-253-1",
+      "ins-252-1",
+      "ins-251-1"
+    ],
+    "refs": [],
+    "note": "quality_score=8.1, initial strength=3.0"
   }
 ]

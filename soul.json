@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T18:22:19.456+08:00",
+    "last_active": "2026-06-27T18:58:21.123689+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T19:52:19.456+08:00",
+    "next_scheduled": "2026-06-27T19:13:21.123689+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-27T18:22:19.456+08:00",
-    "total_walks": 254,
+    "last_walk_at": "2026-06-27T19:03:37.585074+08:00",
+    "total_walks": 255,
     "last_pulse_output": "2026-06-27T16:00:00+08:00",
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 55.0,
+    "cognitive_pressure": 74.21,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.5,
       8.4,
       8.5,
       8.6,
@@ -43,13 +42,13 @@
       7.5,
       8.3,
       8.2,
-      8.4
+      8.4,
+      8.1
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      84.865,
       39.864999999999995,
       97.7317,
       77.19,
@@ -58,7 +57,8 @@
       59.5968,
       100.0,
       85.0,
-      55.0
+      55.0,
+      74.21
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -66,7 +66,7 @@
       "seed-div-20260613"
     ],
     "walk_quality_avg": 8.56,
-    "pending_insights": 235,
+    "pending_insights": 237,
     "interest_queue": [
       {
         "id": "seed-249-1",
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 55.0,
+    "pressure": 74.21,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44"
   },
@@ -468,80 +468,25 @@
   "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
   "interest_queue": [
     {
-      "id": "seed-251-2",
-      "topic": "「导航权让渡」假说的操作化定义：如何区分「修复方向盘」vs「外包导航任务」",
-      "source": "walk-251",
-      "trigger": "白噪音不是修复认知控制而是将导航功能转移到外部材料",
-      "intensity": 0.5199999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T14:41:50.487872+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-250-2",
-      "topic": "Dreamer 散步的\"音量旋钮\"假说：外部材料结构化程度 × 能量水平的交互效应——一个可证伪的定量预测",
-      "source": "walk-250",
-      "trigger": "45dB vs 65dB 的不同效应映射到 Dreamer 外部材料选择",
-      "intensity": 0.5299999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T13:00:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-253-2",
-      "topic": "外包满意度作为 Dreamer 能量系统的隐藏维度——外包不仅降低成本还提升心理安全",
-      "source": "walk-253",
-      "trigger": "外包不仅是成本优化，它还是一种心理安全机制",
-      "intensity": 0.5299999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T17:41:11.237167+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-249-1",
-      "topic": "认知控制 vs 原始联想的能量分解：Dreamer 能量模型需要两因子分解——控制成本 vs 计算成本",
-      "source": "walk-249",
-      "trigger": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火",
-      "intensity": 0.5399999999999998,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T10:57:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-251-1",
-      "topic": "能量-导航模式连续体的可证伪预测：能量 20-30 + 高结构化材料应产生最高质量产出，能量 < 20 时任何材料都无效",
-      "source": "walk-251",
-      "trigger": "能量不是二值开关而是连续调节器，30 是关键相变点",
-      "intensity": 0.5499999999999999,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T14:41:50.487872+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-252-3",
-      "topic": "dmPFC GABA/乳酸作为 Dreamer 能量神经代理的可行性：生物能量 vs 计算努力之间的映射",
+      "id": "seed-252-1",
+      "topic": "能量作为成本比较器而非容量预算的 Dreamer 参数化：nav_cost_internal vs nav_cost_external 的连续权衡模型",
       "source": "walk-252",
-      "trigger": "bioRxiv 2025 的 dmPFC 代谢物预测努力意愿",
-      "intensity": 0.5599999999999999,
-      "type": "explore",
+      "trigger": "低能量不一定导致行为变化，它改变了成本比",
+      "intensity": 0.6199999999999999,
+      "type": "research",
       "status": "pending",
       "created": "2026-06-27T16:00:00+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-250-1",
-      "topic": "外部材料结构化程度作为 Dreamer 能量状态的调节变量：低能量时高结构化材料 = 45 dB 白噪音（促进），低结构化材料 = 65 dB 白噪音（损害）",
-      "source": "walk-250",
-      "trigger": "Nature 2022 白噪音研究为 walk-249 的方向盘脱落模型提供了神经科学水平的外部结构替代机制",
-      "intensity": 0.5699999999999998,
-      "type": "research",
+      "id": "seed-255-1",
+      "topic": "恢复滞后窗口作为 Dreamer 最佳散步时机的可证伪预测",
+      "source": "walk-255",
+      "trigger": "能量恢复 + 惯性消退 = 双模式并行窗口",
+      "intensity": 0.57,
+      "type": "explore",
       "status": "pending",
-      "created": "2026-06-27T13:00:00+08:00",
+      "created": "2026-06-27T19:03:37.585074+08:00",
       "decay_rate": 0.05
     },
     {
@@ -549,7 +494,7 @@
       "topic": "信念调节的能量感知如何映射到 Dreamer：如果信念改变能量阈值，pressure_threshold 应该是 belief_state 的函数",
       "source": "walk-252",
       "trigger": "Carolina 的能量信念实验 + ego depletion 复现失败",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T16:00:00+08:00",
@@ -560,21 +505,76 @@
       "topic": "决策外包的个体差异作为 Dreamer pressure_threshold 的动态调节器",
       "source": "walk-253",
       "trigger": "有些人更容易疲劳因而更频繁外包",
-      "intensity": 0.6,
+      "intensity": 0.5499999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T17:41:11.237167+08:00",
       "decay_rate": 0.05
     },
     {
-      "id": "seed-252-1",
-      "topic": "能量作为成本比较器而非容量预算的 Dreamer 参数化：nav_cost_internal vs nav_cost_external 的连续权衡模型",
-      "source": "walk-252",
-      "trigger": "低能量不一定导致行为变化，它改变了成本比",
-      "intensity": 0.6699999999999999,
+      "id": "seed-250-1",
+      "topic": "外部材料结构化程度作为 Dreamer 能量状态的调节变量：低能量时高结构化材料 = 45 dB 白噪音（促进），低结构化材料 = 65 dB 白噪音（损害）",
+      "source": "walk-250",
+      "trigger": "Nature 2022 白噪音研究为 walk-249 的方向盘脱落模型提供了神经科学水平的外部结构替代机制",
+      "intensity": 0.5199999999999998,
       "type": "research",
       "status": "pending",
+      "created": "2026-06-27T13:00:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-252-3",
+      "topic": "dmPFC GABA/乳酸作为 Dreamer 能量神经代理的可行性：生物能量 vs 计算努力之间的映射",
+      "source": "walk-252",
+      "trigger": "bioRxiv 2025 的 dmPFC 代谢物预测努力意愿",
+      "intensity": 0.5099999999999999,
+      "type": "explore",
+      "status": "pending",
       "created": "2026-06-27T16:00:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-255-2",
+      "topic": "切换成本作为 pressure_threshold 的惯性修正项",
+      "source": "walk-255",
+      "trigger": "频繁切换导航模式积累惯性",
+      "intensity": 0.5,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T19:03:37.585074+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-251-1",
+      "topic": "能量-导航模式连续体的可证伪预测：能量 20-30 + 高结构化材料应产生最高质量产出，能量 < 20 时任何材料都无效",
+      "source": "walk-251",
+      "trigger": "能量不是二值开关而是连续调节器，30 是关键相变点",
+      "intensity": 0.49999999999999994,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T14:41:50.487872+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-249-1",
+      "topic": "认知控制 vs 原始联想的能量分解：Dreamer 能量模型需要两因子分解——控制成本 vs 计算成本",
+      "source": "walk-249",
+      "trigger": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火",
+      "intensity": 0.4899999999999998,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T10:57:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-250-2",
+      "topic": "Dreamer 散步的\"音量旋钮\"假说：外部材料结构化程度 × 能量水平的交互效应——一个可证伪的定量预测",
+      "source": "walk-250",
+      "trigger": "45dB vs 65dB 的不同效应映射到 Dreamer 外部材料选择",
+      "intensity": 0.4799999999999999,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T13:00:00+08:00",
       "decay_rate": 0.05
     }
   ],
@@ -585,11 +585,11 @@
     "rebelliousness": 0.3,
     "melancholy": 0.7000000000000001,
     "wonder": 1.66,
-    "rigor": 3.58,
-    "skepticism": 1.54,
+    "rigor": 3.61,
+    "skepticism": 1.56,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.41,
+  "walk_quality_avg": 8.3,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [

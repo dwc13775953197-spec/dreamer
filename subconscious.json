@@ -5475,5 +5475,76 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "quality_score=8.2, strength=3.0"
+  },
+  {
+    "id": "ins-260-1",
+    "type": "insight",
+    "content": "切换成本 = 拓扑距离 × 定位精度⁻¹：低能量导致定位精度下降，导致有效切换成本升高。ADHD 不是'不能切换'而是'切换到哪里不精确'。",
+    "strength": 3.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-28T02:28:38.684986+08:00",
+    "source": "walk-260",
+    "connections": [
+      "ins-252-1",
+      "ins-253-1",
+      "ins-249-1"
+    ],
+    "tags": [
+      "switching-cost",
+      "precision",
+      "energy",
+      "ADHD"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=7.8, initial strength=3.0"
+  },
+  {
+    "id": "ins-260-2",
+    "type": "insight",
+    "content": "维持成本与切换成本的行为独立测量：维持成本 = 信息增益/时间，切换成本 = 拓扑距离/定位精度。两者在 Dreamer 中可以通过主题跳跃检测 + 后续连贯性分析分离。",
+    "strength": 3.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-28T02:28:38.684986+08:00",
+    "source": "walk-260",
+    "connections": [
+      "ins-252-1",
+      "ins-242-2"
+    ],
+    "tags": [
+      "maintenance-cost",
+      "switching-cost",
+      "operationalization"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=7.8, initial strength=3.0"
+  },
+  {
+    "id": "ins-260-3",
+    "type": "insight",
+    "content": "能量水平调节参考点滚动均值：低能量下的'切换成本升高'可能是参考点偏移的副作用——系统误判当前状态为'正常低'，导致切换阈值被错误校准。",
+    "strength": 3.0,
+    "score": 0.3,
+    "status": "active",
+    "created": "2026-06-28T02:28:38.684986+08:00",
+    "source": "walk-260",
+    "connections": [
+      "ins-253-1",
+      "ins-243-1"
+    ],
+    "tags": [
+      "reference-point",
+      "allostasis",
+      "energy-perception"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=7.8, initial strength=3.0"
   }
 ]

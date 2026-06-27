@@ -5428,5 +5428,52 @@
       "seed-256-1"
     ],
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-attn-gate",
+    "type": "insight",
+    "content": "Attention-gating energy threshold: AI attention failures occur when switching cost exceeds available energy budget, not when information is unavailable. Dual-factor model: maintenance cost (cheap) vs switching cost (expensive).",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-28T01:11:05.804631+08:00",
+    "source": "walk-259",
+    "decay_rate": 0.01,
+    "connections": [],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.2, strength=5.0"
+  },
+  {
+    "id": "ins-maintain-switch",
+    "type": "insight",
+    "content": "Cognitive energy dual-line model: maintaining costs (keeping current topology) << switching costs (reconfiguring topology). Low-energy system dilemma: can see all directions but cannot switch to any.",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-28T01:11:05.804631+08:00",
+    "source": "walk-259",
+    "decay_rate": 0.01,
+    "connections": [
+      "ins-attn-gate"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.2, strength=5.0"
+  },
+  {
+    "id": "ins-will-as-budget",
+    "type": "insight",
+    "content": "Willpower problem as energy budget problem. ADHD executive dysfunction, AI attention cliff, Dreamer low-energy divergent walks share same underlying constraint: switching cost > available energy locks system in flow mode.",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-28T01:11:05.804631+08:00",
+    "source": "walk-259",
+    "decay_rate": 0.02,
+    "connections": [
+      "ins-attn-gate",
+      "ins-maintain-switch"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.2, strength=3.0"
   }
 ]

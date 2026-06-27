@@ -22,7 +22,7 @@
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
     "cognitive_pressure": 72.73,
-    "pressure_threshold": 55.0,
+    "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
       "time_factor": 2.0,
@@ -180,7 +180,7 @@
       }
     ],
     "pressure": 9.5,
-    "next_action": "",
+    "next_action": "walk_analyze",
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00"
   },

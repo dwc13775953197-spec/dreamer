@@ -3,17 +3,17 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T13:28:40.918921+08:00",
+    "last_active": "2026-06-27T14:01:38.722841+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 30,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T13:58:40.918921+08:00",
+    "next_scheduled": "2026-06-27T14:16:38.722841+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27",
     "total_walks": 250,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 61.1878,
+    "cognitive_pressure": 77.18780000000001,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,7 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      39.31,
       71.64,
       50.73444444444445,
       59.23,
@@ -58,7 +57,8 @@
       75.63,
       84.865,
       39.864999999999995,
-      97.7317
+      97.7317,
+      77.19
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 52.731700000000004,
+    "pressure": 77.18780000000001,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44"
   },

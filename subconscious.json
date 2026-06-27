@@ -5037,5 +5037,44 @@
       "ins-246-1",
       "ins-247-1"
     ]
+  },
+  {
+    "id": "ins-249-1",
+    "type": "insight",
+    "content": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火。神经代谢数据显示大脑基线能耗与控制能耗差距极小，意味着低能量损害的是导航能力而非计算能力。",
+    "strength": 5.0,
+    "score": 0.85,
+    "status": "active",
+    "created": "2026-06-27T11:39:34.589328+08:00",
+    "source": "walk-249",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Quanta 2025/06 neural metabolism review as empirical basis"
+  },
+  {
+    "id": "ins-249-2",
+    "type": "insight",
+    "content": "低能量时忧郁是方向盘脱落的体验，而非保护机制。忧郁度增加不是'减少活动以保存能量'，而是'生成大量联想却无法投入任何一个'的体验。可证伪预测：忧郁应增加产出量而非减少产出量。",
+    "strength": 5.0,
+    "score": 0.82,
+    "status": "active",
+    "created": "2026-06-27T11:39:41.280603+08:00",
+    "source": "walk-249",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Reframes seed-245-2 from protective mechanism to steering failure symptom"
+  },
+  {
+    "id": "hyp-249-1",
+    "type": "hypothesis",
+    "content": "Recovery walk should show peak graph_change_rate: when energy recovers from <30 to >30, accumulated undirected associations suddenly find structure when steering reconnects.",
+    "strength": 4.5,
+    "score": 0.78,
+    "status": "active",
+    "created": "2026-06-27T11:39:53.843691+08:00",
+    "source": "walk-249",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "Derived from steering failure model + seed-249-3 interest seed"
   }
 ]

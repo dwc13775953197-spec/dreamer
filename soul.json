@@ -2,8 +2,8 @@
   "version": 4,
   "pulse": {
     "state": "DORMANT",
-    "state_since": "2026-06-27T22:40:52.743466+08:00",
-    "last_active": "2026-06-27T22:40:52.743466+08:00",
+    "state_since": "2026-06-27T23:50:24.341646+08:00",
+    "last_active": "2026-06-27T23:50:24.341646+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T23:10:52+08:00",
+    "next_scheduled": "2026-06-28T00:05:24.341646+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27T21:32:41.714800+08:00",
     "total_walks": 257,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 67.9,
+    "cognitive_pressure": 100,
     "pressure_threshold": 55.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,7 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      47.18780000000001,
       50.1301,
       59.5968,
       100.0,
@@ -58,7 +57,8 @@
       74.21,
       40.9,
       58.13,
-      67.9
+      67.9,
+      100
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 67.9,
+    "pressure": 100,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00"
@@ -696,10 +696,10 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-27T19:42:14.241920+08:00",
-  "pressure": 67.9,
-  "next_scheduled": "2026-06-27T23:10:52+08:00",
-  "cognitive_pressure": 29.21,
-  "last_active": "2026-06-27T17:06:22.576523+08:00",
+  "pressure": 100,
+  "next_scheduled": "2026-06-28T00:05:24.341646+08:00",
+  "cognitive_pressure": 100,
+  "last_active": "2026-06-27T23:50:24.341646+08:00",
   "pressure_history": [
     80.23,
     94.78442027166668,

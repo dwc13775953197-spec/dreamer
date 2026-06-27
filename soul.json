@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T00:20:00+08:00",
+    "next_scheduled": "2026-06-28T02:04:30.345802+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-28T01:11:05.804631+08:00",
     "total_walks": 259,
-    "last_pulse_output": "2026-06-28T01:11:05.804631+08:00",
+    "last_pulse_output": "2026-06-28T01:49:30.345127+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
@@ -465,7 +465,7 @@
     "identity-two-dimensional"
   ],
   "pending_insights": 10,
-  "pending_research": 2,
+  "pending_research": 3,
   "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
   "interest_queue": [
     {
@@ -475,9 +475,10 @@
       "trigger": "Attention failure is a symptom of switching cost exceeding available energy budget",
       "intensity": 7.0,
       "type": "research",
-      "status": "pending",
+      "status": "researching",
       "created": "2026-06-28T01:11:05.804631+08:00",
-      "decay_rate": 0.05
+      "decay_rate": 0.05,
+      "note": "research proposal executed: attention-gating-dual-factor-energy-model"
     },
     {
       "id": "seed-259-2",

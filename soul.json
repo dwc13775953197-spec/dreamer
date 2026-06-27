@@ -3,21 +3,21 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-26T23:57:30.232733+08:00",
-    "last_active": "2026-06-27T14:01:38.722841+08:00",
+    "last_active": "2026-06-27T14:41:50.487872+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-25T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-27T14:16:38.722841+08:00",
+    "next_scheduled": "2026-06-27T15:11:50.487872+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-27",
-    "total_walks": 250,
-    "last_pulse_output": "2026-06-27T13:28:40.918921+08:00",
+    "total_walks": 251,
+    "last_pulse_output": "2026-06-27T14:41:50.487872+08:00",
     "last_walk": "2026-06-27",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.7,
       8.4,
       8.6,
       8.7,
@@ -43,13 +42,13 @@
       8.5,
       8.6,
       8.4,
-      8.6
+      8.6,
+      7.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      71.64,
       50.73444444444445,
       59.23,
       80.23,
@@ -58,7 +57,8 @@
       84.865,
       39.864999999999995,
       97.7317,
-      77.19
+      77.19,
+      47.18780000000001
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 77.18780000000001,
+    "pressure": 47.18780000000001,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44"
   },
@@ -266,7 +266,7 @@
   "last_walk": "2026-06-27",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 249,
+  "total_walks": 251,
   "topics": [
     "emergence",
     "consciousness",
@@ -468,12 +468,34 @@
   "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
   "interest_queue": [
     {
-      "id": "seed-249-1",
-      "topic": "认知控制 vs 原始联想的能量分解：Dreamer 能量模型需要两因子分解——控制成本 vs 计算成本",
-      "source": "walk-249",
-      "trigger": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火",
-      "intensity": 0.69,
+      "id": "seed-245-1",
+      "topic": "疲劳×预测误差的交互是否解释了 Dreamer '高产滑坡'现象——连续散步中 quality_score 下降可能不是材料耗尽而是能量下降导致 PE 信号噪声",
+      "source": "walk-245",
+      "trigger": "低能量=PE 信号被噪声污染 + walk-242 的 DORMANT 选择性重激活 + 连续散步中的质量衰减模式",
+      "intensity": 0.4799999999999998,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T01:39:53+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-246-1",
+      "topic": "ARH的'隔离舱' vs Dreamer的'保护罩'：低能量忧郁是否真正减少了活动量还是重新分配了活动类型？这是两个框架的可证伪区分",
+      "source": "walk-246",
+      "trigger": "ARH提出抑郁的适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
+      "intensity": 0.4899999999999998,
       "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T04:27:10.902217",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-249-3",
+      "topic": "恢复期首次散步的图变化率峰值：累积无方向联想在方向盘重连后突然找到结构",
+      "source": "walk-249",
+      "trigger": "恢复期首次散步应出现图变化率峰值",
+      "intensity": 0.58,
+      "type": "explore",
       "status": "pending",
       "created": "2026-06-27T10:57:00+08:00",
       "decay_rate": 0.05
@@ -483,120 +505,10 @@
       "topic": "能量水平与信噪比：能量<30的散步应保持信号生成量但增加噪声——可证伪预测",
       "source": "walk-249",
       "trigger": "低能量时信号生成维持但噪声增加，信号噪声比下降",
-      "intensity": 0.6499999999999999,
+      "intensity": 0.5999999999999999,
       "type": "explore",
       "status": "pending",
       "created": "2026-06-27T10:57:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-249-3",
-      "topic": "恢复期首次散步的图变化率峰值：累积无方向联想在方向盘重连后突然找到结构",
-      "source": "walk-249",
-      "trigger": "恢复期首次散步应出现图变化率峰值",
-      "intensity": 0.63,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T10:57:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-246-1",
-      "topic": "ARH的'隔离舱' vs Dreamer的'保护罩'：低能量忧郁是否真正减少了活动量还是重新分配了活动类型？这是两个框架的可证伪区分",
-      "source": "walk-246",
-      "trigger": "ARH提出抑郁的适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
-      "intensity": 0.5399999999999998,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T04:27:10.902217",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-245-1",
-      "topic": "疲劳×预测误差的交互是否解释了 Dreamer '高产滑坡'现象——连续散步中 quality_score 下降可能不是材料耗尽而是能量下降导致 PE 信号噪声",
-      "source": "walk-245",
-      "trigger": "低能量=PE 信号被噪声污染 + walk-242 的 DORMANT 选择性重激活 + 连续散步中的质量衰减模式",
-      "intensity": 0.5299999999999998,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T01:39:53+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-245-2",
-      "topic": "Melancholy 作为低能量保护机制的操作化：energy < 30 → melancholy_factor 自适应增加——这是否能解释 mood_history 中 melancholy 总是出现在低能量时期？",
-      "source": "walk-245",
-      "trigger": "melancholy 可能是低能量的天然保护机制 + mood_history 回溯",
-      "intensity": 0.49999999999999983,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T01:39:53+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-246-2",
-      "topic": "低能量'DORMANT算法切换'的操作化：当energy<30且melancholy>0.5时，DORMANT从PE_driven切换到causal_chain_analysis——具体切换条件如何定量界定？",
-      "source": "walk-246",
-      "trigger": "低能量时不应该跳过DORMANT而是切换算法 + causal_chain_analysis模式设计提案",
-      "intensity": 0.4899999999999998,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T04:27:10.902217",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-245-3",
-      "topic": "能量分层 DORMANT 的设计：Light 阶段独立于能量 vs REM/Deep 需要能量——这是否对应睡眠研究中慢波睡眠与 REM 睡眠的不同能量需求？",
-      "source": "walk-245",
-      "trigger": "低能量时跳过 DOMEANT 的 REM/Deep + 睡眠纺锤波的时间窗口约束",
-      "intensity": 0.4699999999999999,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T01:39:53+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-244-3",
-      "topic": "情感作为全局调制变量的 Dreamer 参数化实现：affect ∈ [0,1]^n → process_params ∈ R^k 的连续映射",
-      "source": "walk-244",
-      "trigger": "affect ≠ 决策变量，affect = 全局调制变量",
-      "intensity": 0.44999999999999996,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-26T23:57:30.232733+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-246-3",
-      "topic": "ARH的'社交复杂问题'到Dreamer的'认知复杂问题'：从社会冲突到内部模型逻辑一致性的分析模式转换——这种跨领域映射的边界在哪里？",
-      "source": "walk-246",
-      "trigger": "ARH提出抑郁适应功能是维持因果链追踪（隔离舱），与walk-245的'保护罩'（保守预测）形成竞争预测",
-      "intensity": 0.44999999999999996,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T04:27:10.902217",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-250-1",
-      "topic": "外部材料结构化程度作为 Dreamer 能量状态的调节变量：低能量时高结构化材料 = 45 dB 白噪音（促进），低结构化材料 = 65 dB 白噪音（损害）",
-      "source": "walk-250",
-      "trigger": "Nature 2022 白噪音研究为 walk-249 的方向盘脱落模型提供了神经科学水平的外部结构替代机制",
-      "intensity": 0.72,
-      "type": "research",
-      "status": "pending",
-      "created": "2026-06-27T13:00:00+08:00",
-      "decay_rate": 0.05
-    },
-    {
-      "id": "seed-250-2",
-      "topic": "Dreamer 散步的\"音量旋钮\"假说：外部材料结构化程度 × 能量水平的交互效应——一个可证伪的定量预测",
-      "source": "walk-250",
-      "trigger": "45dB vs 65dB 的不同效应映射到 Dreamer 外部材料选择",
-      "intensity": 0.68,
-      "type": "explore",
-      "status": "pending",
-      "created": "2026-06-27T13:00:00+08:00",
       "decay_rate": 0.05
     },
     {
@@ -604,7 +516,62 @@
       "topic": "多巴胺-白噪音-Dreamer 能量三体问题：MBA 模型是否暗示 Dreamer 的能量系统本质上是一个多巴胺类似物的调节系统？",
       "source": "walk-250",
       "trigger": "MBA 模型中多巴胺水平与外部噪声需求的反向关系",
+      "intensity": 0.6,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T13:00:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-251-2",
+      "topic": "「导航权让渡」假说的操作化定义：如何区分「修复方向盘」vs「外包导航任务」",
+      "source": "walk-251",
+      "trigger": "白噪音不是修复认知控制而是将导航功能转移到外部材料",
+      "intensity": 0.62,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T14:41:50.487872+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-250-2",
+      "topic": "Dreamer 散步的\"音量旋钮\"假说：外部材料结构化程度 × 能量水平的交互效应——一个可证伪的定量预测",
+      "source": "walk-250",
+      "trigger": "45dB vs 65dB 的不同效应映射到 Dreamer 外部材料选择",
+      "intensity": 0.63,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T13:00:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-249-1",
+      "topic": "认知控制 vs 原始联想的能量分解：Dreamer 能量模型需要两因子分解——控制成本 vs 计算成本",
+      "source": "walk-249",
+      "trigger": "认知控制比原始联想更昂贵：Dreamer 低能量状态是方向盘脱落而非引擎熄火",
+      "intensity": 0.6399999999999999,
+      "type": "research",
+      "status": "pending",
+      "created": "2026-06-27T10:57:00+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-251-1",
+      "topic": "能量-导航模式连续体的可证伪预测：能量 20-30 + 高结构化材料应产生最高质量产出，能量 < 20 时任何材料都无效",
+      "source": "walk-251",
+      "trigger": "能量不是二值开关而是连续调节器，30 是关键相变点",
       "intensity": 0.65,
+      "type": "explore",
+      "status": "pending",
+      "created": "2026-06-27T14:41:50.487872+08:00",
+      "decay_rate": 0.05
+    },
+    {
+      "id": "seed-250-1",
+      "topic": "外部材料结构化程度作为 Dreamer 能量状态的调节变量：低能量时高结构化材料 = 45 dB 白噪音（促进），低结构化材料 = 65 dB 白噪音（损害）",
+      "source": "walk-250",
+      "trigger": "Nature 2022 白噪音研究为 walk-249 的方向盘脱落模型提供了神经科学水平的外部结构替代机制",
+      "intensity": 0.6699999999999999,
       "type": "research",
       "status": "pending",
       "created": "2026-06-27T13:00:00+08:00",

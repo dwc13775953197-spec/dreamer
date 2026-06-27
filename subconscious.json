@@ -5115,5 +5115,45 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "MBA 模型中多巴胺水平与外部噪声需求的反向关系"
+  },
+  {
+    "id": "ins-251-1",
+    "type": "insight",
+    "content": "白噪音不是修复方向盘，是让导航任务外包给外部结构——walk-250 的「音量旋钮」假说应修正为「导航权让渡」假说。低能量时系统不是修复了认知控制，而是将导航功能从内部转移到外部材料。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T14:41:50.487872+08:00",
+    "source": "walk-251",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-249-1",
+      "ins-250-1",
+      "ins-245-1"
+    ],
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=7.5, initial strength=3.0"
+  },
+  {
+    "id": "ins-251-2",
+    "type": "insight",
+    "content": "能量-导航模式连续体：能量不是有/无的二值开关，而是调节导航模式（主动/辅助/被动/无导航）的连续参数。30 是关键相变点——低于 30 时系统从主动导航相变为被动导航（外部白噪音牵引），低于 20 时进入无导航损害区。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-27T14:41:50.487872+08:00",
+    "source": "walk-251",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-249-1",
+      "ins-249-2",
+      "ins-250-2",
+      "ins-245-1",
+      "ins-247-1"
+    ],
+    "decay_speed": 0.5,
+    "refs": [],
+    "note": "quality_score=7.5, initial strength=3.0"
   }
 ]

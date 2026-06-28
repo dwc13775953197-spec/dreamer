@@ -2,26 +2,26 @@
   "version": 4,
   "pulse": {
     "state": "ACTIVE",
-    "state_since": "2026-06-28T09:12:37.635273+08:00",
-    "last_active": "2026-06-28T18:05:16.694844+08:00",
+    "state_since": "2026-06-28T20:00:08.000000+08:00",
+    "last_active": "2026-06-28T20:00:08.000000+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 30,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T19:37:46.442083+08:00",
+    "next_scheduled": "2026-06-28T20:30:08.000000+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-28T18:43:42.019234+08:00",
-    "total_walks": 254,
+    "last_walk_at": "2026-06-28T20:00:08.000000+08:00",
+    "total_walks": 255,
     "last_pulse_output": "2026-06-28T18:43:42.019234+08:00",
     "last_walk": "2026-06-28",
-    "last_push_at": "2026-06-27T13:00:00+08:00",
-    "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 100,
+    "last_push_at": "2026-06-28T19:37:00.000000+08:00",
+    "last_push_topic": "三通道疲劳模型",
+    "cognitive_pressure": 70.0,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.1,
       8.4,
       8.2,
       8.2,
@@ -43,13 +42,13 @@
       7.8,
       0.0,
       7.9,
-      8.5
+      8.5,
+      8.3
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      54.5,
       72.26195818666666,
       88.89529152,
       100.0,
@@ -58,14 +57,15 @@
       70.0,
       86.16,
       95.94375824333333,
-      100
+      100,
+      70.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 8.09,
+    "walk_quality_avg": 7.33,
     "pending_insights": 246,
     "interest_queue": [
       {
@@ -179,11 +179,10 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100,
+    "pressure": 70.0,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
-      6.5,
       8.2,
       7.8,
       8.1,
@@ -192,7 +191,8 @@
       8.2,
       8.5,
       7.5,
-      7.8
+      7.8,
+      8.3
     ]
   },
   "affect": {
@@ -435,7 +435,7 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 18,
+  "pending_insights": 20,
   "pending_research": 3,
   "last_pulse_output": "2026-06-28T11:50:43.095745+08:00",
   "personality_traits": {
@@ -480,7 +480,7 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-28T18:43:42.019234+08:00",
+  "last_walk_at": "2026-06-28T20:00:08.000000+08:00",
   "pressure": 95.94375824333333,
   "next_scheduled": "2026-06-28T17:09:33.060676+08:00",
   "cognitive_pressure": 95.94375824333333,

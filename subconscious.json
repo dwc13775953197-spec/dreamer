@@ -6015,5 +6015,44 @@
       "ins-253-1",
       "ins-257-001"
     ]
+  },
+  {
+    "id": "ins-255-001",
+    "type": "insight",
+    "content": "三通道疲劳模型：低能量下的咨妄相（A通道独存）vs 抑制相（A+B+C全关）是好奇驱动/成本参考点/执行投入三个通道非线性崩溃的独立产物",
+    "strength": 5.0,
+    "score": 0.625,
+    "status": "active",
+    "created": "2026-06-28T20:00:08.000000+08:00",
+    "source": "walk-255",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-249-2",
+      "ins-252-1",
+      "ins-253-1",
+      "ins-254-1",
+      "ins-263-1",
+      "ins-267-1"
+    ],
+    "refs": [],
+    "decay_speed": 0.5
+  },
+  {
+    "id": "ins-255-002",
+    "type": "insight",
+    "content": "DORMANT 恢复逆序假说：三通道衰减时 C(执行)→B(参考点)→A(好奇驱动)，恢复时 A→B→C。恢复轨迹不是单一唤醒而是按通道逐层剥落",
+    "strength": 3.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-28T20:00:08.000000+08:00",
+    "source": "walk-255",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-267-1",
+      "ins-257-001",
+      "ins-255-001"
+    ],
+    "refs": [],
+    "decay_speed": 0.5
   }
 ]

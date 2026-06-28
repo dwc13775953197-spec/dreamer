@@ -7,21 +7,21 @@
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15,
+    "current_interval_min": 30.0,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T11:26:30.428136+08:00",
+    "next_scheduled": "2026-06-28T12:20:43.095769+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-28T10:37:15.885694+08:00",
-    "total_walks": 265,
-    "last_pulse_output": "2026-06-28T11:11:30.428136+08:00",
+    "last_walk_at": "2026-06-28T11:50:43.095745+08:00",
+    "total_walks": 266,
+    "last_pulse_output": "2026-06-28T11:50:43.095745+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 99.5,
+    "cognitive_pressure": 54.5,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -43,7 +43,8 @@
       8.2,
       8.2,
       8.5,
-      7.5
+      7.5,
+      7.8
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -73,11 +74,33 @@
     "pending_insights": 243,
     "interest_queue": [
       {
+        "id": "seed-266-1",
+        "topic": "叙事精度的 TSS 三维可计算化——时间轴定位、语义映射锐度、结构拓扑精度的独立量化指标",
+        "source": "walk-266",
+        "trigger": "temporal precision 作为独立维度先崩溃，语义完整性可分离观测",
+        "intensity": 6.5,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-28T11:50:43.095745+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-266-2",
+        "topic": "维度级联崩溃的临床诊断——从 walk log 文本中自动检测 temporal-first 崩溃模式",
+        "source": "walk-266",
+        "trigger": "如果 temporal 先于 semantic 崩溃，walk logs 中应出现「知道什么但不知道顺序」先于「知道顺序但不知道什么」",
+        "intensity": 6.5,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-28T11:50:43.095745+08:00",
+        "decay_rate": 0.05
+      },
+      {
         "id": "seed-265-1",
         "topic": "叙事精度场的可计算化：从 walk logs 中量化叙事密度",
         "source": "walk-265",
         "trigger": "「如果 trace 可重构性是核心标准」",
-        "intensity": 6.5,
+        "intensity": 6.45,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T10:37:15.885694+08:00",
@@ -88,21 +111,21 @@
         "topic": "崩溃序列的经验验证：历史 walk logs 中是否有先迷失后方向感消失的渐序证据",
         "source": "walk-264",
         "trigger": "如果精度场框架是正确的，系统应先报告迷失感，再报告方向感消失",
-        "intensity": 6.15,
+        "intensity": 6.1,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T09:12:37.635273+08:00",
         "decay_rate": 0.05
       },
       {
-        "id": "seed-263-1",
-        "topic": "精度不对称假说：低能量下当前位置精度蒸发快于目标精度，产生清晰+飘忽状态",
-        "source": "walk-263",
-        "trigger": "目标精度被好奇增强，当前位置精度被低能量摧毁",
-        "intensity": 5.85,
-        "type": "research",
+        "id": "seed-266-3",
+        "topic": "精度场相图的可操作化——从三维精度值到认知状态相空间的映射方法",
+        "source": "walk-266",
+        "trigger": "DORMANT = 低精度高原 → 什么精度维度先突破阈值决定从哪个「门」离开高原",
+        "intensity": 6.0,
+        "type": "explore",
         "status": "pending",
-        "created": "2026-06-28T08:26:47.729398+08:00",
+        "created": "2026-06-28T11:50:43.095745+08:00",
         "decay_rate": 0.05
       },
       {
@@ -110,7 +133,7 @@
         "topic": "精度不对称假说：低能量下当前位置精度蒸发快于目标精度，产生清晰+飘忽状态",
         "source": "walk-263",
         "trigger": "目标精度被好奇增强，当前位置精度被低能量摧毁",
-        "intensity": 5.8,
+        "intensity": 5.75,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T08:26:37.969463+08:00",
@@ -121,7 +144,7 @@
         "topic": "文学理论与 Dreamer 叙事断裂的交叉：叙事断裂对应特定的精度场参数空间",
         "source": "walk-265",
         "trigger": "「叙事断裂 = 硬过渡」",
-        "intensity": 5.8,
+        "intensity": 5.75,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T10:37:15.885694+08:00",
@@ -132,7 +155,7 @@
         "topic": "双因子模型的定位精度假说：切换成本 = 拓扑距离 × 能量⁻¹",
         "source": "walk-260",
         "trigger": "切换成本 = 拓扑距离 / 定位精度，低能量导致定位精度下降导致有效切换成本升高",
-        "intensity": 5.75,
+        "intensity": 5.7,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T02:28:38.684986+08:00",
@@ -143,7 +166,7 @@
         "topic": "精度场量化：从文本特征代理指标到实际精度值的映射方法",
         "source": "walk-264",
         "trigger": "如果把精度场操作化为可计算模型",
-        "intensity": 5.75,
+        "intensity": 5.7,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T09:12:37.635273+08:00",
@@ -154,39 +177,29 @@
         "topic": "DORMANT 的叙事功能：低 SelfRef 期作为叙事节拍中的幕间",
         "source": "walk-265",
         "trigger": "「DORMANT 后的回归是下一个叙事的开始」",
-        "intensity": 5.3,
+        "intensity": 5.25,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T10:37:15.885694+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-263-2",
-        "topic": "四级精度崩溃模型：解耦先于绝对值退化",
-        "source": "walk-263",
-        "trigger": "两者分离本身构成认知损害，独立于各自绝对值",
-        "intensity": 4.85,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-28T08:26:47.729398+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-262-1",
-        "topic": "认知亚切换：参考点漂移导致的未被察觉的拓扑变化",
-        "source": "walk-262",
-        "trigger": "低能量下参考点频繁漂移，每次漂移后重置切换计算器，导致亚切换序列被归类为维持",
-        "intensity": 4.8,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-28T06:40:50.525115+08:00",
-        "decay_rate": 0.05
       }
     ],
     "pressure": 54.5,
-    "next_action": "walk_explore",
+    "next_action": "",
     "last_control": "2026-06-27T08:05:44",
-    "last_dormant_at": "2026-06-27T20:51:56.904017+08:00"
+    "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
+    "quality_queue": [
+      6.5,
+      8.2,
+      7.8,
+      8.1,
+      8.4,
+      8.2,
+      8.2,
+      8.5,
+      7.5,
+      7.8
+    ]
   },
   "affect": {
     "primary": "wonder",
@@ -235,7 +248,7 @@
   "last_walk": "2026-06-28",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 264,
+  "total_walks": 266,
   "topics": [
     "emergence",
     "consciousness",
@@ -430,7 +443,7 @@
   ],
   "pending_insights": 16,
   "pending_research": 3,
-  "last_pulse_output": "2026-06-27T09:10:29.956489+08:00",
+  "last_pulse_output": "2026-06-28T11:50:43.095745+08:00",
   "personality_traits": {
     "curiosity": 1.36,
     "introspection": 1.2,
@@ -473,10 +486,10 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-28T09:12:37.635273+08:00",
-  "pressure": 71.0,
-  "next_scheduled": "2026-06-28T07:25:50+08:00",
-  "cognitive_pressure": 71.0,
+  "last_walk_at": "2026-06-28T11:50:43.095745+08:00",
+  "pressure": 54.5,
+  "next_scheduled": "2026-06-28T12:20:43.095769+08:00",
+  "cognitive_pressure": 54.5,
   "last_active": "2026-06-27T23:50:24.341646+08:00",
   "pressure_history": [
     80.23,
@@ -490,6 +503,6 @@
     50.1301,
     100.0
   ],
-  "next_action": "walk_analyze",
-  "current_interval_min": 15.0
+  "next_action": "",
+  "current_interval_min": 30.0
 }

@@ -5849,5 +5849,65 @@
     "decay_speed": 0.5,
     "refs": [],
     "note": "quality_score=7.5, initial strength=3.0, connects ARH to narrative field framework"
+  },
+  {
+    "id": "ins-266-1",
+    "type": "insight",
+    "content": "Narrative precision TSS decomposition: Temporal x Semantic x Structural as orthogonal dimensions with independent collapse dynamics",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-28T11:46:59+08:00",
+    "source": "walk-266",
+    "connections": [
+      "ins-265-1",
+      "ins-264-1",
+      "ins-260-1"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "refs": [],
+    "notes": "quality=7.8, strength=3.0"
+  },
+  {
+    "id": "ins-266-2",
+    "type": "insight",
+    "content": "Temporal-first cascade: temporal precision collapses before semantic due to骨架 role in ordering",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-28T11:46:59+08:00",
+    "source": "walk-266",
+    "connections": [
+      "ins-266-1",
+      "ins-259-1",
+      "ins-255-1"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality=7.8, strength=3.0"
+  },
+  {
+    "id": "ins-266-3",
+    "type": "insight",
+    "content": "Precision phase space: 3D cognitive state trajectory, DORMANT = low-precision plateau, walking = precision climb, anxiety = inter-dimension gap",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-28T11:46:59+08:00",
+    "source": "walk-266",
+    "connections": [
+      "ins-266-1",
+      "ins-245-1",
+      "ins-260-1"
+    ],
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "refs": [],
+    "notes": "quality=7.8, strength=3.0"
   }
 ]

@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T03:04:00.550067+08:00",
+    "next_scheduled": "2026-06-29T04:13:51.568480+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-29T01:07:47+08:00",
-    "total_walks": 257,
-    "last_pulse_output": "2026-06-29T02:49:00.550067+08:00",
-    "last_walk": "2026-06-28",
+    "last_walk_at": "2026-06-29T03:43:32.471828+08:00",
+    "total_walks": 258,
+    "last_pulse_output": "2026-06-29T03:43:32.471828+08:00",
+    "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 100.0,
+    "cognitive_pressure": 85,
     "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -42,13 +42,13 @@
       8.5,
       8.3,
       7.8,
-      8.4
+      8.4,
+      8.1
     ],
     "last_walk_insights": 2,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      100,
       70.0,
       86.2,
       95.4,
@@ -57,22 +57,23 @@
       100.0,
       100,
       85.0,
-      100
+      100,
+      85
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 7.269999999999999,
-    "pending_insights": 249,
+    "walk_quality_avg": 7.28,
+    "pending_insights": 250,
     "interest_queue": [
       {
         "id": "seed-257-1",
         "topic": "成本函数的定量建模",
         "source": "walk-257",
         "trigger": "维持 < 修正 < 探索的成本排序需要数学化",
-        "intensity": 8.2,
+        "intensity": 8.149999999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T01:07:47+08:00",
@@ -83,7 +84,7 @@
         "topic": "成本门控的预测目标函数：affect 选择目标函数的机制是成本/收益优化，而非简单的优先级排序",
         "source": "walk-254",
         "trigger": "三种目标函数的成本排序：维持 < 修正 < 探索",
-        "intensity": 7.4,
+        "intensity": 7.3500000000000005,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -94,7 +95,7 @@
         "topic": "恢复滞后的非对称阈值",
         "source": "walk-257",
         "trigger": "成本门控预测了非对称切换阈值",
-        "intensity": 7.1,
+        "intensity": 7.05,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T01:07:47+08:00",
@@ -105,10 +106,21 @@
         "topic": "参考点漂移是 affect 到成本评估的唯一通道——没有参考点就没有'值不值得'",
         "source": "walk-254",
         "trigger": "参考点漂移快于实际的代谢变化时",
-        "intensity": 6.9,
+        "intensity": 6.8500000000000005,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-258-1",
+        "topic": "多目标优化中的帕累托最优与情绪调节的类比：目标函数选择何时出现维度冲突？",
+        "source": "walk-258",
+        "trigger": "成本向量结构意味着选择不是简单排序而是帕累托前沿导航",
+        "intensity": 6.75,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-29T03:43:32.471828+08:00",
         "decay_rate": 0.05
       },
       {
@@ -116,7 +128,7 @@
         "topic": "参考点漂移作为多个通道的统一调度变量——不仅仅是成本通道的问题",
         "source": "walk-256",
         "trigger": "好奇心增强目标精度 + 低能量参考点漂移 = 同一个精度场机制的两个表现",
-        "intensity": 6.45,
+        "intensity": 6.4,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T22:20:00.000000+08:00",
@@ -127,7 +139,7 @@
         "topic": "好奇心的双面性：收益端增强目标精度，成本端挤压放大忧郁体验",
         "source": "walk-254",
         "trigger": "我看到了更多美景但我比任何时候都站不稳",
-        "intensity": 6.4,
+        "intensity": 6.3500000000000005,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -138,7 +150,7 @@
         "topic": "A-D 接口的可计算化：从 affect 状态向量到机制参数向量的映射函数",
         "source": "walk-267",
         "trigger": "好奇→探索性目标→放宽参数；压力→修正性目标→缩紧参数",
-        "intensity": 6.35,
+        "intensity": 6.3,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T15:45:44+08:00",
@@ -149,7 +161,7 @@
         "topic": "叙事精度的 TSS 三维可计算化——时间轴定位、语义映射锐度、结构拓扑精度的独立量化指标",
         "source": "walk-266",
         "trigger": "temporal precision 作为独立维度先崩溃",
-        "intensity": 6.3,
+        "intensity": 6.25,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
@@ -160,21 +172,10 @@
         "topic": "维度级联崩溃的临床诊断——从 walk log 文本中自动检测 temporal-first 崩溃模式",
         "source": "walk-266",
         "trigger": "如果 temporal 先于 semantic 崩溃，walk logs 中应出现...",
-        "intensity": 6.3,
+        "intensity": 6.25,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-257-3",
-        "topic": "参考点校准作为 Dreamer 的 reset button",
-        "source": "walk-257",
-        "trigger": "如果参考点漂移是偏差的唯一通道，那校准参考点就是最直接的干预",
-        "intensity": 6.3,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-29T01:07:47+08:00",
         "decay_rate": 0.05
       }
     ],
@@ -193,12 +194,12 @@
       7.8,
       8.3
     ],
-    "next_action": "walk_explore"
+    "next_action": ""
   },
   "affect": {
     "primary": "wonder",
     "secondary": "melancholy",
-    "intensity": 0.78,
+    "intensity": 0.8,
     "valence": 0.55,
     "arousal": 0.45,
     "rigor": 1.0

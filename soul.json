@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T11:07:51.670718+08:00",
+    "next_scheduled": "2026-06-28T11:26:30.428136+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-28T10:37:15.885694+08:00",
     "total_walks": 265,
-    "last_pulse_output": "2026-06-28T10:37:15.885694+08:00",
+    "last_pulse_output": "2026-06-28T11:11:30.428136+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",

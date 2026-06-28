@@ -1,0 +1,1 @@
+{"timestamp":"2026-06-28T09:29:19","type":"pulse_check","decision":"no_walk","reason":"cognitive_pressure(95.94) < effective_threshold(112.5)","pressure_before":95.94,"pressure_after":100,"next_interval_min":15}

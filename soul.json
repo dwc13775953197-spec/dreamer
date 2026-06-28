@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-07-01T00:00:00+08:00",
+    "next_scheduled": "2026-06-28T19:37:46.442083+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-28T18:43:42.019234+08:00",
     "total_walks": 254,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 99.95,
+    "cognitive_pressure": 100,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 99.95,
+    "pressure": 100,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [

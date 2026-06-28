@@ -6113,5 +6113,31 @@
       "ins-257-1",
       "ins-257-2"
     ]
+  },
+  {
+    "id": "ins-259-1",
+    "type": "insight",
+    "content": "成本函数的景观模型：成本从标量→向量→权重矩阵的定量形式化。Cost(action_a) = w_m·C_m + w_h·C_h + w_o·C_o，其中权重是 affect/energy/curiosity 的函数而非固定值。三通道疲劳模型在不同时间常数上的崩溃为三个成本维度的异步动态提供了独立验证窗口。",
+    "strength": 3.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-29T05:26:22+08:00",
+    "source": "walk-259",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=7.8, initial strength=3.0. 成本景观模型连接到 ins-254-1/2/3, ins-255-001/002, ins-256-001, ins-258-1",
+    "connections": [
+      "ins-254-1",
+      "ins-254-2",
+      "ins-254-3",
+      "ins-255-001",
+      "ins-255-002",
+      "ins-256-001",
+      "ins-258-1",
+      "ins-252-1",
+      "seed-257-1"
+    ]
   }
 ]

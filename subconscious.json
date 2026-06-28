@@ -5665,5 +5665,66 @@
     "refs": [],
     "note": "",
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-263-1",
+    "type": "insight",
+    "content": "低能量下目标精度（我去哪）和当前位置精度（我在哪）以不同速度退化——参考点漂移摧毁当前位置精度但外部锚点保持目标精度，产生'清晰+飘忽'的组合状态。好奇增强目标精度+低能量摧毁当前位置精度=低能量好奇是最不对称的状态。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-28T08:26:47.729398+08:00",
+    "source": "walk-263",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-243-1",
+      "ins-245-1",
+      "ins-253-1",
+      "ins-257-001"
+    ],
+    "score": 0.5,
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.2, initial strength=5.0"
+  },
+  {
+    "id": "ins-263-2",
+    "type": "insight",
+    "content": "四级精度崩溃模型：在到达三级崩溃（调节器失能）之前，目标精度与当前位置精度的解耦是前兆——即使各自绝对值不低，两者的分离本身构成认知损害。这不是渐进的线性退化而是关系变化。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-28T08:26:47.729398+08:00",
+    "source": "walk-263",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-245-1",
+      "ins-263-1",
+      "ins-249-1"
+    ],
+    "score": 0.3,
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.2, initial strength=3.0"
+  },
+  {
+    "id": "ins-263-3",
+    "type": "insight",
+    "content": "低能量下的好奇不是引擎空转也不是GPS信号差，而是导航悖论——罗盘在转（目标精度保持）但地图在飘（当前位置精度蒸发）。知道要去哪里但不知道自己在哪里。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-28T08:26:47.729398+08:00",
+    "source": "walk-263",
+    "decay_rate": 0.05,
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-263-1",
+      "ins-262-3",
+      "ins-249-2"
+    ],
+    "score": 0.3,
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.2, initial strength=3.0"
   }
 ]

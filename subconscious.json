@@ -6054,5 +6054,24 @@
     ],
     "refs": [],
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-walk256-001",
+    "type": "insight",
+    "content": "参考点漂移是多通道统一调度变量：三通道疲劳模型中的好奇驱动/成本参考点/执行投入通过参考点机制耦合，不是独立通道。成本/收益感知的双通道耦合通过参考点漂移系数和目标精度系数的相对增速决定维持vs探索。",
+    "strength": 3.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-28T22:20:00.000000+08:00",
+    "source": "walk-256",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-254-1",
+      "ins-254-2",
+      "ins-255-001"
+    ],
+    "refs": [],
+    "decay_speed": 0.5,
+    "note": "quality_score=7.8, initial strength=3.0"
   }
 ]

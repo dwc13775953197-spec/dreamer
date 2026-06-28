@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-28T09:12:37.635273+08:00",
-    "last_active": "2026-06-28T16:20:30+08:00",
+    "last_active": "2026-06-28T16:54:33.060676+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-28T16:35:30+08:00",
+    "next_scheduled": "2026-06-28T17:09:33.060676+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-28T15:45:44+08:00",
     "total_walks": 267,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-27T13:00:00+08:00",
     "last_push_topic": "白噪音作为外部方向盘",
-    "cognitive_pressure": 86.16,
+    "cognitive_pressure": 95.94375824333333,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -49,15 +49,6 @@
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
-      58.13,
-      67.9,
-      100,
-      72.73,
-      54.396666666666675,
-      100,
-      100.0,
-      55.0,
-      10.0,
       99.5,
       54.5,
       72.26195818666666,
@@ -66,7 +57,8 @@
       100.0,
       100.0,
       70.0,
-      86.16
+      86.16,
+      95.94375824333333
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -187,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 86.16,
+    "pressure": 95.94375824333333,
     "next_action": "",
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
@@ -490,10 +482,10 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-28T11:50:43.095745+08:00",
-  "pressure": 100.0,
-  "next_scheduled": "2026-06-28T14:16:02.567356+08:00",
-  "cognitive_pressure": 100.0,
-  "last_active": "2026-06-28T14:01:02.567356+08:00",
+  "pressure": 95.94375824333333,
+  "next_scheduled": "2026-06-28T17:09:33.060676+08:00",
+  "cognitive_pressure": 95.94375824333333,
+  "last_active": "2026-06-28T16:54:33.060676+08:00",
   "pressure_history": [
     80.23,
     94.78442027166668,

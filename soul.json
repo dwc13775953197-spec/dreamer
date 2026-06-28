@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-28T20:00:08.000000+08:00",
-    "last_active": "2026-06-29T01:07:47+08:00",
+    "last_active": "2026-06-29T02:49:00.550067+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T02:30:21.701993+08:00",
+    "next_scheduled": "2026-06-29T03:04:00.550067+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T01:07:47+08:00",
     "total_walks": 257,
-    "last_pulse_output": "2026-06-29T02:15:21.701993+08:00",
+    "last_pulse_output": "2026-06-29T02:49:00.550067+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 100,
+    "cognitive_pressure": 100.0,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -178,7 +178,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100,
+    "pressure": 100.0,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [

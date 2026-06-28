@@ -22,7 +22,7 @@
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
     "cognitive_pressure": 100.0,
-    "pressure_threshold": 75.0,
+    "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
       "time_factor": 2.0,
@@ -192,7 +192,8 @@
       7.5,
       7.8,
       8.3
-    ]
+    ],
+    "next_action": "walk_explore"
   },
   "affect": {
     "primary": "wonder",

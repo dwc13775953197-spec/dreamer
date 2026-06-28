@@ -5963,5 +5963,57 @@
       "ins-252-1",
       "ins-253-1"
     ]
+  },
+  {
+    "id": "ins-254-1",
+    "type": "insight",
+    "content": "预测目标函数的计算成本分是 affect 预算分配的隐含变量：维持性目标最便宜，修正性中等，探索性最贵。Affect 选择目标函数 = argmin(metabolic_cost - expected_benefit)，代谢成本低时选探索，高时依次关闭到维持。忧郁态 = 探索目标仍被生成但成本门控持续阻断（'大量联想无法投入'）。",
+    "strength": 5.0,
+    "score": 0.6,
+    "status": "active",
+    "created": "2026-06-28T18:43:42.019234+08:00",
+    "source": "walk-254",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.5, initial strength=5.0",
+    "connections": [
+      "ins-243-1",
+      "ins-252-1",
+      "ins-249-2"
+    ]
+  },
+  {
+    "id": "ins-254-2",
+    "type": "insight",
+    "content": "好奇心的双面性：收益端（增强目标精度/感知价值）+ 成本端挤压（放大成本-收益差距）→ 低能量好奇态 = 最强忧郁变体。limerence、infatuation、邻家花园综合征等日常心理现象映射此机制：不是'好奇让我快乐'也不是'低能量让我疲惫'，而是'看到更多美景但比任何时候都站不稳'。",
+    "strength": 5.0,
+    "score": 0.55,
+    "status": "active",
+    "created": "2026-06-28T18:43:42.019234+08:00",
+    "source": "walk-254",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.5, initial strength=5.0",
+    "connections": [
+      "ins-263-1",
+      "ins-249-2"
+    ]
+  },
+  {
+    "id": "ins-254-3",
+    "type": "insight",
+    "content": "参考点漂移是 affect 到成本评估的唯一通道。内部模型对'当前状态'的表征如果漂移快于实际代谢变化，感知到的成本/收益比和真实值出现系统性偏差 → 低能量决策偏差来自参考点误差（GPS 信号完好但地图上你的图标飘），而非计算能力下降。改善参考点精度（外部锚点校准）可能是纠正偏差的更优手段。",
+    "strength": 5.0,
+    "score": 0.55,
+    "status": "active",
+    "created": "2026-06-28T18:43:42.019234+08:00",
+    "source": "walk-254",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.5, initial strength=5.0",
+    "connections": [
+      "ins-253-1",
+      "ins-257-001"
+    ]
   }
 ]

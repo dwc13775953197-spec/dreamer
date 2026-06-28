@@ -7,21 +7,21 @@
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
-    "current_interval_min": 15.0,
+    "current_interval_min": 15,
     "modifiers": {
       "curiosity_factor": 0.7,
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T01:22:47+08:00",
+    "next_scheduled": "2026-06-29T02:30:21.701993+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T01:07:47+08:00",
     "total_walks": 257,
-    "last_pulse_output": "2026-06-28T18:43:42.019234+08:00",
+    "last_pulse_output": "2026-06-29T02:15:21.701993+08:00",
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 85.0,
+    "cognitive_pressure": 100,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -56,7 +56,8 @@
       78.9,
       100.0,
       100,
-      85.0
+      85.0,
+      100
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -177,7 +178,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 100.0,
+    "pressure": 100,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -435,7 +436,7 @@
   ],
   "pending_insights": 26,
   "pending_research": 3,
-  "last_pulse_output": "2026-06-28T11:50:43.095745+08:00",
+  "last_pulse_output": "2026-06-29T02:15:21.701993+08:00",
   "personality_traits": {
     "curiosity": 1.36,
     "introspection": 1.2,
@@ -479,12 +480,11 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-28T20:00:08.000000+08:00",
-  "pressure": 85.0,
-  "next_scheduled": "2026-06-29T00:29:06+08:00",
-  "cognitive_pressure": 100.0,
+  "pressure": 100,
+  "next_scheduled": "2026-06-29T02:30:21.701993+08:00",
+  "cognitive_pressure": 100,
   "last_active": "2026-06-28T20:51:11+08:00",
   "pressure_history": [
-    94.78442027166668,
     75.63,
     84.865,
     39.864999999999995,
@@ -493,7 +493,8 @@
     47.18780000000001,
     50.1301,
     100.0,
-    87.81455795722223
+    87.81455795722223,
+    100
   ],
   "next_action": "",
   "current_interval_min": 30.0

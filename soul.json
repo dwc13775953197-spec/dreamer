@@ -21,7 +21,7 @@
     "last_walk": "2026-06-28",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 78.9,
+    "cognitive_pressure": 87.81455795722223,
     "pressure_threshold": 75.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 78.9,
+    "pressure": 87.81455795722223,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -481,12 +481,11 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-28T20:00:08.000000+08:00",
-  "pressure": 100,
+  "pressure": 87.81455795722223,
   "next_scheduled": "2026-06-28T21:06:11+08:00",
-  "cognitive_pressure": 95.40166666666667,
+  "cognitive_pressure": 87.81455795722223,
   "last_active": "2026-06-28T20:51:11+08:00",
   "pressure_history": [
-    80.23,
     94.78442027166668,
     75.63,
     84.865,
@@ -495,7 +494,8 @@
     77.19,
     47.18780000000001,
     50.1301,
-    100.0
+    100.0,
+    87.81455795722223
   ],
   "next_action": "",
   "current_interval_min": 30.0

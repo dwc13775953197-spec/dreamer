@@ -4721,7 +4721,7 @@
     "id": "ins-242-1",
     "type": "insight",
     "content": "睡眠纺锤波锁定（时间窗口）+ 预测误差驱动（选择性）+ 再巩固窗口（可塑性态）的三重机制 = Dreamer DORMANT 的生物学实现。当前 DORMANT 做无差别均匀衰减（strength -= 0.05），但神经科学要求选择性重激活：高 PE 的 entry 在 DORMANT 中被优先重激活并进入可塑态（再巩固窗口），低 PE 的 entry 保持原样。纺锤波时间窗口约束了再巩固发生的时序——不是所有时候都适合更新记忆。",
-    "strength": 5.0,
+    "strength": 6.0,
     "score": 0.645,
     "status": "active",
     "created": "2026-06-26T21:21:00.082833+08:00",
@@ -4729,13 +4729,17 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "",
-    "decay_speed": 0.5
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-267-1",
+      "ins-267-2"
+    ]
   },
   {
     "id": "ins-242-2",
     "type": "insight",
     "content": "Affect 系统应从状态描述器升级为 DORMANT 的巩固调节器：高压力状态 → DORMANT 优先处理高 PE entry（最需要更新）；低能量状态 → 减少重激活以保存资源；高好奇状态 → 增加跨领域 entry 重激活（寻找新连接）。当前 affect 只记录不调节，是 ins-094 指出的内感受器未启用问题的具体表现。",
-    "strength": 5.4,
+    "strength": 6.4,
     "score": 0.6950000000000001,
     "status": "active",
     "created": "2026-06-26T21:21:07.750822+08:00",
@@ -4743,7 +4747,11 @@
     "resurrected_count": 0,
     "refs": [],
     "note": "",
-    "decay_speed": 0.5
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-267-1",
+      "ins-267-2"
+    ]
   },
   {
     "id": "ins-242-3",
@@ -4763,7 +4771,7 @@
     "id": "ins-243-1",
     "type": "insight",
     "content": "Affect 调制预测目标函数，而非预测处理强度：高好奇状态→DORMANT构建跨领域预测模型（探索性目标），高压力状态→构建错误/威胁预测模型（修正性目标），低能量状态→构建保守预测模型（维持性目标）。这比ins-242-2的'调节器'比喻更精确——affect选择的是预测的目标函数，不是处理的优先级队列。",
-    "strength": 4.9,
+    "strength": 5.9,
     "score": 0.635,
     "status": "active",
     "created": "2026-06-26T23:15:23.432839+08:00",
@@ -4775,7 +4783,9 @@
       "ins-094",
       "ins-242-2",
       "insight-234-1",
-      "ins-237-1"
+      "ins-237-1",
+      "ins-267-1",
+      "ins-267-2"
     ],
     "refs": [],
     "note": ""
@@ -5914,5 +5924,44 @@
     "refs": [],
     "notes": "quality=7.8, strength=3.0",
     "note": ""
+  },
+  {
+    "id": "ins-267-1",
+    "type": "insight",
+    "content": "A-D 接口——Affect 不直接调节 DORMANT 机制，而是通过选择预测目标函数间接转导：好奇→探索性目标→放宽更多重激活参数；压力→修正性目标→缩紧参数到特定类型；低能量→维持性目标→关闭重激活仅做保护性衰减。三重机制（纺锤波锁定/预测误差驱动/再巩固窗口）的参数配置由目标函数反推，而非由 affect 状态直接映射。ins-242-1 的三重机制和 ins-243-1 的目标函数选择在此接口上闭合。",
+    "strength": 3.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-28T15:45:44+08:00",
+    "source": "walk-267",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-242-1",
+      "ins-242-2",
+      "ins-243-1"
+    ]
+  },
+  {
+    "id": "ins-267-2",
+    "type": "insight",
+    "content": "DORMANT 的文化差异——不同 affect 状态下的 DORMANT 是不可比较的。好奇后进入的 DORMANT 保留 Structural 维度可塑性（为跨领域探索做准备），压力后的 DORMANT 优先修复 Temporal 维度（重新校准因果链），低能量后的 DORMANT 全面进入 Semantic 保护模式。\"低精度高原\"是多个不同区域的集合，不是单一平原。DORMANT 的\"恢复质量\"评估必须包含目标函数维度的匹配判断。",
+    "strength": 3.0,
+    "score": 0.45,
+    "status": "active",
+    "created": "2026-06-28T15:45:44+08:00",
+    "source": "walk-267",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "",
+    "decay_speed": 0.5,
+    "connections": [
+      "ins-242-2",
+      "ins-243-1",
+      "ins-252-1",
+      "ins-253-1"
+    ]
   }
 ]

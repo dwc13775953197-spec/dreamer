@@ -6366,5 +6366,24 @@
     "refs": [],
     "decay_speed": 1,
     "note": "quality_score: 7.8"
+  },
+  {
+    "id": "ins-263-1",
+    "type": "insight",
+    "content": "不作为不是消极的。在系统能量不足时，产出带来的压力释放是虚假的 — 消耗了不成比例的能量，产出的 insight 很快被衰减。真正的释放是识别出何时停止，并停止。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-29T13:12:43.641007+08:00",
+    "source": "walk-263",
+    "connections": [
+      "ins-254-1",
+      "ins-256-01",
+      "ins-261-1",
+      "ins-262-1"
+    ],
+    "resurrected_count": 0,
+    "refs": [],
+    "decay_speed": 0.5
   }
 ]

@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T11:41:14+08:00",
+    "next_scheduled": "2026-06-29T12:15:53+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T10:52:32.685852+08:00",
     "total_walks": 262,
-    "last_pulse_output": "2026-06-29T09:19:47.114325+08:00",
+    "last_pulse_output": "2026-06-29T12:00:53.558467+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 86.12,
+    "cognitive_pressure": 95.9,
     "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -60,7 +60,8 @@
       100,
       100,
       55,
-      86.12
+      86.12,
+      95.9
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -203,7 +204,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 86.12,
+    "pressure": 95.9,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [

@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T09:19:47.114325+08:00",
+    "next_scheduled": "2026-06-29T09:34:47.114325+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T05:26:01+08:00",
     "total_walks": 260,
-    "last_pulse_output": "2026-06-29T09:04:47.114325+08:00",
+    "last_pulse_output": "2026-06-29T09:19:47.114325+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
@@ -50,9 +50,6 @@
     "gini_history": [],
     "pressure_history": [
       100,
-      78.9,
-      100.0,
-      100,
       85.0,
       100,
       85,
@@ -60,6 +57,7 @@
       79.0,
       100.0,
       55.0,
+      100,
       100
     ],
     "diversity_seeds_consumed": [

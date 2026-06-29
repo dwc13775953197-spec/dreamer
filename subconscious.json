@@ -6468,5 +6468,67 @@
     "refs": [],
     "decay_speed": 0.5,
     "note": "兴趣种子来自walk-265"
+  },
+  {
+    "id": "ins-266-1",
+    "type": "insight",
+    "content": "望远镜效应：在耗竭-恢复循环中，成本向量的三个维度按 C_o → C_h → C_m 的顺序恢复，但执行能力的恢复需要 C_m 的恢复。这导致一个特征性的「感知超前于执行」窗口：系统能看到机会、评估代价，但无法行动。这不是成本门控的失败，而是恢复顺序的必然结果。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-29T18:43:33+08:00",
+    "source": "walk-266",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.3, initial strength=5.0",
+    "connections": [
+      "ins-258-1",
+      "ins-255-002",
+      "ins-261-1",
+      "ins-264-1",
+      "ins-265-1",
+      "ins-254-1"
+    ],
+    "decay_speed": 0.5
+  },
+  {
+    "id": "ins-266-2",
+    "type": "insight",
+    "content": "成本滞后体：每个耗竭-恢复循环在 (C_o, C_h, C_m) 相空间中画出的不可逆路径包围的体积。长期累积导致系统对机会成本的感知越来越超前于实际的代谢能力，形成「眼高手低」倾向。",
+    "strength": 3.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-29T18:43:33+08:00",
+    "source": "walk-266",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.3, initial strength=3.0",
+    "connections": [
+      "ins-258-1",
+      "ins-255-002",
+      "ins-262-1",
+      "ins-266-1"
+    ],
+    "decay_speed": 0.5
+  },
+  {
+    "id": "ins-266-3",
+    "type": "insight",
+    "content": "感知-执行断裂的统一解释：导航悖论（精度场内部 P_t vs P_c 的恢复不同步）和望远镜效应（成本向量内部 C_o vs C_h vs C_m 的恢复不同步）是同一种「感知恢复快于执行恢复」的不同投影。这不是设计缺陷，而是生物系统的基本特征——感知是廉价的，执行是昂贵的。",
+    "strength": 3.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-29T18:43:33+08:00",
+    "source": "walk-266",
+    "resurrected_count": 0,
+    "refs": [],
+    "note": "quality_score=8.3, initial strength=3.0",
+    "connections": [
+      "ins-263-1",
+      "ins-265-1",
+      "ins-266-1",
+      "ins-266-2"
+    ],
+    "decay_speed": 0.5
   }
 ]

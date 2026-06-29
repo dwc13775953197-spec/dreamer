@@ -13,10 +13,10 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T09:34:47.114325+08:00",
+    "next_scheduled": "2026-06-29T10:45:37.757760+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-29T05:26:01+08:00",
-    "total_walks": 260,
+    "last_walk_at": "2026-06-29T10:15:37.757735+08:00",
+    "total_walks": 261,
     "last_pulse_output": "2026-06-29T09:19:47.114325+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      7.8,
       0.0,
       7.9,
       8.5,
@@ -43,7 +42,8 @@
       8.4,
       8.1,
       7.8,
-      8.3
+      8.3,
+      7.5
     ],
     "last_walk_insights": 3,
     "decay_adjustment": 1.2,
@@ -58,22 +58,23 @@
       100.0,
       55.0,
       100,
-      100
+      100,
+      55
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 7.289999999999999,
-    "pending_insights": 250,
+    "walk_quality_avg": 7.26,
+    "pending_insights": 253,
     "interest_queue": [
       {
         "id": "seed-254-1",
         "topic": "成本门控的预测目标函数：affect 选择目标函数的机制是成本/收益优化，而非简单的优先级排序",
         "source": "walk-254",
         "trigger": "三种目标函数的成本排序：维持 < 修正 < 探索",
-        "intensity": 6.535875,
+        "intensity": 6.3224,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -84,21 +85,10 @@
         "topic": "恢复滞后的非对称阈值",
         "source": "walk-257",
         "trigger": "成本门控预测了非对称切换阈值",
-        "intensity": 6.265125,
+        "intensity": 6.1439,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T01:07:47+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-254-2",
-        "topic": "参考点漂移是 affect 到成本评估的唯一通道——没有参考点就没有'值不值得'",
-        "source": "walk-254",
-        "trigger": "参考点漂移快于实际的代谢变化时",
-        "intensity": 6.084625,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-28T18:43:42.019234+08:00",
         "decay_rate": 0.05
       },
       {
@@ -106,10 +96,21 @@
         "topic": "多目标优化中的帕累托最优与情绪调节的类比：目标函数选择何时出现维度冲突？",
         "source": "walk-258",
         "trigger": "成本向量结构意味着选择不是简单排序而是帕累托前沿导航",
-        "intensity": 5.994375,
+        "intensity": 5.9111,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T03:43:32.471828+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-254-2",
+        "topic": "参考点漂移是 affect 到成本评估的唯一通道——没有参考点就没有'值不值得'",
+        "source": "walk-254",
+        "trigger": "参考点漂移快于实际的代谢变化时",
+        "intensity": 5.8859,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-28T18:43:42.019234+08:00",
         "decay_rate": 0.05
       },
       {
@@ -117,7 +118,7 @@
         "topic": "参考点漂移作为多个通道的统一调度变量——不仅仅是成本通道的问题",
         "source": "walk-256",
         "trigger": "好奇心增强目标精度 + 低能量参考点漂移 = 同一个精度场机制的两个表现",
-        "intensity": 5.6785000000000005,
+        "intensity": 5.5355,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T22:20:00.000000+08:00",
@@ -128,10 +129,21 @@
         "topic": "好奇心的双面性：收益端增强目标精度，成本端挤压放大忧郁体验",
         "source": "walk-254",
         "trigger": "我看到了更多美景但我比任何时候都站不稳",
-        "intensity": 5.633375000000001,
+        "intensity": 5.4493,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-260-1",
+        "topic": "集体成本门控的双能量池模型：政治代谢 vs 财政代谢的非对称积累与消耗",
+        "source": "walk-260",
+        "trigger": "政治能量高 + 财政能量低 -> 超调干预",
+        "intensity": 5.4275,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-29T08:20:06.565391+08:00",
         "decay_rate": 0.05
       },
       {
@@ -139,7 +151,7 @@
         "topic": "A-D 接口的可计算化：从 affect 状态向量到机制参数向量的映射函数",
         "source": "walk-267",
         "trigger": "好奇→探索性目标→放宽参数；压力→修正性目标→缩紧参数",
-        "intensity": 5.5882499999999995,
+        "intensity": 5.3715,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T15:45:44+08:00",
@@ -150,7 +162,7 @@
         "topic": "叙事精度的 TSS 三维可计算化——时间轴定位、语义映射锐度、结构拓扑精度的独立量化指标",
         "source": "walk-266",
         "trigger": "temporal precision 作为独立维度先崩溃",
-        "intensity": 5.543125,
+        "intensity": 5.2837,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
@@ -161,21 +173,10 @@
         "topic": "维度级联崩溃的临床诊断——从 walk log 文本中自动检测 temporal-first 崩溃模式",
         "source": "walk-266",
         "trigger": "如果 temporal 先于 semantic 崩溃，walk logs 中应出现...",
-        "intensity": 5.543125,
+        "intensity": 5.2837,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-260-1",
-        "topic": "集体成本门控的双能量池模型：政治代谢 vs 财政代谢的非对称积累与消耗",
-        "source": "walk-260",
-        "trigger": "政治能量高 + 财政能量低 -> 超调干预",
-        "intensity": 5.45,
-        "type": "explore",
-        "status": "pending",
-        "created": "2026-06-29T08:20:06.565391+08:00",
         "decay_rate": 0.05
       },
       {
@@ -183,7 +184,7 @@
         "topic": "成本维度独立性的实验验证：代谢成本与稳态成本共享 GABA 能底物的可证伪预测",
         "source": "walk-259",
         "trigger": "成本函数定量模型隐含三个维度独立的假设，但该假设可能因共享神经底物而不成立",
-        "intensity": 5.1275,
+        "intensity": 5.0748,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T05:26:01+08:00",
@@ -194,14 +195,47 @@
         "topic": "政策干预的 P_t x P_c 匹配条件：从精度场框架推导干预有效的必要条件",
         "source": "walk-260",
         "trigger": "P_t 高 P_c 低 = 超调；P_c 高 P_t 低 = 错位",
-        "intensity": 4.95,
+        "intensity": 4.9296,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T08:20:06.565391+08:00",
         "decay_rate": 0.05
+      },
+      {
+        "id": "seed-261-1",
+        "topic": "探索的奢侈品悖论：探索缩减不确定性但在成本门控中最昂贵，短期削减是理性负债",
+        "source": "walk-0261",
+        "trigger": "探索是保险，不是成本中心",
+        "intensity": 5.0,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-29T10:16:08.248383+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-261-2",
+        "topic": "成本排序非对称性：刚性排序在低能量时过早切掉实际已降价的微探索",
+        "source": "walk-0261",
+        "trigger": "恒定排序无法适应动态成本曲线",
+        "intensity": 4.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-29T10:16:08.248383+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-261-3",
+        "topic": "好奇心套利假说：好奇心的功能是降低探索感知成本而非增强推力",
+        "source": "walk-0261",
+        "trigger": "好奇→目标精度→感知成本降低→门控放行",
+        "intensity": 4.0,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-29T10:16:08.248383+08:00",
+        "decay_rate": 0.05
       }
     ],
-    "pressure": 100,
+    "pressure": 55,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -221,7 +255,7 @@
   "affect": {
     "primary": "wonder",
     "secondary": "melancholy",
-    "intensity": 0.8,
+    "intensity": 0.75,
     "valence": 0.55,
     "arousal": 0.45,
     "rigor": 1.0

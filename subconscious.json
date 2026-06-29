@@ -6267,5 +6267,56 @@
     ],
     "decay_speed": 0.5,
     "note": "quality_score=8.3, initial strength=3.0"
+  },
+  {
+    "id": "ins-261-1",
+    "type": "pattern",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "探索的奢侈品悖论：探索是三种目标函数中唯一缩减不确定性的，但在成本门控中也是最昂贵的 → 短期削减是理性的，长期是负债。",
+    "status": "active",
+    "created": "2026-06-29T10:14:48+08:00",
+    "source": "walk-0261",
+    "decay_rate": 0.75,
+    "connections": [
+      "seed-254-1",
+      "seed-254-3"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5
+  },
+  {
+    "id": "ins-261-2",
+    "type": "pattern",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "成本排序非对称性：恒定成本排序无法适应能量变化时的实际成本曲线 → 低能量时的'微探索'可能比高能量时的大修更划算，但刚性排序切掉了前者。",
+    "status": "active",
+    "created": "2026-06-29T10:14:48+08:00",
+    "source": "walk-0261",
+    "decay_rate": 0.75,
+    "connections": [
+      "seed-254-1",
+      "seed-254-2"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5
+  },
+  {
+    "id": "ins-261-3",
+    "type": "pattern",
+    "strength": 3.0,
+    "score": 0.35,
+    "content": "好奇心 = 成本门控约束下的套利：好奇心不是增强探索的推力，而是通过提高信息效率来降低探索的感知成本，让本不该探索的状态仍可运行探索。",
+    "status": "active",
+    "created": "2026-06-29T10:14:48+08:00",
+    "source": "walk-0261",
+    "decay_rate": 0.7,
+    "connections": [
+      "seed-254-3",
+      "seed-254-1"
+    ],
+    "resurrected_count": 0,
+    "decay_speed": 0.5
   }
 ]

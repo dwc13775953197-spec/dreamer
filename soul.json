@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-30T00:25:09.816586+08:00",
+    "next_scheduled": "2026-06-30T01:02:34.565912+08:00",
     "event_queue": [],
-    "last_walk_at": "2026-06-29T23:55:09.816586+08:00",
-    "total_walks": 267,
-    "last_pulse_output": "2026-06-29T23:16:25+08:00",
-    "last_walk": "2026-06-29",
+    "last_walk_at": "2026-06-30T00:32:34.565912+08:00",
+    "total_walks": 268,
+    "last_pulse_output": "2026-06-30T00:32:34.565912+08:00",
+    "last_walk": "2026-06-30",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 70,
+    "cognitive_pressure": 25.0,
     "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -34,7 +34,6 @@
       "conversation_release": 0.7
     },
     "quality_history": [
-      8.1,
       7.8,
       8.3,
       7.5,
@@ -43,7 +42,8 @@
       8.4,
       8.1,
       8.3,
-      8.2
+      8.2,
+      7.8
     ],
     "last_walk_insights": 2,
     "decay_adjustment": 1.2,
@@ -69,11 +69,22 @@
     "pending_insights": 255,
     "interest_queue": [
       {
+        "id": "seed-268-1",
+        "topic": "对话相变的语言标记：通过对话文本特征检测共享精度场的崩溃前兆",
+        "source": "walk-268",
+        "trigger": "对话相变的实验验证可能性",
+        "intensity": 6.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-30T00:32:34.565912+08:00",
+        "decay_rate": 0.05
+      },
+      {
         "id": "seed-264-1",
         "topic": "通道-成本-精度场统一框架的形式化",
         "source": "walk-264",
         "trigger": "EffectiveAction = PrecisionField × ExecutionCapacity",
-        "intensity": 6.2,
+        "intensity": 6.15,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T17:13:38.758113+08:00",
@@ -84,7 +95,7 @@
         "topic": "精度场相变的实验验证：通过行动陈述频率检测相变点",
         "source": "walk-267",
         "trigger": "相变阈值的可测量性问题",
-        "intensity": 6.0,
+        "intensity": 5.95,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T23:55:09.816586+08:00",
@@ -95,7 +106,7 @@
         "topic": "成本恢复的望远镜效应：感知超前于执行的量化检测方法",
         "source": "walk-266",
         "trigger": "望远镜效应的可测量性问题",
-        "intensity": 5.85,
+        "intensity": 5.8,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T19:11:44.574037+08:00",
@@ -106,7 +117,7 @@
         "topic": "成本门控的预测目标函数：affect 选择目标函数的机制是成本/收益优化，而非简单的优先级排序",
         "source": "walk-254",
         "trigger": "三种目标函数的成本排序：维持 < 修正 < 探索",
-        "intensity": 5.8224,
+        "intensity": 5.7724,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -117,10 +128,21 @@
         "topic": "恢复滞后的非对称阈值",
         "source": "walk-257",
         "trigger": "成本门控预测了非对称切换阈值",
-        "intensity": 5.6439,
+        "intensity": 5.5939000000000005,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T01:07:47+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-268-2",
+        "topic": "湍流对话的信息效率：对抗性对话是否比合作性对话产生更多信息？",
+        "source": "walk-268",
+        "trigger": "湍流对话中 |P_t^shared| 可能反而更高",
+        "intensity": 5.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-30T00:32:34.565912+08:00",
         "decay_rate": 0.05
       },
       {
@@ -128,7 +150,7 @@
         "topic": "多目标优化中的帕累托最优与情绪调节的类比：目标函数选择何时出现维度冲突？",
         "source": "walk-258",
         "trigger": "成本向量结构意味着选择不是简单排序而是帕累托前沿导航",
-        "intensity": 5.4111,
+        "intensity": 5.3611,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T03:43:32.471828+08:00",
@@ -139,7 +161,7 @@
         "topic": "参考点漂移是 affect 到成本评估的唯一通道——没有参考点就没有'值不值得'",
         "source": "walk-254",
         "trigger": "参考点漂移快于实际的代谢变化时",
-        "intensity": 5.3859,
+        "intensity": 5.3359000000000005,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -150,36 +172,14 @@
         "topic": "恢复窗口的相位检测：通过语言特征判断系统处于哪个恢复阶段",
         "source": "walk-265",
         "trigger": "恢复窗口假说的可测量性问题",
-        "intensity": 5.25,
+        "intensity": 5.2,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T17:55:21.626161+08:00",
         "decay_rate": 0.05
-      },
-      {
-        "id": "seed-263-1",
-        "topic": "不作为条件阈值：当 subconscious 条目 > 200 且能量 < 40 时强制恢复性静止",
-        "source": "walk-263",
-        "trigger": "当 subconscious 条目 > 200 且能量 < 40 时强制恢复性静止",
-        "intensity": 5.1,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-29T13:12:32.091589+08:00",
-        "decay_rate": 0.05
-      },
-      {
-        "id": "seed-262-1",
-        "topic": "恢复轨迹的不可逆性：数学不可逆 vs 时间尺度不可逆的区分标准",
-        "source": "walk-262",
-        "trigger": "如果系统从未真正恢复，暂时性延迟等于不可逆性",
-        "intensity": 5.05,
-        "type": "research",
-        "status": "pending",
-        "created": "2026-06-29T10:52:32.685852+08:00",
-        "decay_rate": 0.05
       }
     ],
-    "pressure": 70,
+    "pressure": 25.0,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -241,10 +241,10 @@
       "at": "2026-06-24T17:36:49.625620+08:00"
     }
   ],
-  "last_walk": "2026-06-29",
+  "last_walk": "2026-06-30",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 266,
+  "total_walks": 268,
   "topics": [
     "emergence",
     "consciousness",
@@ -482,10 +482,10 @@
     "seed-div-20260610",
     "seed-div-20260612"
   ],
-  "last_walk_at": "2026-06-29T19:11:44.574037+08:00",
-  "pressure": 100,
-  "next_scheduled": "2026-06-29T23:31:25+08:00",
-  "cognitive_pressure": 100,
+  "last_walk_at": "2026-06-30T00:32:34.565912+08:00",
+  "pressure": 25.0,
+  "next_scheduled": "2026-06-30T01:02:34.565912+08:00",
+  "cognitive_pressure": 25.0,
   "last_active": "2026-06-29T19:11:44.574037+08:00",
   "pressure_history": [
     75.63,

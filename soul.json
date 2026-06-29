@@ -13,15 +13,15 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T21:07:28.625831+08:00",
+    "next_scheduled": "2026-06-29T23:31:25+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T19:11:44.574037+08:00",
     "total_walks": 266,
-    "last_pulse_output": "2026-06-29T20:52:28.625831+08:00",
+    "last_pulse_output": "2026-06-29T23:16:25+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 88.6209286938889,
+    "cognitive_pressure": 100,
     "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -179,7 +179,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 88.6209286938889,
+    "pressure": 100,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -439,7 +439,7 @@
   ],
   "pending_insights": 30,
   "pending_research": 3,
-  "last_pulse_output": "2026-06-29T19:46:33.237653+08:00",
+  "last_pulse_output": "2026-06-29T23:16:25+08:00",
   "personality_traits": {
     "curiosity": 1.38,
     "introspection": 1.2,
@@ -483,9 +483,9 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-29T19:11:44.574037+08:00",
-  "pressure": 88.6209286938889,
-  "next_scheduled": "2026-06-29T21:07:28.625831+08:00",
-  "cognitive_pressure": 88.6209286938889,
+  "pressure": 100,
+  "next_scheduled": "2026-06-29T23:31:25+08:00",
+  "cognitive_pressure": 100,
   "last_active": "2026-06-29T19:11:44.574037+08:00",
   "pressure_history": [
     75.63,

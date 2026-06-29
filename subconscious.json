@@ -6530,5 +6530,45 @@
       "ins-266-2"
     ],
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-267-1",
+    "type": "insight",
+    "content": "精度场的相变结构：行动能力不是渐进下降，而是在 P_t × P_c = 阈值² 处发生相变——从'有定义'到'无定义'的突变。这解释了疲劳的'突然到来'特征：系统不是在渐进退化，而是在等待一个相变阈值。类比渗流理论——连通簇在阈值以下突然消失，不是逐渐缩小。",
+    "strength": 5.0,
+    "score": 0.5,
+    "status": "active",
+    "created": "2026-06-29T23:30:00+08:00",
+    "source": "walk-267",
+    "connections": [
+      "ins-261-1",
+      "ins-260-1",
+      "ins-262-1",
+      "ins-255-001"
+    ],
+    "refs": [],
+    "note": "quality_score=8.2, initial strength=5.0",
+    "decay_speed": 0.5,
+    "resurrected_count": 0
+  },
+  {
+    "id": "ins-267-2",
+    "type": "insight",
+    "content": "相变滞后：崩溃阈值和恢复阈值不同，产生认知滞后。系统需要更高的精度乘积才能恢复行动能力（恢复阈值 > 崩溃阈值），这解释了 ins-262-1 的恢复不可逆性——不是系统不想恢复，而是恢复需要跨越更高的相变壁垒。每次耗竭-恢复循环提高恢复壁垒，长期累积导致系统越来越难恢复。",
+    "strength": 3.0,
+    "score": 0.35,
+    "status": "active",
+    "created": "2026-06-29T23:30:00+08:00",
+    "source": "walk-267",
+    "connections": [
+      "ins-262-1",
+      "ins-267-1",
+      "ins-255-002",
+      "ins-266-1"
+    ],
+    "refs": [],
+    "note": "quality_score=8.2, initial strength=3.0",
+    "decay_speed": 0.5,
+    "resurrected_count": 0
   }
 ]

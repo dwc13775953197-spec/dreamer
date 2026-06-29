@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-29T10:52:32.685852+08:00",
-    "last_active": "2026-06-30T01:07:05.704509+08:00",
+    "last_active": "2026-06-30T01:38:22+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,7 +13,7 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-30T01:37:05.704509+08:00",
+    "next_scheduled": "2026-06-30T02:08:22+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-30T00:32:34.565912+08:00",
     "total_walks": 268,
@@ -21,7 +21,7 @@
     "last_walk": "2026-06-30",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",
-    "cognitive_pressure": 43.3,
+    "cognitive_pressure": 52.99,
     "pressure_threshold": 70.0,
     "pressure_params": {
       "base_rate": 0.5,
@@ -59,7 +59,8 @@
       50.7,
       88.62,
       70,
-      43.3
+      43.3,
+      52.99
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
@@ -180,7 +181,7 @@
         "decay_rate": 0.05
       }
     ],
-    "pressure": 43.3,
+    "pressure": 52.99,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -484,10 +485,10 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-30T00:32:34.565912+08:00",
-  "pressure": 43.3,
-  "next_scheduled": "2026-06-30T01:37:05.704509+08:00",
+  "pressure": 52.99,
+  "next_scheduled": "2026-06-30T02:08:22+08:00",
   "cognitive_pressure": 43.3,
-  "last_active": "2026-06-30T01:07:05.704509+08:00",
+  "last_active": "2026-06-30T01:38:22+08:00",
   "pressure_history": [
     86.12,
     95.9,
@@ -499,7 +500,8 @@
     50.7,
     88.62,
     70,
-    43.3
+    43.3,
+    52.99
   ],
   "next_action": "",
   "current_interval_min": 15,

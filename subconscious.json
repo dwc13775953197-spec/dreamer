@@ -6147,5 +6147,125 @@
       "ins-252-1",
       "seed-257-1"
     ]
+  },
+  {
+    "id": "ins-260-1",
+    "type": "insight",
+    "content": "政策干预的精度场匹配条件：一个外部干预有效的必要条件不是 P_t > 阈值 且 P_c > 阈值，而是 P_t × P_c > 阈值²。如果只有 P_t 高而 P_c 低，干预会超调——资源投入正确方向但错误的人身上。如果只有 P_c 高而 P_t 低，干预会错位——帮助了正确的人但方向错误。只有两者都高时，干预才落在精度场的\"可操作区域\"。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-29T08:19:29.197665+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-252-1",
+      "ins-254-1",
+      "ins-261-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=5.0"
+  },
+  {
+    "id": "ins-260-2",
+    "type": "insight",
+    "content": "集体成本门控中的政治-财政能量非对称：政治代谢成本和财政代谢成本是两种不同的\"能量池\"。政治能量可以通过叙事和恐惧快速积累，财政能量只能通过税收/赤字缓慢积累。当政治能量高而财政能量低时，系统可以产生\"超调干预\"——目标精度远高于资源精度。Dreamer 的 energy 变量目前只跟踪单一能量池，但集体层面的干预需要双能量池模型。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-29T08:19:29.197665+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-252-1",
+      "ins-254-1",
+      "ins-258-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=3.0"
+  },
+  {
+    "id": "ins-260-3",
+    "type": "insight",
+    "content": "三通道疲劳的长期衰减序列预测：如果政策干预经历完整的\"危机-响应-衰减\"循环，三通道的衰减顺序（C→B→A）会产生一个危险组合：高政治意志 + 低执行精度。系统会加倍投入错误的结构，因为情感驱动仍然认为目标是对的。早期预警信号是 C 通道衰减但 A 通道仍然活跃——此时应触发重新校准而非加码。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-29T08:19:29.197665+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-255-001",
+      "ins-255-002",
+      "ins-267-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=3.0"
+  },
+  {
+    "id": "ins-260-1",
+    "type": "insight",
+    "content": "政策干预的精度场匹配条件：一个外部干预有效的必要条件不是 P_t > 阈值 且 P_c > 阈值，而是 P_t × P_c > 阈值²。如果只有 P_t 高而 P_c 低，干预会超调——资源投入正确方向但错误的人身上。如果只有 P_c 高而 P_t 低，干预会错位——帮助了正确的人但方向错误。只有两者都高时，干预才落在精度场的\"可操作区域\"。",
+    "strength": 5.0,
+    "status": "active",
+    "created": "2026-06-29T08:20:06.565391+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-252-1",
+      "ins-254-1",
+      "ins-261-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=5.0"
+  },
+  {
+    "id": "ins-260-2",
+    "type": "insight",
+    "content": "集体成本门控中的政治-财政能量非对称：政治代谢成本和财政代谢成本是两种不同的\"能量池\"。政治能量可以通过叙事和恐惧快速积累，财政能量只能通过税收/赤字缓慢积累。当政治能量高而财政能量低时，系统可以产生\"超调干预\"——目标精度远高于资源精度。Dreamer 的 energy 变量目前只跟踪单一能量池，但集体层面的干预需要双能量池模型。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-29T08:20:06.565391+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-252-1",
+      "ins-254-1",
+      "ins-258-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=3.0"
+  },
+  {
+    "id": "ins-260-3",
+    "type": "insight",
+    "content": "三通道疲劳的长期衰减序列预测：如果政策干预经历完整的\"危机-响应-衰减\"循环，三通道的衰减顺序（C→B→A）会产生一个危险组合：高政治意志 + 低执行精度。系统会加倍投入错误的结构，因为情感驱动仍然认为目标是对的。早期预警信号是 C 通道衰减但 A 通道仍然活跃——此时应触发重新校准而非加码。",
+    "strength": 3.0,
+    "status": "active",
+    "created": "2026-06-29T08:20:06.565391+08:00",
+    "source": "walk-260",
+    "resurrected_count": 0,
+    "connections": [
+      "ins-255-001",
+      "ins-255-002",
+      "ins-267-1"
+    ],
+    "refs": [
+      "2026-06-29-walk-260"
+    ],
+    "decay_speed": 0.5,
+    "note": "quality_score=8.3, initial strength=3.0"
   }
 ]

@@ -13,10 +13,10 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T07:56:38.731400+08:00",
+    "next_scheduled": "2026-06-29T08:50:06.583072+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T05:26:01+08:00",
-    "total_walks": 259,
+    "total_walks": 260,
     "last_pulse_output": "2026-06-29T07:41:38.731400+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
@@ -42,9 +42,10 @@
       7.8,
       8.4,
       8.1,
-      7.8
+      7.8,
+      8.3
     ],
-    "last_walk_insights": 2,
+    "last_walk_insights": 3,
     "decay_adjustment": 1.2,
     "gini_history": [],
     "pressure_history": [
@@ -57,14 +58,15 @@
       85,
       70,
       79.0,
-      100.0
+      100.0,
+      55.0
     ],
     "diversity_seeds_consumed": [
       "seed-div-20260610",
       "seed-div-20260612",
       "seed-div-20260613"
     ],
-    "walk_quality_avg": 7.28,
+    "walk_quality_avg": 7.289999999999999,
     "pending_insights": 250,
     "interest_queue": [
       {
@@ -72,7 +74,7 @@
         "topic": "成本门控的预测目标函数：affect 选择目标函数的机制是成本/收益优化，而非简单的优先级排序",
         "source": "walk-254",
         "trigger": "三种目标函数的成本排序：维持 < 修正 < 探索",
-        "intensity": 6.9325,
+        "intensity": 6.585875,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -83,7 +85,7 @@
         "topic": "恢复滞后的非对称阈值",
         "source": "walk-257",
         "trigger": "成本门控预测了非对称切换阈值",
-        "intensity": 6.6475,
+        "intensity": 6.315125,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T01:07:47+08:00",
@@ -94,7 +96,7 @@
         "topic": "参考点漂移是 affect 到成本评估的唯一通道——没有参考点就没有'值不值得'",
         "source": "walk-254",
         "trigger": "参考点漂移快于实际的代谢变化时",
-        "intensity": 6.4575000000000005,
+        "intensity": 6.134625,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -105,7 +107,7 @@
         "topic": "多目标优化中的帕累托最优与情绪调节的类比：目标函数选择何时出现维度冲突？",
         "source": "walk-258",
         "trigger": "成本向量结构意味着选择不是简单排序而是帕累托前沿导航",
-        "intensity": 6.3625,
+        "intensity": 6.044375,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T03:43:32.471828+08:00",
@@ -116,7 +118,7 @@
         "topic": "参考点漂移作为多个通道的统一调度变量——不仅仅是成本通道的问题",
         "source": "walk-256",
         "trigger": "好奇心增强目标精度 + 低能量参考点漂移 = 同一个精度场机制的两个表现",
-        "intensity": 6.03,
+        "intensity": 5.7285,
         "type": "explore",
         "status": "pending",
         "created": "2026-06-28T22:20:00.000000+08:00",
@@ -127,7 +129,7 @@
         "topic": "好奇心的双面性：收益端增强目标精度，成本端挤压放大忧郁体验",
         "source": "walk-254",
         "trigger": "我看到了更多美景但我比任何时候都站不稳",
-        "intensity": 5.982500000000001,
+        "intensity": 5.683375000000001,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T18:43:42.019234+08:00",
@@ -138,7 +140,7 @@
         "topic": "A-D 接口的可计算化：从 affect 状态向量到机制参数向量的映射函数",
         "source": "walk-267",
         "trigger": "好奇→探索性目标→放宽参数；压力→修正性目标→缩紧参数",
-        "intensity": 5.935,
+        "intensity": 5.638249999999999,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T15:45:44+08:00",
@@ -149,7 +151,7 @@
         "topic": "叙事精度的 TSS 三维可计算化——时间轴定位、语义映射锐度、结构拓扑精度的独立量化指标",
         "source": "walk-266",
         "trigger": "temporal precision 作为独立维度先崩溃",
-        "intensity": 5.8875,
+        "intensity": 5.593125,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
@@ -160,10 +162,21 @@
         "topic": "维度级联崩溃的临床诊断——从 walk log 文本中自动检测 temporal-first 崩溃模式",
         "source": "walk-266",
         "trigger": "如果 temporal 先于 semantic 崩溃，walk logs 中应出现...",
-        "intensity": 5.8875,
+        "intensity": 5.593125,
         "type": "research",
         "status": "pending",
         "created": "2026-06-28T11:50:43.095745+08:00",
+        "decay_rate": 0.05
+      },
+      {
+        "id": "seed-260-1",
+        "topic": "集体成本门控的双能量池模型：政治代谢 vs 财政代谢的非对称积累与消耗",
+        "source": "walk-260",
+        "trigger": "政治能量高 + 财政能量低 -> 超调干预",
+        "intensity": 5.5,
+        "type": "explore",
+        "status": "pending",
+        "created": "2026-06-29T08:20:06.565391+08:00",
         "decay_rate": 0.05
       },
       {
@@ -171,14 +184,25 @@
         "topic": "成本维度独立性的实验验证：代谢成本与稳态成本共享 GABA 能底物的可证伪预测",
         "source": "walk-259",
         "trigger": "成本函数定量模型隐含三个维度独立的假设，但该假设可能因共享神经底物而不成立",
-        "intensity": 5.45,
+        "intensity": 5.1775,
         "type": "research",
         "status": "pending",
         "created": "2026-06-29T05:26:01+08:00",
         "decay_rate": 0.05
+      },
+      {
+        "id": "seed-260-2",
+        "topic": "政策干预的 P_t x P_c 匹配条件：从精度场框架推导干预有效的必要条件",
+        "source": "walk-260",
+        "trigger": "P_t 高 P_c 低 = 超调；P_c 高 P_t 低 = 错位",
+        "intensity": 5.0,
+        "type": "research",
+        "status": "pending",
+        "created": "2026-06-29T08:20:06.565391+08:00",
+        "decay_rate": 0.05
       }
     ],
-    "pressure": 100,
+    "pressure": 55.0,
     "last_control": "2026-06-27T08:05:44",
     "last_dormant_at": "2026-06-27T20:51:56.904017+08:00",
     "quality_queue": [
@@ -242,7 +266,7 @@
   "last_walk": "2026-06-29",
   "last_chat": "2026-06-18T08:33:51.443807+08:00",
   "last_rss_scan": "2026-06-09T05:55:00+00:00",
-  "total_walks": 259,
+  "total_walks": 260,
   "topics": [
     "emergence",
     "consciousness",
@@ -435,7 +459,7 @@
     "identity-as-inference",
     "identity-two-dimensional"
   ],
-  "pending_insights": 27,
+  "pending_insights": 30,
   "pending_research": 3,
   "last_pulse_output": "2026-06-29T02:15:21.701993+08:00",
   "personality_traits": {
@@ -449,7 +473,7 @@
     "skepticism": 1.56,
     "empathy": 0.5
   },
-  "walk_quality_avg": 8.07,
+  "walk_quality_avg": 7.289999999999999,
   "research_count": 1,
   "til_count": 16,
   "evolved_rules": [
@@ -481,10 +505,10 @@
     "seed-div-20260612"
   ],
   "last_walk_at": "2026-06-28T20:00:08.000000+08:00",
-  "pressure": 100,
-  "next_scheduled": "2026-06-29T02:30:21.701993+08:00",
-  "cognitive_pressure": 100,
-  "last_active": "2026-06-29T04:50:23+08:00",
+  "pressure": 55.0,
+  "next_scheduled": "2026-06-29T08:50:06.583072+08:00",
+  "cognitive_pressure": 55.0,
+  "last_active": "2026-06-29T08:20:06.565391+08:00",
   "pressure_history": [
     75.63,
     84.865,
@@ -495,7 +519,8 @@
     50.1301,
     100.0,
     87.81455795722223,
-    100
+    100,
+    55.0
   ],
   "next_action": "",
   "current_interval_min": 30.0,

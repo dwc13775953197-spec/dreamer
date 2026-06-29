@@ -3,7 +3,7 @@
   "pulse": {
     "state": "ACTIVE",
     "state_since": "2026-06-29T10:52:32.685852+08:00",
-    "last_active": "2026-06-29T13:47:28+00:00",
+    "last_active": "2026-06-29T14:22:02.479847+08:00",
     "last_resting": "2026-06-14T02:36:28+08:00",
     "last_dormant": "2026-06-27T06:58:58.133743+08:00",
     "base_interval_min": 600,
@@ -13,11 +13,11 @@
       "melancholy_factor": 1.0,
       "energy_factor": 1.0
     },
-    "next_scheduled": "2026-06-29T14:02:28+00:00",
+    "next_scheduled": "2026-06-29T14:37:02.479847+08:00",
     "event_queue": [],
     "last_walk_at": "2026-06-29T13:12:32.091589+08:00",
     "total_walks": 263,
-    "last_pulse_output": "2026-06-29T13:47:28+00:00",
+    "last_pulse_output": "2026-06-29T14:22:02.479847+08:00",
     "last_walk": "2026-06-29",
     "last_push_at": "2026-06-28T19:37:00.000000+08:00",
     "last_push_topic": "三通道疲劳模型",

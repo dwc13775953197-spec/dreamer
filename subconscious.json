@@ -5504,7 +5504,8 @@
     "connections": [
       "ins-252-1",
       "ins-253-1",
-      "ins-249-1"
+      "ins-249-1",
+      "ins-262-1"
     ],
     "tags": [
       "switching-cost",
@@ -5590,7 +5591,8 @@
     "connections": [
       "ins-252-1",
       "ins-253-1",
-      "ins-257-001"
+      "ins-257-001",
+      "ins-262-1"
     ],
     "refs": [],
     "decay_speed": 0.5,
@@ -5979,7 +5981,8 @@
     "connections": [
       "ins-243-1",
       "ins-252-1",
-      "ins-249-2"
+      "ins-249-2",
+      "ins-262-1"
     ],
     "decay_speed": 0.5
   },
@@ -6035,7 +6038,8 @@
       "ins-253-1",
       "ins-254-1",
       "ins-263-1",
-      "ins-267-1"
+      "ins-267-1",
+      "ins-262-1"
     ],
     "refs": [],
     "decay_speed": 0.5,
@@ -6054,7 +6058,8 @@
     "connections": [
       "ins-267-1",
       "ins-257-001",
-      "ins-255-001"
+      "ins-255-001",
+      "ins-262-1"
     ],
     "refs": [],
     "decay_speed": 0.5,
@@ -6160,7 +6165,8 @@
     "connections": [
       "ins-252-1",
       "ins-254-1",
-      "ins-261-1"
+      "ins-261-1",
+      "ins-262-1"
     ],
     "refs": [
       "2026-06-29-walk-260"
@@ -6220,7 +6226,8 @@
     "connections": [
       "ins-252-1",
       "ins-254-1",
-      "ins-261-1"
+      "ins-261-1",
+      "ins-262-1"
     ],
     "refs": [
       "2026-06-29-walk-260"
@@ -6280,7 +6287,8 @@
     "decay_rate": 0.75,
     "connections": [
       "seed-254-1",
-      "seed-254-3"
+      "seed-254-3",
+      "ins-262-1"
     ],
     "resurrected_count": 0,
     "decay_speed": 0.5
@@ -6318,5 +6326,45 @@
     ],
     "resurrected_count": 0,
     "decay_speed": 0.5
+  },
+  {
+    "id": "ins-262-1",
+    "type": "insight",
+    "content": "恢复轨迹的不可逆性：系统不原路返回，因为耗竭期间结构已经改变。非对称切换阈值是滞后现象的必然结果——从修正回维持的阈值更低，因为修正留下了记忆痕迹。每次 DORMANT 后系统不是\"恢复\"而是\"重组\"——创伤后成长而非回到原状。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-29T10:53:00.653359+08:00",
+    "source": "walk-262",
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-255-002",
+      "ins-254-1",
+      "ins-255-001",
+      "ins-260-1",
+      "ins-261-1"
+    ],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "quality_score: 7.8"
+  },
+  {
+    "id": "ins-262-2",
+    "type": "insight",
+    "content": "维持是移动靶：动态系统中\"维持\"不是稳态，而是无数微小修正的集合。维持目标在漂移，维持行为本身在对抗漂移。这不是维持的缺陷，是动态系统的定义——骑自行车保持直线不是不动，是不断微调。",
+    "strength": 3.0,
+    "score": 0.0,
+    "status": "active",
+    "created": "2026-06-29T10:53:00.653359+08:00",
+    "source": "walk-262",
+    "decay_rate": 0.05,
+    "connections": [
+      "ins-254-1",
+      "ins-260-1",
+      "ins-261-1"
+    ],
+    "refs": [],
+    "decay_speed": 1,
+    "note": "quality_score: 7.8"
   }
 ]
